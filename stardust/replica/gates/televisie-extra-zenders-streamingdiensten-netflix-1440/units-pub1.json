@@ -1,0 +1,49 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-25T17:55:11.932Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-25T14:24:04.746Z",
+  "docH": 6146
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-25T17:55:11.352Z",
+  "docH": 6200
+ },
+ "results": [
+  {
+   "sel": "#tiers .vfz-grouping.bg-white=.sd-tiers .sd-tier",
+   "family": "streaming-tier-cards",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (3 / 0 DOM matches)"
+  },
+  {
+   "sel": "#tv-apps .vfz-grouping.bg-white=.sd-apps .sd-app",
+   "family": "streaming-app-cards",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (3 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 2,
+  "requiredOff": 0
+ }
+}

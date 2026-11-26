@@ -1,0 +1,162 @@
+{
+  "a": "stardust/replica/gates/televisie-terugkijken-1440/live.png",
+  "b": "stardust/replica/gates/televisie-terugkijken-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 3512,
+    "mode": "overlap"
+  },
+  "heightDelta": -180,
+  "differingPixels": 756454,
+  "pct": 14.96,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-terugkijken-1440/diff-pub3.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 21.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 37.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 23.7
+    },
+    {
+      "y0": 3500,
+      "y1": 3512,
+      "pct": 0.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.69,
+    "differingPixels": 409085,
+    "compared": {
+      "width": 1440,
+      "height": 3692,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1130,
+        "shift": 59,
+        "cumulative": 59
+      },
+      {
+        "y": 1818,
+        "shift": 33,
+        "cumulative": 92
+      },
+      {
+        "y": 2324,
+        "shift": 82,
+        "cumulative": 174
+      },
+      {
+        "y": 2928,
+        "shift": 5,
+        "cumulative": 179
+      },
+      {
+        "y": 3407,
+        "shift": 1,
+        "cumulative": 180
+      }
+    ],
+    "maxOffset": 180,
+    "totalShift": 180,
+    "insertedRows": 180,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.6,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 13.9,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 11.9,
+        "unaligned": 13.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 18,
+        "unaligned": 21.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.4,
+        "unaligned": 37.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 23.7
+      },
+      {
+        "y0": 3500,
+        "y1": 3512,
+        "pct": 0,
+        "unaligned": 0.9
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-terugkijken-1440/diff-pub3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 35,
+    "totalShift": 180,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 180px total — +59px at y=1130, +33px at y=1818, +82px at y=2324, +5px at y=2928, +1px at y=3407 (bound 35px)"
+}

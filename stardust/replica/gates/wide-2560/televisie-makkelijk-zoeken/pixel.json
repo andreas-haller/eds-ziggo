@@ -1,0 +1,247 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-makkelijk-zoeken/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-makkelijk-zoeken/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4946,
+    "mode": "overlap"
+  },
+  "heightDelta": 75,
+  "differingPixels": 870332,
+  "pct": 6.87,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/televisie-makkelijk-zoeken/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 9.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 9.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 17.6
+    },
+    {
+      "y0": 4500,
+      "y1": 4946,
+      "pct": 2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.74,
+    "differingPixels": 612881,
+    "compared": {
+      "width": 2560,
+      "height": 5053,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 957,
+        "shift": -22,
+        "cumulative": -22
+      },
+      {
+        "y": 2427,
+        "shift": 31,
+        "cumulative": 9
+      },
+      {
+        "y": 3297,
+        "shift": -16,
+        "cumulative": -7
+      },
+      {
+        "y": 4089,
+        "shift": -37,
+        "cumulative": -44
+      },
+      {
+        "y": 4376,
+        "shift": -32,
+        "cumulative": -76
+      },
+      {
+        "y": 4916,
+        "shift": 1,
+        "cumulative": -75
+      }
+    ],
+    "maxOffset": 76,
+    "totalShift": 139,
+    "insertedRows": 32,
+    "deletedRows": 107,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.4,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.8,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.5,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.6,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.3,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.1,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 7.9,
+        "unaligned": 9.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 15.1,
+        "unaligned": 17.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.2,
+        "unaligned": null
+      },
+      {
+        "y0": 5000,
+        "y1": 5021,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-makkelijk-zoeken/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 50,
+    "totalShift": 139,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 139px total — −22px at y=957, +31px at y=2427, −16px at y=3297, −37px at y=4089, −32px at y=4376, +1px at y=4916 (bound 50px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken",
+      "source": "https://www.ziggo.nl/televisie/makkelijk-zoeken",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "851237b2afbdf0b8",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "81999ecfc21c3327",
+      "instruments": "700566dc6f7774a4",
+      "page content": "ef69f6335d15354d",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block cards": "4ada5cf24baa6d90",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 4,
+          "textNodes": 117,
+          "controls": 84,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T04:44:45.200Z"
+  }
+}

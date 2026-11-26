@@ -1,0 +1,71 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/pixel-pub2.json",
+    "pct": 4.44,
+    "alignedPct": 2.99,
+    "alignedUsed": true,
+    "totalShift": 32,
+    "steps": [
+      {
+        "y": 1221,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 1978,
+        "shift": -24,
+        "cumulative": -31
+      },
+      {
+        "y": 2502,
+        "shift": 1,
+        "cumulative": -30
+      }
+    ],
+    "offsetBound": 26,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 3 step(s), 32px total — −7px at y=1221, −24px at y=1978, +1px at y=2502 (bound 26px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:48:04.434Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:15:11.903Z"
+}

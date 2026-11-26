@@ -1,0 +1,307 @@
+{
+  "archetype": "https://www.ziggo.nl/alles-in-1",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".hero-container",
+    "faq": ".faq"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "vfz-interactions-wrapper",
+        "h": 0
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".hero-container",
+        "count": 5,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 540
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "vodafone ziggo text 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 455,
+            "h": 330
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 5,
+        "text": ""
+      },
+      "faq": {
+        "sel": ".faq",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 552,
+            "h": 400
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(28, 31, 33)",
+          "padding": "0px 0px 0px 0px",
+          "font": "vodafone ziggo text 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h3 ziggo headline 14px/15.4px 600 rgb(28, 31, 33)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Ik ben al Ziggo klant, hoe pas ik mijn abonnement aan? Als Z"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ziggo.nl/tv-internet",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "heading h3 ziggo headline 14px/15.4px 600 rgb(28, 31, 33) → null"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 540
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 455,
+                "h": 330
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 5,
+            "text": ""
+          },
+          "faq": {
+            "sel": ".faq",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 552,
+                "h": 400
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Ik ben al Ziggo klant, hoe pas ik mijn abonnement aan? Als Z"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/tv-start",
+      "findings": [
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "5 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "5 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 540 → 360}; heading null → h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255); image{w 455 → 0, h 330 → 0}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 400 → 424}; heading h3 ziggo headline 14px/15.4px 600 rgb(28, 31, 33) → null"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 360
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "TV Start Haal meer uit je tv. En meer tv uit elk scherm."
+          },
+          "faq": {
+            "sel": ".faq",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 552,
+                "h": 424
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Wat is een CI+ Module en hoe werkt het? De CI+ Module is een"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/kabel-tv",
+      "findings": [
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "5 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "5 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 540 → 360}; heading null → h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255); image{w 455 → 0, h 330 → 0}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 400 → 457}; heading h3 ziggo headline 14px/15.4px 600 rgb(28, 31, 33) → null"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 360
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Kabel TV"
+          },
+          "faq": {
+            "sel": ".faq",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 552,
+                "h": 457
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Wat is de contractduur? Alle producten van Ziggo zijn per ma"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 3,
+    "varying": 3,
+    "probesVarying": [
+      "faq",
+      "hero"
+    ]
+  }
+}

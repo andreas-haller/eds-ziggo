@@ -1,0 +1,14 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/televisie/voicecontrol (live side from cache stardust/replica/gates/televisie-voicecontrol-1440/chrome-live.json, probed 2026-11-25T13:09:03.063Z — delete the file to re-probe)
+  build: https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 1440×112; selector body > header
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,4303 1440×581; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,4303 1440×582; selector body > footer
+
+✓ chrome parity within tolerance, 1 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

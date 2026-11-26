@@ -1,0 +1,130 @@
+{
+  "a": "stardust/replica/gates/televisie-kabel-tv-1440/live.png",
+  "b": "stardust/replica/gates/televisie-kabel-tv-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 2755,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 62638,
+  "pct": 1.58,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/televisie-kabel-tv-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.2
+    },
+    {
+      "y0": 2500,
+      "y1": 2755,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.87,
+    "differingPixels": 34546,
+    "compared": {
+      "width": 1440,
+      "height": 2757,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1493,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2092,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 2570,
+        "shift": 1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 3,
+    "insertedRows": 1,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 2500,
+        "y1": 2756,
+        "pct": 0.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-kabel-tv-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 28,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null
+}

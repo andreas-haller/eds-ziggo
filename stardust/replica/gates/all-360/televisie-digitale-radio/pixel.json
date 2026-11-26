@@ -1,0 +1,269 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie-digitale-radio/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie-digitale-radio/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4134,
+    "mode": "overlap"
+  },
+  "heightDelta": -46,
+  "differingPixels": 139507,
+  "pct": 9.37,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/televisie-digitale-radio/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.15,
+  "textBoxes": 117,
+  "textPixels": 311842,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 17.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 13.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 14.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4134,
+      "pct": 1.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.19,
+    "differingPixels": 78470,
+    "compared": {
+      "width": 360,
+      "height": 4196,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 765,
+        "shift": 4,
+        "cumulative": 4
+      },
+      {
+        "y": 1017,
+        "shift": -8,
+        "cumulative": -4
+      },
+      {
+        "y": 1236,
+        "shift": -8,
+        "cumulative": -12
+      },
+      {
+        "y": 2672,
+        "shift": 16,
+        "cumulative": 4
+      },
+      {
+        "y": 3060,
+        "shift": 3,
+        "cumulative": 7
+      },
+      {
+        "y": 3128,
+        "shift": 38,
+        "cumulative": 45
+      },
+      {
+        "y": 3693,
+        "shift": 1,
+        "cumulative": 46
+      }
+    ],
+    "maxOffset": 46,
+    "totalShift": 78,
+    "insertedRows": 62,
+    "deletedRows": 16,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.9,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.8,
+        "unaligned": 17.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 5.5,
+        "unaligned": 13.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 6,
+        "unaligned": 5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 8.7,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4134,
+        "pct": 0,
+        "unaligned": 1.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie-digitale-radio/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 41,
+    "totalShift": 78,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 78px total — +4px at y=765, −8px at y=1017, −8px at y=1236, +16px at y=2672, +3px at y=3060, +38px at y=3128, … 1 more (bound 41px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio",
+      "source": "https://www.ziggo.nl/televisie/digitale-radio",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "ff83da96bc201cc4",
+      "archetype": "210328a48adb8c28",
+      "captures": "3ab1af7881013b57",
+      "instruments": "700566dc6f7774a4",
+      "page content": "12ba869790283a05",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block columns": "e92586516c022ea3",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 0,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 74,
+          "controls": 66,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 93,
+          "controls": 72,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:08:30.944Z"
+  }
+}

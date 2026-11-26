@@ -1,0 +1,117 @@
+/* toptask tiles (source .toptask-sec / .vfz-tile) */
+.toptask-tiles {
+  position: relative;
+  z-index: 2;
+  display: flow-root;
+}
+
+.toptask-tiles .toptask-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.toptask-tiles .toptask {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 32px 0;
+  border-radius: 24px;
+}
+
+.toptask-tiles a.tile:any-link {
+  display: block;
+  height: 108px;
+  border-radius: 24px;
+  background: var(--color-white);
+  box-shadow: var(--shadow-tile);
+  color: var(--color-tertiary);
+}
+
+.toptask-tiles .tile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-top: 16px;
+  border-radius: 24px;
+  background: var(--color-white);
+}
+
+.toptask-tiles .tile-icon {
+  display: block;
+  width: 48px;
+  height: 56px;
+  padding-bottom: 8px;
+  background-image: var(--gradient-primary);
+  background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.toptask-tiles .tile-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+  margin-top: 2px;
+  color: var(--color-gray-900);
+}
+
+.toptask-tiles .tile-label p {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+
+.toptask-tiles .tile-title .zi {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.toptask-tiles .tile-text {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .toptask-tiles .toptask {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0;
+    margin: -40px 0 32px;
+    background: var(--color-white);
+    box-shadow: var(--shadow-tile);
+  }
+
+  .toptask-tiles a.tile:any-link {
+    height: 146px;
+    box-shadow: none;
+  }
+
+  .toptask-tiles .tile-container {
+    padding-top: 34px;
+  }
+
+  .toptask-tiles .tile-label p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .toptask-tiles .tile-title .zi {
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+  }
+}
+
+/* source glyphs the foundation icon map lacks (ziggo-ui-icon-v22; foundation request filed) */
+.toptask-tiles .zi-star::before { content: "K"; }
+.toptask-tiles .zi-tv-apps::before { content: "\20ad"; }
+.toptask-tiles .zi-wifi-router::before { content: "\e934"; }
+.toptask-tiles .zi-package::before { content: "\e93a"; }
+.toptask-tiles .zi-ziggo-wifi-smart::before { content: "\e930"; }

@@ -1,0 +1,130 @@
+{
+  "a": "stardust/replica/gates/televisie-zenders-sbs6-360/live.png",
+  "b": "stardust/replica/gates/televisie-zenders-sbs6-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 2553,
+    "mode": "overlap"
+  },
+  "heightDelta": 51,
+  "differingPixels": 80215,
+  "pct": 8.73,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-zenders-sbs6-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 16.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.5
+    },
+    {
+      "y0": 2500,
+      "y1": 2553,
+      "pct": 1.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.41,
+    "differingPixels": 31944,
+    "compared": {
+      "width": 360,
+      "height": 2605,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 959,
+        "shift": -51,
+        "cumulative": -51
+      },
+      {
+        "y": 1619,
+        "shift": -1,
+        "cumulative": -52
+      },
+      {
+        "y": 2163,
+        "shift": 1,
+        "cumulative": -51
+      }
+    ],
+    "maxOffset": 52,
+    "totalShift": 53,
+    "insertedRows": 1,
+    "deletedRows": 52,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.4,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.6,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.1,
+        "unaligned": 15.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 16.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 2500,
+        "y1": 2604,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-zenders-sbs6-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 26,
+    "totalShift": 53,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 53px total — −51px at y=959, −1px at y=1619, +1px at y=2163 (bound 26px)"
+}

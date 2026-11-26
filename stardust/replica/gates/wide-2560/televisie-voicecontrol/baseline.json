@@ -1,0 +1,76 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-26T04:52:40.315Z",
+  "url": "https://www.ziggo.nl/televisie/voicecontrol",
+  "width": 2560,
+  "vh": 900,
+  "height": 4965,
+  "settle": true,
+  "chunks": 6,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 13,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 66,
+    "intervals": 13,
+    "chains": 53,
+    "delays": [
+      2000,
+      4999.899999991059,
+      5000,
+      10000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 4965,
+    "pct": 0.04,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    4965,
+    4965
+  ],
+  "noiseFloor": 0.68,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 852,
+      "h": 416,
+      "pct": 13.5
+    }
+  ],
+  "variableShare": 8.38,
+  "maskArg": "852:416",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-26T04:53:43.583Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

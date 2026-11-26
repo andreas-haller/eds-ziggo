@@ -1,0 +1,66 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-zenders-npo-1-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-zenders-npo-1-360/pixel-pub1.json",
+    "pct": 1.07,
+    "alignedPct": 0.61,
+    "alignedUsed": true,
+    "totalShift": 2,
+    "steps": [
+      {
+        "y": 1744,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2288,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 27,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T13:43:52.701Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-npo-1-360/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T17:35:12.600Z"
+}

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:30:56.830Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T20:38:55.778Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub2 aligned 0.45% Δh 3; the one main 🔴 is the interactions.online chat glyph whose live label is presence-variable (archetype residual); frozen chrome only — 131-132 header/footer icon-glyph 🔴 (foundation) and, at 360, the header logo signature delta (foundation request already logged by cluster-streaming); main content: nothing-lost 0, content-presence missing 0, Clipped 0, overflow 0",
+          "at": "2026-11-25T21:01:06.878Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T21-01-12-312Z",
+          "at": "2026-11-25T21:02:17.647Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:17:43.497Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T04:05:23.096Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

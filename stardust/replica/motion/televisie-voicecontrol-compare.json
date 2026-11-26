@@ -1,0 +1,211 @@
+{
+  "live": "stardust/replica/motion/televisie-voicecontrol.json",
+  "build": "stardust/replica/motion/televisie-voicecontrol-proto.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 15,
+  "counts": {
+    "behaviors": 27,
+    "parity": 5,
+    "missing": 14,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 4,
+    "advisory": 3
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "tolerance",
+      "deltas": [
+        "magnitude delta 1900px > 8px [restore threshold: live y≤500, build y≤2400]"
+      ],
+      "note": "Δheight 0px, restore at y≤500, 0ms",
+      "line": "motion header scroll-morph: magnitude delta 1900px > 8px [restore threshold: live y≤500, build y≤2400] (Δheight 0px, restore at y≤500, 0ms)"
+    },
+    {
+      "cls": "widget",
+      "name": "#accordion-item-Algemeen → #commando .acc__header",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #accordion-item-Algemeen → #commando .acc__header: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "#accordion-item-Wat-is-Voice-Control\\? → .faq .acc__header",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #accordion-item-Wat-is-Voice-Control\\? → .faq .acc__header: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-sticky-subnavigation__list-item-link → .subnav__list a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .vfz-sticky-subnavigation__list-item-link → .subnav__list a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".btn",
+      "state": "parity",
+      "note": "self.background; n/a",
+      "line": "motion hover .btn: parity (self.background; n/a)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-interactions-item → .interactions__item",
+      "state": "parity",
+      "note": "self.color, span.color; n/a; paired by order",
+      "line": "motion hover .vfz-interactions-item → .interactions__item: parity (self.color, span.color; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-breadcrumb-v2__list-item--link → .crumbs__link",
+      "state": "parity",
+      "note": "self.color; n/a; paired by order",
+      "line": "motion hover .vfz-breadcrumb-v2__list-item--link → .crumbs__link: parity (self.color; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-accordion-item__header → .acc__header",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .vfz-accordion-item__header → .acc__header: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "missing",
+      "note": "2 event(s) on live, 0ms",
+      "line": "motion transition color: MISSING on build (2 event(s) on live, 0ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "height",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition height: parity (2 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "4 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition transform: parity (4 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "advisory",
+      "note": "2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition background-color: extra on build — advisory (2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "commando",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class commando: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "generic-navbar--fixed",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class generic-navbar--fixed: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "mediabox",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class mediabox: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "tips",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class tips: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-accordion-item--active",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vfz-accordion-item--active: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-active",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-active: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-from",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-from: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-to",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-to: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-interactions-item--slideout",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vfz-interactions-item--slideout: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-navbar-container--fixed",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vfz-navbar-container--fixed: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-sticky-subnavigation__container--is-fixed-top",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class vfz-sticky-subnavigation__container--is-fixed-top: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-sticky-subnavigation__list-item--active",
+      "state": "missing",
+      "note": "trigger class added 8× on live, never on build",
+      "line": "motion class vfz-sticky-subnavigation__list-item--active: MISSING on build (trigger class added 8× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "voicecontrol",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class voicecontrol: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-sliding",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-sliding: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "site-header--fixed",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class site-header--fixed: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

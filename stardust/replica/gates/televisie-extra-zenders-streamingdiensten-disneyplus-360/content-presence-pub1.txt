@@ -1,0 +1,31 @@
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus (docH 7523, 173 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus (docH 7765, 171 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 1 | bestel disney+ bij ziggo | 5/5 | 0/0 | 3/4 | 0/0 | CONTROL STATE |
+| 2 | daarom kijk je disney+ via ziggo | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 3 | maandelijks aan- en uitzetten | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 4 | tv & streaming op één plek | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 5 | zoek, vind en kijk | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 6 | dit kijk je met disney+ | 0/0 | 0/0 | 7/7 | 4/5 | - |
+| 7 | ontdek wat je deze maand kunt kijken bij | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 8 | hoe kijk je disney+ bij ziggo? | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 9 | disney+-account | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 10 | disney+-app | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 11 | inloggen en kijken | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 12 | kies het abonnement dat bij jou past | 1/1 | 4/0 | 7/7 | 1/1 | MISSING BUTTON |
+| 13 | veelgestelde vragen | 0/0 | 15/15 | 0/0 | 0/0 | - |
+| 14 | ken je deze tv apps al? | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 15 | hbo max | 2/2 | 0/0 | 1/1 | 1/1 | - |
+| 16 | videoland | 2/2 | 0/0 | 2/2 | 1/1 | - |
+| 17 | prime video | 2/2 | 0/0 | 1/1 | 0/0 | - |
+  🟠 CONTROL STATE: current: origin "" → served "disneyplus" (band "bestel disney+ bij ziggo")
+  🟠 MISSING BUTTON: "scroll tabs naar rechts" in band "kies het abonnement dat bij jou past" (origin y 3915) not on the served page
+  🟠 MISSING BUTTON: "met reclame" in band "kies het abonnement dat bij jou past" (origin y 3915) not on the served page
+  🟠 MISSING BUTTON: "standaard" in band "kies het abonnement dat bij jou past" (origin y 3915) not on the served page
+  🟠 MISSING BUTTON: "scroll tabs naar links" in band "kies het abonnement dat bij jou past" (origin y 3915) not on the served page
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 1 / buttons missing 4 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: 5 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/content-presence-pub1.json

@@ -1,0 +1,839 @@
+/* mediabox cards: intro, product cards, closing line */
+.mediabox-cards {
+  background: #fff;
+  color: var(--color-secondary);
+}
+
+.mediabox-cards .mb-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 2rem var(--container-pad);
+}
+
+.mediabox-cards .mb-intro,
+.mediabox-cards .mb-outro {
+  display: flow-root;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.mediabox-cards .mb-eyebrow p {
+  display: block;
+  margin-bottom: 8px;
+  color: #000;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mediabox-cards .mb-title :is(h1, h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+}
+
+.mediabox-cards .mb-lead p {
+  margin-bottom: 16px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.mediabox-cards .mb-cards {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 calc(var(--container-pad) / -2);
+}
+
+.mediabox-cards .mb-card {
+  width: 100%;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.mediabox-cards .mb-box {
+  height: 100%;
+  padding: 0 0.5rem;
+}
+
+.mediabox-cards .mb-img p {
+  margin: 0;
+}
+
+.mediabox-cards .mb-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 320 / 128;
+  object-fit: cover;
+}
+
+.mediabox-cards .mb-card-title :is(h2, h3, h4) {
+  font-size: var(--heading-font-size-3);
+}
+
+.mediabox-cards .mb-text p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.mediabox-cards .mb-box a.button:any-link {
+  margin-bottom: 16px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 0 19px 3px;
+}
+
+.mediabox-cards .mb-outro-title p {
+  display: block;
+  margin-top: 24px;
+  color: var(--color-primary);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-2);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mediabox-cards .mb-outro a.button:any-link {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .mediabox-cards .mb-intro,
+  .mediabox-cards .mb-outro {
+    width: calc((100% + var(--container-pad)) * 0.6667 - var(--container-pad));
+  }
+
+  .mediabox-cards .mb-cards {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .mediabox-cards .mb-card {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .mediabox-cards .mb-img img {
+    aspect-ratio: 954 / 380;
+  }
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards .mb-intro,
+  .mediabox-cards .mb-outro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .mediabox-cards .mb-lead p,
+  .mediabox-cards .mb-text p {
+    margin-bottom: 24px;
+  }
+
+  .mediabox-cards .mb-box {
+    padding: 0 1rem;
+  }
+
+  .mediabox-cards .mb-box a.button:any-link {
+    margin-bottom: 24px;
+  }
+
+  .mediabox-cards .mb-outro-title p {
+    margin-top: 32px;
+  }
+
+  .mediabox-cards .mb-outro a.button:any-link {
+    margin-top: 24px;
+  }
+}
+
+/* ==== landing: centred head (eyebrow, orange title, lead, primary CTA) and/or 2-up gray
+   product cards with a 16:9 picture (source televisie "Dit heb je nodig") ==== */
+.mediabox-cards.landing {
+  color: var(--color-black);
+}
+
+.mediabox-cards.landing .mb-inner {
+  padding: 0 var(--container-pad);
+}
+
+.mediabox-cards.landing .mb-intro {
+  margin: 0 auto;
+  padding: 88px 0 0;
+}
+
+.mediabox-cards.landing .mb-eyebrow p {
+  margin: 0;
+  font-size: var(--heading-font-size-4);
+}
+
+.mediabox-cards.landing .mb-title :is(h1, h2, h3) {
+  margin: 0 0 9px;
+  font-size: var(--heading-font-size-1);
+}
+
+.mediabox-cards.landing .mb-lead p {
+  margin: 0 0 24px;
+  font-size: 1rem;
+}
+
+.mediabox-cards.landing .mb-cards {
+  gap: 16px;
+  margin: 0;
+  padding: 0 0 48px;
+}
+
+.mediabox-cards.landing .mb-card {
+  padding: 0;
+}
+
+.mediabox-cards.landing .mb-box {
+  overflow: hidden;
+  padding: 0 0 16px;
+  border-radius: var(--border-radius);
+  background: var(--color-gray-100);
+  color: var(--color-gray-900);
+}
+
+.mediabox-cards.landing .mb-img img {
+  aspect-ratio: 1080 / 608;
+}
+
+.mediabox-cards.landing .mb-box > :not(.mb-img) {
+  padding: 0 16px;
+}
+
+.mediabox-cards.landing .mb-card-title :is(h2, h3, h4) {
+  margin: 16px 0 6px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-4);
+}
+
+.mediabox-cards.landing .mb-text p {
+  margin: 0 0 24px;
+}
+
+.mediabox-cards.landing .mb-box a.button:any-link {
+  margin: 0;
+  border: 0;
+  background: var(--color-tertiary);
+  color: var(--color-white);
+  padding: 0 20px 3px;
+}
+
+@media (width >= 768px) {
+  .mediabox-cards.landing .mb-intro {
+    width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+    padding-top: 104px;
+  }
+
+  .mediabox-cards.landing .mb-title :is(h1, h2, h3) {
+    margin-bottom: 17px;
+  }
+
+  .mediabox-cards.landing .mb-lead p {
+    margin-bottom: 31px;
+  }
+
+  .mediabox-cards.landing .mb-cards {
+    flex-wrap: nowrap;
+    gap: 32px;
+    padding-bottom: 56px;
+  }
+
+  .mediabox-cards.landing .mb-card {
+    flex: 1 1 0;
+    max-width: none;
+  }
+
+  .mediabox-cards.landing .mb-box {
+    padding-bottom: 24px;
+  }
+
+  .mediabox-cards.landing .mb-box > :not(.mb-img) {
+    padding: 0 24px;
+  }
+
+  .mediabox-cards.landing .mb-card-title :is(h2, h3, h4) {
+    margin-top: 24px;
+  }
+
+  .mediabox-cards.landing .mb-img img {
+    aspect-ratio: 1080 / 608;
+  }
+}
+
+/* minor: a smaller head title (h2 size) and h3-size card titles (source ziggo-sport) */
+.mediabox-cards.landing.minor .mb-intro {
+  padding: 48px 0 0;
+}
+
+.mediabox-cards.landing.minor .mb-eyebrow p {
+  color: var(--color-secondary);
+}
+
+.mediabox-cards.landing.minor .mb-title :is(h1, h2, h3) {
+  font-size: var(--heading-font-size-2);
+}
+
+.mediabox-cards.landing.minor .mb-card-title :is(h2, h3, h4) {
+  margin-top: 24px;
+  font-size: var(--heading-font-size-3);
+}
+
+.mediabox-cards.landing.minor .mb-text p {
+  margin-top: 8px;
+}
+
+/* minor below 768px (source ziggo-sport 360): cards 41px under the title, card title 31px under
+   the picture, CTA 16px under the copy, 57px band foot */
+@media (width < 768px) {
+  .mediabox-cards.landing.minor .mb-cards {
+    gap: 19px;
+    padding: 32px 0 49px;
+  }
+
+  .mediabox-cards.landing.minor .mb-card-title :is(h2, h3, h4) {
+    margin-top: 31px;
+  }
+
+  .mediabox-cards.landing.minor .mb-text p {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width >= 768px) {
+  .mediabox-cards.landing.minor .mb-intro {
+    width: 649px;
+    padding-top: 56px;
+  }
+
+  .mediabox-cards.landing.minor .mb-cards {
+    padding: 57px 0 50px;
+  }
+
+  .mediabox-cards.landing.minor .mb-card-title :is(h2, h3, h4) {
+    margin-top: 40px;
+  }
+}
+
+/* ==== mediabox-cards eyebrow heading — cluster-article: <h2> eyebrow over the <h3> title ==== */
+.mediabox-cards .mb-eyebrow :is(h2, h3) {
+  display: block;
+  margin: 0 0 8px;
+  color: #000;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.mediabox-cards .mb-card-title :is(h2, h3, h4) img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* ==== BEGIN mediabox-cards (steps) — owned by cluster-article: centred head (black eyebrow,
+   orange title) over white shadowed step cards: picture, icon + title row, centred copy
+   (source terugkijken "Zo werkt 't") ==== */
+.mediabox-cards.steps .mb-title :is(h2, h3) {
+  color: var(--color-primary);
+}
+
+.mediabox-cards.steps .mb-box {
+  padding: 24px 16px 16px;
+  border-radius: 16px;
+  background: var(--color-white);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+  text-align: center;
+}
+
+.mediabox-cards.steps .mb-img img {
+  aspect-ratio: 1080 / 608;
+  object-fit: contain;
+}
+
+.mediabox-cards.steps .mb-card-title :is(h2, h3, h4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0 16px;
+  font-size: 1.5rem;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.mediabox-cards.steps .mb-text p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+@media (width >= 768px) {
+  .mediabox-cards.steps .mb-card {
+    flex: 0 0 calc(33.3333% + 16px);
+    max-width: calc(33.3333% + 16px);
+    margin-bottom: 24px;
+  }
+}
+
+/* ==== END mediabox-cards (steps) ==== */
+
+/* the duplicate responsive label of the source button (see decorate) */
+.mediabox-cards .mb-cta a .btn-title-large {
+  display: none;
+}
+
+/* ==== BEGIN mediabox-cards (boxed) — owned by cluster-article: 1/3-width rounded gray product
+   cards, full-bleed 16:9 picture, navy outline CTA (source televisie "Kies je mediabox");
+   white = white cards with a soft shadow (terugkijken); icons = the SuperIcon art keeps its ratio ==== */
+.mediabox-cards.boxed .mb-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 8px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: var(--color-gray-100);
+}
+
+.mediabox-cards.boxed.white .mb-box {
+  background: var(--color-white);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+}
+
+.mediabox-cards.boxed .mb-box > :not(.mb-img) {
+  padding: 0 16px;
+}
+
+.mediabox-cards.boxed .mb-img img,
+.mediabox-cards.boxed .mb-img img:only-child {
+  aspect-ratio: 1080 / 608;
+}
+
+.mediabox-cards.boxed.icons .mb-img img {
+  aspect-ratio: 400 / 266;
+  object-fit: contain;
+}
+
+.mediabox-cards.boxed .mb-card-title :is(h2, h3, h4) {
+  margin: 24px 0 8px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.mediabox-cards.boxed .mb-text p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.mediabox-cards.boxed .mb-box a.button:any-link {
+  border: 2px solid #01125d;
+  background: transparent;
+  color: #01125d;
+}
+
+.mediabox-cards.boxed .mb-cards {
+  row-gap: 24px;
+}
+
+/* ==== END mediabox-cards (boxed) ==== */
+
+@media (width < 768px) {
+  .mediabox-cards.boxed .mb-box > :not(.mb-img) {
+    padding: 0 8px;
+  }
+
+  .mediabox-cards.boxed .mb-card-title :is(h2, h3, h4) {
+    margin-top: 16px;
+  }
+}
+
+/* ==== BEGIN mediabox-cards (plain) — owned by cluster-article: unboxed centred cards,
+   transparent 16:9 product art kept whole, h4-size title, 14px copy
+   (source 4k-uhd "Zo kijk je in de beste beeldkwaliteit") ==== */
+/* stylelint-disable no-descending-specificity */
+.mediabox-cards.plain .mb-box {
+  padding: 0;
+  text-align: center;
+}
+
+.mediabox-cards.plain .mb-img img {
+  aspect-ratio: 1080 / 608;
+  object-fit: contain;
+}
+
+.mediabox-cards.plain .mb-card-title :is(h2, h3, h4) {
+  margin: 24px 0 16px;
+  font-size: var(--heading-font-size-4);
+}
+
+.mediabox-cards.plain .mb-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ==== END mediabox-cards (plain) ==== */
+
+/* ==== mediabox-cards (boxed halves) — cluster-article: two boxed cards, each half the
+   container (source ziggo-go "Zo gebruik je Ziggo GO overal") ==== */
+@media (width >= 768px) {
+  .mediabox-cards.boxed.halves .mb-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* ==== BEGIN mediabox-cards (groups) — owned by cluster-article: on a light band a black head
+   (eyebrow, h2-size title, lead), 1/3-width gray-400 cards — picture on the light top, centred
+   copy, chevron text links; the closing link of the section centred under them
+   (source tv-apps "Naar je favoriete TV apps") ==== */
+main .section:has(.mediabox-cards.groups) {
+  padding-bottom: 59px;
+  background: var(--color-gray-100);
+}
+
+.mediabox-cards.groups {
+  background: transparent;
+}
+
+/* stylelint-disable no-descending-specificity */
+.mediabox-cards.groups .mb-title :is(h1, h2, h3) {
+  color: var(--color-black);
+}
+
+.mediabox-cards.groups .mb-lead p {
+  font-size: 1rem;
+}
+
+.mediabox-cards.groups .mb-cards {
+  row-gap: 24px;
+}
+
+.mediabox-cards.groups .mb-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 16px;
+  overflow: hidden;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 24px;
+  background: var(--color-gray-400);
+  text-align: center;
+}
+
+.mediabox-cards.groups .mb-img {
+  background: var(--color-gray-100);
+}
+
+.mediabox-cards.groups .mb-img img {
+  aspect-ratio: 1080 / 608;
+  object-fit: contain;
+}
+
+.mediabox-cards.groups .mb-box > :not(.mb-img) {
+  padding: 0 16px;
+}
+
+.mediabox-cards.groups .mb-card-title :is(h2, h3, h4) {
+  margin: 24px 0 8px;
+  font-size: var(--heading-font-size-4);
+}
+
+.mediabox-cards.groups .mb-text p {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.mediabox-cards.groups .mb-box a:any-link,
+main .section:has(.mediabox-cards.groups) > .default-content-wrapper a:any-link {
+  display: inline;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-tertiary-darken-40, var(--color-tertiary));
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mediabox-cards.groups .mb-box a:any-link::before,
+main .section:has(.mediabox-cards.groups) > .default-content-wrapper a:any-link::before {
+  content: "\203A";
+  margin-right: 8px;
+}
+
+main .section:has(.mediabox-cards.groups) > .default-content-wrapper {
+  text-align: center;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ==== END mediabox-cards (groups) ==== */
+
+/* ==== mediabox-cards (boxed small / h5 / snug) — cluster-article: small = 14px copy on 26px
+   lines → measured 16px / 25.6px weight 300 (source ziggo-go card copy), h5 = h5-size card titles (source 4k-uhd "Wat kan ik in 4K en UHD kijken?",
+   mediaboxen "Kies je mediabox"); snug = the head 60px under the breadcrumb (mediaboxen) ==== */
+/* stylelint-disable no-descending-specificity */
+.mediabox-cards.boxed.h5 .mb-card-title :is(h2, h3, h4) {
+  margin: 24px 0 16px;
+  font-size: var(--heading-font-size-5);
+}
+
+.mediabox-cards.boxed.small .mb-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.mediabox-cards.boxed.halves .mb-card-title :is(h2, h3, h4) {
+  font-size: var(--heading-font-size-4);
+}
+
+/* stylelint-enable no-descending-specificity */
+
+.mediabox-cards.snug .mb-inner {
+  padding-top: 0;
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards.snug .mb-intro {
+    margin-top: 26px;
+  }
+}
+
+/* snug below 1024px: the head 50px under the breadcrumb (source mediaboxen 360) */
+@media (width < 1024px) {
+  .mediabox-cards.snug .mb-intro {
+    margin-top: 19px;
+  }
+}
+
+/* halves: a <strong> CTA is the filled navy button (source ziggo-go tips "Ziggo GO in het buitenland") */
+.mediabox-cards.boxed.halves .mb-box a.button.primary:any-link {
+  border-color: #01125d;
+  background: #01125d;
+  color: var(--color-white);
+}
+
+/* ==== mediabox-cards (steps) below 768px — cluster-article 360 r2: the step card runs the
+   viewport wide with no inset or shadow — picture 360 x 203, the 40px icon + 20px title row
+   (48px) under it, 16px / 25.6px weight-300 copy 8px below, 16px to the next card
+   (measured, source terugkijken 360: img x0 w360 h203, h4 y+203 h48, copy w360, pitch 377) ==== */
+@media (width < 768px) {
+  .mediabox-cards.steps .mb-box {
+    margin: 0 calc(-1 * var(--container-pad));
+    padding: 0 0 16px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .mediabox-cards.steps .mb-card-title :is(h2, h3, h4) {
+    min-height: 48px;
+    margin: 0;
+    font-size: var(--heading-font-size-4);
+  }
+
+  .mediabox-cards.steps .mb-card-title img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mediabox-cards.steps .mb-text p {
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+}
+
+/* ==== mediabox-cards (boxed regular) — gate-all: 16/25.6 lead and card copy (source kijkprofielen
+   "Kies je mediabox": live lead p and card p 16px/25.6 w300) ==== */
+.mediabox-cards.boxed.regular .mb-lead p,
+.mediabox-cards.boxed.regular .mb-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* boxed regular spacing (live @360: h4 56px under the band top, cards 32px under the lead, 40px
+   between cards; @1440: h4 64px, cards 48px under the lead, the CTAs level at the card foot) */
+.mediabox-cards.boxed.regular .mb-intro {
+  margin-top: 24px;
+}
+
+.mediabox-cards.boxed.regular .mb-lead p:last-child {
+  margin-bottom: 0;
+}
+
+.mediabox-cards.boxed.regular .mb-box > :last-child {
+  margin-top: auto;
+}
+
+@media (width < 768px) {
+  .mediabox-cards.boxed.regular .mb-cards {
+    row-gap: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards.boxed.regular .mb-intro {
+    margin-top: 32px;
+  }
+
+  .mediabox-cards.boxed.regular .mb-lead p:last-child {
+    margin-bottom: 9px;
+  }
+}
+
+/* ==== mediabox-cards (boxed icons) r2 — gate-all, source online-tv-kijken "Tv-kijken via
+   internet": light h1--sub eyebrow (20.26/25px w300 black), display-size title, 9-col intro from
+   1024px, 400x226 art in a 24px-rounded box, copy inset 24px, 16/25.6 w300 gray copy (live @1440
+   eyebrow y+64 w844, title 48.8 +16, lead +15, art +41 357x202, h3 x+24, p +6) ==== */
+.mediabox-cards.boxed.icons .mb-intro {
+  margin-top: 24px;
+}
+
+.mediabox-cards.boxed.icons .mb-eyebrow :is(h1, h2, h3, p) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-light-4);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.mediabox-cards.boxed.icons .mb-title :is(h1, h2, h3) {
+  font-size: var(--heading-font-size-1);
+}
+
+.mediabox-cards.boxed.icons .mb-lead p:last-child {
+  margin-bottom: 0;
+}
+
+.mediabox-cards.boxed.icons .mb-box {
+  border-radius: 24px;
+}
+
+.mediabox-cards.boxed.icons .mb-img img {
+  aspect-ratio: 400 / 226;
+  object-fit: cover;
+}
+
+.mediabox-cards.boxed.icons .mb-card-title :is(h2, h3, h4) {
+  margin-bottom: 6px;
+}
+
+.mediabox-cards.boxed.icons .mb-text p {
+  color: #323639;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards.boxed.icons .mb-intro {
+    width: 844px;
+    max-width: 100%;
+    margin: 32px auto 40px;
+  }
+
+  .mediabox-cards.boxed.icons .mb-eyebrow :is(h1, h2, h3, p) {
+    margin-bottom: 16px;
+  }
+
+  .mediabox-cards.boxed.icons .mb-title :is(h1, h2, h3) {
+    margin-bottom: 15px;
+  }
+
+  .mediabox-cards.boxed.icons .mb-lead p:last-child {
+    margin-bottom: 1px;
+  }
+
+  .mediabox-cards.boxed.icons .mb-box > :not(.mb-img) {
+    padding: 0 24px;
+  }
+}
+
+/* ==== mediabox-cards (plain tight / boxed halves) — gate-all, source ziggo-go: tight = the step
+   title flush under the art and the copy flush under the title, 48px between stacked cards below
+   768px, the intro 48px down / 24px over the art from 1024px (live @360 h3 = img bottom, p = h3
+   bottom, next img +48; @1440 eyebrow −8, art +8); halves = 21:9 art, 6px title gap, 16/25.6 w300
+   gray copy (live 552x237 / 320x138) ==== */
+.mediabox-cards.plain.tight .mb-card-title :is(h2, h3, h4) {
+  margin: 0;
+}
+
+@media (width < 1024px) {
+  .mediabox-cards.plain.tight .mb-intro {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width < 768px) {
+  .mediabox-cards.plain.tight .mb-text p:last-child {
+    margin-bottom: 48px;
+  }
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards.plain.tight .mb-intro {
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+
+.mediabox-cards.boxed.halves .mb-img img,
+.mediabox-cards.boxed.halves .mb-img img:only-child {
+  aspect-ratio: 1080 / 463;
+}
+
+.mediabox-cards.boxed.halves .mb-card-title :is(h2, h3, h4) {
+  margin-bottom: 6px;
+}
+
+.mediabox-cards.boxed.halves .mb-text p {
+  color: #323639;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* boxed icons r2 (live @1440 box 547 vs 532, band foot 71 vs 32; @360 copy inset 16, h3 w288,
+   16px between stacked boxes) */
+@media (width < 768px) {
+  .mediabox-cards.boxed.icons .mb-box > :not(.mb-img) {
+    padding: 0 16px;
+  }
+
+  .mediabox-cards.boxed.icons .mb-cards {
+    row-gap: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .mediabox-cards.boxed.icons .mb-box {
+    padding-bottom: 23px;
+  }
+
+  .mediabox-cards.boxed.icons {
+    padding-bottom: 39px;
+  }
+}
+
+/* boxed regular r3 (live @1440 CTAs Δy +8 at the card foot, band 841 vs 825) */
+@media (width >= 1024px) {
+  .mediabox-cards.boxed.regular .mb-box {
+    padding-bottom: 16px;
+  }
+
+  .mediabox-cards.boxed.regular {
+    padding-bottom: 8px;
+  }
+}

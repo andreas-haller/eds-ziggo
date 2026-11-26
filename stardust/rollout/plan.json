@@ -1,0 +1,1446 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-25T15:22:03.322Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-25T15:22:03.322Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "televisie-voicecontrol",
+    "televisie-4k-uhd",
+    "televisie-digitale-kabel-tv-en-radio",
+    "televisie-digitale-radio",
+    "televisie-hoofdmenu",
+    "televisie-kijkprofielen",
+    "televisie-makkelijk-zoeken",
+    "televisie-mediaboxen",
+    "televisie-online-tv-kijken",
+    "televisie-opnemen",
+    "televisie-terugkijken",
+    "televisie-tv-apps",
+    "televisie-ziggo-go",
+    "televisie-zenders-npo-1",
+    "televisie-zenders-npo-2",
+    "televisie-zenders-npo-3",
+    "televisie-zenders-rtl-4",
+    "televisie-zenders-rtl-5",
+    "televisie-zenders-sbs6",
+    "televisie-zenders-star-channel",
+    "index",
+    "internet",
+    "televisie",
+    "televisie-espn",
+    "televisie-extra-zenders-streamingdiensten",
+    "televisie-ziggo-sport",
+    "alles-in-1",
+    "televisie-kabel-tv",
+    "televisie-tv-start",
+    "tv-internet",
+    "televisie-extra-zenders-streamingdiensten-netflix",
+    "televisie-extra-zenders-streamingdiensten-disneyplus",
+    "televisie-zenderoverzicht"
+  ],
+  "steps": [
+    {
+      "slug": "televisie-voicecontrol",
+      "path": "/televisie/voicecontrol",
+      "templateId": "televisie-voicecontrol",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "televisie-4k-uhd",
+      "path": "/televisie/4k-uhd",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-digitale-kabel-tv-en-radio",
+      "path": "/televisie/digitale-kabel-tv-en-radio",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-digitale-radio",
+      "path": "/televisie/digitale-radio",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-hoofdmenu",
+      "path": "/televisie/hoofdmenu",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-kijkprofielen",
+      "path": "/televisie/kijkprofielen",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-makkelijk-zoeken",
+      "path": "/televisie/makkelijk-zoeken",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-mediaboxen",
+      "path": "/televisie/mediaboxen",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-online-tv-kijken",
+      "path": "/televisie/online-tv-kijken",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-opnemen",
+      "path": "/televisie/opnemen",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-terugkijken",
+      "path": "/televisie/terugkijken",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-tv-apps",
+      "path": "/televisie/tv-apps",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-ziggo-go",
+      "path": "/televisie/ziggo-go",
+      "templateId": "televisie-voicecontrol",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "sticky-subnav",
+          "edsBlockName": "sticky-subnav",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "mediabox-cards",
+          "edsBlockName": "mediabox-cards",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-npo-1",
+      "path": "/televisie/zenders/npo-1",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-npo-2",
+      "path": "/televisie/zenders/npo-2",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-npo-3",
+      "path": "/televisie/zenders/npo-3",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-rtl-4",
+      "path": "/televisie/zenders/rtl-4",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-rtl-5",
+      "path": "/televisie/zenders/rtl-5",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-sbs6",
+      "path": "/televisie/zenders/sbs6",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenders-star-channel",
+      "path": "/televisie/zenders/star-channel",
+      "templateId": "televisie-zenders-npo-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "channel-info-card",
+          "edsBlockName": "channel-info-card",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "social-share",
+          "edsBlockName": "social-share",
+          "convertedBy": "televisie-zenders-npo-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "internet",
+      "path": "/internet",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar",
+          "convertedBy": "index"
+        },
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel",
+          "convertedBy": "index"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane",
+          "convertedBy": "index"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "televisie",
+      "path": "/televisie",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar",
+          "convertedBy": "index"
+        },
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel",
+          "convertedBy": "index"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane",
+          "convertedBy": "index"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-espn",
+      "path": "/televisie/espn",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar",
+          "convertedBy": "index"
+        },
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel",
+          "convertedBy": "index"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane",
+          "convertedBy": "index"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar",
+          "convertedBy": "index"
+        },
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel",
+          "convertedBy": "index"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane",
+          "convertedBy": "index"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "path": "/televisie/ziggo-sport",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "identification-bar",
+          "edsBlockName": "identification-bar",
+          "convertedBy": "index"
+        },
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "toptask-tiles",
+          "edsBlockName": "toptask-tiles",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-cards",
+          "edsBlockName": "feature-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "plan-cards",
+          "edsBlockName": "plan-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "media-carousel",
+          "edsBlockName": "media-carousel",
+          "convertedBy": "index"
+        },
+        {
+          "id": "swimming-lane",
+          "edsBlockName": "swimming-lane",
+          "convertedBy": "index"
+        },
+        {
+          "id": "priority-band",
+          "edsBlockName": "priority-band",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-carousel",
+          "edsBlockName": "article-carousel",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "alles-in-1",
+      "path": "/alles-in-1",
+      "templateId": "alles-in-1",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "bundle-builder",
+          "edsBlockName": "bundle-builder"
+        },
+        {
+          "id": "address-checker",
+          "edsBlockName": "address-checker"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-kabel-tv",
+      "path": "/televisie/kabel-tv",
+      "templateId": "alles-in-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "bundle-builder",
+          "edsBlockName": "bundle-builder",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "address-checker",
+          "edsBlockName": "address-checker",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-tv-start",
+      "path": "/televisie/tv-start",
+      "templateId": "alles-in-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "bundle-builder",
+          "edsBlockName": "bundle-builder",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "address-checker",
+          "edsBlockName": "address-checker",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "tv-internet",
+      "path": "/tv-internet",
+      "templateId": "alles-in-1",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "bundle-builder",
+          "edsBlockName": "bundle-builder",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "address-checker",
+          "edsBlockName": "address-checker",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "path": "/televisie/extra-zenders-streamingdiensten/netflix",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "streaming-service-cards",
+          "edsBlockName": "streaming-service-cards"
+        },
+        {
+          "id": "streaming-tier-table",
+          "edsBlockName": "streaming-tier-table"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "path": "/televisie/extra-zenders-streamingdiensten/disneyplus",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "streaming-service-cards",
+          "edsBlockName": "streaming-service-cards",
+          "convertedBy": "televisie-extra-zenders-streamingdiensten-netflix"
+        },
+        {
+          "id": "media-text",
+          "edsBlockName": "media-text",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "streaming-tier-table",
+          "edsBlockName": "streaming-tier-table",
+          "convertedBy": "televisie-extra-zenders-streamingdiensten-netflix"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band",
+          "convertedBy": "alles-in-1"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    },
+    {
+      "slug": "televisie-zenderoverzicht",
+      "path": "/televisie/zenderoverzicht",
+      "templateId": "televisie-zenderoverzicht",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "channel-overview",
+          "edsBlockName": "channel-overview"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-band",
+          "edsBlockName": "hero-band",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "televisie-voicecontrol"
+        },
+        {
+          "id": "interactions",
+          "edsBlockName": "interactions",
+          "convertedBy": "televisie-voicecontrol"
+        }
+      ]
+    }
+  ]
+}

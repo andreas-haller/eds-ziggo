@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T18:14:42.109Z",
+          "verdict": "fail",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T18-25-55-349Z",
+          "at": "2026-11-25T18:27:01.467Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:14:50.982Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T04:03:30.644Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

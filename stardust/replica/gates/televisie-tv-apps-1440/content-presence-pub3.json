@@ -1,0 +1,7741 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-26T00:41:22.307Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/tv-apps",
+  "at": "2026-11-26T00:41:22.046Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4920,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor.vfz-audience-selector__anchor--active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-navbar > div.image.parbase > a.vfz-navbar__brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.image.parbase > a.vfz-navbar__brand > img.vfz-navbar__brand-image",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item.vfz-navbar-applications__item--ziggo-go > a.vfz-navbar-applications__button",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item > a.vfz-navbar-applications__button",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.vfz-navbar-applications__item > div.vfz-navigation-search--chat-eligible > button.vfz-navbar-applications__button",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h1.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 152,
+    "y": 286,
+    "w": 552,
+    "h": 134,
+    "level": 1,
+    "text": "je favoriete tv apps op één plek"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 428,
+    "w": 552,
+    "h": 34,
+    "level": 2,
+    "text": "ervaar ziggo tv & streaming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 394,
+    "y": 654,
+    "w": 75,
+    "h": 53,
+    "text": "tv & video",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 509,
+    "y": 654,
+    "w": 182,
+    "h": 53,
+    "text": "actueel & achtergrond",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 731,
+    "y": 654,
+    "w": 51,
+    "h": 53,
+    "text": "muziek",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 822,
+    "y": 654,
+    "w": 45,
+    "h": 53,
+    "text": "sport",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 907,
+    "y": 654,
+    "w": 99,
+    "h": 53,
+    "text": "zo werkt het",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__brand",
+    "x": 152,
+    "y": 765,
+    "w": 14,
+    "h": 14,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__list-item--link",
+    "x": 192,
+    "y": 762,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.vfz-breadcrumb-v2 > ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item",
+    "x": 246,
+    "y": 760,
+    "w": 75,
+    "h": 24,
+    "label": "current",
+    "value": "tv-apps",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > span.vfz-breadcrumb-v2__list-item--current",
+    "x": 270,
+    "y": 762,
+    "w": 51,
+    "h": 21,
+    "text": "Tv-apps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.zgg-rich-text.zgg-rich-text--text-font-open-sans-regular > p > span.vfz-text--branded",
+    "x": 359,
+    "y": 855,
+    "w": 722,
+    "h": 75,
+    "text": "Een serie bingen, muziek luisteren of een sportlesje in de woonkamer. Je gebruik"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--l.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 984,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "tv & video"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 166,
+    "y": 1057,
+    "w": 196,
+    "h": 34,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 166,
+    "y": 1055,
+    "w": 56,
+    "h": 37,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 387,
+    "y": 1057,
+    "w": 887,
+    "h": 34,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 387,
+    "y": 1055,
+    "w": 140,
+    "h": 37,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1112,
+    "w": 221,
+    "h": 49,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1112,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 150 | Stream de beste films, series en documentaires bij Netflix. Abonnem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1161,
+    "w": 221,
+    "h": 49,
+    "text": "Videoland"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1161,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 151 | Stream films, series en documentaires van nationale en internationa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1210,
+    "w": 221,
+    "h": 49,
+    "text": "Disney+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1210,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 155 | Geniet van de nieuwste films & series en je favoriete klassiekers. "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1259,
+    "w": 221,
+    "h": 49,
+    "text": "SkyShowtime"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1259,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 157 | Beleef iconisch entertainment van wereldberoemde studio's"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1308,
+    "w": 221,
+    "h": 49,
+    "text": "HBO Max"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1308,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 156 | Stream iconische films en series bij HBO Max. Abonnement nodig."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1357,
+    "w": 221,
+    "h": 49,
+    "text": "YouTube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1357,
+    "w": 912,
+    "h": 49,
+    "text": "Van je favoriete muziekclips tot handige tutorials en van games tot het laatste "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1406,
+    "w": 221,
+    "h": 49,
+    "text": "NPO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1406,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 152 | Kijk je films, series, talkshows, docu’s, nieuws en meer van de NPO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1455,
+    "w": 221,
+    "h": 49,
+    "text": "NOS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1455,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 160 | Kijk naar alle livestreams en kies zelf welke sport- of nieuwsstrea"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1504,
+    "w": 221,
+    "h": 49,
+    "text": "Prime Video"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1504,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 153 | Bekroonde Amazon Originals én exclusieve films en series kijk je ge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1553,
+    "w": 221,
+    "h": 49,
+    "text": "CANAL+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1553,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 158 | Geniet van awardwinnende films en Europese series die je niet losla"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1602,
+    "w": 221,
+    "h": 97,
+    "text": "Apple TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1602,
+    "w": 912,
+    "h": 97,
+    "text": "Kanaal 159 | Je fantasie komt tot leven bij Apple TV met bekroonde Apple Origina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1699,
+    "w": 221,
+    "h": 49,
+    "text": "KIJK"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1699,
+    "w": 912,
+    "h": 49,
+    "text": "Is het gratis on-demand videoplatform van Talpa Network."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1748,
+    "w": 221,
+    "h": 49,
+    "text": "Hayu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1748,
+    "w": 912,
+    "h": 49,
+    "text": "Met Hayu heb je keuze uit meer dan 250 reality-programma’s."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1797,
+    "w": 221,
+    "h": 49,
+    "text": "Cinetree"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1797,
+    "w": 912,
+    "h": 49,
+    "text": "Films die langer bijblijven dan dat ze duren, dát is Cinetree."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1846,
+    "w": 221,
+    "h": 73,
+    "text": "MuseumTV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1846,
+    "w": 912,
+    "h": 73,
+    "text": "MuseumTV is hét videoplatform dat kunst, cultuur en design tot leven brengt. Met"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1919,
+    "w": 221,
+    "h": 49,
+    "text": "TV Française"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1919,
+    "w": 912,
+    "h": 49,
+    "text": "Kijk je graag Franse televisie? Dan is deze app wat voor jou."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 1968,
+    "w": 221,
+    "h": 49,
+    "text": "TV Italiana"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 1968,
+    "w": 912,
+    "h": 49,
+    "text": "Kijk je graag Italiaanse televisie? Dan is deze app wat voor jou."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2017,
+    "w": 221,
+    "h": 49,
+    "text": "Film1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 2017,
+    "w": 912,
+    "h": 49,
+    "text": "Met de Film1-app kijk je de nieuwste films en klassiekers on demand, wanneer het"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2066,
+    "w": 221,
+    "h": 49,
+    "text": "Viaplay"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 2066,
+    "w": 912,
+    "h": 49,
+    "text": "Kanaal 154 | Live Formule 1, Bundesliga, en PDC Darts. En ook films en series wa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2115,
+    "w": 221,
+    "h": 73,
+    "text": "Haardvuur"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 2115,
+    "w": 912,
+    "h": 73,
+    "text": "Maak het thuis gezellig met een haardvuur op tv! Deze warme app brengt romantiek"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2188,
+    "w": 221,
+    "h": 49,
+    "text": "Mood Lounge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 2188,
+    "w": 912,
+    "h": 49,
+    "text": "Gezellig voor de haard? Relaxen met een zen-video? Mood Lounge heeft altijd een "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2237,
+    "w": 221,
+    "h": 49,
+    "text": "ShortsTV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 374,
+    "y": 2237,
+    "w": 912,
+    "h": 49,
+    "text": "Met de ShortsTV app kijk je korte films wanneer je dat wilt."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top--s.vfz-spacing-bottom--m > p > i",
+    "x": 152,
+    "y": 2309,
+    "w": 513,
+    "h": 14,
+    "text": "*Deze tv app is alleen beschikbaar op de Mediabox Next en de Next Mini."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 2353,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "actueel & achtergrond"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 166,
+    "y": 2426,
+    "w": 228,
+    "h": 34,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 166,
+    "y": 2424,
+    "w": 56,
+    "h": 37,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 419,
+    "y": 2426,
+    "w": 855,
+    "h": 34,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 419,
+    "y": 2424,
+    "w": 140,
+    "h": 37,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2481,
+    "w": 253,
+    "h": 49,
+    "text": "Buienradar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 407,
+    "y": 2481,
+    "w": 880,
+    "h": 49,
+    "text": "Nooit meer verrast worden door een regenbui? Check dan de Buienradar-app."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2530,
+    "w": 253,
+    "h": 73,
+    "text": "France 24"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 407,
+    "y": 2530,
+    "w": 880,
+    "h": 73,
+    "text": "App van de Franse nieuwszender France 24. France 24 verslaat het nieuws in vier "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--l.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 2652,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "muziek"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 166,
+    "y": 2725,
+    "w": 146,
+    "h": 34,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 166,
+    "y": 2723,
+    "w": 56,
+    "h": 37,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 337,
+    "y": 2725,
+    "w": 938,
+    "h": 34,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 337,
+    "y": 2723,
+    "w": 140,
+    "h": 37,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2780,
+    "w": 171,
+    "h": 49,
+    "text": "XITE Music Videos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 324,
+    "y": 2780,
+    "w": 963,
+    "h": 49,
+    "text": "De nieuwe manier om muziekvideo’s te bekijken. Kies uit themakanalen of maak je "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2829,
+    "w": 171,
+    "h": 49,
+    "text": "XITE Music"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 324,
+    "y": 2829,
+    "w": 963,
+    "h": 49,
+    "text": "40 verschillende radiokanalen met elk een eigen thema, alleen bij Ziggo. Van kla"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 154,
+    "y": 2878,
+    "w": 171,
+    "h": 49,
+    "text": "Dance TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 324,
+    "y": 2878,
+    "w": 963,
+    "h": 49,
+    "text": "DanceTelevision brengt de wereld van elektronische muziek rechtstreeks naar je h"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--l.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 2977,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 166,
+    "y": 3050,
+    "w": 331,
+    "h": 34,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 166,
+    "y": 3048,
+    "w": 56,
+    "h": 37,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3",
+    "x": 522,
+    "y": 3050,
+    "w": 752,
+    "h": 34,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3 > b",
+    "x": 522,
+    "y": 3048,
+    "w": 140,
+    "h": 37,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 166,
+    "y": 3117,
+    "w": 331,
+    "h": 26,
+    "text": "Fit at Home"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 522,
+    "y": 3117,
+    "w": 752,
+    "h": 26,
+    "text": "Thuis-fitness app met bekende sterren uit Nederland. Abonnement nodig."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > span.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 347,
+    "y": 3277,
+    "w": 747,
+    "h": 22,
+    "text": "Zo werkt het"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--s",
+    "x": 347,
+    "y": 3307,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "naar je favoriete tv apps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 347,
+    "y": 3366,
+    "w": 747,
+    "h": 26,
+    "text": "Start je apps in het tv-menu, met stembesturing op je afstandsbediening of via h"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 153,
+    "y": 3440,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_TVApps_Menu_Afstandsb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 169,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "in het tv-menu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 169,
+    "y": 3708,
+    "w": 323,
+    "h": 102,
+    "text": "Snel naar je TV apps? Druk op het huis-icoontje en kies in het menu 'TV APPS'. H"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.link.section > a.vfz-link",
+    "x": 214,
+    "y": 3831,
+    "w": 233,
+    "h": 14,
+    "text": "hulp bij apps op de mediabox",
+    "href": "/klantenservice/televisie-radio/apps-op-mediabox"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 542,
+    "y": 3440,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_TVApps_Stembesturing_"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 558,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "met stembesturing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 558,
+    "y": 3708,
+    "w": 323,
+    "h": 102,
+    "text": "Heb je de nieuwste afstandsbediening met stembesturing? Druk dan op het microfoo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.link.section > a.vfz-link",
+    "x": 620,
+    "y": 3831,
+    "w": 200,
+    "h": 14,
+    "text": "meer over stembesturing",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 932,
+    "y": 3440,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_TVApps_TVKanaal_2025_"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 948,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "via het tv-kanaal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 948,
+    "y": 3708,
+    "w": 323,
+    "h": 102,
+    "text": "Sommige apps hebben zelfs een eigen kanaal, handig hè? Zo vind je bijvoorbeeld N"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.link.section > a.vfz-link",
+    "x": 1008,
+    "y": 3831,
+    "w": 202,
+    "h": 14,
+    "text": "naar het zenderoverzicht",
+    "href": "/televisie/zenderoverzicht"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.link.section > a.vfz-link",
+    "x": 593,
+    "y": 3912,
+    "w": 255,
+    "h": 14,
+    "text": "hulp bij apps op de mediabox xl",
+    "href": "/klantenservice/televisie-radio/apps-op-mediabox"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--m.vfz-spacing-bottom",
+    "x": 152,
+    "y": 4032,
+    "w": 552,
+    "h": 86,
+    "level": 2,
+    "text": "extra zenders & streamingdiensten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.vfz-text--lead",
+    "x": 152,
+    "y": 4125,
+    "w": 541,
+    "h": 50,
+    "text": "De beste streamingdiensten bestel je direct bij Ziggo. Handig, zo heb je het ove"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top--xs.vfz-spacing-bottom--l",
+    "x": 152,
+    "y": 4214,
+    "w": 150,
+    "h": 48,
+    "text": "ontdek het nu",
+    "href": "/televisie/extra-zenders-streamingdiensten"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 736,
+    "y": 3995,
+    "w": 552,
+    "h": 311,
+    "text": "",
+    "file": "1080x608_banner40_B2C_ExtraStreamingDien"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.vfz-interactions-wrapper > nav.vfz-interactions.vfz-interactions--light > a.vfz-interactions-item.vfz-interactions-item--light",
+    "x": 1392,
+    "y": 621,
+    "w": 48,
+    "h": 55,
+    "text": "bel ons",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.vfz-interactions-wrapper > nav.vfz-interactions.vfz-interactions--light > a.vfz-interactions-item.vfz-interactions-item--light",
+    "x": 1392,
+    "y": 676,
+    "w": 48,
+    "h": 54,
+    "text": "chat",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 152,
+    "y": 4371,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4411,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4447,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4483,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4519,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4555,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4591,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 442,
+    "y": 4371,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4411,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4447,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4483,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4519,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4555,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4591,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4627,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4663,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4699,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 732,
+    "y": 4371,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4411,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4447,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4483,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4519,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4555,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4591,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4627,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 1022,
+    "y": 4371,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4411,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4447,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4483,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4519,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4555,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4591,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4627,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4663,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4699,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4735,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 4799,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 260,
+    "y": 4799,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 402,
+    "y": 4799,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 542,
+    "y": 4799,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 646,
+    "y": 4799,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1012,
+    "y": 4826,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1072,
+    "y": 4826,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1132,
+    "y": 4826,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1192,
+    "y": 4826,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1252,
+    "y": 4826,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 4853,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 263,
+    "y": 4853,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 418,
+    "y": 4853,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 529,
+    "y": 4853,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 616,
+    "y": 4853,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 705,
+    "y": 4853,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 836,
+    "y": 4853,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.z-dimelo-button-form > aside.dimelo-form.closed > button.form-close-button.button-close",
+    "x": 1380,
+    "y": 975,
+    "w": 25,
+    "h": 32,
+    "text": "x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "aside.dimelo-form.closed > div.dimelo-form-inner > div.dimelo-form-title",
+    "x": 1101,
+    "y": 984,
+    "w": 300,
+    "h": 24,
+    "text": "Vertel ons wie je bent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-name > label",
+    "x": 1101,
+    "y": 1028,
+    "w": 300,
+    "h": 21,
+    "text": "Naam"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-zip > label",
+    "x": 1101,
+    "y": 1127,
+    "w": 300,
+    "h": 21,
+    "text": "Postcode"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-housenumber > label",
+    "x": 1101,
+    "y": 1226,
+    "w": 300,
+    "h": 21,
+    "text": "Huisnummer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-geboortedatum > label",
+    "x": 1101,
+    "y": 1325,
+    "w": 300,
+    "h": 21,
+    "text": "Geboortedatum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > label",
+    "x": 1101,
+    "y": 1424,
+    "w": 300,
+    "h": 21,
+    "text": "Ik wil graag (selecteer)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > select#dimelo_chat_type",
+    "x": 1101,
+    "y": 1455,
+    "w": 300,
+    "h": 48,
+    "label": "ik wil graag (selecteer) *",
+    "value": "maak een keuze",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-textarea > label",
+    "x": 1101,
+    "y": 1523,
+    "w": 300,
+    "h": 21,
+    "text": "Waar kan ik je mee helpen?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-button > button.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 1101,
+    "y": 1650,
+    "w": 150,
+    "h": 48,
+    "text": "chat met ons"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.dimelo-form-inner > form > p",
+    "x": 1101,
+    "y": 1726,
+    "w": 300,
+    "h": 64,
+    "text": "Velden met een * zijn verplicht. Je communicatie via deze chatfunctie wordt door"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > p > a",
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9,
+    "text": "privacy statement",
+    "href": "/privacy/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 5,
+    "textNodes": 175,
+    "controls": 79,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps",
+  "at": "2026-11-26T00:40:52.672Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4928,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a.audience-a-active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > a.navbar-brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.navbar-brand > span.icon.icon-ziggo-logo-orange-v1 > img",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-go",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-mail",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > button.app.app-search",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.interactions.block > nav.int-nav > a.int-item",
+    "x": 1392,
+    "y": 622,
+    "w": 48,
+    "h": 53,
+    "text": "bel ons",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.interactions.block > nav.int-nav > a.int-item",
+    "x": 1392,
+    "y": 675,
+    "w": 48,
+    "h": 53,
+    "text": "chat",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 0,
+    "y": 112,
+    "w": 1440,
+    "h": 540,
+    "text": "",
+    "file": "media_1304fdd80b331ebce34f595e223c1b7a46"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-title > h1#je-favoriete-tv-apps-op-één-plek",
+    "x": 152,
+    "y": 327,
+    "w": 552,
+    "h": 107,
+    "level": 1,
+    "text": "je favoriete tv apps op één plek"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-sub > h2#ervaar-ziggo-tv--streaming",
+    "x": 152,
+    "y": 435,
+    "w": 552,
+    "h": 34,
+    "level": 2,
+    "text": "ervaar ziggo tv & streaming"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-umq2ll > li > a",
+    "x": 394,
+    "y": 654,
+    "w": 75,
+    "h": 53,
+    "text": "tv & video",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-umq2ll > li > a",
+    "x": 509,
+    "y": 654,
+    "w": 182,
+    "h": 53,
+    "text": "actueel & achtergrond",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-umq2ll > li > a",
+    "x": 731,
+    "y": 654,
+    "w": 51,
+    "h": 53,
+    "text": "muziek",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-umq2ll > li > a",
+    "x": 822,
+    "y": 654,
+    "w": 45,
+    "h": 53,
+    "text": "sport",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-umq2ll > li > a",
+    "x": 907,
+    "y": 654,
+    "w": 99,
+    "h": 53,
+    "text": "zo werkt het",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-home",
+    "x": 152,
+    "y": 754,
+    "w": 14,
+    "h": 21,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-link",
+    "x": 192,
+    "y": 754,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 246,
+    "y": 754,
+    "w": 75,
+    "h": 21,
+    "label": "current",
+    "value": "tv-apps",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 246,
+    "y": 754,
+    "w": 75,
+    "h": 21,
+    "text": "Tv-apps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-col.mt-text > div.mt-copy > p",
+    "x": 347,
+    "y": 826,
+    "w": 747,
+    "h": 77,
+    "text": "Een serie bingen, muziek luisteren of een sportlesje in de woonkamer. Je gebruik"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#tvvideo > div.default-content-wrapper > h2#tv--video",
+    "x": 152,
+    "y": 996,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "tv & video"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#app",
+    "x": 165,
+    "y": 1067,
+    "w": 96,
+    "h": 28,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#app > strong",
+    "x": 165,
+    "y": 1065,
+    "w": 45,
+    "h": 30,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#informatie",
+    "x": 286,
+    "y": 1067,
+    "w": 989,
+    "h": 28,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#informatie > strong",
+    "x": 286,
+    "y": 1065,
+    "w": 113,
+    "h": 30,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1117,
+    "w": 96,
+    "h": 26,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1117,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 150 | Stream de beste films, series en documentaires bij Netflix. Abonnem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1166,
+    "w": 96,
+    "h": 26,
+    "text": "Videoland"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1166,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 151 | Stream films, series en documentaires van nationale en internationa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1214,
+    "w": 96,
+    "h": 26,
+    "text": "Disney+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1214,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 155 | Geniet van de nieuwste films & series en je favoriete klassiekers. "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1263,
+    "w": 96,
+    "h": 26,
+    "text": "SkyShowtime"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1263,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 157 | Beleef iconisch entertainment van wereldberoemde studio's"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1312,
+    "w": 96,
+    "h": 26,
+    "text": "HBO Max"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1312,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 156 | Stream iconische films en series bij HBO Max. Abonnement nodig."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1360,
+    "w": 96,
+    "h": 26,
+    "text": "YouTube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1360,
+    "w": 989,
+    "h": 26,
+    "text": "Van je favoriete muziekclips tot handige tutorials en van games tot het laatste "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1409,
+    "w": 96,
+    "h": 26,
+    "text": "NPO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1409,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 152 | Kijk je films, series, talkshows, docu’s, nieuws en meer van de NPO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1457,
+    "w": 96,
+    "h": 26,
+    "text": "NOS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1457,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 160 | Kijk naar alle livestreams en kies zelf welke sport- of nieuwsstrea"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1506,
+    "w": 96,
+    "h": 26,
+    "text": "Prime Video"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1506,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 153 | Bekroonde Amazon Originals én exclusieve films en series kijk je ge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1555,
+    "w": 96,
+    "h": 26,
+    "text": "CANAL+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1555,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 158 | Geniet van awardwinnende films en Europese series die je niet losla"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1603,
+    "w": 96,
+    "h": 26,
+    "text": "Apple TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1603,
+    "w": 989,
+    "h": 51,
+    "text": "Kanaal 159 | Je fantasie komt tot leven bij Apple TV met bekroonde Apple Origina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1677,
+    "w": 96,
+    "h": 26,
+    "text": "KIJK"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1677,
+    "w": 989,
+    "h": 26,
+    "text": "Is het gratis on-demand videoplatform van Talpa Network."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1726,
+    "w": 96,
+    "h": 26,
+    "text": "Hayu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1726,
+    "w": 989,
+    "h": 26,
+    "text": "Met Hayu heb je keuze uit meer dan 250 reality-programma’s."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1775,
+    "w": 96,
+    "h": 26,
+    "text": "Cinetree"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1775,
+    "w": 989,
+    "h": 26,
+    "text": "Films die langer bijblijven dan dat ze duren, dát is Cinetree."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1823,
+    "w": 96,
+    "h": 26,
+    "text": "MuseumTV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1823,
+    "w": 989,
+    "h": 26,
+    "text": "MuseumTV is hét videoplatform dat kunst, cultuur en design tot leven brengt. Met"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1872,
+    "w": 96,
+    "h": 26,
+    "text": "TV Française"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1872,
+    "w": 989,
+    "h": 26,
+    "text": "Kijk je graag Franse televisie? Dan is deze app wat voor jou."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1920,
+    "w": 96,
+    "h": 26,
+    "text": "TV Italiana"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1920,
+    "w": 989,
+    "h": 26,
+    "text": "Kijk je graag Italiaanse televisie? Dan is deze app wat voor jou."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 1969,
+    "w": 96,
+    "h": 26,
+    "text": "Film1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 1969,
+    "w": 989,
+    "h": 26,
+    "text": "Met de Film1-app kijk je de nieuwste films en klassiekers on demand, wanneer het"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2018,
+    "w": 96,
+    "h": 26,
+    "text": "Viaplay"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 2018,
+    "w": 989,
+    "h": 26,
+    "text": "Kanaal 154 | Live Formule 1, Bundesliga, en PDC Darts. En ook films en series wa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2066,
+    "w": 96,
+    "h": 26,
+    "text": "Haardvuur"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 2066,
+    "w": 989,
+    "h": 51,
+    "text": "Maak het thuis gezellig met een haardvuur op tv! Deze warme app brengt romantiek"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2140,
+    "w": 96,
+    "h": 51,
+    "text": "Mood Lounge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 2140,
+    "w": 989,
+    "h": 26,
+    "text": "Gezellig voor de haard? Relaxen met een zen-video? Mood Lounge heeft altijd een "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2214,
+    "w": 96,
+    "h": 26,
+    "text": "ShortsTV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 286,
+    "y": 2214,
+    "w": 989,
+    "h": 26,
+    "text": "Met de ShortsTV app kijk je korte films wanneer je dat wilt."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 152,
+    "y": 2272,
+    "w": 453,
+    "h": 13,
+    "text": "*Deze tv app is alleen beschikbaar op de Mediabox Next en de Next Mini."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#actueel > div.default-content-wrapper > h2#actueel--achtergrond",
+    "x": 152,
+    "y": 2383,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "actueel & achtergrond"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#app-1",
+    "x": 165,
+    "y": 2454,
+    "w": 94,
+    "h": 28,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#app-1 > strong",
+    "x": 165,
+    "y": 2452,
+    "w": 45,
+    "h": 30,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#informatie-1",
+    "x": 284,
+    "y": 2454,
+    "w": 991,
+    "h": 28,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#informatie-1 > strong",
+    "x": 284,
+    "y": 2452,
+    "w": 113,
+    "h": 30,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2505,
+    "w": 94,
+    "h": 26,
+    "text": "Buienradar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 284,
+    "y": 2505,
+    "w": 991,
+    "h": 26,
+    "text": "Nooit meer verrast worden door een regenbui? Check dan de Buienradar-app."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2554,
+    "w": 94,
+    "h": 26,
+    "text": "France 24"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 284,
+    "y": 2554,
+    "w": 991,
+    "h": 26,
+    "text": "App van de Franse nieuwszender France 24. France 24 verslaat het nieuws in vier "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#muziek > div.default-content-wrapper > h2#muziek",
+    "x": 152,
+    "y": 2684,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "muziek"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#app-2",
+    "x": 165,
+    "y": 2755,
+    "w": 146,
+    "h": 28,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#app-2 > strong",
+    "x": 165,
+    "y": 2753,
+    "w": 45,
+    "h": 30,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#informatie-2",
+    "x": 336,
+    "y": 2755,
+    "w": 939,
+    "h": 28,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#informatie-2 > strong",
+    "x": 336,
+    "y": 2753,
+    "w": 113,
+    "h": 30,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2806,
+    "w": 146,
+    "h": 26,
+    "text": "XITE Music Videos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 336,
+    "y": 2806,
+    "w": 939,
+    "h": 26,
+    "text": "De nieuwe manier om muziekvideo’s te bekijken. Kies uit themakanalen of maak je "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2854,
+    "w": 146,
+    "h": 26,
+    "text": "XITE Music"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 336,
+    "y": 2854,
+    "w": 939,
+    "h": 26,
+    "text": "40 verschillende radiokanalen met elk een eigen thema, alleen bij Ziggo. Van kla"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 2903,
+    "w": 146,
+    "h": 26,
+    "text": "Dance TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 336,
+    "y": 2903,
+    "w": 939,
+    "h": 26,
+    "text": "DanceTelevision brengt de wereld van elektronische muziek rechtstreeks naar je h"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#sport > div.default-content-wrapper > h2#sport",
+    "x": 152,
+    "y": 3033,
+    "w": 1136,
+    "h": 43,
+    "level": 2,
+    "text": "sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#app-3",
+    "x": 165,
+    "y": 3104,
+    "w": 164,
+    "h": 28,
+    "level": 3,
+    "text": "app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#app-3 > strong",
+    "x": 165,
+    "y": 3102,
+    "w": 45,
+    "h": 30,
+    "text": "App"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > h3#informatie-3",
+    "x": 354,
+    "y": 3104,
+    "w": 921,
+    "h": 28,
+    "level": 3,
+    "text": "informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "td > h3#informatie-3 > strong",
+    "x": 354,
+    "y": 3102,
+    "w": 113,
+    "h": 30,
+    "text": "Informatie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 165,
+    "y": 3155,
+    "w": 164,
+    "h": 26,
+    "text": "Fit at Home"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 354,
+    "y": 3155,
+    "w": 921,
+    "h": 26,
+    "text": "Thuis-fitness app met bekende sterren uit Nederland. Abonnement nodig."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-eyebrow > p",
+    "x": 347,
+    "y": 3280,
+    "w": 747,
+    "h": 22,
+    "text": "Zo werkt het"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-title > h2#naar-je-favoriete-tv-apps",
+    "x": 347,
+    "y": 3310,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "naar je favoriete tv apps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-lead > p",
+    "x": 347,
+    "y": 3361,
+    "w": 747,
+    "h": 22,
+    "text": "Start je apps in het tv-menu, met stembesturing op je afstandsbediening of via h"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-img > picture > img",
+    "x": 153,
+    "y": 3449,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "media_168915e0c986346c95bc611aee7b3c8333"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-card-title > h3#in-het-tv-menu",
+    "x": 169,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "in het tv-menu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-text > p",
+    "x": 169,
+    "y": 3708,
+    "w": 323,
+    "h": 109,
+    "text": "Snel naar je TV apps? Druk op het huis-icoontje en kies in het menu 'TV APPS'. H"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p > a",
+    "x": 231,
+    "y": 3831,
+    "w": 200,
+    "h": 13,
+    "text": "hulp bij apps op de mediabox",
+    "href": "/klantenservice/televisie-radio/apps-op-mediabox"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-img > picture > img",
+    "x": 542,
+    "y": 3449,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "media_19cebfdfdaf946a5ee23b5c97d4c719483"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-card-title > h3#met-stembesturing",
+    "x": 558,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "met stembesturing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-text > p",
+    "x": 558,
+    "y": 3708,
+    "w": 323,
+    "h": 109,
+    "text": "Heb je de nieuwste afstandsbediening met stembesturing? Druk dan op het microfoo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p > a",
+    "x": 633,
+    "y": 3831,
+    "w": 174,
+    "h": 13,
+    "text": "meer over stembesturing",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-img > picture > img",
+    "x": 932,
+    "y": 3449,
+    "w": 355,
+    "h": 200,
+    "text": "",
+    "file": "media_193756430eb75c9d566822b3784be1f5a1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-card-title > h3#via-het-tv-kanaal",
+    "x": 948,
+    "y": 3673,
+    "w": 323,
+    "h": 28,
+    "level": 3,
+    "text": "via het tv-kanaal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-text > p",
+    "x": 948,
+    "y": 3708,
+    "w": 323,
+    "h": 109,
+    "text": "Sommige apps hebben zelfs een eigen kanaal, handig hè? Zo vind je bijvoorbeeld N"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p > a",
+    "x": 1022,
+    "y": 3831,
+    "w": 175,
+    "h": 13,
+    "text": "naar het zenderoverzicht",
+    "href": "/televisie/zenderoverzicht"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 611,
+    "y": 3906,
+    "w": 218,
+    "h": 13,
+    "text": "hulp bij apps op de mediabox xl",
+    "href": "/klantenservice/televisie-radio/apps-op-mediabox"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-img > picture > img",
+    "x": 736,
+    "y": 4010,
+    "w": 552,
+    "h": 311,
+    "text": "",
+    "file": "media_1f055c9fa6bc6d41c7ab48a41944ac65ef"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-title > h2#extra-zenders--streamingdiensten",
+    "x": 152,
+    "y": 4048,
+    "w": 552,
+    "h": 86,
+    "level": 2,
+    "text": "extra zenders & streamingdiensten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-sub > p",
+    "x": 152,
+    "y": 4151,
+    "w": 552,
+    "h": 51,
+    "text": "De beste streamingdiensten bestel je direct bij Ziggo. Handig, zo heb je het ove"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-ctas > p.button-wrapper > a.button.primary",
+    "x": 152,
+    "y": 4234,
+    "w": 142,
+    "h": 48,
+    "text": "ontdek het nu",
+    "href": "/televisie/extra-zenders-streamingdiensten"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#pakketten",
+    "x": 152,
+    "y": 4378,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4418,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4454,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4490,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4526,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4562,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4598,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#internet",
+    "x": 442,
+    "y": 4378,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4418,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4454,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4490,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4526,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4562,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4598,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4634,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4670,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4706,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#televisie",
+    "x": 732,
+    "y": 4378,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4418,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4454,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4490,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4526,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4562,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4598,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4634,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#bellen--overige",
+    "x": 1022,
+    "y": 4378,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4418,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4454,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4490,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4526,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4562,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4598,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4634,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4670,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4706,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4742,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 4806,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 260,
+    "y": 4806,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 402,
+    "y": 4806,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 542,
+    "y": 4806,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 646,
+    "y": 4806,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1012,
+    "y": 4834,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1072,
+    "y": 4834,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1132,
+    "y": 4834,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1192,
+    "y": 4834,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1252,
+    "y": 4834,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/tv-apps"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 4861,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 263,
+    "y": 4861,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 418,
+    "y": 4861,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 529,
+    "y": 4861,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 616,
+    "y": 4861,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 705,
+    "y": 4861,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 836,
+    "y": 4861,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 158,
+    "controls": 73,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "je favoriete tv apps op één plek",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "ervaar ziggo tv & streaming",
+   "variable": false,
+   "origin": {
+    "link": 9,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "tv & video",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "app",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "informatie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 45,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 45,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "actueel & achtergrond",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "app",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "informatie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "muziek",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "app",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "informatie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "sport",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "app",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "informatie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "naar je favoriete tv apps",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "in het tv-menu",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "met stembesturing",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "via het tv-kanaal",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "extra zenders & streamingdiensten",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 378,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 86,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 86,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 152,
+    "y": 283,
+    "w": 536,
+    "h": 73
+   },
+   {
+    "x": 152,
+    "y": 350,
+    "w": 306,
+    "h": 73
+   },
+   {
+    "x": 152,
+    "y": 431,
+    "w": 399,
+    "h": 28
+   },
+   {
+    "x": 394,
+    "y": 674,
+    "w": 75,
+    "h": 13
+   },
+   {
+    "x": 509,
+    "y": 674,
+    "w": 182,
+    "h": 13
+   },
+   {
+    "x": 731,
+    "y": 674,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 822,
+    "y": 674,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 907,
+    "y": 674,
+    "w": 99,
+    "h": 13
+   },
+   {
+    "x": 192,
+    "y": 766,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 766,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 385,
+    "y": 855,
+    "w": 670,
+    "h": 17
+   },
+   {
+    "x": 359,
+    "y": 884,
+    "w": 722,
+    "h": 17
+   },
+   {
+    "x": 467,
+    "y": 913,
+    "w": 507,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 981,
+    "w": 170,
+    "h": 47
+   },
+   {
+    "x": 166,
+    "y": 1055,
+    "w": 56,
+    "h": 37
+   },
+   {
+    "x": 387,
+    "y": 1055,
+    "w": 140,
+    "h": 37
+   },
+   {
+    "x": 166,
+    "y": 1130,
+    "w": 46,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1130,
+    "w": 637,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1179,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1179,
+    "w": 776,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1228,
+    "w": 56,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1228,
+    "w": 672,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1277,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1277,
+    "w": 505,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1326,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1326,
+    "w": 552,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1375,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1375,
+    "w": 602,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1424,
+    "w": 33,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1424,
+    "w": 543,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1473,
+    "w": 33,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1473,
+    "w": 723,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1522,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1522,
+    "w": 738,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1571,
+    "w": 62,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1571,
+    "w": 583,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1620,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1620,
+    "w": 841,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1644,
+    "w": 825,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1668,
+    "w": 137,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1717,
+    "w": 29,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1717,
+    "w": 413,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1766,
+    "w": 38,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1766,
+    "w": 432,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1815,
+    "w": 60,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1815,
+    "w": 412,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1864,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1864,
+    "w": 801,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1888,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1937,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1937,
+    "w": 415,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 1986,
+    "w": 77,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 1986,
+    "w": 437,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2035,
+    "w": 36,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2035,
+    "w": 651,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2084,
+    "w": 54,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2084,
+    "w": 736,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2133,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2133,
+    "w": 832,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2157,
+    "w": 360,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2206,
+    "w": 97,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2206,
+    "w": 696,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2255,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 387,
+    "y": 2255,
+    "w": 404,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2309,
+    "w": 513,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2350,
+    "w": 380,
+    "h": 47
+   },
+   {
+    "x": 166,
+    "y": 2424,
+    "w": 56,
+    "h": 37
+   },
+   {
+    "x": 419,
+    "y": 2424,
+    "w": 140,
+    "h": 37
+   },
+   {
+    "x": 166,
+    "y": 2498,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 419,
+    "y": 2498,
+    "w": 547,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2547,
+    "w": 71,
+    "h": 14
+   },
+   {
+    "x": 419,
+    "y": 2547,
+    "w": 798,
+    "h": 14
+   },
+   {
+    "x": 419,
+    "y": 2571,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2649,
+    "w": 121,
+    "h": 47
+   },
+   {
+    "x": 166,
+    "y": 2723,
+    "w": 56,
+    "h": 37
+   },
+   {
+    "x": 337,
+    "y": 2723,
+    "w": 140,
+    "h": 37
+   },
+   {
+    "x": 166,
+    "y": 2798,
+    "w": 130,
+    "h": 14
+   },
+   {
+    "x": 337,
+    "y": 2798,
+    "w": 804,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2847,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 337,
+    "y": 2847,
+    "w": 848,
+    "h": 14
+   },
+   {
+    "x": 166,
+    "y": 2896,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 337,
+    "y": 2896,
+    "w": 636,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2974,
+    "w": 94,
+    "h": 47
+   },
+   {
+    "x": 166,
+    "y": 3048,
+    "w": 56,
+    "h": 37
+   },
+   {
+    "x": 522,
+    "y": 3048,
+    "w": 140,
+    "h": 37
+   },
+   {
+    "x": 166,
+    "y": 3122,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 522,
+    "y": 3122,
+    "w": 519,
+    "h": 14
+   },
+   {
+    "x": 665,
+    "y": 3276,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 506,
+    "y": 3304,
+    "w": 429,
+    "h": 47
+   },
+   {
+    "x": 393,
+    "y": 3371,
+    "w": 653,
+    "h": 14
+   },
+   {
+    "x": 252,
+    "y": 3671,
+    "w": 156,
+    "h": 30
+   },
+   {
+    "x": 194,
+    "y": 3713,
+    "w": 273,
+    "h": 14
+   },
+   {
+    "x": 179,
+    "y": 3739,
+    "w": 303,
+    "h": 14
+   },
+   {
+    "x": 174,
+    "y": 3764,
+    "w": 313,
+    "h": 14
+   },
+   {
+    "x": 255,
+    "y": 3790,
+    "w": 152,
+    "h": 14
+   },
+   {
+    "x": 235,
+    "y": 3831,
+    "w": 212,
+    "h": 14
+   },
+   {
+    "x": 618,
+    "y": 3671,
+    "w": 204,
+    "h": 30
+   },
+   {
+    "x": 570,
+    "y": 3713,
+    "w": 301,
+    "h": 14
+   },
+   {
+    "x": 561,
+    "y": 3739,
+    "w": 319,
+    "h": 14
+   },
+   {
+    "x": 568,
+    "y": 3764,
+    "w": 303,
+    "h": 14
+   },
+   {
+    "x": 600,
+    "y": 3790,
+    "w": 241,
+    "h": 14
+   },
+   {
+    "x": 641,
+    "y": 3831,
+    "w": 179,
+    "h": 14
+   },
+   {
+    "x": 1016,
+    "y": 3671,
+    "w": 187,
+    "h": 30
+   },
+   {
+    "x": 973,
+    "y": 3713,
+    "w": 272,
+    "h": 14
+   },
+   {
+    "x": 962,
+    "y": 3739,
+    "w": 294,
+    "h": 14
+   },
+   {
+    "x": 950,
+    "y": 3764,
+    "w": 318,
+    "h": 14
+   },
+   {
+    "x": 999,
+    "y": 3790,
+    "w": 221,
+    "h": 14
+   },
+   {
+    "x": 1029,
+    "y": 3831,
+    "w": 181,
+    "h": 14
+   },
+   {
+    "x": 614,
+    "y": 3912,
+    "w": 234,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4029,
+    "w": 268,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 4072,
+    "w": 316,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 4125,
+    "w": 541,
+    "h": 18
+   },
+   {
+    "x": 152,
+    "y": 4157,
+    "w": 332,
+    "h": 18
+   },
+   {
+    "x": 176,
+    "y": 4230,
+    "w": 102,
+    "h": 14
+   },
+   {
+    "x": 1400,
+    "y": 657,
+    "w": 32,
+    "h": 9
+   },
+   {
+    "x": 1405,
+    "y": 711,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 152,
+    "y": 4373,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 4411,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4447,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4483,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4519,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4555,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4591,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 4373,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 4411,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4447,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4483,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4519,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4555,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4591,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4627,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4663,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4699,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 4373,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 4411,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4447,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4483,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4519,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4555,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4591,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4627,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 4373,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 4411,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4447,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4483,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4519,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4555,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4591,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4627,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4663,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4699,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4735,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4799,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4799,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 4799,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 4799,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 4799,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4853,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 4853,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 4853,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 4853,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 4853,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 4853,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 4853,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 1385,
+    "y": 978,
+    "w": 15,
+    "h": 25
+   },
+   {
+    "x": 1101,
+    "y": 981,
+    "w": 231,
+    "h": 30
+   },
+   {
+    "x": 1101,
+    "y": 1032,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 1140,
+    "y": 1032,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1131,
+    "w": 59,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1230,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1329,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1428,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 1243,
+    "y": 1428,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1527,
+    "w": 168,
+    "h": 13
+   },
+   {
+    "x": 1269,
+    "y": 1527,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1127,
+    "y": 1667,
+    "w": 97,
+    "h": 14
+   },
+   {
+    "x": 1101,
+    "y": 1729,
+    "w": 254,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1745,
+    "w": 198,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1761,
+    "w": 295,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1777,
+    "w": 70,
+    "h": 9
+   },
+   {
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9
+   },
+   {
+    "x": 1253,
+    "y": 1777,
+    "w": 3,
+    "h": 9
+   }
+  ],
+  "eds": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 377,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 90,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 90,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 1400,
+    "y": 657,
+    "w": 32,
+    "h": 9
+   },
+   {
+    "x": 1405,
+    "y": 710,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 152,
+    "y": 324,
+    "w": 493,
+    "h": 59
+   },
+   {
+    "x": 152,
+    "y": 378,
+    "w": 180,
+    "h": 59
+   },
+   {
+    "x": 152,
+    "y": 438,
+    "w": 399,
+    "h": 28
+   },
+   {
+    "x": 394,
+    "y": 674,
+    "w": 75,
+    "h": 13
+   },
+   {
+    "x": 509,
+    "y": 674,
+    "w": 182,
+    "h": 13
+   },
+   {
+    "x": 731,
+    "y": 674,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 822,
+    "y": 674,
+    "w": 45,
+    "h": 13
+   },
+   {
+    "x": 907,
+    "y": 674,
+    "w": 99,
+    "h": 13
+   },
+   {
+    "x": 192,
+    "y": 758,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 758,
+    "w": 51,
+    "h": 13
+   },
+   {
+    "x": 354,
+    "y": 831,
+    "w": 732,
+    "h": 14
+   },
+   {
+    "x": 356,
+    "y": 857,
+    "w": 728,
+    "h": 14
+   },
+   {
+    "x": 606,
+    "y": 882,
+    "w": 228,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 993,
+    "w": 170,
+    "h": 47
+   },
+   {
+    "x": 165,
+    "y": 1065,
+    "w": 45,
+    "h": 30
+   },
+   {
+    "x": 286,
+    "y": 1065,
+    "w": 113,
+    "h": 30
+   },
+   {
+    "x": 165,
+    "y": 1122,
+    "w": 46,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1122,
+    "w": 637,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1171,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1171,
+    "w": 776,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1219,
+    "w": 56,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1219,
+    "w": 672,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1268,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1268,
+    "w": 505,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1317,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1317,
+    "w": 549,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1365,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1365,
+    "w": 602,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1414,
+    "w": 33,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1414,
+    "w": 543,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1462,
+    "w": 33,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1462,
+    "w": 723,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1511,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1511,
+    "w": 735,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1560,
+    "w": 62,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1560,
+    "w": 583,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1608,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1608,
+    "w": 987,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1634,
+    "w": 820,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1682,
+    "w": 29,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1682,
+    "w": 410,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1731,
+    "w": 38,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1731,
+    "w": 432,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1780,
+    "w": 60,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1780,
+    "w": 412,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1828,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1828,
+    "w": 899,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1877,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1877,
+    "w": 415,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1925,
+    "w": 77,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1925,
+    "w": 437,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 1974,
+    "w": 36,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 1974,
+    "w": 651,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2023,
+    "w": 54,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 2023,
+    "w": 736,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2071,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 2071,
+    "w": 921,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 2097,
+    "w": 272,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2145,
+    "w": 41,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2171,
+    "w": 53,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 2145,
+    "w": 696,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2219,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 286,
+    "y": 2219,
+    "w": 404,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2272,
+    "w": 453,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 2380,
+    "w": 380,
+    "h": 47
+   },
+   {
+    "x": 165,
+    "y": 2452,
+    "w": 45,
+    "h": 30
+   },
+   {
+    "x": 284,
+    "y": 2452,
+    "w": 113,
+    "h": 30
+   },
+   {
+    "x": 165,
+    "y": 2510,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 284,
+    "y": 2510,
+    "w": 547,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2559,
+    "w": 71,
+    "h": 14
+   },
+   {
+    "x": 284,
+    "y": 2559,
+    "w": 859,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2681,
+    "w": 121,
+    "h": 47
+   },
+   {
+    "x": 165,
+    "y": 2753,
+    "w": 45,
+    "h": 30
+   },
+   {
+    "x": 336,
+    "y": 2753,
+    "w": 113,
+    "h": 30
+   },
+   {
+    "x": 165,
+    "y": 2811,
+    "w": 130,
+    "h": 14
+   },
+   {
+    "x": 336,
+    "y": 2811,
+    "w": 804,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2859,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 336,
+    "y": 2859,
+    "w": 848,
+    "h": 14
+   },
+   {
+    "x": 165,
+    "y": 2908,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 336,
+    "y": 2908,
+    "w": 636,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 3030,
+    "w": 94,
+    "h": 47
+   },
+   {
+    "x": 165,
+    "y": 3102,
+    "w": 45,
+    "h": 30
+   },
+   {
+    "x": 354,
+    "y": 3102,
+    "w": 113,
+    "h": 30
+   },
+   {
+    "x": 165,
+    "y": 3160,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 354,
+    "y": 3160,
+    "w": 519,
+    "h": 14
+   },
+   {
+    "x": 665,
+    "y": 3279,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 506,
+    "y": 3307,
+    "w": 429,
+    "h": 47
+   },
+   {
+    "x": 436,
+    "y": 3365,
+    "w": 569,
+    "h": 13
+   },
+   {
+    "x": 253,
+    "y": 3671,
+    "w": 156,
+    "h": 30
+   },
+   {
+    "x": 194,
+    "y": 3714,
+    "w": 273,
+    "h": 14
+   },
+   {
+    "x": 179,
+    "y": 3741,
+    "w": 303,
+    "h": 14
+   },
+   {
+    "x": 174,
+    "y": 3769,
+    "w": 313,
+    "h": 14
+   },
+   {
+    "x": 255,
+    "y": 3796,
+    "w": 152,
+    "h": 14
+   },
+   {
+    "x": 244,
+    "y": 3831,
+    "w": 187,
+    "h": 13
+   },
+   {
+    "x": 619,
+    "y": 3671,
+    "w": 201,
+    "h": 30
+   },
+   {
+    "x": 570,
+    "y": 3714,
+    "w": 301,
+    "h": 14
+   },
+   {
+    "x": 561,
+    "y": 3741,
+    "w": 319,
+    "h": 14
+   },
+   {
+    "x": 568,
+    "y": 3769,
+    "w": 303,
+    "h": 14
+   },
+   {
+    "x": 600,
+    "y": 3796,
+    "w": 241,
+    "h": 14
+   },
+   {
+    "x": 647,
+    "y": 3831,
+    "w": 160,
+    "h": 13
+   },
+   {
+    "x": 1018,
+    "y": 3671,
+    "w": 183,
+    "h": 30
+   },
+   {
+    "x": 973,
+    "y": 3714,
+    "w": 272,
+    "h": 14
+   },
+   {
+    "x": 962,
+    "y": 3741,
+    "w": 294,
+    "h": 14
+   },
+   {
+    "x": 950,
+    "y": 3769,
+    "w": 318,
+    "h": 14
+   },
+   {
+    "x": 999,
+    "y": 3796,
+    "w": 221,
+    "h": 14
+   },
+   {
+    "x": 1035,
+    "y": 3831,
+    "w": 162,
+    "h": 13
+   },
+   {
+    "x": 624,
+    "y": 3906,
+    "w": 205,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 4051,
+    "w": 277,
+    "h": 36
+   },
+   {
+    "x": 152,
+    "y": 4094,
+    "w": 339,
+    "h": 36
+   },
+   {
+    "x": 152,
+    "y": 4156,
+    "w": 530,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4182,
+    "w": 176,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4250,
+    "w": 102,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4380,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 4418,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4454,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4490,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4526,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4562,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4598,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 4380,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 4418,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4454,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4490,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4526,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4562,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4598,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4634,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4670,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4706,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 4380,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 4418,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4454,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4490,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4526,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4562,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4598,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4634,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 4380,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 4418,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4454,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4490,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4526,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4562,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4598,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4634,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4670,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4706,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4742,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4806,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4806,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 4806,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 4806,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 4806,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4861,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 4861,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 4861,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 4861,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 4861,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 4861,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 4861,
+    "w": 64,
+    "h": 14
+   }
+  ]
+ }
+}

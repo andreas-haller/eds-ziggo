@@ -1,0 +1,15 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.ziggo.nl/televisie/zenderoverzicht
+  shell     1600px  max-width #main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content  (tier 3, holds 98% of the text)
+  modules  3 sections: capped 1600 ×1, 318 ×1 · full-bleed ×1
+  contentMaxWidth 1600px (shell) · shellMaxWidth 1600px · root #main-content
+build  http://localhost:8791/televisie-zenderoverzicht-proposed.html
+  shell     1600px  max-width #main-content > section.zo-sec.zo-sec--list > div.container.zo-sec__inner  (tier 2, holds 98% of the text)
+  modules  3 sections: capped 1600 ×1, 318 ×1 · full-bleed ×1
+  contentMaxWidth 1600px (shell) · shellMaxWidth 1600px · root #main-content
+rows
+  ✓ wrapper cap: live 1600px = build 1600px (±20)
+  ✓ module 1/3: full-bleed on both
+  ✓ module 2/3: 318px = 318px
+  ✓ module 3/3: 1600px = 1600px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/televisie-zenderoverzicht-2560/cap-iter.json)

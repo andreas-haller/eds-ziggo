@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T12:29:55.025Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T12:34:08.669Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T12:40:38.038Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 aligned 1.99% failed only the offset bound (16 alternating ±1px sub-pixel steps, net 0); phase fixes after the cap verified standalone: gate-all prototype --only alles-in-1 @360 PASS 0.83% aligned, 8px offsets, Δh 0, units ok — stardust/replica/gates/prototypes-360/runs",
+          "at": "2026-11-25T13:04:51.441Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T17:47:53.259Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T17:56:43.497Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub2 pixel aligned 1.14% PASS (Δh 0px, 4 offsets 4px), clipped 0, no overflow, units off 0; gate-all row PASS; nothing-lost 0; residual 131 🔴 all [header]/[footer] frozen chrome icon glyphs + chrome-parity 1 header delta (foundation, same on /index and /televisie/voicecontrol), 0 🔴 in main",
+          "at": "2026-11-25T18:04:57.641Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T18-02-18-877Z",
+          "at": "2026-11-25T18:04:41.182Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:18:45.879Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:48:55.990Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

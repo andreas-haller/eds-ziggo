@@ -1,0 +1,205 @@
+{
+  "a": "stardust/replica/gates/televisie-online-tv-kijken-1440/live.png",
+  "b": "stardust/replica/gates/televisie-online-tv-kijken-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4805,
+    "mode": "overlap"
+  },
+  "heightDelta": 371,
+  "differingPixels": 1533813,
+  "pct": 22.17,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub4.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 22.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 28.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 35.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 32.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 54.7
+    },
+    {
+      "y0": 4500,
+      "y1": 4805,
+      "pct": 33.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 11.53,
+    "differingPixels": 860926,
+    "compared": {
+      "width": 1440,
+      "height": 5184,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1643,
+        "shift": -88,
+        "cumulative": -88
+      },
+      {
+        "y": 2176,
+        "shift": -57,
+        "cumulative": -145
+      },
+      {
+        "y": 2630,
+        "shift": -40,
+        "cumulative": -185
+      },
+      {
+        "y": 3100,
+        "shift": -125,
+        "cumulative": -310
+      },
+      {
+        "y": 3525,
+        "shift": -29,
+        "cumulative": -339
+      },
+      {
+        "y": 4033,
+        "shift": 7,
+        "cumulative": -332
+      },
+      {
+        "y": 4523,
+        "shift": -40,
+        "cumulative": -372
+      },
+      {
+        "y": 5071,
+        "shift": 1,
+        "cumulative": -371
+      }
+    ],
+    "maxOffset": 372,
+    "totalShift": 387,
+    "insertedRows": 8,
+    "deletedRows": 379,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.5,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 20.2,
+        "unaligned": 22.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 15.4,
+        "unaligned": 28.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 10.9,
+        "unaligned": 7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 31.4,
+        "unaligned": 35.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 19.4,
+        "unaligned": 32.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 2,
+        "unaligned": 54.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 8,
+        "unaligned": null
+      },
+      {
+        "y0": 5000,
+        "y1": 5176,
+        "pct": 0.6,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub4-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 52,
+    "totalShift": 387,
+    "pass": false
+  },
+  "reason": "pixel aligned 11.53% (unaligned 22.17%) > 10%"
+}

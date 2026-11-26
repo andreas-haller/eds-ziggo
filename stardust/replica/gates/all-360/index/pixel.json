@@ -1,0 +1,443 @@
+{
+  "a": "stardust/replica/gates/all-360/index/origin.png",
+  "b": "stardust/replica/gates/all-360/index/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7474,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 76621,
+  "pct": 2.99,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/index/diff.png",
+  "masks": [
+    {
+      "yA": 5292,
+      "h": 356,
+      "yB": 5292
+    }
+  ],
+  "maskedRows": 356,
+  "textPct": 2.25,
+  "textBoxes": 165,
+  "textPixels": 301217,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 4.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 25.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 2.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7474,
+      "pct": 0.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.73,
+    "differingPixels": 69905,
+    "compared": {
+      "width": 360,
+      "height": 7120,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1875,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2506,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 6489,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7033,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 4,
+    "insertedRows": 2,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.4,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.3,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 8.1,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 36.8,
+        "unaligned": 25.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.2,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7474,
+        "pct": 0.2,
+        "unaligned": 0.4
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/index/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 75,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 2.53%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/",
+      "source": "https://www.ziggo.nl/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "f236c96bd6dac928",
+      "options": "b71dd47f0a2a639f",
+      "reference": "65f51420a9fd4c6e",
+      "archetype": "765cd98fbd1d5d02",
+      "captures": "435479d50d83c10a",
+      "instruments": "700566dc6f7774a4",
+      "page content": "b3b230761e794c2c",
+      "shared code": "933bef04481b01be",
+      "block article-carousel": "812f123823fea39a",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block media-carousel": "5516c9be41e7f6f6",
+      "block one-band": "bfb8014a0871eaa4",
+      "block plan-cards": "3e1b6add29ba0b90",
+      "block priority-band": "a577d36258ef84a8",
+      "block swimming-lane": "2eae491feaad2b1b",
+      "block toptask-tiles": "23d8361950e8b56b"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 1,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 1,
+          "missingButtons": 17,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 5,
+          "findings": 24,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 12,
+          "offPage": 141,
+          "textNodes": 268,
+          "controls": 216,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 2,
+            "clipper": "li.mslide",
+            "path": "li.mslide > div.mslide-link > p > a",
+            "text": "skyshowtime bij ziggo",
+            "cutMin": 242,
+            "cutMax": 243
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 2,
+            "clipper": "li.lane-card",
+            "path": "div.lane-rail > ul.lane-strip > li.lane-card > a.lane-link",
+            "text": "bekijk meer over curse of skinwalker ranch | seizoen 7 bekij",
+            "cutMin": 200,
+            "cutMax": 200
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+            "text": "wifi die werkt",
+            "cutMin": 161,
+            "cutMax": 161
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-title > h3#wifi-die-werkt",
+            "text": "wifi die werkt",
+            "cutMin": 59,
+            "cutMax": 59
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+            "text": "altijd wifi die werkt. gegarandeerd.",
+            "cutMin": 84,
+            "cutMax": 84
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "li.mslide",
+            "path": "div.mslide-content > div.mslide-text > div.mslide-title > h3#uefa-europees-voetbal",
+            "text": "uefa europees voetbal",
+            "cutMin": 204,
+            "cutMax": 204
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "li.mslide",
+            "path": "div.mslide-content > div.mslide-text > div.mslide-sub > p",
+            "text": "beleef je bij ziggo sport",
+            "cutMin": 163,
+            "cutMax": 163
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "li.mslide",
+            "path": "div.mslide-content > div.mslide-cta > p.button-wrapper > a.button.accent",
+            "text": "ontdek sport ontdek sport",
+            "cutMin": 161,
+            "cutMax": 161
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.acar",
+            "path": "div.acar > ul.acar-track > li.acard > a.acard-link",
+            "text": "voorrang bij tickets",
+            "cutMin": 182,
+            "cutMax": 182
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.acar",
+            "path": "ul.acar-track > li.acard > div.acard-title > h3#voorrang-bij-tickets",
+            "text": "voorrang bij tickets",
+            "cutMin": 92,
+            "cutMax": 92
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 14,
+          "offPage": 143,
+          "textNodes": 172,
+          "controls": 236,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 11,
+          "within": 64,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-26T03:49:46.593Z"
+  }
+}

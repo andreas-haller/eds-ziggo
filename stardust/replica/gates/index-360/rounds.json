@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T11:13:24.179Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T11:16:31.816Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T11:19:52.454Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3: pixel 2.53% aligned PASS, offsets 4px, Δh 0, content-diff 0 red/0 nothing-lost, Clipped 0; unit-geometry tile-container element fixed after cap and verified in units-standalone-post-iter3.txt (0 missing; desktop-only footer family removed); chrome-parity residual: logo file signature ziggo-logo-orange-v1 vs ziggo-logo-orange-v1.svg (same SVG, extension needed to serve); Priority video band 5500-6000 26% (unharvestable stream).",
+          "at": "2026-11-25T11:30:25.631Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T16:20:33.935Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T16:28:13.546Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T17:04:32.886Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3 pixel aligned 2.73% PASS, Δh 0px, clipped 0, no overflow; hot band 5500-6000 = live priority-band autoplay video (volatile); content-diff main residual 75 ICON DIFF lane logos (marquee signature drift, same files) + 2 live broken logo; header 127 + footer 4 🔴 frozen chrome icon class (foundation request); chrome-parity header logo filename signature (frozen); nothing-lost 0",
+          "at": "2026-11-25T17:05:00.719Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T17-15-49-097Z",
+          "at": "2026-11-25T17:17:36.110Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T01-01-06-954Z",
+          "at": "2026-11-26T01:02:07.432Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:20:31.649Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:49:46.566Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

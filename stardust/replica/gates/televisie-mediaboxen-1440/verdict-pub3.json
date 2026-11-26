@@ -1,0 +1,81 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-mediaboxen-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-mediaboxen-1440/pixel-pub3.json",
+    "pct": 5.81,
+    "alignedPct": 4.27,
+    "alignedUsed": true,
+    "totalShift": 35,
+    "steps": [
+      {
+        "y": 755,
+        "shift": 4,
+        "cumulative": 4
+      },
+      {
+        "y": 941,
+        "shift": 8,
+        "cumulative": 12
+      },
+      {
+        "y": 1893,
+        "shift": -15,
+        "cumulative": -3
+      },
+      {
+        "y": 2331,
+        "shift": -7,
+        "cumulative": -10
+      },
+      {
+        "y": 2846,
+        "shift": 1,
+        "cumulative": -9
+      }
+    ],
+    "offsetBound": 30,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 5 step(s), 35px total — +4px at y=755, +8px at y=941, −15px at y=1893, −7px at y=2331, +1px at y=2846 (bound 30px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:56:05.745Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:37:25.277Z"
+}

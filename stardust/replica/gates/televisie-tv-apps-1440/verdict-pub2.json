@@ -1,0 +1,81 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-tv-apps-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-tv-apps-1440/pixel-pub2.json",
+    "pct": 10.61,
+    "alignedPct": 5.47,
+    "alignedUsed": true,
+    "totalShift": 83,
+    "steps": [
+      {
+        "y": 3326,
+        "shift": -40,
+        "cumulative": -40
+      },
+      {
+        "y": 3797,
+        "shift": -23,
+        "cumulative": -63
+      },
+      {
+        "y": 4146,
+        "shift": -14,
+        "cumulative": -77
+      },
+      {
+        "y": 4329,
+        "shift": -5,
+        "cumulative": -82
+      },
+      {
+        "y": 4815,
+        "shift": 1,
+        "cumulative": -81
+      }
+    ],
+    "offsetBound": 49,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 5 step(s), 83px total — −40px at y=3326, −23px at y=3797, −14px at y=4146, −5px at y=4329, +1px at y=4815 (bound 49px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T00:05:24.454Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/units-pub2.txt"
+    }
+  },
+  "structural": 138,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:22:42.287Z"
+}

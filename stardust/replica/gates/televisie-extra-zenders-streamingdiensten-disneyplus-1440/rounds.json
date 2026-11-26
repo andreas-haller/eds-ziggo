@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T19:01:20.847Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T19:10:48.043Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T19:30:32.538Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 4.21% offsets 52px in bound, clipped 0, no overflow, content-presence MISSING 0/HIDDEN 0; gate-all 1440 PASS 4.21% after 7ae2f83; residual = nothing-lost 1: build-only title attributes on links (frozen foundation header + pipeline link titles; foundation request filed), MISSING BODY tier rows are a classifier artefact (label/value split; content-presence band 12 text 7/7), source empty interactions nav aria-label 'Interacties', 131 header/footer icon class (foundation request filed by archetype-landing)",
+          "at": "2026-11-25T19:56:22.491Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T19-51-55-899Z",
+          "at": "2026-11-25T19:53:58.855Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:04:08.374Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:57:23.282Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

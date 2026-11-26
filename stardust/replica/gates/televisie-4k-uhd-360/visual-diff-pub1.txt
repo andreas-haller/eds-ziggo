@@ -1,0 +1,698 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/televisie-4k-uhd-360/vdiff-pub1/
+
+build red flags (advisory): 
+  • HEADING FACE: <h3> "Films, series en zenders in 4K-b" is 18.496px Ziggo Headline in build vs 20.256px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "TV apps zoals Netflix in 4K-beel" is 18.496px Ziggo Headline in build vs 20.256px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "ESPN Premium in UHD" is 18.496px Ziggo Headline in build vs 20.256px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 7685,
+  "textLen": 3878,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_header60_Ziggo_B2C_4K_UHD_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x270",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_Films_4K_UHD_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x226_article_B2C_Ziggo_steaming_blue_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ESPN_PakketvisualNEW?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_card_Ziggo_B2C_4K_UHD_Mockup_TV_transparent_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_devices_mockup_connection_transparent_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_card_B2C_Ziggo_NextMini_transparent_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_play?fmt=svg",
+    "natural": "24x24",
+    "rendered": "57x57",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_remote?fmt=svg",
+    "natural": "24x24",
+    "rendered": "57x57",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-on-demand-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "57x57",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=34440ebb-1925-45ff-82e6-cf64b0ec9c6b&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=4K%20Ultra%20HD%20TV%20kijken%3A%20haarscherpe%20beeldkwaliteit%20%7C%20Ziggo&kw=4K,%204k,%204k%20tv,%204K%20tv,%204k%20kijken,%20next%204k,%20EK%204K,%20EK%20in%204K,%20EK,%20ek%20ziggo,%20ek%204k%20ziggo,%20ek%20ziggo,%204K%20UHD,%20Ultra%20HD,%20UHD,%204k-UHD&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2F4k-uhd&r=&lt=1818&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=493092",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2F4k-uhd&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "4K UHD tv-kijken",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Live sport, films en series in 4",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Een intensere kijkervaring",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wat kan ik in 4K en UHD kijken?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Films, series en zenders in 4K-b",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV apps zoals Netflix in 4K-beel",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium in UHD",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zo kijk je in de beste beeldkwal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "4K UHD televisie",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet & TV van Ziggo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mediabox Next, Next Mini of CI+",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tip: sluit je Mediabox Next of N",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wat past bij jou?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies je tv-pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Alles over Ziggo TV",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Haal meer uit je mediabox",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "SkyShowtime bij Ziggo",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Navigeer naar ...",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-grouping__content-details",
+    "width": 286,
+    "left": 37
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 7964,
+  "textLen": 3954,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c97053c21eceae349862ccdd639df91378e126f.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_173730ef5f71b9d3986ed1e078e8146c799aa4677.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a675c84dc69f56b8975d82e45c85240772b2f404.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b97c514074951b630c74311eb59b1563b86aad30.webp?width=750&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e9f4551ab2554ceb437714cecccf7b4c16c08769.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x285",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ac759e1813744558305501c51fa92cc0cee92327.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1885c6fe82dd42b1723bfdc7775ba2d6a912c5b67.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f4b30e95be6222c864b2cf6ef5af560488dfcc9c.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fdabcbfedc1e4b124809dc045651f7430e920b04.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "80x80",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fdeef0d179782f0b47d8953d7ddb658c00809367.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "80x80",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_183c45f1d7e802841a6f2a9a1dccb26d0a4095265.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "80x80",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "4K UHD tv-kijken",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Live sport, films en series in 4",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Een intensere kijkervaring",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wat kan ik in 4K en UHD kijken?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Films, series en zenders in 4K-b",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV apps zoals Netflix in 4K-beel",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium in UHD",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zo kijk je in de beste beeldkwal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "4K UHD televisie",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet & TV van Ziggo",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mediabox Next, Next Mini of CI+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tip: sluit je Mediabox Next of N",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wat past bij jou?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies je tv-pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Alles over Ziggo TV",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Haal meer uit je mediabox",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "SkyShowtime bij Ziggo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Navigeer naar ...",
+    "color": "rgb(28, 31, 33)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "int-nav",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-img",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-sub",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "subnav-selected",
+    "width": 244,
+    "left": 40
+   },
+   {
+    "sel": "mt-copy",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-card-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-text",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-card-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-text",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-card-title",
+    "width": 320,
+    "left": 20
+   }
+  ]
+ }
+}

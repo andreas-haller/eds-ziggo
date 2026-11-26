@@ -1,0 +1,3444 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-26T04:16:09.148Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/zenders/star-channel",
+  "at": "2026-11-26T04:16:08.927Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2252,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor.vfz-audience-selector__anchor--active",
+    "x": 20,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor",
+    "x": 92,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-navbar > div.image.parbase > a.vfz-navbar__brand",
+    "x": 0,
+    "y": 61,
+    "w": 80,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.image.parbase > a.vfz-navbar__brand > img.vfz-navbar__brand-image",
+    "x": 14,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div.vfz-generic-navigation > button.vfz-menu-toggle.vfz-navbar-applications__button",
+    "x": 310,
+    "y": 40,
+    "w": 50,
+    "h": 72,
+    "text": "menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div.vfz-generic-navigation > button.vfz-menu-toggle.vfz-navbar-applications__button",
+    "x": 310,
+    "y": 40,
+    "w": 50,
+    "h": 72,
+    "label": "trigger",
+    "value": "menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item > a.vfz-navbar-applications__button",
+    "x": 111,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 183,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 183,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.vfz-navbar-applications__item > div.vfz-navigation-search--chat-eligible > button.vfz-navbar-applications__button",
+    "x": 255,
+    "y": 40,
+    "w": 55,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h1.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 20,
+    "y": 223,
+    "w": 320,
+    "h": 32,
+    "level": 1,
+    "text": "star channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 20,
+    "y": 262,
+    "w": 320,
+    "h": 25,
+    "level": 2,
+    "text": "dé nummer één seriezender"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.vfz-text--branded > i",
+    "x": 20,
+    "y": 823,
+    "w": 295,
+    "h": 46,
+    "text": "Volg bij STAR Channel de beste actie, drama, horror en komedie series."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 20,
+    "y": 892,
+    "w": 320,
+    "h": 128,
+    "text": "Internationale hitseries van toonaangevende studio’s zoals \"Hudson & Rex\", \"Belo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 20,
+    "y": 1036,
+    "w": 320,
+    "h": 26,
+    "text": "STAR Channel vind je op kanaal 11."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-image > img.nonprogressive-image.mv-100",
+    "x": 91,
+    "y": 403,
+    "w": 178,
+    "h": 100,
+    "text": "",
+    "file": "011_star_channel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-details-short > div.ze-channel-details-short__number",
+    "x": 116,
+    "y": 524,
+    "w": 77,
+    "h": 16,
+    "text": "Kanaal 011"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-details > div.ze-channel-details__header",
+    "x": 46,
+    "y": 577,
+    "w": 268,
+    "h": 24,
+    "text": "Onderdeel van:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-details > p.ze-channel-details__package-info > span",
+    "x": 46,
+    "y": 601,
+    "w": 64,
+    "h": 26,
+    "text": "Kabel TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-details > p.ze-channel-details__package-info > span",
+    "x": 117,
+    "y": 601,
+    "w": 89,
+    "h": 26,
+    "text": "TV Standard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-details > div.ze-channel-details__header",
+    "x": 46,
+    "y": 643,
+    "w": 268,
+    "h": 24,
+    "text": "Zenderopties:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-details > p.ze-channel-details__tags > span",
+    "x": 76,
+    "y": 667,
+    "w": 67,
+    "h": 26,
+    "text": "Ziggo GO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-details > p.ze-channel-details__tags > span",
+    "x": 150,
+    "y": 667,
+    "w": 70,
+    "h": 26,
+    "text": "Tv Zender"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-details > p.ze-channel-details__tags > span",
+    "x": 227,
+    "y": 667,
+    "w": 73,
+    "h": 26,
+    "text": "Replay TV"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-info-links > a.d-block.ze-channel-info-links__item",
+    "x": 46,
+    "y": 716,
+    "w": 268,
+    "h": 24,
+    "text": "live tv-kijken op ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ze-channel-info-block > div.ze-channel-info-links > a.d-block.ze-channel-info-links__item",
+    "x": 46,
+    "y": 748,
+    "w": 268,
+    "h": 24,
+    "text": "meer over digitale televisie",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.justify-content-center > div > a.social-component__button.facebook",
+    "x": 95,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "navigeer naar facebook",
+    "href": "/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.justify-content-center > div > a.social-component__button.linkedin",
+    "x": 138,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "navigeer naar linkedin",
+    "href": "/shareArticle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.justify-content-center > div > a.social-component__button.mail",
+    "x": 182,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "open email",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.justify-content-center > div > a.d-sm-none.social-component__button",
+    "x": 225,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "open whatsapp",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.vfz-interactions-wrapper > nav.vfz-interactions.vfz-interactions--light > a.vfz-interactions-item.vfz-interactions-item--light",
+    "x": 2,
+    "y": 112,
+    "w": 356,
+    "h": 53,
+    "text": "chat",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "details.vfz-footer__links-column > summary.vfz-footer__links-title > h2.vfz-footer__title",
+    "x": 20,
+    "y": 1286,
+    "w": 80,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1322,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1354,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1386,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1418,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1450,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1482,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "details.vfz-footer__links-column > summary.vfz-footer__links-title > h2.vfz-footer__title",
+    "x": 20,
+    "y": 1346,
+    "w": 61,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1382,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1414,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1446,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1478,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1510,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1542,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1574,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1606,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1638,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "details.vfz-footer__links-column > summary.vfz-footer__links-title > h2.vfz-footer__title",
+    "x": 20,
+    "y": 1406,
+    "w": 67,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1442,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1474,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1506,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1538,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1570,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1602,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1634,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "details.vfz-footer__links-column > summary.vfz-footer__links-title > h2.vfz-footer__title",
+    "x": 20,
+    "y": 1466,
+    "w": 131,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1502,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1534,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1566,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1598,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1630,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1662,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1694,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1726,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1758,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 40,
+    "y": 1790,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1551,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1599,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1647,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1695,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1743,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 20,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 91,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 162,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 233,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 304,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1901,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1949,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 1997,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 2045,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 2093,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 2141,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 20,
+    "y": 2189,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 92,
+    "controls": 73,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/star-channel",
+  "at": "2026-11-26T04:15:45.516Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2252,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a.audience-a-active",
+    "x": 20,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a",
+    "x": 92,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > a.navbar-brand",
+    "x": 0,
+    "y": 61,
+    "w": 80,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.navbar-brand > span.icon.icon-ziggo-logo-orange-v1 > img",
+    "x": 14,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-mail",
+    "x": 111,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 183,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 183,
+    "y": 40,
+    "w": 72,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > button.app.app-search",
+    "x": 255,
+    "y": 40,
+    "w": 55,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > button.app.app-menu",
+    "x": 310,
+    "y": 40,
+    "w": 50,
+    "h": 72,
+    "text": "menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > button.app.app-menu",
+    "x": 310,
+    "y": 40,
+    "w": 50,
+    "h": 72,
+    "label": "trigger",
+    "value": "menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.interactions.block > nav.int-nav > a.int-item",
+    "x": 2,
+    "y": 112,
+    "w": 356,
+    "h": 53,
+    "text": "chat",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-title > h1#star-channel",
+    "x": 20,
+    "y": 223,
+    "w": 320,
+    "h": 32,
+    "level": 1,
+    "text": "star channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-sub > h2#dé-nummer-één-seriezender",
+    "x": 20,
+    "y": 262,
+    "w": 320,
+    "h": 25,
+    "level": 2,
+    "text": "dé nummer één seriezender"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 20,
+    "y": 823,
+    "w": 295,
+    "h": 46,
+    "text": "Volg bij STAR Channel de beste actie, drama, horror en komedie series."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.channel-info-card-container > div.default-content-wrapper > p",
+    "x": 20,
+    "y": 892,
+    "w": 320,
+    "h": 128,
+    "text": "Internationale hitseries van toonaangevende studio’s zoals \"Hudson & Rex\", \"Belo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.channel-info-card-container > div.default-content-wrapper > p",
+    "x": 20,
+    "y": 1036,
+    "w": 320,
+    "h": 26,
+    "text": "STAR Channel vind je op kanaal 11."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-image > picture > img",
+    "x": 91,
+    "y": 403,
+    "w": 178,
+    "h": 100,
+    "text": "",
+    "file": "media_16cf65c23136579ad930797f1e79edd795"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-short > div.cic-number > p",
+    "x": 116,
+    "y": 524,
+    "w": 77,
+    "h": 16,
+    "text": "Kanaal 011"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-details > div.cic-header > p",
+    "x": 46,
+    "y": 577,
+    "w": 268,
+    "h": 24,
+    "text": "Onderdeel van:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-body > ul.cic-list > li",
+    "x": 46,
+    "y": 601,
+    "w": 70,
+    "h": 26,
+    "text": "Kabel TV"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-body > ul.cic-list > li",
+    "x": 116,
+    "y": 601,
+    "w": 89,
+    "h": 26,
+    "text": "TV Standard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-details > div.cic-header > p",
+    "x": 46,
+    "y": 643,
+    "w": 268,
+    "h": 24,
+    "text": "Zenderopties:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-body > ul.cic-list > li",
+    "x": 75,
+    "y": 667,
+    "w": 74,
+    "h": 26,
+    "text": "Ziggo GO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-body > ul.cic-list > li",
+    "x": 149,
+    "y": 667,
+    "w": 76,
+    "h": 26,
+    "text": "Tv Zender"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cic-body > ul.cic-list > li",
+    "x": 225,
+    "y": 667,
+    "w": 73,
+    "h": 26,
+    "text": "Replay TV"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a.cic-link",
+    "x": 46,
+    "y": 716,
+    "w": 268,
+    "h": 24,
+    "text": "live tv-kijken op ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a.cic-link",
+    "x": 46,
+    "y": 748,
+    "w": 268,
+    "h": 24,
+    "text": "meer over digitale televisie",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-row > p > a.share-btn.share-btn-facebook",
+    "x": 95,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "navigeer naar facebook",
+    "href": "/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-row > p > a.share-btn.share-btn-linkedin",
+    "x": 138,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "navigeer naar linkedin",
+    "href": "/shareArticle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-row > p > a.share-btn.share-btn-mail",
+    "x": 182,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "open email",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-row > p > a.share-btn.share-btn-whatsapp",
+    "x": 225,
+    "y": 1157,
+    "w": 40,
+    "h": 40,
+    "text": "open whatsapp",
+    "href": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > div.fcol-title > h2#pakketten",
+    "x": 20,
+    "y": 1285,
+    "w": 80,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1321,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1353,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1385,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1417,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1449,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1481,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > div.fcol-title > h2#internet",
+    "x": 20,
+    "y": 1345,
+    "w": 61,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1381,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1413,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1445,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1477,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1509,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1541,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1573,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1605,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1637,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > div.fcol-title > h2#televisie",
+    "x": 20,
+    "y": 1405,
+    "w": 67,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1441,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1473,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1505,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1537,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1569,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1601,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1633,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > div.fcol-title > h2#bellen--overige",
+    "x": 20,
+    "y": 1465,
+    "w": 131,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1501,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1533,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1565,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1597,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1629,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1661,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1693,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1725,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1757,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 40,
+    "y": 1789,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1550,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1598,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1646,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1694,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1742,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 91,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 162,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 233,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 304,
+    "y": 1822,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/zenders/star-channel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1901,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1949,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 1997,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2045,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2093,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2141,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2189,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 75,
+    "controls": 67,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "star channel",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "dé nummer één seriezender",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 11,
+    "image": 1
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 40,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 112,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 320,
+    "y": 86,
+    "w": 30,
+    "h": 10
+   },
+   {
+    "x": 119,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 191,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 263,
+    "y": 86,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 20,
+    "y": 221,
+    "w": 178,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 264,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 823,
+    "w": 295,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 852,
+    "w": 259,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 897,
+    "w": 317,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 922,
+    "w": 304,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 948,
+    "w": 304,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 974,
+    "w": 313,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 999,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1041,
+    "w": 244,
+    "h": 14
+   },
+   {
+    "x": 116,
+    "y": 525,
+    "w": 77,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 582,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 606,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 110,
+    "y": 606,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 117,
+    "y": 606,
+    "w": 89,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 648,
+    "w": 101,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 672,
+    "w": 22,
+    "h": 14
+   },
+   {
+    "x": 68,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 76,
+    "y": 672,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 143,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 150,
+    "y": 672,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 220,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 227,
+    "y": 672,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 60,
+    "y": 721,
+    "w": 187,
+    "h": 14
+   },
+   {
+    "x": 60,
+    "y": 753,
+    "w": 198,
+    "h": 14
+   },
+   {
+    "x": 169,
+    "y": 147,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 20,
+    "y": 1288,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1322,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1354,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1386,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1418,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1450,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1482,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1348,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1382,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1414,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1446,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1478,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1510,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1542,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1574,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1606,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1638,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1408,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1442,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1474,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1506,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1538,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1570,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1602,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1634,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1468,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1502,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1534,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1566,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1598,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1630,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1662,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1694,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1726,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1758,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1790,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1551,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1599,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1647,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1695,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1743,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1901,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1949,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1997,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2045,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2093,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2141,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2189,
+    "w": 64,
+    "h": 14
+   }
+  ],
+  "eds": [
+   {
+    "x": 40,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 112,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 119,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 191,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 263,
+    "y": 90,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 320,
+    "y": 90,
+    "w": 30,
+    "h": 10
+   },
+   {
+    "x": 169,
+    "y": 147,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 20,
+    "y": 221,
+    "w": 178,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 264,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 823,
+    "w": 295,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 852,
+    "w": 259,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 897,
+    "w": 317,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 922,
+    "w": 304,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 948,
+    "w": 304,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 974,
+    "w": 313,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 999,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1041,
+    "w": 241,
+    "h": 14
+   },
+   {
+    "x": 116,
+    "y": 525,
+    "w": 77,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 582,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 606,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 109,
+    "y": 606,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 116,
+    "y": 606,
+    "w": 89,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 648,
+    "w": 101,
+    "h": 14
+   },
+   {
+    "x": 46,
+    "y": 672,
+    "w": 22,
+    "h": 14
+   },
+   {
+    "x": 68,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 75,
+    "y": 672,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 142,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 149,
+    "y": 672,
+    "w": 69,
+    "h": 14
+   },
+   {
+    "x": 218,
+    "y": 672,
+    "w": 3,
+    "h": 14
+   },
+   {
+    "x": 225,
+    "y": 672,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 63,
+    "y": 721,
+    "w": 184,
+    "h": 14
+   },
+   {
+    "x": 63,
+    "y": 753,
+    "w": 195,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1287,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1321,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1353,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1385,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1417,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1449,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1481,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1347,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1381,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1413,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1445,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1477,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1509,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1541,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1573,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1605,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1637,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1407,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1441,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1473,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1505,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1537,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1569,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1601,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1633,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1467,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1501,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1533,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1565,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1597,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1629,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1661,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1693,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1725,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1757,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 40,
+    "y": 1789,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1550,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1598,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1646,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1694,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1742,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1901,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1949,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 1997,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2045,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2093,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2141,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 20,
+    "y": 2189,
+    "w": 64,
+    "h": 14
+   }
+  ]
+ }
+}

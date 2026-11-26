@@ -1,0 +1,86 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/pixel-pub2.json",
+    "pct": 9.99,
+    "alignedPct": 4.66,
+    "alignedUsed": true,
+    "totalShift": 69,
+    "steps": [
+      {
+        "y": 657,
+        "shift": -16,
+        "cumulative": -16
+      },
+      {
+        "y": 880,
+        "shift": -8,
+        "cumulative": -24
+      },
+      {
+        "y": 1252,
+        "shift": -34,
+        "cumulative": -58
+      },
+      {
+        "y": 1833,
+        "shift": -9,
+        "cumulative": -67
+      },
+      {
+        "y": 2271,
+        "shift": -1,
+        "cumulative": -68
+      },
+      {
+        "y": 2945,
+        "shift": 1,
+        "cumulative": -67
+      }
+    ],
+    "offsetBound": 34,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 6 step(s), 69px total — −16px at y=657, −8px at y=880, −34px at y=1252, −9px at y=1833, −1px at y=2271, +1px at y=2945 (bound 34px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T00:47:36.709Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-360/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T01:42:58.722Z"
+}

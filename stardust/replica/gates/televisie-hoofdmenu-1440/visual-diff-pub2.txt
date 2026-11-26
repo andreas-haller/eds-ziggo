@@ -1,0 +1,287 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 141 ms
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 444 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-hoofdmenu-1440/vdiff-pub2/
+
+build red flags (advisory): 
+  • HEADING FACE: <h2> "Op je startscherm:" is 39.04px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Het Entertainment-menu" is 39.04px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1741,
+  "textLen": 1126,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Personal_Home_1?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "551x311",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000x1000-Startscherm-Visual-AfstandsbedieningSmall?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "92x92",
+    "rendered": "92x92",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Personal_Home_5?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "551x311",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Entertainment_1?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "551x311",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=d2facc8e-0652-4638-a1c6-98b23e5c700b&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Je%20persoonlijke%20startscherm%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fhoofdmenu&r=&lt=4986&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=754698",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fhoofdmenu&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Je persoonlijke startscherm",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Maak elke kijkervaring nog perso",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Op je startscherm:",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Het Entertainment-menu",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2418,
+  "textLen": 1211,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13ab62f07c7f95dd32e9b9e95b0531403d4eb06f9.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x900",
+    "rendered": "552x311",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_118901f5d61852986144470e9a00c195c5de0970f.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1000x1000",
+    "rendered": "747x747",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a99fc347ac65645f36ef6820fb2d123c90960100.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x900",
+    "rendered": "552x311",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a498fe6ca34ca4cd2ac4fa13b33b4c1f262add2c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x900",
+    "rendered": "552x311",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Je persoonlijke startscherm",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Maak elke kijkervaring nog perso",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Op je startscherm:",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Het Entertainment-menu",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ }
+}

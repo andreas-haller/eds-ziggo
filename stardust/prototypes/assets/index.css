@@ -1,0 +1,132 @@
+/* =====================================================================
+   Ziggo replica — landing (index) page modules. Imports canon.css first.
+   ===================================================================== */
+
+/* ---------- hero band (campaign: Black Friday) */
+.hero { position: relative; background: var(--color_primary); color: var(--color_tertiary-darken-40); }
+.hero__img { width: 100%; height: auto; aspect-ratio: 360 / 247.25; object-fit: cover; }
+.hero__content { padding-top: 40px; padding-bottom: 56px; }
+.hero__title { color: #fff; }
+.hero__title p { font-size: 1rem; line-height: 1.6; }
+.hero__sub { display: block; margin: 16px 0 8px; color: #fff; font-family: var(--font_text); font-weight: 300; font-size: 1.42rem; line-height: 1.1; }
+.hero__ctas { display: flex; flex-direction: column; }
+.hero__ctas .btn { width: 100%; margin-top: 8px; }
+.hero__legal { margin-top: 8px; font-size: 1rem; line-height: 1.6; }
+@media (min-width: 768px) {
+  .hero { height: 540px; background: var(--color_primary) url("media/3840x1300_hero-60-device-nodisclaimer.jpg") center / cover no-repeat; }
+  .hero__img { display: none; }
+  .hero__content { padding-top: 122px; padding-bottom: 0; }
+  .hero__sub { margin: 17px 0 16px; font-size: 1.95rem; }
+  .hero__ctas { flex-direction: row; gap: 23.5px; }
+  .hero__ctas .btn { width: auto; margin-top: 16px; }
+  .hero__legal { margin-top: 16px; }
+}
+
+/* ---------- USP section ("Daarom kies je Ziggo") */
+.why { background: #fff; padding: 32px 0; }
+
+.why__kicker { color: #000; }
+.why__title { margin-top: 8px; margin-bottom: 32px; }
+.why .ccar { margin: 0; }
+.why__cta { text-align: center; margin-top: 24px; }
+@media (min-width: 1024px) {
+  .why__title { margin-bottom: 39px; }
+  .why__cta { margin-top: 32px; }
+}
+
+/* ---------- plans section (gradient overflow background) */
+.plans { position: relative; background: url("media/1080x4200_hero-custom_gradient-overflow-bg.svg") center / cover no-repeat; padding: 56px 0 48px; }
+.plans__title { margin-bottom: 40px; }
+.plans__grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
+@media (min-width: 768px) {
+  .plans { background-image: url("media/3840x2160_hero100_gradient-overflow-bg.svg"); padding: 64px 0 55px; }
+  .plans__title { margin-bottom: 57px; }
+  .plans__grid { grid-template-columns: repeat(3, 1fr); gap: 32px; align-items: end; }
+}
+
+/* ---------- One van Vodafone & Ziggo */
+.one-head { padding: 48px 0 15px; }
+
+.one-head__kicker { display: block; color: var(--color_secondary); font-family: var(--font_text); font-weight: 300; font-size: 1.42rem; line-height: 1.1; }
+.one-head__title { margin-top: 8px; }
+.one-head__text { margin-top: 9px; font-weight: 300; color: var(--color_secondary); }
+.one-splash { height: 918px; background: #fff url("media/780x3840_one-splash_full-6.jpg") 50% 100% / cover no-repeat; padding-top: 64px; text-align: center; }
+.one-card { margin: 0 auto; background: #fff; border: 1px solid var(--color_gray-100); border-radius: 24px; box-shadow: rgba(28, 31, 33, .2) 0 2px 4px 0; overflow: hidden; padding: 28px 20px 24px; }
+.one-usps { display: flex; flex-direction: column; align-items: center; padding: 8px 0 25px; }
+.one-usp { position: relative; width: 179px; }
+.one-usp + .one-usp { margin-top: 49px; }
+.one-usp + .one-usp::before { content: ""; position: absolute; left: -49.5px; right: -49.5px; top: -25px; height: 1px; background: var(--color_gray-400); }
+.one-usp img { width: 79px; height: 79px; margin: 0 auto 8px; }
+.one-usp p { font-weight: 300; color: var(--color_secondary); }
+.one-cta { margin-top: 31.5px; }
+@media (min-width: 768px) {
+  .one-splash { height: 604px; background-image: url("media/3840x2160_hero_100_one-splash_full-content-3.jpg"); padding-top: 72px; }
+  .one-card { padding: 36px 0 24px; }
+  .one-usps { flex-direction: row; justify-content: center; align-items: stretch; gap: 48px; padding: 16px 0 32px; }
+  .one-usp { width: 216.3px; }
+  .one-usp + .one-usp { margin-top: 0; }
+  .one-usp + .one-usp::before { left: -24.5px; right: auto; top: 0; bottom: -32px; width: 1px; height: auto; }
+  .one-usp img { width: 51px; height: 51px; margin-bottom: 16px; }
+  .one-cta { margin-top: 47.5px; }
+}
+
+@media (min-width: 768px) {
+  .one-head { padding: 56px 0 24px; }
+  .one-head__kicker { font-size: 1.95rem; }
+  .one-head__title { margin-top: 9px; }
+  .one-head__text { margin-top: 7px; }
+}
+
+/* ---------- entertainment heading */
+.ent-head { background: #fff; padding: 32px 0 16px; }
+
+
+.ent-head__text { margin-top: 8px; font-size: 20px; line-height: 32px; font-weight: 300; color: var(--color_secondary); }
+
+/* ---------- swimming lane (marquee) */
+.lane { position: relative; padding-bottom: 32px; --gap: 20px; }
+.lane__lanes { overflow: hidden; position: relative; }
+.lane__lanes + .lane__lanes { margin-top: var(--gap); }
+.lane__rail { display: flex; gap: var(--gap); width: max-content; animation: tv-marquee var(--duration, 50s) linear infinite; will-change: transform; }
+.lane__rail:hover, .lane[data-paused="true"] .lane__rail { animation-play-state: paused; }
+.lane__strip { display: inline-flex; gap: var(--gap); }
+.lane__card { position: relative; flex: 0 0 auto; width: 270px; aspect-ratio: 16 / 9; background: var(--color_gray-900); border-radius: 16px; overflow: hidden; }
+.lane__card a { display: block; width: 100%; height: 100%; }
+.lane__img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.lane__logo { position: absolute; top: 14px; right: 14px; width: 32px; height: 32px; object-fit: contain; background: var(--color_gray-800); border-radius: 8px; }
+.lane__copy { position: absolute; right: .5rem; bottom: .5rem; color: #fff; font-size: 5px; letter-spacing: .2px; opacity: .9; writing-mode: tb-rl; transform: rotate(180deg); }
+.lane__btn { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); opacity: 0; transition: opacity .25s ease; }
+.lane__card:hover .lane__btn { opacity: 1; }
+.lane__controls { display: flex; align-items: center; margin-top: 40px; }
+.lane__all { flex: 1; text-align: center; }
+.lane__all .btn { border-color: var(--color_tertiary-darken-40); }
+.lane__toggle { flex: 0; margin-left: auto; margin-right: 1rem; }
+.lane__toggle button { width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--color_tertiary-darken-40); color: var(--color_tertiary-darken-40); display: flex; align-items: center; justify-content: center; }
+.lane__toggle .icon { font-size: 20px; }
+@keyframes tv-marquee { to { transform: translateX(-50%); } }
+@media (min-width: 768px) { .lane__card { width: 300px; } }
+@media (min-width: 1024px) {
+  .lane { padding-bottom: 40px; }
+  .lane__toggle { margin-right: 5rem; }
+  .lane__card:hover .lane__img { transform: scale(1.05); }
+}
+@media (prefers-reduced-motion: reduce) { .lane__rail { animation-play-state: paused; } }
+
+/* ---------- Priority band (background video poster) */
+.prio { position: relative; background: var(--color_gray-900); color: #fff; }
+.prio__toggle { position: absolute; z-index: 3; top: 16px; right: 16px; width: 40px; height: 40px; border-radius: 50%; background: var(--color_tertiary); color: #fff; display: flex; align-items: center; justify-content: center; }
+.prio__toggle .icon { font-size: 16px; }
+.prio__media { position: relative; width: 100%; aspect-ratio: 360 / 203; overflow: hidden; }
+.prio__video { position: absolute; top: 0; left: 50%; display: block; height: 100%; width: auto; aspect-ratio: 1600 / 720; max-width: none; transform: translateX(-50%); object-fit: contain; }
+.prio__content { padding-top: 31px; padding-bottom: 32px; }
+.prio__title { color: #fff; }
+.prio__sub { margin-top: 8px; color: #fff; }
+.prio .btn { margin-top: 16px; }
+@media (min-width: 768px) {
+  .prio { height: 720px; display: flex; align-items: center; }
+  .prio__media { position: absolute; inset: 0; aspect-ratio: auto; }
+  .prio__content { position: relative; padding-top: 0; padding-bottom: 0; }
+
+  .prio .btn { margin-top: 24px; }
+}
+@media (min-width: 1024px) { .prio__content { width: 100%; } }

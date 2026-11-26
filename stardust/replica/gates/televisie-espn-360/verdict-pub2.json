@@ -1,0 +1,116 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-espn-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-espn-360/pixel-pub2.json",
+    "pct": 28.26,
+    "alignedPct": 20.37,
+    "alignedUsed": true,
+    "totalShift": 336,
+    "steps": [
+      {
+        "y": 371,
+        "shift": -47,
+        "cumulative": -47
+      },
+      {
+        "y": 487,
+        "shift": 3,
+        "cumulative": -44
+      },
+      {
+        "y": 634,
+        "shift": 14,
+        "cumulative": -30
+      },
+      {
+        "y": 972,
+        "shift": -8,
+        "cumulative": -38
+      },
+      {
+        "y": 1194,
+        "shift": 8,
+        "cumulative": -30
+      },
+      {
+        "y": 1744,
+        "shift": 53,
+        "cumulative": 23
+      },
+      {
+        "y": 2839,
+        "shift": -43,
+        "cumulative": -20
+      },
+      {
+        "y": 2942,
+        "shift": 1,
+        "cumulative": -19
+      },
+      {
+        "y": 3054,
+        "shift": 16,
+        "cumulative": -3
+      },
+      {
+        "y": 3284,
+        "shift": -2,
+        "cumulative": -5
+      },
+      {
+        "y": 3698,
+        "shift": -1,
+        "cumulative": -6
+      },
+      {
+        "y": 4497,
+        "shift": 8,
+        "cumulative": 2
+      }
+    ],
+    "offsetBound": 76,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 20.37% (unaligned 28.26%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:43:34.224Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-espn-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-360/units-pub2.txt"
+    }
+  },
+  "structural": 141,
+  "nothingLost": 1,
+  "at": "2026-11-25T22:03:24.417Z"
+}

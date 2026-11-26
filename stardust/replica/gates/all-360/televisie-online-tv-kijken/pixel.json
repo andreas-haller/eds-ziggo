@@ -1,0 +1,393 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie-online-tv-kijken/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie-online-tv-kijken/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7241,
+    "mode": "overlap"
+  },
+  "heightDelta": 158,
+  "differingPixels": 404431,
+  "pct": 15.51,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/televisie-online-tv-kijken/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 16.57,
+  "textBoxes": 173,
+  "textPixels": 475256,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 41.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 32
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 50.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 35.9
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 8.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7241,
+      "pct": 2.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.53,
+    "differingPixels": 147769,
+    "compared": {
+      "width": 360,
+      "height": 7419,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1599,
+        "shift": -30,
+        "cumulative": -30
+      },
+      {
+        "y": 2063,
+        "shift": -33,
+        "cumulative": -63
+      },
+      {
+        "y": 2631,
+        "shift": -30,
+        "cumulative": -93
+      },
+      {
+        "y": 2890,
+        "shift": -1,
+        "cumulative": -94
+      },
+      {
+        "y": 3346,
+        "shift": -8,
+        "cumulative": -102
+      },
+      {
+        "y": 3601,
+        "shift": 7,
+        "cumulative": -95
+      },
+      {
+        "y": 3932,
+        "shift": -8,
+        "cumulative": -103
+      },
+      {
+        "y": 5166,
+        "shift": -35,
+        "cumulative": -138
+      },
+      {
+        "y": 5646,
+        "shift": 10,
+        "cumulative": -128
+      },
+      {
+        "y": 5751,
+        "shift": 2,
+        "cumulative": -126
+      },
+      {
+        "y": 6373,
+        "shift": -33,
+        "cumulative": -159
+      },
+      {
+        "y": 6958,
+        "shift": 1,
+        "cumulative": -158
+      }
+    ],
+    "maxOffset": 159,
+    "totalShift": 198,
+    "insertedRows": 20,
+    "deletedRows": 178,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.7,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.8,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.4,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 7.7,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 9.1,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 8.3,
+        "unaligned": 41.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.8,
+        "unaligned": 32
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 3.2,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 6.3,
+        "unaligned": 6.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.9,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 12.3,
+        "unaligned": 50.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 3,
+        "unaligned": 8
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 9.2,
+        "unaligned": 35.9
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7399,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie-online-tv-kijken/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 74,
+    "totalShift": 198,
+    "pass": false
+  },
+  "reason": "offsets: 12 step(s), 198px total — −30px at y=1599, −33px at y=2063, −30px at y=2631, −1px at y=2890, −8px at y=3346, +7px at y=3601, … 6 more (bound 74px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken",
+      "source": "https://www.ziggo.nl/televisie/online-tv-kijken",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "8fc1586231752ae5",
+      "archetype": "bcf59f3bb1af0cfc",
+      "captures": "397369ccd2d6dad1",
+      "instruments": "700566dc6f7774a4",
+      "page content": "a88a8f93852a4c6a",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block cards": "4ada5cf24baa6d90",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 1,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 2,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 3,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 3,
+          "offPage": 21,
+          "textNodes": 130,
+          "controls": 97,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+            "text": "gratis ziggo sport",
+            "cutMin": 170,
+            "cutMax": 170
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-title > h2#gratis-ziggo-sport",
+            "text": "gratis ziggo sport",
+            "cutMin": 112,
+            "cutMax": 112
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+            "text": "alles over ziggo sport",
+            "cutMin": 106,
+            "cutMax": 106
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 3,
+          "offPage": 22,
+          "textNodes": 140,
+          "controls": 104,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:12:10.497Z"
+  }
+}

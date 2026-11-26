@@ -1,0 +1,76 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/tv-internet-360/diff-pub2.png",
+    "json": "stardust/replica/gates/tv-internet-360/pixel-pub2.json",
+    "pct": 1.31,
+    "alignedPct": 1.18,
+    "alignedUsed": true,
+    "totalShift": 4,
+    "steps": [
+      {
+        "y": 4880,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 5055,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 11577,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 12121,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 127,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T20:40:58.224Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/tv-internet-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/tv-internet-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/tv-internet-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/tv-internet-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/tv-internet-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/tv-internet-360/units-pub2.txt"
+    }
+  },
+  "structural": 132,
+  "nothingLost": 0,
+  "at": "2026-11-25T21:00:55.194Z"
+}

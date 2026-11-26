@@ -1,0 +1,30 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 572 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 534 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/tv-apps (docH 4920, 191 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps (docH 4928, 180 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | je favoriete tv apps op één plek | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | ervaar ziggo tv & streaming | 9/9 | 0/0 | 2/2 | 0/0 | - |
+| 3 | tv & video | 0/0 | 0/0 | 2/2 | 0/0 | - |
+| 4 | app | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | informatie | 0/0 | 0/0 | 45/45 | 0/0 | - |
+| 6 | actueel & achtergrond | 0/0 | 0/0 | 2/2 | 0/0 | - |
+| 7 | app | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 8 | informatie | 0/0 | 0/0 | 4/4 | 0/0 | - |
+| 9 | muziek | 0/0 | 0/0 | 2/2 | 0/0 | - |
+| 10 | app | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | informatie | 0/0 | 0/0 | 6/6 | 0/0 | - |
+| 12 | sport | 0/0 | 0/0 | 2/2 | 0/0 | - |
+| 13 | app | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 14 | informatie | 0/0 | 0/0 | 3/3 | 0/0 | - |
+| 15 | naar je favoriete tv apps | 0/0 | 0/0 | 1/1 | 3/3 | - |
+| 16 | in het tv-menu | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 17 | met stembesturing | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 18 | via het tv-kanaal | 4/4 | 0/0 | 3/3 | 1/1 | - |
+| 19 | extra zenders & streamingdiensten | 1/1 | 0/0 | 1/1 | 0/0 | - |
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: none — every visible origin heading and link is visible on the served page
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-tv-apps-1440/content-presence-pub3.json

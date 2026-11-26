@@ -1,0 +1,91 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/internet-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/internet-1440/pixel-pub1.json",
+    "pct": 18.18,
+    "alignedPct": 8.65,
+    "alignedUsed": true,
+    "totalShift": 139,
+    "steps": [
+      {
+        "y": 1748,
+        "shift": -44,
+        "cumulative": -44
+      },
+      {
+        "y": 2829,
+        "shift": 19,
+        "cumulative": -25
+      },
+      {
+        "y": 3259,
+        "shift": -10,
+        "cumulative": -35
+      },
+      {
+        "y": 4659,
+        "shift": -31,
+        "cumulative": -66
+      },
+      {
+        "y": 5401,
+        "shift": -33,
+        "cumulative": -99
+      },
+      {
+        "y": 5908,
+        "shift": -1,
+        "cumulative": -100
+      },
+      {
+        "y": 6348,
+        "shift": 1,
+        "cumulative": -99
+      }
+    ],
+    "offsetBound": 65,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 7 step(s), 139px total — −44px at y=1748, +19px at y=2829, −10px at y=3259, −31px at y=4659, −33px at y=5401, −1px at y=5908, … 1 more (bound 65px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T20:53:59.217Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/units-pub1.txt"
+    }
+  },
+  "structural": 151,
+  "nothingLost": 1,
+  "at": "2026-11-25T20:57:59.077Z"
+}

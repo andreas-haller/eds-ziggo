@@ -1,0 +1,34 @@
+
+Content diff @ 360px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 112 text nodes — 10 headings, 1 eyebrows, 12 CTAs, 89 body; 11 img
+  build: 108 text nodes — 10 headings, 1 eyebrows, 14 CTAs, 83 body; 11 img
+  editable texts (outermost h*/p/ul/ol): source 35 / build 35
+  attributes (placeholder/aria-label/title): source 3 / build 3; icons: source 9 / build 9
+  accepted (invisible, nothing lost): 3 SAME IMAGE — "media_microphone.svg ↔ media_microphone-gradient.svg", "media_microphone ↔ media_microphone.svg", "black_1-person ↔ black_1-person.svg"
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 13 (1 structural 🔴)
+Tiers: looks-same 🔴 1 · nothing-lost 🟡 0 · accepted 🟢 3 (owner 0, auto 3) · advisory 12
+  🔴 ICON DIFF [#main-content]: source icon-font glyph - (ziggo-ui-icon-v22, 18×18) vs build icon-font glyph . (ziggo-ui-icon-v22, 18×18) at "button#1". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟠 EXTRA [#main-content]: build cta "Bel ons Wij staan voor je klaar Bel ons" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Chat met ons Niet beschikbaar Chat" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main-content]: source body "Bel ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Wij staan voor je klaar"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Bel ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chat met ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Niet beschikbaar"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chat"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 ICON DIFF [#main-content]: source image media_microphone (24×24) vs build image media_microphone.svg (24×24) at "houd de ‘voice’-knop (het microfoontje) ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.

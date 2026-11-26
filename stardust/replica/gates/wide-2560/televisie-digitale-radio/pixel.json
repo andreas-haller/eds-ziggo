@@ -1,0 +1,130 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-digitale-radio/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-digitale-radio/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2826,
+    "mode": "overlap"
+  },
+  "heightDelta": 142,
+  "differingPixels": 865751,
+  "pct": 11.97,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/televisie-digitale-radio/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 12.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 33
+    },
+    {
+      "y0": 2500,
+      "y1": 2826,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.91,
+    "differingPixels": 602248,
+    "compared": {
+      "width": 2560,
+      "height": 2975,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1281,
+        "shift": -149,
+        "cumulative": -149
+      },
+      {
+        "y": 2387,
+        "shift": 6,
+        "cumulative": -143
+      },
+      {
+        "y": 2863,
+        "shift": 1,
+        "cumulative": -142
+      }
+    ],
+    "maxOffset": 149,
+    "totalShift": 156,
+    "insertedRows": 7,
+    "deletedRows": 149,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 38.6,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1,
+        "unaligned": 15.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2.3,
+        "unaligned": 33
+      },
+      {
+        "y0": 2500,
+        "y1": 2968,
+        "pct": 0.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-digitale-radio/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 30,
+    "totalShift": 156,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 156px total — −149px at y=1281, +6px at y=2387, +1px at y=2863 (bound 30px)"
+}

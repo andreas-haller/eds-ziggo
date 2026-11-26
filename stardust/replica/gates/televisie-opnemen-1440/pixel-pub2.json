@@ -1,0 +1,173 @@
+{
+  "a": "stardust/replica/gates/televisie-opnemen-1440/live.png",
+  "b": "stardust/replica/gates/televisie-opnemen-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4326,
+    "mode": "overlap"
+  },
+  "heightDelta": -48,
+  "differingPixels": 995918,
+  "pct": 15.99,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-opnemen-1440/diff-pub2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 21.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 11.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 12.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 19.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 31.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 25.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4326,
+      "pct": 4.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 13.15,
+    "differingPixels": 832854,
+    "compared": {
+      "width": 1440,
+      "height": 4398,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 961,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 1831,
+        "shift": -11,
+        "cumulative": -24
+      },
+      {
+        "y": 3083,
+        "shift": 61,
+        "cumulative": 37
+      },
+      {
+        "y": 3745,
+        "shift": 10,
+        "cumulative": 47
+      },
+      {
+        "y": 4221,
+        "shift": 1,
+        "cumulative": 48
+      }
+    ],
+    "maxOffset": 48,
+    "totalShift": 96,
+    "insertedRows": 72,
+    "deletedRows": 24,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 21.7,
+        "unaligned": 21.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 4.6,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.9,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.9,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.7,
+        "unaligned": 9.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 19.9,
+        "unaligned": 19.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 31.7,
+        "unaligned": 31.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 21.9,
+        "unaligned": 25.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4326,
+        "pct": 0.3,
+        "unaligned": 4.5
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-opnemen-1440/diff-pub2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 43,
+    "totalShift": 96,
+    "pass": false
+  },
+  "reason": "pixel aligned 13.15% (unaligned 15.99%) > 10%"
+}

@@ -1,0 +1,81 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/pixel-pub1.json",
+    "pct": 11.17,
+    "alignedPct": 7.67,
+    "alignedUsed": true,
+    "totalShift": 154,
+    "steps": [
+      {
+        "y": 798,
+        "shift": -35,
+        "cumulative": -35
+      },
+      {
+        "y": 1139,
+        "shift": -76,
+        "cumulative": -111
+      },
+      {
+        "y": 1591,
+        "shift": -18,
+        "cumulative": -129
+      },
+      {
+        "y": 1978,
+        "shift": -24,
+        "cumulative": -153
+      },
+      {
+        "y": 2502,
+        "shift": 1,
+        "cumulative": -152
+      }
+    ],
+    "offsetBound": 26,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 5 step(s), 154px total — −35px at y=798, −76px at y=1139, −18px at y=1591, −24px at y=1978, +1px at y=2502 (bound 26px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:48:04.434Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T23:50:34.958Z"
+}

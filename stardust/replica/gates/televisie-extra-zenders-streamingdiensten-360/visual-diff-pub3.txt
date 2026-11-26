@@ -1,0 +1,1975 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/vdiff-pub3/
+
+build red flags (advisory): 
+  • HEADING FACE: <h3> "Standaard in je abonnement" is 22.784px Ziggo Headline in build vs 22.72px Vodafone Ziggo text in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 15128,
+  "textLen": 7865,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_header40_B2C_ExtraStreamingDiensten_transparant_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x203",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "espn%20premium?fmt=svg",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_viaplay-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "viaplay-tvplus-ziggo-sport-totaal1?fmt=svg",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_Netflix_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zenderkaartje_sportcompleet?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_ESPNPremium_Film1_2026_Q3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ESPNCompleet_Disney%2B_2026_Q3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zenderkaartje_sportcompleet?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_netflix-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_videoland-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_disney-plus-logo-1?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_sky-showtimelogo?fmt=svg",
+    "natural": "267x400",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "HBO_Black_Gradient_Logo_200x300_V3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300-prime-video-logo-2025?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_viaplay-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "apple-tv-320-480?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_canal-plus?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_npo-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_cinetree-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_film1-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_pathe-thuis?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_Netflix_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "viaplay-tvplus-ziggo-sport-totaal1?fmt=svg",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tv-zenders-plus-1?fmt=svg",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zenderkaartje_sportcompleet?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_Netflix_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Viaplay_TV_plus_Logo_plp?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "viaplay-tvplus-ziggo-sport-totaal1?fmt=svg",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_erotiek-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_gay-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_hindi-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_turks-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_hayu-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_videoland-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_npo-logo_v2?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_Netflix_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "58x87",
+    "rendered": "93x140",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zenderkaartje_sportcompleet?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ZiggoSport_ESPNPremium_Film1_2026_Q3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_Ziggo_B2C_streamingdienst_card_ESPNCompleet_Disney%2B_2026_Q3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_disney-plus-logo-1?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_sky-showtimelogo?fmt=svg",
+    "natural": "267x400",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "HBO_Black_Gradient_Logo_200x300_V3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300-prime-video-logo-2025?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "apple-tv-320-480?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_canal-plus?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_cinetree-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Viaplay_TV_plus_Logo_plp?fmt=svg",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "settings_sliders-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "user-interface_check-badge-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_microphone-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_B2C_Ziggo_steaming_blue_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_streaming_blue_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_464x464?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_464x464?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ESPN_Pakketvisual_26-27_1200-1200px?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_B2C_Ziggo_ESPN_live_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_Priority-2026-ziggo?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_Priority-2026-ziggo?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=9b03d28c-db3e-41b3-996b-0eb98c8ee230&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Extra%20zenders%20%26%20streamingdiensten%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten&r=&lt=6039&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=857374",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Extra zenders & streamingdienste",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.32px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Live sport",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stream films, series en meer",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Netflix",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Videoland",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SkyShowtime",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prime Video",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Apple TV",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CANAL+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NPO Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cinetree",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Film1",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pathé Thuis huurfilms",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra tv-zenders",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV Zenders Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay TV+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Volwassen zenders (18+)",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erotiek",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gay Lifestyle",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Internationale zenders",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hindi",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Turks",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reality & lifestyle shows",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hayu",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Videoland",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NPO Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Aanbiedingen",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SkyShowtime",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prime Video",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Apple TV",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CANAL+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cinetree",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay TV+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ontdek TV & Streaming op één ple",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Maandelijks aan- en uitzetten",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Snel beschikbaar",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Vind razendsnel wat je wilt zien",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beleef het beste entertainment v",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Standaard in je abonnement",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Bekijk categorieën",
+    "color": "rgb(28, 31, 33)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 15395,
+  "textLen": 7712,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12eff57d4b85a3b85c65bf931c15fdb592bd5f90b.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fd10b383eed2bc095e84e9e7286933b53bff6ade.webp?width=750&format=webp&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f09c83c9e2f492a54a8f36aaa3e483bd686ac9b5.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ccaa2f91d52e1608dd9e07fcd2b0eef4d87dbb67.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11910070e9bdf131c54a36c598f5446efc4722ca6.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e7fdd52b1095cfa1456cb0213581e48b1417d431.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16420371ccab7042ac354bf80960fb7b40e39466b.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16db1a8f8ff4e449bdd7dd54c844cee69985ce966.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1476d907bcb5bc3f05032deb3e7e92da02c917e29.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a9d5519964d6042686da28b2110893097dfa03ab.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16db1a8f8ff4e449bdd7dd54c844cee69985ce966.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17653c7ba2a9c7ee27b7c67c32298ba6ef27135e1.png?width=750&format=webply&optimize=medium",
+    "natural": "85x128",
+    "rendered": "85x128",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12179e3642bdfc36bafef3b8f2da83113cc02236c.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5eba06a1e3fd8287a522808111b53e720bfff6.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e420fdadfd2d71400b6075874fffaa435bab8480.svg?width=750&format=webply&optimize=medium",
+    "natural": "267x400",
+    "rendered": "93x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10e6bb6cff12bbe9cb59504793373a4279bd0f62f.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14553403984e7953a47a670c772f647bc470f9acc.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11910070e9bdf131c54a36c598f5446efc4722ca6.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11249792b2da0cf5cf5e9884c29340e3bbc6a1b3f.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1da09a311301d92418c0f08848022630cb9d22a53.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fd36aef6f34ca38fd7a66a62c7350f6c031dfeaf.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fc00e888f667868dc5017b7040c00bb0acfdce14.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a76398fe4d308309002a21addd95e89b3ae74bfd.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fa27cab55c30cdf690e810a630aa74049e534814.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16420371ccab7042ac354bf80960fb7b40e39466b.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e7fdd52b1095cfa1456cb0213581e48b1417d431.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_162ce01596f7da9656c68d09d743857975b28a759.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ccaa2f91d52e1608dd9e07fcd2b0eef4d87dbb67.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16db1a8f8ff4e449bdd7dd54c844cee69985ce966.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16420371ccab7042ac354bf80960fb7b40e39466b.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f7496bf2241d80111cecb70cf86ae8331e3f4391.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e7fdd52b1095cfa1456cb0213581e48b1417d431.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x200",
+    "rendered": "93x93",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ab4f3c4ede71eb214573097c7c5581e770f1929c.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_160d4ba30877cc9f8e503d9a3779983377b383437.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18e4bc6604d1a8a421c9fb4274eed86085a830cd7.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f27590f5a7086f162d11aa2dec7adf8d347152d1.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1665ed43c9da973f433efbd420e799f244b524e2a.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12179e3642bdfc36bafef3b8f2da83113cc02236c.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fd36aef6f34ca38fd7a66a62c7350f6c031dfeaf.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16420371ccab7042ac354bf80960fb7b40e39466b.jpg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16db1a8f8ff4e449bdd7dd54c844cee69985ce966.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1476d907bcb5bc3f05032deb3e7e92da02c917e29.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a9d5519964d6042686da28b2110893097dfa03ab.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5eba06a1e3fd8287a522808111b53e720bfff6.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e420fdadfd2d71400b6075874fffaa435bab8480.svg?width=750&format=webply&optimize=medium",
+    "natural": "267x400",
+    "rendered": "93x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10e6bb6cff12bbe9cb59504793373a4279bd0f62f.svg?width=750&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14553403984e7953a47a670c772f647bc470f9acc.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11249792b2da0cf5cf5e9884c29340e3bbc6a1b3f.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1da09a311301d92418c0f08848022630cb9d22a53.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fc00e888f667868dc5017b7040c00bb0acfdce14.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x140",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f7496bf2241d80111cecb70cf86ae8331e3f4391.svg?width=750&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "93x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17ab5932eddc96c96c33967badbf12f19d61edc88.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13d48977b081f3b237214ae8cd8fb48de338ed823.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1efbd4b394a5f4b8d41107f90d5effd19d8e5c1a8.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1434f15a3407b91aea8114355c7c8d0dcd1e03cbe.webp?width=750&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_159aec125e8db46bd5c9749486e9c23a592f5a52e.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x218",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_140ae77f486dda558a4cbbd48638fbfa94e7d963e.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12384b9c824d10536fb078139c16f6aca3ab7ed94.webp?width=750&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "320x320",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Extra zenders & streamingdienste",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.32px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Live sport",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stream films, series en meer",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Netflix",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Videoland",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SkyShowtime",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prime Video",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Apple TV",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CANAL+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NPO Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cinetree",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Film1",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pathé Thuis huurfilms",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra tv-zenders",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV Zenders Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay TV+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Volwassen zenders (18+)",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erotiek",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gay Lifestyle",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Internationale zenders",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hindi",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Turks",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reality & lifestyle shows",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hayu",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Videoland",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NPO Plus",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Aanbiedingen",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SkyShowtime",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prime Video",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Apple TV",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CANAL+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cinetree",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay TV+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ontdek TV & Streaming op één ple",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Maandelijks aan- en uitzetten",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Snel beschikbaar",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Vind razendsnel wat je wilt zien",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beleef het beste entertainment v",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Standaard in je abonnement",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "22.784px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Bekijk categorieën",
+    "color": "rgb(28, 31, 33)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "int-nav",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-img",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-sub",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "subnav-selected",
+    "width": 244,
+    "left": 40
+   },
+   {
+    "sel": "ssc-head",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   },
+   {
+    "sel": "ssc-body",
+    "width": 227,
+    "left": 113
+   }
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T22:09:02.008Z",
+          "verdict": "fail",
+          "kind": "first",
+          "overflow": true
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T22:25:28.425Z",
+          "verdict": "fail",
+          "kind": "fix",
+          "overflow": true
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:45:24.657Z",
+          "verdict": "fail",
+          "kind": "fix",
+          "overflow": true
+        },
+        {
+          "label": "pub4",
+          "at": "2026-11-25T22:51:39.117Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub4 (overflow re-run): no overflow, aligned 8.93%, offsets 130px (bound 93): plan USP cards (+37 at y3989, reused plan-cards glyph rows), wide bands (-25); Δh 26",
+          "at": "2026-11-25T22:51:44.889Z",
+          "counted": 4
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-55-52-054Z",
+          "at": "2026-11-25T22:56:54.232Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T01-01-06-954Z",
+          "at": "2026-11-26T01:03:03.428Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:21:39.447Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:06:29.711Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

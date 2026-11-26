@@ -1,0 +1,161 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "program",
+        "article",
+        "channel",
+        "streaming",
+        "listing"
+      ],
+      "pages": 6,
+      "startedAt": "2026-11-25T15:06:12Z",
+      "endedAt": "2026-11-25T15:20:11Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0 (archetypes); variance landing 2, program 2, article 2, channel 0, streaming 2"
+    },
+    "program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "alles-in-1",
+      "slugs": [
+        "tv-internet",
+        "televisie-tv-start",
+        "televisie-kabel-tv"
+      ],
+      "pages": 3,
+      "variance": {
+        "exit": 2,
+        "evidence": "stardust/migrate/variance/program.json"
+      },
+      "after": "rollout C-deliver unit archetype-program",
+      "startedAt": "2026-11-25T18:05:50.000Z",
+      "endedAt": "2026-11-25T18:13:10.000Z",
+      "verdict": "program: rendered 3/3 siblings, content docs 3/3, variants 4, lint clean; block needs in cluster-program render-report; 2 hero media to upload"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "archetype": "index",
+      "slugs": [
+        "televisie",
+        "internet",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport",
+        "televisie-espn"
+      ],
+      "pages": 5,
+      "variance": {
+        "exit": 2,
+        "evidence": "stardust/migrate/variance/landing.json"
+      },
+      "after": "rollout C-deliver unit archetype-landing",
+      "startedAt": "2026-11-25T17:47:36.000Z",
+      "endedAt": "2026-11-25T18:01:35.000Z",
+      "verdict": "landing: rendered 5/5 siblings, content docs 5/5, variants 24 (16 new + 8 reused), lint clean; block needs in cluster-landing render-report; 99 media to upload (2 uploadRisk)"
+    },
+    "article-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "televisie-voicecontrol",
+      "slugs": [
+        "televisie-makkelijk-zoeken",
+        "televisie-terugkijken",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-kijkprofielen",
+        "televisie-hoofdmenu"
+      ],
+      "pages": 6,
+      "variance": {
+        "exit": 2,
+        "evidence": "stardust/migrate/variance/article.json"
+      },
+      "after": "rollout C-deliver unit archetype-article",
+      "startedAt": "2026-11-25T17:22:17.000Z",
+      "endedAt": "2026-11-25T17:36:12.000Z",
+      "verdict": "article-1: rendered 6/6 siblings, content docs 6/6, variants 6, lint clean (delivery-lint 0 P0/P1, davids 0 red); block variants needed listed for cluster-article"
+    },
+    "article-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "televisie-voicecontrol",
+      "slugs": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-mediaboxen",
+        "televisie-ziggo-go",
+        "televisie-tv-apps"
+      ],
+      "pages": 6,
+      "variance": {
+        "exit": 2,
+        "evidence": "stardust/migrate/variance/article.json"
+      },
+      "after": "rollout C-deliver unit archetype-article",
+      "startedAt": "2026-11-25T17:36:24.000Z",
+      "endedAt": "2026-11-25T17:42:58.000Z",
+      "verdict": "article-2: rendered 6/6 siblings, content docs 6/6, variants 25, lint clean (0 P0/P1, 0 red); block needs appended to cluster-article report"
+    },
+    "channel": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "channel"
+      ],
+      "archetype": "televisie-zenders-npo-1",
+      "slugs": [
+        "televisie-zenders-sbs6",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-star-channel"
+      ],
+      "pages": 6,
+      "variance": {
+        "exit": 0,
+        "evidence": "stardust/migrate/variance/channel.json"
+      },
+      "after": "rollout C-deliver unit archetype-channel",
+      "startedAt": "2026-11-25T17:42:58.000Z",
+      "endedAt": "2026-11-25T17:47:28.000Z",
+      "verdict": "channel: rendered 6/6 siblings, content docs 6/6, variants 1 (hero-band.channel), delivery-lint clean; davids 1 red/page = whatsapp: share link (source's own, as npo-1); 6 logos to upload before PUT"
+    },
+    "streaming": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "streaming"
+      ],
+      "archetype": "televisie-extra-zenders-streamingdiensten-netflix",
+      "slugs": [
+        "televisie-extra-zenders-streamingdiensten-disneyplus"
+      ],
+      "pages": 1,
+      "variance": {
+        "exit": 2,
+        "evidence": "stardust/migrate/variance/streaming.json"
+      },
+      "after": "rollout C-deliver unit archetype-streaming",
+      "startedAt": "2026-11-25T18:37:22.000Z",
+      "endedAt": "2026-11-25T18:43:36.000Z",
+      "verdict": "streaming: rendered 1/1, content docs 1/1, variants 9, lint clean; video-band eyebrow+h2 support required before deploy (cluster-streaming render-report); 12 media to upload"
+    }
+  }
+}

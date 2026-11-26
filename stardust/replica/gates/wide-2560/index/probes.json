@@ -1,0 +1,67 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-26T04:33:25.088Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 114,
+   "textNodes": 271,
+   "controls": 213,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "li.mslide",
+    "path": "li.mslide > div.mslide-link > p > a",
+    "text": "skyshowtime bij ziggo",
+    "cutMin": 1049,
+    "cutMax": 1049
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.acar",
+    "path": "div.acar > ul.acar-track > li.acard > a.acard-link",
+    "text": "elke maand een kijkcadeau",
+    "cutMin": 512,
+    "cutMax": 512
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.acar",
+    "path": "ul.acar-track > li.acard > div.acard-title > h3#elke-maand-een-kijkcadeau",
+    "text": "elke maand een kijkcadeau",
+    "cutMin": 54,
+    "cutMax": 54
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 13,
+   "within": 37,
+   "off": 31,
+   "hidden": 0,
+   "missing": 4,
+   "errors": 0,
+   "requiredOff": 35
+  },
+  "required": true,
+  "errors": []
+ }
+}

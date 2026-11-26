@@ -1,0 +1,371 @@
+/* streaming tier table (source .sd-sec--tiers: white tier cards on the gradient-overflow band) */
+.streaming-tier-table {
+  padding: 2rem 0;
+  background: url("tier-bg-mobile.svg") center / cover no-repeat;
+  color: #000;
+}
+
+.streaming-tier-table .stt-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.streaming-tier-table .stt-head :is(h1, h2) {
+  margin: 0 0 24px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+}
+
+.streaming-tier-table .stt-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 calc(var(--container-pad) / -2);
+}
+
+.streaming-tier-table .stt-col {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.streaming-tier-table .stt-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: #fff;
+  box-shadow: var(--shadow-card-md);
+  color: var(--color-secondary);
+}
+
+.streaming-tier-table .stt-body,
+.streaming-tier-table .stt-foot {
+  padding: 0 calc((100% + var(--container-pad)) / 24);
+}
+
+.streaming-tier-table .stt-foot {
+  margin-top: auto;
+}
+
+.streaming-tier-table .stt-card p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.streaming-tier-table .stt-card strong {
+  font-weight: 700;
+}
+
+.streaming-tier-table .stt-card .stt-cta p {
+  margin: 0;
+}
+
+/* price: one line as in the source paragraph — amount (h3, bold) + "p.m." on a 16px/1.6
+   strut, plus the source's h1-sized non-breaking space (painted here as ::after) */
+.streaming-tier-table .stt-price {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.streaming-tier-table .stt-card .stt-price p {
+  display: inline;
+  margin: 0;
+  color: var(--color-gray-900);
+}
+
+.streaming-tier-table .stt-price p::after {
+  content: "\00a0";
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.streaming-tier-table .stt-price strong {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-3);
+  line-height: 1.1;
+}
+
+/* tier name: brand line (h4, regular) over the tier name (h3, bold), laid out as the source's
+   one paragraph — the first line carries the h2-sized line box of the source wrapper span */
+.streaming-tier-table .stt-name {
+  margin: 32px 0 24px;
+  line-height: 1.6;
+}
+
+.streaming-tier-table .stt-card .stt-name p {
+  display: inline;
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.streaming-tier-table .stt-name p:not(:has(> strong))::before {
+  content: "\200b";
+  font-size: var(--heading-font-size-2);
+  line-height: 1.1;
+}
+
+.streaming-tier-table .stt-name p:not(:has(> strong))::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.streaming-tier-table .stt-card .stt-name p:has(> strong) {
+  font-size: var(--heading-font-size-3);
+}
+
+.streaming-tier-table .stt-divider {
+  height: 1px;
+  margin: 8px 0 16px;
+  background: var(--color-gray-300);
+}
+
+.streaming-tier-table .stt-divider-head {
+  margin: 0 0 24px;
+}
+
+.streaming-tier-table .stt-item {
+  display: flow-root;
+}
+
+.streaming-tier-table .stt-item a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.streaming-tier-table .stt-item .icon {
+  display: inline;
+  width: auto;
+  height: auto;
+  font-family: var(--icon-font);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.streaming-tier-table .icon-information-circle::before {
+  content: "V";
+}
+
+.streaming-tier-table .stt-cta a.button:any-link {
+  width: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 0;
+}
+
+.streaming-tier-table .btn-title {
+  padding-bottom: 3px;
+}
+
+.streaming-tier-table .btn-title-large {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .streaming-tier-table {
+    background-image: url("tier-bg.svg");
+  }
+
+  .streaming-tier-table .stt-head {
+    max-width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+  }
+
+  .streaming-tier-table .stt-grid {
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+
+  .streaming-tier-table .stt-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .streaming-tier-table .stt-body,
+  .streaming-tier-table .stt-foot {
+    padding: 0 calc((100% + var(--container-pad)) / 12);
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-tier-table .stt-head :is(h1, h2) {
+    margin-bottom: 32px;
+  }
+
+  .streaming-tier-table .stt-col {
+    margin-bottom: 24px;
+  }
+
+  .streaming-tier-table .stt-name {
+    margin: 40px 0 32px;
+  }
+
+  .streaming-tier-table .stt-divider {
+    margin-bottom: 24px;
+  }
+
+  .streaming-tier-table .stt-divider-head {
+    margin-bottom: 32px;
+  }
+
+  .streaming-tier-table .stt-price {
+    margin-bottom: 24px;
+  }
+
+  .streaming-tier-table .stt-card .stt-cta p {
+  margin: 0;
+}
+
+.streaming-tier-table .stt-cta a.button:any-link {
+    margin-bottom: 24px;
+  }
+}
+
+/* ---- name row with a brand logo: logo 8/12 centred, the tier name centred at h2 size ---- */
+.streaming-tier-table .stt-name-logo {
+  margin: 24px 0 19px;
+  text-align: center;
+}
+
+.streaming-tier-table .stt-logo {
+  width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+  margin: 0 auto -3px;
+}
+
+.streaming-tier-table .stt-card .stt-name-logo p:has(> strong) {
+  display: block;
+  font-size: var(--heading-font-size-2);
+}
+
+.streaming-tier-table .stt-card .stt-name .stt-logo p {
+  display: block;
+}
+
+.streaming-tier-table .stt-name .stt-logo p::before,
+.streaming-tier-table .stt-name .stt-logo p::after {
+  content: none;
+}
+
+.streaming-tier-table .stt-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ---- center variant: head centred ---- */
+.streaming-tier-table.center .stt-head {
+  text-align: center;
+}
+
+/* ---- xl variant: price amount at h1 size, centred; no gap under the cards ---- */
+.streaming-tier-table.xl .stt-price {
+  text-align: center;
+}
+
+.streaming-tier-table.xl .stt-price strong {
+  font-size: var(--heading-font-size-1);
+}
+
+.streaming-tier-table.xl .stt-col {
+  margin-bottom: 0;
+}
+
+/* ---- tabs variant: below 768px one tier at a time behind tab buttons ---- */
+.streaming-tier-table .stt-tabs {
+  display: flex;
+  margin: 0 0 16px;
+  border-bottom: 1px solid var(--color-gray-300);
+}
+
+.streaming-tier-table .stt-tab {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 12px 4px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-secondary);
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.streaming-tier-table .stt-tabs .stt-tab > p:only-child {
+  margin: 0;
+}
+
+.streaming-tier-table .stt-tab[aria-selected="true"] {
+  border-bottom-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.streaming-tier-table.tabs .stt-col:not(.stt-active) {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .streaming-tier-table .stt-tabs {
+    display: none;
+  }
+
+  .streaming-tier-table.tabs .stt-col:not(.stt-active) {
+    display: flex;
+  }
+
+  .streaming-tier-table.center .stt-head {
+    max-width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-tier-table.xl {
+    padding-top: 24px;
+  }
+
+  .streaming-tier-table .stt-name-logo {
+    margin: 40px 0 32px;
+  }
+
+  .streaming-tier-table.xl .stt-price {
+    margin: -7px 0 16px;
+  }
+
+}
+
+@media (width < 1024px) {
+  .streaming-tier-table.xl {
+    padding-top: 18px;
+  }
+
+  .streaming-tier-table .stt-name-logo {
+    margin-top: 29px;
+  }
+
+  .streaming-tier-table.xl .stt-divider:not(.stt-divider-head) {
+    margin-bottom: 8px;
+  }
+}
+
+@media (width < 768px) {
+  /* tabs band on white, the card inset to 280 of 320 (live .tab-body x40 w280 at 360) */
+  .streaming-tier-table.tabs {
+    background: none;
+  }
+
+  .streaming-tier-table.tabs .stt-col {
+    padding: 0 calc(var(--container-pad) * 1.5);
+  }
+
+  .streaming-tier-table.tabs .stt-body,
+  .streaming-tier-table.tabs .stt-foot {
+    padding: 0 13px;
+  }
+}

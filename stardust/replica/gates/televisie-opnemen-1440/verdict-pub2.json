@@ -1,0 +1,81 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-opnemen-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-opnemen-1440/pixel-pub2.json",
+    "pct": 15.99,
+    "alignedPct": 13.15,
+    "alignedUsed": true,
+    "totalShift": 96,
+    "steps": [
+      {
+        "y": 961,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 1831,
+        "shift": -11,
+        "cumulative": -24
+      },
+      {
+        "y": 3083,
+        "shift": 61,
+        "cumulative": 37
+      },
+      {
+        "y": 3745,
+        "shift": 10,
+        "cumulative": 47
+      },
+      {
+        "y": 4221,
+        "shift": 1,
+        "cumulative": 48
+      }
+    ],
+    "offsetBound": 43,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 13.15% (unaligned 15.99%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:18:10.942Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/units-pub2.txt"
+    }
+  },
+  "structural": 134,
+  "nothingLost": 0,
+  "at": "2026-11-25T21:44:10.065Z"
+}

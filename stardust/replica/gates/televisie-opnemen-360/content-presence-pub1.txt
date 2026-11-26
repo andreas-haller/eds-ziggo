@@ -1,0 +1,25 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 23 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/opnemen (docH 6429, 108 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen (docH 6013, 110 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/2 | 0/0 | 0/0 | 1/1 | EXTRA LINK |
+| 1 | neem alles op | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | ervaar ziggo tv & streaming | 2/2 | 1/1 | 4/4 | 0/0 | EXTRA LINK, CONTROL MISSING |
+| 3 | alles over deze functie | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 4 | nooit meer iets missen | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 5 | 400 uur opnemen | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 6 | kijken en opnemen tegelijkertijd | 1/1 | 0/0 | 2/2 | 1/1 | - |
+| 7 | selecteer ‘opnemen’ vanuit 't menu | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 8 | kies je mediabox | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 9 | next mini | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 10 | mediabox next | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 11 | nog geen tv van ziggo? | 2/2 | 0/0 | 1/1 | 0/0 | - |
+  🟡 EXTRA LINK: "bel ons" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "chat" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "menu" served in band "ervaar ziggo tv & streaming", no origin link or button
+  🟡 CONTROL MISSING: navigeer naar ... = "" (band "ervaar ziggo tv & streaming") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 3 / count deltas 0
+Findings: 4 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-opnemen-360/content-presence-pub1.json

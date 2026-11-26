@@ -1,0 +1,519 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T23:10:15.187Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.ziggo.nl",
+    "eds": "https://main--50ca44c6--aemcoder.aem.page",
+    "edsHostOverride": "https://main--50ca44c6--aemcoder.aem.page",
+    "only": [
+      "televisie-ziggo-sport",
+      "televisie-espn",
+      "televisie-extra-zenders-streamingdiensten"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 3,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 3,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 3,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "televisie-espn",
+      "path": "/televisie/espn",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 24.9,
+      "textPct": 24.43,
+      "heightDelta": 120,
+      "originH": 7573,
+      "edsH": 7453,
+      "alignedPct": 17.8,
+      "alignedUsed": true,
+      "totalShift": 220,
+      "steps": [
+        {
+          "y": 487,
+          "shift": 3,
+          "cumulative": 3
+        },
+        {
+          "y": 522,
+          "shift": 2,
+          "cumulative": 5
+        },
+        {
+          "y": 586,
+          "shift": 4,
+          "cumulative": 9
+        },
+        {
+          "y": 674,
+          "shift": 8,
+          "cumulative": 17
+        },
+        {
+          "y": 973,
+          "shift": -8,
+          "cumulative": 9
+        },
+        {
+          "y": 1145,
+          "shift": 12,
+          "cumulative": 21
+        },
+        {
+          "y": 1744,
+          "shift": 9,
+          "cumulative": 30
+        },
+        {
+          "y": 2852,
+          "shift": -30,
+          "cumulative": 0
+        },
+        {
+          "y": 3054,
+          "shift": 4,
+          "cumulative": 4
+        },
+        {
+          "y": 3236,
+          "shift": -1,
+          "cumulative": 3
+        },
+        {
+          "y": 3496,
+          "shift": -1,
+          "cumulative": 2
+        },
+        {
+          "y": 4497,
+          "shift": 7,
+          "cumulative": 9
+        }
+      ],
+      "offsetBound": 76,
+      "offsetTolerance": 378,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 17.8% (unaligned 24.9%) > 10%"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-espn-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:35.3%",
+        "2000-2500:40.9%",
+        "2500-3000:26.6%",
+        "4500-5000:55.5%",
+        "5000-5500:79.1%",
+        "5500-6000:44.1%",
+        "6000-6500:18.3%",
+        "6500-7000:15.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 28.1,
+      "textPct": 28.11,
+      "heightDelta": -267,
+      "originH": 16247,
+      "edsH": 16514,
+      "alignedPct": 11.58,
+      "alignedUsed": true,
+      "totalShift": 573,
+      "steps": [
+        {
+          "y": 2010,
+          "shift": 38,
+          "cumulative": 38
+        },
+        {
+          "y": 2772,
+          "shift": 44,
+          "cumulative": 82
+        },
+        {
+          "y": 2981,
+          "shift": 56,
+          "cumulative": 138
+        },
+        {
+          "y": 3317,
+          "shift": 4,
+          "cumulative": 142
+        },
+        {
+          "y": 3473,
+          "shift": 2,
+          "cumulative": 144
+        },
+        {
+          "y": 3629,
+          "shift": 2,
+          "cumulative": 146
+        },
+        {
+          "y": 4100,
+          "shift": 8,
+          "cumulative": 154
+        },
+        {
+          "y": 4877,
+          "shift": 8,
+          "cumulative": 162
+        },
+        {
+          "y": 5253,
+          "shift": 49,
+          "cumulative": 211
+        },
+        {
+          "y": 5436,
+          "shift": 18,
+          "cumulative": 229
+        },
+        {
+          "y": 6349,
+          "shift": 24,
+          "cumulative": 253
+        },
+        {
+          "y": 6749,
+          "shift": 28,
+          "cumulative": 281
+        }
+      ],
+      "offsetBound": 162,
+      "offsetTolerance": 812,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 11.58% (unaligned 28.1%) > 10%"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 3,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:16.1%",
+        "2000-2500:27.1%",
+        "2500-3000:19.5%",
+        "3000-3500:27.4%",
+        "3500-4000:31%",
+        "4000-4500:24.5%",
+        "4500-5000:24.2%",
+        "5000-5500:29.7%",
+        "5500-6000:22.2%",
+        "6000-6500:36.2%",
+        "6500-7000:23.5%",
+        "7000-7500:24.9%",
+        "7500-8000:21.9%",
+        "8000-8500:21.6%",
+        "8500-9000:20.3%",
+        "9000-9500:32.3%",
+        "9500-10000:29.6%",
+        "10000-10500:30.9%",
+        "10500-11000:29%",
+        "11000-11500:24.1%",
+        "12000-12500:36.5%",
+        "12500-13000:76%",
+        "13000-13500:74.9%",
+        "13500-14000:67.7%",
+        "14000-14500:39.4%",
+        "15000-15500:51.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "path": "/televisie/ziggo-sport",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 26.31,
+      "textPct": 16.77,
+      "heightDelta": 71,
+      "originH": 13213,
+      "edsH": 13142,
+      "alignedPct": 10.98,
+      "alignedUsed": true,
+      "totalShift": 373,
+      "steps": [
+        {
+          "y": 1516,
+          "shift": 15,
+          "cumulative": 15
+        },
+        {
+          "y": 1829,
+          "shift": -32,
+          "cumulative": -17
+        },
+        {
+          "y": 2051,
+          "shift": -8,
+          "cumulative": -25
+        },
+        {
+          "y": 2235,
+          "shift": 40,
+          "cumulative": 15
+        },
+        {
+          "y": 2331,
+          "shift": 1,
+          "cumulative": 16
+        },
+        {
+          "y": 2780,
+          "shift": 31,
+          "cumulative": 47
+        },
+        {
+          "y": 3026,
+          "shift": 1,
+          "cumulative": 48
+        },
+        {
+          "y": 3322,
+          "shift": -75,
+          "cumulative": -27
+        },
+        {
+          "y": 3579,
+          "shift": -7,
+          "cumulative": -34
+        },
+        {
+          "y": 5315,
+          "shift": 25,
+          "cumulative": -9
+        },
+        {
+          "y": 5846,
+          "shift": -2,
+          "cumulative": -11
+        },
+        {
+          "y": 6589,
+          "shift": -11,
+          "cumulative": -22
+        }
+      ],
+      "offsetBound": 132,
+      "offsetTolerance": 660,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 10.98% (unaligned 26.31%) > 10%"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-ziggo-sport-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:26.5%",
+        "1500-2000:20.8%",
+        "2000-2500:31%",
+        "2500-3000:33.8%",
+        "3000-3500:21.5%",
+        "3500-4000:48.2%",
+        "4000-4500:51.1%",
+        "4500-5000:30.7%",
+        "5000-5500:20.3%",
+        "5500-6000:22.8%",
+        "6500-7000:26%",
+        "8000-8500:40.6%",
+        "8500-9000:44.6%",
+        "9000-9500:15.1%",
+        "9500-10000:35.4%",
+        "10000-10500:45.5%",
+        "10500-11000:67%",
+        "11000-11500:22.6%",
+        "12000-12500:26.1%"
+      ],
+      "error": null
+    }
+  ]
+}

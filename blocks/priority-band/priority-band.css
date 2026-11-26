@@ -1,0 +1,89 @@
+/* Priority band (source .prio): background visual + title, sub title, light CTA */
+.priority-band .prio {
+  position: relative;
+  background: var(--color-gray-900);
+  color: var(--color-white);
+}
+
+.priority-band .prio-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 360 / 203;
+  overflow: hidden;
+}
+
+.priority-band .prio-visual {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  aspect-ratio: 1600 / 720;
+  transform: translateX(-50%);
+}
+
+.priority-band .prio-visual :is(picture, img) {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.priority-band .prio-visual img {
+  object-fit: contain;
+}
+
+.priority-band .prio-content {
+  position: relative;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 31px var(--container-pad) 32px;
+}
+
+.priority-band .prio-title :is(h1, h2, h3) {
+  color: var(--color-white);
+  font-size: var(--heading-font-size-2);
+}
+
+.priority-band .prio-sub :is(h2, h3, h4, p) {
+  margin-top: 8px;
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-light-4);
+  font-weight: 300;
+}
+
+.priority-band .prio-cta {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  .priority-band .prio {
+    display: flex;
+    align-items: center;
+    height: 720px;
+  }
+
+  .priority-band .prio-media {
+    position: absolute;
+    inset: 0;
+    aspect-ratio: auto;
+  }
+
+  .priority-band .prio-content {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .priority-band .prio-col {
+    max-width: calc(50% - var(--container-pad) / 2);
+  }
+
+  .priority-band .prio-cta {
+    margin-top: 24px;
+  }
+}
+
+/* the duplicate responsive label of the source button (see dualLabel) */
+.priority-band a.button .btn-title-large {
+  display: none;
+}

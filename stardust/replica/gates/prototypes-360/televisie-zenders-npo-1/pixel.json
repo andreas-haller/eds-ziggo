@@ -1,0 +1,168 @@
+{
+  "a": "stardust/replica/gates/prototypes-360/televisie-zenders-npo-1/origin.png",
+  "b": "stardust/replica/gates/prototypes-360/televisie-zenders-npo-1/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2729,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 9833,
+  "pct": 1,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-360/televisie-zenders-npo-1/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.7
+    },
+    {
+      "y0": 2500,
+      "y1": 2729,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.54,
+    "differingPixels": 5291,
+    "compared": {
+      "width": 360,
+      "height": 2730,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1744,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2288,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 2,
+    "insertedRows": 1,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.4,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 2500,
+        "y1": 2729,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/prototypes-360/televisie-zenders-npo-1/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/televisie-zenders-npo-1-proposed.html",
+    "key": {
+      "v": 3,
+      "build": "http://localhost:8791/televisie-zenders-npo-1-proposed.html",
+      "source": "https://www.ziggo.nl/televisie/zenders/npo-1",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "c2291b8a5c3190f1",
+      "reference": "79bec7effda07540",
+      "archetype": "7351a0525f8a26fc",
+      "captures": "2150b9167bfc6d66",
+      "instruments": "700566dc6f7774a4",
+      "prototype": "332603f451ada6ec",
+      "page content": "33f98e525a868547"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 78,
+          "controls": 68,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-25T15:04:14.149Z"
+  }
+}

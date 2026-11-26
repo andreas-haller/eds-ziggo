@@ -1,0 +1,81 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-terugkijken-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-terugkijken-1440/pixel-pub2.json",
+    "pct": 24.3,
+    "alignedPct": 17.64,
+    "alignedUsed": true,
+    "totalShift": 374,
+    "steps": [
+      {
+        "y": 1150,
+        "shift": 84,
+        "cumulative": 84
+      },
+      {
+        "y": 1409,
+        "shift": 33,
+        "cumulative": 117
+      },
+      {
+        "y": 1909,
+        "shift": 59,
+        "cumulative": 176
+      },
+      {
+        "y": 2875,
+        "shift": 197,
+        "cumulative": 373
+      },
+      {
+        "y": 3407,
+        "shift": 1,
+        "cumulative": 374
+      }
+    ],
+    "offsetBound": 35,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 17.64% (unaligned 24.3%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:52:56.932Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/units-pub2.txt"
+    }
+  },
+  "structural": 133,
+  "nothingLost": 0,
+  "at": "2026-11-25T21:56:33.665Z"
+}

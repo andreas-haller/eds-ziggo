@@ -1,0 +1,91 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-hoofdmenu-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-hoofdmenu-360/pixel-pub1.json",
+    "pct": 36.84,
+    "alignedPct": 16.25,
+    "alignedUsed": true,
+    "totalShift": 261,
+    "steps": [
+      {
+        "y": 472,
+        "shift": 50,
+        "cumulative": 50
+      },
+      {
+        "y": 1112,
+        "shift": 90,
+        "cumulative": 140
+      },
+      {
+        "y": 1319,
+        "shift": 11,
+        "cumulative": 151
+      },
+      {
+        "y": 1597,
+        "shift": 32,
+        "cumulative": 183
+      },
+      {
+        "y": 1877,
+        "shift": 61,
+        "cumulative": 244
+      },
+      {
+        "y": 2171,
+        "shift": 16,
+        "cumulative": 260
+      },
+      {
+        "y": 2790,
+        "shift": 1,
+        "cumulative": 261
+      }
+    ],
+    "offsetBound": 32,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 16.25% (unaligned 36.84%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:05:25.553Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-hoofdmenu-360/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T23:07:45.667Z"
+}

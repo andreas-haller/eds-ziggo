@@ -1,0 +1,20 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 753 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/digitale-radio (docH 2744, 105 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio (docH 2651, 96 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | digitale radio | 2/4 | 0/0 | 2/2 | 0/0 | EXTRA LINK |
+| 2 | 90+ radiozenders | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 3 | bekende radiozenders | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 4 | ieder genre een zender | 0/0 | 0/0 | 3/3 | 1/0 | - |
+| 5 | de digitale radiozenders | 1/1 | 0/0 | 1/1 | 1/2 | - |
+| 6 | radio én muziekzenders | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 7 | hulp bij tv & radio | 3/3 | 0/0 | 1/1 | 0/0 | - |
+  🟡 EXTRA LINK: "bel ons" served in band "digitale radio", no origin link or button
+  🟡 EXTRA LINK: "chat" served in band "digitale radio", no origin link or button
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 2 / count deltas 0
+Findings: 2 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-digitale-radio-1440/content-presence-pub3.json

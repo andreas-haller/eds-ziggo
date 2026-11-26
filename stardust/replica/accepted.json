@@ -1,0 +1,19 @@
+{
+  "accepted": [
+    {
+      "kind": "ICON DIFF",
+      "text": "lupin",
+      "reason": "live lane card 'Lupin | seizoen 4' carries an empty logo src that resolves to the page URL (www.ziggo.nl); the build's empty src resolves to its own page URL — same empty image, different base URL"
+    },
+    {
+      "kind": "MISSING CTA",
+      "text": "start een chat",
+      "reason": "capture state (host-bound chat availability): the extract and the frozen pixel reference captured the contact band's chat button in its busy state (\"We zijn momenteel in gesprek, probeer het later nog eens.\", disabled, #start-pre-chat); when agents are free the live page hydrates it to \"Start een chat\" + chevron. Replicated as captured (dynamic-features: chat is host-bound)."
+    },
+    {
+      "kind": "MISSING ICON",
+      "text": "start een chat",
+      "reason": "capture state (host-bound chat availability): the extract and the frozen pixel reference captured the contact band's chat button in its busy state (\"We zijn momenteel in gesprek, probeer het later nog eens.\", disabled, #start-pre-chat); when agents are free the live page hydrates it to \"Start een chat\" + chevron. Replicated as captured (dynamic-features: chat is host-bound)."
+    }
+  ]
+}

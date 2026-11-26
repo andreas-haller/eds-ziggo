@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T14:45:22.961Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T14:49:36.355Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T14:57:07.941Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "only residual: canon header logo signature (ziggo-logo-orange-v1 -> .svg extension), accepted on every earlier archetype; pixel 0.03% aligned, Δh 0, content 0/0, clipped 0, units 172 off 0",
+          "at": "2026-11-25T14:57:16.350Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T19:13:00.712Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T19:22:23.147Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel/height/units PASS (pub2); source-only residuals: 131 header/footer MISSING ICON = foundation chrome icon class (already requested); header logo signature advisory (same svg); source empty interactions nav aria-label Interacties; hidden filter checkbox check-mark glyph (0x0) not drawn; frozen scripts.js link titles",
+          "at": "2026-11-25T19:27:29.771Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T19-25-43-393Z",
+          "at": "2026-11-25T19:29:00.264Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:32:34.205Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:52:01.532Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

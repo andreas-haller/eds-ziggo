@@ -1,0 +1,613 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T22:55:51.778Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.ziggo.nl",
+    "eds": "https://main--50ca44c6--aemcoder.aem.page",
+    "edsHostOverride": "https://main--50ca44c6--aemcoder.aem.page",
+    "only": [
+      "televisie",
+      "internet",
+      "televisie-extra-zenders-streamingdiensten",
+      "televisie-ziggo-sport",
+      "televisie-espn"
+    ]
+  },
+  "totals": {
+    "pages": 5,
+    "pass": 4,
+    "pixelOnlyPass": 5,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "unitsNotDeclared": 5,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 4
+  },
+  "rows": [
+    {
+      "slug": "internet",
+      "path": "/internet",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.76,
+      "textPct": 17.57,
+      "heightDelta": 36,
+      "originH": 6453,
+      "edsH": 6417,
+      "alignedPct": 6.43,
+      "alignedUsed": true,
+      "totalShift": 40,
+      "steps": [
+        {
+          "y": 2824,
+          "shift": -28,
+          "cumulative": -28
+        },
+        {
+          "y": 4706,
+          "shift": -8,
+          "cumulative": -36
+        },
+        {
+          "y": 4792,
+          "shift": 1,
+          "cumulative": -35
+        },
+        {
+          "y": 5575,
+          "shift": -1,
+          "cumulative": -36
+        },
+        {
+          "y": 5908,
+          "shift": -1,
+          "cumulative": -37
+        },
+        {
+          "y": 6348,
+          "shift": 1,
+          "cumulative": -36
+        }
+      ],
+      "offsetBound": 65,
+      "offsetTolerance": 322,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 19,
+        "hiddenButtons": 0,
+        "findings": 14,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/internet-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2500-3000:19.6%",
+        "3000-3500:18.6%",
+        "3500-4000:23.1%",
+        "4000-4500:29.3%",
+        "5500-6000:18.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie",
+      "path": "/televisie",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.74,
+      "textPct": 11.8,
+      "heightDelta": 0,
+      "originH": 9284,
+      "edsH": 9284,
+      "alignedPct": 2.45,
+      "alignedUsed": true,
+      "totalShift": 74,
+      "steps": [
+        {
+          "y": 1017,
+          "shift": -7,
+          "cumulative": -7
+        },
+        {
+          "y": 1141,
+          "shift": -1,
+          "cumulative": -8
+        },
+        {
+          "y": 1582,
+          "shift": 8,
+          "cumulative": 0
+        },
+        {
+          "y": 5037,
+          "shift": 27,
+          "cumulative": 27
+        },
+        {
+          "y": 5578,
+          "shift": -14,
+          "cumulative": 13
+        },
+        {
+          "y": 6530,
+          "shift": -3,
+          "cumulative": 10
+        },
+        {
+          "y": 6925,
+          "shift": -12,
+          "cumulative": -2
+        },
+        {
+          "y": 8214,
+          "shift": 1,
+          "cumulative": -1
+        },
+        {
+          "y": 9179,
+          "shift": 1,
+          "cumulative": 0
+        }
+      ],
+      "offsetBound": 93,
+      "offsetTolerance": 464,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [
+        "content"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 8 / HIDDEN 0"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 8,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 16,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "5500-6000:19.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-espn",
+      "path": "/televisie/espn",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.34,
+      "textPct": 15.23,
+      "heightDelta": -9,
+      "originH": 5231,
+      "edsH": 5240,
+      "alignedPct": 7.1,
+      "alignedUsed": true,
+      "totalShift": 45,
+      "steps": [
+        {
+          "y": 2318,
+          "shift": 3,
+          "cumulative": 3
+        },
+        {
+          "y": 2474,
+          "shift": -1,
+          "cumulative": 2
+        },
+        {
+          "y": 2703,
+          "shift": -1,
+          "cumulative": 1
+        },
+        {
+          "y": 3114,
+          "shift": 8,
+          "cumulative": 9
+        },
+        {
+          "y": 3630,
+          "shift": -16,
+          "cumulative": -7
+        },
+        {
+          "y": 4209,
+          "shift": 15,
+          "cumulative": 8
+        },
+        {
+          "y": 5126,
+          "shift": 1,
+          "cumulative": 9
+        }
+      ],
+      "offsetBound": 52,
+      "offsetTolerance": 261,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-espn-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:15.3%",
+        "2000-2500:33.6%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.44,
+      "textPct": 21.34,
+      "heightDelta": 111,
+      "originH": 8302,
+      "edsH": 8191,
+      "alignedPct": 8.36,
+      "alignedUsed": true,
+      "totalShift": 137,
+      "steps": [
+        {
+          "y": 3544,
+          "shift": -59,
+          "cumulative": -59
+        },
+        {
+          "y": 3990,
+          "shift": -11,
+          "cumulative": -70
+        },
+        {
+          "y": 5043,
+          "shift": -31,
+          "cumulative": -101
+        },
+        {
+          "y": 5434,
+          "shift": 11,
+          "cumulative": -90
+        },
+        {
+          "y": 6232,
+          "shift": -7,
+          "cumulative": -97
+        },
+        {
+          "y": 6934,
+          "shift": 1,
+          "cumulative": -96
+        },
+        {
+          "y": 7610,
+          "shift": -16,
+          "cumulative": -112
+        },
+        {
+          "y": 8197,
+          "shift": 1,
+          "cumulative": -111
+        }
+      ],
+      "offsetBound": 83,
+      "offsetTolerance": 415,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 137px total, largest step 59px (strict bound 83px, tolerance 415px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 11,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:17.3%",
+        "2000-2500:17%",
+        "3000-3500:15.2%",
+        "5000-5500:19.8%",
+        "6000-6500:26.4%",
+        "6500-7000:21.4%",
+        "7500-8000:23.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "path": "/televisie/ziggo-sport",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.93,
+      "textPct": 15.48,
+      "heightDelta": -11,
+      "originH": 7800,
+      "edsH": 7811,
+      "alignedPct": 4.25,
+      "alignedUsed": true,
+      "totalShift": 33,
+      "steps": [
+        {
+          "y": 2599,
+          "shift": -4,
+          "cumulative": -4
+        },
+        {
+          "y": 3111,
+          "shift": 2,
+          "cumulative": -2
+        },
+        {
+          "y": 5120,
+          "shift": -7,
+          "cumulative": -9
+        },
+        {
+          "y": 5977,
+          "shift": 9,
+          "cumulative": 0
+        },
+        {
+          "y": 7182,
+          "shift": 10,
+          "cumulative": 10
+        },
+        {
+          "y": 7695,
+          "shift": 1,
+          "cumulative": 11
+        }
+      ],
+      "offsetBound": 78,
+      "offsetTolerance": 390,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-ziggo-sport-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "5000-5500:15.4%"
+      ],
+      "error": null
+    }
+  ]
+}

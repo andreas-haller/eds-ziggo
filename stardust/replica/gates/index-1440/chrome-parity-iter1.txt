@@ -1,0 +1,24 @@
+chrome-parity: --live-cache stardust/replica/gates/index-1440/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 6 delta(s) — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header#site-header.site-header — outermost <header>, box 0,0 1440×112; selector #site-header
+  REGION STYLE position static → relative (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Entertainment"  Δx +2px (535→537)
+  PAIR         "Ziggo GO"  paddingTop 0px → 12px
+  PAIR         "Ziggo Mail"  paddingTop 0px → 12px
+  PAIR         "Mijn Ziggo"  <button> paddingTop 0px → 12px
+  PAIR         "Zoeken"  Δx +3px (1232→1235); Δy +34px (52→86); Δw -5px (44→39); Δh -34px (44→10); <button> paddingTop 0px → 12px
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: 1 delta(s) — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,5493 1440×581; selector #vfz-app > footer
+  region build: footer#site-footer.site-footer — outermost <footer>, box 0,5490 1440×582; selector #site-footer
+  advisory     REGION OFFSET: page Δy -3px (5493→5490) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+  REGION STYLE backgroundColor rgb(255, 255, 255) → rgb(50, 54, 57)
+
+✗ 7 delta(s), 2 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

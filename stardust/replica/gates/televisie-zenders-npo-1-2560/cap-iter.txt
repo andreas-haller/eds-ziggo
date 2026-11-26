@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.ziggo.nl/televisie/zenders/npo-1
+  modules  4 sections: capped 1600 ×1 · full-bleed ×3
+  contentMaxWidth 1600px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/televisie-zenders-npo-1-proposed.html
+  modules  4 sections: capped 1600 ×1 · full-bleed ×3
+  contentMaxWidth 1600px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1600px = build 1600px (±20, shared module cap)
+  ✓ module 1/4: full-bleed on both
+  ✓ module 2/4: 1600px = 1600px
+  ✓ module 3/4: full-bleed on both
+  ✓ module 4/4: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/televisie-zenders-npo-1-2560/cap-iter.json)

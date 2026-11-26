@@ -1,0 +1,17 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.ziggo.nl/alles-in-1
+  shell     1600px  max-width #main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content  (tier 3, holds 91% of the text)
+  modules  5 sections: capped 1600 ×2, 408 ×1 · full-bleed ×2
+  contentMaxWidth 1600px (shell) · shellMaxWidth 1600px · root #main-content
+build  http://localhost:8791/alles-in-1-proposed.html
+  shell     1600px  max-width #main-content > section.aio-body > div.container  (tier 2, holds 91% of the text)
+  modules  5 sections: capped 1600 ×2, 408 ×1 · full-bleed ×2
+  contentMaxWidth 1600px (shell) · shellMaxWidth 1600px · root #main-content
+rows
+  ✓ wrapper cap: live 1600px = build 1600px (±20)
+  ✓ module 1/5: full-bleed on both
+  ✓ module 2/5: 408px = 408px
+  ✓ module 3/5: 1600px = 1600px
+  ✓ module 4/5: 1600px = 1600px
+  ✓ module 5/5: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 6 rows failed (evidence stardust/replica/gates/alles-in-1-2560/cap-iter.json)

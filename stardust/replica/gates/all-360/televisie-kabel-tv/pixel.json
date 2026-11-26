@@ -1,0 +1,226 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie-kabel-tv/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie-kabel-tv/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3358,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 24532,
+  "pct": 2.03,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/televisie-kabel-tv/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9.47,
+  "textBoxes": 96,
+  "textPixels": 154963,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3358,
+      "pct": 0.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.34,
+    "differingPixels": 16155,
+    "compared": {
+      "width": 360,
+      "height": 3360,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2192,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2285,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 2829,
+        "shift": 1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 3,
+    "insertedRows": 1,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.3,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.9,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.8,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.6,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3359,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie-kabel-tv/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 34,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv",
+      "source": "https://www.ziggo.nl/televisie/kabel-tv",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "26dff17bbd851ec5",
+      "archetype": "7ca1560c668f64ab",
+      "captures": "a87d5d64d07b365d",
+      "instruments": "700566dc6f7774a4",
+      "page content": "15723ba728891269",
+      "shared code": "933bef04481b01be",
+      "block address-checker": "f5957a2c73f45487",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block bundle-builder": "89f495a4e1f1d0c1",
+      "block contact-band": "d6ef2a11a0e4b704",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 89,
+          "controls": 80,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 106,
+          "controls": 86,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:10:34.348Z"
+  }
+}

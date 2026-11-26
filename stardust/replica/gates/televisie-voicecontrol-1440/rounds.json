@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T13:22:03.903Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T13:23:53.973Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T13:31:54.644Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 pixel 2.15% aligned PASS, Δh -1, Clipped 0; sole fail = subnav toggle glyph content-diff red (desktop-hidden button), fixed after cap by scoping the glyph to <768px and verified standalone: content-diff-post.txt 0 red / 0 nothing-lost",
+          "at": "2026-11-25T13:33:24.059Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T16:36:39.639Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T16:43:18.117Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T16:51:37.224Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel PASS (1440 aligned 0.94% dh -1, 360 aligned 0.57% dh 0), clipped 0, no overflow; residual main content-diff reds = 4 MISSING CTA from source dual button labels (btn-title + btn-title--large, one display:none) vs one authored label - nothing lost; header/footer icon reds belong to the frozen foundation",
+          "at": "2026-11-25T16:51:43.269Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T16-51-48-501Z",
+          "at": "2026-11-25T16:53:15.685Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-06-59-829Z",
+          "at": "2026-11-26T02:11:54.719Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:09:37.589Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-43-34-296Z",
+          "at": "2026-11-26T03:46:47.330Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

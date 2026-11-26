@@ -1,0 +1,75 @@
+/* =====================================================================
+   televisie-zenders-npo-1 (channel archetype) — page modules on top of canon.css + modules.css
+   Values measured on https://www.ziggo.nl/televisie/zenders/npo-1 (source-spec 1440/360)
+   and lifted from the source's head stylesheet (hero container 20vh, channel info block, social share).
+   ===================================================================== */
+.ch-main { display: flex; flex-direction: column; position: relative; }
+.text-branded { font-size: 1.125rem; font-weight: 300; line-height: 1.6; }
+.icon-dialogue::before { content: "N"; }
+.icon-hd::before { content: "S"; }
+.icon-facebook::before { content: "["; }
+.icon-linkedin::before { content: "`"; }
+.icon-whatsapp::before { content: "Z"; }
+.interactions__orb--offline { background: #bd0000; }
+.page-ch .interactions__item { flex: 1 1 0; }
+
+/* ---------- grid (row/cell with --pad/2 gutters; columns from 768) */
+.ch-row { display: flex; flex-wrap: wrap; flex-direction: column; margin: 0 calc(var(--pad) / -2); }
+.ch-row--rev { flex-direction: column-reverse; }
+.ch-col { padding: 0 calc(var(--pad) / 2); width: 100%; }
+@media (min-width: 768px) {
+  .ch-row, .ch-row--rev { flex-direction: row; align-items: flex-start; }
+  .ch-col--4 { flex: 0 0 33.3333%; max-width: 33.3333%; }
+  .ch-col--8 { flex: 0 0 66.6667%; max-width: 66.6667%; }
+}
+
+/* ---------- hero (ziggo gradient, min-height 20vh, content vertically centred) */
+.ch-hero { display: flex; flex-direction: column; min-height: 20vh; background: linear-gradient(0deg, #ff4608 0%, #ff5f00 70%, #f7931e); color: var(--color_tertiary-darken-40, #01125d); }
+@media (min-width: 768px) { .ch-hero { background: var(--gradient_primary); } }
+.ch-hero__content { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-top: 2rem; padding-bottom: 2rem; }
+.ch-hero__title { margin-bottom: .5rem; }
+.ch-hero__sub { color: #fff; font-family: var(--font_text); font-weight: 300; font-size: 1.42rem; line-height: 1.1; }
+@media (min-width: 1024px) { .ch-hero__sub { font-size: 1.95rem; } }
+
+/* ---------- content section */
+.ch-sec { background: #fff; color: var(--color_secondary); }
+.ch-sec--light { background: var(--color_gray-100); }
+.ch-sec__inner { padding-top: 2rem; padding-bottom: 2rem; }
+.ch-text p { font-weight: 300; margin-bottom: 1rem; }
+.ch-text .text-branded { line-height: 1.6; }
+.ch-text__block { margin-bottom: 16px; }
+.ch-text__block p { margin-bottom: 0; }
+.ch-text h3 { color: var(--color_secondary); }
+.ch-btn-wrap { text-align: left; }
+.ch-btn { margin-bottom: 16px; }
+@media (min-width: 1024px) {
+  .ch-text__block { margin-bottom: 24px; }
+  .ch-btn { margin-bottom: 24px; }
+}
+
+/* ---------- channel info block */
+.chinfo { border: 2px solid var(--color_gray-700); border-radius: var(--border-radius); margin-bottom: .75rem; padding: 1.5rem; }
+.chinfo__image { display: flex; align-items: center; justify-content: center; height: 100px; margin-bottom: 1rem; }
+.chinfo__image > img { height: 100%; width: auto; }
+.chinfo__short { display: flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--color_gray-700); font-weight: 700; margin-bottom: 1rem; padding-bottom: 1rem; }
+.chinfo__number, .chinfo__divider { line-height: 1; }
+.chinfo__divider { border-left: 2px solid #fff; height: 16px; margin: 0 .75rem; }
+.chinfo__extras { display: flex; align-items: center; }
+.chinfo__extras > .icon { font-size: 1.5rem; line-height: normal; }
+.chinfo__details { color: var(--color_secondary); margin-bottom: 1.5rem; }
+.chinfo__header { font-weight: 700; }
+.chinfo__list { display: flex; flex-wrap: wrap; font-weight: 300; margin-bottom: 1rem; }
+.chinfo__comma { margin: 0 .25rem 0 0; }
+.chinfo__link { display: block; margin-bottom: .5rem; }
+.chinfo__link > .icon::before { font-size: .9rem; }
+
+/* ---------- social share */
+.share { display: flex; flex-wrap: wrap; justify-content: center; margin: 16px 0; }
+@media (min-width: 1024px) { .share { margin: 24px 0; } }
+.share__btn { display: inline-flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; border-radius: 8px; color: #fff; font-size: 1.125rem; }
+.share__btn:hover { color: #fff; }
+.share__btn--facebook { background: #3c5ba2; }
+.share__btn--linkedin { background: #0177b5; }
+.share__btn--mail { background: #e03d19; }
+.share__btn--whatsapp { background: #65bc54; }
+@media (min-width: 768px) { .share__btn--whatsapp { display: none; } }

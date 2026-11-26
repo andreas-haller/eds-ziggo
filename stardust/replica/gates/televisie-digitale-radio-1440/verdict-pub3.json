@@ -1,0 +1,76 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-digitale-radio-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-digitale-radio-1440/pixel-pub3.json",
+    "pct": 11.94,
+    "alignedPct": 8.94,
+    "alignedUsed": true,
+    "totalShift": 133,
+    "steps": [
+      {
+        "y": 1329,
+        "shift": -113,
+        "cumulative": -113
+      },
+      {
+        "y": 1945,
+        "shift": 10,
+        "cumulative": -103
+      },
+      {
+        "y": 2163,
+        "shift": 9,
+        "cumulative": -94
+      },
+      {
+        "y": 2639,
+        "shift": 1,
+        "cumulative": -93
+      }
+    ],
+    "offsetBound": 27,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 4 step(s), 133px total — −113px at y=1329, +10px at y=1945, +9px at y=2163, +1px at y=2639 (bound 27px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:52:01.127Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:34:50.963Z"
+}

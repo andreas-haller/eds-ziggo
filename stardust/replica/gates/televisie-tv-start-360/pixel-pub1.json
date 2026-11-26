@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/televisie-tv-start-360/live.png",
+  "b": "stardust/replica/gates/televisie-tv-start-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 3328,
+    "mode": "overlap"
+  },
+  "heightDelta": -7,
+  "differingPixels": 48919,
+  "pct": 4.08,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/televisie-tv-start-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3328,
+      "pct": 1.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.52,
+    "differingPixels": 18295,
+    "compared": {
+      "width": 360,
+      "height": 3337,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1601,
+        "shift": 8,
+        "cumulative": 8
+      },
+      {
+        "y": 2161,
+        "shift": -1,
+        "cumulative": 7
+      },
+      {
+        "y": 2254,
+        "shift": -1,
+        "cumulative": 6
+      },
+      {
+        "y": 2798,
+        "shift": 1,
+        "cumulative": 7
+      }
+    ],
+    "maxOffset": 8,
+    "totalShift": 11,
+    "insertedRows": 9,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.8,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.1,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.7,
+        "unaligned": 8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.6,
+        "unaligned": 6.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3328,
+        "pct": 0,
+        "unaligned": 1.1
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-tv-start-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 33,
+    "totalShift": 11,
+    "pass": true
+  },
+  "reason": null
+}

@@ -1,0 +1,69 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-26T04:50:57.925Z",
+  "url": "https://www.ziggo.nl/televisie/tv-start",
+  "width": 2560,
+  "vh": 900,
+  "height": 2699,
+  "settle": true,
+  "chunks": 3,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 14,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 64,
+    "intervals": 13,
+    "chains": 51,
+    "delays": [
+      2000,
+      5000,
+      10000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 2699,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    2699,
+    2699
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-26T04:51:51.884Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

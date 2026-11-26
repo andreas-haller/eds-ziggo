@@ -1,0 +1,61 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-zenderoverzicht-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-zenderoverzicht-1440/pixel-pub2.json",
+    "pct": 0.13,
+    "alignedPct": 0.13,
+    "alignedUsed": true,
+    "totalShift": 1,
+    "steps": [
+      {
+        "y": 14983,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "offsetBound": 151,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T14:41:13.976Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenderoverzicht-1440/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 1,
+  "at": "2026-11-25T19:18:26.834Z"
+}

@@ -1,0 +1,1043 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-online-tv-kijken-1440/vdiff-pub3/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "De mogelijkheden op een rijtje" is rgb(0, 0, 0) in build vs rgb(255, 95, 0) in source (luminance 0 vs 132). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • HEADING FACE: <h1> "Online tv-kijken" is 48.8px Ziggo Headline in build vs 61.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Overal in huis en onderweg onlin" is 20px Ziggo Headline in build vs 25px Vodafone Ziggo text in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Tv-kijken via internet met Ziggo" is 39.04px Ziggo Headline in build vs 48.8px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Kies voor Internet & TV van Zigg" is 31.2px Ziggo Headline in build vs 39.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "UEFA Europees voetbal" is 31.2px Ziggo Headline in build vs 39.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "De mogelijkheden op een rijtje" is 31.2px Ziggo Headline in build vs 48.8px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Tot 7 dagen terugkijken" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Live tv-kijken" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Programma's opnemen" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Streamen naar je tv" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "On- en offline kijken" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Meer schermen tegelijk" is 18px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "70+ digitale zenders" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Gratis Ziggo Sport" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Streamingdiensten" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Extra zenders" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Priority" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "UEFA" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Wifi Garantie" is 20px Ziggo Headline in build vs 25.008px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Veelgestelde vragen" is 48.8px Ziggo Headline in build vs 39.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4543,
+  "textLen": 3722,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_header60_Ziggo_B2C_OnlineTVKijken_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_popcorn_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_popcorn_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_devices_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_devices_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_security_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_SuperIcon_security_2025_Q4?fmt=svg",
+    "natural": "400x226",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Article_B2C_Ziggo_35_extra_zenders_gradient_2026_Q1?fmt=webp-alpha&qlt=85,0&bfc=off&wid=742&fit=constrain",
+    "natural": "649x365",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_ZiggoSport_devices_logo_mockup_2025_Q4?qlt=80,0&dpr=off&wid=742&fit=constrain",
+    "natural": "649x365",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_replay-2?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-live-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_record-2-2?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-stream-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_play-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_multiple-screens-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_zenders_grey_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_zenders_grey_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_Sport3_2025_Q4-1?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_Sport3_2025_Q4-1?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_streaming_blue_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_streaming_blue_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_ExtraZenders_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_ExtraZenders_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "267x267",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_priority_2025_Q4-1?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_priority_2025_Q4-1?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_UEFA_2025_Q4?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_UEFA_2025_Q4?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1-1_carousel-image_wifigarantie-1?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "267x267",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1-1_carousel-image_wifigarantie-1?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x20",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=f9e27edc-a82e-4a30-8316-4544ee9b063a&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Online%20tv-kijken%20waar%20en%20wanneer%20je%20wilt%20%7C%20Ziggo&kw=horizon&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fonline-tv-kijken&r=&lt=10054&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=734217",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fonline-tv-kijken&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Online tv-kijken",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "61.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Overal in huis en onderweg onlin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tv-kijken via internet met Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Altijd en overal online tv-kijke",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Maak van elk scherm je tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi die werkt. Gegarandeerd",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies voor Internet & TV van Zigg",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA Europees voetbal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "De mogelijkheden op een rijtje",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tot 7 dagen terugkijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Live tv-kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Programma's opnemen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Streamen naar je tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "On- en offline kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meer schermen tegelijk",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Online tv-kijken met Ziggo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Het beste entertainment voor jou",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "70+ digitale zenders",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gratis Ziggo Sport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Streamingdiensten",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra zenders",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Priority",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wifi Garantie",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "user-identification-bar",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "vfz-notification__text-content",
+    "width": 1044,
+    "left": 189
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "vfz-card-carousel__cards",
+    "width": 1156,
+    "left": 142
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4050,
+  "textLen": 3718,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_135f6e54a7a8e8a99fea39548b319f5db9f779b0b.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x810",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d6f6932716e8427ece32cad213c3ef2425547734.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "2000x677",
+    "rendered": "1440x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c0446feb96497929d1bafb32aea60736ab5af88d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "357x238",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_103b48589e395dd5be1784c5c69d8e3db20a98dd7.svg?width=2000&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "357x238",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17d01ddb7d8677f4824f3c97b4ce478aa83884ba9.svg?width=2000&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "357x238",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_190c4d148241327a41889c6b036121a44a02fbf12.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "649x366",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1814826adb97852fd863647fdf698e60a3520c974.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "649x366",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17c7a7f7ec225de4c879b2dbffbd5ca3bf15fd32f.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e746803b0dbf136f4f10307ac13422602e29ce60.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1856fa14fa0ffbf4324cf8284f226fd5f48cadc36.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_198dfa78d958089672b5f776c93b50533fe230130.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_171567bfc324907919a07da34c016691c24f7286a.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13315a618b454ef6013ae2c2205fc148ff8c178da.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10aeefff4efdf706a53ad9e9062146b93ee503961.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a85063844b4503695a727485239f5f534c7e4e7d.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e6d412515749f95d053393e30b89ddf8e192844a.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10a8e07babe5b627394788088117ea918edd39f74.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16e0235c1013d7170eabc1f07e74be366434018c0.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_190d351d3aa461df020f70f7cd6cee7894c74cc0e.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e22263d22d63dd854070eddd6ffe80ac6bcff4b9.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x1080",
+    "rendered": "262x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Online tv-kijken",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Overal in huis en onderweg onlin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tv-kijken via internet met Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Altijd en overal online tv-kijke",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Maak van elk scherm je tv",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi die werkt. Gegarandeerd",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies voor Internet & TV van Zigg",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA Europees voetbal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "De mogelijkheden op een rijtje",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tot 7 dagen terugkijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Live tv-kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Programma's opnemen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Streamen naar je tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "On- en offline kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meer schermen tegelijk",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Online tv-kijken met Ziggo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Het beste entertainment voor jou",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "70+ digitale zenders",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gratis Ziggo Sport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Streamingdiensten",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra zenders",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Priority",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wifi Garantie",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "mb-cards",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "cards",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ccar-track",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "faq-head",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   }
+  ]
+ }
+}

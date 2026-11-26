@@ -1,0 +1,314 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-online-tv-kijken/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-online-tv-kijken/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 5448,
+    "mode": "overlap"
+  },
+  "heightDelta": -6,
+  "differingPixels": 1607400,
+  "pct": 11.53,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/televisie-online-tv-kijken/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 32.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 12.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 10.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 10.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 10.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 33.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 3.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5448,
+      "pct": 1.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.96,
+    "differingPixels": 1256205,
+    "compared": {
+      "width": 2560,
+      "height": 5478,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 952,
+        "shift": 29,
+        "cumulative": 29
+      },
+      {
+        "y": 1709,
+        "shift": -1,
+        "cumulative": 28
+      },
+      {
+        "y": 4102,
+        "shift": -23,
+        "cumulative": 5
+      },
+      {
+        "y": 5343,
+        "shift": 1,
+        "cumulative": 6
+      }
+    ],
+    "maxOffset": 29,
+    "totalShift": 54,
+    "insertedRows": 30,
+    "deletedRows": 24,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 32.7,
+        "unaligned": 32.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 17.3,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.8,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.5,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 10.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.4,
+        "unaligned": 10.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.4,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 33.2,
+        "unaligned": 33.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 7,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 3.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5448,
+        "pct": 0.2,
+        "unaligned": 1.4
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-online-tv-kijken/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 54,
+    "totalShift": 54,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken",
+      "source": "https://www.ziggo.nl/televisie/online-tv-kijken",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "aa36832c503992b2",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "918a7e966549fae4",
+      "instruments": "700566dc6f7774a4",
+      "page content": "a88a8f93852a4c6a",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block cards": "4ada5cf24baa6d90",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 8,
+          "offPage": 4,
+          "textNodes": 137,
+          "controls": 96,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "CONTROL X-HIDDEN",
+            "advisory": true,
+            "n": 2,
+            "clipper": "article.ucard",
+            "path": "article.ucard > div.ucard-container > div.ucard-body > a.ucard-more",
+            "text": "alles over sport en entertaintment",
+            "cutMin": null,
+            "cutMax": null
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+            "text": "uefa",
+            "cutMin": 194,
+            "cutMax": 194
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-title > h2#uefa",
+            "text": "uefa",
+            "cutMin": 11,
+            "cutMax": 11
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+            "text": "altijd het beste sport & entertainment.",
+            "cutMin": 109,
+            "cutMax": 109
+          },
+          {
+            "kind": "CONTROL X-HIDDEN",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+            "text": "wifi garantie",
+            "cutMin": null,
+            "cutMax": null
+          },
+          {
+            "kind": "TEXT X-HIDDEN",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-title > h2#wifi-garantie",
+            "text": "wifi garantie",
+            "cutMin": 0,
+            "cutMax": 0
+          },
+          {
+            "kind": "TEXT X-HIDDEN",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+            "text": "wifi die werkt. gegarandeerd.",
+            "cutMin": 0,
+            "cutMax": 0
+          }
+        ],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T04:47:35.662Z"
+  }
+}

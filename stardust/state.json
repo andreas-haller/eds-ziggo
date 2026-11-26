@@ -1,0 +1,1707 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-11-25T15:04:58Z",
+    "stardustVersion": "0.46.7"
+  },
+  "site": {
+    "originUrl": "https://www.ziggo.nl",
+    "deployUrl": null,
+    "extractedAt": "2026-11-25T09:38:47.102Z",
+    "pageCap": null,
+    "totalDiscovered": 33,
+    "crawled": 33,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-25T09:38:47.102Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.ziggo.nl/",
+      "title": "Ziggo | Internet • TV & Streaming • Bellen",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:26:00.425Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-25T11:34:09Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T11:34:09Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "alles-in-1",
+      "url": "https://www.ziggo.nl/alles-in-1",
+      "title": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:26:06.622Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T13:06:23Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/alles-in-1.json",
+      "prototypePath": "stardust/prototypes/alles-in-1-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "tv-internet",
+      "url": "https://www.ziggo.nl/tv-internet",
+      "title": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:26:10.678Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/tv-internet.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "alles-in-1"
+    },
+    {
+      "slug": "televisie",
+      "url": "https://www.ziggo.nl/televisie",
+      "title": "Televisie - TV & Streaming op één plek | Ziggo",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:26:54.689Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "index"
+    },
+    {
+      "slug": "internet",
+      "url": "https://www.ziggo.nl/internet",
+      "title": "Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:00.166Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/internet.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "index"
+    },
+    {
+      "slug": "televisie-voicecontrol",
+      "url": "https://www.ziggo.nl/televisie/voicecontrol",
+      "title": "Afstandsbediening met Voice Control | Ziggo",
+      "type": "article",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:03.679Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T13:36:12Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-voicecontrol.json",
+      "prototypePath": "stardust/prototypes/televisie-voicecontrol-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "televisie-makkelijk-zoeken",
+      "url": "https://www.ziggo.nl/televisie/makkelijk-zoeken",
+      "title": "Makkelijk zoeken | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:16.605Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-makkelijk-zoeken.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-zenderoverzicht",
+      "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+      "title": "Vind alle digitale zenders bij Ziggo in het zenderoverzicht",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:27.590Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T15:04:58Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenderoverzicht.json",
+      "prototypePath": "stardust/prototypes/televisie-zenderoverzicht-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+      "title": "Extra zenders & streamingdiensten | Ziggo",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:56.277Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-extra-zenders-streamingdiensten.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "index"
+    },
+    {
+      "slug": "televisie-terugkijken",
+      "url": "https://www.ziggo.nl/televisie/terugkijken",
+      "title": "Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:34.998Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-terugkijken.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-online-tv-kijken",
+      "url": "https://www.ziggo.nl/televisie/online-tv-kijken",
+      "title": "Online tv-kijken waar en wanneer je wilt | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:28:15.449Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-online-tv-kijken.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "url": "https://www.ziggo.nl/televisie/ziggo-sport",
+      "title": "Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:27:52.807Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-ziggo-sport.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "index"
+    },
+    {
+      "slug": "televisie-opnemen",
+      "url": "https://www.ziggo.nl/televisie/opnemen",
+      "title": "Opnemen, pauzeren en terugspoelen | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:28:41.025Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-opnemen.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-kijkprofielen",
+      "url": "https://www.ziggo.nl/televisie/kijkprofielen",
+      "title": "Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:28:45.300Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-kijkprofielen.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-hoofdmenu",
+      "url": "https://www.ziggo.nl/televisie/hoofdmenu",
+      "title": "Je persoonlijke startscherm | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:01.101Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-hoofdmenu.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-4k-uhd",
+      "url": "https://www.ziggo.nl/televisie/4k-uhd",
+      "title": "4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:01.099Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-4k-uhd.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-digitale-kabel-tv-en-radio",
+      "url": "https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio",
+      "title": "Digitale Kabel TV | Televisie | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:02.802Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-digitale-kabel-tv-en-radio.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-digitale-radio",
+      "url": "https://www.ziggo.nl/televisie/digitale-radio",
+      "title": "Digitale Radio | Televisie | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:20.208Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-digitale-radio.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-tv-start",
+      "url": "https://www.ziggo.nl/televisie/tv-start",
+      "title": "TV Start pakket | Haal meer uit je televisie | Ziggo",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:53.112Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-tv-start.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "alles-in-1"
+    },
+    {
+      "slug": "televisie-kabel-tv",
+      "url": "https://www.ziggo.nl/televisie/kabel-tv",
+      "title": "Kabel TV: voordelig tv kijken | Ziggo",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:29:53.822Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-kabel-tv.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "alles-in-1"
+    },
+    {
+      "slug": "televisie-mediaboxen",
+      "url": "https://www.ziggo.nl/televisie/mediaboxen",
+      "title": "Ziggo Mediaboxen | Televisie | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:30:06.793Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-mediaboxen.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-ziggo-go",
+      "url": "https://www.ziggo.nl/televisie/ziggo-go",
+      "title": "Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:30:43.342Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-ziggo-go.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-tv-apps",
+      "url": "https://www.ziggo.nl/televisie/tv-apps",
+      "title": "TV apps op je mediabox | Ziggo",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:30:13.456Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-tv-apps.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-voicecontrol"
+    },
+    {
+      "slug": "televisie-espn",
+      "url": "https://www.ziggo.nl/televisie/espn",
+      "title": "Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:30:54.568Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-espn.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "index"
+    },
+    {
+      "slug": "televisie-zenders-npo-1",
+      "url": "https://www.ziggo.nl/televisie/zenders/npo-1",
+      "title": "NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:00.848Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T13:49:30Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-npo-1.json",
+      "prototypePath": "stardust/prototypes/televisie-zenders-npo-1-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "televisie-zenders-sbs6",
+      "url": "https://www.ziggo.nl/televisie/zenders/sbs6",
+      "title": "SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:28.370Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-sbs6.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-zenders-rtl-4",
+      "url": "https://www.ziggo.nl/televisie/zenders/rtl-4",
+      "title": "RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:11.247Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-rtl-4.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-zenders-npo-2",
+      "url": "https://www.ziggo.nl/televisie/zenders/npo-2",
+      "title": "NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:47.974Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-npo-2.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-zenders-npo-3",
+      "url": "https://www.ziggo.nl/televisie/zenders/npo-3",
+      "title": "NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:27.132Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-npo-3.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-zenders-rtl-5",
+      "url": "https://www.ziggo.nl/televisie/zenders/rtl-5",
+      "title": "RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:31:45.988Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-rtl-5.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-zenders-star-channel",
+      "url": "https://www.ziggo.nl/televisie/zenders/star-channel",
+      "title": "STAR Channel kijken | Zenderoverzicht Ziggo",
+      "type": "channel",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:32:16.389Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-zenders-star-channel.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-zenders-npo-1"
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+      "title": "Netflix kijken op je Mediabox | Ziggo",
+      "type": "streaming",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:32:36.455Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-25T14:27:08Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-extra-zenders-streamingdiensten-netflix.json",
+      "prototypePath": "stardust/prototypes/televisie-extra-zenders-streamingdiensten-netflix-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus",
+      "title": "Kijk alles van Disney Plus | Ziggo",
+      "type": "streaming",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-25T09:32:37.793Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/televisie-extra-zenders-streamingdiensten-disneyplus.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "representative": "televisie-extra-zenders-streamingdiensten-netflix"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-25T18:42:45Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/alles-in-1",
+        "outputPath": "alles-in-1/index.html",
+        "slug": "alles-in-1",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/tv-internet",
+        "outputPath": "tv-internet/index.html",
+        "slug": "tv-internet",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie",
+        "outputPath": "televisie/index.html",
+        "slug": "televisie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/internet",
+        "outputPath": "internet/index.html",
+        "slug": "internet",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/voicecontrol",
+        "outputPath": "televisie/voicecontrol/index.html",
+        "slug": "televisie-voicecontrol",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/makkelijk-zoeken",
+        "outputPath": "televisie/makkelijk-zoeken/index.html",
+        "slug": "televisie-makkelijk-zoeken",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenderoverzicht",
+        "outputPath": "televisie/zenderoverzicht/index.html",
+        "slug": "televisie-zenderoverzicht",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/extra-zenders-streamingdiensten",
+        "outputPath": "televisie/extra-zenders-streamingdiensten/index.html",
+        "slug": "televisie-extra-zenders-streamingdiensten",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/terugkijken",
+        "outputPath": "televisie/terugkijken/index.html",
+        "slug": "televisie-terugkijken",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/online-tv-kijken",
+        "outputPath": "televisie/online-tv-kijken/index.html",
+        "slug": "televisie-online-tv-kijken",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/ziggo-sport",
+        "outputPath": "televisie/ziggo-sport/index.html",
+        "slug": "televisie-ziggo-sport",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/opnemen",
+        "outputPath": "televisie/opnemen/index.html",
+        "slug": "televisie-opnemen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/kijkprofielen",
+        "outputPath": "televisie/kijkprofielen/index.html",
+        "slug": "televisie-kijkprofielen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/hoofdmenu",
+        "outputPath": "televisie/hoofdmenu/index.html",
+        "slug": "televisie-hoofdmenu",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/4k-uhd",
+        "outputPath": "televisie/4k-uhd/index.html",
+        "slug": "televisie-4k-uhd",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/digitale-kabel-tv-en-radio",
+        "outputPath": "televisie/digitale-kabel-tv-en-radio/index.html",
+        "slug": "televisie-digitale-kabel-tv-en-radio",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/digitale-radio",
+        "outputPath": "televisie/digitale-radio/index.html",
+        "slug": "televisie-digitale-radio",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/tv-start",
+        "outputPath": "televisie/tv-start/index.html",
+        "slug": "televisie-tv-start",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/kabel-tv",
+        "outputPath": "televisie/kabel-tv/index.html",
+        "slug": "televisie-kabel-tv",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/mediaboxen",
+        "outputPath": "televisie/mediaboxen/index.html",
+        "slug": "televisie-mediaboxen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/ziggo-go",
+        "outputPath": "televisie/ziggo-go/index.html",
+        "slug": "televisie-ziggo-go",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/tv-apps",
+        "outputPath": "televisie/tv-apps/index.html",
+        "slug": "televisie-tv-apps",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/espn",
+        "outputPath": "televisie/espn/index.html",
+        "slug": "televisie-espn",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/npo-1",
+        "outputPath": "televisie/zenders/npo-1/index.html",
+        "slug": "televisie-zenders-npo-1",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/sbs6",
+        "outputPath": "televisie/zenders/sbs6/index.html",
+        "slug": "televisie-zenders-sbs6",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/rtl-4",
+        "outputPath": "televisie/zenders/rtl-4/index.html",
+        "slug": "televisie-zenders-rtl-4",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/npo-2",
+        "outputPath": "televisie/zenders/npo-2/index.html",
+        "slug": "televisie-zenders-npo-2",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/npo-3",
+        "outputPath": "televisie/zenders/npo-3/index.html",
+        "slug": "televisie-zenders-npo-3",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/rtl-5",
+        "outputPath": "televisie/zenders/rtl-5/index.html",
+        "slug": "televisie-zenders-rtl-5",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/zenders/star-channel",
+        "outputPath": "televisie/zenders/star-channel/index.html",
+        "slug": "televisie-zenders-star-channel",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/extra-zenders-streamingdiensten/netflix",
+        "outputPath": "televisie/extra-zenders-streamingdiensten/netflix/index.html",
+        "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/televisie/extra-zenders-streamingdiensten/disneyplus",
+        "outputPath": "televisie/extra-zenders-streamingdiensten/disneyplus/index.html",
+        "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 643,
+    "bundledAssets": [
+      "alles-in-1.css",
+      "alles-in-1.js",
+      "canon.css",
+      "canon.js",
+      "fonts/vodafoneziggo-text-bold.woff2",
+      "fonts/vodafoneziggo-text-bolditalic.woff2",
+      "fonts/vodafoneziggo-text-light.woff2",
+      "fonts/vodafoneziggo-text-lightitalic.woff2",
+      "fonts/vodafoneziggo-text-regular.woff2",
+      "fonts/vodafoneziggo-text-regularitalic.woff2",
+      "fonts/ziggo-ui-icon-v22.woff2",
+      "fonts/ziggoheadline-bold.woff2",
+      "fonts/ziggoheadline-regular.woff2",
+      "index.css",
+      "media/001_nederland_1-1.svg",
+      "media/002_nederland_2-1.svg",
+      "media/003_nederland_3-1.svg",
+      "media/004_rtl_4.svg",
+      "media/005_rtl_5.svg",
+      "media/006_sbs_6-2025.svg",
+      "media/011_star_channel.svg",
+      "media/1-1_carousel-image_wifigarantie-1.jpg",
+      "media/1000x1000-Startscherm-Visual-AfstandsbedieningSmall.webp",
+      "media/1080x1160_header60_VodafoneZiggo_Gradient_2025_Q4.jpg",
+      "media/1080x1350-next-mini-2026.webp",
+      "media/1080x1350_Next-Mini_2026.webp",
+      "media/1080x1540_hero-80_ziggo-gradient-horizontal.svg",
+      "media/1080x1540_hero-80_ziggo-gradient.svg",
+      "media/1080x1620_article-image-2x3_makkelijk-slim-zoeken.jpg",
+      "media/1080x1620_article-image-2x3_skyshowtime.jpg",
+      "media/1080x1620_article-image-2x3_tv-streaming.jpg",
+      "media/1080x1620_article-image-2x3_ziggo-go.jpg",
+      "media/1080x1620_article-image-2x3_ziggo-sport-uefa_v2.jpg",
+      "media/1080x1620_header60_Ziggo_B2C_ESPN_2026-2027_Q3.jpg",
+      "media/1080x4200_hero-custom_gradient-overflow-bg.svg",
+      "media/1080x463-header20-ziggo-b2c-kabeltv-2025-q4.webp",
+      "media/1080x463-product-card-internet-1000-v2-1.jpg",
+      "media/1080x463-product-card-internet-200.jpg",
+      "media/1080x463-product-card-internet-2000-v2-1.jpg",
+      "media/1080x463-product-card-internet-4000-v2.jpg",
+      "media/1080x463-product-card-internet-500.jpg",
+      "media/1080x463-product-card-internet-8000-v2.jpg",
+      "media/1080x463-product-card-tv-complete-1.jpg",
+      "media/1080x463-product-card-tv-max-2.jpg",
+      "media/1080x463-product-card-tv-start-2.jpg",
+      "media/1080x463_article-21x9_ziggo-go-op-2e-tv_mobiel_v2.jpg",
+      "media/1080x463_article-21x9_ziggo-go-op-vakantie_mobiel_v2.jpg",
+      "media/1080x463_header20_Ziggo_B2C_Netflix_2025_Q4.webp",
+      "media/1080x463_product-card_internet-1000-v2-1.jpg",
+      "media/1080x463_product-card_internet-200.jpg",
+      "media/1080x463_product-card_internet-2000-v2-1.jpg",
+      "media/1080x463_product-card_internet-4000-v2.jpg",
+      "media/1080x463_product-card_internet-500.jpg",
+      "media/1080x463_product-card_internet-8000-v2.jpg",
+      "media/1080x463_product-card_tv-complete-1.jpg",
+      "media/1080x463_product-card_tv-max-2.jpg",
+      "media/1080x463_product-card_tv-start-2.jpg",
+      "media/1080x463_product-card_vast-bellen-1.jpg",
+      "media/1080x482_header20_Ziggo_B2C_DigitaleRadio_2025_Q4.webp",
+      "media/1080x608-9mnd-3495-wifigarantie.webp",
+      "media/1080x608-article-image-16x9-overstappen-v2-1.jpg",
+      "media/1080x608-article-ontvangers-next-mini.jpg",
+      "media/1080x608-article16x9-espnxsport-2.jpg",
+      "media/1080x608-article16x9-extra-tv-mobiel.jpg",
+      "media/1080x608-banner60-ziggo-b2c-wifigarantie-vanziggo-2025-q4-1.webp",
+      "media/1080x608-espn-2026-oktober.webp",
+      "media/1080x608-golf.jpg",
+      "media/1080x608-header40-b2c-extrastreamingdiensten-transparant-2026-q3.webp",
+      "media/1080x608-overigesporten.jpg",
+      "media/1080x608-racing.jpg",
+      "media/1080x608-tennis.jpg",
+      "media/1080x608-uefa.jpg",
+      "media/1080x608-ziggo-b2c-klantenservice-onlinetvkijken-app-transparent-2025-q4.webp",
+      "media/1080x608-ziggo-b2c-stream-europesewedstrijden-transparent-2025-q4.webp",
+      "media/1080x608_Article_B2C_Ziggo_35_extra_zenders_gradient_2026_Q1.webp",
+      "media/1080x608_Ziggo_B2C_Films_4K_UHD_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_TV-UI_Disney_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_TV-UI_Netflix_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_TVApps_Kijkprofiel_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_TVApps_Menu_Afstandsbediening_2025_Q4-2.webp",
+      "media/1080x608_Ziggo_B2C_TVApps_Menu_Afstandsbediening_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_TVApps_Menu_Instellingen_Lijstjes_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_TVApps_Stembesturing_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_TVApps_TVKanaal_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_Voicecontrol_Commandos_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_Voicecontrol_Tips-Trucs_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_ZiggoSport_devices_logo_mockup_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_account_mockup_transparant_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_devices_mockup_connection_transparent_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_devices_mockup_transparant_2025_Q4.webp",
+      "media/1080x608_Ziggo_B2C_disneyplus_logo_mockup_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_disneyplus_mockup_2025_Q4.jpg",
+      "media/1080x608_Ziggo_B2C_mijnZiggo_mockup_2025_Q4-1.jpg",
+      "media/1080x608_Ziggo_B2C_mijnZiggo_mockup_2025_Q4.jpg",
+      "media/1080x608_appletv_matchboxthemoviehome.jpg",
+      "media/1080x608_appletv_nocturnehome.jpg",
+      "media/1080x608_appletv_sticks2home.jpg",
+      "media/1080x608_article_400-uur-opnemen.jpg",
+      "media/1080x608_article_Ziggo_B2C_ZiggoGO_mockup_2025_Q4.jpg",
+      "media/1080x608_article_Ziggo_B2C_terugkijken_mockup_2025_Q4.jpg",
+      "media/1080x608_article_kijken-opnemen.jpg",
+      "media/1080x608_article_nooit-meer-missen.jpg",
+      "media/1080x608_article_verder-kijken-gebleven-bent-1.jpg",
+      "media/1080x608_banner40_B2C_ExtraStreamingDiensten_transparant_2025_Q4.webp",
+      "media/1080x608_banner40_Ziggo_B2C_TweedeTV_2025_Q4.webp",
+      "media/1080x608_banner60_Ziggo_B2C_ExtraTV_2025_Q4-1-1.webp",
+      "media/1080x608_banner60_Ziggo_B2C_ExtraTV_2025_Q4-1.webp",
+      "media/1080x608_banner60_Ziggo_B2C_ZiggoGO_2025_Q4.webp",
+      "media/1080x608_card_B2C_Ziggo_Mediabox_Next_2025_Q4-1.jpg",
+      "media/1080x608_card_B2C_Ziggo_Mediabox_XL_2025_Q4-1.jpg",
+      "media/1080x608_card_B2C_Ziggo_NextMini_2025_Q4-1.jpg",
+      "media/1080x608_card_B2C_Ziggo_NextMini_2025_Q4-2.jpg",
+      "media/1080x608_card_B2C_Ziggo_NextMini_transparent_2025_Q4.webp",
+      "media/1080x608_card_Ziggo_B2C_4K_UHD_Mockup_TV_transparent_2025_Q4.webp",
+      "media/1080x608_card_Ziggo_B2C_DigitaleKabelTV_Zenders_2025_Q4.jpg",
+      "media/1080x608_card_Ziggo_B2C_HulpbijInstallatie_transparent_2025_Q4-1.webp",
+      "media/1080x608_card_Ziggo_B2C_HulpbijInstallatie_transparent_2025_Q4.webp",
+      "media/1080x608_convictionsgonebad_home.jpg",
+      "media/1080x608_espn_ajaxutrecht2026home.jpg",
+      "media/1080x608_espn_aznec2026home.jpg",
+      "media/1080x608_espn_azpsv2026home.jpg",
+      "media/1080x608_espn_cambuurgroningen2026home.jpg",
+      "media/1080x608_espn_eredivisienewhome.jpg",
+      "media/1080x608_espn_feyenoordtwente2026home.jpg",
+      "media/1080x608_hbomax_crystallakes1home.jpg",
+      "media/1080x608_hbomax_harrypotterseriehome.jpg",
+      "media/1080x608_hbomax_jeroensabandonedadventuress3home.jpg",
+      "media/1080x608_hbomax_thegildedages4home.jpg",
+      "media/1080x608_hbomax_youthhome.jpg",
+      "media/1080x608_header40_Ziggo_B2C_Televisie_Opnemen_2025_Q4.webp",
+      "media/1080x608_header60_Ziggo_B2C_ExtraTV_2025_Q4.webp",
+      "media/1080x608_historychannel_curseofskinwalkerranchs7home.jpg",
+      "media/1080x608_movies-series_atlanticcrossinghome.jpg",
+      "media/1080x608_movies-series_bluelightss3home.jpg",
+      "media/1080x608_movies-series_sherwoods2home.jpg",
+      "media/1080x608_netflix_app_long.webp",
+      "media/1080x608_netflix_inloggen_long.webp",
+      "media/1080x608_netflix_lupins4home.jpg",
+      "media/1080x608_netflix_nobodywantsthiss3home.jpg",
+      "media/1080x608_netflix_thediplomats4home.jpg",
+      "media/1080x608_npostart_flikkenrotterdams9home.jpg",
+      "media/1080x608_npostart_villafomos2home.jpg",
+      "media/1080x608_npostart_wieisdemol2026npostarthome.jpg",
+      "media/1080x608_primevideo_bladerunner2099home.jpg",
+      "media/1080x608_primevideo_carries1home.jpg",
+      "media/1080x608_primevideo_lollastonelaughinghalloweenhome.jpg",
+      "media/1080x608_primevideo_ringsofpowers3home.jpg",
+      "media/1080x608_primevideo_thebeasthome.jpg",
+      "media/1080x608_priority-concerten.jpg",
+      "media/1080x608_priority-kijkcadeau.jpg",
+      "media/1080x608_priority-sport-tickets.jpg",
+      "media/1080x608_priority-winacties.jpg",
+      "media/1080x608_priority_kcd1126compihome.jpg",
+      "media/1080x608_rtl4_expeditierobinson2026home.jpg",
+      "media/1080x608_skyshowtime_avatarsevenhavensnewhome.jpg",
+      "media/1080x608_skyshowtime_dexterresurrections2home.jpg",
+      "media/1080x608_skyshowtime_marshalss2home.jpg",
+      "media/1080x608_skyshowtime_tulsakings4home.jpg",
+      "media/1080x608_skyshowtime_yellowjacketss4home.jpg",
+      "media/1080x608_tlc_1000lbsisterss7home.jpg",
+      "media/1080x608_viaplay_gpsingapore2026home.jpg",
+      "media/1080x608_viaplay_premierleagues2627home.jpg",
+      "media/1080x608_videoland_bureaugroningenhome.jpg",
+      "media/1080x608_videoland_cvsendegoudenkeutelhome.jpg",
+      "media/1080x608_videoland_deschipholdiamantroofhome.jpg",
+      "media/1080x608_videoland_gooischevrouwens8home.jpg",
+      "media/1080x608_videoland_hetperfecteplaatjes11home.jpg",
+      "media/1080x608_videoland_loveisland2026home.jpg",
+      "media/1080x608_videoland_roxisdebaashome.jpg",
+      "media/1080x608_videoland_waardefuckisstuks2home.jpg",
+      "media/1080x608_ziggosport1_ajaxthun2026home.jpg",
+      "media/1080x608_ziggosport1_realmadridpsv2026home.jpg",
+      "media/1080x608_ziggosport1_spartapraagaz2026home.jpg",
+      "media/1080x608_ziggosport_feyenoordporto2026home.jpg",
+      "media/1080x608_ziggosport_freiburgtwente2026home.jpg",
+      "media/1080x608_ziggosport_necstaderennais2026home.jpg",
+      "media/1080x608_ziggosport_rondoaug2026home.jpg",
+      "media/1080x740_hero-60-device_ziggoprimary(1).jpg",
+      "media/1080x810-article-image-4x3-alle-snelheid-q2.jpg",
+      "media/1080x810-article-image-4x3-gratis-monteur-v2.jpg",
+      "media/1080x810-article-image-4x3-priority-v2.jpg",
+      "media/1080x810-article-image-4x3-safe-online-q2.jpg",
+      "media/1080x810-article-image-4x3-wifi-crew-v2.jpg",
+      "media/1080x810-article-image-4x3-wifi-garantie-v2.jpg",
+      "media/1080x810-article-image-4x3-wifi-versterkers.jpg",
+      "media/1080x810-header60-ziggo-b2c-televisie-2025-q4.webp",
+      "media/1080x810-hero-ten.webp",
+      "media/1080x810_article-image-4x3_alle-snelheid-q2.jpg",
+      "media/1080x810_article-image-4x3_wifi-garantie-v2.jpg",
+      "media/1080x810_header60_Ziggo_B2C_4K_UHD_2025_Q4.webp",
+      "media/1080x810_header60_Ziggo_B2C_MakkelijkZoeken_2025_Q4.webp",
+      "media/1080x810_header60_Ziggo_B2C_OnlineTVKijken_2025_Q4.webp",
+      "media/1080x810_header60_Ziggo_B2C_Safe_Online_2025_Q4-2.webp",
+      "media/1080x810_header60_Ziggo_B2C_ZiggoGO_2025_Q4.webp",
+      "media/1080x810_header60_Ziggo_B2C_mediaboxen_2025_Q4.webp",
+      "media/1080x810_header60_Ziggo_B2C_terugkijken_2025_Q4.webp",
+      "media/1080x920-channels-espn1-1.jpg",
+      "media/1080x920-channels-espn2-1.jpg",
+      "media/1080x920-channels-espn3-1.jpg",
+      "media/1080x920-channels-espn4-1.jpg",
+      "media/1600x1160-banner-blackfriday-atl.webp",
+      "media/1600x1160-tsn-espn-pdp-media-alt.webp",
+      "media/1600x1160_Banner_Blackfriday_ATL.webp",
+      "media/1920x1080-basket-image-wifi-middel-tv-complete-2026.webp",
+      "media/1920x1080-olerethans-ziggosportracecafe-shelly-chris-persfoto-3.jpg",
+      "media/1920x1080_article-image-16x9_makkelijk-slim-zoeken.jpg",
+      "media/1920x1080_article-image-16x9_skyshowtime.jpg",
+      "media/1920x1080_article-image-16x9_tv-streaming.jpg",
+      "media/1920x1080_article-image-16x9_ziggo-go.jpg",
+      "media/1920x1080_basket-image_wifi-middel_tv-complete_2026.webp",
+      "media/200x300-canal-plus.svg",
+      "media/200x300-cinetree-logo.svg",
+      "media/200x300-disney-plus-logo-1.svg",
+      "media/200x300-erotiek-logo-v2.svg",
+      "media/200x300-film1-logo.svg",
+      "media/200x300-gay-logo-v2.svg",
+      "media/200x300-hayu-logo-v2.svg",
+      "media/200x300-hindi-logo-v2.svg",
+      "media/200x300-netflix-logo.svg",
+      "media/200x300-npo-logo-v2.svg",
+      "media/200x300-pathe-thuis.svg",
+      "media/200x300-prime-video-logo-2025.svg",
+      "media/200x300-sky-showtimelogo.svg",
+      "media/200x300-turks-logo-v2.svg",
+      "media/200x300-viaplay-logo.svg",
+      "media/200x300-videoland-logo.svg",
+      "media/200x300-ziggo-b2c-streamingdienst-card-espncompleet-disney-2026-q3.svg",
+      "media/200x300-ziggo-b2c-streamingdienst-card-ziggosport-2025-q4.jpg",
+      "media/200x300-ziggo-b2c-streamingdienst-card-ziggosport-espnpremium-film1-2026-q3.svg",
+      "media/200x300-ziggo-b2c-streamingdienst-card-ziggosport-netflix-2025-q4.jpg",
+      "media/200x300_disney-plus-logo-1.svg",
+      "media/200x300_viaplay-logo.svg",
+      "media/200x300_videoland-logo.svg",
+      "media/200x360-eenvoudig-overstappen-installatie.jpg",
+      "media/200x360-eenvoudig-overstappen-snelle-levering.jpg",
+      "media/200x360-hardware-connectbox-2026.jpg",
+      "media/200x360-hardware-mediabox-next-mini-2026.jpg",
+      "media/200x360-services-businesscrew.jpg",
+      "media/200x360_eenvoudig-overstappen_installatie.jpg",
+      "media/200x360_eenvoudig-overstappen_snelle-levering.jpg",
+      "media/200x360_hardware_connectbox_2026.jpg",
+      "media/200x360_hardware_mediabox-next-mini_2026.jpg",
+      "media/200x360_services_businesscrew.jpg",
+      "media/200x400-contract-promo-6mnd-3495.jpg",
+      "media/200x400-contract-promo-bol450-hond.jpg",
+      "media/200x400-contract-promo-samsung-hond.jpg",
+      "media/200x400-contract-promo-tot15mnd-3495-hond.jpg",
+      "media/200x400_contract-promo_6mnd-3495.jpg",
+      "media/200x400_contract-promo_bol450-hond.jpg",
+      "media/200x400_contract-promo_samsung-hond.jpg",
+      "media/200x400_contract-promo_tot15mnd-3495-hond.jpg",
+      "media/2480x1395_Ziggo_B2C_ESPN_Homepage_2026-2027_Q3-4.jpg",
+      "media/2560x463-product-card-internet-1000-v2.jpg",
+      "media/2560x463-product-card-internet-200.jpg",
+      "media/2560x463-product-card-internet-2000-v2-1-1.jpg",
+      "media/2560x463-product-card-internet-4000-v2.jpg",
+      "media/2560x463-product-card-internet-500.jpg",
+      "media/2560x463-product-card-internet-8000-v2.jpg",
+      "media/2560x463-product-card-tv-complete-1.jpg",
+      "media/2560x463-product-card-tv-max-2.jpg",
+      "media/2560x463-product-card-tv-start-1.jpg",
+      "media/2560x463_product-card_internet-1000-v2.jpg",
+      "media/2560x463_product-card_internet-200.jpg",
+      "media/2560x463_product-card_internet-2000-v2-1-1.jpg",
+      "media/2560x463_product-card_internet-4000-v2.jpg",
+      "media/2560x463_product-card_internet-500.jpg",
+      "media/2560x463_product-card_internet-8000-v2.jpg",
+      "media/2560x463_product-card_tv-complete-1.jpg",
+      "media/2560x463_product-card_tv-max-2.jpg",
+      "media/2560x463_product-card_tv-start-1.jpg",
+      "media/2560x463_product-card_vast-bellen-1.jpg",
+      "media/26080017-ziggo-visual-voetbal-1080x608.webp",
+      "media/26080017_Ziggo_Visual_Voetbal_1080x608.webp",
+      "media/320x320-b2c-ziggo-steaming-blue-2026-q3.webp",
+      "media/320x320-carousel-b2c-ziggo-zenders-grey-2025-q4.jpg",
+      "media/320x320-espnzspicture1.webp",
+      "media/320x320-priority-2026-ziggo.webp",
+      "media/320x320_B2C_Ziggo_steaming_blue_2026_Q3.webp",
+      "media/320x320_Priority-2026-ziggo.webp",
+      "media/320x320_carousel_B2C_Ziggo_ExtraZenders_2025_Q4.jpg",
+      "media/320x320_carousel_B2C_Ziggo_Sport3_2025_Q4-1.jpg",
+      "media/320x320_carousel_B2C_Ziggo_UEFA_2025_Q4.jpg",
+      "media/320x320_carousel_B2C_Ziggo_priority_2025_Q4-1.jpg",
+      "media/320x320_carousel_B2C_Ziggo_streaming_blue_2025_Q4.jpg",
+      "media/320x320_carousel_B2C_Ziggo_zenders_grey_2025_Q4.jpg",
+      "media/3840x1300-header60-ziggo-b2c-extrastreamingdiensten-2026-q3.webp",
+      "media/3840x1300-header60-ziggo-b2c-televisie-2025-q4.jpg",
+      "media/3840x1300-hero-60-branded-header-ten.jpg",
+      "media/3840x1300_header60_VodafoneZiggo_Gradient_2025_Q4.jpg",
+      "media/3840x1300_header60_Ziggo_B2C_Netflix_2025_Q4.jpg",
+      "media/3840x1300_header60_Ziggo_B2C_Safe_Online_2025_Q4-2.jpg",
+      "media/3840x1300_hero-60-device-nodisclaimer.jpg",
+      "media/3840x1300_hero_60_ziggo-gradient.svg",
+      "media/3840x1730_hero80_priority.jpg",
+      "media/3840x2160_hero100_gradient-overflow-bg.svg",
+      "media/3840x2160_hero_100_one-splash_full-content-3.jpg",
+      "media/3840x870-header40-ziggo-b2c-kabeltv-2025-q4.jpg",
+      "media/400x226-article-b2c-ziggo-steaming-blue-2026-q3.webp",
+      "media/400x226-ziggo-sport-b2c-tvtabletiphone-logo-black-2025-q4.jpg",
+      "media/400x226_Ziggo_B2C_TVApps_Menu_Afstandsbediening_2025_Q4-1.jpg",
+      "media/400x226_article_B2C_Ziggo_steaming_blue_2026_Q3.webp",
+      "media/400x266_Ziggo_B2C_SuperIcon_devices_2025_Q4.svg",
+      "media/400x266_Ziggo_B2C_SuperIcon_popcorn_2025_Q4.svg",
+      "media/400x266_Ziggo_B2C_SuperIcon_security_2025_Q4.svg",
+      "media/400x266_Ziggo_B2C_logo_gradient_transparant_2025_Q4.webp",
+      "media/5.zoek-waar-je-kan-kijken.jpg",
+      "media/600x600-next-mini-2026.webp",
+      "media/600x600-wifi-versterker-2026.webp",
+      "media/600x600_next-mini_2026.webp",
+      "media/600x600_wifi-versterker_2026.webp",
+      "media/640x640-carousel-b2c-ziggo-extra-zenders-grey-2026-q1.jpg",
+      "media/640x640-carousel-b2c-ziggo-ziggo-go-2026-q1.jpg",
+      "media/780x3840_one-splash_full-6.jpg",
+      "media/954x380_vamt_mediabox_next.webp",
+      "media/954x380_vamt_next_mini.webp",
+      "media/954x530-vamt-digitale_radio-zenders.jpg",
+      "media/Disney_Ziggo_4UP_juli26_png.webp",
+      "media/Disney_logo_2024_black.webp",
+      "media/DoubleData_48x48.svg",
+      "media/ESPN_PakketvisualNEW.webp",
+      "media/ESPN_Pakketvisual_26-27_1200-1200px.jpg",
+      "media/ESPN_logos_RGB_ESPN_Logo_POS_RGB.jpg",
+      "media/ESPN_visual.webp",
+      "media/Entertainment_1.jpg",
+      "media/HBO_Black_Gradient_Logo_200x300_V3.svg",
+      "media/Personal_Home_1.jpg",
+      "media/Personal_Home_5.jpg",
+      "media/VFZ-interim-splash-one.webp",
+      "media/Vodafone_48x48.svg",
+      "media/ZST_464x464.webp",
+      "media/ZiggoSport.Group248179.jpg",
+      "media/Ziggo_48x48.svg",
+      "media/Ziggo_B2C_Kijkervaring_base_2118x1220_2025_Q3_V1.webp",
+      "media/apple tv.svg",
+      "media/apple-2.svg",
+      "media/apple-tv-320-480.svg",
+      "media/arrow-left-right-rounded.svg",
+      "media/arrow_left-right-rounded.svg",
+      "media/black_1-person.svg",
+      "media/brand-product-ziggo-installatie-service-1.svg",
+      "media/brand-product-ziggo-wifi-crew-2.svg",
+      "media/brand-product-ziggo-wifi-crew.svg",
+      "media/brand-product-ziggo-wifi-garantie.svg",
+      "media/brand-product-ziggo-wifi-home-2.svg",
+      "media/brand-product-ziggo-wifi-home.svg",
+      "media/brand-product-ziggo-wifi-technician.svg",
+      "media/brand-product_ziggo-wifi-crew.svg",
+      "media/brand-product_ziggo-wifi-garantie.svg",
+      "media/brand-product_ziggo-wifi-home.svg",
+      "media/brand-product_ziggo-wifi-technician.svg",
+      "media/buildings-shop-1.svg",
+      "media/buildings_shop-1.svg",
+      "media/business-green-leaf.svg",
+      "media/business-save-money.svg",
+      "media/business_green-leaf.svg",
+      "media/connection-phone-1.svg",
+      "media/connection-wifi.svg",
+      "media/connection_download-circle.svg",
+      "media/connection_phone-1.svg",
+      "media/connection_phone.svg",
+      "media/connection_wifi.svg",
+      "media/crime+investigation.svg",
+      "media/customer-support-call-center.svg",
+      "media/customer-support_call-center.svg",
+      "media/devices-tv-modern.svg",
+      "media/devices_tv-modern.svg",
+      "media/disney-2026-3840x1300-desktop-60.webp",
+      "media/disney-mobile-2026.webp",
+      "media/drieluik-def-1080x608.webp",
+      "media/e-commerce-package.svg",
+      "media/e-commerce_package.svg",
+      "media/espn-logos-rgb-espn-logo-pos-rgb.jpg",
+      "media/espn-pakketvisual-26-27-1200-1200px.jpg",
+      "media/espn-pakketvisual-26-27-1200-628px.jpg",
+      "media/espn-premium.svg",
+      "media/espn.svg",
+      "media/events-sports-award-3.svg",
+      "media/events-sports-award.svg",
+      "media/events-sports-soccer-ball.svg",
+      "media/food-drinks_popcorn-1.svg",
+      "media/google-1.svg",
+      "media/hbo max.svg",
+      "media/hbo-black-gradient-logo-200x300-v3.svg",
+      "media/header-zst-desktop.jpg",
+      "media/header-zst-mobile.webp",
+      "media/headerespn.webp",
+      "media/history.svg",
+      "media/img.png",
+      "media/media-4k-text.svg",
+      "media/media-go-text.svg",
+      "media/media-microphone-1.svg",
+      "media/media-microphone.svg",
+      "media/media-pause.svg",
+      "media/media-record-2-1.svg",
+      "media/media-replay-1.svg",
+      "media/media-tv-4k.svg",
+      "media/media-tv-live.svg",
+      "media/media-tv-on-demand.svg",
+      "media/media_4k-text.svg",
+      "media/media_camera-studio-1.svg",
+      "media/media_go-text.svg",
+      "media/media_microphone-gradient.svg",
+      "media/media_microphone.svg",
+      "media/media_multiple-screens-1.svg",
+      "media/media_multiple-screens.svg",
+      "media/media_pause.svg",
+      "media/media_play-1.svg",
+      "media/media_play.svg",
+      "media/media_record-2-1.svg",
+      "media/media_record-2-2.svg",
+      "media/media_remote-1.svg",
+      "media/media_remote.svg",
+      "media/media_replay-1.svg",
+      "media/media_replay-2.svg",
+      "media/media_replay.svg",
+      "media/media_tv-4k.svg",
+      "media/media_tv-apps-1.svg",
+      "media/media_tv-live-1.svg",
+      "media/media_tv-live.svg",
+      "media/media_tv-on-demand-1.svg",
+      "media/media_tv-on-demand.svg",
+      "media/media_tv-stream-1.svg",
+      "media/media_tv-stream.svg",
+      "media/messaging-message-multiple-1.svg",
+      "media/messaging_message-multiple-1.svg",
+      "media/mic---supersearch---Kate-Winslett.gif",
+      "media/mic---supersearch---actie_v2.gif",
+      "media/mic---supersearch---romantiek_v2.gif",
+      "media/mic-supersearch-actie-v2.gif",
+      "media/mic-supersearch-kate-winslett.gif",
+      "media/movies en series.svg",
+      "media/netflix.svg",
+      "media/npo start.svg",
+      "media/prime video.svg",
+      "media/priority-1080x810_uspcard.jpg",
+      "media/settings-sliders-1.svg",
+      "media/settings_settings.svg",
+      "media/settings_sliders-1.svg",
+      "media/skyshowtime.svg",
+      "media/sportcompleet-article.webp",
+      "media/televisie-zenderoverzicht-tab.jpg",
+      "media/tlc.svg",
+      "media/tv-zenders-plus-1.svg",
+      "media/umlaut.svg",
+      "media/user-interface-check-badge-1.svg",
+      "media/user-interface-looking-glass.svg",
+      "media/user-interface_looking-glass-1.svg",
+      "media/user-interface_looking-glass.svg",
+      "media/user-user.svg",
+      "media/user_user.svg",
+      "media/user_users-3.svg",
+      "media/viaplay-tv-plus-logo-plp.svg",
+      "media/viaplay-tvplus-ziggo-sport-totaal1.svg",
+      "media/viaplay.svg",
+      "media/videoland.svg",
+      "media/wfh-teams-call.jpg",
+      "media/white-devices-tv-modern.svg",
+      "media/white/devices_tv-modern.svg",
+      "media/zenderkaartje-sportcompleet.svg",
+      "media/zenders/001_nederland_1.svg",
+      "media/zenders/002_nederland_2.svg",
+      "media/zenders/003_nederland_3.svg",
+      "media/zenders/004_rtl_4.svg",
+      "media/zenders/005_rtl_5.svg",
+      "media/zenders/006_sbs_6-2025.svg",
+      "media/zenders/007_rtl_7.svg",
+      "media/zenders/008_veronica.svg",
+      "media/zenders/009_net_5.svg",
+      "media/zenders/010_rtl_8.svg",
+      "media/zenders/011_star_channel.svg",
+      "media/zenders/012_rtlz.svg",
+      "media/zenders/013_viaplay_tv.svg",
+      "media/zenders/015_comedy_central.svg",
+      "media/zenders/016_paramount_network.svg",
+      "media/zenders/017_discovery.svg",
+      "media/zenders/018_ngc.svg",
+      "media/zenders/019_sbs-9.svg",
+      "media/zenders/020_id.svg",
+      "media/zenders/021_tlc.svg",
+      "media/zenders/022_bbc_nl.svg",
+      "media/zenders/023_mtv.svg",
+      "media/zenders/024_kitchen.svg",
+      "media/zenders/025_eurosport.svg",
+      "media/zenders/026_hgtv.svg",
+      "media/zenders/027_disney_channel.svg",
+      "media/zenders/028_history.svg",
+      "media/zenders/029_nickelodeon.svg",
+      "media/zenders/050_ons.svg",
+      "media/zenders/051_vrt1.svg",
+      "media/zenders/052_vrt_canvas.svg",
+      "media/zenders/053_ketnet-2024.svg",
+      "media/zenders/054_ard.svg",
+      "media/zenders/055_zdf.svg",
+      "media/zenders/056_wdr.svg",
+      "media/zenders/057_ndr.svg",
+      "media/zenders/058_rtl.svg",
+      "media/zenders/059_sat1.svg",
+      "media/zenders/061_bbc_one.svg",
+      "media/zenders/062_bbc_two.svg",
+      "media/zenders/071_tv5_monde.svg",
+      "media/zenders/072_arte.svg",
+      "media/zenders/073_tve.svg",
+      "media/zenders/074_mediaset.svg",
+      "media/zenders/075_rtv7.svg",
+      "media/zenders/076_trt_turk.svg",
+      "media/zenders/077_2m.svg",
+      "media/zenders/080_njam.svg",
+      "media/zenders/081_npo_extra_1.svg",
+      "media/zenders/082_npo_extra_2.svg",
+      "media/zenders/083_npo_politiek_en_nieuws.svg",
+      "media/zenders/100_filmbox.svg",
+      "media/zenders/101_film1_premiere.svg",
+      "media/zenders/102_film1_action.svg",
+      "media/zenders/103_family.svg",
+      "media/zenders/104_drama.svg",
+      "media/zenders/120_rtl_crime.svg",
+      "media/zenders/122_crime_investigation.svg",
+      "media/zenders/123_xite.svg",
+      "media/zenders/125_shorts_tv.svg",
+      "media/zenders/126_e!.svg",
+      "media/zenders/129_out_tv.svg",
+      "media/zenders/133_fashion_tv.svg",
+      "media/zenders/134_myzen.svg",
+      "media/zenders/136_horse_country_tv.svg",
+      "media/zenders/140_rtl_lounge.svg",
+      "media/zenders/150_netflix.svg",
+      "media/zenders/151_videoland.svg",
+      "media/zenders/152_npo_start.svg",
+      "media/zenders/153_prime_video.svg",
+      "media/zenders/154_viaplay.svg",
+      "media/zenders/155_disney-plus.svg",
+      "media/zenders/156_hbomax.svg",
+      "media/zenders/157_skyshowtime.svg",
+      "media/zenders/158_canal-plus.svg",
+      "media/zenders/159_appletv-plus.svg",
+      "media/zenders/160_nos.svg",
+      "media/zenders/162_kijk.svg",
+      "media/zenders/201_curiosity_channel.svg",
+      "media/zenders/202_discovery_science.svg",
+      "media/zenders/204_nat_geo_wild.svg",
+      "media/zenders/205_love_nature.svg",
+      "media/zenders/208_animal_planet.svg",
+      "media/zenders/230_family_7.svg",
+      "media/zenders/301_dreamworks.svg",
+      "media/zenders/303_nicktoons.svg",
+      "media/zenders/305_moonbug.svg",
+      "media/zenders/306_nick_jr.svg",
+      "media/zenders/307_cartoon_network.svg",
+      "media/zenders/309_cartoonito.svg",
+      "media/zenders/310_baby_tv.svg",
+      "media/zenders/311_duck-tv.svg",
+      "media/zenders/312_rtl_telekids.svg",
+      "media/zenders/400_ziggo-sport-extra.svg",
+      "media/zenders/401_ziggo-sport-1.svg",
+      "media/zenders/402_ziggo-sport-2.svg",
+      "media/zenders/403_ziggo-sport-3.svg",
+      "media/zenders/404_ziggo-sport-4.svg",
+      "media/zenders/405_ziggo-sport-5.svg",
+      "media/zenders/406_ziggo-sport-6.svg",
+      "media/zenders/411_eurosport2_hd.svg",
+      "media/zenders/421_espn.svg",
+      "media/zenders/422_espn_2.svg",
+      "media/zenders/423_espn_3.svg",
+      "media/zenders/424_espn_4.svg",
+      "media/zenders/425_espn_uhd.svg",
+      "media/zenders/426_espn-2_uhd.svg",
+      "media/zenders/427_espn-3_uhd.svg",
+      "media/zenders/428_espn-4_uhd.svg",
+      "media/zenders/432_viaplay-tv-plus.svg",
+      "media/zenders/503_cnn.svg",
+      "media/zenders/504_bbc_news.svg",
+      "media/zenders/505_euronews.svg",
+      "media/zenders/506_aljazeera_english.svg",
+      "media/zenders/507_cnbc.svg",
+      "media/zenders/538_538_tv.svg",
+      "media/zenders/601_top40-tv.svg",
+      "media/zenders/603_slam!.svg",
+      "media/zenders/605_dance_television.svg",
+      "media/zenders/605_stingray_lite_tv.svg",
+      "media/zenders/607_stingray_classica.svg",
+      "media/zenders/608_mezzo.svg",
+      "media/zenders/609_djazz.svg",
+      "media/zenders/610_tv_oranje.svg",
+      "media/zenders/611_100procent_nl.svg",
+      "media/zenders/612_192_tv.svg",
+      "media/zenders/701_rtv_noord.svg",
+      "media/zenders/702_omrop_fyslan.svg",
+      "media/zenders/703_tv_drenthe.svg",
+      "media/zenders/704_tv_oost-v2.svg",
+      "media/zenders/705_tv_gelderland.svg",
+      "media/zenders/706_omroep_flevoland.svg",
+      "media/zenders/707_nh.svg",
+      "media/zenders/708_rtv_utrecht.svg",
+      "media/zenders/709_tv_west.svg",
+      "media/zenders/710_tv_rijnmond.svg",
+      "media/zenders/711_omroep_zeeland.svg",
+      "media/zenders/712_omroep_brabant.svg",
+      "media/zenders/713_l1_tv.svg",
+      "media/zenders/725_at5.svg",
+      "media/zenders/760_utsav_plus.svg",
+      "media/zenders/761_utsav_gold.svg",
+      "media/zenders/762_zee_tv.svg",
+      "media/zenders/763_zee_cinema.svg",
+      "media/zenders/764_zing.svg",
+      "media/zenders/765_set_asia.svg",
+      "media/zenders/766_sony-max.svg",
+      "media/zenders/767_colors-tv.svg",
+      "media/zenders/770_show_tv.svg",
+      "media/zenders/771_euro_d.svg",
+      "media/zenders/772_eurostar.svg",
+      "media/zenders/773_haber_turk.svg",
+      "media/zenders/774_tv8.svg",
+      "media/zenders/776_trt_cocuk.svg",
+      "media/zenders/777_atv_avrupa.svg",
+      "media/zenders/778_trt_muzik.svg",
+      "media/zenders/791_secret_circle.svg",
+      "media/zenders/792_penthouse_gold.svg",
+      "media/zenders/793_brazzers_tv_europe.svg",
+      "media/zenders/794_passie_xxx.svg",
+      "media/zenders/795_dorcel_tv.svg",
+      "media/zenders/796_meiden_van_holland.svg",
+      "media/zenders/797_x-mo.svg",
+      "media/zenders/798_outtv.svg",
+      "media/zenders/799_playboy_tv_europe.svg",
+      "media/zenders/998_zenderoverzicht.svg",
+      "media/zenders/999_ziggo_tv.svg",
+      "media/zenders/go_icon.svg",
+      "media/zenders/hd_icon.svg",
+      "media/zenders/replay_icon.svg",
+      "media/zenders/tv_gemist.svg",
+      "media/ziggo sport.svg",
+      "media/ziggo tv.svg",
+      "media/ziggo-logo-orange-v1.svg",
+      "media/zst-464x464.webp",
+      "media/zst-app.webp",
+      "modules.css",
+      "modules.js",
+      "televisie-extra-zenders-streamingdiensten-netflix.css",
+      "televisie-voicecontrol.css",
+      "televisie-voicecontrol.js",
+      "televisie-zenderoverzicht.css",
+      "televisie-zenderoverzicht.js",
+      "televisie-zenders-npo-1.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 113
+      },
+      {
+        "slug": "alles-in-1",
+        "file": "stardust/migrated/alles-in-1/index.html",
+        "assetsBundled": 65
+      },
+      {
+        "slug": "televisie-voicecontrol",
+        "file": "stardust/migrated/televisie/voicecontrol/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "televisie-zenders-npo-1",
+        "file": "stardust/migrated/televisie/zenders/npo-1/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+        "file": "stardust/migrated/televisie/extra-zenders-streamingdiensten/netflix/index.html",
+        "assetsBundled": 31
+      },
+      {
+        "slug": "televisie-zenderoverzicht",
+        "file": "stardust/migrated/televisie/zenderoverzicht/index.html",
+        "assetsBundled": 179
+      },
+      {
+        "slug": "televisie-makkelijk-zoeken",
+        "file": "stardust/migrated/televisie/makkelijk-zoeken/index.html",
+        "assetsBundled": 34
+      },
+      {
+        "slug": "televisie-terugkijken",
+        "file": "stardust/migrated/televisie/terugkijken/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "televisie-online-tv-kijken",
+        "file": "stardust/migrated/televisie/online-tv-kijken/index.html",
+        "assetsBundled": 27
+      },
+      {
+        "slug": "televisie-opnemen",
+        "file": "stardust/migrated/televisie/opnemen/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "televisie-kijkprofielen",
+        "file": "stardust/migrated/televisie/kijkprofielen/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "televisie-hoofdmenu",
+        "file": "stardust/migrated/televisie/hoofdmenu/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "televisie-4k-uhd",
+        "file": "stardust/migrated/televisie/4k-uhd/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "televisie-digitale-kabel-tv-en-radio",
+        "file": "stardust/migrated/televisie/digitale-kabel-tv-en-radio/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "televisie-digitale-radio",
+        "file": "stardust/migrated/televisie/digitale-radio/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "televisie-mediaboxen",
+        "file": "stardust/migrated/televisie/mediaboxen/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "televisie-ziggo-go",
+        "file": "stardust/migrated/televisie/ziggo-go/index.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "televisie-tv-apps",
+        "file": "stardust/migrated/televisie/tv-apps/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "televisie-zenders-sbs6",
+        "file": "stardust/migrated/televisie/zenders/sbs6/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "televisie-zenders-rtl-4",
+        "file": "stardust/migrated/televisie/zenders/rtl-4/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie-zenders-npo-2",
+        "file": "stardust/migrated/televisie/zenders/npo-2/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie-zenders-npo-3",
+        "file": "stardust/migrated/televisie/zenders/npo-3/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie-zenders-rtl-5",
+        "file": "stardust/migrated/televisie/zenders/rtl-5/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie-zenders-star-channel",
+        "file": "stardust/migrated/televisie/zenders/star-channel/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "televisie",
+        "file": "stardust/migrated/televisie/index.html",
+        "assetsBundled": 37
+      },
+      {
+        "slug": "internet",
+        "file": "stardust/migrated/internet/index.html",
+        "assetsBundled": 24
+      },
+      {
+        "slug": "televisie-extra-zenders-streamingdiensten",
+        "file": "stardust/migrated/televisie/extra-zenders-streamingdiensten/index.html",
+        "assetsBundled": 41
+      },
+      {
+        "slug": "televisie-ziggo-sport",
+        "file": "stardust/migrated/televisie/ziggo-sport/index.html",
+        "assetsBundled": 24
+      },
+      {
+        "slug": "televisie-espn",
+        "file": "stardust/migrated/televisie/espn/index.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "tv-internet",
+        "file": "stardust/migrated/tv-internet/index.html",
+        "assetsBundled": 66
+      },
+      {
+        "slug": "televisie-tv-start",
+        "file": "stardust/migrated/televisie/tv-start/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "televisie-kabel-tv",
+        "file": "stardust/migrated/televisie/kabel-tv/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "file": "stardust/migrated/televisie/extra-zenders-streamingdiensten/disneyplus/index.html",
+        "assetsBundled": 36
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-25T18:42:45Z",
+      "rendered": [
+        "televisie-extra-zenders-streamingdiensten-disneyplus"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

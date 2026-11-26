@@ -1,0 +1,467 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-26T02:21:15.424Z",
+  "url": "https://www.ziggo.nl/televisie/ziggo-go",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.ziggo.nl/televisie/ziggo-go",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 4317,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Vodafone Ziggo text\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "n": 93
+   },
+   {
+    "stack": "\"Ziggo Headline\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "n": 25
+   }
+  ],
+  "loadedFaces": [
+   "ziggo-ui-icon-v22 400 normal",
+   "Vodafone Ziggo text 700 normal",
+   "Vodafone Ziggo text 300 normal",
+   "Vodafone Ziggo text 400 normal",
+   "Ziggo Headline 700 normal",
+   "Open Sans 400 normal",
+   "Roboto 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/24 400 Vodafone Ziggo text",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 40,
+    "roles": {
+     "link": 40
+    },
+    "sample": "Ga naar de Ziggo homepage"
+   },
+   {
+    "key": "16/25.6 300 Vodafone Ziggo text",
+    "fontSize": 16,
+    "lineHeight": 25.6,
+    "fontWeight": "300",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 14,
+    "roles": {
+     "p": 12,
+     "link": 2
+    },
+    "sample": "Kijk een programma wanneer je wil en tijd hebt. Je kunt tot wel 7 dagen terugki…"
+   },
+   {
+    "key": "25.01/27.51 700 Ziggo Headline",
+    "fontSize": 25.01,
+    "lineHeight": 27.51,
+    "fontWeight": "700",
+    "fontFamily": "Ziggo Headline",
+    "textTransform": "none",
+    "n": 12,
+    "roles": {
+     "h3": 12
+    },
+    "sample": "Tot 7 dagen terugkijken"
+   },
+   {
+    "key": "16/24 600 Vodafone Ziggo text",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "600",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 12,
+    "roles": {
+     "link": 12
+    },
+    "sample": "Producten"
+   },
+   {
+    "key": "18/24 600 Vodafone Ziggo text",
+    "fontSize": 18,
+    "lineHeight": 24,
+    "fontWeight": "600",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "button": 7
+    },
+    "sample": "Kan ik ook offline kijken?"
+   },
+   {
+    "key": "16/20 600 Vodafone Ziggo text",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "600",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Kijk nu"
+   },
+   {
+    "key": "39.04/42.94 700 Ziggo Headline",
+    "fontSize": 39.04,
+    "lineHeight": 42.94,
+    "fontWeight": "700",
+    "fontFamily": "Ziggo Headline",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "h2": 5
+    },
+    "sample": "Dit kun je allemaal met Ziggo GO"
+   },
+   {
+    "key": "18/27 600 Ziggo Headline",
+    "fontSize": 18,
+    "lineHeight": 27,
+    "fontWeight": "600",
+    "fontFamily": "Ziggo Headline",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "h2": 4
+    },
+    "sample": "Pakketten"
+   },
+   {
+    "key": "12/18 400 Vodafone Ziggo text",
+    "fontSize": 12,
+    "lineHeight": 18,
+    "fontWeight": "400",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 2,
+     "button": 2
+    },
+    "sample": "Ziggo GO"
+   },
+   {
+    "key": "20/22 700 Ziggo Headline",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Ziggo Headline",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "span": 3
+    },
+    "sample": "Functies"
+   },
+   {
+    "key": "16/25.6 400 Vodafone Ziggo text",
+    "fontSize": 16,
+    "lineHeight": 25.6,
+    "fontWeight": "400",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "button": 3
+    },
+    "sample": "Producten"
+   },
+   {
+    "key": "14/21 400 Vodafone Ziggo text",
+    "fontSize": 14,
+    "lineHeight": 21,
+    "fontWeight": "400",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 2,
+     "span": 1
+    },
+    "sample": "Zakelijk"
+   },
+   {
+    "key": "20/32 300 Vodafone Ziggo text",
+    "fontSize": 20,
+    "lineHeight": 32,
+    "fontWeight": "300",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "span": 1,
+     "link": 1
+    },
+    "sample": "Met Ziggo GO maak je van je mobiel, tablet en laptop je tv. Download de app of …"
+   },
+   {
+    "key": "48.8/53.68 700 Ziggo Headline",
+    "fontSize": 48.8,
+    "lineHeight": 53.68,
+    "fontWeight": "700",
+    "fontFamily": "Ziggo Headline",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Ziggo GO"
+   },
+   {
+    "key": "31.2/34.32 300 Vodafone Ziggo text",
+    "fontSize": 31.2,
+    "lineHeight": 34.32,
+    "fontWeight": "300",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Kijk tv op je smartphone, tablet of laptop. Of stream naar je tv."
+   },
+   {
+    "key": "14/21 700 Vodafone Ziggo text",
+    "fontSize": 14,
+    "lineHeight": 21,
+    "fontWeight": "700",
+    "fontFamily": "Vodafone Ziggo text",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Privé"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(193, 197, 200)",
+    "n": 32
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 19
+   },
+   {
+    "color": "rgb(169, 174, 178)",
+    "n": 17
+   },
+   {
+    "color": "rgb(28, 31, 33)",
+    "n": 16
+   },
+   {
+    "color": "rgb(50, 54, 57)",
+    "n": 10
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 8
+   },
+   {
+    "color": "rgb(0, 20, 137)",
+    "n": 7
+   },
+   {
+    "color": "rgb(217, 219, 222)",
+    "n": 4
+   },
+   {
+    "color": "rgb(255, 95, 0)",
+    "n": 3
+   },
+   {
+    "color": "rgb(1, 18, 93)",
+    "n": 2
+   }
+  ],
+  "container": {
+   "left": 152,
+   "right": 152,
+   "content": 1136,
+   "leftCommon": {
+    "x": 152,
+    "n": 15
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":112,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header","firstText":"Privé"},
+  {"i":1,"region":"main","y":112,"h":540,"background":"rgb(255, 95, 0) + image(3840x1300_header60_Ziggo_B2C_ZiggoGO_2025_Q4)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Ziggo GO"},
+  {"i":2,"region":"main","y":652,"h":112,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Kijk nu"},
+  {"i":3,"region":"main","y":764,"h":76,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Televisie"},
+  {"i":4,"region":"main","y":840,"h":522,"background":"rgb(241, 242, 243)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Functies"},
+  {"i":5,"region":"main","y":1362,"h":579,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Wat heb je nodig?"},
+  {"i":6,"region":"main","y":1941,"h":540,"background":"rgb(255, 95, 0) + image(3840x1300_banner60_Ziggo_B2C_ZiggoGO_2025_Q4)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Download Ziggo GO"},
+  {"i":7,"region":"main","y":2481,"h":708,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Ziggo GO tips"},
+  {"i":8,"region":"main","y":3189,"h":547,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.hero-container","firstText":"Veelgestelde vragen"},
+  {"i":9,"region":"footer","y":3736,"h":581,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"footer.page-footer","firstText":"Pakketten"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Privé","x":266,"y":10,"w":72,"h":30,"fontFamily":"Vodafone Ziggo text","fontSize":14,"lineHeight":21,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1,"href":"/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Zakelijk","x":338,"y":10,"w":87,"h":30,"fontFamily":"Vodafone Ziggo text","fontSize":14,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(1, 18, 93)","lines":1,"href":"https://www.ziggo.nl/zakelijk/?intcmp=menu"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Ga naar de Ziggo homepage","x":152,"y":61,"w":72,"h":30,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 20, 137)","lines":1,"href":"/"},
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Logo van Ziggo","x":152,"y":61,"w":72,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1080,450],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain","href":"/"},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":"button","text":"Producten","x":252,"y":63,"w":74,"h":26,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":"button","text":"Klantenservice","x":378,"y":63,"w":106,"h":26,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":"button","text":"Entertainment","x":535,"y":63,"w":105,"h":26,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Ziggo GO","x":986,"y":40,"w":74,"h":72,"fontFamily":"Vodafone Ziggo text","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1,"href":"https://www.ziggogo.tv"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Ziggo Mail","x":1060,"y":40,"w":80,"h":72,"fontFamily":"Vodafone Ziggo text","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1,"href":"https://www.ziggo.nl/mail"},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":"button","text":"Mijn Ziggo","x":1152,"y":86,"w":56,"h":10,"fontFamily":"Vodafone Ziggo text","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"button","role":"button","text":"Zoeken","x":1220,"y":40,"w":68,"h":72,"fontFamily":"Vodafone Ziggo text","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"section","role":null,"text":"","x":0,"y":112,"w":1440,"h":540,"bg":true,"fit":"cover","src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/3840x1300_header60_Ziggo_B2C_ZiggoGO_2025_Q4?qlt=80,0&dpr=off&wid=1484&hei=540&fit=wrap"},
+  {"section":1,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Ziggo GO","x":152,"y":305,"w":552,"h":54,"fontFamily":"Ziggo Headline","fontSize":48.8,"lineHeight":53.68,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Kijk tv op je smartphone, tablet of laptop. Of stream naar je tv.","x":152,"y":367,"w":552,"h":69,"fontFamily":"Vodafone Ziggo text","fontSize":31.2,"lineHeight":34.32,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":"link","text":"Kijk nu","x":579,"y":697,"w":47,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.ziggogo.tv/nl/home"},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":"link","text":"Dit kan je met Ziggo GO","x":722,"y":697,"w":169,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(1, 18, 93)","lines":1,"href":"#functies"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Televisie","x":192,"y":776,"w":54,"h":21,"fontFamily":"Vodafone Ziggo text","fontSize":14,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1,"href":"https://www.ziggo.nl/televisie"},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":null,"text":"Ziggo-go","x":270,"y":776,"w":57,"h":21,"fontFamily":"Vodafone Ziggo text","fontSize":14,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"span","role":null,"text":"Functies","x":347,"y":888,"w":747,"h":22,"fontFamily":"Ziggo Headline","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Dit kun je allemaal met Ziggo GO","x":347,"y":918,"w":747,"h":43,"fontFamily":"Ziggo Headline","fontSize":39.04,"lineHeight":42.94,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":152,"y":1009,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/media_replay-1?fmt=svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Tot 7 dagen terugkijken","x":217,"y":1017,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Kijk een programma wanneer je wil en tijd hebt. Je kunt tot wel 7 dagen terugki…","x":217,"y":1044,"w":260,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":3},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":541,"y":1009,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/media_tv-live?fmt=svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Live tv-kijken","x":606,"y":1017,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Live tv-kijken naar 70+ tv-zenders. Begin gemist? Start dan opnieuw vanaf het b…","x":606,"y":1044,"w":260,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":3},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Live tv-kijken","x":606,"y":1049,"w":90,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 20, 137)","lines":1,"href":"https://www.ziggogo.tv/dl/obo_nl_nl/home/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":931,"y":1009,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/media_record-2-1?fmt=svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Programma's opnemen","x":996,"y":1017,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Geen tijd voor een film? Neem het op. Eenvoudig met de app. Ook op afstand.","x":996,"y":1044,"w":260,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":3},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":152,"y":1169,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/media_tv-stream?fmt=svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Streamen naar je tv","x":217,"y":1177,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Ideaal bij meerdere tv's. Koppel de tv met smartphone, chromecast of Apple TV e…","x":217,"y":1205,"w":260,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":3},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"On- en offline kijken","x":541,"y":1169,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://www.ziggo.nl/content/dam/ziggo/generic-assets-/icons-2025/stroke/black/connection_download-circle.svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"On- en offline kijken","x":606,"y":1177,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Kijk honderden films en series direct. Of download ze voor onderweg.","x":606,"y":1205,"w":260,"h":51,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":2},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":931,"y":1169,"w":33,"h":33,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/media_multiple-screens?fmt=svg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Meer schermen tegelijk","x":996,"y":1177,"w":260,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Met Ziggo GO kijk je met 3 apparaten tegelijk tv, films en series. Waar ieder z…","x":996,"y":1205,"w":260,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":3},
+  {"section":5,"region":"main","kind":"text","tag":"span","role":null,"text":"Wat heb je nodig?","x":347,"y":1442,"w":747,"h":22,"fontFamily":"Ziggo Headline","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"h2","role":"h2","text":"In 3 stappen Ziggo GO gebruiken","x":347,"y":1472,"w":747,"h":43,"fontFamily":"Ziggo Headline","fontSize":39.04,"lineHeight":42.94,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 95, 0)","lines":1},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":152,"y":1546,"w":357,"h":202,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[357,201],"src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/1080x608_Ziggo_B2C_account_mockup_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain"},
+  {"section":5,"region":"main","kind":"text","tag":"h3","role":"h3","text":"1. Vodafone & Ziggo account","x":152,"y":1748,"w":357,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Heb je televisie van Ziggo? Maak dan een Vodafone & Ziggo account aan. Daarmee …","x":152,"y":1776,"w":357,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":3},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Vodafone & Ziggo account","x":156,"y":1806,"w":188,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 20, 137)","lines":1,"href":"https://login.vodafoneziggo.nl/registreren"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":541,"y":1546,"w":357,"h":202,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[357,201],"src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/1080x608_Ziggo_B2C_devices_mockup_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain"},
+  {"section":5,"region":"main","kind":"text","tag":"h3","role":"h3","text":"2. Tablet, telefoon of tv","x":541,"y":1748,"w":357,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Om optimaal te genieten van de app, heeft je tablet of smartphone minimaal Appl…","x":541,"y":1776,"w":357,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":3},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":931,"y":1546,"w":357,"h":202,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[254,143],"src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/400x266_Ziggo_B2C_logo_gradient_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain"},
+  {"section":5,"region":"main","kind":"text","tag":"h3","role":"h3","text":"3. Ziggo GO","x":931,"y":1748,"w":357,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Download de Ziggo GO app. In een mum van tijd maak je nu van je smartphone en t…","x":931,"y":1776,"w":357,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":3},
+  {"section":6,"region":"main","kind":"image","tag":"section","role":null,"text":"","x":0,"y":1941,"w":1440,"h":540,"bg":true,"fit":"cover","src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/3840x1300_banner60_Ziggo_B2C_ZiggoGO_2025_Q4?qlt=80,0&dpr=off&wid=1484&hei=540&fit=wrap"},
+  {"section":6,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Download Ziggo GO","x":152,"y":2089,"w":357,"h":43,"fontFamily":"Ziggo Headline","fontSize":39.04,"lineHeight":42.94,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":6,"region":"main","kind":"text","tag":"span","role":null,"text":"Met Ziggo GO maak je van je mobiel, tablet en laptop je tv. Download de app of …","x":152,"y":2147,"w":346,"h":82,"fontFamily":"Vodafone Ziggo text","fontSize":20,"lineHeight":32,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":3},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"ziggogo.tv","x":345,"y":2211,"w":92,"h":18,"fontFamily":"Vodafone Ziggo text","fontSize":20,"lineHeight":32,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 20, 137)","lines":1,"href":"http://www.ziggogo.tv"},
+  {"section":6,"region":"main","kind":"text","tag":"span","role":"link","text":"Download Ziggo GO","x":200,"y":2265,"w":144,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 20, 137)","lines":1,"href":"https://act.vodafone.nl/ziggogoredirect2"},
+  {"section":7,"region":"main","kind":"text","tag":"span","role":null,"text":"Ziggo GO tips","x":347,"y":2561,"w":747,"h":22,"fontFamily":"Ziggo Headline","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Zo gebruik je Ziggo GO overal","x":347,"y":2591,"w":747,"h":43,"fontFamily":"Ziggo Headline","fontSize":39.04,"lineHeight":42.94,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 95, 0)","lines":1},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Ziggo GO op vakantie","x":152,"y":2666,"w":552,"h":467,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 20, 137)","lines":1,"href":"https://www.ziggo.nl/televisie/ziggo-go#FAQ"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":152,"y":2666,"w":552,"h":237,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[551,236],"src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/1080x463_article-21x9_ziggo-go-op-vakantie_mobiel_v2?qlt=80,0&dpr=off&wid=562&fit=constrain"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Ziggo GO op vakantie","x":176,"y":2926,"w":504,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Op vakantie kun je ook gewoon Ziggo GO kijken. Alleen niet alle landen in Europ…","x":176,"y":2960,"w":504,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":3},
+  {"section":7,"region":"main","kind":"text","tag":"span","role":"link","text":"Ziggo GO in het buitenland","x":196,"y":3073,"w":193,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.ziggo.nl/televisie/ziggo-go#FAQ"},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Ziggo GO op je 2e tv","x":736,"y":2666,"w":552,"h":467,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 20, 137)","lines":1,"href":"/televisie/ziggo-go/ziggo-go-tweede-tv"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":736,"y":2666,"w":552,"h":237,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[551,236],"src":"https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/1080x463_article-21x9_ziggo-go-op-2e-tv_mobiel_v2?qlt=80,0&dpr=off&wid=562&fit=constrain"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Ziggo GO op je 2e tv","x":760,"y":2926,"w":504,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Wist je dat Ziggo GO ook beschikbaar is op je Apple TV, Android TV of Amazon Fi…","x":760,"y":2960,"w":504,"h":77,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":3},
+  {"section":7,"region":"main","kind":"text","tag":"span","role":"link","text":"Zo werkt 't","x":797,"y":3073,"w":75,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/televisie/ziggo-go/ziggo-go-tweede-tv"},
+  {"section":8,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Veelgestelde vragen","x":152,"y":3229,"w":1136,"h":43,"fontFamily":"Ziggo Headline","fontSize":39.04,"lineHeight":42.94,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 95, 0)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Kan ik ook offline kijken?","x":152,"y":3305,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Kan ik Ziggo GO in het buitenland gebruiken?","x":152,"y":3362,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Zijn er kosten verbonden aan het gebruik van Ziggo GO?","x":152,"y":3419,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Wie kunnen Ziggo GO gebruiken?","x":152,"y":3476,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Kan ik ook programma's On Demand kijken, of later terugkijken?","x":152,"y":3533,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Welke zenders kan ik kijken via de Ziggo GO app?","x":152,"y":3590,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"button","text":"Met hoeveel apparaten kun je Ziggo GO tegelijk gebruiken?","x":152,"y":3647,"w":747,"h":56,"fontFamily":"Vodafone Ziggo text","fontSize":18,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(50, 54, 57)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":963,"y":3344,"w":49,"h":49,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[24,24],"src":"https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/settings_settings?fmt=svg"},
+  {"section":8,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Hulp bij Ziggo GO","x":963,"y":3417,"w":293,"h":28,"fontFamily":"Ziggo Headline","fontSize":25.01,"lineHeight":27.51,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Werkt Ziggo GO niet helemaal lekker? Check onze oplossingen en je kijkt binnen …","x":963,"y":3452,"w":293,"h":102,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":25.6,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(28, 31, 33)","lines":4},
+  {"section":8,"region":"main","kind":"text","tag":"span","role":"link","text":"Klantenservice","x":983,"y":3599,"w":109,"h":23,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":20,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.ziggo.nl/klantenservice/televisie-radio/online-tv-kijken/problemen-en-storingen-oplossen"},
+  {"section":9,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Pakketten","x":152,"y":3768,"w":266,"h":27,"fontFamily":"Ziggo Headline","fontSize":18,"lineHeight":27,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(217, 219, 222)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Pakketten vergelijken","x":172,"y":3808,"w":151,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/tv-internet"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Alles-in-1","x":172,"y":3844,"w":65,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/alles-in-1"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Internet & TV","x":172,"y":3880,"w":94,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/tv-internet"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Internet Only","x":172,"y":3916,"w":93,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/internet-only"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Televisie","x":172,"y":3952,"w":61,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ziggo aanbiedingen","x":172,"y":3988,"w":144,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/aanbiedingen"},
+  {"section":9,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Internet","x":442,"y":3768,"w":266,"h":27,"fontFamily":"Ziggo Headline","fontSize":18,"lineHeight":27,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(217, 219, 222)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Internet","x":462,"y":3808,"w":57,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Wifi","x":462,"y":3844,"w":27,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/wifi"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Wifi-versterkers","x":462,"y":3880,"w":111,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/smartwifi"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"SmartWifi","x":462,"y":3916,"w":72,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/smartwifi"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Wifi Garantie","x":462,"y":3952,"w":93,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/wifigarantie"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Glasvezel internet","x":462,"y":3988,"w":128,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/glasvezel"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Internetbeveiliging","x":462,"y":4024,"w":135,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/internet/internetbeveiliging"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Speedtest","x":462,"y":4060,"w":74,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/speedtest"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Postcodecheck internet","x":462,"y":4096,"w":169,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/postcodecheck"},
+  {"section":9,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Televisie","x":732,"y":3768,"w":266,"h":27,"fontFamily":"Ziggo Headline","fontSize":18,"lineHeight":27,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(217, 219, 222)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Kabel TV","x":752,"y":3808,"w":64,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/kabel-tv"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Online TV kijken","x":752,"y":3844,"w":113,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/online-tv-kijken"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"4K TV kijken","x":752,"y":3880,"w":86,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/4k-uhd"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ziggo GO","x":752,"y":3916,"w":67,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/ziggo-go"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"ESPN Premium","x":752,"y":3952,"w":108,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/extra-zenders-streamingdiensten/espn-premium"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Videoland","x":752,"y":3988,"w":74,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/extra-zenders-streamingdiensten/videoland"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ziggo Sport","x":752,"y":4024,"w":84,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/televisie/ziggo-sport"},
+  {"section":9,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Bellen & Overige","x":1022,"y":3768,"w":266,"h":27,"fontFamily":"Ziggo Headline","fontSize":18,"lineHeight":27,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(217, 219, 222)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Vast Bellen","x":1042,"y":3808,"w":80,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/bellen/vast-bellen"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Mobiel bellen","x":1042,"y":3844,"w":95,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/vodafone"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sim Only","x":1042,"y":3880,"w":63,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"https://directsales.ziggo.nl/ziggovoordeel/simonly"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"iPhone 18","x":1042,"y":3916,"w":68,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"https://www.vodafone.nl/telefoon/iphone/iphone-18"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"iPhone 17","x":1042,"y":3952,"w":67,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"https://www.vodafone.nl/telefoon/iphone/iphone-17-serie"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Samsung Galaxy S26","x":1042,"y":3988,"w":151,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"https://www.vodafone.nl/telefoon/samsung/galaxy-s26-serie"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Klantenservice","x":1042,"y":4024,"w":106,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/klantenservice"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ziggo Dome","x":1042,"y":4060,"w":87,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"http://www.ziggodome.nl/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ziggo Zakelijk","x":1042,"y":4096,"w":98,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"/zakelijk"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Voorrang met Priority","x":1042,"y":4132,"w":154,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(193, 197, 200)","lines":1,"href":"https://www.priority.nl/info/about?utm_source=ziggo&utm_medium=referral&utm_campaign=priority&utm_content=footer"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Producten","x":152,"y":4196,"w":76,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/tv-internet"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Klantenservice","x":260,"y":4196,"w":109,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/klantenservice"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Entertainment","x":402,"y":4196,"w":108,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/entertainment"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Verhuizen","x":542,"y":4196,"w":73,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/verhuizing"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Mijn Ziggo","x":646,"y":4196,"w":75,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"https://www.ziggo.nl/mijn-ziggo"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Community","x":1012,"y":4223,"w":36,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(169, 174, 178)","lines":1,"href":"#"},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1012,"y":4212,"w":36,"h":36,"fit":"fill","shape":{"pos":"50% 50%"},"href":"#"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook","x":1072,"y":4223,"w":36,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(169, 174, 178)","lines":1,"href":"#"},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1072,"y":4212,"w":36,"h":36,"fit":"fill","shape":{"pos":"50% 50%"},"href":"#"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"X","x":1132,"y":4223,"w":36,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(169, 174, 178)","lines":1,"href":"#"},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1132,"y":4212,"w":36,"h":36,"fit":"fill","shape":{"pos":"50% 50%"},"href":"#"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"LinkedIn","x":1192,"y":4223,"w":36,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(169, 174, 178)","lines":1,"href":"#"},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1192,"y":4212,"w":36,"h":36,"fit":"fill","shape":{"pos":"50% 50%"},"href":"#"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"YouTube","x":1252,"y":4223,"w":36,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(169, 174, 178)","lines":1,"href":"#"},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1252,"y":4212,"w":36,"h":36,"fit":"fill","shape":{"pos":"50% 50%"},"href":"#"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Over Ziggo","x":152,"y":4250,"w":79,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/over-ziggo"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Toegankelijkheid","x":263,"y":4250,"w":123,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/toegankelijkheid"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Disclaimer","x":418,"y":4250,"w":78,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/disclaimer"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":529,"y":4250,"w":55,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/privacy"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Cookies","x":616,"y":4250,"w":58,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/cookies"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Voorwaarden","x":705,"y":4250,"w":99,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/voorwaarden"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Garantie","x":836,"y":4250,"w":64,"h":14,"fontFamily":"Vodafone Ziggo text","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(169, 174, 178)","lines":1,"href":"/klantenservice/apparaten/garantie-en-reparatie"}
+ ]
+}

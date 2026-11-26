@@ -1,0 +1,75 @@
+{
+  "live": "stardust/replica/motion/televisie-zenders-npo-1-live.json",
+  "build": "stardust/replica/motion/televisie-zenders-npo-1-proto.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 1,
+  "counts": {
+    "behaviors": 8,
+    "parity": 3,
+    "missing": 1,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 3,
+    "advisory": 1
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "hover",
+      "name": ".social-component__button → .share__btn",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .social-component__button → .share__btn: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".ze-channel-info-links__item → .chinfo__link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .ze-channel-info-links__item → .chinfo__link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".btn-primary → .ch-btn",
+      "state": "parity",
+      "note": "self.background; n/a; paired by order",
+      "line": "motion hover .btn-primary → .ch-btn: parity (self.background; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-interactions-item → .interactions__item",
+      "state": "parity",
+      "note": "self.color, span.color; n/a; paired by order",
+      "line": "motion hover .vfz-interactions-item → .interactions__item: parity (self.color, span.color; n/a; paired by order)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition transform: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "advisory",
+      "note": "2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition background-color: extra on build — advisory (2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-interactions-item--slideout",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vfz-interactions-item--slideout: MISSING on build (trigger class added 1× on live, never on build)"
+    }
+  ]
+}

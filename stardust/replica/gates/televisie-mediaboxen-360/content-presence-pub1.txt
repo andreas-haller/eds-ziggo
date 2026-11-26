@@ -1,0 +1,17 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/mediaboxen (docH 3842, 96 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen (docH 4034, 96 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/2 | 0/0 | 0/0 | 1/1 | - |
+| 1 | ziggo mediaboxen | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | televisiekijken op z'n mooist. welke box | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 3 | kies je mediabox | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 4 | next mini | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 5 | mediabox next | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 6 | ook kijken op je tweede tv? | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 7 | veelgestelde vragen | 0/0 | 4/4 | 0/0 | 0/0 | - |
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: none — every visible origin heading and link is visible on the served page
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-mediaboxen-360/content-presence-pub1.json

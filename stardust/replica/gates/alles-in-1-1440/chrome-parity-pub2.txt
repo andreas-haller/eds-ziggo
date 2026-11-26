@@ -1,0 +1,17 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/alles-in-1 (live side from cache stardust/replica/gates/alles-in-1-1440/chrome-live.json, probed 2026-11-25T11:59:58.080Z — delete the file to re-probe)
+  build: https://main--50ca44c6--aemcoder.aem.page/alles-in-1
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 1440×112; selector body > header
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: 1 delta(s) — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,10052 1440×662; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,10054 1440×654; selector body > footer
+  REGION BOX   Δh -8px (662→654)
+  advisory     REGION OFFSET: page Δy +2px (10052→10054) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✗ 1 delta(s), 2 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

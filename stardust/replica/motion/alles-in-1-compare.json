@@ -1,0 +1,246 @@
+{
+  "live": "stardust/replica/motion/alles-in-1.json",
+  "build": "stardust/replica/motion/alles-in-1-proto.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 12,
+  "counts": {
+    "behaviors": 32,
+    "parity": 10,
+    "missing": 11,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 6,
+    "advisory": 4
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "tolerance",
+      "deltas": [
+        "magnitude delta 200px > 8px [restore threshold: live y≤300, build y≤500]"
+      ],
+      "note": "Δheight 0px, restore at y≤300, 0ms",
+      "line": "motion header scroll-morph: magnitude delta 200px > 8px [restore threshold: live y≤300, build y≤500] (Δheight 0px, restore at y≤300, 0ms)"
+    },
+    {
+      "cls": "widget",
+      "name": ".vfz-accordion-item__header → .acc__header",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .vfz-accordion-item__header → .acc__header: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".z-product-card:not(.z-product-card--selected) .z-product-card__label → .pcard:not(.is-selected) .pcard__label",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .z-product-card:not(.z-product-card--selected) .z-product-card__label → .pcard:not(.is-selected) .pcard__label: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".z-product-card → .pcard",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .z-product-card → .pcard: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".z-contract-promo-card-group-card → .promo",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .z-contract-promo-card-group-card → .promo: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-contextual-help__trigger → .help-trigger",
+      "state": "parity",
+      "note": "self.color; n/a; paired by order",
+      "line": "motion hover .vfz-contextual-help__trigger → .help-trigger: parity (self.color; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".z-product-card__usp-title → .pcard__usp-title",
+      "state": "parity",
+      "note": "self.color; n/a; paired by order",
+      "line": "motion hover .z-product-card__usp-title → .pcard__usp-title: parity (self.color; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-category-links__item-link → .catlinks__item a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .vfz-category-links__item-link → .catlinks__item a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-interactions-item → .interactions__item",
+      "state": "parity",
+      "note": "self.color, span.color; n/a; paired by order",
+      "line": "motion hover .vfz-interactions-item → .interactions__item: parity (self.color, span.color; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vfz-accordion-item__header → .acc__header",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .vfz-accordion-item__header → .acc__header: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "card-selection-outline",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance card-selection-outline: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "card-selection-pulse",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance card-selection-pulse: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "card-selection-shine",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance card-selection-shine: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "missing",
+      "note": "1 event(s) on live, 0ms",
+      "line": "motion transition color: MISSING on build (1 event(s) on live, 0ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "height",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition height: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 200ms",
+      "line": "motion transition opacity: parity (2 event(s) on live, 2 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "stroke-dashoffset",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition stroke-dashoffset: parity (2 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "7 event(s) on live, 4 on build, 400ms",
+      "line": "motion transition transform: parity (7 event(s) on live, 4 on build, 400ms)"
+    },
+    {
+      "cls": "class",
+      "name": "generic-navbar--fixed",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class generic-navbar--fixed: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-accordion-item--active",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vfz-accordion-item--active: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-active",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-active: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-from",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-from: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-height-transition__slide-enter-to",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vfz-height-transition__slide-enter-to: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-interactions-item--slideout",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vfz-interactions-item--slideout: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vfz-navbar-container--fixed",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class vfz-navbar-container--fixed: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "z-product-card--animate",
+      "state": "missing",
+      "note": "trigger class added 6× on live, never on build",
+      "line": "motion class z-product-card--animate: MISSING on build (trigger class added 6× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "z-product-card--selected",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class z-product-card--selected: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "z-product-card-group--is-loading",
+      "state": "missing",
+      "note": "trigger class added 6× on live, never on build",
+      "line": "motion class z-product-card-group--is-loading: MISSING on build (trigger class added 6× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-animating",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-animating: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-selected",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-selected: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-sliding",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-sliding: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "site-header--fixed",
+      "state": "advisory",
+      "note": "added 3× on build, never on live — check it drives no invented behavior",
+      "line": "motion class site-header--fixed: extra on build — advisory (added 3× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

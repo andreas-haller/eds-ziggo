@@ -1,0 +1,76 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/pixel-pub1.json",
+    "pct": 30.38,
+    "alignedPct": 30.32,
+    "alignedUsed": true,
+    "totalShift": 611,
+    "steps": [
+      {
+        "y": 14315,
+        "shift": 364,
+        "cumulative": 364
+      },
+      {
+        "y": 15841,
+        "shift": -40,
+        "cumulative": 324
+      },
+      {
+        "y": 16013,
+        "shift": 63,
+        "cumulative": 387
+      },
+      {
+        "y": 16247,
+        "shift": 144,
+        "cumulative": 531
+      }
+    ],
+    "offsetBound": 162,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 30.32% (unaligned 30.38%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:11:04.925Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/units-pub1.txt"
+    }
+  },
+  "structural": 134,
+  "nothingLost": 36,
+  "at": "2026-11-25T22:15:05.131Z"
+}

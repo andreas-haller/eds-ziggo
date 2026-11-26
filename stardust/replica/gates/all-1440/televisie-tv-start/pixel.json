@@ -1,0 +1,215 @@
+{
+  "a": "stardust/replica/gates/all-1440/televisie-tv-start/origin.png",
+  "b": "stardust/replica/gates/all-1440/televisie-tv-start/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2722,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 61480,
+  "pct": 1.57,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/televisie-tv-start/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9,
+  "textBoxes": 118,
+  "textPixels": 242097,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.1
+    },
+    {
+      "y0": 2500,
+      "y1": 2722,
+      "pct": 1.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.88,
+    "differingPixels": 34382,
+    "compared": {
+      "width": 1440,
+      "height": 2724,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1493,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2059,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 2537,
+        "shift": 1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 3,
+    "insertedRows": 1,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 2500,
+        "y1": 2723,
+        "pct": 0.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/televisie-tv-start/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 27,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start",
+      "source": "https://www.ziggo.nl/televisie/tv-start",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "49937a90bc53aba3",
+      "reference": "c77f0d494dbdad67",
+      "archetype": "764da0eb0721a599",
+      "captures": "23a62788ae140ad4",
+      "instruments": "700566dc6f7774a4",
+      "page content": "3fb97d980e79ed47",
+      "shared code": "933bef04481b01be",
+      "block address-checker": "f5957a2c73f45487",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block bundle-builder": "89f495a4e1f1d0c1",
+      "block contact-band": "d6ef2a11a0e4b704",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 4,
+          "textNodes": 102,
+          "controls": 78,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 5,
+          "textNodes": 119,
+          "controls": 84,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:01:20.680Z"
+  }
+}

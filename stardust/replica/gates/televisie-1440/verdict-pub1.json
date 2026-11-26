@@ -1,0 +1,96 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-1440/pixel-pub1.json",
+    "pct": 9.45,
+    "alignedPct": 2.61,
+    "alignedUsed": true,
+    "totalShift": 90,
+    "steps": [
+      {
+        "y": 1017,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 1141,
+        "shift": -1,
+        "cumulative": -8
+      },
+      {
+        "y": 1582,
+        "shift": 8,
+        "cumulative": 0
+      },
+      {
+        "y": 5037,
+        "shift": 51,
+        "cumulative": 51
+      },
+      {
+        "y": 5606,
+        "shift": 18,
+        "cumulative": 69
+      },
+      {
+        "y": 6530,
+        "shift": -3,
+        "cumulative": 66
+      },
+      {
+        "y": 8214,
+        "shift": 1,
+        "cumulative": 67
+      },
+      {
+        "y": 9179,
+        "shift": 1,
+        "cumulative": 68
+      }
+    ],
+    "offsetBound": 93,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T20:38:42.084Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-1440/units-pub1.txt"
+    }
+  },
+  "structural": 172,
+  "nothingLost": 0,
+  "at": "2026-11-25T20:43:11.256Z"
+}

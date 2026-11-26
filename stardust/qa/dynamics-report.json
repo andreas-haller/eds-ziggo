@@ -1,0 +1,130 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-26T05:11:37.998Z",
+  "origin": "https://main--50ca44c6--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menu Producten + flyouts",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × header [aria-haspopup=\"true\"] (min 1)",
+   "thirdParty": "",
+   "ms": 4408,
+   "environmentLimit": null
+  },
+  {
+   "feature": "mobile header drawer Menu",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "24 × header [aria-expanded] (min 2)",
+   "thirdParty": "",
+   "ms": 2546,
+   "environmentLimit": null
+  },
+  {
+   "feature": "accordions / disclosure",
+   "id": "m-modal-trigger-aria-haspopup",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "11 × main details, main [aria-expanded] (min 1)",
+   "thirdParty": "",
+   "ms": 3647,
+   "environmentLimit": null
+  },
+  {
+   "feature": "hydrated sections, settled DOM",
+   "id": "cr-client-framework-vue",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 33 page(s)",
+   "thirdParty": "",
+   "ms": 90014,
+   "environmentLimit": null
+  },
+  {
+   "feature": "streaming showreel video players (scene7 viewer)",
+   "id": "v-video-vimeo",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 30 (ok)",
+   "thirdParty": "vodafoneziggo.scene7.com:200×24 :200×3 s7mbrstream-g1.scene7.com:200×2 s7mbrstream-g1.scene7.com:206×4",
+   "ms": 6346,
+   "environmentLimit": null
+  },
+  {
+   "feature": "zenderoverzicht channel list filter",
+   "id": "s-site-search-form",
+   "class": "S",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "422 × .channel-overview li (min 20)",
+   "thirdParty": "",
+   "ms": 2724,
+   "environmentLimit": null
+  },
+  {
+   "feature": "postcode + huisnummer checker",
+   "id": "f-form-address-checker",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × form.addr-form input (min 2)",
+   "thirdParty": "",
+   "ms": 2389,
+   "environmentLimit": null
+  },
+  {
+   "feature": "toptask tiles, carousel, swimming lanes",
+   "id": "l-listing-candidates",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "118 × .toptask-tiles a, .swimming-lane a (min 3)",
+   "thirdParty": "",
+   "ms": 2357,
+   "environmentLimit": null
+  },
+  {
+   "feature": "bundle builder control group",
+   "id": "f-form-less-control-group-sticky",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .bundle-builder (min 1)",
+   "thirdParty": "",
+   "ms": 2374,
+   "environmentLimit": null
+  },
+  {
+   "feature": "scene7 images",
+   "id": "v-scene7-media",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "246 × main picture img (min 3)",
+   "thirdParty": "",
+   "ms": 2489,
+   "environmentLimit": null
+  }
+ ]
+}

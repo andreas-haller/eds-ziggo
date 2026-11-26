@@ -1,0 +1,15 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten (live side from cache stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/chrome-live.json, probed 2026-11-25T21:03:29.759Z — delete the file to re-probe)
+  build: https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 1440×112; selector body > header
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,7721 1440×581; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,7663 1440×582; selector body > footer
+  advisory     REGION OFFSET: page Δy -58px (7721→7663) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✓ chrome parity within tolerance, 2 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

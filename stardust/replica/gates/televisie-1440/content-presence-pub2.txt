@@ -1,0 +1,52 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 697 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie (docH 9284, 247 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie (docH 9284, 234 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 1/1 | 0/0 | 1/1 | 0/1 | - |
+| 1 | ontdek tv & streaming | 6/6 | 0/0 | 2/2 | 0/0 | - |
+| 2 | tv & streaming op één plek | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 3 | standaard in je pakket | 4/4 | 0/0 | 0/0 | 4/4 | - |
+| 4 | 70+ digitale zenders | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | ziggo sport & espn | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | ziggo go | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 7 | priority | 4/4 | 0/0 | 4/4 | 0/0 | - |
+| 8 | boordevol extra kijkplezier | 2/2 | 0/0 | 0/0 | 2/2 | - |
+| 9 | extra zenders | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | streamingdiensten | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 11 | beste tv-signaal | 0/0 | 0/0 | 2/2 | 1/1 | - |
+| 12 | ontdek deze gave mogelijkheden | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 13 | vind razendsnel wat je wil zien | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 14 | maak elke kijkervaring nog persoonlijker | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 15 | kijk waar en wanneer je wilt | 1/1 | 0/0 | 2/2 | 0/0 | - |
+| 16 | de mogelijkheden op een rijtje | 8/0 | 0/0 | 1/9 | 8/8 | MISSING LINK, COUNT TEXT |
+| 17 | de kleine, slimme en energiezuinige next | 3/1 | 0/0 | 1/1 | 2/2 | - |
+| 18 | ook met de next | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 19 | voor je extra tv | 2/2 | 0/0 | 3/3 | 0/0 | - |
+| 20 | bekijk en beheer je pakket | 4/4 | 16/0 | 11/27 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 21 | beleef het beste entertainment voor jou | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 22 | standaard in je abonnement | 9/9 | 0/0 | 4/4 | 4/4 | - |
+| 23 | veelgestelde vragen | 0/0 | 8/8 | 0/0 | 0/0 | - |
+  🔴 MISSING LINK: "makkelijk zoeken" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "voice control" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "kijkprofielen" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "ziggo go" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "live-tv pauzeren" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "terugkijken" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "opnemen" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🔴 MISSING LINK: "4k uhd-beeld" → /televisie in band "de mogelijkheden op een rijtje" (origin y 4522) not on the served page
+  🟠 MISSING BUTTON: ×2 "70+ zenders" in band "bekijk en beheer je pakket" (origin y 6693) not on the served page
+  🟠 MISSING BUTTON: ×2 "ziggo sport" in band "bekijk en beheer je pakket" (origin y 6733) not on the served page
+  🟠 MISSING BUTTON: ×3 "espn" in band "bekijk en beheer je pakket" (origin y 6773) not on the served page
+  🟠 MISSING BUTTON: ×3 "terugkijken: 7 dagen" in band "bekijk en beheer je pakket" (origin y 6813) not on the served page
+  🟠 MISSING BUTTON: ×2 "opnemen" in band "bekijk en beheer je pakket" (origin y 6845) not on the served page
+  🟠 MISSING BUTTON: "movies & series" in band "bekijk en beheer je pakket" (origin y 6885) not on the served page
+  🟠 MISSING BUTTON: "110+ zenders" in band "bekijk en beheer je pakket" (origin y 6685) not on the served page
+  🟠 MISSING BUTTON: "ziggo sport totaal" in band "bekijk en beheer je pakket" (origin y 6725) not on the served page
+  🟠 MISSING BUTTON: "skyshowtime" in band "bekijk en beheer je pakket" (origin y 6885) not on the served page
+  🟡 COUNT TEXT: band "de mogelijkheden op een rijtje": 1 origin → 9 served visible
+  🟡 COUNT TEXT: band "bekijk en beheer je pakket": 11 origin → 27 served visible
+Content: MISSING 8 (headings 0, links 8) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 16 hidden 0 / moved 0 extra 0 / count deltas 2
+Findings: 19 (8 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-1440/content-presence-pub2.json

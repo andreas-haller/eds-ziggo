@@ -1,0 +1,116 @@
+{
+  "round": "pub3",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/pixel-pub3.json",
+    "pct": 28.1,
+    "alignedPct": 11.58,
+    "alignedUsed": true,
+    "totalShift": 573,
+    "steps": [
+      {
+        "y": 2010,
+        "shift": 38,
+        "cumulative": 38
+      },
+      {
+        "y": 2772,
+        "shift": 44,
+        "cumulative": 82
+      },
+      {
+        "y": 2981,
+        "shift": 56,
+        "cumulative": 138
+      },
+      {
+        "y": 3317,
+        "shift": 4,
+        "cumulative": 142
+      },
+      {
+        "y": 3473,
+        "shift": 2,
+        "cumulative": 144
+      },
+      {
+        "y": 3629,
+        "shift": 2,
+        "cumulative": 146
+      },
+      {
+        "y": 4100,
+        "shift": 8,
+        "cumulative": 154
+      },
+      {
+        "y": 4877,
+        "shift": 8,
+        "cumulative": 162
+      },
+      {
+        "y": 5253,
+        "shift": 49,
+        "cumulative": 211
+      },
+      {
+        "y": 5436,
+        "shift": 18,
+        "cumulative": 229
+      },
+      {
+        "y": 6349,
+        "shift": 24,
+        "cumulative": 253
+      },
+      {
+        "y": 6749,
+        "shift": 28,
+        "cumulative": 281
+      }
+    ],
+    "offsetBound": 162,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 11.58% (unaligned 28.1%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:11:04.925Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-360/units-pub3.txt"
+    }
+  },
+  "structural": 134,
+  "nothingLost": 36,
+  "at": "2026-11-25T22:48:00.895Z"
+}

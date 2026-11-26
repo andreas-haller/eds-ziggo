@@ -1,0 +1,186 @@
+{
+  "a": "stardust/replica/gates/televisie-kijkprofielen-1440/live.png",
+  "b": "stardust/replica/gates/televisie-kijkprofielen-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 5301,
+    "mode": "overlap"
+  },
+  "heightDelta": 543,
+  "differingPixels": 2949387,
+  "pct": 38.64,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-kijkprofielen-1440/diff-pub3.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 30.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 45.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 48.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 39.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 33.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 31
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 50.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 78
+    },
+    {
+      "y0": 5000,
+      "y1": 5301,
+      "pct": 79.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 38.49,
+    "differingPixels": 3239003,
+    "compared": {
+      "width": 1440,
+      "height": 5844,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4876,
+        "shift": -400,
+        "cumulative": -400
+      },
+      {
+        "y": 5701,
+        "shift": -143,
+        "cumulative": -543
+      }
+    ],
+    "maxOffset": 543,
+    "totalShift": 543,
+    "insertedRows": 0,
+    "deletedRows": 543,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.4,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 30.7,
+        "unaligned": 30.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 45.1,
+        "unaligned": 45.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 48.9,
+        "unaligned": 48.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 39.8,
+        "unaligned": 39.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 33.2,
+        "unaligned": 33.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 31,
+        "unaligned": 31
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 50.8,
+        "unaligned": 50.8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 80.1,
+        "unaligned": 78
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 56.2,
+        "unaligned": null
+      },
+      {
+        "y0": 5500,
+        "y1": 5844,
+        "pct": 43.7,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-kijkprofielen-1440/diff-pub3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 58,
+    "totalShift": 543,
+    "pass": false
+  },
+  "reason": "pixel aligned 38.49% (unaligned 38.64%) > 10%"
+}

@@ -1,0 +1,1509 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 814 ms
+[live-session] denial-page check skipped at https://www.ziggo.nl/televisie/zenderoverzicht: denial-page probe: deadline 10000 ms exceeded
+unit-geometry @ 360px, tol 4px — https://www.ziggo.nl/televisie/zenderoverzicht vs http://localhost:8791/televisie-zenderoverzicht-proposed.html
+unit 1 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,969 340×124 vs served 10,969 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal001#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo 1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "001" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo 1" | 104,50 43×26 | 104,50 43×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1095 340×124 vs served 10,1095 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal002#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo 2" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "002" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo 2" | 104,50 45×26 | 104,50 45×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1222 340×124 vs served 10,1222 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal003#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo 3" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "003" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo 3" | 104,50 45×26 | 104,50 45×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1348 340×124 vs served 10,1348 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal004#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl 4" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "004" | 104,24 29×26 | 104,24 29×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl 4" | 104,50 41×26 | 104,50 41×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1474 340×124 vs served 10,1474 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal005#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl 5" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "005" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl 5" | 104,50 40×26 | 104,50 40×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1601 340×124 vs served 10,1601 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal006#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van sbs6" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "006" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "sbs6" | 104,50 38×26 | 104,50 38×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1727 340×124 vs served 10,1727 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal007#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl 7" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "007" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl 7" | 104,50 40×26 | 104,50 40×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1854 340×124 vs served 10,1854 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal008#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van veronica / disney jr." | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "008" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "veronica / disney jr." | 104,50 146×26 | 104,50 146×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,1980 340×124 vs served 10,1980 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal009#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van net5" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "009" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "net5" | 104,50 35×26 | 104,50 35×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 10 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2106 340×124 vs served 10,2106 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal010#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl 8" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "010" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl 8" | 104,50 41×26 | 104,50 41×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 11 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2233 340×124 vs served 10,2233 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal011#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van star channel" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "011" | 104,24 21×26 | 104,24 21×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "star channel" | 104,50 102×26 | 104,50 102×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 12 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2359 340×124 vs served 10,2359 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal012#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl z" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "012" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl z" | 104,50 41×26 | 104,50 41×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 13 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2485 340×124 vs served 10,2485 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal013#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van viaplay tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "013" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "viaplay tv" | 104,50 80×26 | 104,50 80×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 14 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2612 340×124 vs served 10,2612 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal014#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "014" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 1" | 104,50 95×26 | 104,50 95×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 15 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2738 340×124 vs served 10,2738 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal015#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van comedy central" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "015" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "comedy central" | 104,50 119×26 | 104,50 119×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 16 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2865 340×124 vs served 10,2865 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal016#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van paramount network" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "016" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "paramount network" | 104,50 148×26 | 104,50 148×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 17 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,2991 340×124 vs served 10,2991 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal017#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van discovery" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "017" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "discovery" | 104,50 72×26 | 104,50 72×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 18 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3117 340×124 vs served 10,3117 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal018#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "018" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn" | 104,50 40×26 | 104,50 40×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 19 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3244 340×124 vs served 10,3244 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal019#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van sbs9" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "019" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "sbs9" | 104,50 38×26 | 104,50 38×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 20 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3370 340×124 vs served 10,3370 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal020#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van id" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "020" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "id" | 104,50 16×26 | 104,50 16×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 21 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3496 340×124 vs served 10,3496 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal021#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tlc" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "021" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tlc" | 104,50 29×26 | 104,50 29×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 22 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3623 340×124 vs served 10,3623 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal022#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van bbc nl" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "022" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "bbc nl" | 104,50 54×26 | 104,50 54×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 23 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3749 340×124 vs served 10,3749 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal023#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van mtv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "023" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "mtv" | 104,50 35×26 | 104,50 35×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 24 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,3876 340×124 vs served 10,3876 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal024#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van 24 kitchen" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "024" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "24 kitchen" | 104,50 78×26 | 104,50 78×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 25 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4002 340×124 vs served 10,4002 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal025#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van eurosport 1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "025" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "eurosport 1" | 104,50 82×26 | 104,50 82×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 26 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4128 340×124 vs served 10,4128 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal026#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van hgtv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "026" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "hgtv" | 104,50 43×26 | 104,50 43×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 27 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4255 340×124 vs served 10,4255 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal027#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van national geographic" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "027" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "national geographic" | 104,50 152×26 | 104,50 152×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 28 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4381 340×124 vs served 10,4381 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal028#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van history" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "028" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "history" | 104,50 66×26 | 104,50 66×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 29 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4507 340×124 vs served 10,4507 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal029#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van nickelodeon" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "029" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "nickelodeon" | 104,50 91×26 | 104,50 91×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 30 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4634 340×124 vs served 10,4634 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal050#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ons" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "050" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ons" | 104,50 33×26 | 104,50 33×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 31 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4760 340×124 vs served 10,4760 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal051#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van vrt1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "051" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "vrt1" | 104,50 37×26 | 104,50 37×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 32 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,4887 340×124 vs served 10,4887 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal052#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van vrt canvas" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "052" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "vrt canvas" | 104,50 87×26 | 104,50 87×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 33 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5013 340×124 vs served 10,5013 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal053#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ketnet" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "053" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ketnet" | 104,50 49×26 | 104,50 49×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 34 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5139 340×124 vs served 10,5139 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal054#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ard" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "054" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ard" | 104,50 32×26 | 104,50 32×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 35 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5266 340×124 vs served 10,5266 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal055#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van zdf" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "055" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "zdf" | 104,50 30×26 | 104,50 30×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 36 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5392 340×124 vs served 10,5392 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal056#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van wdr" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "056" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "wdr" | 104,50 36×26 | 104,50 36×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 37 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5518 340×124 vs served 10,5518 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal057#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ndr" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "057" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ndr" | 104,50 33×26 | 104,50 33×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 38 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5645 340×124 vs served 10,5645 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal058#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "058" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl" | 104,50 29×26 | 104,50 29×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 39 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5771 340×124 vs served 10,5771 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal059#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van sat.1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "059" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "sat.1" | 104,50 36×26 | 104,50 36×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 40 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,5898 340×124 vs served 10,5898 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal061#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van bbc one" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "061" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "bbc one" | 104,50 64×26 | 104,50 64×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 41 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6024 340×124 vs served 10,6024 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal062#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van bbc two" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "062" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "bbc two" | 104,50 64×26 | 104,50 64×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 42 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6150 340×124 vs served 10,6150 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal071#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tv5monde" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "071" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tv5monde" | 104,50 87×26 | 104,50 87×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 43 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6277 340×124 vs served 10,6277 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal072#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van arte" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "072" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "arte" | 104,50 33×26 | 104,50 33×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 44 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6403 340×124 vs served 10,6403 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal073#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tve" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "073" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tve" | 104,50 30×26 | 104,50 30×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 45 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6529 340×124 vs served 10,6529 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal074#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van mediaset italia" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "074" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "mediaset italia" | 104,50 110×26 | 104,50 110×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 46 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6656 340×124 vs served 10,6656 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal075#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtv-7" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "075" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtv-7" | 104,50 43×26 | 104,50 43×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 47 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6782 340×124 vs served 10,6782 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal076#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van trt türk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "076" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "trt türk" | 104,50 65×26 | 104,50 65×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 48 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,6909 340×124 vs served 10,6909 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal077#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van 2m" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "077" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "2m" | 104,50 23×26 | 104,50 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 49 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7035 340×124 vs served 10,7035 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal080#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van njam!" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "080" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "njam!" | 104,50 42×26 | 104,50 42×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 50 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7161 340×124 vs served 10,7161 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal081#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo 1 extra" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "081" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo 1 extra" | 104,50 84×26 | 104,50 84×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 51 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7288 340×124 vs served 10,7288 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal082#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo 2 extra" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "082" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo 2 extra" | 104,50 87×26 | 104,50 87×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 52 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7414 340×124 vs served 10,7414 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal083#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo politiek en nieuws" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "083" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo politiek en nieuws" | 104,50 167×26 | 104,50 167×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 53 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7540 340×124 vs served 10,7540 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal100#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van filmbox" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "100" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "filmbox" | 104,50 59×26 | 104,50 59×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 54 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7667 340×124 vs served 10,7667 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal101#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van film1 premiere" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "101" | 104,24 21×26 | 104,24 21×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "film1 premiere" | 104,50 107×26 | 104,50 107×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "film1" | 104,75 32×25 | 104,75 32×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 55 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7793 340×124 vs served 10,7793 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal102#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van film1 action" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "102" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "film1 action" | 104,50 90×26 | 104,50 90×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "film1" | 104,75 32×25 | 104,75 32×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 56 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,7920 340×124 vs served 10,7920 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal103#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van film1 family" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "103" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "film1 family" | 104,50 90×26 | 104,50 90×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "film1" | 104,75 32×25 | 104,75 32×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 57 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8046 340×124 vs served 10,8046 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal104#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van film1 drama" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "104" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "film1 drama" | 104,50 91×26 | 104,50 91×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "film1" | 104,75 32×25 | 104,75 32×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 58 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8172 340×124 vs served 10,8172 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal120#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl crime" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "120" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl crime" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 59 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8299 340×124 vs served 10,8299 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal122#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van crime+investigation" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "122" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "crime+investigation" | 104,50 150×26 | 104,50 150×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 60 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8425 340×124 vs served 10,8425 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal123#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van xite" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "123" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "xite" | 104,50 34×26 | 104,50 34×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 61 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8551 340×124 vs served 10,8551 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal125#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van shorts tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "125" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "shorts tv" | 104,50 72×26 | 104,50 72×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 62 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8678 340×124 vs served 10,8678 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal126#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van e!" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "126" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "e!" | 104,50 14×26 | 104,50 14×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 63 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8804 340×150 vs served 10,8804 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal129#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van outtv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "129" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "outtv" | 104,50 47×26 | 104,50 47×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 83×50 | 104,75 83×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 187,75 3×50 | 187,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "gay lifestyle" | 194,75 70×50 | 194,75 70×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 64 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,8956 340×124 vs served 10,8956 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal133#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van fashion tv hd" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "133" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "fashion tv hd" | 104,50 106×26 | 104,50 106×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 65 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9082 340×124 vs served 10,9082 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal134#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van myzen tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "134" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "myzen tv" | 104,50 72×26 | 104,50 72×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 66 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9209 340×124 vs served 10,9209 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal136#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van horse & country tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "136" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "horse & country tv" | 104,50 142×26 | 104,50 142×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 67 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9335 340×124 vs served 10,9335 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal140#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl lounge" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "140" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl lounge" | 104,50 86×26 | 104,50 86×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 68 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9461 340×141 vs served 10,9461 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal150#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van netflix" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "150" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "netflix" | 104,50 50×26 | 104,50 50×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 69 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9604 340×141 vs served 10,9604 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal151#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van videoland" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "151" | 104,24 20×26 | 104,24 20×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "videoland" | 104,50 75×26 | 104,50 75×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 70 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9747 340×141 vs served 10,9747 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal152#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van npo start" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "152" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "npo start" | 104,50 74×26 | 104,50 74×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 71 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,9890 340×141 vs served 10,9890 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal153#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van prime video" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "153" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "prime video" | 104,50 89×26 | 104,50 89×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 72 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10032 340×141 vs served 10,10032 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal154#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van viaplay" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "154" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "viaplay" | 104,50 57×26 | 104,50 57×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 73 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10175 340×141 vs served 10,10175 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal155#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van disney+" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "155" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "disney+" | 104,50 58×26 | 104,50 58×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 74 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10318 340×141 vs served 10,10318 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal156#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van hbo max" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "156" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "hbo max" | 104,50 68×26 | 104,50 68×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 75 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10461 340×141 vs served 10,10461 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal157#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van skyshowtime" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "157" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "skyshowtime" | 104,50 100×26 | 104,50 100×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 76 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10604 340×141 vs served 10,10604 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal158#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van canal+" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "158" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "canal+" | 104,50 62×26 | 104,50 62×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 77 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10746 340×141 vs served 10,10746 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal159#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van apple tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "159" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "apple tv" | 104,50 67×26 | 104,50 67×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 78 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,10889 340×141 vs served 10,10889 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal160#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van nos" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "160" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "nos" | 104,50 33×26 | 104,50 33×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 79 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11032 340×124 vs served 10,11032 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal161#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van xite-app" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "161" | 104,24 20×26 | 104,24 20×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "xite-app" | 104,50 69×26 | 104,50 69×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 80 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11158 340×141 vs served 10,11158 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal162#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van kijk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "162" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "kijk" | 104,50 31×26 | 104,50 31×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 81 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11301 340×124 vs served 10,11301 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal201#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van curiosity channel" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "201" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "curiosity channel" | 104,50 130×26 | 104,50 130×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 82 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11427 340×124 vs served 10,11427 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal202#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van discovery science" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "202" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "discovery science" | 104,50 132×26 | 104,50 132×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 83 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11554 340×124 vs served 10,11554 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal204#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van national geographic wild" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "204" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "national geographic wild" | 104,50 194×26 | 104,50 194×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 84 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11680 340×124 vs served 10,11680 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal205#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van love nature" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "205" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "love nature" | 104,50 89×26 | 104,50 89×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 85 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11807 340×124 vs served 10,11807 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal208#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van animal planet" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "208" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "animal planet" | 104,50 103×26 | 104,50 103×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 86 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,11933 340×124 vs served 10,11933 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal230#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van family7" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "230" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "family7" | 104,50 58×26 | 104,50 58×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 87 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12059 340×124 vs served 10,12059 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal301#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van dreamworks" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "301" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "dreamworks" | 104,50 94×26 | 104,50 94×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 88 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12186 340×124 vs served 10,12186 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal302#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van disney channel" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "302" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "disney channel" | 104,50 113×26 | 104,50 113×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 89 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12312 340×150 vs served 10,12312 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal303#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van nicktoons" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "303" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "nicktoons" | 104,50 74×26 | 104,50 74×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo kids" | 104,75 62×50 | 104,75 62×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 166,75 3×50 | 166,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 172,75 92×50 | 172,75 92×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 90 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12464 340×150 vs served 10,12464 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal305#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van moonbug" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "305" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "moonbug" | 104,50 70×26 | 104,50 70×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 91×50 | 104,75 91×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 195,75 3×50 | 195,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo kids" | 202,75 62×50 | 202,75 62×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 91 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12615 340×150 vs served 10,12615 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal306#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van nick jr." | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "306" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "nick jr." | 104,50 52×26 | 104,50 52×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 91×50 | 104,75 91×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 195,75 3×50 | 195,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo kids" | 202,75 62×50 | 202,75 62×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 92 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12767 340×124 vs served 10,12767 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal307#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van cartoon network" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "307" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "cartoon network" | 104,50 126×26 | 104,50 126×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 93 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,12893 340×124 vs served 10,12893 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal309#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van cartoonito" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "309" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "cartoonito" | 104,50 80×26 | 104,50 80×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 94 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13019 340×150 vs served 10,13019 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal310#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van babytv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "310" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "babytv" | 104,50 58×26 | 104,50 58×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo kids" | 104,75 62×50 | 104,75 62×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 166,75 3×50 | 166,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 172,75 92×50 | 172,75 92×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 95 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13171 340×124 vs served 10,13171 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal311#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ducktv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "311" | 104,24 20×26 | 104,24 20×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ducktv" | 104,50 51×26 | 104,50 51×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 96 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13297 340×124 vs served 10,13297 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal312#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtl telekids" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "312" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtl telekids" | 104,50 91×26 | 104,50 91×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 97 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13424 340×150 vs served 10,13424 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal400#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport extra" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "400" | 104,24 29×26 | 104,24 29×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport extra" | 104,50 128×26 | 104,50 128×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 105×50 | 104,75 105×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 209,75 3×50 | 209,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 216,75 48×50 | 216,75 48×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 98 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13575 340×124 vs served 10,13575 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal401#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 1" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "401" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 1" | 104,50 95×26 | 104,50 95×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 99 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13702 340×124 vs served 10,13702 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal402#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 2" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "402" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 2" | 104,50 98×26 | 104,50 98×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 100 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13828 340×124 vs served 10,13828 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal403#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 3" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "403" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 3" | 104,50 97×26 | 104,50 97×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 101 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,13954 340×124 vs served 10,13954 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal404#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 4" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "404" | 104,24 29×26 | 104,24 29×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 4" | 104,50 98×26 | 104,50 98×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 102 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14081 340×124 vs served 10,14081 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal405#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 5" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "405" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 5" | 104,50 97×26 | 104,50 97×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 103 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14207 340×124 vs served 10,14207 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal406#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo sport 6" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "406" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo sport 6" | 104,50 97×26 | 104,50 97×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport totaal" | 104,75 116×25 | 104,75 116×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 104 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14334 340×124 vs served 10,14334 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal411#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van eurosport 2" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "411" | 104,24 21×26 | 104,24 21×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "eurosport 2" | 104,50 85×26 | 104,50 85×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 105 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14460 340×124 vs served 10,14460 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal421#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "421" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn" | 104,50 40×26 | 104,50 40×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 106 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14586 340×124 vs served 10,14586 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal422#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 2" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "422" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 2" | 104,50 52×26 | 104,50 52×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 107 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14713 340×124 vs served 10,14713 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal423#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 3" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "423" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 3" | 104,50 52×26 | 104,50 52×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 108 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14839 340×124 vs served 10,14839 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal424#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 4" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "424" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 4" | 104,50 53×26 | 104,50 53×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 109 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,14965 340×124 vs served 10,14965 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal425#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn uhd" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "425" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn uhd" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "espn premium" | 104,75 94×25 | 104,75 94×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 110 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15092 340×124 vs served 10,15092 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal426#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 2 uhd" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "426" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 2 uhd" | 104,50 88×26 | 104,50 88×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "espn premium" | 104,75 94×25 | 104,75 94×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 111 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15218 340×124 vs served 10,15218 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal427#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 3 uhd" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "427" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 3 uhd" | 104,50 88×26 | 104,50 88×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "espn premium" | 104,75 94×25 | 104,75 94×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 112 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15345 340×124 vs served 10,15345 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal428#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van espn 4 uhd" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "428" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "espn 4 uhd" | 104,50 89×26 | 104,50 89×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "espn premium" | 104,75 94×25 | 104,75 94×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 113 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15471 340×124 vs served 10,15471 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal431#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van viaplay tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "431" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "viaplay tv" | 104,50 80×26 | 104,50 80×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 114 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15597 340×141 vs served 10,15597 340×141 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal432#1" | 0,0 340×141 | 0,0 340×141 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van viaplay tv+" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "432" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "viaplay tv+" | 104,50 89×26 | 104,50 89×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "abonnementsdienst" | 104,75 145×26 | 104,75 145×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 115 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15740 340×124 vs served 10,15740 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal503#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van cnn" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "503" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "cnn" | 104,50 34×26 | 104,50 34×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 116 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15867 340×124 vs served 10,15867 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal504#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van bbc news" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "504" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "bbc news" | 104,50 74×26 | 104,50 74×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 117 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,15993 340×124 vs served 10,15993 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal505#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van euronews" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "505" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "euronews" | 104,50 71×26 | 104,50 71×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 180,75 3×25 | 180,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 187,75 53×25 | 187,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 118 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16119 340×124 vs served 10,16119 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal506#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van aljazeera english" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "506" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "aljazeera english" | 104,50 125×26 | 104,50 125×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 119 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16246 340×124 vs served 10,16246 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal507#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van cnbc europe" | 20,17 72×40 | 20,17 72×40 | 0 | 0 | 0 | 0 | ✓ |
+| text "507" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "cnbc europe" | 104,50 98×26 | 104,50 98×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 120 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16372 340×124 vs served 10,16372 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal538#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tv538" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "538" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tv538" | 104,50 47×26 | 104,50 47×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 121 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16498 340×124 vs served 10,16498 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal601#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van top40 tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "601" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "top40 tv" | 104,50 74×26 | 104,50 74×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 122 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16625 340×124 vs served 10,16625 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal604#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van slam! tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "604" | 104,24 28×26 | 104,24 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "slam! tv" | 104,50 71×26 | 104,50 71×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 123 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16751 340×124 vs served 10,16751 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal605#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van dancetelevision" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "605" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "dancetelevision" | 104,50 117×26 | 104,50 117×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 124 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,16878 340×124 vs served 10,16878 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal606#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van stingray litetv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "606" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "stingray litetv" | 104,50 113×26 | 104,50 113×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 125 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17004 340×124 vs served 10,17004 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal608#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van 100% nl tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "608" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "100% nl tv" | 104,50 86×26 | 104,50 86×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 126 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17130 340×124 vs served 10,17130 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal609#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tv oranje" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "609" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tv oranje" | 104,50 73×26 | 104,50 73×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 127 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17257 340×124 vs served 10,17257 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal610#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van 192tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "610" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "192tv" | 104,50 46×26 | 104,50 46×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 128 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17383 340×124 vs served 10,17383 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal611#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van stingray djazz" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "611" | 104,24 20×26 | 104,24 20×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "stingray djazz" | 104,50 113×26 | 104,50 113×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 129 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17509 340×124 vs served 10,17509 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal612#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van mezzo" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "612" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "mezzo" | 104,50 47×26 | 104,50 47×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 130 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17636 340×124 vs served 10,17636 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal613#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van stingray classica" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "613" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "stingray classica" | 104,50 127×26 | 104,50 127×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 131 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17762 340×124 vs served 10,17762 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal701#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtv noord" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "701" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtv noord" | 104,50 79×26 | 104,50 79×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 132 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,17889 340×124 vs served 10,17889 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal702#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van omrop fryslân" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "702" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "omrop fryslân" | 104,50 108×26 | 104,50 108×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 133 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18015 340×124 vs served 10,18015 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal703#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtv drenthe" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "703" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtv drenthe" | 104,50 93×26 | 104,50 93×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 134 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18141 340×124 vs served 10,18141 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal704#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van oost" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "704" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "oost" | 104,50 35×26 | 104,50 35×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 135 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18268 340×124 vs served 10,18268 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal705#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van omroep gelderland" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "705" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "omroep gelderland" | 104,50 144×26 | 104,50 144×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 136 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18394 340×124 vs served 10,18394 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal706#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van omroep flevoland" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "706" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "omroep flevoland" | 104,50 134×26 | 104,50 134×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 137 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18520 340×124 vs served 10,18520 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal707#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van nh" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "707" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "nh" | 104,50 23×26 | 104,50 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 138 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18647 340×124 vs served 10,18647 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal708#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtv utrecht" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "708" | 104,24 27×26 | 104,24 27×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtv utrecht" | 104,50 89×26 | 104,50 89×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 139 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18773 340×124 vs served 10,18773 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal709#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tv west" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "709" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tv west" | 104,50 61×26 | 104,50 61×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 140 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,18900 340×124 vs served 10,18900 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal710#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van rtv rijnmond" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "710" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rtv rijnmond" | 104,50 103×26 | 104,50 103×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 141 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19026 340×124 vs served 10,19026 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal711#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van omroep zeeland" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "711" | 104,24 20×26 | 104,24 20×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "omroep zeeland" | 104,50 122×26 | 104,50 122×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 142 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19152 340×124 vs served 10,19152 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal712#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van omroep brabant" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "712" | 104,24 23×26 | 104,24 23×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "omroep brabant" | 104,50 123×26 | 104,50 123×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 143 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19279 340×124 vs served 10,19279 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal713#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van l1 tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "713" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "l1 tv" | 104,50 39×26 | 104,50 39×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 144 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19405 340×124 vs served 10,19405 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal725#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van at5" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "725" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "at5" | 104,50 28×26 | 104,50 28×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 145 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19531 340×124 vs served 10,19531 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal760#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van utsav plus" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "760" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "utsav plus" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 146 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19658 340×124 vs served 10,19658 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal761#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van utsav gold" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "761" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "utsav gold" | 104,50 80×26 | 104,50 80×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 147 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19784 340×124 vs served 10,19784 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal762#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van zee tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "762" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "zee tv" | 104,50 50×26 | 104,50 50×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 148 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,19911 340×124 vs served 10,19911 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal763#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van zee cinema" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "763" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "zee cinema" | 104,50 86×26 | 104,50 86×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 149 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20037 340×124 vs served 10,20037 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal764#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van zing" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "764" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "zing" | 104,50 32×26 | 104,50 32×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 150 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20163 340×124 vs served 10,20163 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal765#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van sony tv asia" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "765" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "sony tv asia" | 104,50 95×26 | 104,50 95×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 151 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20290 340×124 vs served 10,20290 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal766#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van sony max" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "766" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "sony max" | 104,50 71×26 | 104,50 71×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 152 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20416 340×124 vs served 10,20416 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal767#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van colors tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "767" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "colors tv" | 104,50 70×26 | 104,50 70×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "hindi" | 104,75 33×25 | 104,75 33×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 153 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20542 340×124 vs served 10,20542 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal770#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van showtürk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "770" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "showtürk" | 104,50 71×26 | 104,50 71×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 154 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20669 340×124 vs served 10,20669 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal771#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van euro d" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "771" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "euro d" | 104,50 48×26 | 104,50 48×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 155 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20795 340×124 vs served 10,20795 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal772#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van euro star" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "772" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "euro star" | 104,50 68×26 | 104,50 68×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 156 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,20922 340×124 vs served 10,20922 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal773#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van habertürk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "773" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "habertürk" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 157 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21048 340×124 vs served 10,21048 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal774#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van tv8 int." | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "774" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "tv8 int." | 104,50 58×26 | 104,50 58×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 158 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21174 340×124 vs served 10,21174 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal775#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van trt türk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "775" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "trt türk" | 104,50 65×26 | 104,50 65×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 159 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21301 340×124 vs served 10,21301 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal776#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van trt çocuk" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "776" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "trt çocuk" | 104,50 78×26 | 104,50 78×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 160 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21427 340×124 vs served 10,21427 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal777#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van atv avrupa" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "777" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "atv avrupa" | 104,50 87×26 | 104,50 87×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 161 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21553 340×124 vs served 10,21553 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal778#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van trt müzik" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "778" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "trt müzik" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "turks" | 104,75 34×25 | 104,75 34×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 162 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21680 340×124 vs served 10,21680 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal791#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van secret circle" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "791" | 104,24 22×26 | 104,24 22×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "secret circle" | 104,50 92×26 | 104,50 92×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 163 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21806 340×124 vs served 10,21806 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal792#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van penthouse gold" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "792" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "penthouse gold" | 104,50 114×26 | 104,50 114×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "erotiek" | 104,75 44×25 | 104,75 44×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 148,75 3×25 | 148,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 155,75 97×25 | 155,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 164 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,21933 340×124 vs served 10,21933 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal793#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van brazzers tv europe" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "793" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "brazzers tv europe" | 104,50 142×26 | 104,50 142×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "erotiek" | 104,75 44×25 | 104,75 44×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 165 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22059 340×124 vs served 10,22059 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal794#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van passiexxx" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "794" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "passiexxx" | 104,50 76×26 | 104,50 76×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "erotiek" | 104,75 44×25 | 104,75 44×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 166 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22185 340×124 vs served 10,22185 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal795#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van dorcel tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "795" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "dorcel tv" | 104,50 71×26 | 104,50 71×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "erotiek" | 104,75 44×25 | 104,75 44×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 167 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22312 340×124 vs served 10,22312 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal796#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van meiden van holland hard" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "796" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "meiden van holland hard" | 104,50 183×26 | 104,50 183×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "erotiek" | 104,75 44×25 | 104,75 44×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 168 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22438 340×124 vs served 10,22438 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal797#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van x-mo" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "797" | 104,24 24×26 | 104,24 24×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "x-mo" | 104,50 40×26 | 104,50 40×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "gay lifestyle" | 104,75 82×25 | 104,75 82×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 169 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22564 340×150 vs served 10,22564 340×150 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal798#1" | 0,0 340×150 | 0,0 340×150 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van outtv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "798" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "outtv" | 104,50 47×26 | 104,50 47×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "gay lifestyle" | 104,75 70×50 | 104,75 70×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 174,75 3×50 | 174,75 3×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 181,75 83×50 | 181,75 83×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 170 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22716 340×124 vs served 10,22716 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal799#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van playboy tv europe" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "799" | 104,24 25×26 | 104,24 25×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "playboy tv europe" | 104,50 138×26 | 104,50 138×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv zenders plus" | 104,75 97×25 | 104,75 97×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 171 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22842 340×124 vs served 10,22842 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal998#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van zenderoverzicht" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "998" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "zenderoverzicht" | 104,50 119×26 | 104,50 119×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 104,75 76×25 | 104,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 172 of channel-rows (required) .z-channel-overview-list__list > .z-channel-overview-list__channel=.zo-list > .zo-channel: origin 10,22969 340×124 vs served 10,22969 340×124 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "button:button#kanaal999#1" | 0,0 340×124 | 0,0 340×124 | 0 | 0 | 0 | 0 | ✓ |
+| image "logo van ziggo tv" | 20,17 72×41 | 20,17 72×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "999" | 104,24 26×26 | 104,24 26×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "ziggo tv" | 104,50 65×26 | 104,50 65×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 104,75 53×25 | 104,75 53×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "," | 157,75 3×25 | 157,75 3×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tv standard" | 164,75 76×25 | 164,75 76×25 | 0 | 0 | 0 | 0 | ✓ |
+Units: 172 compared; elements within 988, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/televisie-zenderoverzicht-360/units-iter3.json

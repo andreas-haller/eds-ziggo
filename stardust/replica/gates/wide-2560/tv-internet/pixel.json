@@ -1,0 +1,364 @@
+{
+  "a": "stardust/replica/gates/wide-2560/tv-internet/origin.png",
+  "b": "stardust/replica/gates/wide-2560/tv-internet/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 10295,
+    "mode": "overlap"
+  },
+  "heightDelta": 166,
+  "differingPixels": 3691600,
+  "pct": 14.01,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/tv-internet/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 12.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 24.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 16.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 17.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 14.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.1
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 14.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 13.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 13.3
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 10.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 5.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 4.1
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 3.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 5.6
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 1.6
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 41
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 35.4
+    },
+    {
+      "y0": 10000,
+      "y1": 10295,
+      "pct": 2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.56,
+    "differingPixels": 685620,
+    "compared": {
+      "width": 2560,
+      "height": 10462,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 164,
+        "shift": -75,
+        "cumulative": -75
+      },
+      {
+        "y": 345,
+        "shift": -35,
+        "cumulative": -110
+      },
+      {
+        "y": 2084,
+        "shift": -1,
+        "cumulative": -111
+      },
+      {
+        "y": 5345,
+        "shift": -1,
+        "cumulative": -112
+      },
+      {
+        "y": 7246,
+        "shift": -41,
+        "cumulative": -153
+      },
+      {
+        "y": 9539,
+        "shift": -14,
+        "cumulative": -167
+      },
+      {
+        "y": 10275,
+        "shift": 1,
+        "cumulative": -166
+      }
+    ],
+    "maxOffset": 167,
+    "totalShift": 168,
+    "insertedRows": 1,
+    "deletedRows": 167,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 26.3,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.6,
+        "unaligned": 24.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.8,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 16.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.3,
+        "unaligned": 17.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.4,
+        "unaligned": 15.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.1,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.6,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.6,
+        "unaligned": 13.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 13.3
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.1,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.9,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 9.1,
+        "unaligned": 4.1
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.1,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0.4,
+        "unaligned": 41
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 3.3,
+        "unaligned": 35.4
+      },
+      {
+        "y0": 10000,
+        "y1": 10461,
+        "pct": 0.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/tv-internet/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 105,
+    "totalShift": 168,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 168px total — −75px at y=164, −35px at y=345, −1px at y=2084, −1px at y=5345, −41px at y=7246, −14px at y=9539, … 1 more (bound 105px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/tv-internet",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/tv-internet",
+      "source": "https://www.ziggo.nl/tv-internet",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "b523b836bb38ebf4",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "c86b7f990ebfe8ae",
+      "instruments": "700566dc6f7774a4",
+      "page content": "e72385f62cffc270",
+      "shared code": "933bef04481b01be",
+      "block address-checker": "f5957a2c73f45487",
+      "block bundle-builder": "89f495a4e1f1d0c1",
+      "block contact-band": "d6ef2a11a0e4b704",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 4,
+          "textNodes": 259,
+          "controls": 131,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T05:07:44.085Z"
+  }
+}

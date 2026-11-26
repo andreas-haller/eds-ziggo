@@ -1,0 +1,275 @@
+{
+  "a": "stardust/replica/gates/televisie-ziggo-sport-1440/live.png",
+  "b": "stardust/replica/gates/televisie-ziggo-sport-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 7709,
+    "mode": "overlap"
+  },
+  "heightDelta": 91,
+  "differingPixels": 2258097,
+  "pct": 20.34,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-ziggo-sport-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 39.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 29.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 23.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 21.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 17.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 20.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 11.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 20.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 9.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 23.9
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 12
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 42
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 5.9
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 19.4
+    },
+    {
+      "y0": 7500,
+      "y1": 7709,
+      "pct": 4.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 9.22,
+    "differingPixels": 1050670,
+    "compared": {
+      "width": 1440,
+      "height": 7911,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 115,
+        "shift": 88,
+        "cumulative": 88
+      },
+      {
+        "y": 652,
+        "shift": -48,
+        "cumulative": 40
+      },
+      {
+        "y": 958,
+        "shift": -10,
+        "cumulative": 30
+      },
+      {
+        "y": 2598,
+        "shift": -5,
+        "cumulative": 25
+      },
+      {
+        "y": 3111,
+        "shift": 3,
+        "cumulative": 28
+      },
+      {
+        "y": 4026,
+        "shift": -46,
+        "cumulative": -18
+      },
+      {
+        "y": 5646,
+        "shift": -93,
+        "cumulative": -111
+      },
+      {
+        "y": 6089,
+        "shift": 9,
+        "cumulative": -102
+      },
+      {
+        "y": 7182,
+        "shift": 10,
+        "cumulative": -92
+      },
+      {
+        "y": 7695,
+        "shift": 1,
+        "cumulative": -91
+      }
+    ],
+    "maxOffset": 111,
+    "totalShift": 313,
+    "insertedRows": 111,
+    "deletedRows": 202,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 17.5,
+        "unaligned": 39.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.7,
+        "unaligned": 29.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.2,
+        "unaligned": 23.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 10.5,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.8,
+        "unaligned": 21.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.5,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.8,
+        "unaligned": 20.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 14.7,
+        "unaligned": 11.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 11.8,
+        "unaligned": 20.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 2.3,
+        "unaligned": 9.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 25.4,
+        "unaligned": 23.9
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 20.5,
+        "unaligned": 12
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 3.3,
+        "unaligned": 42
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 4.6,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 7.9,
+        "unaligned": 19.4
+      },
+      {
+        "y0": 7500,
+        "y1": 7800,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-ziggo-sport-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 78,
+    "totalShift": 313,
+    "pass": false
+  },
+  "reason": "offsets: 10 step(s), 313px total — +88px at y=115, −48px at y=652, −10px at y=958, −5px at y=2598, +3px at y=3111, −46px at y=4026, … 4 more (bound 78px)"
+}

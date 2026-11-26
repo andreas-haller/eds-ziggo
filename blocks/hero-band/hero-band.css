@@ -1,0 +1,1053 @@
+/* hero band (campaign); source .hero */
+.hero-band .hero {
+  position: relative;
+  background: var(--color-primary);
+  color: var(--color-tertiary-darken-40);
+}
+
+.hero-band .hero-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 360 / 247.25;
+  object-fit: cover;
+}
+
+.hero-band .hero-bg {
+  display: none;
+}
+
+.hero-band .hero-content {
+  position: relative;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 40px var(--container-pad) 56px;
+}
+
+.hero-band .hero-title :is(p, h1, h2) {
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-1);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.hero-band .hero-title strong {
+  font-weight: 700;
+}
+
+.hero-band .hero-sub p {
+  display: block;
+  margin: 16px 0 8px;
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero-band .hero-ctas {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-band .hero-ctas p {
+  margin-top: 8px;
+}
+
+.hero-band .hero-ctas a:any-link {
+  width: 100%;
+}
+
+.hero-band .hero-legal p {
+  margin-top: 8px;
+  font-size: var(--legal-font-size);
+  font-weight: 300;
+  line-height: 25.6px;
+}
+
+/* source: headline + legal are 12-28px spans inside a 16px/1.6 paragraph,
+   so each line box keeps the 16px strut (live 360: title 69px, legal 26px) */
+.hero-band .hero-title p {
+  line-height: 34.5px;
+}
+
+@media (width >= 768px) {
+  .hero-band .hero {
+    height: 540px;
+  }
+
+  .hero-band .hero-img {
+    display: none;
+  }
+
+  .hero-band .hero-bg {
+    display: block;
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero-band .hero-bg :is(p, picture, img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .hero-band .hero-bg img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .hero-band .hero-content {
+    padding-top: 122px;
+    padding-bottom: 0;
+  }
+
+  .hero-band .hero-col {
+    max-width: calc(41.6667% - var(--container-pad) * 7 / 12);
+  }
+
+  .hero-band .hero-sub p {
+    margin: 17px 0 16px;
+    font-size: 1.95rem;
+  }
+
+  .hero-band .hero-ctas {
+    flex-direction: row;
+    gap: 23.5px;
+  }
+
+  .hero-band .hero-ctas p {
+    margin-top: 16px;
+  }
+
+  .hero-band .hero-ctas a:any-link {
+    width: auto;
+  }
+
+  .hero-band .hero-title p {
+    line-height: 1.1;
+  }
+
+  .hero-band .hero-legal p {
+    margin-top: 16px;
+    line-height: 1.6;
+  }
+}
+
+/* ==== BEGIN hero-band (article) variant — owned by archetype-article; scoped to .hero-band.article ==== */
+.hero-band.article .hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 60vh;
+}
+
+.hero-band.article .hero-img {
+  display: block;
+}
+
+.hero-band.article .hero-img img {
+  display: block;
+  aspect-ratio: 4 / 3;
+}
+
+.hero-band.article .hero-bg {
+  display: none;
+}
+
+.hero-band.article .hero-content {
+  width: 100%;
+  padding: 2rem var(--container-pad) 0;
+}
+
+.hero-band.article .hero-title :is(h1, h2, p) {
+  font-weight: 700;
+}
+
+.hero-band.article .hero-col :is(h2, h3) {
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+@media (width >= 768px) {
+  .hero-band.article .hero-col {
+    max-width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band.article .hero-img {
+    display: none;
+  }
+
+  .hero-band.article .hero-bg {
+    display: block;
+  }
+
+  .hero-band.article .hero-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-band.article .hero-col :is(h2, h3) {
+    font-size: 1.95rem;
+  }
+}
+
+/* ==== END hero-band (article) variant ==== */
+
+/* the duplicate responsive label of the source button (see dualLabel) */
+.hero-band a.button .btn-title-large {
+  display: none;
+}
+
+/* ==== BEGIN hero-band (channel) variant — owned by archetype-channel; scoped to .hero-band.channel ====
+   source channel hero: gradient band, min-height 20vh, title + sub centred vertically */
+.hero-band.channel .hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 20vh;
+  background: linear-gradient(0deg, #ff4608 0%, #ff5f00 70%, #f7931e);
+}
+
+.hero-band.channel .hero-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem var(--container-pad);
+}
+
+.hero-band.channel .hero-col {
+  max-width: none;
+}
+
+.hero-band.channel .hero-title :is(h1, h2, p) {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.hero-band.channel .hero-col :is(h2, h3) {
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+@media (width >= 768px) {
+  .hero-band.channel .hero {
+    height: auto;
+    background: linear-gradient(90deg, #ff4608 0%, #ff5f00 70%, #f7931e);
+  }
+
+  .hero-band.channel .hero-content {
+    padding: 2rem var(--container-pad);
+  }
+
+  .hero-band.channel .hero-col {
+    max-width: calc(66.6667% - var(--container-pad) / 3);
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band.channel .hero-col :is(h2, h3) {
+    font-size: 1.95rem;
+  }
+}
+
+/* ==== END hero-band (channel) variant ==== */
+
+/* ==== BEGIN hero-band (program) variant — owned by archetype-program; scoped to .hero-band.program
+   one campaign image in the right 5/12 column of a 540px orange band (source .aio-hero) ==== */
+.hero-band.program .hero {
+  display: flex;
+  height: 540px;
+  background: var(--color-primary) url("program-gradient-mobile.svg") center / cover no-repeat;
+}
+
+.hero-band.program .hero-img {
+  display: block;
+  width: 100%;
+  padding: 32px 20px;
+}
+
+.hero-band.program .hero-img :is(p, picture) {
+  display: block;
+  margin: 0;
+}
+
+.hero-band.program .hero-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+}
+
+.hero-band.program :is(.hero-bg, .hero-content) {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .hero-band.program .hero {
+    background-image: url("program-gradient.svg");
+  }
+
+  .hero-band.program .hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  .hero-band.program .hero-img > * {
+    flex: 0 0 calc((100% + 32px) * 5 / 12 - 32px);
+  }
+}
+
+/* ==== END hero-band (program) variant ==== */
+
+/* ==== BEGIN hero-band (listing) variant — owned by archetype-listing; scoped to .hero-band.listing
+   source zenderoverzicht hero: gradient band, centred title + sub, category link strip, info
+   notification in a centred half column (values from the gated prototype) ==== */
+.hero-band.listing .hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: linear-gradient(0deg, #ff4608 0%, #ff5f00 70%, #f7931e);
+  color: var(--color-tertiary-darken-40);
+}
+
+.hero-band.listing .hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem var(--container-pad);
+}
+
+.hero-band.listing .hero-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: none;
+}
+
+.hero-band.listing .hero-title :is(h1, h2, p) {
+  margin: 8px 0 0;
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-1);
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.hero-band.listing .hero-sub :is(h2, h3, p) {
+  margin: 0;
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.hero-band.listing .hero-catlinks {
+  width: 100%;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.hero-band.listing .hero-catlinks ul {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin: 0 0 16px;
+  padding: 0.25rem;
+  background: var(--color-gray-100);
+  border-radius: var(--border-radius);
+  box-shadow: rgb(28 31 33 / 20%) 0 4px 10px 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.hero-band.listing .hero-catlinks li {
+  display: grid;
+  place-items: center;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.hero-band.listing .hero-catlinks a:any-link {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem 0;
+  border-radius: var(--border-radius);
+  color: #000;
+  line-height: 1.5;
+  text-decoration: none;
+  outline-offset: -5px;
+}
+
+.hero-band.listing .hero-catlinks a:hover {
+  background: var(--color-secondary);
+  color: var(--color-gray-100);
+}
+
+.hero-band.listing .hero-note-row {
+  width: calc(100% + var(--container-pad));
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.hero-band.listing .hero-note {
+  display: flex;
+  margin-top: 8px;
+  background: #eef2f6;
+  border: 1px solid var(--color-tertiary);
+  border-radius: var(--border-radius-sm);
+  color: #000;
+}
+
+.hero-band.listing .hero-note[hidden] {
+  display: none;
+}
+
+.hero-band.listing .hero-note-icon {
+  order: 1;
+  padding: 10px 10px 13px;
+}
+
+.hero-band.listing .hero-note-icon .zi {
+  font-size: 16px;
+}
+
+.hero-band.listing .zi-information-circle::before {
+  content: "V";
+}
+
+.hero-band.listing .hero-note-text {
+  flex: 1 1 auto;
+  order: 2;
+  padding: 12px 20px 12px 0;
+  font-size: 0.875rem;
+}
+
+.hero-band.listing .hero-note-text :is(h2, h3, h4) {
+  display: block;
+  margin: 0;
+  color: #000;
+  font-family: var(--body-font-family);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.hero-band.listing .hero-note-text p {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 300;
+}
+
+.hero-band.listing .hero-note-text a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hero-band.listing .hero-note-text a:hover {
+  text-decoration: none;
+}
+
+.hero-band.listing .hero-note-close {
+  order: 3;
+  margin-left: auto;
+  padding: 10px 10px 0;
+}
+
+.hero-band.listing .hero-note-btn {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  line-height: 24px;
+}
+
+.hero-band.listing .hero-note-btn .zi {
+  font-size: 14px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.hero-band.listing .hero-note-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (width >= 576px) {
+  .hero-band.listing .hero-note-row {
+    width: calc((100% + var(--container-pad)) * 0.5);
+  }
+}
+
+@media (width >= 768px) {
+  .hero-band.listing .hero {
+    height: auto;
+    background: var(--gradient-primary);
+  }
+
+  .hero-band.listing .hero-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero-band.listing .hero-col {
+    max-width: none;
+  }
+
+  .hero-band.listing .hero-catlinks ul {
+    display: inline-grid;
+    grid-auto-flow: column;
+  }
+
+  .hero-band.listing .hero-catlinks a:any-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band.listing .hero-title :is(h1, h2, p) {
+    margin-top: 16px;
+  }
+
+  .hero-band.listing .hero-sub :is(h2, h3, p) {
+    font-size: 1.95rem;
+  }
+
+  .hero-band.listing .hero-catlinks {
+    margin-top: 16px;
+  }
+
+  .hero-band.listing .hero-note {
+    margin-top: 16px;
+  }
+}
+
+/* ==== END hero-band (listing) variant ==== */
+
+/* ==== BEGIN hero-band (article compact) variant — owned by cluster-program; scoped to
+   .hero-band.article.compact: the product-page header (source hero-container height 20vh,
+   40vh from 1024, content below the art on mobile) ==== */
+.hero-band.article.compact .hero {
+  min-height: 0;
+}
+
+.hero-band.article.compact .hero-content {
+  padding: 40px var(--container-pad) 32px;
+}
+
+.hero-band.article.compact .hero-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.compact .hero {
+    min-height: 40vh;
+  }
+
+  .hero-band.article.compact .hero-content {
+    padding: 32px var(--container-pad) 24px;
+  }
+}
+
+/* ==== END hero-band (article compact) variant ==== */
+
+/* ==== BEGIN hero-band (article auto) variant — owned by cluster-landing; scoped to
+   .hero-band.article.auto: below 1024px the band is as tall as its picture + copy (source
+   vfz-hero-container-height--auto, 60vh from larger screens) ==== */
+@media (width < 1024px) {
+  .hero-band.article:is(.auto, .short) .hero {
+    min-height: 0;
+  }
+
+  .hero-band.article:is(.auto, .short) .hero-content {
+    padding: 1px var(--container-pad) 31px;
+  }
+
+  .hero-band.article:is(.auto, .short) .hero-title :is(h1, h2, p) {
+    font-size: 2.02rem;
+  }
+}
+
+/* ==== END hero-band (article auto) variant ==== */
+
+/* ==== BEGIN hero-band (article short) variant — owned by cluster-landing; scoped to
+   .hero-band.article.short: auto height below 1024px (as .auto), a certification badge above the
+   title, display-size title + light h2 sub line and one CTA ==== */
+.hero-band.article.short .hero-badge img {
+  display: block;
+  width: auto;
+  height: 27px;
+  margin: 31px 0 8px;
+}
+
+.hero-band.article.short .hero-sub :is(h2, h3) {
+  margin: 8px 0 0;
+}
+
+/* under a paragraph headline (no h1) the sub line is a light white h4-size line */
+.hero-band.article.short .hero-col:has(.hero-title p) .hero-sub p {
+  margin: 8px 0 0;
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+/* a paragraph sub line is the navy lead copy, followed by a check list */
+.hero-band.article.short .hero-col:has(.hero-title h1) .hero-sub p {
+  margin: 8px 0 0;
+  color: var(--color-tertiary-darken-40);
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.hero-band.article.short .hero-col ul {
+  margin: 16px 0 0;
+  padding: 0;
+  color: var(--color-tertiary-darken-40);
+  list-style: none;
+}
+
+.hero-band.article.short .hero-col li {
+  position: relative;
+  padding-left: 28px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.hero-band.article.short .hero-col li::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 6px;
+  height: 11px;
+  border: solid currentcolor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+
+.hero-band.article.short .hero-ctas {
+  margin: 16px 0 17px;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.short .hero-badge img {
+    height: 46px;
+    margin: 0 0 16px;
+  }
+
+  .hero-band.article.short .hero-title :is(h1, h2) {
+    font-size: 3.815rem;
+  }
+
+  .hero-band.article.short .hero-sub :is(h2, h3) {
+    margin-top: 9px;
+  }
+
+  .hero-band.article.short .hero-ctas {
+    margin: 24px 0 0;
+  }
+}
+
+/* small screens: the picture keeps its own crop; the copy starts 32px under it and ends 48px
+   above the next band (source internet / ziggo-sport / espn) */
+@media (width < 1024px) {
+  .hero-band.article.short .hero-img img {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+
+  .hero-band.article.short .hero-col:has(.hero-title p) .hero-ctas a:any-link {
+    width: auto;
+    align-self: flex-start;
+  }
+
+  .hero-band.article.short .hero-content {
+    padding: 32px var(--container-pad) 48px;
+  }
+
+  .hero-band.article.short .hero-badge img {
+    margin-top: 0;
+  }
+
+  .hero-band.article.short .hero-ctas {
+    margin-bottom: 0;
+  }
+
+  .hero-band.article.short .hero-title p {
+    font-size: var(--heading-font-size-1);
+  }
+}
+
+/* ==== END hero-band (article short) variant ==== */
+
+/* ==== hero-band (article) lead line — cluster-article: a text line authored above the h1 shows
+   as the display title and the h1 as the light sub line (source terugkijken) ==== */
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-band.article .hero-eyebrow p {
+  margin: 0;
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.hero-band.article .hero-col:has(.hero-eyebrow) .hero-title h1 {
+  margin: 8px 0 0;
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article .hero-col:has(.hero-eyebrow) .hero-title h1 {
+    font-size: 1.95rem;
+  }
+}
+
+/* ==== BEGIN hero-band (article banner / boxed) — owned by cluster-article: the closing
+   "Nog geen tv van Ziggo?" band: 39px bold title, 16px white copy; boxed = inside the container
+   with rounded corners (source kijkprofielen) ==== */
+.hero-band.article.banner .hero-title :is(h1, h2, p) {
+  font-size: var(--heading-font-size-2);
+  font-weight: 700;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-band.article.banner .hero-sub p {
+  color: var(--color-white);
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.banner.boxed .hero {
+    max-width: calc(var(--container-max) - 2 * var(--container-pad));
+    margin: 0 auto 64px;
+    overflow: hidden;
+    border-radius: 32px;
+  }
+}
+
+/* ==== END hero-band (article banner / boxed) ==== */
+
+.hero-band.banner .hero-ctas a .btn-title-large {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.banner .hero-col {
+    max-width: calc(455px + var(--container-pad));
+  }
+
+  .hero-band.article.banner:not(.boxed) .hero-ctas {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* hero-band (article short): the source's small-screen header crops (art-19: 1200x628,
+   art-15: 360x235) — owned by cluster-landing */
+@media (width < 1024px) {
+  .hero-band.article.short.art-19 .hero-img img {
+    aspect-ratio: 1200 / 628;
+    object-fit: cover;
+  }
+
+  .hero-band.article.short.art-19 .hero-title p {
+    line-height: 1.1;
+  }
+
+  .hero-band.article.short.art-19 .hero-ctas {
+    margin-top: 12px;
+  }
+
+  .hero-band.article.short.art-19 .hero-content {
+    padding-bottom: 44px;
+  }
+
+  .hero-band.article.short.art-15 .hero-img img {
+    aspect-ratio: 360 / 235;
+    object-fit: cover;
+  }
+}
+
+/* natural: a 16:9 small-screen picture keeps its own ratio (source kijkprofielen header) */
+.hero-band.article.natural .hero-img img {
+  aspect-ratio: auto;
+}
+
+.hero-band.article.banner.boxed .hero-title :is(h1, h2, p) {
+  font-size: var(--heading-font-size-3);
+}
+
+/* article banner: a lead paragraph authored bold keeps the source's regular white copy
+   (cluster-article: ziggo-go "Download Ziggo GO") */
+.hero-band.article.banner .hero-sub p > strong:only-child {
+  font-weight: inherit;
+}
+
+/* ==== hero-band (article banner art) — cluster-article: one transparent product picture shown
+   at every width; from 1024px it sits in the right half of the band beside the copy, kept whole
+   (source tv-apps "Extra zenders & streamingdiensten") ==== */
+.hero-band.article.banner.art .hero-img img {
+  aspect-ratio: 1080 / 608;
+  object-fit: contain;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.banner.art .hero {
+    min-height: 0;
+  }
+
+  .hero-band.article.banner.art .hero-img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 16px);
+    width: 552px;
+    transform: translateY(-50%);
+  }
+
+  .hero-band.article.banner.art .hero-col {
+    max-width: 552px;
+  }
+
+  .hero-band.article.banner.art .hero-content {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+/* ==== hero-band (article fit) — cluster-article: below 1024px the band is as tall as its
+   picture + copy, 40px under the sub line (source 4k-uhd / mediaboxen 360: 162px copy band) ==== */
+@media (width < 1024px) {
+  .hero-band.article.fit .hero {
+    min-height: 0;
+  }
+
+  .hero-band.article.fit .hero-content {
+    padding-bottom: 40px;
+  }
+}
+
+/* ==== hero-band (article xl) — gate-all: the source's vfz-heading__xl page title, 2.02rem /
+   3.815rem from 1024px (source kijkprofielen, online-tv-kijken: live h1 32.32px @360, 61.04px
+   @1440) ==== */
+.hero-band.article.xl .hero-title h1 {
+  font-size: 2.02rem;
+  line-height: 1.1;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.xl .hero-title h1 {
+    font-size: 3.815rem;
+  }
+}
+
+/* ==== hero-band (article banner boxed) — gate-all: headline-face title, the lead in the h5
+   headline style (bold Ziggo Headline 1.156rem / 1.25rem from 1024px, line-height 1.1), copy column
+   428px; from 1024px 32px above and under the box (live section 604 = 32 + 540 + 32, title
+   Ziggo Headline, p 20/22 700, w428; @360 p 18.5/20.35 700) ==== */
+.hero-band.article.banner.boxed .hero-title :is(h1, h2, p) {
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+}
+
+.hero-band.article.banner.boxed .hero-sub p:not(:has(a)) {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.banner.boxed .hero {
+    margin: 32px auto;
+  }
+
+  .hero-band.article.banner.boxed .hero-col {
+    max-width: calc(396px + var(--container-pad));
+  }
+}
+
+/* ==== hero-band (article spaced / lifted) — gate-all: spaced = below 1024px the sub line 8px under the title and
+   the band 48px under it; lifted = from 1024px the sub line 16px under the title (vfz-spacing-top--s) with
+   the column centred 56px above the band middle (live kijkprofielen h1 y294 h2 y377 in the 540px
+   band; @360 kijkprofielen / ziggo-go sub +8, band +16) ==== */
+@media (width < 1024px) {
+  .hero-band.article.spaced .hero-sub {
+    margin-top: 8px;
+  }
+
+  .hero-band.article.spaced .hero-content {
+    padding-bottom: 48px;
+  }
+}
+
+/* lifted: from 1024px the kijkprofielen column */
+@media (width >= 1024px) {
+  .hero-band.article.lifted .hero-sub {
+    margin-top: 16px;
+  }
+
+  .hero-band.article.lifted .hero-content {
+    padding-bottom: 56px;
+  }
+}
+
+/* boxed banner below 1024px: a 320px box 32px off the band edges, rounded 40px, 16:9 picture,
+   copy inset 20px with 32px above and under it, lead 8px under the title, CTAs 32px under the lead
+   (live @360: img x20 w320 h181, h2 32px under it, p +8, box 550px) */
+@media (width < 1024px) {
+  .hero-band.article.banner.boxed .hero {
+    min-height: 0;
+    margin: 32px var(--container-pad);
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .hero-band.article.banner.boxed .hero-img img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .hero-band.article.banner.boxed .hero-content {
+    padding: 32px 20px;
+  }
+
+  .hero-band.article.banner.boxed .hero-sub p:not(:has(a)) {
+    margin: 8px 0 32px;
+  }
+}
+
+/* ==== hero-band (article narrow) — gate-all, source online-tv-kijken: the sub line flush under
+   the title, CTAs 16px under it; below 1024px the band as tall as its content (title 16px under
+   the picture, 32px under the CTAs, picture rounded 40px at the foot); from 1024px a 455px column
+   raised 12px (live @360 h1 y+16 under the picture, CTA pitch 56, band 524; @1440 h1 y274, sub
+   w455, CTA span y446) ==== */
+.hero-band.article.narrow .hero-sub p {
+  margin: 0 0 8px;
+}
+
+@media (width < 1024px) {
+  .hero-band.article.narrow .hero {
+    min-height: 0;
+  }
+
+  .hero-band.article.narrow .hero-img img {
+    border-radius: 0 0 40px 40px;
+  }
+
+  .hero-band.article.narrow .hero-content {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.narrow .hero-col {
+    max-width: 455px;
+  }
+
+  .hero-band.article.narrow .hero-sub p {
+    margin-bottom: 16px;
+  }
+
+  .hero-band.article.narrow .hero-content {
+    padding-bottom: 24px;
+  }
+}
+
+/* ==== hero-band (article banner lead / raised) — gate-all, source ziggo-go: lead = the banner
+   copy 20/32 w300 under a headline-face title in a 4-col (357px) column, 16:9 picture below 1024px
+   (live @1440 h2 w357, p 20/32 w300; @360 img 360x203); raised = the page-head column 32px higher
+   from 1024px (live h1 Δy +32) ==== */
+.hero-band.article.banner.lead .hero-title :is(h1, h2, p) {
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+}
+
+.hero-band.article.banner.lead .hero-sub p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+@media (width < 1024px) {
+  .hero-band.article.banner.lead .hero-img img {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band.article.banner.lead .hero-col {
+    max-width: 357px;
+  }
+
+  .hero-band.article.raised .hero-content {
+    padding-bottom: 64px;
+  }
+}
+
+/* narrow r2 (live @1440 h1 Δy +4, CTAs +12): CTAs 4px under the sub line, column 4px higher */
+@media (width >= 1024px) {
+  .hero-band.article.narrow .hero-sub p {
+    margin-bottom: 4px;
+  }
+
+  .hero-band.article.narrow .hero-content {
+    padding-bottom: 32px;
+  }
+}
+
+/* boxed banner below 1024px: the CTAs left-aligned 16px apart (live @360 CTA pitch 64, x40) */
+@media (width < 1024px) {
+  .hero-band.article.banner.boxed .hero-ctas {
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

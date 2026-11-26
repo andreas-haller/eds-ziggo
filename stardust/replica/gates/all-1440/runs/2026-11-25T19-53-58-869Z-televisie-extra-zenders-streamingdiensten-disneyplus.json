@@ -1,0 +1,246 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T19:53:58.868Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.ziggo.nl",
+    "eds": "https://main--50ca44c6--aemcoder.aem.page",
+    "edsHostOverride": "https://main--50ca44c6--aemcoder.aem.page",
+    "only": [
+      "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "televisie-extra-zenders-streamingdiensten-netflix"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 2,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 1,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "path": "/televisie/extra-zenders-streamingdiensten/netflix",
+      "template": "televisie-extra-zenders-streamingdiensten-netflix",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 0.15,
+      "textPct": 0.7,
+      "heightDelta": -1,
+      "originH": 6146,
+      "edsH": 6147,
+      "alignedPct": 0.15,
+      "alignedUsed": true,
+      "totalShift": 1,
+      "steps": [
+        {
+          "y": 6041,
+          "shift": 1,
+          "cumulative": 1
+        }
+      ],
+      "offsetBound": 61,
+      "offsetTolerance": 307,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": [
+          ".chat-button=.streaming-features.contact .sf-link:has(a[href^=\"#start-pre-chat\"])"
+        ]
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 6,
+        "within": 76,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "path": "/televisie/extra-zenders-streamingdiensten/disneyplus",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.47,
+      "textPct": 16.71,
+      "heightDelta": 44,
+      "originH": 6385,
+      "edsH": 6341,
+      "alignedPct": 4.21,
+      "alignedUsed": true,
+      "totalShift": 52,
+      "steps": [
+        {
+          "y": 1083,
+          "shift": -4,
+          "cumulative": -4
+        },
+        {
+          "y": 1685,
+          "shift": -12,
+          "cumulative": -16
+        },
+        {
+          "y": 2096,
+          "shift": -4,
+          "cumulative": -20
+        },
+        {
+          "y": 2270,
+          "shift": -2,
+          "cumulative": -22
+        },
+        {
+          "y": 5412,
+          "shift": -26,
+          "cumulative": -48
+        },
+        {
+          "y": 5804,
+          "shift": 3,
+          "cumulative": -45
+        },
+        {
+          "y": 6280,
+          "shift": 1,
+          "cumulative": -44
+        }
+      ],
+      "offsetBound": 64,
+      "offsetTolerance": 319,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2500-3000:16%",
+        "4000-4500:28.9%",
+        "5500-6000:18.1%"
+      ],
+      "error": null
+    }
+  ]
+}

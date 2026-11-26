@@ -1,0 +1,626 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-tv-apps-1440/vdiff-pub3/
+
+build red flags (advisory): 
+  • HEADING FACE: <h1> "Je favoriete TV apps op één plek" is 48.8px Ziggo Headline in build vs 61.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "App" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Informatie" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "App" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Informatie" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "App" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Informatie" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "App" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Informatie" is 25.008px Ziggo Headline in build vs 31.2px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Extra zenders & streamingdienste" is 39.04px Vodafone Ziggo text in build vs 39.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4287,
+  "textLen": 4594,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_banner40_B2C_ExtraStreamingDiensten_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x12",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_TVApps_Menu_Afstandsbediening_2025_Q4?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "354x200",
+    "rendered": "355x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_TVApps_Stembesturing_2025_Q4?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "354x200",
+    "rendered": "355x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_TVApps_TVKanaal_2025_Q4?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "354x200",
+    "rendered": "355x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_banner40_B2C_ExtraStreamingDiensten_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "551x311",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=f15e5110-cde4-4bdb-8e5b-7226c6de69cb&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=TV%20apps%20op%20je%20mediabox%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-apps&r=&lt=2965&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=386301",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-apps&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Je favoriete TV apps op één plek",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "61.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ervaar Ziggo TV & Streaming",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tv & video",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Actueel & achtergrond",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Muziek",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sport",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Naar je favoriete TV apps",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "In het tv-menu",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Met stembesturing",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Via het tv-kanaal",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra zenders & streamingdienste",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Navigeer naar ...",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "table",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "vfz-spacing-top--s",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "table",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "table",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "table",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4294,
+  "textLen": 4813,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f055c9fa6bc6d41c7ab48a41944ac65ef656e551.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1304fdd80b331ebce34f595e223c1b7a46b1ad3fb.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "2000x675",
+    "rendered": "1440x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_168915e0c986346c95bc611aee7b3c8333a55e0e3.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "355x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19cebfdfdaf946a5ee23b5c97d4c71948353634c2.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "355x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_193756430eb75c9d566822b3784be1f5a10bccce6.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "355x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f055c9fa6bc6d41c7ab48a41944ac65ef656e551.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "552x311",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Je favoriete TV apps op één plek",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ervaar Ziggo TV & Streaming",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tv & video",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Actueel & achtergrond",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Muziek",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sport",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Informatie",
+    "color": "rgb(50, 54, 57)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Naar je favoriete TV apps",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "In het tv-menu",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Met stembesturing",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Via het tv-kanaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extra zenders & streamingdienste",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Navigeer naar ...",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "subnav-wrap",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "table",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "table",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "table",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "table",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "mb-cards",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   }
+  ]
+ }
+}

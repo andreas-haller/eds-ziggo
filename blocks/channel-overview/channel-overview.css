@@ -1,0 +1,647 @@
+/* channel overview (source zenderoverzicht: gray band, search, action bar, filter/sort panels,
+   channel rows); values from the gated prototype televisie-zenderoverzicht.css */
+/* stylelint-disable no-descending-specificity -- distinct li sets (bar, choice lists, packs) */
+.channel-overview {
+  background: var(--color-gray-200);
+}
+
+.channel-overview .zo {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 40px var(--container-pad) 8px;
+}
+
+.channel-overview .zo-col {
+  margin-left: calc(var(--container-pad) / -2);
+  margin-right: calc(var(--container-pad) / -2);
+}
+
+/* glyphs of the source icon font not in the shared set */
+.channel-overview .zi-sliders::before {
+  content: "d";
+}
+
+.channel-overview .zi-playlist::before {
+  content: "2";
+}
+
+.channel-overview .zi-file::before {
+  content: "P";
+}
+
+/* ---------- search */
+.channel-overview .zo-col > .zo-search {
+  width: 70%;
+  margin: 0 auto 2.5rem;
+}
+
+.channel-overview .zo-search-form {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.channel-overview .zo-sr,
+.channel-overview .zo-search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.channel-overview .zo-search-label p {
+  margin: 0;
+}
+
+.channel-overview .zo-search-input {
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  height: 3rem;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  background: #fff;
+  border: 0;
+  border-radius: 0;
+  color: var(--color-gray-800);
+  font: italic 400 1.125rem/1.5 var(--body-font-family);
+  appearance: none;
+}
+
+.channel-overview .zo-search-input::placeholder {
+  color: var(--color-gray-800);
+  opacity: 1;
+}
+
+.channel-overview .zo-search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0 20px;
+  background: var(--color-gray-900);
+  border: 1px solid transparent;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.channel-overview .zo-search-btn .zi {
+  font-size: 20px;
+}
+
+.channel-overview .zo-search-btn:hover {
+  color: var(--color-primary);
+}
+
+/* ---------- action bar (fixed to the viewport bottom < 768, as the source) */
+.channel-overview .zo-bar ul {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 3.222rem;
+  margin: 0;
+  padding: 0;
+  background: var(--color-gray-100);
+  list-style: none;
+}
+
+.channel-overview .zo-bar li {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.channel-overview .zo-bar li::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 2px;
+  height: 60%;
+  border-left: 2px dotted var(--color-gray-300);
+}
+
+.channel-overview .zo-bar li:last-of-type::before {
+  border: 0;
+}
+
+.channel-overview .zo-bar li:hover {
+  background: var(--color-gray-300);
+}
+
+.channel-overview .zo-bar :is(.zo-bar-btn, a) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.channel-overview .zo-bar .zo-bar-btn {
+  padding: 1px 6px;
+}
+
+.channel-overview .zo-bar .zi {
+  padding-right: 0.25rem;
+}
+
+/* ---------- filter / sort panels (closed at rest, opened from the action bar) */
+.channel-overview .zo-panels {
+  background: var(--color-gray-100);
+}
+
+.channel-overview .zo-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  padding: 0.75rem;
+  background: var(--color-gray-100);
+  overflow: auto;
+}
+
+.channel-overview .zo-panel-sort {
+  top: auto;
+}
+
+.channel-overview .zo-panel[hidden] {
+  display: none;
+}
+
+.channel-overview .zo-panel.is-sliding {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .channel-overview .zo-panel.is-sliding {
+    transition: height 0.3s ease;
+  }
+}
+
+.channel-overview .zo-panel-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.channel-overview .zo-filter-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 1.25rem;
+}
+
+.channel-overview .zo-filter-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.channel-overview .zo-filter-row-check {
+  padding-top: 1rem;
+}
+
+.channel-overview .zo-filter-group {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  padding: 0 1.25rem;
+  border-bottom: 2px dotted var(--color-gray-500);
+}
+
+.channel-overview .zo-filter-row-check .zo-filter-group {
+  align-self: flex-start;
+  text-align: left;
+  border-bottom: 0;
+}
+
+.channel-overview :is(.zo-filter-group, .zo-sort-head) p {
+  align-self: flex-start;
+  display: inline-block;
+  margin: 0 0 1rem;
+  color: var(--color-secondary);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.channel-overview :is(.zo-filter-group, .zo-sort-section) ul {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0.75rem;
+  list-style: none;
+}
+
+.channel-overview :is(.zo-filter-group, .zo-sort-section) li {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+.channel-overview :is(.zo-filter-group, .zo-sort-section) input {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.5rem 0 0;
+  accent-color: var(--color-primary);
+}
+
+.channel-overview .zo-choice-label {
+  color: #000;
+}
+
+.channel-overview .zo-filter-submit {
+  display: block;
+  margin-bottom: 0.25rem;
+  padding-top: 0.5rem;
+}
+
+.channel-overview :is(.zo-filter-clear, .zo-filter-apply) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: -0.5rem 0 1.75rem;
+}
+
+.channel-overview .zo-filter-reset {
+  color: var(--color-tertiary);
+  cursor: pointer;
+}
+
+.channel-overview .zo-filter-reset:hover {
+  text-decoration: underline;
+}
+
+.channel-overview :is(.zo-filter-reset, .zo-filter-go) p {
+  margin: 0;
+}
+
+.channel-overview .zo-filter-go {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: var(--btn-height);
+  padding: 0 20px;
+  background: var(--color-tertiary);
+  border-radius: var(--btn-radius);
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.channel-overview .zo-filter-go:hover {
+  background: var(--color-tertiary-lighten-20);
+}
+
+.channel-overview .zo-sort-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.channel-overview .zo-sort-head p {
+  margin: 0.75rem 0.75rem 0 0;
+  text-align: left;
+}
+
+.channel-overview .zo-sort-section ul {
+  margin-bottom: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* ---------- results */
+.channel-overview .zo-results-title {
+  margin: 2.75rem 0 8px 1.25rem;
+  color: var(--color-secondary);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-3);
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.channel-overview .zo-results-title :is(h1, h2, h3, h4, h5, h6) {
+  display: block;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.channel-overview .zo-list {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.channel-overview .zo-channel {
+  position: relative;
+  margin-bottom: 0.125rem;
+  background: var(--color-gray-100);
+}
+
+.channel-overview .zo-channel:hover {
+  background: var(--color-gray-300);
+}
+
+.channel-overview .zo-channel[hidden] {
+  display: none;
+}
+
+.channel-overview .zo-channel-btn {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.channel-overview .zo-channel-label {
+  width: 100%;
+  color: #fff;
+}
+
+.channel-overview .zo-channel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 0 0 5rem;
+  padding: 1.5rem;
+}
+
+.channel-overview .zo-channel-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.channel-overview .zo-channel-meta p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.channel-overview .zo-channel-epg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000;
+  font-size: 1rem;
+}
+
+.channel-overview .zo-channel-epg p {
+  font-weight: 300;
+}
+
+.channel-overview .zo-channel-title {
+  display: inline;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 1rem;
+}
+
+.channel-overview .zo-channel-title p {
+  font-weight: 700;
+}
+
+.channel-overview .zo-channel-dd {
+  display: flex;
+  margin-left: 0;
+}
+
+.channel-overview .zo-channel-logo {
+  position: absolute;
+  left: 1.25rem;
+  top: 1.06rem;
+  z-index: 0;
+  display: flex;
+  width: 4.5rem;
+}
+
+.channel-overview .zo-channel-logo :is(picture, img) {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.channel-overview :is(.zo-packs, .zo-opts) ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.channel-overview :is(.zo-packs, .zo-opts) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 0;
+  padding: 0;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.channel-overview .zo-packs {
+  z-index: 1;
+  margin-right: 3rem;
+}
+
+.channel-overview .zo-packs li,
+.channel-overview .zo-opts-item {
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.channel-overview .zo-packs li p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.channel-overview .zo-packs a {
+  color: var(--link-color);
+  font-weight: 400;
+}
+
+.channel-overview .zo-packs-sep {
+  white-space: pre;
+}
+
+.channel-overview .zo-opts {
+  display: none;
+  padding-top: 0.25rem;
+  color: var(--color-gray-300);
+}
+
+.channel-overview .zo-opts-item :is(picture, img) {
+  display: flex;
+  width: 1.2rem;
+  height: auto;
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .channel-overview .zo-col {
+    width: calc((100% + var(--container-pad)) * 0.8333);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .channel-overview .zo-bar ul {
+    position: relative;
+  }
+
+  .channel-overview .zo-panel {
+    position: relative;
+    padding: 1.25rem;
+    border-bottom: 2px solid var(--color-gray-900);
+    overflow: visible;
+  }
+
+  .channel-overview .zo-filter-section {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .channel-overview .zo-filter-row {
+    width: 50%;
+    padding: 0 3.75rem;
+  }
+
+  .channel-overview .zo-filter-row:first-of-type {
+    border-right: 2px dotted var(--color-gray-300);
+  }
+
+  .channel-overview .zo-filter-row-check {
+    padding-top: 0;
+  }
+
+  .channel-overview .zo-filter-group {
+    align-self: flex-end;
+    width: 12rem;
+    padding: 0;
+    border-bottom: 0;
+  }
+
+  .channel-overview .zo-filter-row-check .zo-filter-group {
+    align-self: flex-start;
+  }
+
+  .channel-overview .zo-filter-submit {
+    border-top: 2px solid var(--color-gray-900);
+  }
+
+  .channel-overview .zo-filter-go {
+    width: 40%;
+  }
+
+  .channel-overview .zo-sort-section {
+    flex-direction: row;
+  }
+
+  .channel-overview .zo-channel-logo {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (width >= 1024px) {
+  .channel-overview .zo {
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+
+  .channel-overview .zo-col > .zo-search {
+    width: 66%;
+    height: 3rem;
+  }
+
+  .channel-overview :is(.zo-filter-clear, .zo-filter-apply) {
+    margin: 0.25rem 0 0;
+  }
+
+  .channel-overview .zo-channel-info {
+    flex-direction: row;
+  }
+
+  .channel-overview .zo-channel-meta {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .channel-overview .zo-channel-epg {
+    flex-direction: row;
+    margin: 0 1.25rem;
+  }
+
+  .channel-overview .zo-channel-epg p {
+    font-weight: 400;
+  }
+
+  .channel-overview .zo-channel-title {
+    margin-left: 1.25rem;
+  }
+
+  .channel-overview .zo-channel-logo {
+    width: 4.2rem;
+  }
+
+  .channel-overview .zo-opts {
+    display: flex;
+    margin-left: 1.25rem;
+  }
+
+  .channel-overview .zo-opts-item :is(picture, img) {
+    align-self: center;
+  }
+}

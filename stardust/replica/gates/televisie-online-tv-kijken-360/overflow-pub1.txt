@@ -1,0 +1,9 @@
+measure: https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken @360: horizontal overflow +300px (scrollWidth 660 > viewport 360)
+measure  https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   660  viewport 360  scrollHeight   6810  ◄◄ OVERFLOW +300px
+  html
+       x     0  y      0  w   360  h  6810  vis  "Privé Zakelijk Ga naar de Ziggo homepag…"
+      display: block

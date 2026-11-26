@@ -1,0 +1,259 @@
+{
+  "a": "stardust/replica/gates/televisie-online-tv-kijken-360/live.png",
+  "b": "stardust/replica/gates/televisie-online-tv-kijken-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 7046,
+    "mode": "overlap"
+  },
+  "heightDelta": 353,
+  "differingPixels": 500075,
+  "pct": 19.71,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-online-tv-kijken-360/diff-pub2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 22
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 35.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 33.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 23.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 46.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 8.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 66.1
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 7.8
+    },
+    {
+      "y0": 7000,
+      "y1": 7046,
+      "pct": 1.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 11.6,
+    "differingPixels": 308896,
+    "compared": {
+      "width": 360,
+      "height": 7400,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2583,
+        "shift": -65,
+        "cumulative": -65
+      },
+      {
+        "y": 3047,
+        "shift": -55,
+        "cumulative": -120
+      },
+      {
+        "y": 3278,
+        "shift": -42,
+        "cumulative": -162
+      },
+      {
+        "y": 3712,
+        "shift": -54,
+        "cumulative": -216
+      },
+      {
+        "y": 3884,
+        "shift": -32,
+        "cumulative": -248
+      },
+      {
+        "y": 4951,
+        "shift": -58,
+        "cumulative": -306
+      },
+      {
+        "y": 5584,
+        "shift": -15,
+        "cumulative": -321
+      },
+      {
+        "y": 6373,
+        "shift": -33,
+        "cumulative": -354
+      },
+      {
+        "y": 6958,
+        "shift": 1,
+        "cumulative": -353
+      }
+    ],
+    "maxOffset": 354,
+    "totalShift": 355,
+    "insertedRows": 1,
+    "deletedRows": 354,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.6,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 22,
+        "unaligned": 22
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.8,
+        "unaligned": 5.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3.2,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.1,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 15.9,
+        "unaligned": 35.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 24.3,
+        "unaligned": 33.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 19.5,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 6.3,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 17.1,
+        "unaligned": 23.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 33.4,
+        "unaligned": 46.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 5,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 9.2,
+        "unaligned": 66.1
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 7000,
+        "y1": 7399,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-360/diff-pub2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 74,
+    "totalShift": 355,
+    "pass": false
+  },
+  "reason": "pixel aligned 11.6% (unaligned 19.71%) > 10%"
+}

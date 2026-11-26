@@ -1,0 +1,31 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 625 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 597 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix (docH 6146, 208 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix (docH 6147, 198 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | netflix bij ziggo | 10/10 | 0/0 | 4/4 | 0/0 | - |
+| 2 | daarom kijk je netflix via ziggo | 1/1 | 0/0 | 5/5 | 3/3 | - |
+| 3 | snel en simpel | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 4 | dit kijk je met netflix | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | topseries en -films | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | bingewaardige series | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 7 | kijk met het hele gezin | 0/0 | 0/0 | 3/3 | 3/4 | - |
+| 8 | hoe kijk je netflix bij ziggo? | 0/0 | 0/0 | 0/0 | 3/3 | - |
+| 9 | netflix account | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | inloggen en kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | open de netflix app | 1/1 | 0/0 | 3/3 | 0/0 | - |
+| 12 | kies het abonnement dat bij jou past | 6/6 | 0/0 | 24/24 | 0/0 | - |
+| 13 | veelgestelde vragen | 0/0 | 8/8 | 0/0 | 0/0 | - |
+| 14 | ken je deze tv apps al? | 0/0 | 0/0 | 0/0 | 3/3 | - |
+| 15 | disney+ | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 16 | hbo max | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 17 | viaplay | 6/6 | 0/0 | 3/3 | 0/0 | - |
+| 18 | nog een vraag? | 3/3 | 0/0 | 7/7 | 3/3 | MISSING LINK, EXTRA LINK |
+  🔴 MISSING LINK: "start een chat" → /televisie/extra-zenders-streamingdiensten/netflix in band "nog een vraag?" (origin y 5413) not on the served page
+  🟡 EXTRA LINK: "we zijn momenteel in gesprek, probeer het later nog eens." served in band "nog een vraag?", no origin link or button
+Content: MISSING 1 (headings 0, links 1) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 1 / count deltas 0
+Findings: 2 (1 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/content-presence-pub2.json

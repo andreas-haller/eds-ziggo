@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/televisie-mediaboxen-1440/live.png",
+  "b": "stardust/replica/gates/televisie-mediaboxen-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 2951,
+    "mode": "overlap"
+  },
+  "heightDelta": -84,
+  "differingPixels": 649614,
+  "pct": 15.29,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-mediaboxen-1440/diff-pub2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 17.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 40
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19.5
+    },
+    {
+      "y0": 2500,
+      "y1": 2951,
+      "pct": 3.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 10.83,
+    "differingPixels": 474736,
+    "compared": {
+      "width": 1440,
+      "height": 3043,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 805,
+        "shift": 75,
+        "cumulative": 75
+      },
+      {
+        "y": 2034,
+        "shift": 16,
+        "cumulative": 91
+      },
+      {
+        "y": 2330,
+        "shift": -8,
+        "cumulative": 83
+      },
+      {
+        "y": 2846,
+        "shift": 1,
+        "cumulative": 84
+      }
+    ],
+    "maxOffset": 91,
+    "totalShift": 100,
+    "insertedRows": 92,
+    "deletedRows": 8,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.3,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 15,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.4,
+        "unaligned": 17.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 32.1,
+        "unaligned": 40
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 7.5,
+        "unaligned": 19.5
+      },
+      {
+        "y0": 2500,
+        "y1": 2951,
+        "pct": 0.2,
+        "unaligned": 3.4
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-mediaboxen-1440/diff-pub2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 30,
+    "totalShift": 100,
+    "pass": false
+  },
+  "reason": "pixel aligned 10.83% (unaligned 15.29%) > 10%"
+}

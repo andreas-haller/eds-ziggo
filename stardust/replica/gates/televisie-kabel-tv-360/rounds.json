@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:57:54.999Z",
+          "verdict": "fail",
+          "kind": "first"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub1 aligned 1.34% Δh 1; frozen chrome only — 131-132 header/footer icon-glyph 🔴 (foundation) and, at 360, the header logo signature delta (foundation request already logged by cluster-streaming); main content: nothing-lost 0, content-presence missing 0, Clipped 0, overflow 0",
+          "at": "2026-11-25T21:01:06.797Z",
+          "counted": 1
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T21-03-17-932Z",
+          "at": "2026-11-25T21:05:10.168Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:27:53.712Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:10:34.328Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

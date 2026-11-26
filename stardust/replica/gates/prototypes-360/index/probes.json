@@ -1,0 +1,137 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-25T15:02:37.105Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 12,
+   "offPage": 141,
+   "textNodes": 154,
+   "controls": 232,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "li.mslide",
+    "path": "section.mcar > ul.mcar__track > li.mslide > a.mslide__link",
+    "text": "skyshowtime bij ziggo",
+    "cutMin": 242,
+    "cutMax": 243
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "li.lane__card",
+    "path": "div.lane__rail > ul.lane__strip > li.lane__card > a",
+    "text": "bekijk meer over curse of skinwalker ranch | seizoen 7bekijk",
+    "cutMin": 200,
+    "cutMax": 200
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "ul.ccar__track > li > article.ucard > a.ucard__link",
+    "text": "wifi die werkt",
+    "cutMin": 161,
+    "cutMax": 161
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "article.ucard > div.ucard__container > div.ucard__body > h3.ucard__title.h-5",
+    "text": "wifi die werkt",
+    "cutMin": 59,
+    "cutMax": 59
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "article.ucard > div.ucard__container > div.ucard__body > p.ucard__text",
+    "text": "altijd wifi die werkt. gegarandeerd.",
+    "cutMin": 84,
+    "cutMax": 84
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "li.mslide > div.mslide__content > div.mslide__text > h3.mslide__title.h-4",
+    "text": "uefa europees voetbal",
+    "cutMin": 204,
+    "cutMax": 204
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "li.mslide > div.mslide__content > div.mslide__text > p.mslide__sub",
+    "text": "beleef je bij ziggo sport",
+    "cutMin": 163,
+    "cutMax": 163
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "ul.mcar__track > li.mslide > div.mslide__content > a.btn.btn-light",
+    "text": "ontdek sportontdek sport",
+    "cutMin": 161,
+    "cutMax": 161
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "section.acar",
+    "path": "section.acar > ul.acar__track > li.acard > a.acard__link",
+    "text": "voorrang bij tickets",
+    "cutMin": 182,
+    "cutMax": 182
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "section.acar",
+    "path": "section.acar > ul.acar__track > li.acard > h3.acard__title.h-4",
+    "text": "voorrang bij tickets",
+    "cutMin": 92,
+    "cutMax": 92
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 11,
+   "within": 64,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

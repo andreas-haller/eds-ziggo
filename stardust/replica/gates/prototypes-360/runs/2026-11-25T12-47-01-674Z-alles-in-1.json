@@ -1,0 +1,188 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T12:47:01.672Z",
+    "stage": "prototype",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "8px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": false
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance)",
+    "origin": "https://www.ziggo.nl",
+    "eds": "http://localhost:8791",
+    "edsHostOverride": null,
+    "only": [
+      "alles-in-1"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "alles-in-1",
+      "path": "/alles-in-1-proposed.html",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.53,
+      "textPct": null,
+      "heightDelta": 1,
+      "originH": 13337,
+      "edsH": 13336,
+      "alignedPct": 1.04,
+      "alignedUsed": true,
+      "totalShift": 21,
+      "steps": [
+        {
+          "y": 2128,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 2464,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 2598,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 2898,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 3047,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3358,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 3507,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3818,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 3966,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 4288,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 4436,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 4705,
+          "shift": -1,
+          "cumulative": 0
+        }
+      ],
+      "offsetBound": 8,
+      "offsetTolerance": null,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": null,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 20 step(s), 21px total — +1px at y=2128, −1px at y=2464, +1px at y=2598, −1px at y=2898, +1px at y=3047, −1px at y=3358, … 14 more (bound 8px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": null,
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 8,
+        "within": 71,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/alles-in-1-360",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

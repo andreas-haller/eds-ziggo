@@ -1,0 +1,179 @@
+{
+  "a": "stardust/replica/gates/televisie-voicecontrol-1440/live.png",
+  "b": "stardust/replica/gates/televisie-voicecontrol-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4829,
+    "mode": "overlap"
+  },
+  "heightDelta": 55,
+  "differingPixels": 468339,
+  "pct": 6.74,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-voicecontrol-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 21.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 11.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.9
+    },
+    {
+      "y0": 4500,
+      "y1": 4829,
+      "pct": 4.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.35,
+    "differingPixels": 376093,
+    "compared": {
+      "width": 1440,
+      "height": 4886,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3231,
+        "shift": -25,
+        "cumulative": -25
+      },
+      {
+        "y": 3424,
+        "shift": 1,
+        "cumulative": -24
+      },
+      {
+        "y": 3683,
+        "shift": -32,
+        "cumulative": -56
+      },
+      {
+        "y": 4779,
+        "shift": 1,
+        "cumulative": -55
+      }
+    ],
+    "maxOffset": 56,
+    "totalShift": 59,
+    "insertedRows": 2,
+    "deletedRows": 57,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 21.7,
+        "unaligned": 21.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.9,
+        "unaligned": 11.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6,
+        "unaligned": 6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.9,
+        "unaligned": 5.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 6.4,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 4500,
+        "y1": 4884,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-voicecontrol-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 49,
+    "totalShift": 59,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 59px total — −25px at y=3231, +1px at y=3424, −32px at y=3683, +1px at y=4779 (bound 49px)"
+}

@@ -1,0 +1,1647 @@
+/* stylelint-disable no-descending-specificity -- scoped siblings, never overlap */
+
+/* media-text: picture + text band (source hero-container with a 12-column grid row) */
+.media-text {
+  display: flex;
+  color: #000;
+}
+
+.media-text.light {
+  background: var(--color-gray-100);
+  color: var(--color-secondary);
+}
+
+.media-text.tips {
+  min-height: 80vh;
+}
+
+.media-text .mt-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 2rem var(--container-pad);
+}
+
+.media-text .mt-row {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 calc(var(--container-pad) / -2);
+}
+
+.media-text .mt-col {
+  width: 100%;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+/* text column */
+.media-text .mt-text :is(h1, h2, h3) {
+  margin: 16px 0 8px;
+  font-size: var(--heading-font-size-2);
+}
+
+.media-text.accent .mt-text :is(h1, h2, h3) {
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-3);
+}
+
+.media-text .mt-text :is(h1, h2, h3) :is(picture, img) {
+  display: inline;
+  vertical-align: middle;
+}
+
+.media-text .mt-text :is(h1, h2, h3) img {
+  width: auto;
+  height: 2.5rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.media-text .mt-copy p {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.media-text .mt-text ul {
+  margin: 0 0 16px;
+  padding-left: 40px;
+  list-style: disc;
+}
+
+.media-text .mt-text li {
+  font-weight: 300;
+}
+
+/* icon-led group card */
+.media-text .mt-group {
+  margin: 0 -1.25rem;
+  padding: 1.5rem;
+}
+
+.media-text .mt-icon {
+  display: flex;
+  margin: 0 calc(var(--container-pad) / -2);
+}
+
+.media-text.tips .mt-icon {
+  justify-content: center;
+}
+
+.media-text .mt-icon p {
+  flex: 0 0 auto;
+  width: calc(16.6667% - var(--container-pad));
+  margin: 0 calc(var(--container-pad) / 2);
+}
+
+.media-text .mt-icon img {
+  width: 100%;
+  height: auto;
+}
+
+/* accordion under the text column */
+.media-text .acc-group {
+  margin-bottom: 16px;
+}
+
+.media-text .acc {
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.media-text .acc:first-child {
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.media-text .acc-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.media-text .acc-title {
+  flex-grow: 1;
+  padding-right: 12px;
+}
+
+.media-text .acc-title p {
+  margin: 0;
+  color: var(--color-gray-900);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.media-text .acc-chevron {
+  width: 17px;
+  color: var(--color-gray-500);
+  line-height: 24px;
+  text-align: right;
+}
+
+.media-text .acc-chevron::after {
+  content: ".";
+  display: block;
+  font-family: var(--icon-font);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  transform: rotate(180deg);
+}
+
+.media-text .acc-header[aria-expanded="true"] .acc-chevron::after {
+  transform: none;
+}
+
+.media-text .acc-header:hover :is(.acc-title p, .acc-chevron),
+.media-text .acc-header[aria-expanded="true"] :is(.acc-title p, .acc-chevron) {
+  color: var(--color-gray-700);
+}
+
+.media-text .acc-body {
+  padding: 0 0 16px;
+  overflow: hidden;
+}
+
+.media-text .acc-body[hidden] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .media-text .acc-body.is-sliding {
+    transition: height 0.3s ease;
+  }
+}
+
+.media-text .acc-body p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.media-text .acc-body sub {
+  font-size: 75%;
+}
+
+.media-text .mt-group :is(h1, h2, h3) {
+  margin: 0 0 8px;
+  font-size: var(--heading-font-size-3);
+}
+
+.media-text .mt-body p {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.media-text .mt-body p:not(.button-wrapper, :has(~ p:not(.button-wrapper))) {
+  margin-bottom: 16px;
+}
+
+.media-text .mt-body p.button-wrapper {
+  margin-bottom: 16px;
+}
+
+/* small screens: the picture always stacks above the text */
+.media-text .mt-media {
+  order: -1;
+}
+
+.media-text .mt-frame p {
+  margin: 0;
+}
+
+.media-text .mt-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.media-text:not(.half) .mt-frame {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.media-text:not(.half, .accent) .mt-frame img {
+  aspect-ratio: 320 / 181;
+  object-fit: cover;
+}
+
+@media (width >= 768px) {
+  .media-text .mt-row {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .media-text .mt-text {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .media-text .mt-media {
+    order: 0;
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+
+  .media-text .mt-col + .mt-col {
+    margin-left: 8.3333%;
+  }
+
+  .media-text.half .mt-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .media-text.half .mt-col + .mt-col {
+    margin-left: 0;
+  }
+
+  .media-text:not(.half, .accent) .mt-frame img {
+    aspect-ratio: 1080 / 608;
+  }
+
+  .media-text .mt-icon p {
+    width: calc(25% - var(--container-pad));
+  }
+}
+
+@media (width >= 1024px) {
+  .media-text.fill,
+  .media-text.tips {
+    min-height: 60vh;
+  }
+
+  .media-text.fill .mt-inner {
+    justify-content: center;
+  }
+
+  .media-text.tips .mt-inner {
+    padding-bottom: 0;
+  }
+
+  .media-text .mt-text :is(h1, h2, h3) {
+    margin-top: 24px;
+  }
+
+  .media-text .mt-group {
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .media-text .mt-group :is(h1, h2, h3) {
+    margin-top: 0;
+  }
+
+  .media-text .mt-text ul {
+    margin-bottom: 24px;
+  }
+
+  .media-text .mt-body p:not(.button-wrapper, :has(~ p:not(.button-wrapper))) {
+    margin-bottom: 24px;
+  }
+
+  .media-text .mt-body p.button-wrapper {
+    margin-bottom: 24px;
+  }
+
+  .media-text .acc-title p {
+    font-size: 18px;
+  }
+}
+
+/* ==== landing variants (televisie cluster) ==== */
+
+/* primary: orange band, icon picture beside a white title and navy text (source bg-primary) */
+.media-text.primary {
+  background: var(--color-primary);
+  color: var(--color-tertiary-darken-40);
+}
+
+.media-text.primary .mt-inner {
+  padding: 32px var(--container-pad);
+}
+
+.media-text.primary .mt-media {
+  order: 1;
+}
+
+.media-text.primary .mt-frame {
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+  border-radius: 0;
+}
+
+.media-text.primary .mt-frame img {
+  width: 93px;
+  aspect-ratio: auto;
+}
+
+.media-text.primary .mt-text :is(h1, h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-white);
+}
+
+.media-text.primary .mt-copy p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* intro: centred head band (eyebrow + orange title), no picture */
+.media-text.intro .mt-inner {
+  padding: 72px var(--container-pad) 0;
+}
+
+.media-text.intro .mt-row {
+  justify-content: center;
+}
+
+.media-text.intro .mt-text {
+  flex: 0 0 auto;
+  max-width: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.media-text.intro .mt-media {
+  display: none;
+}
+
+.media-text.intro .mt-copy p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.media-text.intro .mt-copy p:has(+ :is(h1, h2)) {
+  color: var(--color-black);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.media-text.intro .mt-text :is(h1, h2) {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-1);
+}
+
+.media-text.intro.narrow .mt-text {
+  width: 75%;
+}
+
+@media (width >= 768px) {
+  .media-text.primary .mt-media {
+    order: 0;
+  }
+
+  .media-text.primary .mt-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .media-text.primary .mt-col + .mt-col {
+    margin-left: 0;
+  }
+
+  .media-text.primary .mt-frame img {
+    width: 163px;
+  }
+
+  .media-text.intro .mt-inner {
+    padding-top: 88px;
+  }
+
+  .media-text.intro .mt-text {
+    width: 66.6667%;
+  }
+
+  .media-text.intro.narrow .mt-text {
+    width: 41.6667%;
+  }
+}
+
+@media (width >= 768px) {
+  .media-text.primary .mt-inner {
+    padding: 32px var(--container-pad) 36px;
+  }
+
+  .media-text.primary .mt-row {
+    align-items: flex-start;
+  }
+
+  .media-text.primary .mt-media {
+    padding-top: 4px;
+  }
+}
+
+/* plain: 16px body copy (source vfz-text default) */
+.media-text.plain .mt-copy p {
+  font-size: 1rem;
+}
+
+/* tall: an 80vh band below 1024px with the copy at the top (source height--80vh mobile) */
+@media (width < 1024px) {
+  .media-text.tall {
+    min-height: 80vh;
+  }
+
+  .media-text.tall .mt-inner {
+    padding-top: 0;
+  }
+}
+
+/* wide: 7/5 split with a rounded 16:9 picture and an orange title (source internet bands) */
+.media-text.wide .mt-inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.media-text.wide .mt-frame {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.media-text.wide .mt-frame img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.media-text.wide .mt-text :is(h1, h2, h3) {
+  color: var(--color-primary);
+}
+
+.media-text.wide .mt-copy p {
+  font-size: 1rem;
+}
+
+@media (width >= 768px) {
+  .media-text.wide .mt-text {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .media-text.wide .mt-media {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+
+  .media-text.wide .mt-col + .mt-col {
+    margin-left: 0;
+  }
+}
+
+/* gradient: the brand-gradient band, white title, navy copy (source bg-ziggo-gradient) */
+.media-text.gradient {
+  background: var(--gradient-primary);
+  color: var(--color-tertiary-darken-40);
+}
+
+.media-text.gradient .mt-text :is(h1, h2, h3) {
+  color: var(--color-white);
+}
+
+.media-text.gradient .mt-copy p {
+  font-size: 1rem;
+}
+
+/* orange: orange title; CTA paragraphs side by side */
+.media-text.orange .mt-text :is(h1, h2, h3) {
+  color: var(--color-primary);
+}
+
+.media-text.orange .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)) {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* natural: the picture keeps its own proportions */
+.media-text.natural .mt-frame img,
+.media-text.natural:not(.half, .accent) .mt-frame img {
+  aspect-ratio: auto;
+}
+
+/* intro with a lead paragraph under the title (narrower, centred) */
+.media-text.intro .mt-copy :is(h1, h2) + p {
+  max-width: 617px;
+  margin: 8px auto 0;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* tight: intro band right under the breadcrumb */
+.media-text.intro.tight .mt-inner {
+  padding: 32px var(--container-pad) 40px;
+}
+
+/* tags: centred wrap of dark pill links (source vfz-tag-list) */
+.media-text.tags .mt-inner {
+  padding: 32px var(--container-pad) 43px;
+}
+
+.media-text.tags .mt-copy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 8px;
+}
+
+.media-text.tags .mt-copy p {
+  margin: 0;
+}
+
+.media-text.tags .mt-copy a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 40px;
+  background: #323639;
+  color: var(--color-gray-100);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (width >= 768px) {
+  .media-text.intro .mt-copy :is(h1, h2) + p {
+    margin-top: 15px;
+  }
+
+  .media-text.intro.tight .mt-inner {
+    padding: 40px var(--container-pad) 67px;
+  }
+
+}
+
+/* intro start: the left 8/12 intro band (h1 in h3 size, text, CTAs side by side) */
+.media-text.intro.start .mt-inner {
+  padding: 32px var(--container-pad) 8px;
+}
+
+.media-text.intro.start .mt-row {
+  justify-content: flex-start;
+}
+
+.media-text.intro.start .mt-text {
+  margin: 0;
+  text-align: left;
+}
+
+.media-text.intro.start .mt-text :is(h1, h2) {
+  font-size: var(--heading-font-size-3);
+}
+
+.media-text.intro.start .mt-copy :is(h1, h2) + p {
+  max-width: none;
+  margin: 8px 0 0;
+}
+
+.media-text.intro.start .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)) {
+  display: inline-block;
+  margin: 28px 23px 0 0;
+}
+
+/* sub: the paragraph right under the title is a light subtitle (white on the gradient) */
+.media-text.sub .mt-copy :is(h1, h2) + p {
+  margin: 8px 0 24px;
+  color: var(--color-white);
+  font-size: var(--heading-font-size-3);
+  line-height: 1.1;
+}
+
+.media-text.sub .mt-copy ul {
+  color: var(--color-white);
+}
+
+.media-text.sub .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)),
+.media-text.sub .mt-copy p:has(> a:only-child) {
+  display: inline-block;
+  margin-right: 23px;
+}
+
+/* the duplicate responsive label of the source button (see decorate) */
+.media-text a.button .btn-title-large {
+  display: none;
+}
+
+/* wide band spacing (source internet: first band 50px from the availability band, the
+   captioned one 48/64) */
+@media (width >= 1024px) {
+  .media-text.wide.spaced .mt-inner {
+    padding-top: 50px;
+  }
+
+  .media-text.wide.roomy .mt-inner {
+    padding: 48px var(--container-pad) 64px;
+  }
+}
+
+/* airy: a half band with the source's larger vertical padding (ziggo-sport tv-gids) */
+@media (width >= 1024px) {
+  .media-text.airy .mt-inner {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+
+/* ==== BEGIN media-text (duo / stack / tv) — owned by cluster-article; televisie siblings ====
+   duo: 6/6 band, orange h3-size title, 16px copy inset 32px in the text half (source vc half)
+   stack: the picture centred over the copy (source kijkprofielen first band)
+   tv: centred intro with a 39px title; a heading pair reads eyebrow + title */
+.media-text.duo .mt-text :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-3);
+}
+
+.media-text.duo .mt-text p,
+.media-text.duo .mt-text li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.media-text.intro.tv .mt-text :is(h1, h2, h3) {
+  font-size: var(--heading-font-size-2);
+}
+
+.media-text.intro.tv .mt-text :is(h2, h3):has(+ :is(h2, h3)) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media (width >= 1024px) {
+  .media-text.duo .mt-row {
+    align-items: center;
+  }
+
+  .media-text.duo.inset .mt-text {
+    padding-left: calc(var(--container-pad) / 2 + 32px);
+    padding-right: calc(var(--container-pad) / 2 + 129px);
+  }
+
+  .media-text.duo.stack .mt-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .media-text.duo.stack .mt-media {
+    flex: 0 0 auto;
+    max-width: 75%;
+  }
+
+  .media-text.duo.stack .mt-text {
+    flex: 0 0 auto;
+    max-width: 66.6667%;
+  }
+
+  .media-text.duo.stack .mt-col + .mt-col {
+    margin-left: 0;
+  }
+}
+
+/* ==== END media-text (duo / stack / tv) ==== */
+
+/* ==== media-text pair — owned by cluster-article: an h2 + h3 pair reads as a black 16px
+   eyebrow over a black display title (source terugkijken "Ook via Ziggo GO") ==== */
+.media-text.pair .mt-text :is(h2, h3):has(+ :is(h2, h3)) {
+  margin: 0;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+}
+
+.media-text.pair .mt-text :is(h2, h3) + :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-2);
+}
+
+/* ==== media-text hero — owned by cluster-article: the gradient page head (white bold h1 over a
+   light h2 sub line, picture in the right half, 60vh from 1024px; source hoofdmenu) ==== */
+.media-text.hero .mt-text h1 {
+  margin: 0;
+  font-size: var(--heading-font-size-1);
+  font-weight: 700;
+}
+
+.media-text.hero .mt-text h2 {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 1.42rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+@media (width >= 1024px) {
+  .media-text.hero .mt-inner {
+    justify-content: center;
+    min-height: 60vh;
+  }
+
+  .media-text.hero .mt-row {
+    align-items: center;
+  }
+
+  .media-text.hero .mt-text h2 {
+    font-size: 1.95rem;
+  }
+}
+
+/* small screens: the orange story bands and the tight intro are centred (source ziggo-sport) */
+@media (width < 768px) {
+  .media-text.intro.tight .mt-copy :is(h1, h2) {
+    max-width: 207px;
+    margin: 0 auto;
+  }
+
+  .media-text.orange .mt-text {
+    text-align: center;
+  }
+
+  .media-text.orange .mt-text :is(h1, h2, h3) {
+    margin-top: 24px;
+  }
+
+  .media-text.orange .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)) {
+    display: block;
+    margin: 0 0 24px;
+  }
+
+  .media-text.orange .mt-copy a.button {
+    width: 100%;
+  }
+
+  .media-text.intro.start .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)) {
+    display: block;
+    margin: 12px 0 0;
+  }
+
+  .media-text.intro.start .mt-copy :is(h1, h2) + p + p {
+    margin-top: 20px;
+  }
+
+  .media-text.intro.start .mt-copy a.button {
+    width: 100%;
+  }
+}
+
+/* ==== cluster-article: :check: list lines (icons/check.svg, source zi-check glyph), title of a
+   heading pair in orange, app badges side by side ==== */
+.media-text .mt-text .icon-check {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.media-text.intro.tv .mt-text :is(h2, h3) + :is(h2, h3) {
+  margin: 0 0 16px;
+  color: var(--color-primary);
+}
+
+.media-text.pair .mt-text p:has(> a > img) {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+/* small screens: lead copy in the tight intro and the gradient band, rounded gradient picture */
+.media-text.gradient .mt-frame {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+@media (width < 768px) {
+  .media-text.intro.tight .mt-copy :is(h1, h2) + p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .media-text.gradient:not(.sub) .mt-copy p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+/* duo big: the 39px title 24px under the band top (source makkelijk-zoeken) */
+.media-text.duo.big .mt-text :is(h2, h3) {
+  margin-top: 24px;
+  font-size: var(--heading-font-size-2);
+}
+
+/* intro note: the lead line, then a bordered note — round picture beside its copy
+   (source hoofdmenu "huis-icoon" box, 746 x 183 at 1440) */
+.media-text.intro.note .mt-copy > p:has(picture, img) img {
+  width: 83px;
+  height: 83px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (width >= 768px) {
+  .media-text.intro.note .mt-copy {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .media-text.intro.note .mt-copy > p:first-child {
+    grid-column: 1 / -1;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) {
+    display: flex;
+    align-items: center;
+    padding: 24px 32px 24px 70px;
+    border: 1px solid var(--color-gray-300, #ccc);
+    border-right: 0;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) img {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) + p {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 40px 0;
+    border: 1px solid var(--color-gray-300, #ccc);
+    border-left: 0;
+    line-height: 1.6;
+  }
+}
+
+@media (width >= 768px) {
+  .media-text.intro.start .mt-inner {
+    padding-bottom: 0;
+  }
+}
+
+/* duo below 1024px (source 360: copy inset 24px inside the column, title 24px under the
+   picture, 56px between the bands' pictures and the copy above) */
+@media (width < 1024px) {
+  .media-text.duo .mt-inner {
+    padding-top: 56px;
+  }
+
+  .media-text.duo .mt-text {
+    padding-left: calc(var(--container-pad) / 2 + 24px);
+    padding-right: calc(var(--container-pad) / 2 + 24px);
+  }
+
+  .media-text.duo .mt-text :is(h2, h3) {
+    margin-top: 24px;
+  }
+}
+
+/* intro tv large: the pair's title at display size (source kijkprofielen, online-tv-kijken) */
+.media-text.intro.tv.large .mt-text :is(h2, h3) + :is(h2, h3) {
+  font-size: var(--heading-font-size-1);
+}
+
+/* small: 31px titles in a plain half band (source hoofdmenu) */
+.media-text.half.small .mt-text :is(h2, h3) {
+  font-size: var(--heading-font-size-3);
+}
+
+@media (width >= 1024px) {
+  /* stack: 112px above the picture, the copy 112px under it, inset 324px, 683px wide
+     (source kijkprofielen h3 x476 w683, 798px between the intro title and the copy) */
+  .media-text.duo.stack .mt-media {
+    margin-top: 112px;
+  }
+
+  .media-text.duo.stack .mt-text {
+    align-self: flex-start;
+    width: calc(683px + var(--container-pad));
+    max-width: none;
+    margin: 112px 0 0 calc(324px - var(--container-pad) / 2);
+  }
+}
+
+/* ==== BEGIN media-text (intro tip) — owned by cluster-article: a bordered rounded note box
+   on the light band, black h5-size title + chevron text link, left aligned
+   (source 4k-uhd "Tip: sluit je Mediabox Next…" grouping, bg-light) ==== */
+.media-text.intro.tip .mt-inner {
+  padding: 40px var(--container-pad);
+}
+
+.media-text.intro.tip .mt-text {
+  width: 100%;
+  padding: 24px;
+  border: 1px solid var(--color-gray-600, #5b6166);
+  border-radius: 16px;
+  text-align: left;
+}
+
+.media-text.intro.tip .mt-text :is(h1, h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-5);
+  line-height: 1.3;
+}
+
+.media-text.intro.tip .mt-copy p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.media-text.intro.tip .mt-copy a:any-link {
+  color: var(--color-tertiary);
+  text-decoration: none;
+}
+
+.media-text.intro.tip .mt-copy a:any-link::before {
+  content: "\203A";
+  margin-right: 8px;
+}
+
+@media (width >= 768px) {
+  .media-text.intro.tip .mt-inner {
+    padding: 40px var(--container-pad);
+  }
+
+  .media-text.intro.tip .mt-text {
+    width: 100%;
+  }
+}
+
+/* ==== END media-text (intro tip) ==== */
+
+/* ==== BEGIN media-text landing small screens — owned by cluster-landing (source espn and
+   ziggo-sport at 360) ==== */
+@media (width < 768px) {
+  /* intro start: 28px top, the first CTA 20px under the copy */
+  .media-text.intro.start .mt-inner {
+    padding-top: 28px;
+  }
+
+  .media-text.intro.start .mt-copy :is(h1, h2) + p + p:is(.button-wrapper, :has(> :is(strong, em) > a)) {
+    margin-top: 20px;
+  }
+
+  .media-text.intro.tight .mt-inner {
+    padding-bottom: 47px;
+  }
+
+  /* half gradient band: the gradient runs bottom to top, title 8px under the picture */
+  .media-text.half.gradient:not(.sub) {
+    background: linear-gradient(0deg, #ff4608 0%, #ff5f00 70%, #f7931e);
+  }
+
+  .media-text.half.gradient:not(.sub) .mt-inner {
+    padding-bottom: 15px;
+  }
+
+  .media-text.half.gradient:not(.sub) .mt-text :is(h1, h2, h3) {
+    margin-top: 8px;
+  }
+
+  .media-text.half.gradient:not(.sub) a.button:any-link {
+    min-width: 150px;
+  }
+
+  /* half gradient sub: a rounded gradient card inset in the container (24px top, 24px sides
+     around the picture), title 56px under the picture, full-width CTA over a centred link */
+  .media-text.half.gradient.sub {
+    background: transparent;
+  }
+
+  .media-text.half.gradient.sub .mt-inner {
+    padding: 42px var(--container-pad) 33px;
+  }
+
+  .media-text.half.gradient.sub .mt-row {
+    margin: 0;
+    padding: 24px 14px 8px;
+    border-radius: 24px;
+    background: var(--gradient-primary);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  }
+
+  .media-text.half.gradient.sub .mt-text :is(h1, h2, h3) {
+    margin-top: 56px;
+  }
+
+  .media-text.sub .mt-copy :is(h1, h2) + p {
+    margin-bottom: 16px;
+  }
+
+  .media-text.half.gradient.sub .mt-copy ul {
+    margin: 0 0 15px;
+    padding-left: 28px;
+    list-style: none;
+  }
+
+  .media-text.half.gradient.sub .mt-copy p:is(.button-wrapper, :has(> :is(strong, em) > a)),
+  .media-text.half.gradient.sub .mt-copy p:has(> a:only-child) {
+    display: block;
+    margin: 0 0 8px;
+  }
+
+  .media-text.half.gradient.sub .mt-copy a.button:any-link {
+    width: 100%;
+  }
+
+  .media-text.half.gradient.sub .mt-copy p:has(> a:only-child):not(.button-wrapper) {
+    margin: 0;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .media-text.half.gradient.sub .mt-copy p > a:only-child:not(.button) {
+    color: var(--color-tertiary-darken-40);
+    text-decoration: none;
+  }
+
+  .media-text.half.gradient.sub .mt-copy p > a:only-child:not(.button)::before {
+    content: "\203A";
+    margin-right: 12px;
+  }
+
+  /* orange story bands: a picture-led band sits flush (16px foot); a copy-led band is at
+     least 80% of the viewport tall; the F1 title wraps in a 207px box */
+  .media-text.fill.orange.media-first .mt-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .media-text.fill.orange.text-first {
+    min-height: 80vh;
+  }
+
+  .media-text.fill.orange.natural .mt-inner {
+    padding-bottom: 23px;
+  }
+
+  .media-text.orange.natural .mt-copy p:not(.button-wrapper) {
+    margin-bottom: 24px;
+  }
+
+  .media-text.orange.natural .mt-text :is(h1, h2, h3) {
+    max-width: 207px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  /* half airy: a white rounded card, the picture 270px wide, copy inset 29px */
+  .media-text.half.airy .mt-inner {
+    padding: 41px var(--container-pad) 31px;
+  }
+
+  .media-text.half.airy .mt-row {
+    margin: 0;
+    padding: 24px 15px 10px;
+    border-radius: 24px;
+    background: var(--color-white);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  }
+
+  .media-text.half.airy .mt-text {
+    padding: 0 14px;
+  }
+
+  .media-text.half.airy .mt-text :is(h1, h2, h3) {
+    margin-top: 8px;
+  }
+
+  .media-text.half.airy .mt-copy strong {
+    font-weight: 700;
+  }
+}
+
+/* ==== END media-text landing small screens ==== */
+
+/* ==== BEGIN media-text (half rule) — owned by cluster-article: a 6/6 half band closed by a
+   gray rule in the container, h3-size title (black; tint = orange), 14px copy
+   (source digitale-kabel-tv-en-radio / digitale-radio vc half bands) ==== */
+.media-text.half.rule .mt-row {
+  padding: 48px 0;
+}
+
+.media-text.half.rule .mt-inner::after {
+  content: "";
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.media-text.half.rule .mt-inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.media-text.half.rule .mt-text :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-3);
+}
+
+.media-text.half.rule.tint .mt-text :is(h2, h3) {
+  color: var(--color-primary);
+}
+
+.media-text.half.rule .mt-copy :is(p, li) {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* pic5: the picture at its 455px source size (5 of 12 columns; digitale-radio first band) */
+.media-text.half.rule.pic5 .mt-frame img {
+  max-width: 455px;
+}
+
+@media (width >= 768px) {
+  .media-text.half.rule .mt-text {
+    padding-left: 16px;
+  }
+}
+
+/* ==== END media-text (half rule) ==== */
+
+/* ==== BEGIN media-text (half light card) — owned by cluster-article: on the light band a
+   rounded brand-gradient card the container wide, white h2-size title + 16px copy in the left
+   half, the picture in the right half with a rounded inner corner (source mediaboxen
+   "Ook kijken op je tweede tv?", card 360px tall at 1440) ==== */
+.media-text.half.light.card .mt-inner {
+  padding: 56px var(--container-pad);
+}
+
+.media-text.half.light.card .mt-row {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--gradient-primary);
+}
+
+.media-text.half.light.card .mt-text {
+  padding: 24px;
+}
+
+.media-text.half.light.card .mt-text :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-white);
+  font-size: var(--heading-font-size-2);
+}
+
+.media-text.half.light.card .mt-text .mt-copy p {
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.9;
+}
+
+.media-text.half.light.card .mt-frame img {
+  border-radius: 64px 0 0;
+}
+
+@media (width >= 768px) {
+  .media-text.half.light.card .mt-row {
+    align-items: stretch;
+    height: 360px;
+  }
+
+  .media-text.half.light.card .mt-text {
+    flex: 0 0 49%;
+    max-width: 49%;
+    order: 0;
+    align-self: center;
+    padding: 32px 160px 32px 32px;
+  }
+
+  .media-text.half.light.card .mt-media {
+    flex: 0 0 51%;
+    max-width: 51%;
+    order: 1;
+    margin-left: 0;
+    padding: 0 35px 24px 0;
+  }
+
+  .media-text.half.light.card .mt-media :is(.mt-frame, p, picture) {
+    height: 100%;
+    margin: 0;
+  }
+
+  .media-text.half.light.card .mt-frame img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ==== END media-text (half light card) ==== */
+
+/* ==== BEGIN media-text (intro ctas) — owned by cluster-article: the centred CTA pair right
+   under the hero, side by side 16px apart (source ziggo-go "Kijk nu" / "Dit kan je met Ziggo GO") ==== */
+.media-text.intro.ctas .mt-inner {
+  padding: 24px var(--container-pad) 8px;
+}
+
+.media-text.intro.ctas .mt-copy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.media-text.intro.ctas .mt-copy p {
+  margin: 0;
+}
+
+.media-text.intro.ctas .mt-copy a.button:any-link {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .media-text.intro.ctas .mt-inner {
+    padding-top: 24px;
+  }
+}
+
+/* ==== END media-text (intro ctas) ==== */
+
+/* ==== media-text (intro snug) — cluster-article: the intro right under the breadcrumb (24px),
+   its lead 16px regular on 32px lines, 740px wide (source 4k-uhd / digitale-kabel intro) ==== */
+.media-text.intro.snug .mt-inner,
+.media-text.intro.snug.tv .mt-inner {
+  padding-top: 24px;
+}
+
+.media-text.intro.snug .mt-copy :is(h1, h2) + p {
+  max-width: 740px;
+  margin-top: 8px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+@media (width >= 768px) {
+  .media-text.intro.snug .mt-inner {
+    padding-top: 24px;
+  }
+}
+
+/* ==== media-text (intro ctas tags) — owned by cluster-landing: the tag band of the landing
+   pages carries "intro ctas tags"; keep the tag-list spacing over the intro ctas pair rules
+   (source ziggo-sport / extra-zenders tag list: 32px / 43px, 6px x 8px gaps) ==== */
+.media-text.intro.ctas.tags .mt-inner {
+  padding: 32px var(--container-pad) 43px;
+}
+
+.media-text.intro.ctas.tags .mt-copy {
+  gap: 6px 8px;
+}
+
+/* intro flush: no band padding under the lead (the next section brings its own head space;
+   source tv-apps) — cluster-article */
+.media-text.intro.flush .mt-inner,
+.media-text.intro.tight.flush .mt-inner {
+  padding-bottom: 0;
+}
+
+/* under the extra-zenders FAQ (ten) the tag band opens 48px from 768px (source 1440: 80px from
+   the last question) */
+@media (width >= 768px) {
+  main .section:has(.faq-accordion.ten) + .section .media-text.intro.ctas.tags .mt-inner {
+    padding-top: 48px;
+  }
+}
+
+/* intro snug below 768px: 10px under the breadcrumb, an 18px lead on 32px lines (source 4k-uhd 360) */
+@media (width < 768px) {
+  .media-text.intro.snug .mt-inner,
+  .media-text.intro.snug.tv .mt-inner {
+    padding-top: 10px;
+  }
+
+  .media-text.intro.snug .mt-copy :is(h1, h2) + p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* ==== media-text small screens — cluster-article 360 r2 (measured, source 360) ====
+   intro note: the lead 44px under the breadcrumb band at 18px / 28.8px, then the note as one
+   bordered box (1px #a9aeb2, 8px inset, 24px under the lead): a 141px round picture centred,
+   the copy 16px under it, left-aligned, 24px foot (source hoofdmenu 360: lead y588 h115, box
+   y727 h345, img 141x141, copy x29 w302) */
+@media (width < 768px) {
+  .media-text.intro.note .mt-inner {
+    padding-top: 44px;
+  }
+
+  .media-text.intro.note .mt-copy > p:first-child {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) {
+    margin-top: 24px;
+    padding: 8px 8px 0;
+    border: 1px solid #a9aeb2;
+    border-bottom: 0;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) img {
+    width: 141px;
+    height: 141px;
+  }
+
+  .media-text.intro.note .mt-copy > p:has(picture, img) + p {
+    padding: 16px 8px 24px;
+    border: 1px solid #a9aeb2;
+    border-top: 0;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  /* tight flush intro with a lone lead (no title): the lead at 18px / 28.8px
+     (source digitale-radio / tv-apps 360: 9 and 7 lines of 28.8px) */
+  .media-text.intro.tight.flush .mt-copy > p:only-child {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  /* half rule, picture first: the source picture is a 320 x 193 crop of the wide asset
+     (source digitale-radio 360 "De digitale radiozenders": img 320x193) */
+  .media-text.half.rule.media-first:not(.tint) .mt-frame img {
+    width: 100%;
+    aspect-ratio: 320 / 193;
+    object-fit: cover;
+  }
+}
+
+/* ==== media-text (kijkprofielen) — gate-all: off source-spec compare @1440/@360 (source
+   televisie/kijkprofielen) ==== */
+
+/* intro tv large: h4-size eyebrow flush on the title, 20/32 lead (vfz-text--lead), 64/72px top,
+   16/24px under the lead; the title in its col-8 below 768px (live h3 y+64/72, p 20/32 w617) */
+.media-text.intro.tv.large .mt-inner {
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
+
+.media-text.intro.tv.large .mt-text :is(h2, h3):has(+ :is(h2, h3)) {
+  margin: 0;
+  font-size: var(--heading-font-size-4);
+}
+
+.media-text.intro.tv.large .mt-copy :is(h1, h2) + p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+@media (width < 768px) {
+  .media-text.intro.tv.large .mt-copy :is(h1, h2) {
+    max-width: 207px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (width >= 768px) {
+  .media-text.intro.tv.large .mt-inner {
+    padding-top: 72px;
+  }
+}
+
+@media (width >= 1024px) {
+  .media-text.intro.tv.large .mt-inner {
+    padding-bottom: 24px;
+  }
+}
+
+/* duo stack: the picture at its own ratio, square-cornered, 32px under the band top; from 1024px
+   in an 11/12 column at the container edge (live img x152 w1039 h599), the copy 32px under it */
+.media-text.duo.stack .mt-inner {
+  padding-top: 32px;
+}
+
+.media-text.duo.stack .mt-frame {
+  border-radius: 0;
+}
+
+.media-text.duo.stack .mt-frame img {
+  aspect-ratio: auto;
+}
+
+@media (width >= 1024px) {
+  .media-text.duo.stack .mt-col.mt-media {
+    align-self: flex-start;
+    width: calc(100% * 11 / 12);
+    max-width: none;
+    margin-top: 0;
+  }
+
+  .media-text.duo.stack .mt-col.mt-text {
+    margin-top: 32px;
+    margin-left: calc(324px - var(--container-pad) / 2);
+  }
+}
+
+/* duo grouped (source vfz-grouping bands): from 1024px the copy sits 64px under the band top with
+   56px under its last line, the picture cell 64px down (vfz-spacing-top--l), both centred in the
+   row; 32px under the row unless flush (content--no-padding-bottom); third = a 4/8 split
+   (live h3 y+64/+77, rows 375/417/516/435, band 8 text w293 picture w747) */
+@media (width >= 1024px) {
+  .media-text.duo.grouped .mt-inner {
+    padding-top: 0;
+    padding-bottom: 32px;
+  }
+
+  .media-text.duo.grouped.flush .mt-inner {
+    padding-bottom: 0;
+  }
+
+  .media-text.duo.grouped .mt-text {
+    padding-top: 64px;
+    padding-bottom: 56px;
+  }
+
+  .media-text.duo.grouped .mt-copy > :last-child {
+    margin-bottom: 0;
+  }
+
+  .media-text.duo.grouped .mt-media {
+    padding-top: 64px;
+  }
+
+  .media-text.duo.grouped.third .mt-col.mt-text {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding-right: 48px;
+  }
+
+  .media-text.duo.grouped.third .mt-col.mt-media {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+}
+
+/* ==== END media-text (kijkprofielen) ==== */
+
+/* kijkprofielen r2 (source-spec compare r1): intro title 8px over the lead below 768px; stack copy
+   +16px right, the CTA line 24px under the copy and 46px band foot from 1024px; grouped bands below
+   1024px: 9px under a closing paragraph, 40px under a closing list, a closing CTA 24px under the copy
+   with 55px under it (live band feet 72/87px, CTA span y+36 under the copy) */
+@media (width < 768px) {
+  .media-text.intro.tv.large .mt-text :is(h2, h3) + :is(h2, h3) {
+    margin-bottom: 8px;
+  }
+}
+
+@media (width >= 1024px) {
+  .media-text.duo.stack .mt-col.mt-text {
+    margin-left: calc(340px - var(--container-pad) / 2);
+  }
+
+  .media-text.duo.stack .mt-copy > p:last-child {
+    margin-top: 24px;
+  }
+
+  .media-text.duo.stack .mt-inner {
+    padding-bottom: 46px;
+  }
+
+  .media-text.duo.grouped .mt-copy > p:last-child:has(a.button) {
+    margin-top: 32px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (width < 1024px) {
+  .media-text.duo.grouped .mt-copy > p:last-child {
+    margin-bottom: 9px;
+  }
+
+  .media-text.duo.grouped .mt-copy > ul:last-child {
+    margin-bottom: 40px;
+  }
+
+  .media-text.duo.grouped .mt-copy > p:last-child:has(a.button) {
+    margin-top: 24px;
+    margin-bottom: 55px;
+  }
+}
+
+/* ==== media-text (wide lead) — gate-all, source online-tv-kijken deal / UEFA bands: 18/28.8 lead
+   copy, 16px under the title, 24px over the CTA; band 64px over the picture below 1024px, 80px
+   over / 56px under the row from 1024px (live @1440 img y+80 h366, band 502; @360 img y+64) ==== */
+.media-text.wide.lead .mt-copy p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.media-text.wide.lead .mt-text :is(h1, h2, h3) {
+  margin-bottom: 16px;
+}
+
+.media-text.wide.lead .mt-copy p:has(+ p a.button) {
+  margin-bottom: 24px;
+}
+
+.media-text.wide.lead .mt-inner {
+  padding-top: 64px;
+}
+
+@media (width >= 1024px) {
+  .media-text.wide.lead .mt-inner {
+    padding-top: 80px;
+    padding-bottom: 56px;
+  }
+}
+
+/* ==== media-text (intro ctas dual) — gate-all, source ziggo-go: the source carries the CTA pair
+   twice, shown by orientation (z-dynamic-content--hidden-portrait / --hidden-landscape): the
+   landscape pair labels the second CTA "Dit kan je met Ziggo GO", the portrait pair "Over Ziggo GO".
+   Authored: CTA 1, the landscape label, the portrait label. Band 32px over and under the buttons,
+   54px between them, the pair 30px right of centre (live @1440 / @360 band 112, CTA Δx +4 / −35) */
+.media-text.intro.ctas.dual .mt-inner {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.media-text.intro.ctas.dual .mt-copy {
+  flex-wrap: nowrap;
+  gap: 54px;
+  padding-left: 30px;
+}
+
+@media (max-aspect-ratio: 1/1), (orientation: portrait) {
+  .media-text.intro.ctas.dual .mt-copy > p:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (min-aspect-ratio: 1/1), (orientation: landscape) {
+  .media-text.intro.ctas.dual .mt-copy > p:nth-child(3) {
+    display: none;
+  }
+}
+
+/* ==== media-text (makkelijk-zoeken below 768px) — gate-all, source-spec compare @360:
+   intro "lead": the eyebrow line in the h4 headline style 64px under the band top, the title in its
+   col-8 (207px), the 20/32 lead 8px under it (live eyebrow 20.26 bold Ziggo Headline, h2 w207,
+   p 20/32); duo big: 32px over the picture, the title 16px under it, copy at the container edge
+   18/28.8, list lines 24px (live img y+32, h2 +16, text x20 w320, p 18/28.8, li 16/24) ==== */
+@media (width < 768px) {
+  .media-text.intro.lead .mt-inner {
+    padding-top: 64px;
+  }
+
+  .media-text.intro.lead .mt-copy p:has(+ :is(h1, h2)) {
+    margin: 0;
+    color: var(--color-black);
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size-4);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .media-text.intro.lead .mt-copy :is(h1, h2) {
+    max-width: 207px;
+    margin: 0 auto;
+  }
+
+  .media-text.intro.lead .mt-copy :is(h1, h2) + p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+
+  .media-text.duo.big .mt-inner {
+    padding-top: 32px;
+  }
+
+  .media-text.duo.big .mt-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .media-text.duo.big .mt-text :is(h2, h3) {
+    margin-top: 16px;
+  }
+
+  .media-text.duo.big .mt-copy p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  .media-text.duo.big .mt-copy li {
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,30 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 556 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/espn (docH 7573, 150 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/espn (docH 7445, 153 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 6/6 | 0/0 | 4/4 | 1/1 | - |
+| 1 | alles van espn bij ziggo | 2/2 | 2/0 | 1/1 | 1/2 | - |
+| 2 | espn 1 | 0/0 | 0/2 | 2/2 | 0/0 | - |
+| 3 | dit kijk je bij espn | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 4 | alle wedstrijden | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 5 | nog meer topvoetbal | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 6 | meer dan voetbal | 0/0 | 0/0 | 1/1 | 2/2 | - |
+| 7 | alle espn-zenders | 2/2 | 0/0 | 4/4 | 0/0 | - |
+| 8 | daarom kies je ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 9 | altijd het beste van sport en entertainm | 0/1 | 0/0 | 0/0 | 1/1 | - |
+| 10 | ziggo sport & espn | 1/2 | 0/0 | 1/1 | 1/1 | - |
+| 11 | uefa europees voetbal | 1/2 | 0/0 | 1/1 | 1/1 | - |
+| 12 | tv & streaming | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 13 | dit is espn bij ziggo | 1/0 | 0/0 | 1/0 | 1/0 | HEADING AS TEXT, MOVED LINK |
+| 14 | veelgestelde vragen | 0/1 | 5/5 | 0/1 | 0/1 | - |
+| 15 | nog een vraag? | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 16 | onze adviseurs helpen je graag | 3/3 | 0/0 | 3/3 | 3/3 | - |
+  🟡 HEADING AS TEXT: origin h3 "je overstap is zo geregeld" is served as plain text / a link, not a heading (visually present — semantics only)
+  🟡 EXTRA HEADING: served h3 "espn 2" (y 1377) has no origin heading
+  🟡 EXTRA HEADING: served h3 "je overstap is zo geregeld" (y 5333) has no origin heading
+  🟡 MOVED LINK: "kies voor ziggo" short in band "dit is espn bij ziggo" but visible elsewhere on the served page
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 1 extra 0 / count deltas 0
+Findings: 4 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-espn-360/content-presence-pub2.json

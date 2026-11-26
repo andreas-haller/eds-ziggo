@@ -1,0 +1,28 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 228 ms
+[live-session] denial-page check skipped at https://www.ziggo.nl/televisie/zenderoverzicht: denial-page probe: deadline 10000 ms exceeded
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 1035 text nodes — 5 headings, 0 eyebrows, 234 CTAs, 796 body; 601 img
+  build: 1035 text nodes — 5 headings, 0 eyebrows, 234 CTAs, 796 body; 601 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 174 / build 174; icons: source 438 / build 438
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 6 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🟡 ICON DIFF [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) vs build empty icon box (0×0) at "ziggo go". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) vs build empty icon box (0×0) at "ziggo hd". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) vs build empty icon box (0×0) at "ziggo replay". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.

@@ -1,0 +1,66 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-zenders-sbs6-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-zenders-sbs6-360/pixel-pub2.json",
+    "pct": 1.53,
+    "alignedPct": 1.04,
+    "alignedUsed": true,
+    "totalShift": 2,
+    "steps": [
+      {
+        "y": 1619,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2163,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 26,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T18:18:03.895Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-zenders-sbs6-360/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T18:25:41.072Z"
+}

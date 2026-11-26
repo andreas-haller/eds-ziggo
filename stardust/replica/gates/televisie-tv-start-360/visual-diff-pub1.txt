@@ -1,0 +1,378 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 238 ms
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 191 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/televisie-tv-start-360/vdiff-pub1/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 9 images, build renders 3. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+  • SURFACE/GROUND MISMATCH: heading "TV Start" is rgb(255, 255, 255) in build vs rgb(255, 95, 0) in source (luminance 255 vs 132). A matched heading renders on a different ground (dark vs light) — check the section background.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 2120,
+  "textLen": 873,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_header20_Ziggo_B2C_KabelTV_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x154",
+    "rendered": "360x154",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "loader.gif",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "loader.gif",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=5a515649-f151-4918-a333-da3cd8ce19da&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=TV%20Start%20pakket%20%7C%20Haal%20meer%20uit%20je%20televisie%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-start&r=&lt=2542&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=531063",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=5a515649-f151-4918-a333-da3cd8ce19da&bo=4&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&ec=b2c%2Facq%2Fmain-product%2Fdtv&el=tv%20start%20(ci%2B)%2Cconverged%3Dunknown%2CcustStatus.ziggo%3DprobNonCust&ev=37.71&gc=EUR&tpp=1&ea=pdp&en=Y&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-start&sw=360&sh=1000&sc=24&evt=custom&asc=G&cdb=AQED&rn=794681",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-start&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "TV Start",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Haal meer uit je tv. En meer tv ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Check je beschikbaarheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dit zit er in je pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "22.784px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "22.784px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV Start",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "z-user-identification__title",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-accordion-item--has-icon",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-accordion-item--has-icon",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-accordion-item--has-icon",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-accordion-item--has-icon",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "",
+    "width": 320,
+    "left": 20
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 2127,
+  "textLen": 900,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a76572815fe941785a782d7aea621f6100d519e6.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x322",
+    "rendered": "360x155",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1891046d02ffd3326b42411cfbd4af9b6dd5a59cd.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "TV Start",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Haal meer uit je tv. En meer tv ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Check je beschikbaarheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dit zit er in je pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "22.784px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "TV Start",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "22.784px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "int-nav",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-img",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-sub",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "uid-title",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "check",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "step-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "step-intro",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "usp-title",
+    "width": 261,
+    "left": 50
+   },
+   {
+    "sel": "usp-title",
+    "width": 261,
+    "left": 50
+   },
+   {
+    "sel": "usp-title",
+    "width": 261,
+    "left": 50
+   },
+   {
+    "sel": "usp-title",
+    "width": 261,
+    "left": 50
+   }
+  ]
+ }
+}

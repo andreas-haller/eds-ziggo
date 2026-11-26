@@ -25,3 +25,563 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* stylelint-disable no-descending-specificity */
+
+/* ==== icons: icon + label tiles (source icon-text row: 40/43px icon over a navy label) ==== */
+.cards.icons > ul {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 0;
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 0 64px;
+}
+
+.cards.icons > ul > li {
+  border: 0;
+  background: transparent;
+  text-align: center;
+}
+
+.cards.icons .cards-card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.cards.icons .cards-card-image p {
+  margin: 0;
+}
+
+.cards.icons > ul > li img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.cards.icons .cards-card-body {
+  margin: 0 10px;
+}
+
+.cards.icons .cards-card-body p {
+  margin: 0;
+  color: var(--color-tertiary);
+  font-weight: 300;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .cards.icons > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width >= 1024px) {
+  .cards.icons > ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 63px;
+    padding-bottom: 72px;
+  }
+
+  .cards.icons > ul > li img {
+    width: 43px;
+    height: 43px;
+  }
+
+  .cards.icons .cards-card-body {
+    margin: 0 16px;
+  }
+}
+
+/* the section head over the icon tiles (default content: eyebrow + orange title) */
+main .section:has(.cards.icons) > .default-content-wrapper {
+  padding-top: 16px;
+  text-align: center;
+}
+
+main .section:has(.cards.icons) > .default-content-wrapper p:has(+ h2) {
+  margin: 0;
+  color: var(--color-black);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+main .section:has(.cards.icons) > .default-content-wrapper h2 {
+  margin: 0 auto;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-1);
+}
+
+@media (width >= 768px) {
+  main .section:has(.cards.icons) > .default-content-wrapper {
+    padding-top: 24px;
+  }
+
+  main .section:has(.cards.icons) > .default-content-wrapper h2 {
+    max-width: 768px;
+  }
+}
+
+/* ==== icons large: 3 centred USP tiles (65px icon, gray label) under a 39px title + intro,
+   closing primary CTA (source internet "Snel en stabiel") ==== */
+.cards.icons.large > ul {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  max-width: none;
+  margin: 16px 10px 0;
+  padding: 0;
+}
+
+.cards.icons.large > ul > li img {
+  width: 37px;
+  height: 37px;
+}
+
+.cards.icons.large .cards-card-body {
+  margin: 8px 10px 0;
+}
+
+.cards.icons.large .cards-card-body p {
+  color: var(--color-secondary);
+  text-decoration: none;
+  white-space: normal;
+}
+
+main .section:has(.cards.icons.large) > .default-content-wrapper {
+  padding-top: 32px;
+}
+
+main .section:has(.cards.icons.large) > .default-content-wrapper h2 {
+  font-size: var(--heading-font-size-2);
+  font-weight: 600;
+  line-height: calc(var(--heading-font-size-1) * 1.1);
+}
+
+main .section:has(.cards.icons.large) > .default-content-wrapper h2 + p {
+  margin: 16px auto 0;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+main .section:has(.cards.icons.large) > .cards-wrapper + .default-content-wrapper {
+  padding: 40px 0 56px;
+}
+
+@media (width >= 768px) {
+  .cards.icons.large > ul {
+    grid-template-columns: repeat(3, 194.67px);
+    justify-content: center;
+    margin: 25px auto 0;
+  }
+
+  .cards.icons.large > ul > li img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .cards.icons.large .cards-card-body {
+    margin: 8px 16px 0;
+  }
+
+  main .section:has(.cards.icons.large) > .default-content-wrapper h2,
+  main .section:has(.cards.icons.large) > .default-content-wrapper h2 + p {
+    max-width: 747px;
+  }
+
+  main .section:has(.cards.icons.large) > .default-content-wrapper h2 + p {
+    margin-top: 24px;
+  }
+
+  main .section:has(.cards.icons.large) > .cards-wrapper + .default-content-wrapper {
+    padding: 48px 0 72px;
+  }
+
+  main .section:has(.cards.icons.large) > .default-content-wrapper:has(+ .cards-wrapper) {
+    padding-top: 64px;
+  }
+}
+
+/* ==== aside: one help card (picture, white title, navy text, primary CTA) on the brand
+   gradient, beside the FAQ list in the same section from 1024px (source espn FAQ aside) ==== */
+.cards.aside > ul {
+  grid-template-columns: 1fr;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad) 48px;
+}
+
+.cards.aside > ul > li {
+  overflow: hidden;
+  border: 0;
+  border-radius: 24px;
+  background: var(--gradient-primary);
+  color: var(--color-tertiary-darken-40);
+}
+
+.cards.aside > ul > li img {
+  aspect-ratio: 16 / 9;
+}
+
+.cards.aside .cards-card-body {
+  margin: 0;
+  padding: 24px;
+}
+
+.cards.aside .cards-card-body :is(h2, h3) {
+  margin: 0 0 16px;
+  color: var(--color-white);
+  font-size: var(--heading-font-size-3);
+}
+
+.cards.aside .cards-card-body p {
+  margin: 0 0 24px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.cards.aside .cards-card-body p.button-wrapper {
+  margin: 0;
+}
+
+@media (width >= 1024px) {
+  main .section:has(.cards.aside) {
+    display: flex;
+    align-items: flex-start;
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-pad) 96px;
+  }
+
+  main .section:has(.cards.aside) > .faq-accordion-wrapper {
+    flex: 0 0 63%;
+  }
+
+  main .section:has(.cards.aside) > .cards-wrapper {
+    flex: 0 0 357px;
+    margin-left: auto;
+    padding-top: 64px;
+  }
+
+  .cards.aside > ul {
+    padding: 0;
+  }
+}
+
+/* ==== icons rows — owned by cluster-article: 3 columns of icon-left rows (small orange icon,
+   bold title, 14px copy; source online-tv-kijken "De mogelijkheden op een rijtje") ==== */
+.cards.icons.rows > ul {
+  grid-template-columns: 1fr;
+  gap: 48px 32px;
+  padding-bottom: 32px;
+}
+
+.cards.icons.rows > ul > li {
+  display: flex;
+  gap: 16px;
+  text-align: left;
+}
+
+.cards.icons.rows > ul > li img {
+  width: 24px;
+  height: 24px;
+}
+
+.cards.icons.rows .cards-card-body {
+  margin: 0;
+  padding: 0;
+}
+
+.cards.icons.rows .cards-card-body h3 {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+}
+
+.cards.icons.rows .cards-card-body p {
+  margin: 0;
+  color: var(--color-black);
+  font-weight: 400;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+@media (width >= 768px) {
+  .cards.icons.rows > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cards.icons.rows .cards-card-body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* a label authored as a link (source modal trigger <a href="#">) keeps the plain label look */
+.cards.icons .cards-card-body a:any-link {
+  display: inline;
+  height: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  white-space: inherit;
+}
+
+/* the rows' section head: a centred display-size orange h3 (source online-tv-kijken) */
+main .section:has(.cards.icons.rows) > .default-content-wrapper h3 {
+  max-width: 747px;
+  margin: 0 auto;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-1);
+  text-align: center;
+}
+
+/* aside below 1024px (source espn 360): the help card comes first, 56px under the band above,
+   16px inset copy with the title 8px over its text; the FAQ list follows it */
+@media (width < 1024px) {
+  main .section:has(.cards.aside:not(.help)) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .section:has(.cards.aside:not(.help)) > .cards-wrapper {
+    order: -1;
+  }
+
+  .cards.aside:not(.help) > ul {
+    padding: 56px var(--container-pad) 0;
+  }
+
+  .cards.aside:not(.help) .cards-card-body {
+    padding: 16px;
+  }
+
+  .cards.aside:not(.help) .cards-card-body :is(h2, h3) {
+    margin-bottom: 8px;
+  }
+}
+
+/* ==== icons light — owned by cluster-article: the icon rows on a full-width light band, the
+   section head black (eyebrow + h2-size title), body links underlined
+   (source ziggo-go "Dit kun je allemaal met Ziggo GO") ==== */
+main .section:has(.cards.icons.light) {
+  margin-top: 32px;
+  padding: 32px 0 48px;
+  background: var(--color-gray-100);
+}
+
+main .section:has(.cards.icons.light) > .default-content-wrapper h2 {
+  margin-bottom: 40px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-2);
+}
+
+main .section:has(.cards.icons.light) > .default-content-wrapper p:has(+ h2) {
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cards.icons.light .cards-card-body p a:any-link {
+  color: var(--color-tertiary);
+  text-decoration: underline;
+}
+
+/* ==== aside help — owned by cluster-article: the aside help card on light gray, a 40px icon
+   over a black h5-size title, 14px copy (source ziggo-go "Hulp bij Ziggo GO") ==== */
+.cards.aside.help > ul > li {
+  background: var(--color-gray-100);
+  color: var(--color-secondary);
+}
+
+.cards.aside.help .cards-card-image {
+  padding: 24px 24px 0;
+}
+
+.cards.aside.help > ul > li img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: auto;
+}
+
+.cards.aside.help .cards-card-body :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-4);
+}
+
+.cards.aside.help .cards-card-body p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+/* rows light (measured, source ziggo-go 1440): 33px icons, copy 32px right of them, 25px
+   titles, 16px / 25.6px weight-300 copy, rows 160px apart */
+.cards.icons.rows.light > ul {
+  gap: 48px 32px;
+}
+
+.cards.icons.rows.light > ul > li {
+  gap: 32px;
+}
+
+.cards.icons.rows.light > ul > li img {
+  width: 33px;
+  height: 33px;
+}
+
+.cards.icons.rows.light .cards-card-body h3 {
+  margin: 8px 0 0;
+  font-size: var(--heading-font-size-4);
+  line-height: 1.1;
+}
+
+.cards.icons.rows.light .cards-card-body p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.cards.aside.help .cards-card-body p:not(.button-wrapper) {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ==== icons rows below 768px — cluster-article: a 37px icon at the container edge, the
+   title 20px right of it and 8px under the icon top, 16px / 25.6px weight-300 copy, rows 23px
+   apart (measured, source online-tv-kijken / ziggo-go 360: icon x20 37x37, h3 x77 y+8,
+   copy 263px wide, row pitch 131px) ==== */
+@media (width < 768px) {
+  .cards.icons.rows > ul,
+  .cards.icons.rows.light > ul {
+    gap: 23px;
+    padding-right: var(--container-pad);
+    padding-left: var(--container-pad);
+  }
+
+  .cards.icons.rows > ul > li,
+  .cards.icons.rows.light > ul > li {
+    gap: 20px;
+  }
+
+  .cards.icons.rows .cards-card-image {
+    flex: 0 0 37px;
+  }
+
+  .cards.icons.rows > ul > li img,
+  .cards.icons.rows.light > ul > li img {
+    width: 37px;
+    height: 37px;
+  }
+
+  .cards.icons.rows .cards-card-body h3,
+  .cards.icons.rows.light .cards-card-body h3 {
+    margin: 8px 0 1px;
+    font-size: var(--heading-font-size-4);
+    line-height: 1.1;
+  }
+
+  .cards.icons.rows .cards-card-body p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+}
+
+/* ==== icons rows from 1024px — gate-all (source online-tv-kijken / ziggo-go @1440: 33px icon at
+   the container edge, copy 32px beside it, h4-size title, 16/25.6 w300 copy, 3 columns of 357px) */
+@media (width >= 1024px) {
+  .cards.icons.rows > ul {
+    max-width: min(1136px, 100%);
+    gap: 48px 32px;
+  }
+
+  .cards.icons.rows > ul > li {
+    gap: 32px;
+  }
+
+  .cards.icons.rows > ul > li img {
+    flex: 0 0 33px;
+    width: 33px;
+    height: 33px;
+  }
+
+  .cards.icons.rows .cards-card-body h3 {
+    margin: 0;
+    font-size: var(--heading-font-size-4);
+    line-height: 1.1;
+  }
+
+  .cards.icons.rows .cards-card-body p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+}
+
+/* the rows' info note (source vfz-notification--ghost--info): a gray-600 outlined box, 14/22.4
+   w300 copy inset 37px left / 55px right (live @1440 text x189 w1044, @360 x57) */
+main .section:has(.cards.icons.rows) > .cards-wrapper + .default-content-wrapper p {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 12px 55px 12px 37px;
+  border: 1px solid var(--color-gray-600, #5b6166);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* icon rows from 1024px: the icon cell keeps its 33px (it shrank to 18px in the flex row) */
+@media (width >= 1024px) {
+  .cards.icons.rows .cards-card-image {
+    flex: 0 0 33px;
+  }
+}
+
+/* icons light: the eyebrow in the h5 headline style (live ziggo-go "Functies" 18.5/20.35 @360,
+   20/22 @1440, bold Ziggo Headline); below 768px the band 8px tighter on top and 31px between rows
+   (live row pitch 139 vs 131) */
+main .section:has(.cards.icons.light) > .default-content-wrapper p:has(+ h2) {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-5);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media (width < 768px) {
+  .cards.icons.rows.light > ul {
+    row-gap: 31px;
+  }
+}
+
+/* aside help icon: 77px below 768px, 49px from 1024px (live ziggo-go settings icon) */
+@media (width < 768px) {
+  .cards.aside.help > ul > li img {
+    width: 77px;
+    height: 77px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards.aside.help > ul > li img {
+    width: 49px;
+    height: 49px;
+  }
+}
+
+/* rows head 24px lower (live online-tv-kijken "De mogelijkheden op een rijtje" Δy −24 @1440/@360) */
+main .section:has(.cards.icons.rows) > .default-content-wrapper h3 {
+  margin-top: 24px;
+}

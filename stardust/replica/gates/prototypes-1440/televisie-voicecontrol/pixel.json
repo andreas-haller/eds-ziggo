@@ -1,0 +1,207 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/televisie-voicecontrol/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/televisie-voicecontrol/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4884,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 133026,
+  "pct": 1.89,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/televisie-voicecontrol/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 4884,
+      "pct": 0.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.89,
+    "differingPixels": 132738,
+    "compared": {
+      "width": 1440,
+      "height": 4885,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4779,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 9.7,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 5.9,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 4884,
+        "pct": 0.3,
+        "unaligned": 0.3
+      }
+    ],
+    "diff": "stardust/replica/gates/prototypes-1440/televisie-voicecontrol/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/televisie-voicecontrol-proposed.html",
+    "key": {
+      "v": 3,
+      "build": "http://localhost:8791/televisie-voicecontrol-proposed.html",
+      "source": "https://www.ziggo.nl/televisie/voicecontrol",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "376fd4a480011063",
+      "reference": "b64b68cdc357b28e",
+      "archetype": "ddc460e9da189cfa",
+      "captures": "38e726e81dfbe624",
+      "instruments": "700566dc6f7774a4",
+      "prototype": "4c96169d56d877c9",
+      "page content": "a2c454981857cdf1"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 4,
+          "textNodes": 112,
+          "controls": 82,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-25T15:01:13.819Z"
+  }
+}

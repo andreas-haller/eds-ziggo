@@ -1,0 +1,96 @@
+{
+  "round": "pub4",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub4.png",
+    "json": "stardust/replica/gates/televisie-online-tv-kijken-1440/pixel-pub4.json",
+    "pct": 22.17,
+    "alignedPct": 11.53,
+    "alignedUsed": true,
+    "totalShift": 387,
+    "steps": [
+      {
+        "y": 1643,
+        "shift": -88,
+        "cumulative": -88
+      },
+      {
+        "y": 2176,
+        "shift": -57,
+        "cumulative": -145
+      },
+      {
+        "y": 2630,
+        "shift": -40,
+        "cumulative": -185
+      },
+      {
+        "y": 3100,
+        "shift": -125,
+        "cumulative": -310
+      },
+      {
+        "y": 3525,
+        "shift": -29,
+        "cumulative": -339
+      },
+      {
+        "y": 4033,
+        "shift": 7,
+        "cumulative": -332
+      },
+      {
+        "y": 4523,
+        "shift": -40,
+        "cumulative": -372
+      },
+      {
+        "y": 5071,
+        "shift": 1,
+        "cumulative": -371
+      }
+    ],
+    "offsetBound": 52,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 11.53% (unaligned 22.17%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:17:05.243Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-diff-pub4.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/visual-diff-pub4.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/chrome-parity-pub4.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/clip-pub4.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-presence-pub4.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/units-pub4.txt"
+    }
+  },
+  "structural": 136,
+  "nothingLost": 3,
+  "at": "2026-11-25T23:34:43.351Z"
+}

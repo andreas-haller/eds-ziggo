@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T23:46:34.679Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-26T00:13:29.500Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-26T00:31:01.523Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cap: aligned 9.53%, Δh 8; residual offsets +60 @1104 (boxed card band: source card copy/title metrics) and −112 @4543 (Interessant voor jou grouping cards: source gray-400 card heights from the vfz grouping padding); header icon-font reds are frozen foundation (nav icons)",
+          "at": "2026-11-26T00:41:34.871Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-26T02-06-59-829Z",
+          "at": "2026-11-26T02:12:46.422Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:00:24.577Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:54:36.228Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

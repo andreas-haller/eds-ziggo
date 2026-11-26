@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T23:07:45.743Z",
+          "verdict": "fail",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T23-13-03-891Z",
+          "at": "2026-11-25T23:15:51.755Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-23-06-876Z",
+          "at": "2026-11-25T23:25:51.632Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T23-29-47-440Z",
+          "at": "2026-11-25T23:32:32.104Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T01-50-18-066Z",
+          "at": "2026-11-26T01:53:38.235Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-00-07-818Z",
+          "at": "2026-11-26T02:00:53.404Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:27:46.230Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:10:25.098Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "gate-all cap at 360: mobile band spacing/heights of media-text duo, mediabox-cards and hero copy not matched within 3 rounds (see gate-all row); frozen chrome findings",
+          "at": "2026-11-25T23:32:45.504Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

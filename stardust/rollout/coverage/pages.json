@@ -1,0 +1,1650 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-25T15:21:44.972Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-26T05:13:52.739Z",
+  "pages": [
+    {
+      "slug": "alles-in-1",
+      "path": "/alles-in-1",
+      "title": "Alles-in-1 | Vergelijk Internet, TV &amp; Bellen | Ziggo",
+      "templateId": "alles-in-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/alles-in-1/_meta.json",
+        "sourceHash": "sha256:f370150a33b41b136ef5249b1d806f0428c037f625930435ab2afc61a93245a5",
+        "sourceUrl": "https://www.ziggo.nl/alles-in-1",
+        "migratedTree": "stardust/migrated/alles-in-1/index.html",
+        "deliveredHtml": "content/alles-in-1.html"
+      },
+      "blocks": [
+        "hero-band",
+        "bundle-builder",
+        "address-checker",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/alles-in-1",
+        "deployedAt": "2026-11-25T18:04:57.781Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Ziggo | Internet • TV &amp; Streaming • Bellen",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:71ea02f11413f0fff374b9f9ef59060996f558998169524063325031027d0208",
+        "sourceUrl": "https://www.ziggo.nl/"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/",
+        "deployedAt": "2026-11-25T17:17:43.306Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.99,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 17,
+            "hiddenButtons": 0,
+            "findings": 24,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "internet",
+      "path": "/internet",
+      "title": "Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:045859ade5b8f1b86ba2072eefeab3024f92cdbfebcbb098d8ddffbd9100d037",
+        "currentStatePath": "stardust/current/pages/internet.json",
+        "sourceUrl": "https://www.ziggo.nl/internet"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/internet",
+        "deployedAt": "2026-11-25T22:17:09.327Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.74,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 19,
+            "hiddenButtons": 0,
+            "findings": 26,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie",
+      "path": "/televisie",
+      "title": "Televisie - TV & Streaming op één plek | Ziggo",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0ac764f82f509cfeb40fb03080dbf777b7b64844d84de941d1fc86c1fd38e0df",
+        "currentStatePath": "stardust/current/pages/televisie.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie",
+        "deployedAt": "2026-11-25T22:17:08.811Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.67,
+          "heightDelta": -6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 16,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-4k-uhd",
+      "path": "/televisie/4k-uhd",
+      "title": "4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ba28af0b80f4d29d494a50c15459d252c38e2c4341dbe73fb0f4983cbc1bbac3",
+        "currentStatePath": "stardust/current/pages/televisie-4k-uhd.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/4k-uhd"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd",
+        "deployedAt": "2026-11-26T02:19:10.585Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.9,
+          "heightDelta": -89,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 17,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-digitale-kabel-tv-en-radio",
+      "path": "/televisie/digitale-kabel-tv-en-radio",
+      "title": "Digitale Kabel TV | Televisie | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c876a8273540d94f15313c71d5ff4a7a735ade531a08073920e4cca771fdafd4",
+        "currentStatePath": "stardust/current/pages/televisie-digitale-kabel-tv-en-radio.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio",
+        "deployedAt": "2026-11-26T02:19:10.700Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.99,
+          "heightDelta": 67,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-digitale-radio",
+      "path": "/televisie/digitale-radio",
+      "title": "Digitale Radio | Televisie | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b4406d2f3ae3fba2e8f88e05c0042a52e70f20e0f500fd58f9f8a532b8340733",
+        "currentStatePath": "stardust/current/pages/televisie-digitale-radio.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/digitale-radio"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio",
+        "deployedAt": "2026-11-26T02:19:10.820Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.37,
+          "heightDelta": -46,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-espn",
+      "path": "/televisie/espn",
+      "title": "Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3ff9cfe42a6a8d7797a9e4e7fc3c16e89daa7f58204b5840951d3a1553b05149",
+        "currentStatePath": "stardust/current/pages/televisie-espn.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/espn"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/espn",
+        "deployedAt": "2026-11-25T22:17:10.843Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.11,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "title": "Extra zenders & streamingdiensten | Ziggo",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:db36e9122d20b14e76a4576e489abae00e02a9d0e2b53c0cccb2ecc9ecf7a2ca",
+        "currentStatePath": "stardust/current/pages/televisie-extra-zenders-streamingdiensten.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten",
+        "deployedAt": "2026-11-25T22:17:09.795Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.33,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "path": "/televisie/extra-zenders-streamingdiensten/disneyplus",
+      "title": "Kijk alles van Disney Plus | Ziggo",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "representative": "televisie-extra-zenders-streamingdiensten-netflix",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:becc81eb69937b40c1cc8cbe44ae1a133e6be5148b6f5c31ed4dbcd657edee74",
+        "currentStatePath": "stardust/current/pages/televisie-extra-zenders-streamingdiensten-disneyplus.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus"
+      },
+      "blocks": [
+        "hero-band",
+        "breadcrumb",
+        "streaming-service-cards",
+        "media-text",
+        "streaming-tier-table",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus",
+        "deployedAt": "2026-11-25T19:56:27.883Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.24,
+          "heightDelta": 42,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "path": "/televisie/extra-zenders-streamingdiensten/netflix",
+      "title": "Netflix kijken op je Mediabox | Ziggo",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/televisie/extra-zenders-streamingdiensten/netflix/_meta.json",
+        "sourceHash": "sha256:e0cd8ef96cfdcf036b243da0bc114cbb80eb0e67162d701a4d8ee3fd7b9971b6",
+        "sourceUrl": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+        "migratedTree": "stardust/migrated/televisie/extra-zenders-streamingdiensten/netflix/index.html",
+        "deliveredHtml": "content/televisie/extra-zenders-streamingdiensten/netflix.html"
+      },
+      "blocks": [
+        "hero-band",
+        "breadcrumb",
+        "streaming-service-cards",
+        "media-text",
+        "streaming-tier-table",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+        "deployedAt": "2026-11-25T18:36:30.207Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.23,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": [
+              ".chat-button=.streaming-features.contact .sf-link:has(a[href^=\"#start-pre-chat\"])"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-hoofdmenu",
+      "path": "/televisie/hoofdmenu",
+      "title": "Je persoonlijke startscherm | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7747643ecfe456fe898c8ee5ba61ab43ea315c5fe8d621b6f3dd10afbba218eb",
+        "currentStatePath": "stardust/current/pages/televisie-hoofdmenu.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/hoofdmenu"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu",
+        "deployedAt": "2026-11-25T23:09:53.420Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.56,
+          "heightDelta": -108,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-kabel-tv",
+      "path": "/televisie/kabel-tv",
+      "title": "Kabel TV: voordelig tv kijken | Ziggo",
+      "templateId": "alles-in-1",
+      "representative": "alles-in-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f5d03852b185e01930450b827f7cdc8b089d8786a54e37c343ac1e99f1dedcdd",
+        "currentStatePath": "stardust/current/pages/televisie-kabel-tv.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/kabel-tv"
+      },
+      "blocks": [
+        "hero-band",
+        "bundle-builder",
+        "address-checker",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv",
+        "deployedAt": "2026-11-25T21:05:18.587Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.03,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-kijkprofielen",
+      "path": "/televisie/kijkprofielen",
+      "title": "Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:04bbaa71f1b1c8ac544518049663bc10d916ef32f630c46ecd918b956bba2c07",
+        "currentStatePath": "stardust/current/pages/televisie-kijkprofielen.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/kijkprofielen"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen",
+        "deployedAt": "2026-11-25T23:09:53.297Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.49,
+          "heightDelta": 36,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-makkelijk-zoeken",
+      "path": "/televisie/makkelijk-zoeken",
+      "title": "Makkelijk zoeken | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d14c58b201372e1510d811ca113df1912ebc42917b79cf7abfc51708809399b7",
+        "currentStatePath": "stardust/current/pages/televisie-makkelijk-zoeken.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/makkelijk-zoeken"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken",
+        "deployedAt": "2026-11-25T23:09:52.805Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.39,
+          "heightDelta": 72,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-mediaboxen",
+      "path": "/televisie/mediaboxen",
+      "title": "Ziggo Mediaboxen | Televisie | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dba4bac74f0615fafba92db9cef5f35ecd6db7c2cb00ef3fe52ed4bfc26fe2be",
+        "currentStatePath": "stardust/current/pages/televisie-mediaboxen.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/mediaboxen"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen",
+        "deployedAt": "2026-11-26T02:19:10.959Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.62,
+          "heightDelta": -63,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-online-tv-kijken",
+      "path": "/televisie/online-tv-kijken",
+      "title": "Online tv-kijken waar en wanneer je wilt | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:55068160564f74a4104c8e33998288fc73034cb479a958a805ef21b6c4f67162",
+        "currentStatePath": "stardust/current/pages/televisie-online-tv-kijken.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/online-tv-kijken"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken",
+        "deployedAt": "2026-11-25T23:09:53.047Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.51,
+          "heightDelta": 158,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-opnemen",
+      "path": "/televisie/opnemen",
+      "title": "Opnemen, pauzeren en terugspoelen | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:21a21e11e0ab285cb667e09f089d6e5f07d4019f5649ec996387f5a16ba604d5",
+        "currentStatePath": "stardust/current/pages/televisie-opnemen.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/opnemen"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen",
+        "deployedAt": "2026-11-25T23:09:53.167Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 24.5,
+          "heightDelta": 139,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-terugkijken",
+      "path": "/televisie/terugkijken",
+      "title": "Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:385291d811fa72bf3b8de3dee2669434792dc643720acc087d7a13bd30fd50a0",
+        "currentStatePath": "stardust/current/pages/televisie-terugkijken.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/terugkijken"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken",
+        "deployedAt": "2026-11-25T23:09:52.926Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 17.27,
+          "heightDelta": -131,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-tv-apps",
+      "path": "/televisie/tv-apps",
+      "title": "TV apps op je mediabox | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c8eaa286184263e5926a1e6a24e07c045798fce65888a0354b0b56399a539fbc",
+        "currentStatePath": "stardust/current/pages/televisie-tv-apps.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/tv-apps"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps",
+        "deployedAt": "2026-11-26T02:19:11.200Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.19,
+          "heightDelta": -152,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-tv-start",
+      "path": "/televisie/tv-start",
+      "title": "TV Start pakket | Haal meer uit je televisie | Ziggo",
+      "templateId": "alles-in-1",
+      "representative": "alles-in-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c8b545619c34ee35e51f6a9e9e253ea78bb6aa210554ddc05c1b4ee8e2285f48",
+        "currentStatePath": "stardust/current/pages/televisie-tv-start.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/tv-start"
+      },
+      "blocks": [
+        "hero-band",
+        "bundle-builder",
+        "address-checker",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start",
+        "deployedAt": "2026-11-25T21:05:18.396Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.97,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-voicecontrol",
+      "path": "/televisie/voicecontrol",
+      "title": "Afstandsbediening met Voice Control | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/televisie/voicecontrol/_meta.json",
+        "sourceHash": "sha256:99086b31a198d1b59fea4637adefcea0dd7140e9585ca3f36b354f0e5822b089",
+        "sourceUrl": "https://www.ziggo.nl/televisie/voicecontrol",
+        "migratedTree": "stardust/migrated/televisie/voicecontrol/index.html",
+        "deliveredHtml": "content/televisie/voicecontrol.html"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol",
+        "deployedAt": "2026-11-25T16:54:42.737Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.89,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenderoverzicht",
+      "path": "/televisie/zenderoverzicht",
+      "title": "Vind alle digitale zenders bij Ziggo in het zenderoverzicht",
+      "templateId": "televisie-zenderoverzicht",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/televisie/zenderoverzicht/_meta.json",
+        "sourceHash": "sha256:1bdaea9d69eec3e4e2a836e5f66ca13792f7e4965160769d01215d22c1f498b5",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenderoverzicht",
+        "migratedTree": "stardust/migrated/televisie/zenderoverzicht/index.html",
+        "deliveredHtml": "content/televisie/zenderoverzicht.html"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-overview",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/zenderoverzicht",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-npo-1",
+      "path": "/televisie/zenders/npo-1",
+      "title": "NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/televisie/zenders/npo-1/_meta.json",
+        "sourceHash": "sha256:5227e422e9538880387bb2c0b21530e7ddb8a4df45fa800b63caffda0d367bae",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/npo-1",
+        "migratedTree": "stardust/migrated/televisie/zenders/npo-1/index.html",
+        "deliveredHtml": "content/televisie/zenders/npo-1.html"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1",
+        "deployedAt": "2026-11-25T17:39:45.855Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-npo-2",
+      "path": "/televisie/zenders/npo-2",
+      "title": "NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6bf5ef3b54a5cd52f7cff3b79b58819579790b0aae52e2dd25e7ba4259491a58",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-npo-2.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/npo-2"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/npo-2",
+        "deployedAt": "2026-11-25T18:49:16.451Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-npo-3",
+      "path": "/televisie/zenders/npo-3",
+      "title": "NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9a9fe000209a7c6efdb3568665a96f8082077798143fb603d7b2af790682dfbb",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-npo-3.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/npo-3"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/npo-3",
+        "deployedAt": "2026-11-25T18:49:16.574Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-rtl-4",
+      "path": "/televisie/zenders/rtl-4",
+      "title": "RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:520258cae1e6a8230e6c4ca6ffbe00e24b7df125e5ff4c26ca27506e91e44961",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-rtl-4.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/rtl-4"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/rtl-4",
+        "deployedAt": "2026-11-25T18:49:16.309Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.68,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-rtl-5",
+      "path": "/televisie/zenders/rtl-5",
+      "title": "RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ab1b910c4a61b2412ab9d4122d377dca818262d52c999c45aa062df6753e7286",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-rtl-5.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/rtl-5"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/rtl-5",
+        "deployedAt": "2026-11-25T18:49:16.694Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.5,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-sbs6",
+      "path": "/televisie/zenders/sbs6",
+      "title": "SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:aad89cf9f4a98a98bbeb60b39e4f9be526ff789bd65e46ff8e463d08b1dc324c",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-sbs6.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/sbs6"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/sbs6",
+        "deployedAt": "2026-11-25T18:49:16.119Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.53,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-zenders-star-channel",
+      "path": "/televisie/zenders/star-channel",
+      "title": "STAR Channel kijken | Zenderoverzicht Ziggo",
+      "templateId": "televisie-zenders-npo-1",
+      "representative": "televisie-zenders-npo-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:88f988f5de69baee7ae85339a0f4e4605bc41bcb4f84a163e1b5e25c5f2d57bc",
+        "currentStatePath": "stardust/current/pages/televisie-zenders-star-channel.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/zenders/star-channel"
+      },
+      "blocks": [
+        "hero-band",
+        "channel-info-card",
+        "social-share",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/star-channel",
+        "deployedAt": "2026-11-25T18:49:16.847Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-ziggo-go",
+      "path": "/televisie/ziggo-go",
+      "title": "Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo",
+      "templateId": "televisie-voicecontrol",
+      "representative": "televisie-voicecontrol",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ac5104b98b54832bf278ab239acc44856d88b27d5507c08aab6a1e44730b849b",
+        "currentStatePath": "stardust/current/pages/televisie-ziggo-go.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/ziggo-go"
+      },
+      "blocks": [
+        "hero-band",
+        "sticky-subnav",
+        "breadcrumb",
+        "media-text",
+        "mediabox-cards",
+        "faq-accordion",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go",
+        "deployedAt": "2026-11-26T02:19:11.074Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 18.94,
+          "heightDelta": -69,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "path": "/televisie/ziggo-sport",
+      "title": "Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2569a68773d7c203a0e512ba1d97809bbcd059ca9065863f58d545590ceb87b6",
+        "currentStatePath": "stardust/current/pages/televisie-ziggo-sport.json",
+        "sourceUrl": "https://www.ziggo.nl/televisie/ziggo-sport"
+      },
+      "blocks": [
+        "identification-bar",
+        "hero-band",
+        "toptask-tiles",
+        "feature-cards",
+        "plan-cards",
+        "media-carousel",
+        "swimming-lane",
+        "priority-band",
+        "article-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport",
+        "deployedAt": "2026-11-25T22:17:10.297Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.36,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    },
+    {
+      "slug": "tv-internet",
+      "path": "/tv-internet",
+      "title": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+      "templateId": "alles-in-1",
+      "representative": "alles-in-1",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7fb510efaeb5090b41d03bf7db03627d0621fab1cd931d9e468ba5bbf6583d75",
+        "currentStatePath": "stardust/current/pages/tv-internet.json",
+        "sourceUrl": "https://www.ziggo.nl/tv-internet"
+      },
+      "blocks": [
+        "hero-band",
+        "bundle-builder",
+        "address-checker",
+        "faq-accordion",
+        "contact-band",
+        "interactions"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--50ca44c6--aemcoder.aem.page/tv-internet",
+        "deployedAt": "2026-11-25T21:05:18.256Z",
+        "verifiedAt": "2026-11-26T05:13:52.739Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.31,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-26T04:32:25.875Z"
+        }
+      }
+    }
+  ]
+}

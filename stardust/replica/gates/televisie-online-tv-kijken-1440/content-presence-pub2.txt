@@ -1,0 +1,38 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/online-tv-kijken (docH 5176, 181 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken (docH 5148, 175 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | online tv-kijken | 6/6 | 0/0 | 2/2 | 0/0 | - |
+| 2 | overal in huis en onderweg online tv-kij | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 3 | tv-kijken via internet met ziggo go | 0/0 | 0/0 | 1/1 | 3/3 | - |
+| 4 | altijd en overal online tv-kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | maak van elk scherm je tv | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | wifi die werkt. gegarandeerd | 4/4 | 0/0 | 3/3 | 1/1 | - |
+| 7 | kies voor internet & tv van ziggo | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 8 | uefa europees voetbal | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 9 | de mogelijkheden op een rijtje | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | tot 7 dagen terugkijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | live tv-kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 12 | programma's opnemen | 0/0 | 0/0 | 3/3 | 3/1 | - |
+| 13 | streamen naar je tv | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 14 | on- en offline kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 15 | meer schermen tegelijk | 1/1 | 1/0 | 4/4 | 3/2 | - |
+| 16 | online tv-kijken met ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 17 | het beste entertainment voor jou | 4/4 | 2/0 | 0/0 | 4/4 | MISSING BUTTON |
+| 18 | 70+ digitale zenders | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 19 | gratis ziggo sport | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 20 | streamingdiensten | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 21 | extra zenders | 4/10 | 0/0 | 4/7 | 0/3 | COUNT IMAGES |
+| 22 | veelgestelde vragen | 0/0 | 8/8 | 0/0 | 0/0 | - |
+  🟠 MISSING BUTTON: "scroll naar links" in band "het beste entertainment voor jou" (origin y 3388) not on the served page
+  🟠 MISSING BUTTON: "scroll naar rechts" in band "het beste entertainment voor jou" (origin y 3388) not on the served page
+  🟡 EXTRA HEADING: served h2 "priority" (y 3711) has no origin heading
+  🟡 EXTRA HEADING: served h2 "uefa" (y 3711) has no origin heading
+  🟡 EXTRA HEADING: served h2 "wifi garantie" (y 3711) has no origin heading
+  🟡 COUNT IMAGES: band "extra zenders": 0 origin → 3 served visible
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 2 hidden 0 / moved 0 extra 0 / count deltas 1
+Findings: 6 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-online-tv-kijken-1440/content-presence-pub2.json

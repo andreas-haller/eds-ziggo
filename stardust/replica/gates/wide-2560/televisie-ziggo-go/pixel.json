@@ -1,0 +1,219 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-ziggo-go/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-ziggo-go/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4416,
+    "mode": "overlap"
+  },
+  "heightDelta": -129,
+  "differingPixels": 1522694,
+  "pct": 13.47,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/televisie-ziggo-go/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 12.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 28.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 32.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 11.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 28.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4416,
+      "pct": 1.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.13,
+    "differingPixels": 597195,
+    "compared": {
+      "width": 2560,
+      "height": 4545,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1952,
+        "shift": 40,
+        "cumulative": 40
+      },
+      {
+        "y": 2709,
+        "shift": 8,
+        "cumulative": 48
+      },
+      {
+        "y": 3835,
+        "shift": 80,
+        "cumulative": 128
+      },
+      {
+        "y": 4311,
+        "shift": 1,
+        "cumulative": 129
+      }
+    ],
+    "maxOffset": 129,
+    "totalShift": 129,
+    "insertedRows": 129,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 16.3,
+        "unaligned": 12.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.4,
+        "unaligned": 28.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.1,
+        "unaligned": 32.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.3,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 16.4,
+        "unaligned": 28.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4416,
+        "pct": 0.2,
+        "unaligned": 1.7
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-ziggo-go/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 44,
+    "totalShift": 129,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 129px total — +40px at y=1952, +8px at y=2709, +80px at y=3835, +1px at y=4311 (bound 44px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go",
+      "source": "https://www.ziggo.nl/televisie/ziggo-go",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "83041815a9f30018",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "8eebfa2e835da2cd",
+      "instruments": "700566dc6f7774a4",
+      "page content": "a7d10c79d5efe88d",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block cards": "4ada5cf24baa6d90",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 114,
+          "controls": 77,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T05:04:07.563Z"
+  }
+}

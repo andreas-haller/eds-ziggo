@@ -1,0 +1,791 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/televisie-ziggo-go-360/vdiff-pub2/
+
+build red flags (advisory): 
+  • HEADING FACE: <h2> "Download Ziggo GO" is 25.6px Vodafone Ziggo text in build vs 25.6px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5453,
+  "textLen": 2478,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_header60_Ziggo_B2C_ZiggoGO_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x270",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_replay-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-live?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_record-2-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-stream?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "connection_download-circle.svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_multiple-screens?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_account_mockup_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_devices_mockup_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x266_Ziggo_B2C_logo_gradient_transparant_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_banner60_Ziggo_B2C_ZiggoGO_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x203",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_article-21x9_ziggo-go-op-vakantie_mobiel_v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x138",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_article-21x9_ziggo-go-op-vakantie_mobiel_v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x138",
+    "rendered": "320x138",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_article-21x9_ziggo-go-op-2e-tv_mobiel_v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x138",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_article-21x9_ziggo-go-op-2e-tv_mobiel_v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x138",
+    "rendered": "320x138",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "settings_settings?fmt=svg",
+    "natural": "24x24",
+    "rendered": "77x77",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=54e2bcc6-5256-4576-abc9-c0397f247146&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Ziggo%20GO%20-%20Maak%20van%20elk%20scherm%20je%20tv%20met%20Ziggo%20GO%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-go&r=&lt=11463&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=80750",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-go&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo GO",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kijk tv op je smartphone, tablet",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Dit kun je allemaal met Ziggo GO",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tot 7 dagen terugkijken",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Live tv-kijken",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Programma's opnemen",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Streamen naar je tv",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "On- en offline kijken",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meer schermen tegelijk",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "In 3 stappen Ziggo GO gebruiken",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "1. Vodafone & Ziggo account",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "2. Tablet, telefoon of tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "3.  Ziggo GO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Download Ziggo GO",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zo gebruik je Ziggo GO overal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO op vakantie",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO op je 2e tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hulp bij Ziggo GO",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 263,
+    "left": 77
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5805,
+  "textLen": 2467,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11cd39d5d42c5ed679009b3904b30ba068facfdab.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_175a230b2fb2a7e6a7e5c2848c37254460c7a8154.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_170d3015d66ba4e08f31d073ccc07532660b7bdd9.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "18x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15147cc379b22906df0febb41890f8d8924ce60ca.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "17x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14d85ca826351caedf5b81f91ada323b73bee3c0d.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "19x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12d2ff52dc66cdeb1c117dd85bb78954c3aaf59e6.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "14x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11baa2b37c00d5ba692ee27d43fb8aea2b80ecc98.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "21x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12b9d86a9c5ed9b88b840ca5660c6f1d3eba310ff.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "17x33",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_178087f7c08fd28f78d35bca5a803b1eef02a788c.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16eafe975d46891ddd10f1c27e7c4ee1fcd1bbaae.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16dc695d6599acdb0b42af780856edfba5a697d61.webp?width=750&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "320x180",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_129de98898b36f4900418092ca5682303252526f9.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_137b481e3df55ba03684e94badfabcecb226f65e5.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1572b8409d4ddeb44a38a906897a0c4d69941cb02.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x322",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f0ecb950df0a72789f635bd7562983b2eff950be.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x322",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_192bd837842385d6f15fb9c583154e0f74468b78f.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "40x40",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo GO",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kijk tv op je smartphone, tablet",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Dit kun je allemaal met Ziggo GO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tot 7 dagen terugkijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Live tv-kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Programma's opnemen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Streamen naar je tv",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "On- en offline kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meer schermen tegelijk",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "In 3 stappen Ziggo GO gebruiken",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "1. Vodafone & Ziggo account",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "2. Tablet, telefoon of tv",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "3. Ziggo GO",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Download Ziggo GO",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zo gebruik je Ziggo GO overal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO op vakantie",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO op je 2e tv",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Hulp bij Ziggo GO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20.256px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-img",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-sub",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mt-copy",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 310,
+    "left": 50
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 311,
+    "left": 49
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 309,
+    "left": 51
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 314,
+    "left": 46
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 307,
+    "left": 53
+   },
+   {
+    "sel": "cards-card-body",
+    "width": 311,
+    "left": 49
+   },
+   {
+    "sel": "mb-eyebrow",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "mb-title",
+    "width": 320,
+    "left": 20
+   }
+  ]
+ }
+}

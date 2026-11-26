@@ -1,0 +1,72 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/diff-iter2.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/pixel-iter2.json",
+    "pct": 1.77,
+    "alignedPct": 0.76,
+    "alignedUsed": true,
+    "totalShift": 4,
+    "steps": [
+      {
+        "y": 1345,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6291,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7528,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 8775,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T14:14:01.530Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/content-diff-iter2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/visual-diff-iter2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/chrome-parity-iter2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/clip-iter2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/units-iter2.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-25T14:21:33.056Z"
+}

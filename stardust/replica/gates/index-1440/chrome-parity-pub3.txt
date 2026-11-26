@@ -1,0 +1,16 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 425 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-25T10:50:49.751Z — delete the file to re-probe)
+  build: https://main--50ca44c6--aemcoder.aem.page/
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 1440×112; selector body > header
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,5493 1440×581; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,5490 1440×582; selector body > footer
+  advisory     REGION OFFSET: page Δy -3px (5493→5490) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✓ chrome parity within tolerance, 2 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

@@ -1,0 +1,71 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/alles-in-1-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/alles-in-1-1440/pixel-pub3.json",
+    "pct": 0.97,
+    "alignedPct": 0.44,
+    "alignedUsed": true,
+    "totalShift": 3,
+    "steps": [
+      {
+        "y": 3992,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 8900,
+        "shift": 1,
+        "cumulative": 2
+      },
+      {
+        "y": 10528,
+        "shift": 1,
+        "cumulative": 3
+      }
+    ],
+    "offsetBound": 107,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T12:21:39.049Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T17:59:39.496Z"
+}

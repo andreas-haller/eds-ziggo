@@ -1,0 +1,42 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-25T15:21:44.972Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.ziggo.nl/",
+    "da": {
+      "org": "aemcoder",
+      "site": "50ca44c6",
+      "ref": "main"
+    },
+    "liveHost": "main--50ca44c6--aemcoder.aem.live",
+    "site": "50ca44c6"
+  },
+  "scope": {
+    "pages": 33,
+    "discovered": 33,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-26T05:13:52.739Z",
+    "pages": {
+      "total": 33,
+      "verified": 33,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 23,
+      "converted": 23,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

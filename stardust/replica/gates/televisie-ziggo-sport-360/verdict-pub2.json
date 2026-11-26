@@ -1,0 +1,116 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-ziggo-sport-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-ziggo-sport-360/pixel-pub2.json",
+    "pct": 47.42,
+    "alignedPct": 13.4,
+    "alignedUsed": true,
+    "totalShift": 476,
+    "steps": [
+      {
+        "y": 270,
+        "shift": -77,
+        "cumulative": -77
+      },
+      {
+        "y": 1465,
+        "shift": -55,
+        "cumulative": -132
+      },
+      {
+        "y": 2331,
+        "shift": 1,
+        "cumulative": -131
+      },
+      {
+        "y": 2780,
+        "shift": 31,
+        "cumulative": -100
+      },
+      {
+        "y": 3051,
+        "shift": 1,
+        "cumulative": -99
+      },
+      {
+        "y": 3322,
+        "shift": -75,
+        "cumulative": -174
+      },
+      {
+        "y": 3579,
+        "shift": -7,
+        "cumulative": -181
+      },
+      {
+        "y": 5315,
+        "shift": 25,
+        "cumulative": -156
+      },
+      {
+        "y": 5846,
+        "shift": -2,
+        "cumulative": -158
+      },
+      {
+        "y": 6589,
+        "shift": -11,
+        "cumulative": -169
+      },
+      {
+        "y": 7267,
+        "shift": 33,
+        "cumulative": -136
+      },
+      {
+        "y": 8002,
+        "shift": -39,
+        "cumulative": -175
+      }
+    ],
+    "offsetBound": 132,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 13.4% (unaligned 47.42%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:38:38.224Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-360/units-pub2.txt"
+    }
+  },
+  "structural": 151,
+  "nothingLost": 1,
+  "at": "2026-11-25T22:01:01.075Z"
+}

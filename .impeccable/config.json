@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "ziggo-ui-icon-v22",
+        "createdAt": "2026-11-25T10:39:50.766Z",
+        "reason": "replica: source icon font ziggo-ui-icon-v22 captured from live @font-face (same-design migration)"
+      },
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/assets/canon.css"
+        ],
+        "createdAt": "2026-11-25T10:39:50.783Z",
+        "reason": "replica: live .vfz-tile__icon computes background-image gradient clipped to text (measured)"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/assets/televisie-zenderoverzicht.css"
+        ],
+        "createdAt": "2026-11-25T15:06:16.755Z",
+        "reason": "agent (replica hands-off): source-faithful 2px dotted column divider measured on live ziggo.nl filter panel; empty inconsistency register forbids design deltas"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "vodafone-ziggo-text-fallback",
+        "createdAt": "2026-11-25T15:30:26.273Z",
+        "reason": "deploy skill step 4: required metric-matched local fallback face for the brand body font"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "ziggo-headline-fallback",
+        "createdAt": "2026-11-25T15:30:26.290Z",
+        "reason": "deploy skill step 4: required metric-matched local fallback face for the brand headline font"
+      },
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "blocks/toptask-tiles/toptask-tiles.css"
+        ],
+        "createdAt": "2026-11-25T15:42:33.131Z",
+        "reason": "same-design replica: the source toptask icon glyphs use the brand gradient (gated prototype canon.css .tile__icon)"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "blocks/header/header.css"
+        ],
+        "createdAt": "2026-11-26T06:44:09.058Z",
+        "reason": "agent (replica flow): open Menu button's 4px orange bottom underline is measured on the live ziggo.nl source; same-design migration must reproduce it"
+      }
+    ]
+  }
+}

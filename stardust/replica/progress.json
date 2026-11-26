@@ -1,0 +1,722 @@
+{
+  "_provenance": {
+    "writtenBy": "replica Phase 3-4 (listing archetype)",
+    "writtenAt": "2026-11-25T15:04:26Z"
+  },
+  "types": {
+    "index": {
+      "pageType": "landing",
+      "archetype": "index",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/index.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "6 advisory",
+            "pixelPct": 2.53,
+            "pixelUnaligned": 2.77,
+            "offsetsPx": 4,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "PASS (standalone after iter3, 0 missing)",
+            "chromeParity": "1 delta: logo file signature",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "band": "y 5500-6000",
+              "pct": 26.1,
+              "cause": "Priority background video stream not harvestable; poster stands in",
+              "flaggedFor": "delivery"
+            },
+            {
+              "region": "header logo",
+              "pct": null,
+              "cause": "chrome-parity icon signature ziggo-logo-orange-v1 vs ziggo-logo-orange-v1.svg — same SVG; extension required for static serving",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "swimming-lane marquee rows (rows masked by the frozen reference as self-varying: 1440 3852:396, 360 5292:356); prototype starts paused as live was at gate capture",
+              "where": "swimming-lane",
+              "restoreAtDelivery": "tv-marquee translateX(-50%) linear infinite, --duration 255.43 s (row 1) / 156.73 s (row 2), pause on hover and via the toggle (aria-pressed); live state at capture: paused"
+            },
+            {
+              "what": "Priority band background video replaced by its poster 3840x1730_hero80_priority.jpg (live stream is a blob/MSE source, not harvestable)",
+              "where": "priority band",
+              "restoreAtDelivery": "background video autoplay muted loop with play/pause control (source to be supplied by owner; see dynamic-features A3-class decision)"
+            },
+            {
+              "what": "lane content is a client-rendered feed (entertainment guide) frozen at the 2026-11-25 capture",
+              "where": "swimming-lane",
+              "restoreAtDelivery": "feed-driven cards (dynamic feature)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "6 advisory (heading-face on h2 wrapper span, empty-src lane logo x2, flush-left)",
+            "pixelPct": 9.84,
+            "pixelUnaligned": 10.06,
+            "offsetsPx": 4,
+            "heightDelta": 2,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "PASS 17/17",
+            "chromeParity": "quiet",
+            "pass": true,
+            "notes": "content-diff 0 red verified standalone after iter3 (gates/index-1440/content-diff-standalone-post-iter3.txt); iter3 gate showed 4 header ROLE SWAP reds since fixed"
+          },
+          "justified": [
+            {
+              "probe": "content",
+              "flag": "ICON DIFF lupin lane logo",
+              "why": "live empty logo src resolves to page URL; accepted.json"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 4354-5074",
+              "pct": 66.9,
+              "cause": "Priority background video stream not harvestable (blob/MSE); poster image stands in",
+              "flaggedFor": "delivery"
+            },
+            {
+              "band": "y 5000-5500",
+              "pct": 17.4,
+              "cause": "winacties photo cards: 1-2px sub-pixel offsets on high-detail photography",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "cap-probe 2560 module 5 (entertainment heading)",
+              "pct": null,
+              "cause": "heading width equal on both sides (870px at 2560); probe classifies live section as full-bleed, build as container-capped",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "swimming-lane marquee rows (rows masked by the frozen reference as self-varying: 1440 3852:396, 360 5292:356); prototype starts paused as live was at gate capture",
+              "where": "swimming-lane",
+              "restoreAtDelivery": "tv-marquee translateX(-50%) linear infinite, --duration 255.43 s (row 1) / 156.73 s (row 2), pause on hover and via the toggle (aria-pressed); live state at capture: paused"
+            },
+            {
+              "what": "Priority band background video replaced by its poster 3840x1730_hero80_priority.jpg (live stream is a blob/MSE source, not harvestable)",
+              "where": "priority band",
+              "restoreAtDelivery": "background video autoplay muted loop with play/pause control (source to be supplied by owner; see dynamic-features A3-class decision)"
+            },
+            {
+              "what": "lane content is a client-rendered feed (entertainment guide) frozen at the 2026-11-25 capture",
+              "where": "swimming-lane",
+              "restoreAtDelivery": "feed-driven cards (dynamic feature)"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "FAIL 1/10 rows (module 5 classification, logged residual)",
+        "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "droplet slide-in-left .2s + slide-out-left .16s, backdrop fade-in .3s/fade-out .16s, nav items slide-in, scroll-up fixed navbar (restore at y<=500), lane card hover img scale/button fade, card-v2 hover image scale 1.04, priority video opacity",
+        "implemented": "all of the above (canon.css + canon.js: droplet/backdrop enter/leave, .site-header--fixed toggle on scroll-up past 600px, hover transforms, marquee + pause toggle)",
+        "dead": [
+          "nav menuitem widget sample (no frame change)",
+          "carousel next widget sample (no frame change)",
+          "lane toggle widget sample (no frame change)"
+        ],
+        "compare": "stardust/replica/motion/index-compare.txt — 8 parity, 29 missing are framework class-name mutations only, 0 out of tolerance"
+      },
+      "units": "stardust/replica/units.json (toptask-tiles, usp-cards, plan-cards)"
+    },
+    "program": {
+      "pageType": "program",
+      "archetype": "alles-in-1",
+      "prototype": "stardust/prototypes/alles-in-1-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/modules.css",
+        "stardust/prototypes/assets/alles-in-1.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js",
+        "stardust/prototypes/assets/modules.js",
+        "stardust/prototypes/assets/alles-in-1.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "2 advisory",
+            "pixelPct": 0.83,
+            "pixelUnaligned": 1.06,
+            "offsetsPx": 8,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "PASS",
+            "chromeParity": "1 delta: logo file signature (as index)",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "page",
+              "pct": null,
+              "cause": "±1px sub-pixel row alternation (campaign bands, hardware/switch cards) — 8 steps net 0, at the 8px bound",
+              "flaggedFor": "none"
+            },
+            {
+              "region": "mobile order bar",
+              "pct": null,
+              "cause": "fixed bottom bar not paired by source-spec compare (fixed nodes on the build side); pixel-gated in chunk 1",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "configurator state as captured: Internet 200 Mbit/s, TV Start, Vast Bellen and 'Tot 15 maanden' selected; basket totals frozen (34,95 / 63,35)",
+              "where": "bundle builder + basket",
+              "restoreAtDelivery": "availability check, product selection and basket pricing are host-bound (z-bundle-builder / basket API) — dynamic feature, see stardust/dynamic-features.md"
+            },
+            {
+              "what": "desktop campaign band image 3840x1300_hero-60_ziggo-gradient.svg 404s on the live origin; the prototype references the same missing file so the gradient fallback renders as on live",
+              "where": "product-campaign bands",
+              "restoreAtDelivery": "none (mirror the live fallback)"
+            },
+            {
+              "what": "A/B-hidden 'Kijk live de mooiste topduels' block (vfz-ab-test-hidden) and hidden zakelijk CTA / address message kept in the DOM, hidden as on live",
+              "where": "TV step, availability card",
+              "restoreAtDelivery": "author-controlled visibility"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "2 advisory (hidden A/B h2 face, 'Let op!' h3 face)",
+            "pixelPct": 0.32,
+            "pixelUnaligned": 0.88,
+            "offsetsPx": 5,
+            "heightDelta": -3,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "PASS (standalone gate-all after iter3: off 0, missing 0)",
+            "chromeParity": "quiet",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "basket summary",
+              "pct": null,
+              "cause": "price block sub-pixel (≤4px) offsets from source fractional line boxes",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "configurator state as captured: Internet 200 Mbit/s, TV Start, Vast Bellen and 'Tot 15 maanden' selected; basket totals frozen (34,95 / 63,35)",
+              "where": "bundle builder + basket",
+              "restoreAtDelivery": "availability check, product selection and basket pricing are host-bound (z-bundle-builder / basket API) — dynamic feature, see stardust/dynamic-features.md"
+            },
+            {
+              "what": "desktop campaign band image 3840x1300_hero-60_ziggo-gradient.svg 404s on the live origin; the prototype references the same missing file so the gradient fallback renders as on live",
+              "where": "product-campaign bands",
+              "restoreAtDelivery": "none (mirror the live fallback)"
+            },
+            {
+              "what": "A/B-hidden 'Kijk live de mooiste topduels' block (vfz-ab-test-hidden) and hidden zakelijk CTA / address message kept in the DOM, hidden as on live",
+              "where": "TV step, availability card",
+              "restoreAtDelivery": "author-controlled visibility"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "PASS 0/6 rows",
+        "evidence": "stardust/replica/gates/alles-in-1-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "FAQ accordion: body height slide .3s on open, chevron flips instantly; product card click: select in group, card-selection-outline .8s linear + pulse 1s + shine 1s, radio pop (opacity/transform .2s, circle .4s, check stroke .3s); hover colour on help/usp triggers; interactions tab hover colour + slide-out label .3s; header scroll-up fixed navbar (canon)",
+        "implemented": "all of the above (alles-in-1.css keyframes/transitions + alles-in-1.js accordion/selection; header via canon.js)",
+        "dead": [
+          "product-card hover (no diff)",
+          "contract-promo hover",
+          "category-links hover",
+          "accordion header hover"
+        ],
+        "compare": "stardust/replica/motion/alles-in-1-compare.txt (10 parity; missing lines are class-name renames; header restore threshold 300 vs 500 = canon, advisory)"
+      },
+      "units": "stardust/replica/units.json (product-cards, contract-promo-cards)",
+      "sharedLayerNote": "accordion + interactions moved to modules.css/modules.js when the article archetype reused them; re-verified gate-all prototype 1440 0.32% / 360 0.83% (unchanged)"
+    },
+    "article": {
+      "pageType": "article",
+      "archetype": "televisie-voicecontrol",
+      "prototype": "stardust/prototypes/televisie-voicecontrol-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/modules.css",
+        "stardust/prototypes/assets/televisie-voicecontrol.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js",
+        "stardust/prototypes/assets/modules.js",
+        "stardust/prototypes/assets/televisie-voicecontrol.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 1.39,
+            "pixelUnaligned": 1.6,
+            "offsetsPx": 2,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "not declared",
+            "chromeParity": "logo signature only",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "header logo",
+              "pct": null,
+              "cause": "chrome-parity icon signature ziggo-logo-orange-v1 vs ziggo-logo-orange-v1.svg (extension only; canon, same as index/alles-in-1)",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "reference",
+              "pct": 0.64,
+              "cause": "live reference force-frozen: a third-party widget loads Roboto on some captures only (dead-face variance); 292 self-varying rows masked",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "chat availability as captured: interactions tab ‘Chat met ons – Niet beschikbaar’ with the offline (red) orb",
+              "where": "interactions side tabs / mobile bar",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md"
+            },
+            {
+              "what": "animated GIF demos (supersearch actie / romantiek) frame-variant on both sides",
+              "where": "Voice Control + Inspiratie sections",
+              "restoreAtDelivery": "none (same GIF files)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 1.51,
+            "pixelUnaligned": 1.52,
+            "offsetsPx": 1,
+            "heightDelta": -1,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "not declared (two mediabox cards only)",
+            "chromeParity": "quiet (1 advisory group)",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "subnav toggle (desktop-hidden)",
+              "pct": null,
+              "cause": "iter3 content-diff red: toggle glyph - vs live . at desktop; fixed after the cap (glyph scoped to <768px), verified standalone content-diff-post.txt 0 red / 0 nothing-lost and gate-all PASS",
+              "flaggedFor": "none"
+            },
+            {
+              "region": "commandos/tips photos",
+              "pct": null,
+              "cause": "source-spec radius none→24px: instrument depth limit (live clip ancestor is 5 levels up; measure.mjs confirms grouping radius 24px overflow hidden on live)",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "chat availability as captured: interactions tab ‘Chat met ons – Niet beschikbaar’ with the offline (red) orb",
+              "where": "interactions side tabs / mobile bar",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md"
+            },
+            {
+              "what": "animated GIF demos (supersearch actie / romantiek) frame-variant on both sides",
+              "where": "Voice Control + Inspiratie sections",
+              "restoreAtDelivery": "none (same GIF files)"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "PASS 0/11 rows",
+        "evidence": "stardust/replica/gates/televisie-voicecontrol-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "accordions (commands + FAQ): body height slide .3s, chevron flip + title colour gray-700 instantly on open; sticky subnavigation turns position:fixed at top once scrolled past, the in-view section link gets a 4px underline (scrollspy); interactions slide-out .3s; hover colours (buttons, breadcrumb link, interactions); header scroll-up fixed navbar",
+        "implemented": "all of the above (modules.js accordion, modules.css active colour + slide-out, televisie-voicecontrol.js sticky subnav + scrollspy + mobile toggle; header via canon)",
+        "dead": [
+          "subnav link hover underline (no measured diff on live)",
+          "accordion header hover (no measured diff)",
+          "header scroll-morph restore threshold live y≤500 vs build y≤2400 — canon.js, advisory (same as alles-in-1)"
+        ],
+        "compare": "stardust/replica/motion/televisie-voicecontrol-compare.json (5 parity; missing = section/scrollspy classes now implemented; post-motion pixel 1440 2.15% / 360 1.39%)"
+      },
+      "units": "none declared"
+    },
+    "channel": {
+      "pageType": "channel",
+      "archetype": "televisie-zenders-npo-1",
+      "prototype": "stardust/prototypes/televisie-zenders-npo-1-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/modules.css",
+        "stardust/prototypes/assets/televisie-zenders-npo-1.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js",
+        "stardust/prototypes/assets/modules.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "1 (imagery gap = tracking pixels, justified)",
+            "pixelPct": 0.54,
+            "pixelUnaligned": 1,
+            "offsetsPx": 2,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "not declared (no repeated units)",
+            "chromeParity": "logo signature only",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "header logo",
+              "pct": null,
+              "cause": "chrome-parity icon signature ziggo-logo-orange-v1 → ziggo-logo-orange-v1.svg (extension only; same file, same box) — canon residual shared with index/alles-in-1/televisie-voicecontrol",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "tracking pixels",
+              "pct": null,
+              "cause": "visual-diff IMAGERY GAP 6 vs 2: the 4 extra source images are 0×0 analytics beacons (bat.bing, track.php…) — not content, dropped per dynamics triage",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "chat availability as captured: interactions tab ‘Chat met ons – Niet beschikbaar’ with the offline (red) orb (single Chat item on this page)",
+              "where": "interactions side tab / mobile bar",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "decision": "pass",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "1 (imagery gap = tracking pixels, justified)",
+            "pixelPct": 0.31,
+            "pixelUnaligned": 0.33,
+            "offsetsPx": 1,
+            "heightDelta": -1,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "not declared (no repeated units)",
+            "chromeParity": "quiet (1 advisory group)",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "tracking pixels",
+              "pct": null,
+              "cause": "visual-diff IMAGERY GAP 6 vs 2: the 4 extra source images are 0×0 analytics beacons (bat.bing, track.php…) — not content, dropped per dynamics triage",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "chat availability as captured: interactions tab ‘Chat met ons – Niet beschikbaar’ with the offline (red) orb (single Chat item on this page)",
+              "where": "interactions side tab / mobile bar",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "PASS 0/5 rows",
+        "evidence": "stardust/replica/gates/televisie-zenders-npo-1-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "hover colours (primary button background, interactions tab colours) ; interactions slide-out .3s transform; header static across scroll (no morph on this page)",
+        "implemented": "all of the above (canon .btn-primary hover, modules.css interactions :hover slide-out .3s)",
+        "dead": [
+          "social share button hover (no measured diff on live)",
+          "channel info link hover (no measured diff on live)",
+          "class vfz-interactions-item--slideout is the live JS trigger of the same transform — implemented as :hover (transform transition parity 300ms)"
+        ],
+        "compare": "stardust/replica/motion/televisie-zenders-npo-1-compare.json (3 parity, 1 trigger-class missing as article; post-motion --full round 1440 0.31% / 360 0.54%)"
+      },
+      "units": "none declared"
+    },
+    "streaming": {
+      "pageType": "streaming",
+      "archetype": "televisie-extra-zenders-streamingdiensten-netflix",
+      "prototype": "stardust/prototypes/televisie-extra-zenders-streamingdiensten-netflix-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/modules.css",
+        "stardust/prototypes/assets/televisie-voicecontrol.css",
+        "stardust/prototypes/assets/televisie-extra-zenders-streamingdiensten-netflix.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js",
+        "stardust/prototypes/assets/modules.js",
+        "stardust/prototypes/assets/televisie-voicecontrol.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.76,
+            "pixelUnaligned": 1.77,
+            "offsetsPx": 4,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "streaming-tier-cards + streaming-app-cards: off 0 (gate-all prototype)",
+            "chromeParity": "logo signature only",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "header logo",
+              "pct": null,
+              "cause": "chrome-parity icon signature ziggo-logo-orange-v1 → ziggo-logo-orange-v1.svg (extension only; same file, same box) — canon residual shared with every archetype",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "how-to + TV-app card images",
+              "pct": null,
+              "cause": "source-spec node lines radius none→24px: the live 24px clip sits 5–7 ancestors up (vfz-grouping), outside the instrument's reach; measure.mjs confirms borderRadius 24px on the live grouping boxes",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "contact band chat button in its busy state (“We zijn momenteel in gesprek, probeer het later nog eens.”, disabled, #start-pre-chat) as extracted and frozen in the pixel reference; live hydrates “Start een chat” when agents are free",
+              "where": "contact band (Chat card)",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md; content-diff owner entries in stardust/replica/accepted.json"
+            },
+            {
+              "what": "video band: the scene7 VideoViewer iframe embedded as on live (poster frame, not playing)",
+              "where": "video band",
+              "restoreAtDelivery": "embed-passthrough (dynamics triage)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 2,
+          "decision": "pass",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.15,
+            "pixelUnaligned": 0.15,
+            "offsetsPx": 1,
+            "heightDelta": -1,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "streaming-tier-cards + streaming-app-cards: off 0 (gate-all prototype)",
+            "chromeParity": "quiet (1 advisory group)",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "how-to + TV-app card images",
+              "pct": null,
+              "cause": "source-spec node lines radius none→24px: the live 24px clip sits 5–7 ancestors up (vfz-grouping), outside the instrument's reach; measure.mjs confirms borderRadius 24px on the live grouping boxes",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "contact band chat button in its busy state (“We zijn momenteel in gesprek, probeer het later nog eens.”, disabled, #start-pre-chat) as extracted and frozen in the pixel reference; live hydrates “Start een chat” when agents are free",
+              "where": "contact band (Chat card)",
+              "restoreAtDelivery": "chat availability is host-bound (dimelo) — dynamic feature, see stardust/dynamic-features.md; content-diff owner entries in stardust/replica/accepted.json"
+            },
+            {
+              "what": "video band: the scene7 VideoViewer iframe embedded as on live (poster frame, not playing)",
+              "where": "video band",
+              "restoreAtDelivery": "embed-passthrough (dynamics triage)"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "PASS 0/12 rows",
+        "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "accordion body height slide .3s + chevron flip and active title colour; sticky subnav fixed-top + scrollspy active link; header scroll-morph (navbar fixed); hover colours on primary/outline buttons and breadcrumb links",
+        "implemented": "all of the above (modules.js accordion, televisie-voicecontrol.js sticky subnav, canon header, canon button/link hovers)",
+        "dead": [
+          "subnav link hover (no measured diff on live)",
+          "accordion header hover (no measured diff on live)",
+          "chevron transform is a 0s state flip on live (no transition), implemented as the same instant rotate"
+        ],
+        "compare": "stardust/replica/motion/televisie-extra-zenders-streamingdiensten-netflix-compare.json (6 parity; missing lines are live trigger-class names of implemented behaviours; post-motion --full round 1440 0.15% / 360 0.76%)"
+      },
+      "units": "streaming-tier-cards (3), streaming-app-cards (3) in stardust/replica/units.json"
+    },
+    "listing": {
+      "pageType": "listing",
+      "archetype": "televisie-zenderoverzicht",
+      "prototype": "stardust/prototypes/televisie-zenderoverzicht-proposed.html",
+      "css": [
+        "stardust/prototypes/assets/canon.css",
+        "stardust/prototypes/assets/modules.css",
+        "stardust/prototypes/assets/televisie-zenderoverzicht.css"
+      ],
+      "js": [
+        "stardust/prototypes/assets/canon.js",
+        "stardust/prototypes/assets/modules.js",
+        "stardust/prototypes/assets/televisie-zenderoverzicht.js"
+      ],
+      "gateFlags": "--main \"#main-content\" --consent \"#onetrust-accept-btn-handler\" --dismiss \".dimelo-form\"",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "decision": "accept-residual",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.03,
+            "pixelUnaligned": 0.08,
+            "offsetsPx": 2,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "channel-rows (172): off 0 (gate.sh iter3 + gate-all prototype)",
+            "chromeParity": "logo signature only",
+            "pass": true
+          },
+          "residuals": [
+            {
+              "region": "header logo",
+              "pct": null,
+              "cause": "chrome-parity icon signature ziggo-logo-orange-v1 → ziggo-logo-orange-v1.svg (canon logo file extension), the residual every earlier archetype accepted",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "action bar sr-only label",
+              "pct": null,
+              "cause": "visual-diff FLUSH-LEFT TEXT on the visually hidden <p> \"Zoekopdracht verfijnen of printen\" (sr-only, as on live) — justified",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "channel overview as hydrated: all 172 channels listed, filter/sort panels closed, info notification open",
+              "where": "channel overview band",
+              "restoreAtDelivery": "channel list authored as rows; search/filter/sort client-only over the authored list (dynamic-features row 7)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 2,
+          "decision": "pass",
+          "result": {
+            "structuralRed": 0,
+            "nothingLost": 0,
+            "visualFlags": "0",
+            "pixelPct": 0.03,
+            "pixelUnaligned": 0.03,
+            "offsetsPx": 1,
+            "heightDelta": -1,
+            "clipped": 0,
+            "overflow": "none",
+            "units": "channel-rows (172): off 0 (gate.sh iter3 + gate-all prototype)",
+            "chromeParity": "quiet (1 advisory group)",
+            "pass": true
+          },
+          "residuals": [],
+          "captureState": [
+            {
+              "what": "channel overview as hydrated: all 172 channels listed, filter/sort panels closed, info notification open",
+              "where": "channel overview band",
+              "restoreAtDelivery": "channel list authored as rows; search/filter/sort client-only over the authored list (dynamic-features row 7)"
+            }
+          ]
+        }
+      },
+      "capProbe": {
+        "width": 2560,
+        "result": "PASS 0/4 rows",
+        "evidence": "stardust/replica/gates/televisie-zenderoverzicht-2560/cap-iter.json"
+      },
+      "motion": {
+        "observed": "filter panel opens with a .3s height slide (action bar Filter/Sorteren toggle their panels); accordion body height slide .3s + 0s chevron flip; header scroll-morph (navbar fixed); hovers: channel row bg gray-300, category link bg #1c1f21/colour gray-100, action-bar item bg gray-300, search button colour primary",
+        "implemented": "all of the above (televisie-zenderoverzicht.js panels + slide, modules.js accordion, canon header, CSS hovers)",
+        "dead": [
+          "action-bar item active class (z-action-bar__list-item--active has no style rule on live)",
+          "accordion header hover (no measured diff on live)",
+          "chevron transform/colour are 0s state flips on live, implemented as the same instant change"
+        ],
+        "compare": "stardust/replica/motion/televisie-zenderoverzicht-compare.json (5 parity; missing lines are live trigger-class names of implemented behaviours; header scroll-morph threshold advisory as on earlier archetypes; post-motion --full round 1440 0.03% / 360 0.03%)"
+      },
+      "units": "channel-rows (172) in stardust/replica/units.json"
+    }
+  }
+}

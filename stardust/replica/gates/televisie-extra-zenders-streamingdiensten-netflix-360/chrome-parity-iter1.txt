@@ -1,0 +1,15 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix
+  build: http://localhost:8791/televisie-extra-zenders-streamingdiensten-netflix-proposed.html
+
+■ header: 1 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 360×112; selector #vfz-app > header
+  region build: header#site-header.site-header — outermost <header>, box 0,0 360×112; selector #site-header
+  ICON         "Ga naar de Ziggo homepage"  icon #0 near "Ga naar de Ziggo homepage": signature "ziggo-logo-orange-v1" → "ziggo-logo-orange-v1.svg"
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,8209 360×1007; selector #vfz-app > footer
+  region build: footer#site-footer.site-footer — outermost <footer>, box 0,8206 360×1007; selector #site-footer
+  advisory     REGION OFFSET: page Δy -3px (8209→8206) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✗ 1 delta(s), 1 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

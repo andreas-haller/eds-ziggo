@@ -1,0 +1,144 @@
+/* One van Vodafone & Ziggo band (source .one-splash / .one-card / .one-usp) */
+.one-band .one-splash {
+  position: relative;
+  height: 918px;
+  padding-top: 64px;
+  overflow: hidden;
+  background: var(--color-white);
+  text-align: center;
+}
+
+.one-band .bg {
+  position: absolute;
+  inset: 0;
+}
+
+.one-band .bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.one-band .bg img {
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+
+.one-band .bg-lg {
+  display: none;
+}
+
+.one-band .one-inner {
+  position: relative;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.one-band .one-card {
+  margin: 0 auto;
+  padding: 28px 20px 24px;
+  overflow: hidden;
+  border: 1px solid var(--color-gray-100);
+  border-radius: 24px;
+  background: var(--color-white);
+  box-shadow: rgb(28 31 33 / 20%) 0 2px 4px 0;
+}
+
+.one-band .one-usps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0 25px;
+}
+
+.one-band .one-usp {
+  position: relative;
+  width: 179px;
+}
+
+.one-band .one-usp + .one-usp {
+  margin-top: 49px;
+}
+
+.one-band .one-usp + .one-usp::before {
+  content: "";
+  position: absolute;
+  left: -49.5px;
+  right: -49.5px;
+  top: -25px;
+  height: 1px;
+  background: var(--color-gray-400);
+}
+
+.one-band .one-icon img {
+  width: 79px;
+  height: 79px;
+  margin: 0 auto 8px;
+}
+
+.one-band .one-text p {
+  color: var(--color-secondary);
+  font-weight: 300;
+}
+
+.one-band .one-cta {
+  margin-top: 31.5px;
+}
+
+@media (width >= 768px) {
+  .one-band .one-splash {
+    height: 604px;
+    padding-top: 72px;
+  }
+
+  .one-band .bg-sm {
+    display: none;
+  }
+
+  .one-band .bg-lg {
+    display: block;
+  }
+
+  .one-band .one-card {
+    max-width: calc(66.6667% - var(--container-pad) / 3);
+    padding: 36px 0 24px;
+  }
+
+  .one-band .one-usps {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 48px;
+    padding: 16px 0 32px;
+  }
+
+  .one-band .one-usp {
+    width: 216.3px;
+  }
+
+  .one-band .one-usp + .one-usp {
+    margin-top: 0;
+  }
+
+  .one-band .one-usp + .one-usp::before {
+    inset: 0 auto -32px -24.5px;
+    width: 1px;
+    height: auto;
+  }
+
+  .one-band .one-icon img {
+    width: 51px;
+    height: 51px;
+    margin-bottom: 16px;
+  }
+
+  .one-band .one-cta {
+    margin-top: 47.5px;
+  }
+}
+
+/* the duplicate responsive label of the source button (see dualLabel) */
+.one-band a.button .btn-title-large {
+  display: none;
+}

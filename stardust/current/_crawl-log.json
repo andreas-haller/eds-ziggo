@@ -1,0 +1,3074 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 33,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 33,
+    "pagesWithSameSiteData": 33,
+    "pagesWithSearchForm": 1,
+    "pagesHydrated": 33,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/a5b00f78-0c9a-45bc-a6f6-212fb7dcfa15/a5b00f78-0c9a-45bc-a6f6-212fb7dcfa15.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/nl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/a5b00f78-0c9a-45bc-a6f6-212fb7dcfa15/018f788e-c625-7e7a-b391-d34a0ca6fbea/nl.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "tms.data.ziggo.nl",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dp",
+          "dt",
+          "ecid",
+          "en",
+          "ep.cust_custMarket_vf",
+          "ep.cust_custMarket_zg",
+          "ep.cust_custStatus_vf",
+          "ep.cust_custStatus_zg",
+          "ep.event_b2b",
+          "ep.gtm_container",
+          "ep.gtm_tag",
+          "ep.isp_cached",
+          "ep.isp_country",
+          "ep.isp_internal",
+          "ep.isp_name",
+          "ep.page_app_descr",
+          "ep.page_app_type",
+          "ep.page_contentsquare_key",
+          "ep.page_hostname",
+          "ep.page_journey",
+          "ep.page_market",
+          "ep.page_squad",
+          "ep.page_tags",
+          "ep.page_type",
+          "ep.privacy_consent_marketing",
+          "ep.viewport_size",
+          "epn.custom_event_timestamp",
+          "evnid",
+          "frm",
+          "gap.gtb",
+          "gap.gtbd",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.client_id_ga",
+          "up.user_consent_analytics",
+          "up.user_consent_marketing",
+          "up.user_custMarket_vf",
+          "up.user_custMarket_zg",
+          "up.user_custStatus_vf",
+          "up.user_custStatus_zg",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://tms.data.ziggo.nl/g/collect",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202512.1.0/assets/otCenterRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/otCenterRounded.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202512.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/v2/otPcCenter.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202512.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/otCommonStyles.css",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.ziggo.nl",
+        "path": "/ppgo/ag/g/c",
+        "query": [
+          "_et",
+          "_eu",
+          "_gaz",
+          "_gsid",
+          "_p",
+          "_s",
+          "_tu",
+          "_uip",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dt",
+          "en",
+          "ep.event_b2b",
+          "ep.gtm_container",
+          "ep.isp_cached",
+          "ep.isp_country",
+          "ep.isp_internal",
+          "ep.isp_name",
+          "ep.page_app_descr",
+          "ep.page_app_type",
+          "ep.page_contentsquare_key",
+          "ep.page_hostname",
+          "ep.page_journey",
+          "ep.page_market",
+          "ep.page_tags",
+          "ep.page_type",
+          "ep.session_colorscheme",
+          "ep.session_id_dd",
+          "ep.session_useragent_app",
+          "ep.viewport_size",
+          "epn.custom_event_timestamp",
+          "fp",
+          "frm",
+          "gaf",
+          "gap.gtb",
+          "gap.gtbd",
+          "gcd",
+          "gcs",
+          "gcu",
+          "gcut",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/ppgo/ag/g/c",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "featureassets.org",
+        "path": "/v1/initialize",
+        "query": [
+          "k",
+          "se",
+          "sid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://featureassets.org/v1/initialize",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "t.contentsquare.net",
+        "path": "/settings/www26_{uuid}.json",
+        "query": [
+          "r"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://t.contentsquare.net/settings/www26_91ee78da-3d69-47d0-83bb-f3de81b710a0.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "deploy.mopinion.com",
+        "path": "/config/GPGd0ELLESkkUN7DtEjHTRtpX43vMXTclBxMTFMN",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://deploy.mopinion.com/config/GPGd0ELLESkkUN7DtEjHTRtpX43vMXTclBxMTFMN",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "vodafoneziggo.blueconic.net",
+        "path": "/DG/DEFAULT/rest/rpc/{n}",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.blueconic.net/DG/DEFAULT/rest/rpc/698",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gap.gtb",
+          "gap.gtbd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.gtb",
+          "gap.gtbd",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtb",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/655948122/",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/user/",
+        "query": [
+          "cb",
+          "dep",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/user/",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/v3/",
+        "query": [
+          "ad",
+          "cb",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/v3/",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "c.clicktale.net",
+        "path": "/pageview",
+        "query": [
+          "ct",
+          "cvarp",
+          "cvars",
+          "dh",
+          "dr",
+          "dw",
+          "ex",
+          "la",
+          "pid",
+          "pvt",
+          "sh",
+          "sw",
+          "uc",
+          "url",
+          "v",
+          "wh",
+          "ww"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.clicktale.net/pageview",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.clicktale.net",
+        "path": "/pageEvent",
+        "query": [
+          "ct",
+          "isCustomHashId",
+          "isETR",
+          "pid",
+          "r",
+          "v",
+          "value"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.clicktale.net/pageEvent",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.clicktale.net",
+        "path": "/dvar",
+        "query": [
+          "ct",
+          "dv",
+          "pid",
+          "r",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.clicktale.net/dvar",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cacheorcheck.mopinion.com",
+        "path": "/survey/public/json-config",
+        "query": [
+          "domain",
+          "key",
+          "withBase"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cacheorcheck.mopinion.com/survey/public/json-config",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.blueconic.net",
+        "path": "/rest/v2/custom/frontend/connection_datalayer/timelineEventTypePropertyTypes",
+        "query": [
+          "timelineEventTypeId"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.blueconic.net/rest/v2/custom/frontend/connection_datalayer/timelineEventTypePropertyTypes",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ziggo.dimelochat.com",
+        "path": "/chat/{hash}/status.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://ziggo.dimelochat.com/chat/45e3db8a383eef4bbf58c336/status.js",
+        "pages": 32,
+        "examples": [
+          "alles-in-1",
+          "tv-internet",
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aax-eu.amazon-adsystem.com",
+        "path": "/s/iu3",
+        "query": [
+          "amazonConsentString",
+          "event",
+          "eventSource",
+          "pid",
+          "ts",
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://aax-eu.amazon-adsystem.com/s/iu3",
+        "pages": 30,
+        "examples": [
+          "televisie",
+          "internet",
+          "televisie-voicecontrol"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 15,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/i",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/i",
+        "pages": 12,
+        "examples": [
+          "alles-in-1",
+          "internet",
+          "televisie-zenderoverzicht"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/p",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/p",
+        "pages": 11,
+        "examples": [
+          "index",
+          "televisie",
+          "televisie-makkelijk-zoeken"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/q",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/q",
+        "pages": 10,
+        "examples": [
+          "tv-internet",
+          "televisie-voicecontrol",
+          "televisie-extra-zenders-streamingdiensten"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/conf/vodafoneziggo/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/conf/vodafoneziggo/settings/wcm/segments.seg.js",
+        "pages": 9,
+        "examples": [
+          "index",
+          "televisie-terugkijken",
+          "televisie-ziggo-sport"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 6,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.ziggo.nl",
+        "path": "/ppgo/g/measurement/conversion",
+        "query": [
+          "_tu",
+          "auid",
+          "cv",
+          "dma",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gacid",
+          "gcd",
+          "gcs",
+          "gtm",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/ppgo/g/measurement/conversion",
+        "pages": 5,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "l.clicktale.net",
+        "path": "/log/web",
+        "query": [
+          "a",
+          "d",
+          "l",
+          "m",
+          "p",
+          "pid",
+          "r",
+          "s",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://l.clicktale.net/log/web",
+        "pages": 5,
+        "examples": [
+          "index",
+          "televisie-zenderoverzicht",
+          "televisie-digitale-kabel-tv-en-radio"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/services/blueriq/b2c/info",
+        "query": [
+          "payload"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/services/blueriq/b2c/info",
+        "pages": 4,
+        "examples": [
+          "alles-in-1",
+          "tv-internet",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/services/blueriq/b2c/calc",
+        "query": [
+          "payload"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/services/blueriq/b2c/calc",
+        "pages": 4,
+        "examples": [
+          "alles-in-1",
+          "tv-internet",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.ziggo.nl",
+        "path": "/ppgo/ga/g/c",
+        "query": [
+          "_eu",
+          "_gsid",
+          "_p",
+          "_s",
+          "_tu",
+          "_uip",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dp",
+          "dt",
+          "fp",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/ppgo/ga/g/c",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "prodregistryv2.org",
+        "path": "/v1/rgstr",
+        "query": [
+          "ec",
+          "gz",
+          "k",
+          "sid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://prodregistryv2.org/v1/rgstr",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/services/dynamicmediaurls",
+        "query": [
+          "imagePaths"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/services/dynamicmediaurls",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/Video",
+        "query": [
+          "handler",
+          "id",
+          "locale",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/Video",
+        "pages": 3,
+        "examples": [
+          "televisie-espn",
+          "televisie-extra-zenders-streamingdiensten-netflix",
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "vodafoneziggo.blueconic.net",
+        "path": "/DG/DEFAULT/rest/rpc/{n}/LB-Zone-2",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.blueconic.net/DG/DEFAULT/rest/rpc/698/LB-Zone-2",
+        "pages": 2,
+        "examples": [
+          "index",
+          "alles-in-1"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/services/product/b2c/hardware",
+        "query": [
+          "payload"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/services/product/b2c/hardware",
+        "pages": 2,
+        "examples": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.ziggo.nl",
+        "path": "/ppgo/gs/measurement/conversion",
+        "query": [
+          "_tu",
+          "cv",
+          "dma",
+          "dma_cps",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gacid",
+          "gcd",
+          "gcs",
+          "gl",
+          "gtm",
+          "hl",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "top",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/ppgo/gs/measurement/conversion",
+        "pages": 2,
+        "examples": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "tms.data.ziggo.nl",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dp",
+          "dt",
+          "ecid",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://tms.data.ziggo.nl/g/collect",
+        "pages": 2,
+        "examples": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ct.pinterest.com",
+        "path": "/stats/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/stats/",
+        "pages": 2,
+        "examples": [
+          "televisie",
+          "televisie-opnemen"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "l.clicktale.net",
+        "path": "/log/web/metrics",
+        "query": [
+          "ct"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://l.clicktale.net/log/web/metrics",
+        "pages": 2,
+        "examples": [
+          "televisie-kijkprofielen",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/{n}/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/894/89488392-80de-46a3-a173-d0ecadb60f41-stream.mp4",
+        "pages": 2,
+        "examples": [
+          "televisie-espn",
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/content/campaigns/vodafoneziggo/master/ziggo_homepage/prosp_default/ziggo-experiencefragment/jcr:content/par.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/content/campaigns/vodafoneziggo/master/ziggo_homepage/prosp_default/ziggo-experiencefragment/jcr:content/par.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/content/campaigns/vodafoneziggo/master/ziggo_cust-noncust_copy/z_noncustomers/ziggo-experiencefragment_1018660895/jcr:content/par.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/content/campaigns/vodafoneziggo/master/ziggo_cust-noncust_copy/z_noncustomers/ziggo-experiencefragment_1018660895/jcr:content/par.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/content/campaigns/vodafoneziggo/master/ziggo_cust-noncust_copy/z_noncustomers/ziggo-experiencefragment_1999322008/jcr:content/par.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/content/campaigns/vodafoneziggo/master/ziggo_cust-noncust_copy/z_noncustomers/ziggo-experiencefragment_1999322008/jcr:content/par.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=undefined;cat=undefined;rcb=12;ord=4395261372788;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795598749_As0558jREr5RrrEWaPUF0M0AJaGKUit7Qg;~oref=https%3A%2F%2Fwww.ziggo.nl%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=undefined;cat=undefined;rcb=12;ord=4395261372788;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795598749_As0558jREr5RrrEWaPUF0M0AJaGKUit7Qg;~oref=https%3A%2F%2Fwww.ziggo.nl%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+        "pages": 1,
+        "examples": [
+          "alles-in-1"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=undefined;cat=undefined;rcb=12;ord=8656422231858;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=6;dc_random=1795598754_tIXDA3KhFLM6STi4NzVRzUSTUssmoWa8Hw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Falles-in-1",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=undefined;cat=undefined;rcb=12;ord=8656422231858;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=6;dc_random=1795598754_tIXDA3KhFLM6STi4NzVRzUSTUssmoWa8Hw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Falles-in-1",
+        "pages": 1,
+        "examples": [
+          "alles-in-1"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=undefined;cat=undefined;rcb=0;ord=5322528508218;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598757_A-sFbzVlN0FoDPgcQ1fBGat6qAJDj9qNVQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftv-internet",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=undefined;cat=undefined;rcb=0;ord=5322528508218;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=undefined;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598757_A-sFbzVlN0FoDPgcQ1fBGat6qAJDj9qNVQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftv-internet",
+        "pages": 1,
+        "examples": [
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "vodafoneziggo.blueconic.net",
+        "path": "/DG/DEFAULT/rest/rpc/{n}/LB-Zone-3",
+        "query": [
+          "bcsessionid",
+          "bctempid",
+          "overruleReferrer",
+          "referer",
+          "time",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.blueconic.net/DG/DEFAULT/rest/rpc/1046/LB-Zone-3",
+        "pages": 1,
+        "examples": [
+          "tv-internet"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/Video_No_Controls",
+        "query": [
+          "handler",
+          "id",
+          "locale",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/Video_No_Controls",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/next-mini_desktop-video-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/next-mini_desktop-video-AVS",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/content/vodafoneziggo/next-mini_desktop-video-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/next-mini_desktop-video-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/18d/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/18d/18da21fb-60b5-4ca2-b806-c4ff9fd191e6-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/f20/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/f20/f2007273-3adb-49ef-9064-373f3c264a4e-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/06d/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/06d/06d5ea4f-097e-4d1f-9f31-8cdaf7dfa80d-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=6187701735687;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598773_G6veNdZ3fX7pN4uv23hS6Yrglj7QiQjHXA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=6187701735687;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598773_G6veNdZ3fX7pN4uv23hS6Yrglj7QiQjHXA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo000;rcb=13;ord=1;num=2490652672053;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598773_DB9--h5DIPdIrQClqGZSdZbqasbapg40tw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo000;rcb=13;ord=1;num=2490652672053;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598773_DB9--h5DIPdIrQClqGZSdZbqasbapg40tw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=8480159116655;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45c92e6bh1v9190618869z89122962200za24gzb9122962200zd831368088xeaxf1;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;dc_random=1795598780_P2N9t3WZwbFJF3Z2Ln2icnDamxprFw7GAw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Finternet",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=8480159116655;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45c92e6bh1v9190618869z89122962200za24gzb9122962200zd831368088xeaxf1;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;dc_random=1795598780_P2N9t3WZwbFJF3Z2Ln2icnDamxprFw7GAw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Finternet",
+        "pages": 1,
+        "examples": [
+          "internet"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=6231868912682;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20mzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~119793972~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785232;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598782_4IBMDEPT0GmzA_LYeXpLxOYBGHtls8Gk5w;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fvoicecontrol",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=6231868912682;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20mzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~119793972~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785232;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598782_4IBMDEPT0GmzA_LYeXpLxOYBGHtls8Gk5w;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fvoicecontrol",
+        "pages": 1,
+        "examples": [
+          "televisie-voicecontrol"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=15;ord=1300995106755;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203~123785234;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598823_JxxfPat57n-H9dMvkkwNf3T2Nd5HnLqzJA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmakkelijk-zoeken",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=15;ord=1300995106755;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203~123785234;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598823_JxxfPat57n-H9dMvkkwNf3T2Nd5HnLqzJA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmakkelijk-zoeken",
+        "pages": 1,
+        "examples": [
+          "televisie-makkelijk-zoeken"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/services/articleSearch",
+        "query": [
+          "limit",
+          "order",
+          "path",
+          "q",
+          "sort",
+          "tags"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/services/articleSearch",
+        "pages": 1,
+        "examples": [
+          "televisie-zenderoverzicht"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=7741994598862;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598833_YkD5lDe9-E7VjJvWV5pQKOLwQ7GS00YjlA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenderoverzicht",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=7741994598862;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598833_YkD5lDe9-E7VjJvWV5pQKOLwQ7GS00YjlA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenderoverzicht",
+        "pages": 1,
+        "examples": [
+          "televisie-zenderoverzicht"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/televisie/terugkijken/_jcr_content/par/hero_container.default.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/televisie/terugkijken/_jcr_content/par/hero_container.default.html",
+        "pages": 1,
+        "examples": [
+          "televisie-terugkijken"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=15;ord=2505855653668;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598845_xWc6y9j5JcUBTiK_JANGJd2RTgGK_cK0KA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fterugkijken",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=15;ord=2505855653668;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598845_xWc6y9j5JcUBTiK_JANGJd2RTgGK_cK0KA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fterugkijken",
+        "pages": 1,
+        "examples": [
+          "televisie-terugkijken"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=3899083042477;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598863_YsoXHglf5Fo9BudajNMP0Acn8O7FDb-91Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-sport",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=3899083042477;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598863_YsoXHglf5Fo9BudajNMP0Acn8O7FDb-91Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-sport",
+        "pages": 1,
+        "examples": [
+          "televisie-ziggo-sport"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=3;ord=8966202541381;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201~123785234;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598835_cF2pWL0Vbnn28YtZxXKHkhn1-p7ZPJh3Bg;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=3;ord=8966202541381;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201~123785234;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598835_cF2pWL0Vbnn28YtZxXKHkhn1-p7ZPJh3Bg;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/televisie/online-tv-kijken/_jcr_content/par/hero_container_17610.default.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/televisie/online-tv-kijken/_jcr_content/par/hero_container_17610.default.html",
+        "pages": 1,
+        "examples": [
+          "televisie-online-tv-kijken"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=2;ord=4128308095783;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~121284208;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598855_NS0z1CBswcsEDXziTlOltEsKeNptc4GjLw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fonline-tv-kijken",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=2;ord=4128308095783;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~121284208;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598855_NS0z1CBswcsEDXziTlOltEsKeNptc4GjLw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fonline-tv-kijken",
+        "pages": 1,
+        "examples": [
+          "televisie-online-tv-kijken"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=7;ord=3130284477488;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598881_rN7QfHHPbzzPRB82YTpCq3zLemUv8VYKOQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fopnemen",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=7;ord=3130284477488;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598881_rN7QfHHPbzzPRB82YTpCq3zLemUv8VYKOQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fopnemen",
+        "pages": 1,
+        "examples": [
+          "televisie-opnemen"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/televisie/kijkprofielen/_jcr_content/par/hero_container_1434584564.default.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/televisie/kijkprofielen/_jcr_content/par/hero_container_1434584564.default.html",
+        "pages": 1,
+        "examples": [
+          "televisie-kijkprofielen"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=4287605283349;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~119860442~120213116~120385423~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598885_IqRT6TMACQyvdOQmzW0JFn5IZcyI1rOYrA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkijkprofielen",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=4287605283349;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~119860442~120213116~120385423~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598885_IqRT6TMACQyvdOQmzW0JFn5IZcyI1rOYrA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkijkprofielen",
+        "pages": 1,
+        "examples": [
+          "televisie-kijkprofielen"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=3255712058018;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598901_JqQS1jdcuGzWjAvxud-mPVIjYWrZ1bmyHw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fhoofdmenu",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=3255712058018;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598901_JqQS1jdcuGzWjAvxud-mPVIjYWrZ1bmyHw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fhoofdmenu",
+        "pages": 1,
+        "examples": [
+          "televisie-hoofdmenu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ziggo.nl",
+        "path": "/content/campaigns/vodafoneziggo/master/cust-noncust/ziggo_noncustomers/4k-uhd-reference/jcr:content/par.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.ziggo.nl/content/campaigns/vodafoneziggo/master/cust-noncust/ziggo_noncustomers/4k-uhd-reference/jcr:content/par.html",
+        "pages": 1,
+        "examples": [
+          "televisie-4k-uhd"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=2;ord=7667179521890;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598929_J4--gmBdAv59nRwxjSl5FXujod8TkLcNsw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2F4k-uhd",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=2;ord=7667179521890;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=unknown;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598929_J4--gmBdAv59nRwxjSl5FXujod8TkLcNsw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2F4k-uhd",
+        "pages": 1,
+        "examples": [
+          "televisie-4k-uhd"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=7842564363880;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598933_kiIaxiUq8uQ-jC-c64cV7hRJ3ljz6lejQA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fdigitale-kabel-tv-en-radio",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=7842564363880;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795598933_kiIaxiUq8uQ-jC-c64cV7hRJ3ljz6lejQA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fdigitale-kabel-tv-en-radio",
+        "pages": 1,
+        "examples": [
+          "televisie-digitale-kabel-tv-en-radio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=9561374180277;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598950__hNkkKJcckXgQq9v3snM4_uNzOkt8J_1Jw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fdigitale-radio",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=9561374180277;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598950__hNkkKJcckXgQq9v3snM4_uNzOkt8J_1Jw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fdigitale-radio",
+        "pages": 1,
+        "examples": [
+          "televisie-digitale-radio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=3969285909199;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785234;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598953_0d4Yz9YisTa8vmOvPqHRUFO20RZNlCzayQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-start",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=3969285909199;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785234;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598953_0d4Yz9YisTa8vmOvPqHRUFO20RZNlCzayQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-start",
+        "pages": 1,
+        "examples": [
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=18;ord=2524772091734;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598955_2Q615aHCOudZxgW7d4KHtl1gMNO_Wmrv6Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkabel-tv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=18;ord=2524772091734;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795598955_2Q615aHCOudZxgW7d4KHtl1gMNO_Wmrv6Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkabel-tv",
+        "pages": 1,
+        "examples": [
+          "televisie-kabel-tv"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=6233846740307;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785234;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795598967_6lYVEKuuzMJi-STYtSYnSWP3VR7-om_OvA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmediaboxen",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=6233846740307;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785234;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795598967_6lYVEKuuzMJi-STYtSYnSWP3VR7-om_OvA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmediaboxen",
+        "pages": 1,
+        "examples": [
+          "televisie-mediaboxen"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=5;ord=1810402318180;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599002_aBNI5yjIQhMZmNNe11mLtZJrP-Oqd4GMHw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-apps",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=5;ord=1810402318180;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599002_aBNI5yjIQhMZmNNe11mLtZJrP-Oqd4GMHw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Ftv-apps",
+        "pages": 1,
+        "examples": [
+          "televisie-tv-apps"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=9;ord=4710199296299;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785233;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795599003_2eS2U5GwbZNRz8eZ4Zy22sfpuHEcn1ksFQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-go",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=9;ord=4710199296299;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785233;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795599003_2eS2U5GwbZNRz8eZ4Zy22sfpuHEcn1ksFQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-go",
+        "pages": 1,
+        "examples": [
+          "televisie-ziggo-go"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/ZIGGO_STANDAARD_ALLE_SPORTEN_40_SEC-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/ZIGGO_STANDAARD_ALLE_SPORTEN_40_SEC-AVS",
+        "pages": 1,
+        "examples": [
+          "televisie-espn"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/content/vodafoneziggo/ZIGGO_STANDAARD_ALLE_SPORTEN_40_SEC-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/ZIGGO_STANDAARD_ALLE_SPORTEN_40_SEC-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "televisie-espn"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/{n}/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/270/270824bc-1586-4b78-b377-c808e04070ad-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie-espn"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=7308160725590;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=2;dc_random=1795599014_0Ko2mJqCTN5Oh62Rp5VCVZNPuD5JwQyA8Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fespn",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=7308160725590;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=2;dc_random=1795599014_0Ko2mJqCTN5Oh62Rp5VCVZNPuD5JwQyA8Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fespn",
+        "pages": 1,
+        "examples": [
+          "televisie-espn"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=3150713892116;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599021_EJ0qPug37tdk-fNWwfA2iEel9L1jR9-glQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-1",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=17;ord=3150713892116;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599021_EJ0qPug37tdk-fNWwfA2iEel9L1jR9-glQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-1",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-1"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=4;ord=4406696137401;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795599062_-Jc9-cnhOXxqZ-9bhcw6ZoQUWOyOSaZADg;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Frtl-4",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=4;ord=4406696137401;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=4;dc_random=1795599062_-Jc9-cnhOXxqZ-9bhcw6ZoQUWOyOSaZADg;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Frtl-4",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-rtl-4"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=7778796640856;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6bh1h1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=2;dc_random=1795599079_mge0Wy21Mm1XPuR-sk2zA4n6sgPhzTfFaw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-3",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=1;ord=7778796640856;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6bh1h1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=2;dc_random=1795599079_mge0Wy21Mm1XPuR-sk2zA4n6sgPhzTfFaw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-3",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-3"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=6024095326449;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bi0h2v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599050_gG6m75emb1m28JXUEB-1ocntaBToAfwjUA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fsbs6",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=6024095326449;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bi0h2v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785232;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599050_gG6m75emb1m28JXUEB-1ocntaBToAfwjUA;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fsbs6",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-sbs6"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=9244377254935;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785234~124411064;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599096_tk31E2g-ODwuPx8uK7d4WFAnzZDpE5YhAw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Frtl-5",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=13;ord=9244377254935;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123785234~124411064;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599096_tk31E2g-ODwuPx8uK7d4WFAnzZDpE5YhAw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Frtl-5",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-rtl-5"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=8810349087241;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bi0h2v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599069_ib3kDY89rXZhGVOVeOlZJ9Q15WcBtizm6g;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-2",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=8810349087241;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bi0h2v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~120213116~120385422~120469145~120469153~121246026~121246034~123322201;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599069_ib3kDY89rXZhGVOVeOlZJ9Q15WcBtizm6g;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fnpo-2",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-2"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=215794166458;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118012008~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599097_WZSweO_oU4bKQdiny7uL6dIs-qzLUnDJZw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fstar-channel",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=6;ord=215794166458;npa=0;auiddc=1637722468.1795598746;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118012008~120213116~120385422~120469145~120469153~121246026~121246034~123322203~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599097_WZSweO_oU4bKQdiny7uL6dIs-qzLUnDJZw;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fzenders%2Fstar-channel",
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-star-channel"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/netflix_2025_showreel_mp4_v2_(1080p)-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/netflix_2025_showreel_mp4_v2_(1080p)-AVS",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/content/vodafoneziggo/netflix_2025_showreel_mp4_v2_(1080p)-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/netflix_2025_showreel_mp4_v2_(1080p)-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/9a1/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/9a1/9a1b3b02-ea6f-416e-a862-3c9bd60a9b44-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=7;ord=6344290282749;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795599116_DXVpbZFmOk6QrU9uxCYQsnUp6enK5r3O1Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fnetflix",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=7;ord=6344290282749;npa=0;auiddc=1877188458.1795598750;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;gap.gtb=3;gap.gtbd=3;dc_random=1795599116_DXVpbZFmOk6QrU9uxCYQsnUp6enK5r3O1Q;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fnetflix",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/image/vodafoneziggo/Disney_Ziggo_4UP_juli26_(1)-AVS",
+        "query": [
+          "handler",
+          "id",
+          "labelkey",
+          "req"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/Disney_Ziggo_4UP_juli26_(1)-AVS",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vodafoneziggo.scene7.com",
+        "path": "/is/content/vodafoneziggo/Disney_Ziggo_4UP_juli26_(1)-AVS.mpd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/dash+xml",
+        "sameSite": false,
+        "example": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/Disney_Ziggo_4UP_juli26_(1)-AVS.mpd",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/dc9/{uuid}-stream.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/dc9/dc9e4cd2-0978-4d78-ab06-807d5ac0b1a5-stream.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s7mbrstream-g1.scene7.com",
+        "path": "/is/content/vodafoneziggo/_media_/ca5/{uuid}-audio.mp4",
+        "query": [
+          "utm_medium"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp4",
+        "sameSite": false,
+        "example": "https://s7mbrstream-g1.scene7.com/is/content/vodafoneziggo/_media_/ca5/ca5ae1e4-2102-441f-adc7-cc600d898226-audio.mp4",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=9367284246142;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599117_h0b1TUtiUUwsWgbsMqkRGlWzRIxRDLo3zQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fdisneyplus",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=9460813;type=ziggo0;cat=ziggo00;rcb=8;ord=9367284246142;npa=0;auiddc=144968432.1795598753;u1=www.ziggo.nl;u2=undefined;u7=probNonCust;u8=unknown;u9=undefined;u10=undefined;u11=undefined;u12=unknown;u14=;gdid=dODdlYz;uaa=x86;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=3;gtm=45c92e6bh1v9190618869z89122962200za20kzb9122962200zd831368088xeaxf4;gcs=G111;gcd=13r3v3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034~123322201~123785233;epver=2;gap.gtb=3;gap.gtbd=2;dc_random=1795599117_h0b1TUtiUUwsWgbsMqkRGlWzRIxRDLo3zQ;~oref=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fdisneyplus",
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "bat.bing.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "ziggo.dimelochat.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "vodafoneziggo.blueconic.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "s.pinimg.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "sc-static.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "extend.vimeocdn.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "deploy.mopinion.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "cdnssl.clicktale.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "www.dwin1.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "cdn.blueconic.net",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "lantern.roeyecdn.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "tr.snapchat.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "ct.pinterest.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "collect.mopinion.com",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "player.vimeo.com",
+        "pages": 30,
+        "examples": [
+          "televisie",
+          "internet",
+          "televisie-voicecontrol"
+        ]
+      },
+      {
+        "host": "vodafoneziggo.scene7.com",
+        "pages": 5,
+        "examples": [
+          "index",
+          "televisie",
+          "televisie-espn"
+        ]
+      },
+      {
+        "host": "znrfgpbwszx08ohkx-vodafoneziggo.siteintercept.qualtrics.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "siteintercept.qualtrics.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "host": "www.googleadservices.com",
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "vue",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "hint": "aem-sites",
+        "pages": 21,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 33,
+        "examples": [
+          "index",
+          "alles-in-1",
+          "tv-internet"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.ziggo.nl/alles-in-1",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "zipcode",
+          "houseNumber",
+          "cprExtension",
+          "ff-undefined[]"
+        ],
+        "pages": 2,
+        "examples": [
+          "alles-in-1",
+          "alles-in-1"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/tv-internet",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "zipcode",
+          "houseNumber",
+          "cprExtension",
+          "ff-undefined[]"
+        ],
+        "pages": 2,
+        "examples": [
+          "tv-internet",
+          "tv-internet"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/internet",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "zipcode",
+          "houseNumber",
+          "cprExtension"
+        ],
+        "pages": 2,
+        "examples": [
+          "internet",
+          "internet"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenderoverzicht",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "channel-search"
+        ],
+        "pages": 2,
+        "examples": [
+          "televisie-zenderoverzicht",
+          "televisie-zenderoverzicht"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/tv-start",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "zipcode",
+          "houseNumber",
+          "cprExtension",
+          "ff-undefined[]"
+        ],
+        "pages": 2,
+        "examples": [
+          "televisie-tv-start",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/kabel-tv",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "zipcode",
+          "houseNumber",
+          "cprExtension",
+          "ff-undefined[]"
+        ],
+        "pages": 2,
+        "examples": [
+          "televisie-kabel-tv",
+          "televisie-kabel-tv"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/voicecontrol",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-voicecontrol"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/makkelijk-zoeken",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-makkelijk-zoeken"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/terugkijken",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-terugkijken"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/ziggo-sport",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-ziggo-sport"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/online-tv-kijken",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-online-tv-kijken"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/opnemen",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-opnemen"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/kijkprofielen",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-kijkprofielen"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/hoofdmenu",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-hoofdmenu"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/4k-uhd",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-4k-uhd"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-digitale-kabel-tv-en-radio"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/digitale-radio",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-digitale-radio"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/mediaboxen",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-mediaboxen"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/tv-apps",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-tv-apps"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/ziggo-go",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-ziggo-go"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/espn",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-espn"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/npo-1",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-1"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/rtl-4",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-rtl-4"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/npo-3",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-3"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/sbs6",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-sbs6"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/rtl-5",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-rtl-5"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/npo-2",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-npo-2"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/zenders/star-channel",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-zenders-star-channel"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-netflix"
+        ]
+      },
+      {
+        "action": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "name",
+          "zip",
+          "housenumber",
+          "geboortedatum",
+          "dimelo_chat_type",
+          "customer_question"
+        ],
+        "pages": 1,
+        "examples": [
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      }
+    ]
+  }
+}

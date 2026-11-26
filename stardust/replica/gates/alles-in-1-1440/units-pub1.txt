@@ -1,0 +1,112 @@
+origin: cached alles-in-1-1440-units (2026-11-25T12:24:36.988Z)
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://www.ziggo.nl/alles-in-1 vs https://main--50ca44c6--aemcoder.aem.page/alles-in-1
+unit 1 of product-cards (required) .z-product-card-group__inner > .z-product-card=.pgroup > .pcard: origin 152,1421 552×359 vs served 152,1421 552×375 → Δx 0 Δy 0 Δw 0 Δh +16  ✗ unit size; 12 elements: 4 within 4px, 2 off, 6 displaced (pushed by an off row above), 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.vfz-image.z-product-card__" | 0,0 552×100 | 0,0 552×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "internet 200 mbit/s" | 20,120 512×20 | 20,120 512×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "200 mbit/s download, 25 mbit/s uploa" | 20,148 271×24 | 20,148 275×28 | 0 | 0 | +4 | +4 | ✓ |
+| button "safe online modem" | 20,180 150×24 | 20,184 154×28 | 0 | +4 | +4 | +4 | ✓ |
+| button "safe online extra 1" | 20,211 144×24 | 20,219 148×28 | 0 | +8 | +4 | +4 | ✗ |
+| text "gratis wifi-versterker" | 48,243 129×20 | 52,255 129×24 | +4 | +12 | 0 | +4 | ↓ displaced |
+| image "image:svg#1" | 510,281 22×22 | 510,297 22×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 20,283 235×22 | 20,299 235×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "12 maanden korting" | 28,283 110×22 | 28,299 110×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "je bespaart 84,00" | 142,283 113×22 | 142,299 113×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 0,325 552×34 | 0,341 552×34 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "elke maand extra korting als je ook " | 20,329 317×26 | 20,351 317×13 | 0 | +22 | 0 | -13 | ✗ |
+| image "image:img#1" | — | 0,0 552×100 | | | | | 🟡 extra |
+unit 2 of product-cards (required) .z-product-card-group__inner > .z-product-card=.pgroup > .pcard: origin 152,1800 552×362 vs served 152,1816 552×378 → Δx 0 Δy +16 Δw 0 Δh +16  ✗ unit size; 12 elements: 4 within 4px, 2 off, 6 displaced (pushed by an off row above), 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.vfz-image.z-product-card__" | 0,0 552×100 | 0,0 552×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "internet 500 mbit/s" | 20,120 512×20 | 20,120 512×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "500 mbit/s download, 50 mbit/s uploa" | 20,148 271×24 | 20,148 275×28 | 0 | 0 | +4 | +4 | ✓ |
+| button "safe online modem" | 20,180 150×24 | 20,184 154×28 | 0 | +4 | +4 | +4 | ✓ |
+| button "safe online extra 5" | 20,211 146×24 | 20,219 150×28 | 0 | +8 | +4 | +4 | ✗ |
+| button "gratis wifi-versterker" | 20,243 157×24 | 20,255 161×28 | 0 | +12 | +4 | +4 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 20,286 239×22 | 20,302 239×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "12 maanden korting" | 28,286 110×22 | 28,302 110×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "je bespaart 168,00" | 142,286 117×22 | 142,302 117×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,286 18×18 | 512,302 18×18 | 0 | +16 | 0 | 0 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 0,328 552×34 | 0,344 552×34 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "elke maand extra korting als je ook " | 20,332 317×26 | 20,354 317×13 | 0 | +22 | 0 | -13 | ✗ |
+| image "image:img#1" | — | 0,0 552×100 | | | | | 🟡 extra |
+unit 3 of product-cards (required) .z-product-card-group__inner > .z-product-card=.pgroup > .pcard: origin 152,2182 552×362 vs served 152,2214 552×378 → Δx 0 Δy +32 Δw 0 Δh +16  ✗ unit size; 12 elements: 4 within 4px, 2 off, 6 displaced (pushed by an off row above), 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.vfz-image.z-product-card__" | 0,0 552×100 | 0,0 552×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "internet 1 gbit/s" | 20,120 512×20 | 20,120 512×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "1000 mbit/s download, 100 mbit/s upl" | 20,148 284×24 | 20,148 288×28 | 0 | 0 | +4 | +4 | ✓ |
+| button "safe online modem" | 20,180 150×24 | 20,184 154×28 | 0 | +4 | +4 | +4 | ✓ |
+| button "safe online extra 10" | 20,211 153×24 | 20,219 157×28 | 0 | +8 | +4 | +4 | ✗ |
+| button "tot 2 wifi-versterkers gratis" | 20,243 195×24 | 20,255 199×28 | 0 | +12 | +4 | +4 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 20,286 243×22 | 20,302 243×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "12 maanden korting" | 28,286 110×22 | 28,302 110×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "je bespaart 240,00" | 142,286 121×22 | 142,302 121×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,286 18×18 | 512,302 18×18 | 0 | +16 | 0 | 0 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 0,328 552×34 | 0,344 552×34 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "elke maand extra korting als je ook " | 20,332 317×26 | 20,354 317×13 | 0 | +22 | 0 | -13 | ✗ |
+| image "image:img#1" | — | 0,0 552×100 | | | | | 🟡 extra |
+unit 4 of product-cards (required) .z-product-card-group__inner > .z-product-card=.pgroup > .pcard: origin 152,2564 552×362 vs served 152,2612 552×378 → Δx 0 Δy +48 Δw 0 Δh +16  ✗ unit size; 12 elements: 4 within 4px, 2 off, 6 displaced (pushed by an off row above), 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.vfz-image.z-product-card__" | 0,0 552×100 | 0,0 552×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "internet 2 gbit/s" | 20,120 512×20 | 20,120 512×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "2000 mbit/s download, 120 mbit/s upl" | 20,148 286×24 | 20,148 290×28 | 0 | 0 | +4 | +4 | ✓ |
+| button "safe online modem" | 20,180 150×24 | 20,184 154×28 | 0 | +4 | +4 | +4 | ✓ |
+| button "safe online extra 25" | 20,211 154×24 | 20,219 158×28 | 0 | +8 | +4 | +4 | ✗ |
+| button "tot 3 wifi-versterkers gratis" | 20,243 195×24 | 20,255 199×28 | 0 | +12 | +4 | +4 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 20,286 242×22 | 20,302 242×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "12 maanden korting" | 28,286 110×22 | 28,302 110×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "je bespaart 300,00" | 142,286 120×22 | 142,302 120×22 | 0 | +16 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,286 18×18 | 512,302 18×18 | 0 | +16 | 0 | 0 | ↓ displaced |
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 0,328 552×34 | 0,344 552×34 | 0 | +16 | 0 | 0 | ↓ displaced |
+| text "elke maand extra korting als je ook " | 20,332 317×26 | 20,354 317×13 | 0 | +22 | 0 | -13 | ✗ |
+| image "image:img#1" | — | 0,0 552×100 | | | | | 🟡 extra |
+unit 1 of contract-promo-cards (required) .z-contract-promo-card-group-card=.promos > .promo: origin 152,6976 552×134 vs served 152,7153 552×102 → Δx 0 Δy +177 Δw 0 Δh -32  ✗ unit size; 6 elements: 0 within 4px, 1 off, 3 displaced (pushed by an off row above), 0 hidden, 2 missing, 2 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.z-contract-promo-card-group-" | 0,0 90×134 | 0,0 90×102 | 0 | 0 | 0 | -32 | ✗ |
+| heading "tot 15 maanden 34,95 p.m." | 110,52 422×22 | 110,20 422×22 | 0 | -32 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 510,86 22×22 | 510,54 22×22 | 0 | -32 | 0 | 0 | ↓ displaced |
+| button "meer informatie" | 110,88 101×25 | 110,54 101×25 | 0 | -34 | 0 | 0 | ↓ displaced |
+| box "box:div.z-contract-promo-card-group-" | 110,20 107×24 | — | | | | | ✗ missing |
+| text "2 jaar contract" | 133,26 79×12 | — | | | | | ✗ missing |
+| image "image:picture#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+| image "image:img#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+unit 2 of contract-promo-cards (required) .z-contract-promo-card-group-card=.promos > .promo: origin 152,7134 552×134 vs served 152,7279 552×102 → Δx 0 Δy +145 Δw 0 Δh -32  ✗ unit size; 5 elements: 0 within 4px, 1 off, 2 displaced (pushed by an off row above), 0 hidden, 2 missing, 2 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.z-contract-promo-card-group-" | 0,0 90×134 | 0,0 90×102 | 0 | 0 | 0 | -32 | ✗ |
+| heading "6 maanden 34,95 p.m." | 110,52 422×22 | 110,20 422×22 | 0 | -32 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,88 18×18 | 512,56 18×18 | 0 | -32 | 0 | 0 | ↓ displaced |
+| box "box:div.z-contract-promo-card-group-" | 110,20 105×24 | — | | | | | ✗ missing |
+| text "1 jaar contract" | 133,26 77×12 | — | | | | | ✗ missing |
+| image "image:picture#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+| image "image:img#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+unit 3 of contract-promo-cards (required) .z-contract-promo-card-group-card=.promos > .promo: origin 152,7292 552×134 vs served 152,7405 552×102 → Δx 0 Δy +113 Δw 0 Δh -32  ✗ unit size; 6 elements: 0 within 4px, 1 off, 3 displaced (pushed by an off row above), 0 hidden, 2 missing, 2 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.z-contract-promo-card-group-" | 0,0 90×134 | 0,0 90×102 | 0 | 0 | 0 | -32 | ✗ |
+| heading "samsung tv + soundbar t.w.v. € 898" | 110,52 422×22 | 110,20 422×22 | 0 | -32 | 0 | 0 | ↓ displaced |
+| button "meer informatie" | 110,88 101×25 | 110,54 101×25 | 0 | -34 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,88 18×18 | 512,56 18×18 | 0 | -32 | 0 | 0 | ↓ displaced |
+| box "box:div.z-contract-promo-card-group-" | 110,20 107×24 | — | | | | | ✗ missing |
+| text "2 jaar contract" | 133,26 79×12 | — | | | | | ✗ missing |
+| image "image:picture#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+| image "image:img#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+unit 4 of contract-promo-cards (required) .z-contract-promo-card-group-card=.promos > .promo: origin 152,7450 552×134 vs served 152,7531 552×102 → Δx 0 Δy +81 Δw 0 Δh -32  ✗ unit size; 6 elements: 0 within 4px, 1 off, 3 displaced (pushed by an off row above), 0 hidden, 2 missing, 2 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.z-contract-promo-card-group-" | 0,0 90×134 | 0,0 90×102 | 0 | 0 | 0 | -32 | ✗ |
+| heading "bol cadeaukaart t.w.v. € 450" | 110,52 422×22 | 110,20 422×22 | 0 | -32 | 0 | 0 | ↓ displaced |
+| button "meer informatie" | 110,88 101×25 | 110,54 101×25 | 0 | -34 | 0 | 0 | ↓ displaced |
+| image "image:svg#1" | 512,88 18×18 | 512,56 18×18 | 0 | -32 | 0 | 0 | ↓ displaced |
+| box "box:div.z-contract-promo-card-group-" | 110,20 107×24 | — | | | | | ✗ missing |
+| text "2 jaar contract" | 133,26 79×12 | — | | | | | ✗ missing |
+| image "image:picture#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+| image "image:img#1" | — | 0,0 90×102 | | | | | 🟡 extra |
+Units: 8 compared; elements within 16, off 12, hidden 0, missing 8 → FAIL
+json → stardust/replica/gates/alles-in-1-1440/units-pub1.json

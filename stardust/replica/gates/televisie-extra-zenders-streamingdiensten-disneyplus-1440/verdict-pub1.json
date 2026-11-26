@@ -1,0 +1,101 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/pixel-pub1.json",
+    "pct": 9.43,
+    "alignedPct": 6.14,
+    "alignedUsed": true,
+    "totalShift": 116,
+    "steps": [
+      {
+        "y": 775,
+        "shift": 8,
+        "cumulative": 8
+      },
+      {
+        "y": 1053,
+        "shift": 8,
+        "cumulative": 16
+      },
+      {
+        "y": 1692,
+        "shift": -5,
+        "cumulative": 11
+      },
+      {
+        "y": 2096,
+        "shift": -5,
+        "cumulative": 6
+      },
+      {
+        "y": 2372,
+        "shift": -16,
+        "cumulative": -10
+      },
+      {
+        "y": 3276,
+        "shift": 65,
+        "cumulative": 55
+      },
+      {
+        "y": 3623,
+        "shift": 7,
+        "cumulative": 62
+      },
+      {
+        "y": 5803,
+        "shift": -1,
+        "cumulative": 61
+      },
+      {
+        "y": 6280,
+        "shift": 1,
+        "cumulative": 62
+      }
+    ],
+    "offsetBound": 64,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 9 step(s), 116px total — +8px at y=775, +8px at y=1053, −5px at y=1692, −5px at y=2096, −16px at y=2372, +65px at y=3276, … 3 more (bound 64px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T18:57:54.906Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/units-pub1.txt"
+    }
+  },
+  "structural": 135,
+  "nothingLost": 1,
+  "at": "2026-11-25T19:01:20.759Z"
+}

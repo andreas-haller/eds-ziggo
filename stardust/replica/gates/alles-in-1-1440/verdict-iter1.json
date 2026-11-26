@@ -1,0 +1,92 @@
+{
+  "round": "iter1",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/alles-in-1-1440/diff-iter1.png",
+    "json": "stardust/replica/gates/alles-in-1-1440/pixel-iter1.json",
+    "pct": 0.77,
+    "alignedPct": 0.37,
+    "alignedUsed": true,
+    "totalShift": 10,
+    "steps": [
+      {
+        "y": 3992,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4885,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 5351,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 6355,
+        "shift": 1,
+        "cumulative": 2
+      },
+      {
+        "y": 8248,
+        "shift": -2,
+        "cumulative": 0
+      },
+      {
+        "y": 8900,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 9564,
+        "shift": -2,
+        "cumulative": -1
+      },
+      {
+        "y": 10528,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 8 step(s), 10px total — +1px at y=3992, −1px at y=4885, +1px at y=5351, +1px at y=6355, −2px at y=8248, +1px at y=8900, … 2 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T12:21:39.049Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/units-iter1.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 6,
+  "at": "2026-11-25T12:24:59.738Z"
+}

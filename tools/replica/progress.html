@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.ziggo.nl/" target="_blank" rel="noopener">https://www.ziggo.nl/</a><br>Preview site: <a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--50ca44c6--aemcoder.aem.page/</a><br>Finished: 2026-11-26 07:16 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>All thirty-three pages are live and match the current site on desktop and mobile, and the site menu now opens exactly as it does today. The block and template library your editors use to build new pages is in place.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>A final completeness check, then the site is ready for handover.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 33 pages. 33 of 33 are published on the preview site; 33 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>33 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.ziggo.nl/" target="_blank" rel="noopener">https://www.ziggo.nl/</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/alles-in-1" target="_blank" rel="noopener">https://www.ziggo.nl/alles-in-1</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/tv-internet" target="_blank" rel="noopener">https://www.ziggo.nl/tv-internet</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie" target="_blank" rel="noopener">https://www.ziggo.nl/televisie</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/internet" target="_blank" rel="noopener">https://www.ziggo.nl/internet</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/voicecontrol" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/voicecontrol</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/makkelijk-zoeken" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/makkelijk-zoeken</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenderoverzicht" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenderoverzicht</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenderoverzicht" target="_blank" rel="noopener">Vind alle digitale zenders bij Ziggo in het zenderoverzicht</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/terugkijken" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/terugkijken</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/online-tv-kijken" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/online-tv-kijken</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/ziggo-sport" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/ziggo-sport</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/opnemen" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/opnemen</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/kijkprofielen" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/kijkprofielen</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/hoofdmenu" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/hoofdmenu</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/4k-uhd" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/4k-uhd</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/digitale-radio" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/digitale-radio</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/tv-start" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/tv-start</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/kabel-tv" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/kabel-tv</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/mediaboxen" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/mediaboxen</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/ziggo-go" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/ziggo-go</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/tv-apps" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/tv-apps</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/espn" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/espn</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/npo-1" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/npo-1</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1" target="_blank" rel="noopener">NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/sbs6" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/sbs6</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/sbs6" target="_blank" rel="noopener">SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/rtl-4" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/rtl-4</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-4" target="_blank" rel="noopener">RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/npo-2" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/npo-2</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-2" target="_blank" rel="noopener">NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/npo-3" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/npo-3</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-3" target="_blank" rel="noopener">NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/rtl-5" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/rtl-5</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-5" target="_blank" rel="noopener">RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/zenders/star-channel" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/zenders/star-channel</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/star-channel" target="_blank" rel="noopener">STAR Channel kijken | Zenderoverzicht Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/disneyplus</a></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>TV feature pages</td><td>13</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Channel pages</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Overview pages</td><td>6</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Channel overview</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Package &amp; ordering pages</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Streaming service pages</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>30 blocks in 161 variants across 33 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="20">hero-band<span class="block-pages">30 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr><td><span class="variant">channel</span></td><td><button class="more" popovertarget="blocks-pages-0-1">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">fit</span></td><td><button class="more" popovertarget="blocks-pages-0-2">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">compact</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">short</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></td></tr>
+          <tr><td><span class="variant">program</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">banner</span><span class="variant">art</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">short</span><span class="variant">art-15</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">short</span><span class="variant">art-19</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">auto</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">banner</span><span class="variant">boxed</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">compact</span><span class="variant">banner</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">banner</span><span class="variant">lead</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">short</span><span class="variant">compact</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">natural</span><span class="variant">xl</span><span class="variant">fit</span><span class="variant">spaced</span><span class="variant">lifted</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">natural</span><span class="variant">fit</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">fit</span><span class="variant">spaced</span><span class="variant">raised</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">article</span><span class="variant">xl</span><span class="variant">narrow</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td></tr>
+          <tr><td><span class="variant">listing</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenderoverzicht" target="_blank" rel="noopener">Vind alle digitale zenders bij Ziggo in het zenderoverzicht</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">interactions<span class="block-pages">28 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 19 pages</button></td></tr>
+          <tr><td><span class="variant">off</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">online</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">breadcrumb<span class="block-pages">20 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 16 pages</button></td></tr>
+          <tr><td><span class="variant">close</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">tall</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">xxl</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="14">faq-accordion<span class="block-pages">18 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span><span class="variant">title-h2</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">program</span><span class="variant">product</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">streaming</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span><span class="variant">title-h2</span><span class="variant">deep</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span><span class="variant">tail</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">listing</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenderoverzicht" target="_blank" rel="noopener">Vind alle digitale zenders bij Ziggo in het zenderoverzicht</a></td></tr>
+          <tr><td><span class="variant">program</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">program</span><span class="variant">title-h2</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td></tr>
+          <tr><td><span class="variant">roomy</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">side</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">side</span><span class="variant">wide</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">ten</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="42">media-text<span class="block-pages">18 pages</span></td><td><span class="variant">half</span><span class="variant">light</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tv</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a> <span class="blocks-count">×2</span>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a> <span class="blocks-count">×2</span>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">ctas</span><span class="variant">tags</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tight</span><span class="variant">flush</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">accent</span><span class="variant">fill</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">airy</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">big</span><span class="variant">half</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">big</span><span class="variant">half</span><span class="variant">light</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">light</span><span class="variant">card</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">ctas</span><span class="variant">dual</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">inset</span><span class="variant">half</span><span class="variant">grouped</span><span class="variant">flush</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">inset</span><span class="variant">half</span><span class="variant">grouped</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">inset</span><span class="variant">half</span><span class="variant">grouped</span><span class="variant">third</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">inset</span><span class="variant">half</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">duo</span><span class="variant">stack</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">fill</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">fill</span><span class="variant">plain</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">fill</span><span class="variant">plain</span><span class="variant">tall</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">light</span><span class="variant">fill</span><span class="variant">tips</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></td></tr>
+          <tr><td><span class="variant">fill</span><span class="variant">orange</span><span class="variant">plain</span><span class="variant">natural</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">fill</span><span class="variant">orange</span><span class="variant">plain</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">gradient</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">gradient</span><span class="variant">half</span><span class="variant">hero</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">gradient</span><span class="variant">sub</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">light</span><span class="variant">pair</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">plain</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">rule</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">rule</span><span class="variant">tint</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">half</span><span class="variant">small</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tv</span><span class="variant">large</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">lead</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">light</span><span class="variant">tip</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">narrow</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tv</span><span class="variant">note</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tv</span><span class="variant">snug</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">start</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">tight</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">wide</span><span class="variant">lead</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">primary</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr><td><span class="variant">wide</span><span class="variant">roomy</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">wide</span><span class="variant">spaced</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">wide</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="14">mediabox-cards<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">small</span><span class="variant">h5</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">halves</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">icons</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">regular</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">small</span><span class="variant">snug</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">white</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">groups</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">landing</span><span class="variant">minor</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">plain</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">tight</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">steps</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="9">feature-cards<span class="block-pages">9 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><button class="more" popovertarget="blocks-pages-6-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">channels</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">four</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td></tr>
+          <tr><td><span class="variant">light</span><span class="variant">groups</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">square</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">tiles</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr><td><span class="variant">trio</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">usp</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">sticky-subnav<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">start</span></td><td><button class="more" popovertarget="blocks-pages-7-1">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">channel-info-card<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-8-0">View 7 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">identification-bar<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">link</span><span class="variant">lg</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">link</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block">social-share<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-10-0">View 7 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="6">cards<span class="block-pages">6 pages</span></td><td><span class="variant">icons</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">aside</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">aside</span><span class="variant">help</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">icons</span><span class="variant">large</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">icons</span><span class="variant">rows</span><span class="variant">light</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></td></tr>
+          <tr><td><span class="variant">icons</span><span class="variant">rows</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">address-checker<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a></td></tr>
+          <tr><td><span class="variant">product</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></td></tr>
+          <tr><td><span class="variant">inline</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">spaced</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">plan-cards<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr><td><span class="variant">tv</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></td></tr>
+          <tr><td><span class="variant">internet</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr><td><span class="variant">media</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">bundle-builder<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a></td></tr>
+          <tr><td><span class="variant">product</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="2">contact-band<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/alles-in-1" target="_blank" rel="noopener">Alles-in-1 | Vergelijk Internet, TV &amp;amp; Bellen | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/tv-internet" target="_blank" rel="noopener">Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">cards</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">video-band<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">gradient</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr><td><span class="variant">inline</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">columns<span class="block-pages">3 pages</span></td><td><span class="variant">text</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">icons</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">streaming-features<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">center</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">media-start</span><span class="variant">center</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">contact</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">landing</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">streaming-service-cards<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">light</span><span class="variant">center</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">steps</span><span class="variant">light</span><span class="variant">center</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr><td><span class="variant">offers</span><span class="variant">first</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></td></tr>
+          <tr><td><span class="variant">offers</span><span class="variant">loose</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">offers</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">steps</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">toptask-tiles<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a>, <a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">streaming-hero<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">xl</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">streaming-tier-table<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></td></tr>
+          <tr><td><span class="variant">center</span><span class="variant">xl</span><span class="variant">tabs</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></td></tr>
+          <tr class="group"><td class="block">article-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr class="group"><td class="block">channel-overview<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenderoverzicht" target="_blank" rel="noopener">Vind alle digitale zenders bij Ziggo in het zenderoverzicht</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">media-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr class="group"><td class="block">one-band<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr class="group"><td class="block">priority-band<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr class="group"><td class="block">swimming-lane<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></td></tr>
+          <tr class="group"><td class="block">table<span class="block-pages">1 page</span></td><td><span class="variant">apps</span></td><td><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a> <span class="blocks-count">×4</span></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 30</span><span class="bp-range bp-range-2">Blocks 6–10 of 30</span><span class="bp-range bp-range-3">Blocks 11–15 of 30</span><span class="bp-range bp-range-4">Blocks 16–20 of 30</span><span class="bp-range bp-range-5">Blocks 21–25 of 30</span><span class="bp-range bp-range-6">Blocks 26–30 of 30</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label></div></nav>
+      <div popover id="blocks-pages-0-1" class="blocks-popover" aria-labelledby="blocks-pages-0-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-1-title">hero-band <span class="variant-inline">channel</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1" target="_blank" rel="noopener">NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/sbs6" target="_blank" rel="noopener">SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-4" target="_blank" rel="noopener">RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-2" target="_blank" rel="noopener">NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-3" target="_blank" rel="noopener">NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-5" target="_blank" rel="noopener">RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/star-channel" target="_blank" rel="noopener">STAR Channel kijken | Zenderoverzicht Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-2" class="blocks-popover" aria-labelledby="blocks-pages-0-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-2-title">hero-band <span class="variant-inline">article fit</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">interactions <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 19 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/internet" target="_blank" rel="noopener">Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/mediaboxen" target="_blank" rel="noopener">Ziggo Mediaboxen | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1" target="_blank" rel="noopener">NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/sbs6" target="_blank" rel="noopener">SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-4" target="_blank" rel="noopener">RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-2" target="_blank" rel="noopener">NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-3" target="_blank" rel="noopener">NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-5" target="_blank" rel="noopener">RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/star-channel" target="_blank" rel="noopener">STAR Channel kijken | Zenderoverzicht Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">interactions <span class="variant-inline">off</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen" target="_blank" rel="noopener">Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">breadcrumb <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 16 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol" target="_blank" rel="noopener">Afstandsbediening met Voice Control | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/hoofdmenu" target="_blank" rel="noopener">Je persoonlijke startscherm | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio" target="_blank" rel="noopener">Digitale Kabel TV | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-radio" target="_blank" rel="noopener">Digitale Radio | Televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start" target="_blank" rel="noopener">TV Start pakket | Haal meer uit je televisie | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv" target="_blank" rel="noopener">Kabel TV: voordelig tv kijken | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go" target="_blank" rel="noopener">Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps" target="_blank" rel="noopener">TV apps op je mediabox | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/espn" target="_blank" rel="noopener">Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/disneyplus" target="_blank" rel="noopener">Kijk alles van Disney Plus | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-1" class="blocks-popover" aria-labelledby="blocks-pages-6-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-1-title">feature-cards <span class="variant-inline">light</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie" target="_blank" rel="noopener">Televisie - TV &amp; Streaming op één plek | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken" target="_blank" rel="noopener">Makkelijk zoeken | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-1" class="blocks-popover" aria-labelledby="blocks-pages-7-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-1-title">sticky-subnav <span class="variant-inline">start</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten" target="_blank" rel="noopener">Extra zenders &amp; streamingdiensten | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen" target="_blank" rel="noopener">Opnemen, pauzeren en terugspoelen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd" target="_blank" rel="noopener">4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix" target="_blank" rel="noopener">Netflix kijken op je Mediabox | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-0" class="blocks-popover" aria-labelledby="blocks-pages-8-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-0-title">channel-info-card <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1" target="_blank" rel="noopener">NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/sbs6" target="_blank" rel="noopener">SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-4" target="_blank" rel="noopener">RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-2" target="_blank" rel="noopener">NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-3" target="_blank" rel="noopener">NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-5" target="_blank" rel="noopener">RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/star-channel" target="_blank" rel="noopener">STAR Channel kijken | Zenderoverzicht Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">identification-bar <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/" target="_blank" rel="noopener">Ziggo | Internet • TV &amp;amp; Streaming • Bellen</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/terugkijken" target="_blank" rel="noopener">Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken" target="_blank" rel="noopener">Online tv-kijken waar en wanneer je wilt | Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport" target="_blank" rel="noopener">Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-10-0" class="blocks-popover" aria-labelledby="blocks-pages-10-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-10-0-title">social-share <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-10-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-1" target="_blank" rel="noopener">NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/sbs6" target="_blank" rel="noopener">SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-4" target="_blank" rel="noopener">RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-2" target="_blank" rel="noopener">NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/npo-3" target="_blank" rel="noopener">NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/rtl-5" target="_blank" rel="noopener">RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo</a></li>
+          <li><a href="https://main--50ca44c6--aemcoder.aem.page/televisie/zenders/star-channel" target="_blank" rel="noopener">STAR Channel kijken | Zenderoverzicht Ziggo</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

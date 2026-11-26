@@ -1,0 +1,125 @@
+{
+  "a": "stardust/replica/gates/televisie-digitale-radio-1440/live.png",
+  "b": "stardust/replica/gates/televisie-digitale-radio-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 2744,
+    "mode": "overlap"
+  },
+  "heightDelta": -11,
+  "differingPixels": 681375,
+  "pct": 17.24,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-digitale-radio-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 35.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 31.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 14.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.2
+    },
+    {
+      "y0": 2500,
+      "y1": 2744,
+      "pct": 3.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 16.6,
+    "differingPixels": 658660,
+    "compared": {
+      "width": 1440,
+      "height": 2755,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2163,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 2639,
+        "shift": 1,
+        "cumulative": 11
+      }
+    ],
+    "maxOffset": 11,
+    "totalShift": 11,
+    "insertedRows": 11,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 35.5,
+        "unaligned": 35.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 31.9,
+        "unaligned": 31.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 14.3,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 7,
+        "unaligned": 7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2.6,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 2500,
+        "y1": 2744,
+        "pct": 0.4,
+        "unaligned": 3.6
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-digitale-radio-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 27,
+    "totalShift": 11,
+    "pass": true
+  },
+  "reason": "pixel aligned 16.6% (unaligned 17.24%) > 10%"
+}

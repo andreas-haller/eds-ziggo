@@ -1,0 +1,86 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-online-tv-kijken-1440/pixel-pub1.json",
+    "pct": 20.18,
+    "alignedPct": 16.87,
+    "alignedUsed": true,
+    "totalShift": 472,
+    "steps": [
+      {
+        "y": 1194,
+        "shift": -102,
+        "cumulative": -102
+      },
+      {
+        "y": 1514,
+        "shift": -108,
+        "cumulative": -210
+      },
+      {
+        "y": 2096,
+        "shift": -70,
+        "cumulative": -280
+      },
+      {
+        "y": 3723,
+        "shift": 151,
+        "cumulative": -129
+      },
+      {
+        "y": 4515,
+        "shift": -40,
+        "cumulative": -169
+      },
+      {
+        "y": 5071,
+        "shift": 1,
+        "cumulative": -168
+      }
+    ],
+    "offsetBound": 52,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 16.87% (unaligned 20.18%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:17:05.243Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/units-pub1.txt"
+    }
+  },
+  "structural": 140,
+  "nothingLost": 3,
+  "at": "2026-11-25T21:20:30.799Z"
+}

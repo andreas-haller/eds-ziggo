@@ -1,0 +1,76 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-kijkprofielen-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-kijkprofielen-1440/pixel-pub2.json",
+    "pct": 39.37,
+    "alignedPct": 29.42,
+    "alignedUsed": true,
+    "totalShift": 526,
+    "steps": [
+      {
+        "y": 814,
+        "shift": -64,
+        "cumulative": -64
+      },
+      {
+        "y": 1528,
+        "shift": -283,
+        "cumulative": -347
+      },
+      {
+        "y": 3754,
+        "shift": -23,
+        "cumulative": -370
+      },
+      {
+        "y": 5688,
+        "shift": -156,
+        "cumulative": -526
+      }
+    ],
+    "offsetBound": 58,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 29.42% (unaligned 39.37%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:18:29.782Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-1440/units-pub2.txt"
+    }
+  },
+  "structural": 134,
+  "nothingLost": 0,
+  "at": "2026-11-25T21:46:52.430Z"
+}

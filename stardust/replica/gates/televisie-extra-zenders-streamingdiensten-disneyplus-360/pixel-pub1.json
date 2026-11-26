@@ -1,0 +1,280 @@
+{
+  "a": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/live.png",
+  "b": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 7523,
+    "mode": "overlap"
+  },
+  "heightDelta": -242,
+  "differingPixels": 590199,
+  "pct": 21.79,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 16.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 45.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 20.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 55.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 17.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 25.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 31.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 11
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 8.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 29.1
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 48
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 7.7
+    },
+    {
+      "y0": 7500,
+      "y1": 7523,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.34,
+    "differingPixels": 206256,
+    "compared": {
+      "width": 360,
+      "height": 7805,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1206,
+        "shift": 63,
+        "cumulative": 63
+      },
+      {
+        "y": 1267,
+        "shift": 8,
+        "cumulative": 71
+      },
+      {
+        "y": 1401,
+        "shift": 8,
+        "cumulative": 79
+      },
+      {
+        "y": 1537,
+        "shift": 8,
+        "cumulative": 87
+      },
+      {
+        "y": 1930,
+        "shift": 8,
+        "cumulative": 95
+      },
+      {
+        "y": 4728,
+        "shift": 139,
+        "cumulative": 234
+      },
+      {
+        "y": 5892,
+        "shift": -40,
+        "cumulative": 194
+      },
+      {
+        "y": 6169,
+        "shift": 16,
+        "cumulative": 210
+      },
+      {
+        "y": 6325,
+        "shift": 16,
+        "cumulative": 226
+      },
+      {
+        "y": 6517,
+        "shift": 15,
+        "cumulative": 241
+      },
+      {
+        "y": 7082,
+        "shift": 1,
+        "cumulative": 242
+      }
+    ],
+    "maxOffset": 242,
+    "totalShift": 322,
+    "insertedRows": 282,
+    "deletedRows": 40,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 22,
+        "unaligned": 16.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 5.2,
+        "unaligned": 45.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2.5,
+        "unaligned": 20.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.9,
+        "unaligned": 55.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.7,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4.2,
+        "unaligned": 25.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 5.9,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 32.1,
+        "unaligned": 31.8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 11
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 8.9,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 9,
+        "unaligned": 29.1
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 3.1,
+        "unaligned": 48
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 7500,
+        "y1": 7523,
+        "pct": 0,
+        "unaligned": 2.7
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 75,
+    "totalShift": 322,
+    "pass": false
+  },
+  "reason": "offsets: 11 step(s), 322px total — +63px at y=1206, +8px at y=1267, +8px at y=1401, +8px at y=1537, +8px at y=1930, +139px at y=4728, … 5 more (bound 75px)"
+}

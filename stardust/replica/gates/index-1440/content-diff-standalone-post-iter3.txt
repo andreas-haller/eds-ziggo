@@ -1,0 +1,33 @@
+run-bg: cd1440 launched 2026-11-25T11:08:06.148Z (timeout 900s): node stardust/scripts/diff/content-diff.mjs https://www.ziggo.nl/ http://localhost:8791/index-proposed.html --profile generic --width 1440 --main #main-content --dismiss .dimelo-form --consent #onetrust-accept-btn-handler
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 258 text nodes — 18 headings, 0 eyebrows, 144 CTAs, 96 body; 240 img
+  build: 260 text nodes — 18 headings, 0 eyebrows, 144 CTAs, 98 body; 232 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 17 / build 17; icons: source 277 / build 278
+  accepted (invisible, nothing lost): 3 SAME IMAGE — "Ziggo_48x48 ↔ Ziggo_48x48.svg", "Vodafone_48x48 ↔ Vodafone_48x48.svg", "DoubleData_48x48 ↔ DoubleData_48x48.svg"
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 8 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 5 (owner 2, auto 3) · advisory 8
+  🟡 EXTRA [#main-content]: build body "Laat vorige zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Laat volgende zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ICON [#main-content]: source image 1080x740_hero-60-device_ziggoprimary(1) (20×14) at "onze grootste black friday ooit stap nu " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph , (ziggo-ui-icon-v22, 20×20) at "laat vorige zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph + (ziggo-ui-icon-v22, 20×20) at "laat volgende zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.
+  🟢 ICON DIFF [#main-content] accepted (stardust/replica/accepted.json): live lane card 'Lupin | seizoen 4' carries an empty logo src that resolves to the page URL (www.ziggo.nl); the build's empty src resolves to its own page URL — same empty image, different base URL
+  🟢 ICON DIFF [#main-content] accepted (stardust/replica/accepted.json): live lane card 'Lupin | seizoen 4' carries an empty logo src that resolves to the page URL (www.ziggo.nl); the build's empty src resolves to its own page URL — same empty image, different base URL
+run-bg: cd1440 ended exit=0

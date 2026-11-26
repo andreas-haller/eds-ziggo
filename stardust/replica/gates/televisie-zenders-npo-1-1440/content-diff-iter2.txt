@@ -1,0 +1,29 @@
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 26 text nodes — 4 headings, 0 eyebrows, 3 CTAs, 19 body; 1 img
+  build: 24 text nodes — 4 headings, 0 eyebrows, 4 CTAs, 16 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 9 / build 9
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 7 / build 8
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 9 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 9
+  🟠 EXTRA [#main-content]: build cta "Chat met ons Niet beschikbaar Chat" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main-content]: source body "Chat met ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Beschikbaar"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chat"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 ICON MOVED [#main-content]: source icon-font glyph + (ziggo-ui-icon-v22, 10×10) at "chat met ons beschikbaar chat" is at "chat met ons niet beschikbaar chat" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph [ (ziggo-ui-icon-v22, 18×18) at "navigeer naar facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.

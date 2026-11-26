@@ -1,0 +1,44 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 868 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/internet (docH 6453, 207 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/internet (docH 6354, 207 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 1/1 | 0/0 | 1/1 | 1/2 | - |
+| 1 | internet van ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | ontdek onze internetabonnementen | 8/9 | 0/0 | 1/0 | 0/0 | EXTRA LINK |
+| 3 | snel en stabiel internet met ziggo wifi  | 1/1 | 0/0 | 4/4 | 3/3 | - |
+| 4 | daarom kies je voor internet van ziggo | 4/5 | 2/2 | 1/1 | 4/5 | - |
+| 5 | alle snelheid | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | wifi die werkt | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 7 | wifi-versterkers | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 8 | 24/7 wifi crew hulp | 4/4 | 0/0 | 4/5 | 0/0 | - |
+| 9 | altijd een abonnement dat bij je past | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 10 | internet 1 gbit/s | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | internet 2 gbit/s | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 12 | internet 500 mbit/s | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 13 | internet 200 mbit/s | 4/4 | 19/0 | 1/20 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 14 | is internet van ziggo beschikbaar op mij | 0/0 | 1/1 | 3/3 | 1/1 | CONTROL MISSING |
+| 15 | welke internetsnelheid heb je nodig? | 1/1 | 0/0 | 2/2 | 1/1 | - |
+| 16 | overstappen naar ziggo | 2/2 | 0/0 | 1/2 | 1/1 | - |
+| 17 | zelf je internetabonnement samenstellen | 3/3 | 0/0 | 2/1 | 0/0 | - |
+| 18 | veelgestelde vragen | 0/0 | 10/10 | 0/0 | 0/0 | - |
+| 19 | nog een vraag? | 3/3 | 0/0 | 7/7 | 3/3 | - |
+  🟠 MISSING BUTTON: "200 mbit/s | 25 mbit/s" in band "internet 200 mbit/s" (origin y 2511) not on the served page
+  🟠 MISSING BUTTON: ×4 "safe online modem" in band "internet 200 mbit/s" (origin y 2547) not on the served page
+  🟠 MISSING BUTTON: ×4 "safe online extra 1" in band "internet 200 mbit/s" (origin y 2582) not on the served page
+  🟠 MISSING BUTTON: ×4 "wifi garantie" in band "internet 200 mbit/s" (origin y 2618) not on the served page
+  🟠 MISSING BUTTON: "500 mbit/s | 50 mbit/s" in band "internet 200 mbit/s" (origin y 2508) not on the served page
+  🟠 MISSING BUTTON: "gratis wifi-versterker" in band "internet 200 mbit/s" (origin y 2650) not on the served page
+  🟠 MISSING BUTTON: "1000 mbit/s | 100 mbit/s" in band "internet 200 mbit/s" (origin y 2491) not on the served page
+  🟠 MISSING BUTTON: "tot 2 wifi-versterkers gratis" in band "internet 200 mbit/s" (origin y 2633) not on the served page
+  🟠 MISSING BUTTON: "2000 mbit/s | 120 mbit/s" in band "internet 200 mbit/s" (origin y 2491) not on the served page
+  🟠 MISSING BUTTON: "tot 3 wifi-versterkers gratis" in band "internet 200 mbit/s" (origin y 2633) not on the served page
+  🟡 EXTRA HEADING: served h3 "gratis monteur" (y 2013) has no origin heading
+  🟡 EXTRA LINK: "chat" served in band "ontdek onze internetabonnementen", no origin link or button
+  🟡 COUNT TEXT: band "internet 200 mbit/s": 1 origin → 20 served visible
+  🟡 CONTROL MISSING: toevoeging = "" (band "is internet van ziggo beschikbaar op mijn adres?") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 19 hidden 0 / moved 0 extra 1 / count deltas 1
+Findings: 14 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/internet-1440/content-presence-pub1.json

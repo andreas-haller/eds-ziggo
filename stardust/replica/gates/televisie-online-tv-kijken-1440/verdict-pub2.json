@@ -1,0 +1,66 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-online-tv-kijken-1440/pixel-pub2.json",
+    "pct": 13.21,
+    "alignedPct": 12.8,
+    "alignedUsed": true,
+    "totalShift": 30,
+    "steps": [
+      {
+        "y": 4534,
+        "shift": -29,
+        "cumulative": -29
+      },
+      {
+        "y": 5071,
+        "shift": 1,
+        "cumulative": -28
+      }
+    ],
+    "offsetBound": 52,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 12.8% (unaligned 13.21%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:17:05.243Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/units-pub2.txt"
+    }
+  },
+  "structural": 140,
+  "nothingLost": 3,
+  "at": "2026-11-25T21:49:02.898Z"
+}

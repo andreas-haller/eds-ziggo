@@ -1,0 +1,86 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-ziggo-sport-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-ziggo-sport-1440/pixel-pub3.json",
+    "pct": 5.93,
+    "alignedPct": 4.25,
+    "alignedUsed": true,
+    "totalShift": 33,
+    "steps": [
+      {
+        "y": 2599,
+        "shift": -4,
+        "cumulative": -4
+      },
+      {
+        "y": 3111,
+        "shift": 2,
+        "cumulative": -2
+      },
+      {
+        "y": 5120,
+        "shift": -7,
+        "cumulative": -9
+      },
+      {
+        "y": 5977,
+        "shift": 9,
+        "cumulative": 0
+      },
+      {
+        "y": 7182,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 7695,
+        "shift": 1,
+        "cumulative": 11
+      }
+    ],
+    "offsetBound": 78,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:06:20.852Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/units-pub3.txt"
+    }
+  },
+  "structural": 149,
+  "nothingLost": 1,
+  "at": "2026-11-25T22:35:57.750Z"
+}

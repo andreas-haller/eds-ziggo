@@ -1,0 +1,271 @@
+{
+  "a": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/live.png",
+  "b": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 8238,
+    "mode": "overlap"
+  },
+  "heightDelta": 64,
+  "differingPixels": 1433032,
+  "pct": 12.08,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 16
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 15.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 16.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 20.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 11.4
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 15.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 23.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 5.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 14.7
+    },
+    {
+      "y0": 8000,
+      "y1": 8238,
+      "pct": 4.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 9.82,
+    "differingPixels": 1188509,
+    "compared": {
+      "width": 1440,
+      "height": 8406,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3227,
+        "shift": 24,
+        "cumulative": 24
+      },
+      {
+        "y": 3603,
+        "shift": 43,
+        "cumulative": 67
+      },
+      {
+        "y": 4001,
+        "shift": 7,
+        "cumulative": 74
+      },
+      {
+        "y": 5264,
+        "shift": 29,
+        "cumulative": 103
+      },
+      {
+        "y": 6198,
+        "shift": -42,
+        "cumulative": 61
+      },
+      {
+        "y": 7563,
+        "shift": -126,
+        "cumulative": -65
+      },
+      {
+        "y": 8197,
+        "shift": 1,
+        "cumulative": -64
+      }
+    ],
+    "maxOffset": 103,
+    "totalShift": 272,
+    "insertedRows": 104,
+    "deletedRows": 168,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.3,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 4.5,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 16,
+        "unaligned": 16
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 8.3,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 15.1,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 7.6,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 19.1,
+        "unaligned": 18.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 9.6,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 3.5,
+        "unaligned": 7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 8.6,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 15.3,
+        "unaligned": 20.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 5.6,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 10,
+        "unaligned": 15.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 3.4,
+        "unaligned": 23.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 3.3,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 25.9,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 8000,
+        "y1": 8302,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 83,
+    "totalShift": 272,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 272px total — +24px at y=3227, +43px at y=3603, +7px at y=4001, +29px at y=5264, −42px at y=6198, −126px at y=7563, … 1 more (bound 83px)"
+}

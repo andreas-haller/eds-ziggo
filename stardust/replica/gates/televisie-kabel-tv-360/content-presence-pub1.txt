@@ -1,0 +1,15 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/kabel-tv (docH 3359, 115 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/kabel-tv (docH 3358, 114 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/2 | 0/0 | 0/0 | 1/1 | - |
+| 1 | kabel tv | 2/2 | 0/0 | 1/1 | 0/0 | - |
+| 2 | check je beschikbaarheid | 1/1 | 2/2 | 8/8 | 0/0 | CONTROL MISSING |
+| 3 | dit zit er in je pakket | 0/0 | 4/4 | 1/1 | 0/0 | - |
+| 4 | veelgestelde vragen | 1/1 | 8/8 | 2/2 | 0/0 | - |
+  🟡 CONTROL MISSING: toevoeging = "" (band "check je beschikbaarheid") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: 1 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-kabel-tv-360/content-presence-pub1.json

@@ -1,0 +1,528 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 14079,
+    "mode": "overlap"
+  },
+  "heightDelta": -6,
+  "differingPixels": 736181,
+  "pct": 14.67,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/televisie/diff.png",
+  "masks": [
+    {
+      "yA": 7212,
+      "h": 136,
+      "yB": 7212
+    }
+  ],
+  "maskedRows": 136,
+  "textPct": 18.22,
+  "textBoxes": 224,
+  "textPixels": 578922,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 12.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 43.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 34.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 41.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 17.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 2.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4.5
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 10.1
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 23.8
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 6.9
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 3.6
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 4.4
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 2.8
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 5.3
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 16.5
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 32.2
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 39.7
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 5.5
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 8.5
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 5.8
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 4
+    },
+    {
+      "y0": 14000,
+      "y1": 14079,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.88,
+    "differingPixels": 446779,
+    "compared": {
+      "width": 360,
+      "height": 13978,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1192,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 5082,
+        "shift": 13,
+        "cumulative": 0
+      },
+      {
+        "y": 5558,
+        "shift": 6,
+        "cumulative": 6
+      },
+      {
+        "y": 7198,
+        "shift": -6,
+        "cumulative": 0
+      },
+      {
+        "y": 7390,
+        "shift": -8,
+        "cumulative": -8
+      },
+      {
+        "y": 7810,
+        "shift": -1,
+        "cumulative": -9
+      },
+      {
+        "y": 8570,
+        "shift": 2,
+        "cumulative": -7
+      },
+      {
+        "y": 8871,
+        "shift": 4,
+        "cumulative": -3
+      },
+      {
+        "y": 9387,
+        "shift": 5,
+        "cumulative": 2
+      },
+      {
+        "y": 12439,
+        "shift": 4,
+        "cumulative": 6
+      },
+      {
+        "y": 13094,
+        "shift": -1,
+        "cumulative": 5
+      },
+      {
+        "y": 13638,
+        "shift": 1,
+        "cumulative": 6
+      }
+    ],
+    "maxOffset": 13,
+    "totalShift": 64,
+    "insertedRows": 35,
+    "deletedRows": 29,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 12.4,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 7.2,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.9,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 34.1,
+        "unaligned": 43.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.7,
+        "unaligned": 34.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.4,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 30.6,
+        "unaligned": 41.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 4,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.5,
+        "unaligned": 17.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 11,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 7.4,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 2.3,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 2.8,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 17.5,
+        "unaligned": 10.1
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 1.2,
+        "unaligned": 23.8
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 1.9,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 2,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 2,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 1.5,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 4.6,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 14.3,
+        "unaligned": 16.5
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 29,
+        "unaligned": 32.2
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 38.9,
+        "unaligned": 39.7
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 3.6,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 0,
+        "unaligned": 8.5
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 0.2,
+        "unaligned": 5.8
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 0.2,
+        "unaligned": 4
+      },
+      {
+        "y0": 14000,
+        "y1": 14079,
+        "pct": 0,
+        "unaligned": 1
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 141,
+    "totalShift": 64,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.02%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie",
+      "source": "https://www.ziggo.nl/televisie",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "63af3b20a4fcca9a",
+      "archetype": "0e50417addad942a",
+      "captures": "2743fef57dd35bcb",
+      "instruments": "700566dc6f7774a4",
+      "page content": "33319cd48839c649",
+      "shared code": "933bef04481b01be",
+      "block article-carousel": "812f123823fea39a",
+      "block cards": "4ada5cf24baa6d90",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-carousel": "5516c9be41e7f6f6",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block plan-cards": "3e1b6add29ba0b90",
+      "block priority-band": "a577d36258ef84a8",
+      "block swimming-lane": "2eae491feaad2b1b",
+      "block toptask-tiles": "23d8361950e8b56b",
+      "block video-band": "c7b948e5235808b1"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 16,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 1,
+          "findings": 10,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 187,
+          "controls": 114,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 194,
+          "controls": 138,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:06:49.691Z"
+  }
+}

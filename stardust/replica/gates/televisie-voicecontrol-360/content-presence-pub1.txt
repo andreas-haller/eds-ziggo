@@ -1,0 +1,23 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 626 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 920 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/voicecontrol (docH 6449, 132 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol (docH 6449, 132 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/2 | 0/0 | 0/0 | 1/1 | - |
+| 1 | bedien je tv met je stem | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | de afstandsbediening die luistert | 2/2 | 1/1 | 2/2 | 1/1 | EXTRA LINK, CONTROL MISSING |
+| 3 | vind razendsnel wat je wil zien | 0/0 | 0/0 | 1/1 | 2/2 | - |
+| 4 | inspiratie nodig? | 0/0 | 0/0 | 7/7 | 2/2 | - |
+| 5 | commando's | 0/0 | 6/6 | 1/1 | 2/2 | - |
+| 6 | tips & trucs van gebruikers | 1/1 | 0/0 | 3/3 | 0/0 | - |
+| 7 | kies jouw mediabox | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 8 | next mini | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 9 | mediabox next | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 10 | veelgestelde vragen | 0/0 | 4/4 | 0/0 | 0/0 | - |
+  🟡 EXTRA LINK: "menu" served in band "de afstandsbediening die luistert", no origin link or button
+  🟡 CONTROL MISSING: navigeer naar ... = "" (band "de afstandsbediening die luistert") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 1 / count deltas 0
+Findings: 2 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-voicecontrol-360/content-presence-pub1.json

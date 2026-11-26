@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/live.png",
+  "b": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 2455,
+    "mode": "overlap"
+  },
+  "heightDelta": 152,
+  "differingPixels": 394868,
+  "pct": 11.17,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 34.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2455,
+      "pct": 8.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.67,
+    "differingPixels": 287935,
+    "compared": {
+      "width": 1440,
+      "height": 2608,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 798,
+        "shift": -35,
+        "cumulative": -35
+      },
+      {
+        "y": 1139,
+        "shift": -76,
+        "cumulative": -111
+      },
+      {
+        "y": 1591,
+        "shift": -18,
+        "cumulative": -129
+      },
+      {
+        "y": 1978,
+        "shift": -24,
+        "cumulative": -153
+      },
+      {
+        "y": 2502,
+        "shift": 1,
+        "cumulative": -152
+      }
+    ],
+    "maxOffset": 153,
+    "totalShift": 154,
+    "insertedRows": 1,
+    "deletedRows": 153,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.8,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 19,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 9.9,
+        "unaligned": 34.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": null
+      },
+      {
+        "y0": 2500,
+        "y1": 2607,
+        "pct": 0.9,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-digitale-kabel-tv-en-radio-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 26,
+    "totalShift": 154,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 154px total — −35px at y=798, −76px at y=1139, −18px at y=1591, −24px at y=1978, +1px at y=2502 (bound 26px)"
+}

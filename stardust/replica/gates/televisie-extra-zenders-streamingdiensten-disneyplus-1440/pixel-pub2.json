@@ -1,0 +1,227 @@
+{
+  "a": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/live.png",
+  "b": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 6341,
+    "mode": "overlap"
+  },
+  "heightDelta": 44,
+  "differingPixels": 865561,
+  "pct": 9.48,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/diff-pub2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 11.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 16
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 4.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 29
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 4.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.2
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 18.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6341,
+      "pct": 4.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.26,
+    "differingPixels": 391483,
+    "compared": {
+      "width": 1440,
+      "height": 6389,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1083,
+        "shift": -4,
+        "cumulative": -4
+      },
+      {
+        "y": 1685,
+        "shift": -12,
+        "cumulative": -16
+      },
+      {
+        "y": 2096,
+        "shift": -4,
+        "cumulative": -20
+      },
+      {
+        "y": 2270,
+        "shift": -2,
+        "cumulative": -22
+      },
+      {
+        "y": 5412,
+        "shift": -26,
+        "cumulative": -48
+      },
+      {
+        "y": 5804,
+        "shift": 3,
+        "cumulative": -45
+      },
+      {
+        "y": 6280,
+        "shift": 1,
+        "cumulative": -44
+      }
+    ],
+    "maxOffset": 48,
+    "totalShift": 52,
+    "insertedRows": 4,
+    "deletedRows": 48,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.7,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.4,
+        "unaligned": 4.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.4,
+        "unaligned": 14.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.7,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.5,
+        "unaligned": 16
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.1,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 23.7,
+        "unaligned": 29
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 4.4,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 8.4,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 2,
+        "unaligned": 18.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6385,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-1440/diff-pub2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 64,
+    "totalShift": 52,
+    "pass": true
+  },
+  "reason": null
+}

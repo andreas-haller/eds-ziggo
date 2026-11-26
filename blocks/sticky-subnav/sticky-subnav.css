@@ -1,0 +1,183 @@
+/* sticky subnavigation (light); source vfz-sticky-subnavigation */
+.sticky-subnav {
+  position: relative;
+  z-index: 2;
+  min-height: var(--subnav-h, auto);
+}
+
+.sticky-subnav .subnav-bar {
+  width: 100%;
+  background: var(--color-gray-100);
+  border-bottom: 1px solid var(--color-gray-100);
+}
+
+.sticky-subnav.is-fixed .subnav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sticky-subnav .subnav-container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.sticky-subnav .subnav-wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.sticky-subnav .subnav-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sticky-subnav .subnav-selected {
+  flex: 80%;
+  margin-top: 1.5rem;
+  margin-right: auto;
+}
+
+.sticky-subnav .subnav-selected p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.sticky-subnav .subnav-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin: 1rem auto;
+}
+
+.sticky-subnav .subnav-chevron {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* small screens, closed: down chevron (live glyph "-"); open, or hidden wider: up (".") */
+.sticky-subnav .subnav-chevron::before {
+  content: "-";
+}
+
+.sticky-subnav.is-open .subnav-chevron::before {
+  content: ".";
+}
+
+@media (width >= 768px) {
+  .sticky-subnav .subnav-chevron::before {
+    content: ".";
+  }
+}
+
+.sticky-subnav .subnav-underline {
+  width: 100%;
+  height: 1px;
+  margin-top: -0.75rem;
+  background: var(--color-gray-300);
+}
+
+.sticky-subnav .subnav-list {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0 1rem;
+  list-style: none;
+}
+
+.sticky-subnav.is-open .subnav-list {
+  display: flex;
+}
+
+.sticky-subnav .subnav-list li {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.sticky-subnav .subnav-list a:any-link {
+  position: relative;
+  padding: 1.25rem 0 0.75rem;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.sticky-subnav .subnav-list a:hover {
+  color: #000;
+}
+
+.sticky-subnav .subnav-list li.is-active a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 4px;
+  background: #000;
+}
+
+@media (width >= 768px) {
+  .sticky-subnav .subnav-wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .sticky-subnav .subnav-mobile {
+    display: none;
+  }
+
+  .sticky-subnav .subnav-list,
+  .sticky-subnav.is-open .subnav-list {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+  }
+
+  .sticky-subnav .subnav-list li {
+    margin-right: 2.5rem;
+  }
+
+  .sticky-subnav .subnav-list a:any-link {
+    padding-bottom: 1.25rem;
+  }
+}
+
+/* ==== BEGIN sticky-subnav (start) variant — owned by archetype-streaming; scoped to
+   .sticky-subnav.start: links start-aligned inside a doubly padded container (source
+   .sd-light .container > .sd-subnav), selected label in the text colour ==== */
+.sticky-subnav.start .subnav-container {
+  padding: 0 calc(var(--container-pad) * 2);
+}
+
+.sticky-subnav.start .subnav-selected {
+  color: var(--color-secondary);
+}
+
+@media (width >= 768px) {
+  .sticky-subnav.start .subnav-wrap {
+    justify-content: flex-start;
+  }
+}
+
+/* ==== END sticky-subnav (start) variant ==== */

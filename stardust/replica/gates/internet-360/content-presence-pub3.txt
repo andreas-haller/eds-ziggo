@@ -1,0 +1,53 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 125 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/internet (docH 9270, 188 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/internet (docH 9218, 187 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/3 | 0/0 | 1/1 | 2/2 | EXTRA LINK |
+| 1 | internet van ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | ontdek onze internetabonnementen | 7/7 | 0/0 | 1/0 | 0/0 | - |
+| 3 | snel en stabiel internet met ziggo wifi  | 1/1 | 0/0 | 4/4 | 3/3 | - |
+| 4 | daarom kies je voor internet van ziggo | 1/2 | 2/2 | 1/1 | 1/2 | - |
+| 5 | alle snelheid | 1/1 | 0/0 | 1/2 | 0/0 | - |
+| 6 | altijd een abonnement dat bij je past | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 7 | internet 200 mbit/s | 1/1 | 4/0 | 2/6 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 8 | internet 500 mbit/s | 1/1 | 5/0 | 0/5 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 9 | internet 1 gbit/s | 1/1 | 5/0 | 0/5 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 10 | internet 2 gbit/s | 1/1 | 5/0 | 0/5 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 11 | is internet van ziggo beschikbaar op mij | 0/0 | 1/1 | 3/3 | 1/1 | CONTROL MISSING |
+| 12 | welke internetsnelheid heb je nodig? | 1/1 | 0/0 | 2/2 | 1/1 | - |
+| 13 | overstappen naar ziggo | 2/2 | 0/0 | 2/2 | 1/1 | - |
+| 14 | zelf je internetabonnement samenstellen | 3/3 | 0/0 | 1/1 | 0/0 | - |
+| 15 | veelgestelde vragen | 0/0 | 10/10 | 0/0 | 0/0 | - |
+| 16 | nog een vraag? | 3/3 | 0/0 | 7/7 | 3/3 | - |
+  🟠 MISSING BUTTON: "200 mbit/s | 25 mbit/s" in band "internet 200 mbit/s" (origin y 2655) not on the served page
+  🟠 MISSING BUTTON: "safe online modem" in band "internet 200 mbit/s" (origin y 2690) not on the served page
+  🟠 MISSING BUTTON: "safe online extra 1" in band "internet 200 mbit/s" (origin y 2726) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet 200 mbit/s" (origin y 2761) not on the served page
+  🟠 MISSING BUTTON: "500 mbit/s | 50 mbit/s" in band "internet 500 mbit/s" (origin y 3033) not on the served page
+  🟠 MISSING BUTTON: "safe online modem" in band "internet 500 mbit/s" (origin y 3069) not on the served page
+  🟠 MISSING BUTTON: "safe online extra 5" in band "internet 500 mbit/s" (origin y 3104) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet 500 mbit/s" (origin y 3140) not on the served page
+  🟠 MISSING BUTTON: "gratis wifi-versterker" in band "internet 500 mbit/s" (origin y 3175) not on the served page
+  🟠 MISSING BUTTON: "1000 mbit/s | 100 mbit/s" in band "internet 1 gbit/s" (origin y 3367) not on the served page
+  🟠 MISSING BUTTON: "safe online modem" in band "internet 1 gbit/s" (origin y 3403) not on the served page
+  🟠 MISSING BUTTON: "safe online extra 10" in band "internet 1 gbit/s" (origin y 3438) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet 1 gbit/s" (origin y 3474) not on the served page
+  🟠 MISSING BUTTON: "tot 2 wifi-versterkers gratis" in band "internet 1 gbit/s" (origin y 3509) not on the served page
+  🟠 MISSING BUTTON: "2000 mbit/s | 120 mbit/s" in band "internet 2 gbit/s" (origin y 3701) not on the served page
+  🟠 MISSING BUTTON: "safe online modem" in band "internet 2 gbit/s" (origin y 3736) not on the served page
+  🟠 MISSING BUTTON: "safe online extra 25" in band "internet 2 gbit/s" (origin y 3772) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet 2 gbit/s" (origin y 3807) not on the served page
+  🟠 MISSING BUTTON: "tot 3 wifi-versterkers gratis" in band "internet 2 gbit/s" (origin y 3843) not on the served page
+  🟡 EXTRA HEADING: served h3 "wifi die werkt" (y 2296) has no origin heading
+  🟡 EXTRA LINK: "chat" served in band "(top)", no origin link or button
+  🟡 COUNT TEXT: band "internet 200 mbit/s": 2 origin → 6 served visible
+  🟡 COUNT TEXT: band "internet 500 mbit/s": 0 origin → 5 served visible
+  🟡 COUNT TEXT: band "internet 1 gbit/s": 0 origin → 5 served visible
+  🟡 COUNT TEXT: band "internet 2 gbit/s": 0 origin → 5 served visible
+  🟡 CONTROL MISSING: toevoeging = "" (band "is internet van ziggo beschikbaar op mijn adres?") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 19 hidden 0 / moved 0 extra 1 / count deltas 4
+Findings: 26 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/internet-360/content-presence-pub3.json

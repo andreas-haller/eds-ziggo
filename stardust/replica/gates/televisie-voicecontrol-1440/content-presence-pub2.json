@@ -1,0 +1,6063 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-25T16:43:17.805Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/voicecontrol",
+  "at": "2026-11-25T16:43:17.557Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4884,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor.vfz-audience-selector__anchor--active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-navbar > div.image.parbase > a.vfz-navbar__brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.image.parbase > a.vfz-navbar__brand > img.vfz-navbar__brand-image",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item.vfz-navbar-applications__item--ziggo-go > a.vfz-navbar-applications__button",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item > a.vfz-navbar-applications__button",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.vfz-navbar-applications__item > div.vfz-navigation-search--chat-eligible > button.vfz-navbar-applications__button",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h1.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 152,
+    "y": 354,
+    "w": 552,
+    "h": 54,
+    "level": 1,
+    "text": "bedien je tv met je stem"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 152,
+    "y": 408,
+    "w": 552,
+    "h": 34,
+    "level": 2,
+    "text": "de afstandsbediening die luistert"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 339,
+    "y": 654,
+    "w": 111,
+    "h": 53,
+    "text": "voice control",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 490,
+    "y": 654,
+    "w": 96,
+    "h": 53,
+    "text": "commando's",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 626,
+    "y": 654,
+    "w": 100,
+    "h": 53,
+    "text": "tips en trucs",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 766,
+    "y": 654,
+    "w": 91,
+    "h": 53,
+    "text": "mediaboxen",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 897,
+    "y": 654,
+    "w": 164,
+    "h": 53,
+    "text": "veelgestelde vragen",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__brand",
+    "x": 152,
+    "y": 757,
+    "w": 14,
+    "h": 14,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__list-item--link",
+    "x": 192,
+    "y": 754,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.vfz-breadcrumb-v2 > ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item",
+    "x": 246,
+    "y": 752,
+    "w": 103,
+    "h": 24,
+    "label": "current",
+    "value": "voicecontrol",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > span.vfz-breadcrumb-v2__list-item--current",
+    "x": 270,
+    "y": 754,
+    "w": 79,
+    "h": 21,
+    "text": "Voicecontrol"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--m.vfz-spacing-bottom--xs",
+    "x": 152,
+    "y": 914,
+    "w": 357,
+    "h": 82,
+    "level": 2,
+    "text": "vind razendsnel wat je wil zien"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-title.title > h2.vfz-spacing-top--m.vfz-spacing-bottom--xs > img.vfz-title__icon.vfz-title__icon--vfz-heading__h3",
+    "x": 152,
+    "y": 914,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "file": "media_microphone"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > span.vfz-text--branded",
+    "x": 152,
+    "y": 1009,
+    "w": 347,
+    "h": 190,
+    "text": "Bedien de tv met je stem. Zoek, pauzeer, neem op, wissel van zender en laat je i"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 639,
+    "y": 873,
+    "w": 649,
+    "h": 365,
+    "text": "",
+    "file": "mic---supersearch---actie_v2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 1361,
+    "w": 552,
+    "h": 311,
+    "text": "",
+    "file": "mic---supersearch---romantiek_v2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--m.vfz-spacing-bottom--xs",
+    "x": 736,
+    "y": 1382,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "inspiratie nodig?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > span.vfz-text--branded",
+    "x": 736,
+    "y": 1438,
+    "w": 491,
+    "h": 46,
+    "text": "Met hulp van AI krijg je tips voor films, series en documentaires waarvan je nie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1512,
+    "w": 358,
+    "h": 14,
+    "text": "“Ik zoek een film die me laat huilen van het lachen.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1536,
+    "w": 248,
+    "h": 14,
+    "text": "“Welke serie heeft er superhelden?”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1560,
+    "w": 332,
+    "h": 14,
+    "text": "“Ik zoek een serie die zich in New York afspeelt.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1584,
+    "w": 350,
+    "h": 14,
+    "text": "“Ik heb zin in een hele goede serie met veel actie.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1608,
+    "w": 365,
+    "h": 14,
+    "text": "“Welke sportprogramma’s zijn er vanavond te zien?”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > i",
+    "x": 776,
+    "y": 1632,
+    "w": 326,
+    "h": 14,
+    "text": "“Ik heb zin in een film om bij weg te zwijmelen.\""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 152,
+    "y": 1876,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_Voicecontrol_Commando"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-2 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 963,
+    "y": 1771,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_microphone"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 963,
+    "y": 1820,
+    "w": 293,
+    "h": 34,
+    "level": 2,
+    "text": "commando's"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 963,
+    "y": 1862,
+    "w": 293,
+    "h": 102,
+    "text": "Gebruik commando's om je mediabox opdrachten te geven. Bijvoorbeeld: ‘ga naar BB"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Algemeen",
+    "x": 963,
+    "y": 1990,
+    "w": 293,
+    "h": 56,
+    "text": "algemeen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Algemeen",
+    "x": 963,
+    "y": 1990,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "algemeen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Ga-direct-naar",
+    "x": 963,
+    "y": 2047,
+    "w": 293,
+    "h": 56,
+    "text": "ga direct naar"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Ga-direct-naar",
+    "x": 963,
+    "y": 2047,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "ga direct naar",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Zappen",
+    "x": 963,
+    "y": 2104,
+    "w": 293,
+    "h": 56,
+    "text": "zappen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Zappen",
+    "x": 963,
+    "y": 2104,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "zappen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Terwijl-je-tv-kijkt",
+    "x": 963,
+    "y": 2161,
+    "w": 293,
+    "h": 56,
+    "text": "terwijl je tv-kijkt"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Terwijl-je-tv-kijkt",
+    "x": 963,
+    "y": 2161,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "terwijl je tv-kijkt",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Als-je-niet-live-tv-kijkt",
+    "x": 963,
+    "y": 2218,
+    "w": 293,
+    "h": 56,
+    "text": "als je niet live tv-kijkt"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Als-je-niet-live-tv-kijkt",
+    "x": 963,
+    "y": 2218,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "als je niet live tv-kijkt",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Zoeken",
+    "x": 963,
+    "y": 2275,
+    "w": 293,
+    "h": 56,
+    "text": "zoeken"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Zoeken",
+    "x": 963,
+    "y": 2275,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "zoeken",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-2 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 306,
+    "y": 2502,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "black_1-person"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 184,
+    "y": 2551,
+    "w": 293,
+    "h": 69,
+    "level": 2,
+    "text": "tips & trucs van gebruikers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 184,
+    "y": 2628,
+    "w": 293,
+    "h": 77,
+    "text": "In je mediabox zitten tal van 'easter eggs' verstopt. Spreek maar eens in: ‘Wie "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 184,
+    "y": 2721,
+    "w": 293,
+    "h": 77,
+    "text": "Benieuwd naar meer tips en trucs van andere gebruikers? Die vind je op de Vodafo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 184,
+    "y": 2821,
+    "w": 164,
+    "h": 48,
+    "text": "naar community",
+    "href": "/t5/Tips-van-Ziggo/Voice-control-alles-wat-jij-wilt-weten/ba-p/832054"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 639,
+    "y": 2515,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_Voicecontrol_Tips-Tru"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > span.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 347,
+    "y": 3024,
+    "w": 747,
+    "h": 22,
+    "text": "Ontdek meer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 347,
+    "y": 3054,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "kies jouw mediabox"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.vfz-text--branded",
+    "x": 364,
+    "y": 3109,
+    "w": 712,
+    "h": 75,
+    "text": "We hebben twee soorten tv-kastjes: de Mediabox Next en de Next Mini. Ze maken tv"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 363,
+    "y": 3255,
+    "w": 325,
+    "h": 130,
+    "text": "",
+    "file": "954x380_vamt_next_mini"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 363,
+    "y": 3385,
+    "w": 325,
+    "h": 34,
+    "level": 3,
+    "text": "next mini"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 363,
+    "y": 3419,
+    "w": 325,
+    "h": 154,
+    "text": "Dit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 363,
+    "y": 3596,
+    "w": 178,
+    "h": 48,
+    "text": "bekijk alle functies",
+    "href": "/televisie/mediaboxen/next-mini"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 752,
+    "y": 3255,
+    "w": 325,
+    "h": 130,
+    "text": "",
+    "file": "954x380_vamt_mediabox_next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-grouping__content-details > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 752,
+    "y": 3385,
+    "w": 325,
+    "h": 34,
+    "level": 3,
+    "text": "mediabox next"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 752,
+    "y": 3419,
+    "w": 325,
+    "h": 154,
+    "text": "De Mediabox Next heeft alles wat de Mediabox XL te bieden heeft, maar is compact"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 752,
+    "y": 3596,
+    "w": 178,
+    "h": 48,
+    "text": "bekijk alle functies",
+    "href": "/televisie/mediaboxen/mediabox-next"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > span.vfz-spacing-top--l.vfz-spacing-bottom",
+    "x": 347,
+    "y": 3740,
+    "w": 747,
+    "h": 43,
+    "text": "Staat jouw mediabox er niet bij?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--center > a.vfz-spacing-top--m.vfz-spacing-bottom",
+    "x": 602,
+    "y": 3807,
+    "w": 237,
+    "h": 48,
+    "text": "bekijk overige mediaboxen",
+    "href": "/klantenservice/apparaten/mediaboxen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--xl.vfz-spacing-bottom--l",
+    "x": 347,
+    "y": 3967,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "veelgestelde vragen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Voice-Control?",
+    "x": 347,
+    "y": 4043,
+    "w": 747,
+    "h": 56,
+    "text": "wat is voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Voice-Control?",
+    "x": 347,
+    "y": 4043,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is voice control?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Kan-ik-de-afstandsbediening-met-Voice-Control-bestellen?",
+    "x": 347,
+    "y": 4100,
+    "w": 747,
+    "h": 56,
+    "text": "kan ik de afstandsbediening met voice control bestellen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Kan-ik-de-afstandsbediening-met-Voice-Control-bestellen?",
+    "x": 347,
+    "y": 4100,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "kan ik de afstandsbediening met voice control bestellen?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-werkt-de-afstandsbediening-met-Voice-Control?",
+    "x": 347,
+    "y": 4157,
+    "w": 747,
+    "h": 56,
+    "text": "hoe werkt de afstandsbediening met voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-werkt-de-afstandsbediening-met-Voice-Control?",
+    "x": 347,
+    "y": 4157,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe werkt de afstandsbediening met voice control?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Is-mijn-abonnementsprijs-hoger-met-de-afstandsbediening-met-Voice-Control?",
+    "x": 347,
+    "y": 4214,
+    "w": 747,
+    "h": 56,
+    "text": "is mijn abonnementsprijs hoger met de afstandsbediening met voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Is-mijn-abonnementsprijs-hoger-met-de-afstandsbediening-met-Voice-Control?",
+    "x": 347,
+    "y": 4214,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "is mijn abonnementsprijs hoger met de afstandsbediening met ",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.vfz-interactions-wrapper > nav.vfz-interactions.vfz-interactions--light > a.vfz-interactions-item.vfz-interactions-item--light",
+    "x": 1392,
+    "y": 621,
+    "w": 48,
+    "h": 55,
+    "text": "bel ons",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.vfz-interactions-wrapper > nav.vfz-interactions.vfz-interactions--light > a.vfz-interactions-item.vfz-interactions-item--light",
+    "x": 1392,
+    "y": 676,
+    "w": 48,
+    "h": 54,
+    "text": "chat",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 152,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4375,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4411,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4447,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4483,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4519,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 4555,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 442,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4375,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4411,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4447,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4483,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4519,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4555,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4591,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4627,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 4663,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 732,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4375,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4411,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4447,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4483,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4519,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4555,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 4591,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 1022,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4375,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4411,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4447,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4483,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4519,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4555,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4591,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4627,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4663,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 4699,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 4763,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 260,
+    "y": 4763,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 402,
+    "y": 4763,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 542,
+    "y": 4763,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 646,
+    "y": 4763,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1012,
+    "y": 4790,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1072,
+    "y": 4790,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1132,
+    "y": 4790,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1192,
+    "y": 4790,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1252,
+    "y": 4790,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 4817,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 263,
+    "y": 4817,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 418,
+    "y": 4817,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 529,
+    "y": 4817,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 616,
+    "y": 4817,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 705,
+    "y": 4817,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 836,
+    "y": 4817,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.z-dimelo-button-form > aside.dimelo-form.closed > button.form-close-button.button-close",
+    "x": 1380,
+    "y": 975,
+    "w": 25,
+    "h": 32,
+    "text": "x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "aside.dimelo-form.closed > div.dimelo-form-inner > div.dimelo-form-title",
+    "x": 1101,
+    "y": 984,
+    "w": 300,
+    "h": 24,
+    "text": "Vertel ons wie je bent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-name > label",
+    "x": 1101,
+    "y": 1028,
+    "w": 300,
+    "h": 21,
+    "text": "Naam"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-zip > label",
+    "x": 1101,
+    "y": 1127,
+    "w": 300,
+    "h": 21,
+    "text": "Postcode"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-housenumber > label",
+    "x": 1101,
+    "y": 1226,
+    "w": 300,
+    "h": 21,
+    "text": "Huisnummer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-geboortedatum > label",
+    "x": 1101,
+    "y": 1325,
+    "w": 300,
+    "h": 21,
+    "text": "Geboortedatum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > label",
+    "x": 1101,
+    "y": 1424,
+    "w": 300,
+    "h": 21,
+    "text": "Ik wil graag (selecteer)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > select#dimelo_chat_type",
+    "x": 1101,
+    "y": 1455,
+    "w": 300,
+    "h": 48,
+    "label": "ik wil graag (selecteer) *",
+    "value": "maak een keuze",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-textarea > label",
+    "x": 1101,
+    "y": 1523,
+    "w": 300,
+    "h": 21,
+    "text": "Waar kan ik je mee helpen?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-button > button.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 1101,
+    "y": 1650,
+    "w": 150,
+    "h": 48,
+    "text": "chat met ons"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.dimelo-form-inner > form > p",
+    "x": 1101,
+    "y": 1726,
+    "w": 300,
+    "h": 64,
+    "text": "Velden met een * zijn verplicht. Je communicatie via deze chatfunctie wordt door"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > p > a",
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9,
+    "text": "privacy statement",
+    "href": "/privacy/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 5,
+    "textNodes": 129,
+    "controls": 88,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/televisie/voicecontrol",
+  "at": "2026-11-25T16:42:30.099Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4885,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a.audience-a-active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > a.navbar-brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.navbar-brand > span.icon.icon-ziggo-logo-orange-v1 > img",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-go",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-mail",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > button.app.app-search",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.interactions.block > nav.int-nav > a.int-item",
+    "x": 1392,
+    "y": 622,
+    "w": 48,
+    "h": 53,
+    "text": "bel ons",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.interactions.block > nav.int-nav > a.int-item",
+    "x": 1392,
+    "y": 675,
+    "w": 48,
+    "h": 53,
+    "text": "chat",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 0,
+    "y": 112,
+    "w": 1440,
+    "h": 540,
+    "text": "",
+    "file": "media_1d28bc8a8b6fa68f9bbeb967a9ea35c3a2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-col > div.hero-title > h1#bedien-je-tv-met-je-stem",
+    "x": 152,
+    "y": 354,
+    "w": 552,
+    "h": 54,
+    "level": 1,
+    "text": "bedien je tv met je stem"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-content > div.hero-col > h2#de-afstandsbediening-die-luistert",
+    "x": 152,
+    "y": 408,
+    "w": 552,
+    "h": 34,
+    "level": 2,
+    "text": "de afstandsbediening die luistert"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-ghxq0h > li > a",
+    "x": 339,
+    "y": 654,
+    "w": 111,
+    "h": 53,
+    "text": "voice control",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-ghxq0h > li > a",
+    "x": 490,
+    "y": 654,
+    "w": 96,
+    "h": 53,
+    "text": "commando's",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-ghxq0h > li > a",
+    "x": 626,
+    "y": 654,
+    "w": 100,
+    "h": 53,
+    "text": "tips en trucs",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-ghxq0h > li > a",
+    "x": 766,
+    "y": 654,
+    "w": 91,
+    "h": 53,
+    "text": "mediaboxen",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-ghxq0h > li > a",
+    "x": 897,
+    "y": 654,
+    "w": 164,
+    "h": 53,
+    "text": "veelgestelde vragen",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-home",
+    "x": 152,
+    "y": 754,
+    "w": 14,
+    "h": 21,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-link",
+    "x": 192,
+    "y": 754,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 246,
+    "y": 754,
+    "w": 103,
+    "h": 21,
+    "label": "current",
+    "value": "voicecontrol",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 246,
+    "y": 754,
+    "w": 103,
+    "h": 21,
+    "text": "Voicecontrol"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-col.mt-text > div.mt-copy > h2#vind-razendsnel-wat-je-wil-zien",
+    "x": 152,
+    "y": 914,
+    "w": 357,
+    "h": 82,
+    "level": 2,
+    "text": "vind razendsnel wat je wil zien"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#vind-razendsnel-wat-je-wil-zien > picture > img",
+    "x": 152,
+    "y": 914,
+    "w": 40,
+    "h": 40,
+    "text": "",
+    "file": "media_1efbd4b394a5f4b8d41107f90d5effd19d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-col.mt-text > div.mt-copy > p",
+    "x": 152,
+    "y": 1004,
+    "w": 357,
+    "h": 202,
+    "text": "Bedien de tv met je stem. Zoek, pauzeer, neem op, wissel van zender en laat je i"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-frame > picture > img",
+    "x": 639,
+    "y": 873,
+    "w": 649,
+    "h": 365,
+    "text": "",
+    "file": "media_1dd60bb4eeaa50022736088e83ad95535b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-frame > picture > img",
+    "x": 152,
+    "y": 1361,
+    "w": 552,
+    "h": 311,
+    "text": "",
+    "file": "media_138293a679ded6f8434cb57c00d3c7c9fb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-col.mt-text > div.mt-copy > h2#inspiratie-nodig",
+    "x": 736,
+    "y": 1382,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "inspiratie nodig?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-col.mt-text > div.mt-copy > p",
+    "x": 736,
+    "y": 1433,
+    "w": 552,
+    "h": 58,
+    "text": "Met hulp van AI krijg je tips voor films, series en documentaires waarvan je nie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1512,
+    "w": 358,
+    "h": 14,
+    "text": "“Ik zoek een film die me laat huilen van het lachen.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1536,
+    "w": 248,
+    "h": 14,
+    "text": "“Welke serie heeft er superhelden?”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1560,
+    "w": 332,
+    "h": 14,
+    "text": "“Ik zoek een serie die zich in New York afspeelt.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1584,
+    "w": 350,
+    "h": 14,
+    "text": "“Ik heb zin in een hele goede serie met veel actie.”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1608,
+    "w": 365,
+    "h": 14,
+    "text": "“Welke sportprogramma’s zijn er vanavond te zien?”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > em",
+    "x": 776,
+    "y": 1632,
+    "w": 326,
+    "h": 14,
+    "text": "“Ik heb zin in een film om bij weg te zwijmelen.\""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-frame > picture > img",
+    "x": 152,
+    "y": 1876,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "media_1fed50e61a00ab1e4b6e4c334b1a2b4802"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 963,
+    "y": 1771,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_1fd1086155235cb2dd7b54d2eb55fba1dc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-group > div.mt-body > h2#commandos",
+    "x": 963,
+    "y": 1820,
+    "w": 293,
+    "h": 34,
+    "level": 2,
+    "text": "commando's"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-group > div.mt-body > p",
+    "x": 963,
+    "y": 1862,
+    "w": 293,
+    "h": 102,
+    "text": "Gebruik commando's om je mediabox opdrachten te geven. Bijvoorbeeld: ‘ga naar BB"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 1990,
+    "w": 293,
+    "h": 56,
+    "text": "algemeen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 1990,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "algemeen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2047,
+    "w": 293,
+    "h": 56,
+    "text": "ga direct naar"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2047,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "ga direct naar",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2104,
+    "w": 293,
+    "h": 56,
+    "text": "zappen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2104,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "zappen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2161,
+    "w": 293,
+    "h": 56,
+    "text": "terwijl je tv-kijkt"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2161,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "terwijl je tv-kijkt",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2218,
+    "w": 293,
+    "h": 56,
+    "text": "als je niet live tv-kijkt"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2218,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "als je niet live tv-kijkt",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2275,
+    "w": 293,
+    "h": 56,
+    "text": "zoeken"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 963,
+    "y": 2275,
+    "w": 293,
+    "h": 56,
+    "label": "trigger",
+    "value": "zoeken",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 306,
+    "y": 2502,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_111f26c18cc473f9b903142473179ffab4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-group > div.mt-body > h2#tips--trucs-van-gebruikers",
+    "x": 184,
+    "y": 2551,
+    "w": 293,
+    "h": 69,
+    "level": 2,
+    "text": "tips & trucs van gebruikers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-group > div.mt-body > p",
+    "x": 184,
+    "y": 2628,
+    "w": 293,
+    "h": 77,
+    "text": "In je mediabox zitten tal van 'easter eggs' verstopt. Spreek maar eens in: ‘Wie "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-group > div.mt-body > p",
+    "x": 184,
+    "y": 2721,
+    "w": 293,
+    "h": 77,
+    "text": "Benieuwd naar meer tips en trucs van andere gebruikers? Die vind je op de Vodafo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-body > p.button-wrapper > a.button.primary",
+    "x": 184,
+    "y": 2821,
+    "w": 164,
+    "h": 48,
+    "text": "naar community",
+    "href": "/t5/Tips-van-Ziggo/Voice-control-alles-wat-jij-wilt-weten/ba-p/832054"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mt-frame > picture > img",
+    "x": 639,
+    "y": 2515,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "media_1b1d60a1ff345d9bf755b08e83dd81e043"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-eyebrow > p",
+    "x": 347,
+    "y": 3024,
+    "w": 747,
+    "h": 22,
+    "text": "Ontdek meer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-title > h2#kies-jouw-mediabox",
+    "x": 347,
+    "y": 3054,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "kies jouw mediabox"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-intro > div.mb-lead > p",
+    "x": 347,
+    "y": 3104,
+    "w": 747,
+    "h": 86,
+    "text": "We hebben twee soorten tv-kastjes: de Mediabox Next en de Next Mini. Ze maken tv"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-img > picture > img",
+    "x": 363,
+    "y": 3255,
+    "w": 325,
+    "h": 130,
+    "text": "",
+    "file": "media_1e4b68b0d2e4cfbfe3100f5ab02510ec4a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-card-title > h3#next-mini",
+    "x": 363,
+    "y": 3384,
+    "w": 325,
+    "h": 34,
+    "level": 3,
+    "text": "next mini"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-text > p",
+    "x": 363,
+    "y": 3419,
+    "w": 325,
+    "h": 154,
+    "text": "Dit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p.button-wrapper > a.button.secondary",
+    "x": 363,
+    "y": 3596,
+    "w": 178,
+    "h": 48,
+    "text": "bekijk alle functies",
+    "href": "/televisie/mediaboxen/next-mini"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-img > picture > img",
+    "x": 752,
+    "y": 3255,
+    "w": 325,
+    "h": 130,
+    "text": "",
+    "file": "media_1cd36fa04e2ba5720a2a39ca2928e34f70"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-card-title > h3#mediabox-next",
+    "x": 752,
+    "y": 3384,
+    "w": 325,
+    "h": 34,
+    "level": 3,
+    "text": "mediabox next"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-box > div.mb-text > p",
+    "x": 752,
+    "y": 3419,
+    "w": 325,
+    "h": 154,
+    "text": "De Mediabox Next heeft alles wat de Mediabox XL te bieden heeft, maar is compact"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p.button-wrapper > a.button.secondary",
+    "x": 752,
+    "y": 3596,
+    "w": 178,
+    "h": 48,
+    "text": "bekijk alle functies",
+    "href": "/televisie/mediaboxen/mediabox-next"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-outro > div.mb-outro-title > p",
+    "x": 347,
+    "y": 3740,
+    "w": 747,
+    "h": 43,
+    "text": "Staat jouw mediabox er niet bij?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mb-cta > p.button-wrapper > a.button.secondary",
+    "x": 602,
+    "y": 3807,
+    "w": 237,
+    "h": 48,
+    "text": "bekijk overige mediaboxen",
+    "href": "/klantenservice/apparaten/mediaboxen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-inner > div.faq-head > h2#veelgestelde-vragen",
+    "x": 347,
+    "y": 3967,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "veelgestelde vragen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4043,
+    "w": 747,
+    "h": 56,
+    "text": "wat is voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4043,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is voice control?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4100,
+    "w": 747,
+    "h": 56,
+    "text": "kan ik de afstandsbediening met voice control bestellen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4100,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "kan ik de afstandsbediening met voice control bestellen?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4157,
+    "w": 747,
+    "h": 56,
+    "text": "hoe werkt de afstandsbediening met voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4157,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe werkt de afstandsbediening met voice control?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4214,
+    "w": 747,
+    "h": 56,
+    "text": "is mijn abonnementsprijs hoger met de afstandsbediening met voice control?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 347,
+    "y": 4214,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "is mijn abonnementsprijs hoger met de afstandsbediening met ",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#pakketten",
+    "x": 152,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4375,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4411,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4447,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4483,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4519,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 4555,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#internet",
+    "x": 442,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4375,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4411,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4447,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4483,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4519,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4555,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4591,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4627,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 4663,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#televisie",
+    "x": 732,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4375,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4411,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4447,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4483,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4519,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4555,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 4591,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#bellen--overige",
+    "x": 1022,
+    "y": 4335,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4375,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4411,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4447,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4483,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4519,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4555,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4591,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4627,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4663,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 4699,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 4763,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 260,
+    "y": 4763,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 402,
+    "y": 4763,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 542,
+    "y": 4763,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 646,
+    "y": 4763,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1012,
+    "y": 4791,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1072,
+    "y": 4791,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1132,
+    "y": 4791,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1192,
+    "y": 4791,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1252,
+    "y": 4791,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/voicecontrol"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 4818,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 263,
+    "y": 4818,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 418,
+    "y": 4818,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 529,
+    "y": 4818,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 616,
+    "y": 4818,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 705,
+    "y": 4818,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 836,
+    "y": 4818,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 112,
+    "controls": 82,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "bedien je tv met je stem",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "de afstandsbediening die luistert",
+   "variable": false,
+   "origin": {
+    "link": 9,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "vind razendsnel wat je wil zien",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "inspiratie nodig?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "commando's",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 6,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 6,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "tips & trucs van gebruikers",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "kies jouw mediabox",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "next mini",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "mediabox next",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "veelgestelde vragen",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 4,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 378,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 86,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 86,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 152,
+    "y": 351,
+    "w": 496,
+    "h": 59
+   },
+   {
+    "x": 152,
+    "y": 411,
+    "w": 454,
+    "h": 28
+   },
+   {
+    "x": 339,
+    "y": 674,
+    "w": 111,
+    "h": 13
+   },
+   {
+    "x": 490,
+    "y": 674,
+    "w": 96,
+    "h": 13
+   },
+   {
+    "x": 626,
+    "y": 674,
+    "w": 100,
+    "h": 13
+   },
+   {
+    "x": 766,
+    "y": 674,
+    "w": 91,
+    "h": 13
+   },
+   {
+    "x": 897,
+    "y": 674,
+    "w": 164,
+    "h": 13
+   },
+   {
+    "x": 192,
+    "y": 758,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 758,
+    "w": 79,
+    "h": 13
+   },
+   {
+    "x": 200,
+    "y": 917,
+    "w": 283,
+    "h": 37
+   },
+   {
+    "x": 152,
+    "y": 960,
+    "w": 131,
+    "h": 37
+   },
+   {
+    "x": 152,
+    "y": 1009,
+    "w": 319,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1038,
+    "w": 292,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1067,
+    "w": 347,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1096,
+    "w": 317,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1125,
+    "w": 316,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1153,
+    "w": 334,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1182,
+    "w": 310,
+    "h": 17
+   },
+   {
+    "x": 462,
+    "y": 1182,
+    "w": 5,
+    "h": 17
+   },
+   {
+    "x": 736,
+    "y": 1379,
+    "w": 280,
+    "h": 47
+   },
+   {
+    "x": 736,
+    "y": 1438,
+    "w": 491,
+    "h": 17
+   },
+   {
+    "x": 736,
+    "y": 1467,
+    "w": 320,
+    "h": 17
+   },
+   {
+    "x": 776,
+    "y": 1512,
+    "w": 358,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1536,
+    "w": 248,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1560,
+    "w": 332,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1584,
+    "w": 350,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1608,
+    "w": 365,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1632,
+    "w": 326,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1818,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 963,
+    "y": 1867,
+    "w": 266,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1893,
+    "w": 273,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1918,
+    "w": 275,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1944,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 2009,
+    "w": 84,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2066,
+    "w": 117,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2123,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2180,
+    "w": 132,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2237,
+    "w": 171,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2294,
+    "w": 59,
+    "h": 17
+   },
+   {
+    "x": 184,
+    "y": 2549,
+    "w": 214,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 2583,
+    "w": 145,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 2633,
+    "w": 291,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2658,
+    "w": 281,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2684,
+    "w": 149,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2726,
+    "w": 264,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2751,
+    "w": 255,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2777,
+    "w": 219,
+    "h": 14
+   },
+   {
+    "x": 204,
+    "y": 2837,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 664,
+    "y": 3023,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 552,
+    "y": 3051,
+    "w": 337,
+    "h": 47
+   },
+   {
+    "x": 364,
+    "y": 3109,
+    "w": 711,
+    "h": 17
+   },
+   {
+    "x": 364,
+    "y": 3138,
+    "w": 712,
+    "h": 17
+   },
+   {
+    "x": 686,
+    "y": 3167,
+    "w": 68,
+    "h": 17
+   },
+   {
+    "x": 363,
+    "y": 3383,
+    "w": 126,
+    "h": 37
+   },
+   {
+    "x": 363,
+    "y": 3424,
+    "w": 289,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3449,
+    "w": 295,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3475,
+    "w": 307,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3501,
+    "w": 280,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3526,
+    "w": 312,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3552,
+    "w": 96,
+    "h": 14
+   },
+   {
+    "x": 384,
+    "y": 3612,
+    "w": 136,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3383,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 752,
+    "y": 3424,
+    "w": 258,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3449,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3475,
+    "w": 316,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3501,
+    "w": 305,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3526,
+    "w": 274,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3552,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 773,
+    "y": 3612,
+    "w": 136,
+    "h": 14
+   },
+   {
+    "x": 451,
+    "y": 3737,
+    "w": 538,
+    "h": 47
+   },
+   {
+    "x": 623,
+    "y": 3823,
+    "w": 195,
+    "h": 14
+   },
+   {
+    "x": 545,
+    "y": 3964,
+    "w": 349,
+    "h": 47
+   },
+   {
+    "x": 347,
+    "y": 4062,
+    "w": 172,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4119,
+    "w": 468,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4176,
+    "w": 424,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4233,
+    "w": 635,
+    "h": 17
+   },
+   {
+    "x": 1400,
+    "y": 657,
+    "w": 32,
+    "h": 9
+   },
+   {
+    "x": 1405,
+    "y": 711,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 152,
+    "y": 4337,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 4375,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4411,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4447,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4483,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4519,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4555,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 4337,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 4375,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4411,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4447,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4483,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4519,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4555,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4591,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4627,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4663,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 4337,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 4375,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4411,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4447,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4483,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4519,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4555,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4591,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 4337,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 4375,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4411,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4447,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4483,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4519,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4555,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4591,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4627,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4663,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4699,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4763,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4763,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 4763,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 4763,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 4763,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4817,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 4817,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 4817,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 4817,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 4817,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 4817,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 4817,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 1385,
+    "y": 978,
+    "w": 15,
+    "h": 25
+   },
+   {
+    "x": 1101,
+    "y": 981,
+    "w": 231,
+    "h": 30
+   },
+   {
+    "x": 1101,
+    "y": 1032,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 1140,
+    "y": 1032,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1131,
+    "w": 59,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1230,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1329,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1428,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 1243,
+    "y": 1428,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1527,
+    "w": 168,
+    "h": 13
+   },
+   {
+    "x": 1269,
+    "y": 1527,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1127,
+    "y": 1667,
+    "w": 97,
+    "h": 14
+   },
+   {
+    "x": 1101,
+    "y": 1729,
+    "w": 254,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1745,
+    "w": 198,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1761,
+    "w": 295,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1777,
+    "w": 70,
+    "h": 9
+   },
+   {
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9
+   },
+   {
+    "x": 1253,
+    "y": 1777,
+    "w": 3,
+    "h": 9
+   }
+  ],
+  "eds": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 377,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 90,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 90,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 1400,
+    "y": 657,
+    "w": 32,
+    "h": 9
+   },
+   {
+    "x": 1405,
+    "y": 710,
+    "w": 22,
+    "h": 9
+   },
+   {
+    "x": 152,
+    "y": 351,
+    "w": 496,
+    "h": 59
+   },
+   {
+    "x": 152,
+    "y": 411,
+    "w": 454,
+    "h": 28
+   },
+   {
+    "x": 339,
+    "y": 674,
+    "w": 111,
+    "h": 13
+   },
+   {
+    "x": 490,
+    "y": 674,
+    "w": 96,
+    "h": 13
+   },
+   {
+    "x": 626,
+    "y": 674,
+    "w": 100,
+    "h": 13
+   },
+   {
+    "x": 766,
+    "y": 674,
+    "w": 91,
+    "h": 13
+   },
+   {
+    "x": 897,
+    "y": 674,
+    "w": 164,
+    "h": 13
+   },
+   {
+    "x": 192,
+    "y": 758,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 758,
+    "w": 79,
+    "h": 13
+   },
+   {
+    "x": 207,
+    "y": 917,
+    "w": 277,
+    "h": 37
+   },
+   {
+    "x": 152,
+    "y": 960,
+    "w": 131,
+    "h": 37
+   },
+   {
+    "x": 152,
+    "y": 1009,
+    "w": 319,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1038,
+    "w": 292,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1067,
+    "w": 347,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1096,
+    "w": 317,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1125,
+    "w": 316,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1153,
+    "w": 334,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1182,
+    "w": 310,
+    "h": 17
+   },
+   {
+    "x": 462,
+    "y": 1182,
+    "w": 5,
+    "h": 17
+   },
+   {
+    "x": 736,
+    "y": 1379,
+    "w": 280,
+    "h": 47
+   },
+   {
+    "x": 736,
+    "y": 1438,
+    "w": 491,
+    "h": 17
+   },
+   {
+    "x": 736,
+    "y": 1467,
+    "w": 320,
+    "h": 17
+   },
+   {
+    "x": 776,
+    "y": 1512,
+    "w": 358,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1536,
+    "w": 248,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1560,
+    "w": 332,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1584,
+    "w": 350,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1608,
+    "w": 365,
+    "h": 14
+   },
+   {
+    "x": 776,
+    "y": 1632,
+    "w": 326,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1818,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 963,
+    "y": 1867,
+    "w": 266,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1893,
+    "w": 273,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1918,
+    "w": 275,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 1944,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 2009,
+    "w": 84,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2066,
+    "w": 117,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2123,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2180,
+    "w": 132,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2237,
+    "w": 171,
+    "h": 17
+   },
+   {
+    "x": 963,
+    "y": 2294,
+    "w": 59,
+    "h": 17
+   },
+   {
+    "x": 184,
+    "y": 2549,
+    "w": 214,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 2583,
+    "w": 145,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 2633,
+    "w": 291,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2658,
+    "w": 281,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2684,
+    "w": 149,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2726,
+    "w": 264,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2751,
+    "w": 255,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 2777,
+    "w": 216,
+    "h": 14
+   },
+   {
+    "x": 204,
+    "y": 2837,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 664,
+    "y": 3023,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 552,
+    "y": 3051,
+    "w": 337,
+    "h": 47
+   },
+   {
+    "x": 364,
+    "y": 3109,
+    "w": 711,
+    "h": 17
+   },
+   {
+    "x": 364,
+    "y": 3138,
+    "w": 712,
+    "h": 17
+   },
+   {
+    "x": 686,
+    "y": 3167,
+    "w": 68,
+    "h": 17
+   },
+   {
+    "x": 363,
+    "y": 3382,
+    "w": 126,
+    "h": 37
+   },
+   {
+    "x": 363,
+    "y": 3424,
+    "w": 289,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3449,
+    "w": 295,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3475,
+    "w": 307,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3501,
+    "w": 280,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3526,
+    "w": 312,
+    "h": 14
+   },
+   {
+    "x": 363,
+    "y": 3552,
+    "w": 96,
+    "h": 14
+   },
+   {
+    "x": 384,
+    "y": 3612,
+    "w": 136,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3382,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 752,
+    "y": 3424,
+    "w": 258,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3449,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3475,
+    "w": 316,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3501,
+    "w": 305,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3526,
+    "w": 274,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 3552,
+    "w": 261,
+    "h": 14
+   },
+   {
+    "x": 773,
+    "y": 3612,
+    "w": 136,
+    "h": 14
+   },
+   {
+    "x": 451,
+    "y": 3737,
+    "w": 538,
+    "h": 47
+   },
+   {
+    "x": 623,
+    "y": 3823,
+    "w": 195,
+    "h": 14
+   },
+   {
+    "x": 545,
+    "y": 3964,
+    "w": 349,
+    "h": 47
+   },
+   {
+    "x": 347,
+    "y": 4062,
+    "w": 172,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4119,
+    "w": 468,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4176,
+    "w": 424,
+    "h": 17
+   },
+   {
+    "x": 347,
+    "y": 4233,
+    "w": 635,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4337,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 4375,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4411,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4447,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4483,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4519,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 4555,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 4337,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 4375,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4411,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4447,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4483,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4519,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4555,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4591,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4627,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 4663,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 4337,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 4375,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4411,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4447,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4483,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4519,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4555,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 4591,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 4337,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 4375,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4411,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4447,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4483,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4519,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4555,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4591,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4627,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4663,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 4699,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4763,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4763,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 4763,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 4763,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 4763,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4818,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 4818,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 4818,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 4818,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 4818,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 4818,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 4818,
+    "w": 64,
+    "h": 14
+   }
+  ]
+ }
+}

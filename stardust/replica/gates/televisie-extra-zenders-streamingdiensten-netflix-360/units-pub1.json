@@ -1,0 +1,2547 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-25T18:05:42.360Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-25T14:24:10.462Z",
+  "docH": 9216
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-25T18:05:42.037Z",
+  "docH": 9227
+ },
+ "results": [
+  {
+   "sel": "#tiers .vfz-grouping.bg-white=.sd-tiers .sd-tier, .streaming-tier-table .stt-card",
+   "family": "streaming-tier-cards",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.grouping.section > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.stt-grid > div.stt-col > div.stt-card"
+     },
+     "rows": [
+      {
+       "key": "text:netflix",
+       "role": "text",
+       "text": "netflix",
+       "edsText": "netflix",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 35,
+        "w": 56,
+        "h": 24
+       },
+       "eds": {
+        "x": 14,
+        "y": 32,
+        "w": 292,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 236,
+       "dh": 4,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/400",
+        "eds": "20/28/400"
+       }
+      },
+      {
+       "key": "text:basic",
+       "role": "text",
+       "text": "basic",
+       "edsText": "basic",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 63,
+        "w": 53,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 60,
+        "w": 53,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/27/700"
+       }
+      },
+      {
+       "key": "text:beeld- en geluidskwaliteit",
+       "role": "text",
+       "text": "beeld- en geluidskwaliteit",
+       "edsText": "beeld- en geluidskwaliteit",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 142,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 136,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:standaard",
+       "role": "link",
+       "text": "standaard",
+       "edsText": "standaard",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 173,
+        "w": 81,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 167,
+        "w": 79,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:resolutie",
+       "role": "text",
+       "text": "resolutie",
+       "edsText": "resolutie",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 234,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 229,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:720p (hd)",
+       "role": "text",
+       "text": "720p (hd)",
+       "edsText": "720p (hd)",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 265,
+        "w": 74,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 259,
+        "w": 74,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:audio",
+       "role": "text",
+       "text": "audio",
+       "edsText": "audio",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 327,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 321,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:dolby atmos",
+       "role": "text",
+       "text": "dolby atmos",
+       "edsText": "dolby atmos",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 357,
+        "w": 94,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 351,
+        "w": 94,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal apparaten tegelijk",
+       "role": "text",
+       "text": "aantal apparaten tegelijk",
+       "edsText": "aantal apparaten tegelijk",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 419,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 413,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:1",
+       "role": "text",
+       "text": "1",
+       "edsText": "1",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 449,
+        "w": 7,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 444,
+        "w": 7,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal downloadapparaten",
+       "role": "text",
+       "text": "aantal downloadapparaten",
+       "edsText": "aantal downloadapparaten",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 511,
+        "w": 292,
+        "h": 26
+       },
+       "eds": {
+        "x": 14,
+        "y": 505,
+        "w": 292,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:9,99",
+       "role": "text",
+       "text": "9,99",
+       "edsText": "9,99",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 623,
+        "w": 44,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 612,
+        "w": 44,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -11,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/25/700"
+       }
+      },
+      {
+       "key": "text:p.m.",
+       "role": "text",
+       "text": "p.m.",
+       "edsText": "p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 633,
+        "w": 81,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 613,
+        "w": 292,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -20,
+       "dw": 211,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/32/300"
+       }
+      },
+      {
+       "key": "link:bestel netflix basic",
+       "role": "link",
+       "text": "bestel netflix basic",
+       "edsText": "bestel netflix basic",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 670,
+        "w": 292,
+        "h": 48
+       },
+       "eds": {
+        "x": 14,
+        "y": 662,
+        "w": 292,
+        "h": 48,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -8,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 117,
+       "w": 292,
+       "h": 1,
+       "absY": 4043,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#1"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 217,
+       "w": 292,
+       "h": 1,
+       "absY": 4143,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#2"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 310,
+       "w": 292,
+       "h": 1,
+       "absY": 4236,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#3"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 402,
+       "w": 292,
+       "h": 1,
+       "absY": 4328,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#4"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 494,
+       "w": 292,
+       "h": 1,
+       "absY": 4420,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#5"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 602,
+       "w": 292,
+       "h": 1,
+       "absY": 4528,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#6"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 3926,
+       "w": 320,
+       "h": 734
+      },
+      "eds": {
+       "x": 20,
+       "y": 3962,
+       "w": 320,
+       "h": 726
+      },
+      "dx": 0,
+      "dy": 36,
+      "dw": 0,
+      "dh": -8
+     },
+     "summary": {
+      "elements": 20,
+      "within": 1,
+      "off": 4,
+      "displaced": 9,
+      "hidden": 0,
+      "missing": 6,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.grouping.section > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.stt-grid > div.stt-col > div.stt-card"
+     },
+     "rows": [
+      {
+       "key": "text:netflix",
+       "role": "text",
+       "text": "netflix",
+       "edsText": "netflix",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 35,
+        "w": 56,
+        "h": 24
+       },
+       "eds": {
+        "x": 14,
+        "y": 32,
+        "w": 292,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 236,
+       "dh": 4,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/400",
+        "eds": "20/28/400"
+       }
+      },
+      {
+       "key": "text:standaard",
+       "role": "text",
+       "text": "standaard",
+       "edsText": "standaard",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 63,
+        "w": 105,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 60,
+        "w": 105,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/27/700"
+       }
+      },
+      {
+       "key": "text:beeld- en geluidskwaliteit",
+       "role": "text",
+       "text": "beeld- en geluidskwaliteit",
+       "edsText": "beeld- en geluidskwaliteit",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 142,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 136,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:goed",
+       "role": "link",
+       "text": "goed",
+       "edsText": "goed",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 173,
+        "w": 41,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 167,
+        "w": 39,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:resolutie",
+       "role": "text",
+       "text": "resolutie",
+       "edsText": "resolutie",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 234,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 229,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:1080p (full hd)",
+       "role": "text",
+       "text": "1080p (full hd)",
+       "edsText": "1080p (full hd)",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 265,
+        "w": 110,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 259,
+        "w": 110,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:audio",
+       "role": "text",
+       "text": "audio",
+       "edsText": "audio",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 327,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 321,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:dolby atmos",
+       "role": "text",
+       "text": "dolby atmos",
+       "edsText": "dolby atmos",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 357,
+        "w": 94,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 351,
+        "w": 94,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal apparaten tegelijk",
+       "role": "text",
+       "text": "aantal apparaten tegelijk",
+       "edsText": "aantal apparaten tegelijk",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 419,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 413,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:2",
+       "role": "text",
+       "text": "2",
+       "edsText": "2",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 449,
+        "w": 9,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 444,
+        "w": 9,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal downloadapparaten",
+       "role": "text",
+       "text": "aantal downloadapparaten",
+       "edsText": "aantal downloadapparaten",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 511,
+        "w": 292,
+        "h": 26
+       },
+       "eds": {
+        "x": 14,
+        "y": 505,
+        "w": 292,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:15,99",
+       "role": "text",
+       "text": "15,99",
+       "edsText": "15,99",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 623,
+        "w": 53,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 612,
+        "w": 53,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -11,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/25/700"
+       }
+      },
+      {
+       "key": "text:p.m.",
+       "role": "text",
+       "text": "p.m.",
+       "edsText": "p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 633,
+        "w": 91,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 613,
+        "w": 292,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -20,
+       "dw": 201,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/32/300"
+       }
+      },
+      {
+       "key": "link:bestel netflix standaard",
+       "role": "link",
+       "text": "bestel netflix standaard",
+       "edsText": "bestel netflix standaard",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 670,
+        "w": 292,
+        "h": 48
+       },
+       "eds": {
+        "x": 14,
+        "y": 662,
+        "w": 292,
+        "h": 48,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -8,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 117,
+       "w": 292,
+       "h": 1,
+       "absY": 4793,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#1"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 217,
+       "w": 292,
+       "h": 1,
+       "absY": 4893,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#2"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 310,
+       "w": 292,
+       "h": 1,
+       "absY": 4985,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#3"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 402,
+       "w": 292,
+       "h": 1,
+       "absY": 5078,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#4"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 494,
+       "w": 292,
+       "h": 1,
+       "absY": 5170,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#5"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 602,
+       "w": 292,
+       "h": 1,
+       "absY": 5278,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#6"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 4676,
+       "w": 320,
+       "h": 734
+      },
+      "eds": {
+       "x": 20,
+       "y": 4704,
+       "w": 320,
+       "h": 726
+      },
+      "dx": 0,
+      "dy": 28,
+      "dw": 0,
+      "dh": -8
+     },
+     "summary": {
+      "elements": 20,
+      "within": 1,
+      "off": 4,
+      "displaced": 9,
+      "hidden": 0,
+      "missing": 6,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.grouping.section > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.stt-grid > div.stt-col > div.stt-card"
+     },
+     "rows": [
+      {
+       "key": "text:netflix",
+       "role": "text",
+       "text": "netflix",
+       "edsText": "netflix",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 35,
+        "w": 56,
+        "h": 24
+       },
+       "eds": {
+        "x": 14,
+        "y": 32,
+        "w": 292,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 236,
+       "dh": 4,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/400",
+        "eds": "20/28/400"
+       }
+      },
+      {
+       "key": "text:premium",
+       "role": "text",
+       "text": "premium",
+       "edsText": "premium",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 63,
+        "w": 90,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 60,
+        "w": 90,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/27/700"
+       }
+      },
+      {
+       "key": "text:beeld- en geluidskwaliteit",
+       "role": "text",
+       "text": "beeld- en geluidskwaliteit",
+       "edsText": "beeld- en geluidskwaliteit",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 142,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 136,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:fantastisch",
+       "role": "link",
+       "text": "fantastisch",
+       "edsText": "fantastisch",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 173,
+        "w": 89,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 167,
+        "w": 86,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": -3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:resolutie",
+       "role": "text",
+       "text": "resolutie",
+       "edsText": "resolutie",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 234,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 229,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:4k (ultra hd) + hdr",
+       "role": "text",
+       "text": "4k (ultra hd) + hdr",
+       "edsText": "4k (ultra hd) + hdr",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 265,
+        "w": 142,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 259,
+        "w": 142,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:audio",
+       "role": "text",
+       "text": "audio",
+       "edsText": "audio",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 327,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 321,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:ruimtelijke audio",
+       "role": "text",
+       "text": "ruimtelijke audio",
+       "edsText": "ruimtelijke audio",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 357,
+        "w": 127,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 351,
+        "w": 127,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal apparaten tegelijk",
+       "role": "text",
+       "text": "aantal apparaten tegelijk",
+       "edsText": "aantal apparaten tegelijk",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 419,
+        "w": 292,
+        "h": 51
+       },
+       "eds": {
+        "x": 14,
+        "y": 413,
+        "w": 292,
+        "h": 51,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:4",
+       "role": "text",
+       "text": "4",
+       "edsText": "4",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 449,
+        "w": 10,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 444,
+        "w": 10,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:aantal downloadapparaten",
+       "role": "text",
+       "text": "aantal downloadapparaten",
+       "edsText": "aantal downloadapparaten",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 511,
+        "w": 292,
+        "h": 26
+       },
+       "eds": {
+        "x": 14,
+        "y": 505,
+        "w": 292,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:6",
+       "role": "text",
+       "text": "6",
+       "edsText": "6",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 558,
+        "w": 9,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 552,
+        "w": 9,
+        "h": 14,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       },
+       "displaced": true
+      },
+      {
+       "key": "text:20,99",
+       "role": "text",
+       "text": "20,99",
+       "edsText": "20,99",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 623,
+        "w": 58,
+        "h": 27
+       },
+       "eds": {
+        "x": 14,
+        "y": 612,
+        "w": 58,
+        "h": 27,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -11,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "23/25/700",
+        "eds": "23/25/700"
+       }
+      },
+      {
+       "key": "text:p.m.",
+       "role": "text",
+       "text": "p.m.",
+       "edsText": "p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 633,
+        "w": 95,
+        "h": 14
+       },
+       "eds": {
+        "x": 14,
+        "y": 613,
+        "w": 292,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -20,
+       "dw": 197,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/32/300"
+       }
+      },
+      {
+       "key": "link:bestel netflix premium",
+       "role": "link",
+       "text": "bestel netflix premium",
+       "edsText": "bestel netflix premium",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 670,
+        "w": 292,
+        "h": 48
+       },
+       "eds": {
+        "x": 14,
+        "y": 662,
+        "w": 292,
+        "h": 48,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -8,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 117,
+       "w": 292,
+       "h": 1,
+       "absY": 5543,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#1"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 217,
+       "w": 292,
+       "h": 1,
+       "absY": 5643,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#2"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 310,
+       "w": 292,
+       "h": 1,
+       "absY": 5735,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#3"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 402,
+       "w": 292,
+       "h": 1,
+       "absY": 5827,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#4"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 494,
+       "w": 292,
+       "h": 1,
+       "absY": 5919,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#5"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-divider.bg-light",
+       "text": "",
+       "boxed": true,
+       "x": 14,
+       "y": 602,
+       "w": 292,
+       "h": 1,
+       "absY": 6028,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": "rgb(241, 242, 243)",
+       "position": "relative",
+       "key": "box:div.vfz-divider.bg-light#6"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 5425,
+       "w": 320,
+       "h": 734
+      },
+      "eds": {
+       "x": 20,
+       "y": 5447,
+       "w": 320,
+       "h": 726
+      },
+      "dx": 0,
+      "dy": 22,
+      "dw": 0,
+      "dh": -8
+     },
+     "summary": {
+      "elements": 21,
+      "within": 1,
+      "off": 4,
+      "displaced": 10,
+      "hidden": 0,
+      "missing": 6,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#tv-apps .vfz-grouping.bg-white=.sd-apps .sd-app, .streaming-service-cards:not(.steps) .ssc-card",
+   "family": "streaming-app-cards",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.grouping.aem-GridColumn > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.ssc-grid > div.ssc-col > div.ssc-card"
+     },
+     "rows": [
+      {
+       "key": "image:img.nonprogressive-image.mv-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:disney+",
+       "role": "heading",
+       "text": "disney+",
+       "edsText": "disney+",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20
+       },
+       "eds": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20,
+        "sel": "h3#disney",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/20/700",
+        "eds": "18/20/700"
+       }
+      },
+      {
+       "key": "text:vanaf 6,99 per maand",
+       "role": "text",
+       "text": "vanaf 6,99 per maand",
+       "edsText": "vanaf 6,99 per maand",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26
+       },
+       "eds": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:meer info",
+       "role": "link",
+       "text": "meer info",
+       "edsText": "meer info",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:bestellen",
+       "role": "link",
+       "text": "bestellen",
+       "edsText": "bestellen",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 93,
+       "h": 140,
+       "absY": 6926,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 6912,
+       "w": 320,
+       "h": 140
+      },
+      "eds": {
+       "x": 20,
+       "y": 6926,
+       "w": 320,
+       "h": 140
+      },
+      "dx": 0,
+      "dy": 14,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.grouping.aem-GridColumn > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.ssc-grid > div.ssc-col > div.ssc-card"
+     },
+     "rows": [
+      {
+       "key": "image:img.nonprogressive-image.mv-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:hbo max",
+       "role": "heading",
+       "text": "hbo max",
+       "edsText": "hbo max",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20
+       },
+       "eds": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20,
+        "sel": "h3#hbo-max",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/20/700",
+        "eds": "18/20/700"
+       }
+      },
+      {
+       "key": "text:vanaf 5,99 p.m.",
+       "role": "text",
+       "text": "vanaf 5,99 p.m.",
+       "edsText": "vanaf 5,99 p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26
+       },
+       "eds": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:meer info",
+       "role": "link",
+       "text": "meer info",
+       "edsText": "meer info",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:bestellen",
+       "role": "link",
+       "text": "bestellen",
+       "edsText": "bestellen",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 93,
+       "h": 140,
+       "absY": 7098,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 7084,
+       "w": 320,
+       "h": 140
+      },
+      "eds": {
+       "x": 20,
+       "y": 7098,
+       "w": 320,
+       "h": 140
+      },
+      "dx": 0,
+      "dy": 14,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.grouping.aem-GridColumn > div.vfz-grouping.vfz-grouping--mobile-content-position-default"
+     },
+     "eds": {
+      "path": "div.ssc-grid > div.ssc-col > div.ssc-card"
+     },
+     "rows": [
+      {
+       "key": "image:img.nonprogressive-image.mv-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 140,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:viaplay",
+       "role": "heading",
+       "text": "viaplay",
+       "edsText": "viaplay",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20
+       },
+       "eds": {
+        "x": 113,
+        "y": 22,
+        "w": 207,
+        "h": 20,
+        "sel": "h3#viaplay",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/20/700",
+        "eds": "18/20/700"
+       }
+      },
+      {
+       "key": "text:vanaf 16,99 per maand",
+       "role": "text",
+       "text": "vanaf 16,99 per maand",
+       "edsText": "vanaf 16,99 per maand",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26
+       },
+       "eds": {
+        "x": 113,
+        "y": 43,
+        "w": 207,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:meer info",
+       "role": "link",
+       "text": "meer info",
+       "edsText": "meer info",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 113,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:bestellen",
+       "role": "link",
+       "text": "bestellen",
+       "edsText": "bestellen",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14
+       },
+       "eds": {
+        "x": 192,
+        "y": 89,
+        "w": 66,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 93,
+       "h": 140,
+       "absY": 7270,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 7256,
+       "w": 320,
+       "h": 140
+      },
+      "eds": {
+       "x": 20,
+       "y": 7270,
+       "w": 320,
+       "h": 140
+      },
+      "dx": 0,
+      "dy": 14,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 18,
+  "off": 12,
+  "hidden": 0,
+  "missing": 18,
+  "errors": 0,
+  "requiredOff": 30
+ }
+}

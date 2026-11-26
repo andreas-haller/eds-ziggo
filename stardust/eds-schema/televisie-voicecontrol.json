@@ -1,0 +1,674 @@
+{
+ "source": "file:///workspace/50ca44c6/stardust/prototypes/televisie-voicecontrol-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "subnav",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Navigeer naar ..."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Voice Control",
+     "href": "#voicecontrol"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Commando's",
+     "href": "#commando"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Tips en trucs",
+     "href": "#tips"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mediaboxen",
+     "href": "#mediabox"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Veelgestelde vragen",
+     "href": "#vragen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vind razendsnel wat je wil zien"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bedien de tv met je stem. Zoek, pauzeer, neem op, wissel van zender en laat je inspireren. Zeg bijvoorbeeld 'Ziggo Sport' en je gaat razendsnel naar kanaal 14 of zeg ‘Neem op’ en het programma dat je kijkt wordt opgenomen. Of stel een vraag zoals ."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "“Heb je een actiefilm met Bruce Willis?”"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Inspiratie nodig?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Met hulp van AI krijg je tips voor films, series en documentaires waarvan je niet eens wist dat je ze zocht."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "“Ik zoek een film die me laat huilen van het lachen.”"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "“Welke serie heeft er superhelden?”"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "“Ik zoek een serie die zich in New York afspeelt.”"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "“Ik heb zin in een hele goede serie met veel actie.”"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "“Welke sportprogramma’s zijn er vanavond te zien?”"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "“Ik heb zin in een film om bij weg te zwijmelen.\""
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Commando's"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gebruik commando's om je mediabox opdrachten te geven. Bijvoorbeeld: ‘ga naar BBC One’, ‘open Netflix’ of ‘vooruit spoelen’. Bekijk meer:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Algemeen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Menu"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "TV Gids"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Programmagids"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Help"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Instellingen"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ga direct naar"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Radio"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Opnames"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Kijklijst"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Entertainment"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Streaming"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Gehuurd"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Bewaard"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "<TV zender> (bijv: \"NPO 1\")"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "<Radiozender> (bijv: \"Q Music\")"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "<App*> (bijv: \"Videoland\")"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "* De spraakbesturing werkt niet in de app zelf. Verlaat de app om weer gebruik te maken van spraakbesturing."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Zappen"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Kanaal naar boven"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Kanaal naar beneden"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Zet uit"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "<Naam van een programma> (Bijv: \"RTL Nieuws\")"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Ga naar <naam TV- of radiozender> (Bijv: \"NPO Radio 2\")"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Ga naar <kanaalnummer> (Bijv: \"150\")"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Terwijl je tv-kijkt"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Info"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Toevoegen aan kijklijst"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Vanaf begin bekijken"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Pauze"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Pauzeren"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Verder kijken"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Opnemen"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Neem op"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Stop opnemen"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Ondertiteling aan"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Ondertiteling uit"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Als je niet live tv-kijkt"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Terug naar live TV"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Terug"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Vorige"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Sluiten"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Sluit"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Vorige zender"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Stop"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Afspelen"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Vooruitspoelen"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Terugspoelen"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Skip x minuten vooruit of achteruit*"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "* Indien toegestaan bij de opname."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Zoeken"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Films van <naam regisseur> (Bijv: \"Quentin Tarantino\")"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Speelfilms met <naam acteur> (Bijv: \"Will Smith\")"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Zoek naar <genre> films (Bijv: \"Komedie\")"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tips & trucs van gebruikers"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In je mediabox zitten tal van 'easter eggs' verstopt. Spreek maar eens in: ‘Wie is de mooiste in het land?’."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Benieuwd naar meer tips en trucs van andere gebruikers? Die vind je op de Vodafone & Ziggo Community."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Naar community Naar community",
+     "href": "https://community.vodafoneziggo.nl/t5/Tips-van-Ziggo/Voice-control-alles-wat-jij-wilt-weten/ba-p/832054"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ontdek meer"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Kies jouw mediabox"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We hebben twee soorten tv-kastjes: de Mediabox Next en de Next Mini. Ze maken tv-kijken persoonlijker, slimmer én makkelijker. Maar… ze zijn niet hetzelfde. Elk kastje heeft z’n eigen karakter."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Next Mini"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Dit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aan op je modem met een internetkabel en je hebt de snelste en meest stabiele verbinding. Je ontvangt de Next Mini bij een nieuw TV Start abonnement."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Bekijk alle functies Bekijk alle functies",
+     "href": "/televisie/mediaboxen/next-mini"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Mediabox Next"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "De Mediabox Next heeft alles wat de Mediabox XL te bieden heeft, maar is compacter en heeft bovendien 4K. Sluit deze box aan met de coaxkabel én op je modem met een internetkabel en dan heb je de snelste en meest stabiele verbinding."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Bekijk alle functies Bekijk alle functies",
+     "href": "/televisie/mediaboxen/mediabox-next"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Staat jouw mediabox er niet bij?"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Bekijk overige mediaboxen Bekijk overige mediaboxen",
+     "href": "https://www.ziggo.nl/klantenservice/apparaten/mediaboxen"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-row",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Veelgestelde vragen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wat is Voice Control?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Met Voice Control bestuur je je mediabox met je stem. Je geeft je afstandsbediening een opdracht en je mediabox voert het uit."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Bekijk hoe het werkt",
+     "href": "https://www.ziggo.nl/televisie/stembesturing#werkt"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kan ik de afstandsbediening met Voice Control bestellen?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "De afstandsbediening met Voice Control zit standaard bij de Mediabox Next en de nieuwe Next Mini."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Hoe werkt de afstandsbediening met Voice Control?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Houd de ‘voice’-knop (het microfoontje) op je Ziggo-afstandsbediening ingedrukt. Onder in beeld verschijnt het spraakscherm."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Spreek rustig en duidelijk je boodschap in. Bijvoorbeeld ''RTL4''. De zender verschijnt automatisch in beeld."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "De stembesturing kan niet gebruikt worden om wachtwoorden in te geven of instellingen van de mediabox aan te passen."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Bekijk alle commando's",
+     "href": "https://www.ziggo.nl/televisie/stembesturing#commandos"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Is mijn abonnementsprijs hoger met de afstandsbediening met Voice Control?"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Nee, je abonnementsprijs blijft hetzelfde. Je hebt de afstandsbediening gratis in bruikleen."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.acc",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

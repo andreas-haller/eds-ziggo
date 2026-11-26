@@ -1,0 +1,41 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-26T07:15:17.680Z",
+ "source": "https://www.ziggo.nl/",
+ "build": "https://main--50ca44c6--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "stage": "published",
+ "round": {
+  "label": "compare-2",
+  "kind": "fix"
+ },
+ "counts": {
+  "error": 0,
+  "warn": 2,
+  "decided": 0,
+  "classed": 0
+ },
+ "findings": [
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  }
+ ]
+}

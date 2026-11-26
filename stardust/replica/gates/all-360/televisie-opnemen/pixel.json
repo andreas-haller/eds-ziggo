@@ -1,0 +1,372 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie-opnemen/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie-opnemen/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6290,
+    "mode": "overlap"
+  },
+  "heightDelta": 139,
+  "differingPixels": 554806,
+  "pct": 24.5,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/televisie-opnemen/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 18.99,
+  "textBoxes": 148,
+  "textPixels": 408742,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 44.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 34.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 38.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 16.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 34.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 51.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 43
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 6.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6290,
+      "pct": 4.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.53,
+    "differingPixels": 153042,
+    "compared": {
+      "width": 360,
+      "height": 6506,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 414,
+        "shift": -29,
+        "cumulative": -29
+      },
+      {
+        "y": 933,
+        "shift": -59,
+        "cumulative": -88
+      },
+      {
+        "y": 1287,
+        "shift": -1,
+        "cumulative": -89
+      },
+      {
+        "y": 1695,
+        "shift": 9,
+        "cumulative": -80
+      },
+      {
+        "y": 1902,
+        "shift": -1,
+        "cumulative": -81
+      },
+      {
+        "y": 2090,
+        "shift": -1,
+        "cumulative": -82
+      },
+      {
+        "y": 2143,
+        "shift": 1,
+        "cumulative": -81
+      },
+      {
+        "y": 2260,
+        "shift": 7,
+        "cumulative": -74
+      },
+      {
+        "y": 2467,
+        "shift": -1,
+        "cumulative": -75
+      },
+      {
+        "y": 2579,
+        "shift": 1,
+        "cumulative": -74
+      },
+      {
+        "y": 2878,
+        "shift": 25,
+        "cumulative": -49
+      },
+      {
+        "y": 3598,
+        "shift": 9,
+        "cumulative": -40
+      },
+      {
+        "y": 3835,
+        "shift": 16,
+        "cumulative": -24
+      },
+      {
+        "y": 4130,
+        "shift": -35,
+        "cumulative": -59
+      },
+      {
+        "y": 4322,
+        "shift": 8,
+        "cumulative": -51
+      },
+      {
+        "y": 4615,
+        "shift": -36,
+        "cumulative": -87
+      },
+      {
+        "y": 5209,
+        "shift": -29,
+        "cumulative": -116
+      },
+      {
+        "y": 5375,
+        "shift": -24,
+        "cumulative": -140
+      },
+      {
+        "y": 5988,
+        "shift": 1,
+        "cumulative": -139
+      }
+    ],
+    "maxOffset": 140,
+    "totalShift": 293,
+    "insertedRows": 77,
+    "deletedRows": 216,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.7,
+        "unaligned": 8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 15.5,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.8,
+        "unaligned": 44.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.5,
+        "unaligned": 34.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2.4,
+        "unaligned": 38.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 6.2,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 3.1,
+        "unaligned": 16.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 5.8,
+        "unaligned": 15
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 11.3,
+        "unaligned": 34.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 10.1,
+        "unaligned": 51.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 18.6,
+        "unaligned": 43
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 6000,
+        "y1": 6429,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie-opnemen/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 64,
+    "totalShift": 293,
+    "pass": false
+  },
+  "reason": "offsets: 19 step(s), 293px total — −29px at y=414, −59px at y=933, −1px at y=1287, +9px at y=1695, −1px at y=1902, −1px at y=2090, … 13 more (bound 64px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/opnemen",
+      "source": "https://www.ziggo.nl/televisie/opnemen",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "f0e5dafd2cbdf03c",
+      "archetype": "29438a6b9831c018",
+      "captures": "4eba3df756ecbab6",
+      "instruments": "700566dc6f7774a4",
+      "page content": "201a723a0824b0e5",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 1,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 2,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 87,
+          "controls": 70,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 104,
+          "controls": 76,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:12:34.378Z"
+  }
+}

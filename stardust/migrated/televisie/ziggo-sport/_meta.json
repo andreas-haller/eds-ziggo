@@ -1,0 +1,747 @@
+{
+  "slug": "televisie-ziggo-sport",
+  "type": "landing",
+  "renderBranch": "A′",
+  "template": "index",
+  "modules": [
+    "identification-bar",
+    "hero-band",
+    "breadcrumb",
+    "media-text",
+    "feature-cards",
+    "mediabox-cards",
+    "plan-cards",
+    "faq-accordion"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec",
+    "lp-sec"
+  ],
+  "canonShas": {
+    "header": "2eee1cf9899b",
+    "footer": "07ba0161798a",
+    "css": "02ae1f627373"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "sibling-fork",
+      "archetype": "index",
+      "driverBranch": "A (state status extracted, not directed; tier/template patched to sibling on the sidecar)",
+      "encoderInput": "stardust/.work/migrate/landing/televisie-ziggo-sport.html (index archetype prototype chrome + one data-module section per DA section, content from stardust/current/pages/televisie-ziggo-sport.html)",
+      "daContent": "content/televisie/ziggo-sport.html",
+      "varianceProbe": "stardust/migrate/variance/landing.json (exit 2 — deltas encoded as block variant classes, see stardust/.work/rollout/cluster-landing/render-report.md)",
+      "media": "stardust/.work/migrate/landing/media-manifest.json (new files under stardust/.work/migrate/landing/assets/media, not in media-ledger, not yet uploaded)"
+    }
+  ],
+  "metadata": {
+    "title": "Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo",
+    "description": "Kijk met Ziggo Sport gratis live naar topduels ✓ La Liga &amp; Serie A-voetbal ✓ UEFA Champions League ✓ MotoGP ✓ Golf ✓ Tennis en meer",
+    "canonical": null,
+    "lang": "nl"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo",
+    "description": "Kijk met Ziggo Sport gratis live naar topduels ✓ La Liga &amp; Serie A-voetbal ✓ UEFA Champions League ✓ MotoGP ✓ Golf ✓ Tennis en meer",
+    "url": "https://www.ziggo.nl/televisie/ziggo-sport"
+  },
+  "migratedAt": "2026-11-25T17:58:41Z",
+  "designMdSha": "0326ff95003e",
+  "designJsonSha": "8d8a5f6d6ab6",
+  "sourceCurrentSha": "0155983a3d5f",
+  "sourceProposedSha": "009f249ad882",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "b483d2a43d31",
+  "variants": [
+    "hero-band.article breadcrumb.light media-text.intro media-text.half media-text.gradient media-text.fill feature-cards.tiles plan-cards.media feature-cards.light media-text.ctas media-text.tags"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content/televisie/ziggo-sport.html vs stardust/current/pages/televisie-ziggo-sport.json: all non-chrome headings (tag+text) present, body nodes present except logged sr-only/responsive deviations, CTA labels/hrefs verbatim (probe stardust/.work/rollout/probes/landing/count.cjs)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "responsive-duplicate-dropped",
+      "source": "3 z-dynamic-content--hidden-landscape blocks (portrait duplicates of Formula 1 / Racing / Voetbal text)",
+      "target": "landscape copy kept in media-text.half",
+      "reason": "orientation-only duplicate of the same heading+text"
+    },
+    {
+      "kind": "responsive-image-dropped",
+      "source": "interessant card-v2 small (mobile) art",
+      "target": "feature-cards.light one picture per card",
+      "reason": "small-viewport duplicate art"
+    }
+  ],
+  "assetsBundled": 24,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.ziggo.nl/zakelijk/?intcmp=menu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/internet-en-mobiel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internet-only",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/over-televisie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/overstappen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internet-only",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet-en-mobiel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/wifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wifigarantie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/installatiehulp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internetbeveiliging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/speedtest",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/televisie/mediaboxen/extra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/espn/ziggo-klant",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/uefa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/movies-series",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/volop-bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/extra-telefoonlijn",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tarieven/bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/contact/nummerbehoud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/mediaboxen/extra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internetbeveiliging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/volop-bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/extra-telefoonlijn",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/vodafone",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet-en-mobiel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/vodafone",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/storingen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/wifi-aansluiten#/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/tv-aansluiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/vast-bellen-installeren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/gegevens-wijzigen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/bestelling",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/verhuizing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/opzeggen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/factuur",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/factuur/uitleg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/factuur/betalen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/abonnement/factuur/betaalachterstand",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/televisie-radio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/televisie-radio/hulp-met-espn-kijken#dagpas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/televisie-radio/hulp-met-streamingdiensten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/tv-aansluiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/televisie-radio/tv-hulp-advies#/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/televisie-radio/tv-instellingen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/internet-wifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/internet-wifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo/service/smart-troubleshooter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/internet-wifi/wifi-tips",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/internet-wifi/veiligheid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/e-mail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/e-mail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/installeren/vast-bellen-installeren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/bellen/problemen-oplossen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/hulp-bij-gaming",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/hulp-bij-gaming/online-instellingen-game-console",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/hulp-bij-gaming/nat-port-forwarding",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment/entertainment-gids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/netflix-en-ziggo-sport-totaal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/skyshowtime/skyshowtime-aanbod",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment/sport/voetbal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/uefa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment/entertainment-gids/match-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment/sport/formule-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mail",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/uefa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/formule-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/formule-1/formule-1-kalender",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/voetbal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/ziggo-sport-totaal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders/ziggo-sport-totaal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/espn-premium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/sport-compleet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/sport-compleet-en-film1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/espn-premium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/priority",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/formule-1/formule-1-kalender",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/voetbal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/voetbal/champions-league",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/ziggo-sport-totaal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/ziggo-sport-totaal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/ziggo-sport-totaal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/voetbal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/golf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/racing/gt-world-challenge-kalender",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/entertainment/sport/motogp/motogp-kalender",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/internet/internet-only",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/aanbiedingen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/wifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wifigarantie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/glasvezel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internetbeveiliging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/speedtest",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/postcodecheck",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/kabel-tv",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/espn-premium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/videoland",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/vast-bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/vodafone",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zakelijk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/internet/internet-only",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/aanbiedingen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/wifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/smartwifi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wifigarantie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/glasvezel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/internet/internetbeveiliging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/speedtest",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/postcodecheck",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/kabel-tv",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/espn-premium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/televisie/extra-zenders-streamingdiensten/videoland",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bellen/vast-bellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/vodafone",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zakelijk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/tv-internet",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/klantenservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/entertainment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/verhuizing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ziggo.nl/mijn-ziggo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/over-ziggo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/toegankelijkheid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disclaimer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/cookies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/voorwaarden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/klantenservice/apparaten/garantie-en-reparatie",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "televisie/ziggo-sport/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "televisie/ziggo-sport/_meta.json",
+  "driverVersion": "1"
+}

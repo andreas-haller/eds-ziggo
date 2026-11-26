@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T10:51:34.001Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T10:59:31.666Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T11:05:01.675Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3: pixel 9.84% aligned PASS, Δh 2px, Clipped 0, units PASS, chrome-parity quiet; the only failing probe (content-diff 4 header ROLE SWAP reds) was fixed after the cap and verified 0 red / 0 nothing-lost in content-diff-standalone-post-iter3.txt. Residuals: Priority band background video (blob/MSE stream, not harvestable; poster used) y4354-5074 66.9%; winacties photo band 5000-5500 17% (sub-pixel photo offsets); cap-probe module 5 classification.",
+          "at": "2026-11-25T11:30:25.552Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T16:16:28.201Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T16:25:21.036Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T16:39:27.400Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3 pixel aligned 9.81% PASS (Δh 2px, offsets in bound, clipped 0, no overflow); residual hot bands 4500-5500 = live priority-band autoplay video vs poster (volatile, prototype regime same 66.9%); content-diff residual (verified on preview after pub3 by content-diff probe: 107 🔴 main) = 103 ICON DIFF lane logos (same svg files, signature drift from live auto-scrolling marquee), 2 MISSING ICON live broken logo (src = site root), header 127 🔴 frozen chrome (foundation request); nothing-lost 0",
+          "at": "2026-11-25T17:05:00.635Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T17-05-04-503Z",
+          "at": "2026-11-25T17:06:53.964Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T17-07-11-461Z",
+          "at": "2026-11-25T17:08:22.324Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T17-10-18-590Z",
+          "at": "2026-11-25T17:12:09.495Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T17-13-53-884Z",
+          "at": "2026-11-25T17:15:43.570Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T02:57:37.576Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-43-34-296Z",
+          "at": "2026-11-26T03:45:33.918Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

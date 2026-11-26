@@ -1,0 +1,144 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-zenders-star-channel/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-zenders-star-channel/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 1530,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 11411,
+  "pct": 0.29,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/televisie-zenders-star-channel/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 1530,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.29,
+    "differingPixels": 11411,
+    "compared": {
+      "width": 2560,
+      "height": 1530,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 1530,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 0.31,
+      "steps": 1,
+      "totalShift": 1
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/star-channel",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/star-channel",
+      "source": "https://www.ziggo.nl/televisie/zenders/star-channel",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "640cf1c6b7425f83",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "62a2c90437106c1f",
+      "instruments": "700566dc6f7774a4",
+      "page content": "531509a88270fdc9",
+      "shared code": "933bef04481b01be",
+      "block channel-info-card": "b9aa7f4d851aab91",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block social-share": "3b544ea87de695a4"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 2,
+          "textNodes": 80,
+          "controls": 65,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T05:03:21.486Z"
+  }
+}

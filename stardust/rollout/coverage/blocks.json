@@ -1,0 +1,682 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-25T15:22:03.180Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-25T19:29:05.619Z",
+  "blocks": [
+    {
+      "id": "address-checker",
+      "label": "address-checker",
+      "kind": "module",
+      "signature": "module:address-checker",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "televisie-kabel-tv",
+        "televisie-tv-start",
+        "tv-internet"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "address-checker",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "article-carousel",
+      "label": "article-carousel",
+      "kind": "module",
+      "signature": "module:article-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "article-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:45.425Z"
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-voicecontrol"
+      ],
+      "usedByPages": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-hoofdmenu",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-voicecontrol",
+        "televisie-ziggo-go"
+      ],
+      "instanceCount": 15,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:43.060Z"
+      }
+    },
+    {
+      "id": "bundle-builder",
+      "label": "bundle-builder",
+      "kind": "module",
+      "signature": "module:bundle-builder",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "televisie-kabel-tv",
+        "televisie-tv-start",
+        "tv-internet"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bundle-builder",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "channel-info-card",
+      "label": "channel-info-card",
+      "kind": "module",
+      "signature": "module:channel-info-card",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-zenders-npo-1"
+      ],
+      "usedByPages": [
+        "televisie-zenders-npo-1",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-sbs6",
+        "televisie-zenders-star-channel"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "channel-info-card",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T17:39:46.004Z"
+      }
+    },
+    {
+      "id": "channel-overview",
+      "label": "channel-overview",
+      "kind": "module",
+      "signature": "module:channel-overview",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-zenderoverzicht"
+      ],
+      "usedByPages": [
+        "televisie-zenderoverzicht"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "channel-overview",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-band",
+      "label": "contact-band",
+      "kind": "module",
+      "signature": "module:contact-band",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-kabel-tv",
+        "televisie-tv-start",
+        "tv-internet"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contact-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "label": "faq-accordion",
+      "kind": "module",
+      "signature": "module:faq-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-hoofdmenu",
+        "televisie-kabel-tv",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-tv-start",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht",
+        "televisie-ziggo-go",
+        "tv-internet"
+      ],
+      "instanceCount": 20,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "faq-accordion",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:43.439Z"
+      }
+    },
+    {
+      "id": "feature-cards",
+      "label": "feature-cards",
+      "kind": "module",
+      "signature": "module:feature-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "feature-cards",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.547Z"
+      }
+    },
+    {
+      "id": "hero-band",
+      "label": "hero-band",
+      "kind": "module",
+      "signature": "module:hero-band",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1",
+        "index",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht",
+        "televisie-zenders-npo-1"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "index",
+        "internet",
+        "televisie",
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-hoofdmenu",
+        "televisie-kabel-tv",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-tv-start",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht",
+        "televisie-zenders-npo-1",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-sbs6",
+        "televisie-zenders-star-channel",
+        "televisie-ziggo-go",
+        "televisie-ziggo-sport",
+        "tv-internet"
+      ],
+      "instanceCount": 33,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hero-band",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.204Z"
+      }
+    },
+    {
+      "id": "identification-bar",
+      "label": "identification-bar",
+      "kind": "module",
+      "signature": "module:identification-bar",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "identification-bar",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.046Z"
+      }
+    },
+    {
+      "id": "interactions",
+      "label": "interactions",
+      "kind": "module",
+      "signature": "module:interactions",
+      "source": null,
+      "usedByTemplates": [
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht",
+        "televisie-zenders-npo-1"
+      ],
+      "usedByPages": [
+        "alles-in-1",
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-hoofdmenu",
+        "televisie-kabel-tv",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-tv-start",
+        "televisie-voicecontrol",
+        "televisie-zenderoverzicht",
+        "televisie-zenders-npo-1",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-sbs6",
+        "televisie-zenders-star-channel",
+        "televisie-ziggo-go",
+        "tv-internet"
+      ],
+      "instanceCount": 27,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "interactions",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:43.566Z"
+      }
+    },
+    {
+      "id": "media-carousel",
+      "label": "media-carousel",
+      "kind": "module",
+      "signature": "module:media-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "media-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.910Z"
+      }
+    },
+    {
+      "id": "media-text",
+      "label": "media-text",
+      "kind": "module",
+      "signature": "module:media-text",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-voicecontrol"
+      ],
+      "usedByPages": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-hoofdmenu",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-voicecontrol",
+        "televisie-ziggo-go"
+      ],
+      "instanceCount": 15,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "media-text",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:43.185Z"
+      }
+    },
+    {
+      "id": "mediabox-cards",
+      "label": "mediabox-cards",
+      "kind": "module",
+      "signature": "module:mediabox-cards",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-voicecontrol"
+      ],
+      "usedByPages": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-hoofdmenu",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-voicecontrol",
+        "televisie-ziggo-go"
+      ],
+      "instanceCount": 13,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "mediabox-cards",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:43.307Z"
+      }
+    },
+    {
+      "id": "plan-cards",
+      "label": "plan-cards",
+      "kind": "module",
+      "signature": "module:plan-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "plan-cards",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.732Z"
+      }
+    },
+    {
+      "id": "priority-band",
+      "label": "priority-band",
+      "kind": "module",
+      "signature": "module:priority-band",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "priority-band",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:45.271Z"
+      }
+    },
+    {
+      "id": "social-share",
+      "label": "social-share",
+      "kind": "module",
+      "signature": "module:social-share",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-zenders-npo-1"
+      ],
+      "usedByPages": [
+        "televisie-zenders-npo-1",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-sbs6",
+        "televisie-zenders-star-channel"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "social-share",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T17:39:46.115Z"
+      }
+    },
+    {
+      "id": "sticky-subnav",
+      "label": "sticky-subnav",
+      "kind": "module",
+      "signature": "module:sticky-subnav",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-voicecontrol"
+      ],
+      "usedByPages": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-hoofdmenu",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-voicecontrol",
+        "televisie-ziggo-go"
+      ],
+      "instanceCount": 13,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sticky-subnav",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T16:54:42.900Z"
+      }
+    },
+    {
+      "id": "streaming-service-cards",
+      "label": "streaming-service-cards",
+      "kind": "module",
+      "signature": "module:streaming-service-cards",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "usedByPages": [
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "streaming-service-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "streaming-tier-table",
+      "label": "streaming-tier-table",
+      "kind": "module",
+      "signature": "module:streaming-tier-table",
+      "source": null,
+      "usedByTemplates": [
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "usedByPages": [
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "streaming-tier-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "swimming-lane",
+      "label": "swimming-lane",
+      "kind": "module",
+      "signature": "module:swimming-lane",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "swimming-lane",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:45.091Z"
+      }
+    },
+    {
+      "id": "toptask-tiles",
+      "label": "toptask-tiles",
+      "kind": "module",
+      "signature": "module:toptask-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "toptask-tiles",
+        "blockPath": null,
+        "convertedAt": "2026-11-25T15:55:44.377Z"
+      }
+    }
+  ]
+}

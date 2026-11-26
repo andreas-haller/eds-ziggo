@@ -1,0 +1,86 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/pixel-pub2.json",
+    "pct": 15.01,
+    "alignedPct": 5.89,
+    "alignedUsed": true,
+    "totalShift": 171,
+    "steps": [
+      {
+        "y": 923,
+        "shift": -64,
+        "cumulative": -64
+      },
+      {
+        "y": 2145,
+        "shift": 28,
+        "cumulative": -36
+      },
+      {
+        "y": 2908,
+        "shift": -3,
+        "cumulative": -39
+      },
+      {
+        "y": 3614,
+        "shift": -43,
+        "cumulative": -82
+      },
+      {
+        "y": 3910,
+        "shift": -32,
+        "cumulative": -114
+      },
+      {
+        "y": 4450,
+        "shift": 1,
+        "cumulative": -113
+      }
+    ],
+    "offsetBound": 46,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 6 step(s), 171px total — −64px at y=923, +28px at y=2145, −3px at y=2908, −43px at y=3614, −32px at y=3910, +1px at y=4450 (bound 46px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:02:12.631Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-makkelijk-zoeken-1440/units-pub2.txt"
+    }
+  },
+  "structural": 139,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:05:59.590Z"
+}

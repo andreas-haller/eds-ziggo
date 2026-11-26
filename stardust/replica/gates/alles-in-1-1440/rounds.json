@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T12:24:59.802Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T12:33:28.561Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T12:38:51.426Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 pixel PASS 0.32% aligned (5px offsets, Δh -2), content-diff 0/0; the iter3 unit-geometry FAIL (radio svg pairing) fixed after the cap and verified standalone: gate-all prototype --only alles-in-1 @1440 PASS (units off 0, missing 0) — stardust/replica/gates/prototypes-1440/runs",
+          "at": "2026-11-25T13:04:51.370Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T17:42:41.621Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T17:52:22.367Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T17:59:39.581Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3 pixel aligned 0.44% PASS (Δh -3px, 3 offsets 3px in bound), clipped 0, no overflow, units off 0, chrome parity within tolerance; gate-all row PASS; content-diff nothing-lost 0; residual 131 🔴 all [header]/[footer] MISSING ICON = frozen chrome icon-font glyphs (foundation request already queued by archetype-landing), 0 🔴 in main",
+          "at": "2026-11-25T18:04:57.524Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T17-59-47-599Z",
+          "at": "2026-11-25T18:02:15.202Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T02:55:59.482Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-43-34-296Z",
+          "at": "2026-11-26T03:44:48.777Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

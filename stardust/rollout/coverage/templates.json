@@ -1,0 +1,175 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-25T15:21:44.972Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-26T05:13:52.739Z",
+  "templates": [
+    {
+      "id": "alles-in-1",
+      "representativeSlug": "alles-in-1",
+      "pages": [
+        "alles-in-1",
+        "televisie-kabel-tv",
+        "televisie-tv-start",
+        "tv-internet"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "address-checker",
+        "bundle-builder",
+        "contact-band",
+        "faq-accordion",
+        "hero-band",
+        "interactions"
+      ],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index",
+        "internet",
+        "televisie",
+        "televisie-espn",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-ziggo-sport"
+      ],
+      "pageCount": 6,
+      "blocks": [
+        "article-carousel",
+        "feature-cards",
+        "hero-band",
+        "identification-bar",
+        "media-carousel",
+        "plan-cards",
+        "priority-band",
+        "swimming-lane",
+        "toptask-tiles"
+      ],
+      "delivery": {
+        "verified": 6,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "televisie-extra-zenders-streamingdiensten-netflix",
+      "representativeSlug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "pages": [
+        "televisie-extra-zenders-streamingdiensten-disneyplus",
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "breadcrumb",
+        "contact-band",
+        "faq-accordion",
+        "hero-band",
+        "interactions",
+        "media-text",
+        "streaming-service-cards",
+        "streaming-tier-table"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "televisie-voicecontrol",
+      "representativeSlug": "televisie-voicecontrol",
+      "pages": [
+        "televisie-4k-uhd",
+        "televisie-digitale-kabel-tv-en-radio",
+        "televisie-digitale-radio",
+        "televisie-hoofdmenu",
+        "televisie-kijkprofielen",
+        "televisie-makkelijk-zoeken",
+        "televisie-mediaboxen",
+        "televisie-online-tv-kijken",
+        "televisie-opnemen",
+        "televisie-terugkijken",
+        "televisie-tv-apps",
+        "televisie-voicecontrol",
+        "televisie-ziggo-go"
+      ],
+      "pageCount": 13,
+      "blocks": [
+        "breadcrumb",
+        "faq-accordion",
+        "hero-band",
+        "interactions",
+        "media-text",
+        "mediabox-cards",
+        "sticky-subnav"
+      ],
+      "delivery": {
+        "verified": 13,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "televisie-zenderoverzicht",
+      "representativeSlug": "televisie-zenderoverzicht",
+      "pages": [
+        "televisie-zenderoverzicht"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "channel-overview",
+        "faq-accordion",
+        "hero-band",
+        "interactions"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "televisie-zenders-npo-1",
+      "representativeSlug": "televisie-zenders-npo-1",
+      "pages": [
+        "televisie-zenders-npo-1",
+        "televisie-zenders-npo-2",
+        "televisie-zenders-npo-3",
+        "televisie-zenders-rtl-4",
+        "televisie-zenders-rtl-5",
+        "televisie-zenders-sbs6",
+        "televisie-zenders-star-channel"
+      ],
+      "pageCount": 7,
+      "blocks": [
+        "channel-info-card",
+        "hero-band",
+        "interactions",
+        "social-share"
+      ],
+      "delivery": {
+        "verified": 7,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-26T04:36:22.541Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 4,
+   "textNodes": 137,
+   "controls": 96,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 2,
+    "clipper": "article.ucard",
+    "path": "article.ucard > div.ucard-container > div.ucard-body > a.ucard-more",
+    "text": "alles over sport en entertaintment",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+    "text": "uefa",
+    "cutMin": 194,
+    "cutMax": 194
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-title > h2#uefa",
+    "text": "uefa",
+    "cutMin": 11,
+    "cutMax": 11
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+    "text": "altijd het beste sport & entertainment.",
+    "cutMin": 109,
+    "cutMax": 109
+   },
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+    "text": "wifi garantie",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-title > h2#wifi-garantie",
+    "text": "wifi garantie",
+    "cutMin": 0,
+    "cutMax": 0
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+    "text": "wifi die werkt. gegarandeerd.",
+    "cutMin": 0,
+    "cutMax": 0
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

@@ -1,0 +1,169 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-25T13:46:08.285Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.ziggo.nl/televisie/zenders/npo-1",
+      "http://localhost:8791/televisie-zenders-npo-1-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.ziggo.nl/televisie/zenders/npo-1",
+    "http://localhost:8791/televisie-zenders-npo-1-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 26,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.81,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.hero-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.experiencefragment",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > section.vfz-interactions-wrapper",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 151
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 26,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > section.ch-sec > div.container.ch-sec__inner",
+        "tier": 2,
+        "share": 0.81,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.hero-wrap",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > section.ch-sec",
+        "px": 1600,
+        "capSelector": "#main-content > section.ch-sec > div.container.ch-sec__inner"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > section.ch-sec.ch-sec--light",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > nav.interactions",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 101
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1600px = build 1600px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/4",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/televisie-zenders-npo-1-2560/cap-iter.json"
+}

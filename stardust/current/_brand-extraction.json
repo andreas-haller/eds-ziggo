@@ -1,0 +1,2196 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-25T10:10:41.260Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_computed-styles-2.json",
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/alles-in-1.json",
+      "stardust/current/pages/tv-internet.json",
+      "stardust/current/pages/televisie.json",
+      "stardust/current/pages/internet.json",
+      "stardust/current/pages/televisie-voicecontrol.json",
+      "stardust/current/pages/televisie-makkelijk-zoeken.json",
+      "stardust/current/pages/televisie-zenderoverzicht.json",
+      "stardust/current/pages/televisie-extra-zenders-streamingdiensten.json",
+      "stardust/current/pages/televisie-terugkijken.json",
+      "stardust/current/pages/televisie-online-tv-kijken.json",
+      "stardust/current/pages/televisie-ziggo-sport.json",
+      "stardust/current/pages/televisie-opnemen.json",
+      "stardust/current/pages/televisie-kijkprofielen.json",
+      "stardust/current/pages/televisie-hoofdmenu.json",
+      "stardust/current/pages/televisie-4k-uhd.json",
+      "stardust/current/pages/televisie-digitale-kabel-tv-en-radio.json",
+      "stardust/current/pages/televisie-digitale-radio.json",
+      "stardust/current/pages/televisie-tv-start.json",
+      "stardust/current/pages/televisie-kabel-tv.json",
+      "stardust/current/pages/televisie-mediaboxen.json",
+      "stardust/current/pages/televisie-ziggo-go.json",
+      "stardust/current/pages/televisie-tv-apps.json",
+      "stardust/current/pages/televisie-espn.json",
+      "stardust/current/pages/televisie-zenders-npo-1.json",
+      "stardust/current/pages/televisie-zenders-sbs6.json",
+      "stardust/current/pages/televisie-zenders-rtl-4.json",
+      "stardust/current/pages/televisie-zenders-npo-2.json",
+      "stardust/current/pages/televisie-zenders-npo-3.json",
+      "stardust/current/pages/televisie-zenders-rtl-5.json",
+      "stardust/current/pages/televisie-zenders-star-channel.json",
+      "stardust/current/pages/televisie-extra-zenders-streamingdiensten-netflix.json",
+      "stardust/current/pages/televisie-extra-zenders-streamingdiensten-disneyplus.json",
+      "stardust/current/pages/*.html (rendered DOM)",
+      "stardust/current/assets/css/head.5329cc84e73fa9a6aec3c195822237a4.css",
+      "stardust/current/assets/css/checkout.a939c984c79dc4d2524358f4cbb297de.css",
+      "stardust/current/assets/css/checkers.css",
+      "stardust/current/_crawl-log.json",
+      "stardust/state.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.46.7",
+    "censusCoverage": {
+      "pages": 33,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 66,
+      "failedMeasurements": 21,
+      "note": "_computed-styles.json measured 23 pages (21 page×width failures: browser context closed); _computed-styles-2.json re-measured 11 pages (tv-internet, televisie, ziggo-sport, ziggo-go and the 7 channel pages). Both merged: 33 pages, 66 page×width measurements. Aggregates (colors, radii, shadows, families, heading levels) are summed across both files."
+    },
+    "notes": [
+      "Palette capped at 8 first-party colors; dropped: #a9aeb2 (852, --color_gray-400), #d9dbde (848, --color_gray-200 / --color_surface-high), #4a4f54 (663, --color_gray-800), #01125d (510, --color_tertiary-darken-40), #757e84 (308, --color_gray-600), #60676c (224, --color_gray-700).",
+      "#f1f2f3 (surface, weight 770, bgArea 91921904) kept over #a9aeb2 (weight 852, bgArea 1686024) for the 8th slot: the spec weights occurrences by element area and #f1f2f3 is the dominant light section ground.",
+      "Excluded third-party/non-brand colors: #ff0000, #0000000d, #0177b5, #3c5ba2, #e03d19, #65bc54 (#ff0000 = Dimelo chat required-field asterisk; #0177b5/#3c5ba2/#e03d19/#65bc54 = LinkedIn/Facebook/Email/WhatsApp share-button fills on the channel pages (.social); #0000000d = table stripe).",
+      "Role naming: census heuristic assigns \"primary\" to the dominant button fill #001489 (Ziggo blue, CSS token --color_tertiary). The brand orange #ff5f00 is the CSS token --color_primary and dominates by area (24.6M px² bg area) but appears on buttons mainly via the third-party feedback tab; it is recorded here as role \"secondary\" (brand/hero color).",
+      "Design tokens are declared on body.ziggo (not :root), so pages/*.json#customProps (root-only) lists only a11y/transition/navigation props; the color/radius/type token layer is read from head.*.css.",
+      "Logo: census aggregate.logo.source = \"none\"; per-page logoCandidates[0] on the home record is img.vfz-navbar__brand-image (scene7 SVG). Logo file not downloaded (localPath null).",
+      "Favicon: none captured (no link rel=icon in the DOM, /favicon.ico unreachable per _crawl-log.json#favicon = null).",
+      "Home-only vs cross-page: home radii mode is 16px/8px (110 each, mediabox tiles + thumbnails); cross-page mode is 24px (705 occurrences, cards/tiles/sub-nav). Cross-page value preferred.",
+      "Home hero headline is not a heading element; page h1 on home is \"Daarom kies je Ziggo\" rendered in Vodafone Ziggo text 25px/300.",
+      "Third-party widgets excluded from components/voice: Dimelo chat pre-form (aside.dimelo-form, open in every capture), feedback survey widget (#surveyContent \"Suggesties?\"), OneTrust consent.",
+      "Diodrum (45 computed buttons) has no @font-face and no file; it is a third-party (OneTrust/feedback widget) declaration — recorded in type.unresolvedFamilies, no file invented."
+    ]
+  },
+  "site": {
+    "name": "Ziggo",
+    "tagline": "Welkom bij Ziggo ✓ Stabiel, snel en veilig internet ✓ Wifi Garantie ✓ Ziggo GO ✓ Ziggo Sport  ➔ Kies je voordeel en stel zelf je pakket samen.",
+    "originUrl": "https://www.ziggo.nl",
+    "language": "nl",
+    "owner": "VodafoneZiggo"
+  },
+  "origins": [
+    {
+      "origin": "https://www.ziggo.nl",
+      "role": "primary",
+      "pagesCaptured": 33,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header img.vfz-navbar__brand-image",
+    "url": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "alt": "Logo van Ziggo",
+    "href": "/",
+    "localPath": null,
+    "format": "svg",
+    "intrinsicWidth": 1080,
+    "intrinsicHeight": 450,
+    "renderedRect": {
+      "x": 152,
+      "y": 61,
+      "width": 72,
+      "height": 30,
+      "viewport": 1440
+    },
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variantsCaptured": [
+      "orange (ziggo-logo-orange-v1)"
+    ],
+    "citation": {
+      "file": "stardust/current/_computed-styles.json",
+      "path": "pages[\"https://www.ziggo.nl/\"][\"1440\"].logoCandidates[0]"
+    }
+  },
+  "favicon": null,
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 3180,
+      "bgArea": 457195745,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 1678,
+        "text": 693,
+        "button-background": 323,
+        "button-text": 237,
+        "link": 56,
+        "border": 27,
+        "button-border": 6,
+        "heading": 160
+      },
+      "sourceSelectors": [
+        "body",
+        "body",
+        "body"
+      ],
+      "sources": [
+        "televisie-extra-zenders-streamingdiensten",
+        "alles-in-1",
+        "internet"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "body",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/alles-in-1",
+          "selector": "body",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/internet",
+          "selector": "body",
+          "prop": "background"
+        }
+      ],
+      "cssToken": "--color_white / --color_body-bg",
+      "censusRoles": [
+        "background"
+      ]
+    },
+    {
+      "role": "border",
+      "value": "#c1c5c8",
+      "occurrences": 2736,
+      "bgArea": 6026,
+      "usedAs": [
+        "border",
+        "text",
+        "background"
+      ],
+      "usedAsCounts": {
+        "border": 526,
+        "text": 2209,
+        "background": 1
+      },
+      "sourceSelectors": [
+        "#tvvideo > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div",
+        "nav > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+        "nav > div:nth-of-type(2) > details:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+      ],
+      "sources": [
+        "televisie-tv-apps",
+        "index",
+        "alles-in-1"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/tv-apps",
+          "selector": "#tvvideo > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "nav > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "nav > div:nth-of-type(2) > details:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        }
+      ],
+      "cssToken": "--color_gray-300 / --color_border-color",
+      "censusRoles": [
+        "border",
+        "text"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#001489",
+      "occurrences": 2508,
+      "bgArea": 2042523,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "link": 1172,
+        "text": 838,
+        "background": 296,
+        "button-text": 18,
+        "border": 22,
+        "button-background": 162
+      },
+      "sourceSelectors": [
+        "section > div > div > dl > dd > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+        "section > div > div > dl > dd > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+        "div > div > section > div:nth-of-type(2) > div > section > div:nth-of-type(1) > a"
+      ],
+      "sources": [
+        "televisie-zenderoverzicht",
+        "index",
+        "televisie-extra-zenders-streamingdiensten"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+          "selector": "section > div > div > dl > dd > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+          "selector": "section > div > div > dl > dd > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "div > div > section > div:nth-of-type(2) > div > section > div:nth-of-type(1) > a",
+          "prop": "link"
+        }
+      ],
+      "cssToken": "--color_tertiary (= --color_blue-60, --color_info)",
+      "censusRoles": [
+        "primary"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#000000",
+      "occurrences": 2395,
+      "bgArea": 4392,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "usedAsCounts": {
+        "text": 1845,
+        "link": 56,
+        "button-text": 302,
+        "background": 2,
+        "heading": 190
+      },
+      "sourceSelectors": [
+        "header > div > div > div > div > a:nth-of-type(1)",
+        "header > div > div > div > div > a:nth-of-type(1)",
+        "header > div > div > div > div > a:nth-of-type(1)"
+      ],
+      "sources": [
+        "televisie-zenderoverzicht",
+        "televisie-online-tv-kijken",
+        "televisie-extra-zenders-streamingdiensten"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+          "selector": "header > div > div > div > div > a:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/online-tv-kijken",
+          "selector": "header > div > div > div > div > a:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "header > div > div > div > div > a:nth-of-type(1)",
+          "prop": "text"
+        }
+      ],
+      "cssToken": "--color_black / --color_body-color",
+      "censusRoles": [
+        "text"
+      ]
+    },
+    {
+      "role": "text-secondary",
+      "value": "#1c1f21",
+      "occurrences": 2142,
+      "bgArea": 411910,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "usedAsCounts": {
+        "text": 1752,
+        "background": 86,
+        "button-background": 2,
+        "heading": 302
+      },
+      "sourceSelectors": [
+        "nav > div:nth-of-type(1) > div:nth-of-type(1)",
+        "nav > ol > li:nth-of-type(3) > span",
+        "div > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > h2"
+      ],
+      "sources": [
+        "televisie-extra-zenders-streamingdiensten",
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-disneyplus"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "nav > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "nav > ol > li:nth-of-type(3) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/alles-in-1",
+          "selector": "div > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > h2",
+          "prop": "text"
+        }
+      ],
+      "cssToken": "--color_secondary",
+      "censusRoles": []
+    },
+    {
+      "role": "surface-dark",
+      "value": "#323639",
+      "occurrences": 1381,
+      "bgArea": 51457386,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 345,
+        "text": 852,
+        "link": 126,
+        "button-background": 22,
+        "border": 6,
+        "heading": 30
+      },
+      "sourceSelectors": [
+        "#main-content > div:nth-of-type(7) > section > ul > li:nth-of-type(1) > div > article > div",
+        "nav > ol > li:nth-of-type(2) > a",
+        "div:nth-of-type(2) > div > section > div:nth-of-type(1) > a > div > div:nth-of-type(1) > span:nth-of-type(1)"
+      ],
+      "sources": [
+        "index",
+        "televisie-tv-apps",
+        "internet"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "#main-content > div:nth-of-type(7) > section > ul > li:nth-of-type(1) > div > article > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/tv-apps",
+          "selector": "nav > ol > li:nth-of-type(2) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/internet",
+          "selector": "div:nth-of-type(2) > div > section > div:nth-of-type(1) > a > div > div:nth-of-type(1) > span:nth-of-type(1)",
+          "prop": "text"
+        }
+      ],
+      "cssToken": "--color_dark / --color_gray-900 / --color_secondary-lighten-20",
+      "censusRoles": [
+        "accent"
+      ]
+    },
+    {
+      "role": "secondary",
+      "value": "#ff5f00",
+      "occurrences": 1151,
+      "bgArea": 30275798,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "text": 399,
+        "background": 236,
+        "border": 72,
+        "button-background": 67,
+        "button-border": 67,
+        "heading": 310
+      },
+      "sourceSelectors": [
+        "div > div > div > div > div > div > div:nth-of-type(1) > h2",
+        "header > div > div > div",
+        "header"
+      ],
+      "sources": [
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten",
+        "internet"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/alles-in-1",
+          "selector": "div > div > div > div > div > div > div:nth-of-type(1) > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "header > div > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+          "selector": "header",
+          "prop": "background"
+        }
+      ],
+      "cssToken": "--color_primary",
+      "censusRoles": [
+        "secondary",
+        "heading"
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#f1f2f3",
+      "occurrences": 770,
+      "bgArea": 91921904,
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "usedAsCounts": {
+        "background": 653,
+        "border": 69,
+        "button-text": 22,
+        "text": 24,
+        "link": 2
+      },
+      "sourceSelectors": [
+        "nav > ul",
+        "#main-content > section:nth-of-type(1) > div > div",
+        "div:nth-of-type(2) > section > div:nth-of-type(2) > div > div:nth-of-type(1) > div > article > div"
+      ],
+      "sources": [
+        "televisie-zenderoverzicht",
+        "televisie-4k-uhd",
+        "televisie-online-tv-kijken"
+      ],
+      "citations": [
+        {
+          "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+          "selector": "nav > ul",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/4k-uhd",
+          "selector": "#main-content > section:nth-of-type(1) > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ziggo.nl/televisie/online-tv-kijken",
+          "selector": "div:nth-of-type(2) > section > div:nth-of-type(2) > div > div:nth-of-type(1) > div > article > div",
+          "prop": "border"
+        }
+      ],
+      "cssToken": "--color_gray-100 / --color_light / --color_background-light",
+      "censusRoles": [
+        "surface"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Ziggo Headline",
+      "stack": "Ziggo Headline, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
+      "cssToken": "--font-family_headings / --headings_font-family",
+      "faces": [
+        400,
+        700
+      ],
+      "weights": [
+        700,
+        600
+      ],
+      "weightsNote": "Computed headings use 700 (634×) and 600 (224×, mostly the 18px footer column h2s and --headings_font-weight: 600). Only 400 and 700 faces are declared, so 600 renders with the 700 face.",
+      "sizes": [
+        "48.8px",
+        "39.04px",
+        "25.01px",
+        "25.01px"
+      ],
+      "sizesMobile": [
+        "28.83px",
+        "25.6px",
+        "20.26px",
+        "20.26px"
+      ],
+      "lineHeights": [
+        1.1
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "textTransform": "none",
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        ".vfz-heading__h1",
+        ".vfz-title__element"
+      ],
+      "census": {
+        "family": "Ziggo Headline",
+        "count": 1191,
+        "headings": 1191,
+        "text": 0,
+        "buttons": 0
+      }
+    },
+    "bodyFamily": {
+      "name": "Vodafone Ziggo text",
+      "stack": "Vodafone Ziggo text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
+      "cssToken": "--font-family_base / --font-family_sans-serif",
+      "faces": [
+        300,
+        400,
+        700
+      ],
+      "weights": [
+        300,
+        400,
+        600,
+        700
+      ],
+      "weightsNote": "Paragraph copy is 300 (light); list items and nav 400; buttons 600 (--btn-font-weight); legal line 300 at 12px.",
+      "sizes": [
+        "16px",
+        "14px",
+        "12px"
+      ],
+      "lineHeights": [
+        1.6,
+        1.5
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        ".btn",
+        ".vfz-text--legal"
+      ],
+      "census": {
+        "family": "Vodafone Ziggo text",
+        "count": 1247,
+        "headings": 69,
+        "text": 622,
+        "buttons": 556
+      },
+      "displayUse": "Also used for a light-weight (300) 31.2px/22.72px sub-heading style on h2/h3 (13 + 4 occurrences, e.g. \"Ontdek onze internetabonnementen\", \"Onze adviseurs helpen je graag\") and the home h1 \"Daarom kies je Ziggo\" (25px/300)."
+    },
+    "monoFamily": null,
+    "unresolvedFamilies": [
+      {
+        "name": "Diodrum",
+        "occurrences": 67,
+        "where": "buttons only (computed); the \"Suggesties?\" feedback-widget button (#surveyContent > div > div > button) and OneTrust cookie-policy rules",
+        "fontFace": null,
+        "note": "Referenced by third-party inline CSS (OneTrust: #ot-sdk-cookie-policy-v2 … font-family: Diodrum, -apple-system, …). No @font-face on the page and no file captured; renders with the system fallback. Not a brand family."
+      },
+      {
+        "name": "Open Sans / Roboto",
+        "where": "https://fonts.mopinion.com/css?family=Open+Sans|Roboto (feedback survey widget)",
+        "note": "Third-party widget fonts; not brand."
+      }
+    ],
+    "levels": {
+      "desktop1440": {
+        "h1": {
+          "fontSize": "48.8px",
+          "fontWeight": "700",
+          "count": 21,
+          "score": 391.35,
+          "family": "Ziggo Headline",
+          "lineHeight": "53.68px",
+          "example": "Alles-in-1",
+          "source": {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(2) > section > div:nth-of-type(2) > div:nth-of-type(1) > section > div:nth-of-type(1) > div:nth-of-type(2) > h1"
+          }
+        },
+        "h2": {
+          "fontSize": "39.04px",
+          "fontWeight": "700",
+          "count": 78,
+          "score": 603.39,
+          "family": "Ziggo Headline",
+          "lineHeight": "42.944px",
+          "example": "Nog een vraag over je bestelling?",
+          "source": {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(4) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > h2"
+          }
+        },
+        "h3": {
+          "fontSize": "25.01px",
+          "fontWeight": "700",
+          "count": 75,
+          "score": 379.01,
+          "family": "Ziggo Headline",
+          "lineHeight": "27.5088px",
+          "example": "Internet Only",
+          "source": {
+            "url": "https://www.ziggo.nl/",
+            "selector": "div:nth-of-type(1) > div > article > div > div:nth-of-type(1) > div:nth-of-type(1) > div > h3"
+          }
+        },
+        "h4": {
+          "fontSize": "25.01px",
+          "fontWeight": "700",
+          "count": 19,
+          "score": 190.76,
+          "family": "Ziggo Headline",
+          "lineHeight": "27.5088px",
+          "example": "TV & Streaming",
+          "source": {
+            "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+            "selector": "div:nth-of-type(1) > div > article > div > div:nth-of-type(2) > div:nth-of-type(1) > div > h4"
+          }
+        }
+      },
+      "mobile360": {
+        "h1": {
+          "family": "Ziggo Headline",
+          "fontSize": "28.83px",
+          "fontWeight": 700,
+          "lineHeight": "31.7152px",
+          "letterSpacing": "normal",
+          "count": 21,
+          "score": 231.22,
+          "example": "Alles-in-1",
+          "source": {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(2) > section > div:nth-of-type(2) > div:nth-of-type(1) > section > div:nth-of-type(1) > div:nth-of-type(2) > h1"
+          }
+        },
+        "h2": {
+          "family": "Ziggo Headline",
+          "fontSize": "25.6px",
+          "fontWeight": 700,
+          "lineHeight": "28.16px",
+          "letterSpacing": "normal",
+          "count": 78,
+          "score": 395.66,
+          "example": "Nog een vraag over je bestelling?",
+          "source": {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(4) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > h2"
+          }
+        },
+        "h3": {
+          "family": "Ziggo Headline",
+          "fontSize": "20.26px",
+          "fontWeight": 700,
+          "lineHeight": "22.2816px",
+          "letterSpacing": "normal",
+          "count": 75,
+          "score": 306.99,
+          "example": "Internet Only",
+          "source": {
+            "url": "https://www.ziggo.nl/",
+            "selector": "div:nth-of-type(1) > div > article > div > div:nth-of-type(1) > div:nth-of-type(1) > div > h3"
+          }
+        },
+        "h4": {
+          "family": "Ziggo Headline",
+          "fontSize": "20.26px",
+          "fontWeight": 700,
+          "lineHeight": "22.2816px",
+          "letterSpacing": "normal",
+          "count": 19,
+          "score": 154.51,
+          "example": "TV & Streaming",
+          "source": {
+            "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+            "selector": "div:nth-of-type(1) > div > article > div > div:nth-of-type(2) > div:nth-of-type(1) > div > h4"
+          }
+        }
+      },
+      "method": "score = px × (weight/400) × √count per (size, weight) group; desktop from _computed-styles.json#aggregate.type.levels, mobile recomputed from per-page 360 records",
+      "cssSource": "head.*.css: .h1,h1 {font-size:1.802rem} / @media(min-width:1024px) {font-size:3.05rem}; .h1…h6 {line-height:1.1; font-weight:600}"
+    },
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.25,
+        1.561,
+        1
+      ],
+      "matchedScale": null,
+      "sizes": [
+        48.8,
+        39.04,
+        25.01,
+        25.01
+      ],
+      "desktopLadder": {
+        "sizes": [
+          61.04,
+          48.8,
+          39.04,
+          31.2,
+          25.008,
+          20,
+          16
+        ],
+        "kind": "modular",
+        "ratios": [
+          1.251,
+          1.25,
+          1.251,
+          1.248,
+          1.25,
+          1.25
+        ],
+        "matchedScale": "major-third"
+      },
+      "mobileLadder": {
+        "sizes": [
+          32.32,
+          28.832,
+          25.6,
+          22.784,
+          20.256,
+          18
+        ],
+        "kind": "modular",
+        "ratios": [
+          1.121,
+          1.126,
+          1.124,
+          1.125,
+          1.125
+        ],
+        "matchedScale": "major-second"
+      },
+      "declaredClassScale": {
+        "desktop": {
+          "h1": "3.05rem",
+          "h2": "2.44rem",
+          "h3": "1.95rem",
+          "h4": "1.563rem",
+          "h5": "1.25rem",
+          "h6": "1.125rem"
+        },
+        "mobile": {
+          "h1": "1.802rem",
+          "h2": "1.6rem",
+          "h3": "1.424rem",
+          "h4": "1.266rem",
+          "h5": "1.156rem",
+          "h6": "1rem"
+        },
+        "source": "head.*.css .hN,hN and .vfz-heading__hN rules",
+        "kind": "modular",
+        "matchedScale": {
+          "desktop": "major-third",
+          "mobile": "major-second"
+        }
+      },
+      "note": "Mechanical per-tag audit is ad-hoc: by weighted score h3 and h4 both resolve to 25.008px (h3 tags render at 20, 25.008, 31.2 and 39.04px because authors apply .vfz-heading__hN size classes independently of the tag). The declared size classes themselves form a 1.25 major-third ladder at ≥1024px (16 → 20 → 25 → 31.2 → 39.04 → 48.8 → 61.04) and a 1.125 major-second ladder on mobile (18 → 20.26 → 22.78 → 25.6 → 28.83 → 32.32).",
+      "h3SizeSpread1440": {
+        "20px/700": 78,
+        "25.008px/700": 77,
+        "31.2px/700": 36,
+        "20px/600": 20,
+        "39.04px/700": 9,
+        "31.2px/600": 8,
+        "24px/700": 8,
+        "31.2px/300": 7,
+        "other": 8
+      }
+    },
+    "loadStrategy": "swap",
+    "loadStrategyNote": "text faces font-display: swap; icon font font-display: block; all faces preloaded via <link rel=\"preload\" as=\"font\">",
+    "files": [
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-bold.woff2",
+        "family": "Ziggo Headline",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/ziggoheadline-bold.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Ziggo Headline; font-style: normal; font-weight: 700; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-bold.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-bold.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-regular.woff2",
+        "family": "Ziggo Headline",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/ziggoheadline-regular.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Ziggo Headline; font-style: normal; font-weight: 400; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-regular.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-regular.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-light.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-light.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: normal; font-weight: 300; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-light.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-light.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-lightitalic.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 300,
+        "style": "italic",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-lightitalic.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: italic; font-weight: 300; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-lightitalic.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-lightitalic.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regular.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-regular.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: normal; font-weight: 400; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regular.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regular.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regularitalic.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 400,
+        "style": "italic",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-regularitalic.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: italic; font-weight: 400; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regularitalic.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regularitalic.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bold.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-bold.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: normal; font-weight: 700; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bold.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bold.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bolditalic.woff2",
+        "family": "Vodafone Ziggo text",
+        "weight": 700,
+        "style": "italic",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/vodafoneziggo-text-bolditalic.woff2",
+        "sourceCssRule": "@font-face { font-display: swap; font-family: Vodafone Ziggo text; font-style: italic; font-weight: 700; src: url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bolditalic.woff2\") format(\"woff2\"), url(\"https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bolditalic.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      },
+      {
+        "url": "https://www.ziggo.nl/assets/icons/ziggo/v2.2/ziggo-ui-icon-v22.woff2",
+        "family": "ziggo-ui-icon-v22",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/ziggo-ui-icon-v22.woff2",
+        "sourceCssRule": "@font-face { font-display: block; font-family: ziggo-ui-icon-v22; font-style: normal; font-weight: 400; src: url(\"https://www.ziggo.nl/assets/icons/ziggo/v2.2/ziggo-ui-icon-v22.woff2\") format(\"woff2\"), url(\".../ziggo-ui-icon-v22.woff\") format(\"woff\") }",
+        "sourceOf": "pages/index.html inline <style> @font-face (a base64 TTF copy also ships in assets/css/head.*.css and checkout.*.css)",
+        "licensingFlag": "private",
+        "licensing": "proprietary"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "scale": [
+      4,
+      8,
+      16,
+      24,
+      32,
+      40,
+      64,
+      80
+    ],
+    "scaleSource": ".vfz-spacing-{top,bottom}--{xxs:4, xs:8, s:16, m:16→24@1024, l:24→32@1024, xl:32→40@1024, xxl:64→80@1024} (head.*.css)",
+    "sectionPadding": null,
+    "sectionPaddingNote": "Sections use the vfz-spacing-top/bottom margin utilities per component; no single section padding value.",
+    "containerMaxWidth": "1200px",
+    "containerMaxWidthWide": "1600px (≥1920px)",
+    "containerPadding": {
+      "<1024": "20px",
+      "1024–1440": "24px",
+      "1440–1920": "32px",
+      "≥1920": "40px"
+    },
+    "containerSource": "head.*.css .container media rules",
+    "gridGap": null
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "24px",
+      "secondary": "8px",
+      "pill": "50%",
+      "button": "40px",
+      "primarySources": [
+        "index",
+        "alles-in-1"
+      ],
+      "primaryCitations": [
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "div > div > div > div > section > div:nth-of-type(2) > div > section"
+        },
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "div > div > div > section > div:nth-of-type(2) > div > section > div:nth-of-type(1)"
+        },
+        {
+          "url": "https://www.ziggo.nl/",
+          "selector": "div > div > section > div:nth-of-type(2) > div > section > div:nth-of-type(1) > a"
+        }
+      ],
+      "occurrences": {
+        "24px": 980,
+        "8px": 468,
+        "40px": 412,
+        "6px": 392,
+        "16px": 232,
+        "50%": 102,
+        "4px 0px 0px 4px": 81,
+        "3px 3px 0px 0px": 67,
+        "8px 8px 0px 0px": 67,
+        "0px 0px 24px 24px": 32,
+        "24px 0px 0px 24px": 24,
+        "18px": 20,
+        "60px": 16,
+        "0px 0px 0px 4px": 15,
+        "24px 24px 0px 0px": 12,
+        "32px": 10,
+        "12px": 8,
+        "0px 6px 6px 0px": 2
+      },
+      "tokens": {
+        "--border-radius_xxs": "6px",
+        "--border-radius_xs": "8px",
+        "--border-radius_sm": "16px",
+        "--border-radius": "24px",
+        "--border-radius_lg": "32px",
+        "--border-radius_xl": "40px",
+        "--btn-border-radius": "40px"
+      },
+      "thirdPartyShare": {
+        "6px": "128 of 259 sampled 6px sources are the Dimelo chat pre-form (#dimelo_chat_*)",
+        "3px 3px 0px 0px": "all 45 are the \"Suggesties?\" feedback-widget button (#surveyContent)"
+      },
+      "notes": "24px is both the count mode (705) and the area mode (cards, mediabox tiles, sub-nav pill bar). 40px is the pill-button radius (--btn-border-radius). 50% is circular icon buttons (carousel arrows). Header audience tabs use 8px 8px 0 0; sticky sub-nav tabs 4px 0 0 4px."
+    },
+    "shadows": [
+      {
+        "value": "rgba(28, 31, 33, 0.2) 0px 4px 10px 0px",
+        "uses": "cards / articles / sticky sub-nav bar (.vfz-shadow--s: 0 4px 10px rgba(28,31,33,.2))",
+        "count": 248,
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "li:nth-of-type(1) > div > div > div > div > div > div > article"
+          },
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "li:nth-of-type(2) > div > div > div > div > div > div > article"
+          },
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "li:nth-of-type(3) > div > div > div > div > div > div > article"
+          }
+        ]
+      },
+      {
+        "value": "rgba(28, 31, 33, 0.2) 0px 2px 4px 0px",
+        "uses": "address checker card, plan tiles, deal blocks (.vfz-shadow--xs: 0 2px 4px rgba(28,31,33,.2))",
+        "count": 104,
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "div:nth-of-type(3) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div > div"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div > div > div > div > div > div > div > div"
+          }
+        ]
+      },
+      {
+        "value": "rgba(28, 31, 33, 0.2) 0px 6px 20px 0px",
+        "uses": "home hero-adjacent cards (.vfz-shadow--m); home only (3×)",
+        "count": 3,
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "div:nth-of-type(1) > section > div:nth-of-type(2) > div"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px",
+        "uses": "THIRD-PARTY: \"Suggesties?\" feedback-widget button (Material elevation); excluded from brand signature",
+        "count": 67,
+        "thirdParty": true,
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "#surveyContent > div > div > button"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "#surveyContent > div > div > button"
+          }
+        ]
+      }
+    ],
+    "shadowTokens": {
+      ".vfz-shadow--xs": "0 2px 4px rgba(28,31,33,.2)",
+      ".vfz-shadow--s": "0 4px 10px rgba(28,31,33,.2)",
+      ".vfz-shadow--m": "0 6px 20px rgba(28,31,33,.2)",
+      ".vfz-shadow--l": "0 4px 20px 4px rgba(28,31,33,.2)",
+      "--btn-focus-box-shadow": "0 0 0 3px rgba(255,95,0,.25)"
+    },
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgb(255, 70, 8) 0%, rgb(255, 95, 0) 70%, rgb(247, 147, 30))",
+        "uses": "orange brand gradient: header top strip, gradient hero bands (bg-ziggo-gradient), promo sections",
+        "count": 51,
+        "token": "--background_gradient",
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/",
+            "selector": "header > div > div > div"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "header > div > div > div"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "#main-content > div:nth-of-type(4) > section"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(255, 70, 8) 0%, rgb(255, 95, 0) 70%, rgb(247, 147, 30))",
+        "uses": "same gradient, vertical (180deg default) — promo sections",
+        "count": 5,
+        "token": "--background_gradient-mobile-reverse",
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "#main-content > div:nth-of-type(4) > section"
+          },
+          {
+            "url": "https://www.ziggo.nl/internet",
+            "selector": "#main-content > div:nth-of-type(13) > div > div > div > div > div > section"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(0deg, rgb(255, 70, 8) 0%, rgb(255, 95, 0) 70%, rgb(247, 147, 30))",
+        "uses": "same gradient, 0deg — mobile hero / zenderoverzicht header",
+        "count": 11,
+        "token": "--background_gradient-mobile",
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/televisie/espn",
+            "selector": "#main-content > div:nth-of-type(9) > section"
+          },
+          {
+            "url": "https://www.ziggo.nl/televisie/hoofdmenu",
+            "selector": "#main-content > div:nth-of-type(1) > section"
+          }
+        ]
+      },
+      {
+        "value": "url(\".../ziggo-gradient-background/default/3840x1300_hero-60_ziggo-gradient.svg\"), linear-gradient(90deg, rgb(255, 70, 8) 0%, rgb(255, 95, 0) 70%, rgb(247, 147, 30))",
+        "uses": "gradient SVG wave over the orange gradient — program-page hero and promo cards",
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.ziggo.nl/alles-in-1",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(8) > div > div:nth-of-type(1) > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(90deg,#031033 20%,#002b63)",
+        "uses": "declared token only (--background_gradient-entertainment); not observed in computed styles",
+        "count": 0,
+        "token": "--background_gradient-entertainment"
+      }
+    ],
+    "patterns": [
+      {
+        "name": "orange-hero-band",
+        "evidence": "29 of 33 pages open with an orange band — 20 × .vfz-hero-container.bg-primary (#ff5f00 + right-aligned product photo as CSS background) and 9 × .bg-ziggo-gradient; the other 4 open with a dark customer-toggle band followed by the orange band. All 33 contain one (24 bg-primary, 9 gradient); the h1 sits inside it on 29 pages."
+      },
+      {
+        "name": "orange-gradient-strip",
+        "evidence": "header top strip and channel/zenderoverzicht heroes use linear-gradient(90deg,#ff4608,#ff5f00 70%,#f7931e) (31 elements)"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "rounded 24px white/light-gray cards with 0 4px 10px shadow — card-v2 on 11 pages, mediabox/plan tiles"
+      },
+      {
+        "name": "pricing-3up",
+        "evidence": "\"Altijd een abonnement dat bij je past\" (index, internet) and the bundle-builder product cards (alles-in-1, tv-internet)"
+      },
+      {
+        "name": "faq-accordion",
+        "evidence": "\"Veelgestelde vragen\" accordion on 18 pages"
+      },
+      {
+        "name": "cta-band",
+        "evidence": "\"Nog een vraag?\" Bel / Chat / Winkel contact band on 5 pages"
+      },
+      {
+        "name": "toptask-tiles",
+        "evidence": "icon tiles under the hero on index, internet, televisie (.vfz-toptask)"
+      },
+      {
+        "name": "sticky-subnav",
+        "evidence": "pill-shaped sticky in-page sub-navigation on 8 TV feature pages"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "four link columns (Pakketten · Internet · Televisie · Bellen & Overige) + service links + social on 33/33 pages"
+      },
+      {
+        "name": "nav-mega",
+        "evidence": "header mega-menu Producten / Klantenservice / Entertainment with Privé/Zakelijk audience tabs on 33/33 pages"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#001489",
+        "color": "#ffffff",
+        "borderRadius": "40px",
+        "padding": "0px 20px",
+        "height": "48px (--btn-height: 3rem)",
+        "fontFamily": "Vodafone Ziggo text",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "border": "0px solid transparent",
+        "shadow": "none",
+        "hoverDelta": "background #001489 → #022c91 (--color_tertiary-lighten-20), border → #022c91 (31 observed)",
+        "focus": "--btn-focus-box-shadow: 0 0 0 3px rgba(255,95,0,.25)",
+        "census": "45 instances at 1440, e.g. \"Bekijk ons aanbod\" (alles-in-1 form button)"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#01125d",
+        "borderRadius": "40px",
+        "padding": "0px 19px",
+        "border": "2px solid #01125d",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "hoverDelta": "color/border #01125d → #00136f (10 observed)",
+        "census": "e.g. \"Voor ondernemers\" (home hero, .btn-outline-dark)"
+      },
+      "onDarkGhost": {
+        "background": "transparent",
+        "color": "#ffffff",
+        "borderRadius": "40px",
+        "border": "2px solid #ffffff",
+        "fontWeight": 600,
+        "hoverDelta": "color/border → #f1f2f3",
+        "census": "e.g. \"Ja, ik ben al klant\" (internet customer toggle)"
+      },
+      "light": {
+        "background": "#ffffff",
+        "color": "#001489",
+        "borderRadius": "40px",
+        "padding": "0px 20px",
+        "fontWeight": 600,
+        "hoverDelta": "background → #f1f2f3",
+        "census": "\"Bekijk meer\" on dark cards (home)"
+      },
+      "chip": {
+        "background": "#323639",
+        "color": "#f1f2f3",
+        "borderRadius": "18px",
+        "padding": "8px 17px",
+        "fontWeight": 600,
+        "hoverDelta": "background → #000000",
+        "census": "\"zenderoverzicht\" chips (extra-zenders FAQ)"
+      },
+      "sizes": {
+        "sm": "40px high / 12px padding",
+        "md": "48px / 20px",
+        "lg": "56px / 32px",
+        "source": "--btn-height_sm/--btn-height/--btn-height_lg, --btn-padding_sm/--btn-padding/--btn-padding_lg"
+      }
+    },
+    "dualCTAPattern": "primary-then-secondary-outline (hero: \"Stel je pakket samen\" filled + \"Voor ondernemers\" outline; streaming heroes \"Ik wil Netflix\" + \"Ik heb nog geen Ziggo\")",
+    "cards": {
+      "background": "#ffffff (on white/light sections) or #323639 (dark media cards)",
+      "borderRadius": "24px",
+      "padding": "24px",
+      "shadow": "rgba(28, 31, 33, 0.2) 0px 4px 10px 0px",
+      "border": "none",
+      "source": "card-v2 / vfz-grouping; census radius 24px mode + shadow mode"
+    },
+    "inputs": {
+      "borderRadius": "8px",
+      "height": "48px",
+      "padding": ".375rem .75rem",
+      "border": "1px solid #a9aeb2 (--color_gray-400); zipcode inputs computed 1px #757e84",
+      "color": "#60676c",
+      "focusRing": "browser outline via --a11y-outline-* (2px auto)",
+      "source": "head.*.css .form-control; census #zipcode-25 border"
+    },
+    "headerTabs": {
+      "background": "#ffffff (active) on orange strip",
+      "color": "#000000",
+      "borderRadius": "8px 8px 0px 0px",
+      "padding": "0px 20px",
+      "fontSize": "14px",
+      "fontWeight": 700,
+      "census": "\"Privé\" / \"Zakelijk\" audience selector"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 33,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Privé",
+        "Zakelijk",
+        "Producten",
+        "Klantenservice",
+        "Entertainment",
+        "Zoeken",
+        "Ziggo GO",
+        "Ziggo Mail",
+        "Open Mijn Ziggo menu"
+      ],
+      "domFingerprintHash": "sha256:3a3db28e",
+      "exampleSlug": "index",
+      "exampleSelector": "body > header (vfz-generic-navigation-v3 + vfz-audience-selector + vfz-navbar-applications-v3)",
+      "examplePages": [
+        "index",
+        "alles-in-1",
+        "tv-internet"
+      ],
+      "notes": "Orange gradient top strip (--background_gradient) carrying white Privé/Zakelijk tabs (8px 8px 0 0), then white bar: orange Ziggo logo (img.vfz-navbar__brand-image), mega-menu triggers, search, Ziggo GO, Ziggo Mail, Mijn Ziggo. Height token --navigation-height-desktop."
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 33,
+      "headingSequence": [
+        "Pakketten",
+        "Internet",
+        "Televisie",
+        "Bellen & Overige"
+      ],
+      "ctaLabels": [
+        "Producten",
+        "Klantenservice",
+        "Entertainment",
+        "Verhuizen",
+        "Mijn Ziggo",
+        "Community",
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "YouTube",
+        "Over Ziggo",
+        "Toegankelijkheid",
+        "Disclaimer",
+        "Privacy",
+        "Cookies",
+        "Voorwaarden",
+        "Garantie"
+      ],
+      "domFingerprintHash": "sha256:1fbfda5b",
+      "exampleSlug": "index",
+      "exampleSelector": "footer.page-footer",
+      "examplePages": [
+        "index",
+        "alles-in-1",
+        "tv-internet"
+      ],
+      "notes": "Four link columns rendered twice in the DOM (desktop columns + mobile accordion), service row, social icons (inline SVG, 36px), legal row. 26/33 page captures expose the full lower link rows to the CTA census (cap at 100 CTAs per page)."
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 20,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Televisie"
+      ],
+      "domFingerprintHash": "sha256:8958010b",
+      "exampleSlug": "televisie-opnemen",
+      "exampleSelector": ".breadcrumb-v2",
+      "examplePages": [
+        "televisie-voicecontrol",
+        "televisie-makkelijk-zoeken",
+        "televisie-extra-zenders-streamingdiensten"
+      ],
+      "notes": "Segment labels are the URL slugs capitalised (\"Televisie › Extra-zenders-streamingdiensten › Netflix\")."
+    },
+    {
+      "name": "sticky-subnavigation",
+      "kind": "nav-secondary",
+      "occurrences": 8,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Navigeer naar ..."
+      ],
+      "domFingerprintHash": "sha256:77e49ddb",
+      "exampleSlug": "televisie-voicecontrol",
+      "exampleSelector": "section.vfz-sticky-subnavigation",
+      "examplePages": [
+        "televisie-voicecontrol",
+        "televisie-extra-zenders-streamingdiensten",
+        "televisie-terugkijken"
+      ]
+    },
+    {
+      "name": "faq-accordion",
+      "kind": "other",
+      "occurrences": 18,
+      "headingSequence": [
+        "Veelgestelde vragen"
+      ],
+      "ctaLabels": [],
+      "domFingerprintHash": "sha256:407587b3",
+      "exampleSlug": "televisie",
+      "exampleSelector": "section#vragen .faq",
+      "examplePages": [
+        "alles-in-1",
+        "tv-internet",
+        "televisie"
+      ]
+    },
+    {
+      "name": "contact-band",
+      "kind": "cta-band",
+      "occurrences": 5,
+      "headingSequence": [
+        "Nog een vraag?",
+        "Onze adviseurs helpen je graag",
+        "Bel",
+        "Chat",
+        "Winkel"
+      ],
+      "ctaLabels": [
+        "Bel 0900-0730",
+        "Chat met ons",
+        "Vind een winkel"
+      ],
+      "domFingerprintHash": "sha256:502b3d36",
+      "exampleSlug": "internet",
+      "exampleSelector": "div.hero-container:has(.chat-button)",
+      "examplePages": [
+        "alles-in-1",
+        "tv-internet",
+        "internet"
+      ]
+    },
+    {
+      "name": "background-motif-fade4f22",
+      "kind": "background-motif",
+      "occurrences": 2,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "url": "https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/3840x1300_hero_60_ziggo-gradient?fmt=svg&wid=1484&hei=540&fit=wrap",
+      "exampleSlug": "alles-in-1",
+      "examplePages": [
+        "alles-in-1",
+        "tv-internet"
+      ],
+      "exampleBlock": {
+        "note": "orange gradient SVG wave used as program-page hero / promo background"
+      }
+    },
+    {
+      "name": "background-motif-df928968",
+      "kind": "background-motif",
+      "occurrences": 2,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "url": "https://www.ziggo.nl/content/dam/ziggo/generic-assets-/backgrounds-2025/ziggo-gradient-background/default/3840x1300_hero-60_ziggo-gradient.svg",
+      "exampleSlug": "alles-in-1",
+      "examplePages": [
+        "alles-in-1",
+        "tv-internet"
+      ],
+      "exampleBlock": {
+        "note": "orange gradient SVG wave used as program-page hero / promo background"
+      }
+    },
+    {
+      "name": "background-motif-4149c48a",
+      "kind": "background-motif",
+      "occurrences": 2,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "url": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/3840x870_header40_Ziggo_B2C_KabelTV_2025_Q4?qlt=80,0&dpr=off&wid=1484&hei=360&fit=wrap",
+      "exampleSlug": "televisie-tv-start",
+      "examplePages": [
+        "televisie-tv-start",
+        "televisie-kabel-tv"
+      ],
+      "exampleBlock": {
+        "note": "shared 3840x870 header40 hero photo (Kabel TV campaign visual)"
+      }
+    }
+  ],
+  "thirdPartyWidgets": [
+    {
+      "name": "Dimelo chat pre-form",
+      "selector": "aside.dimelo-form",
+      "pages": 33,
+      "evidence": "\"Vertel ons wie je bent\" — renders open over the right edge in every capture; source of #ff0000 required-field asterisks and most 6px radii",
+      "excludedFrom": [
+        "palette",
+        "motifs",
+        "components",
+        "voice"
+      ]
+    },
+    {
+      "name": "Feedback survey widget (\"Suggesties?\")",
+      "selector": "#surveyContent",
+      "evidence": "Orange tab button with Diodrum font, 3px 3px 0 0 radius and Material shadow; fonts.mopinion.com Open Sans/Roboto stylesheet",
+      "excludedFrom": [
+        "type",
+        "motifs",
+        "voice"
+      ]
+    },
+    {
+      "name": "OneTrust cookie consent",
+      "selector": "#onetrust-*, #ot-sdk-*",
+      "evidence": "cdn.cookielaw.org endpoints; inline CSS declaring Diodrum",
+      "excludedFrom": [
+        "type"
+      ]
+    }
+  ],
+  "iconFont": {
+    "family": "ziggo-ui-icon-v22",
+    "localPath": "stardust/current/assets/fonts/ziggo-ui-icon-v22.woff2",
+    "sourceCss": "@font-face { font-display: block; font-family: ziggo-ui-icon-v22; font-style: normal; font-weight: 400; src: url(\"https://www.ziggo.nl/assets/icons/ziggo/v2.2/ziggo-ui-icon-v22.woff2\") format(\"woff2\"), url(\".../ziggo-ui-icon-v22.woff\") format(\"woff\") }",
+    "cssToken": "--icon-font: ziggo-ui-icon-v22",
+    "glyphCount": 18,
+    "glyphs": [
+      {
+        "class": "icon-ziggo-safeonline",
+        "codepoint": "\\E927",
+        "name": "ziggo-safeonline",
+        "count": 10,
+        "sources": [
+          "index",
+          "internet",
+          "alles-in-1"
+        ]
+      },
+      {
+        "class": "icon-wifi-speed-1000",
+        "codepoint": "\\E909",
+        "name": "wifi-speed-1000",
+        "count": 6,
+        "sources": [
+          "index",
+          "internet"
+        ]
+      },
+      {
+        "class": "icon-ziggo-wifi-garantie",
+        "codepoint": "\\E904",
+        "name": "ziggo-wifi-garantie",
+        "count": 6,
+        "sources": [
+          "index",
+          "internet"
+        ]
+      },
+      {
+        "class": "icon-close-circle",
+        "codepoint": "\\E955",
+        "name": "close-circle",
+        "count": 4,
+        "sources": [
+          "alles-in-1",
+          "televisie-kabel-tv",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "class": "icon-calendar-filled",
+        "codepoint": "\\E944",
+        "name": "calendar-filled",
+        "count": 4,
+        "sources": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "class": "icon-soccer-ball",
+        "codepoint": "\\E916",
+        "name": "soccer-ball",
+        "count": 8,
+        "sources": [
+          "televisie-espn",
+          "alles-in-1",
+          "index"
+        ]
+      },
+      {
+        "class": "icon-discount-star",
+        "codepoint": "\\E977",
+        "name": "discount-star",
+        "count": 2,
+        "sources": [
+          "index"
+        ]
+      },
+      {
+        "class": "icon-package",
+        "codepoint": "\\E93A",
+        "name": "package",
+        "count": 2,
+        "sources": [
+          "internet"
+        ]
+      },
+      {
+        "class": "icon-shopping-bag",
+        "codepoint": "\\E939",
+        "name": "shopping-bag",
+        "count": 2,
+        "sources": [
+          "index"
+        ]
+      },
+      {
+        "class": "icon-ziggo-wifi-smart",
+        "codepoint": "\\E930",
+        "name": "ziggo-wifi-smart",
+        "count": 2,
+        "sources": [
+          "internet"
+        ]
+      },
+      {
+        "class": "icon-award",
+        "codepoint": "\\E923",
+        "name": "award",
+        "count": 6,
+        "sources": [
+          "alles-in-1",
+          "index",
+          "tv-internet"
+        ]
+      },
+      {
+        "class": "icon-left-right-rounded",
+        "codepoint": "\\E965",
+        "name": "left-right-rounded",
+        "count": 2,
+        "sources": [
+          "alles-in-1"
+        ]
+      },
+      {
+        "class": "icon-receipt",
+        "codepoint": "\\E93B",
+        "name": "receipt",
+        "count": 2,
+        "sources": [
+          "alles-in-1"
+        ]
+      },
+      {
+        "class": "icon-tv-channels-110-plus",
+        "codepoint": "\\E90F",
+        "name": "tv-channels-110-plus",
+        "count": 6,
+        "sources": [
+          "alles-in-1",
+          "index",
+          "tv-internet"
+        ]
+      },
+      {
+        "class": "icon-tv-channels-70-plus",
+        "codepoint": "\\E90E",
+        "name": "tv-channels-70-plus",
+        "count": 4,
+        "sources": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "class": "icon-tv-on-demand",
+        "codepoint": "\\E912",
+        "name": "tv-on-demand",
+        "count": 4,
+        "sources": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "class": "icon-wifi-router",
+        "codepoint": "\\E934",
+        "name": "wifi-router",
+        "count": 8,
+        "sources": [
+          "alles-in-1",
+          "internet",
+          "televisie"
+        ]
+      },
+      {
+        "class": "icon-wifi-pods",
+        "codepoint": "\\E906",
+        "name": "wifi-pods",
+        "count": 6,
+        "sources": [
+          "alles-in-1",
+          "internet",
+          "tv-internet"
+        ]
+      }
+    ],
+    "licensing": "proprietary",
+    "note": "Class names truncated with … in the census are kept as captured; codepoints are from ::before content."
+  },
+  "voice": {
+    "heroHeadline": "Onze grootste Black Friday ooit",
+    "heroHeadlineSource": {
+      "url": "https://www.ziggo.nl/",
+      "selector": "header#prosp-atl-default p > span.vfz-heading__h1",
+      "note": "visual hero headline is a styled <span class=\"vfz-heading__h1\"> inside <p>, not a heading element; the page h1 is \"Daarom kies je Ziggo\""
+    },
+    "heroSubcopy": "Stap nu over",
+    "heroLegal": "Bij een nieuw 2-jarig internetabonnement vanaf 41,95 p.m.",
+    "heroImage": {
+      "url": "https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/3840x1300_hero-60-device-nodisclaimer?qlt=80,0&dpr=off&wid=1484&hei=540&fit=wrap",
+      "alt": "",
+      "source": "css-background",
+      "domPath": "header#prosp-atl-default.vfz-hero-container.bg-primary",
+      "localPath": null,
+      "mediaRef": "pages/index.json#media.cssBackgrounds[0]",
+      "rect": {
+        "x": 0,
+        "y": 112,
+        "width": 1440,
+        "height": 540
+      },
+      "note": "Background photo of the orange hero band (TV + soundbar campaign visual); not downloaded locally. Rect from _computed-styles.json pages[\"https://www.ziggo.nl/\"][\"1440\"].surfaces."
+    },
+    "heroMedium": null,
+    "heroMediumNote": "Home hero has a hidden video slot (.vfz-hero-container__background-video--hidden) but no <video> was captured (media.videos = []); a lower home section declares data-vbi-background-type=\"video\" below the fold. No moving hero signature.",
+    "primaryCTALabel": "Stel je pakket samen",
+    "primaryCTAHref": "/tv-internet",
+    "ctaSamples": [
+      "Meer info",
+      "Bestellen",
+      "Safe Online Modem",
+      "Bel ons Wij staan voor je klaar Bel ons",
+      "Bekijk alle functies",
+      "Live tv-kijken op Ziggo GO",
+      "Meer over Digitale Televisie",
+      "Priority"
+    ],
+    "navItems": [
+      "Producten",
+      "Klantenservice",
+      "Entertainment",
+      "Zoeken",
+      "Ziggo GO",
+      "Ziggo Mail",
+      "Mijn Ziggo"
+    ],
+    "audienceSelector": [
+      "Privé",
+      "Zakelijk"
+    ],
+    "footerHeadings": [
+      "Pakketten",
+      "Internet",
+      "Televisie",
+      "Bellen & Overige"
+    ],
+    "footerServiceLinks": [
+      "Producten",
+      "Klantenservice",
+      "Entertainment",
+      "Verhuizen",
+      "Mijn Ziggo",
+      "Community"
+    ],
+    "footerLegalLinks": [
+      "Over Ziggo",
+      "Toegankelijkheid",
+      "Disclaimer",
+      "Privacy",
+      "Cookies",
+      "Voorwaarden",
+      "Garantie"
+    ],
+    "firstParagraph": "Altijd alle snelheid die je nodig hebt.",
+    "firstParagraphSource": "pages/index.json#body[4] (first body paragraph after the hero legal line)",
+    "tagline": "Welkom bij Ziggo ✓ Stabiel, snel en veilig internet ✓ Wifi Garantie ✓ Ziggo GO ✓ Ziggo Sport  ➔ Kies je voordeel en stel zelf je pakket samen.",
+    "tone": {
+      "guess": "bold-direct",
+      "evidence": "Short imperative / second-person (je) lines: \"Stap nu over\", \"Stel je pakket samen\", \"Check je beschikbaarheid\", \"Kies je mediabox\"; superlatives and \"altijd\" claims (\"Altijd alle snelheid die je nodig hebt.\", \"Het altijd alles netwerk\"); price lines \"vanaf 41,95 p.m.\"; informal Dutch je/jij, no jargon."
+    },
+    "language": "nl"
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Meer info",
+        "total": 51,
+        "pageCount": 4,
+        "pages": [
+          "televisie-extra-zenders-streamingdiensten",
+          "televisie-ziggo-sport",
+          "televisie-extra-zenders-streamingdiensten-netflix",
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "label": "Bestellen",
+        "total": 49,
+        "pageCount": 4,
+        "pages": [
+          "televisie-extra-zenders-streamingdiensten",
+          "televisie-ziggo-sport",
+          "televisie-extra-zenders-streamingdiensten-netflix",
+          "televisie-extra-zenders-streamingdiensten-disneyplus"
+        ]
+      },
+      {
+        "label": "Safe Online Modem",
+        "total": 12,
+        "pageCount": 2,
+        "pages": [
+          "alles-in-1",
+          "tv-internet"
+        ]
+      },
+      {
+        "label": "Bel ons Wij staan voor je klaar Bel ons",
+        "total": 11,
+        "pageCount": 11,
+        "pages": [
+          "televisie",
+          "televisie-voicecontrol",
+          "televisie-makkelijk-zoeken",
+          "televisie-online-tv-kijken",
+          "televisie-4k-uhd",
+          "televisie-tv-start"
+        ]
+      },
+      {
+        "label": "Bekijk alle functies",
+        "total": 11,
+        "pageCount": 5,
+        "pages": [
+          "televisie-voicecontrol",
+          "televisie-terugkijken",
+          "televisie-opnemen",
+          "televisie-kijkprofielen",
+          "televisie-mediaboxen"
+        ]
+      },
+      {
+        "label": "Live tv-kijken op Ziggo GO",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "televisie-zenders-npo-1",
+          "televisie-zenders-sbs6",
+          "televisie-zenders-rtl-4",
+          "televisie-zenders-npo-2",
+          "televisie-zenders-npo-3",
+          "televisie-zenders-rtl-5"
+        ]
+      },
+      {
+        "label": "Meer over Digitale Televisie",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "televisie-zenders-npo-1",
+          "televisie-zenders-sbs6",
+          "televisie-zenders-rtl-4",
+          "televisie-zenders-npo-2",
+          "televisie-zenders-npo-3",
+          "televisie-zenders-rtl-5"
+        ]
+      },
+      {
+        "label": "Priority",
+        "total": 7,
+        "pageCount": 6,
+        "pages": [
+          "index",
+          "televisie",
+          "internet",
+          "televisie-makkelijk-zoeken",
+          "televisie-online-tv-kijken",
+          "televisie-ziggo-sport"
+        ]
+      }
+    ],
+    "ctaFrequencyNote": "Labels normalised where the capture doubled responsive spans (\"Stel je pakket samen Stel je pakket samen\" → \"Stel je pakket samen\"). Header-nav and footer-link labels and third-party widget labels (Dimelo chat \"x\"/\"Chat met ons\"/\"privacy statement\", feedback widget \"Suggesties?\") are excluded, as are single-page labels (e.g. the 172-row channel list’s package links \"tv standard\"/\"kabel tv\"). Per-page CTA capture is capped at 100, so totals on long pages are lower bounds.",
+    "headingFrequency": [
+      {
+        "text": "Pakketten",
+        "total": 33,
+        "pageCount": 33,
+        "level": 2
+      },
+      {
+        "text": "Internet",
+        "total": 33,
+        "pageCount": 33,
+        "level": 2
+      },
+      {
+        "text": "Televisie",
+        "total": 33,
+        "pageCount": 33,
+        "level": 2
+      },
+      {
+        "text": "Bellen & Overige",
+        "total": 33,
+        "pageCount": 33,
+        "level": 2
+      },
+      {
+        "text": "Veelgestelde vragen",
+        "total": 14,
+        "pageCount": 14,
+        "level": 2
+      },
+      {
+        "text": "Check je beschikbaarheid",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Beleef het beste entertainment voor jou",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Standaard in je abonnement",
+        "total": 4,
+        "pageCount": 4,
+        "level": 3
+      },
+      {
+        "text": "TV & Streaming",
+        "total": 4,
+        "pageCount": 4,
+        "level": 4
+      },
+      {
+        "text": "Ziggo Sport",
+        "total": 4,
+        "pageCount": 4,
+        "level": 4
+      },
+      {
+        "text": "ESPN",
+        "total": 4,
+        "pageCount": 4,
+        "level": 4
+      },
+      {
+        "text": "Priority",
+        "total": 4,
+        "pageCount": 4,
+        "level": 4
+      },
+      {
+        "text": "Veelgestelde vragen",
+        "total": 4,
+        "pageCount": 4,
+        "level": 3
+      },
+      {
+        "text": "Next Mini",
+        "total": 4,
+        "pageCount": 4,
+        "level": 3
+      },
+      {
+        "text": "Mediabox Next",
+        "total": 4,
+        "pageCount": 4,
+        "level": 3
+      },
+      {
+        "text": "HBO Max",
+        "total": 4,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Internet 200 Mbit/s",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Internet 500 Mbit/s",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Internet 1 Gbit/s",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "TV Start",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Onze adviseurs helpen je graag",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Bel",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      },
+      {
+        "text": "Chat",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      },
+      {
+        "text": "Winkel",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      },
+      {
+        "text": "Nog een vraag?",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Kies je mediabox",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 629,
+      "headingsUppercasePercent": 3,
+      "distinctHeadings": 331,
+      "distinctCtaLabels": 493
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "anchorHeading": "Pakketten",
+    "cluster": [
+      {
+        "text": "Pakketten",
+        "total": 33,
+        "pageCount": 33,
+        "overlap": 33
+      },
+      {
+        "text": "Internet",
+        "total": 33,
+        "pageCount": 33,
+        "overlap": 33
+      },
+      {
+        "text": "Televisie",
+        "total": 33,
+        "pageCount": 33,
+        "overlap": 33
+      },
+      {
+        "text": "Bellen & Overige",
+        "total": 33,
+        "pageCount": 33,
+        "overlap": 33
+      }
+    ],
+    "pages": [
+      "index",
+      "alles-in-1",
+      "tv-internet",
+      "televisie",
+      "internet",
+      "televisie-voicecontrol",
+      "televisie-makkelijk-zoeken",
+      "televisie-zenderoverzicht",
+      "televisie-extra-zenders-streamingdiensten",
+      "televisie-terugkijken",
+      "televisie-online-tv-kijken",
+      "televisie-ziggo-sport",
+      "televisie-opnemen",
+      "televisie-kijkprofielen",
+      "televisie-hoofdmenu",
+      "televisie-4k-uhd",
+      "televisie-digitale-kabel-tv-en-radio",
+      "televisie-digitale-radio",
+      "televisie-tv-start",
+      "televisie-kabel-tv",
+      "televisie-mediaboxen",
+      "televisie-ziggo-go",
+      "televisie-tv-apps",
+      "televisie-espn",
+      "televisie-zenders-npo-1",
+      "televisie-zenders-sbs6",
+      "televisie-zenders-rtl-4",
+      "televisie-zenders-npo-2",
+      "televisie-zenders-npo-3",
+      "televisie-zenders-rtl-5",
+      "televisie-zenders-star-channel",
+      "televisie-extra-zenders-streamingdiensten-netflix",
+      "televisie-extra-zenders-streamingdiensten-disneyplus"
+    ],
+    "pageCount": 33,
+    "totalPages": 33,
+    "note": "The mechanical cluster is the site-footer link-column headings (footer.page-footer h2), present on 33/33 pages — it coincides with the site-footer system component rather than an in-content promo band.",
+    "links": {
+      "Pakketten": [
+        "Pakketten vergelijken",
+        "Alles-in-1",
+        "Internet & TV",
+        "Internet Only",
+        "Televisie",
+        "Ziggo aanbiedingen"
+      ],
+      "Internet": [
+        "Internet",
+        "Wifi",
+        "Wifi-versterkers",
+        "SmartWifi",
+        "Wifi Garantie",
+        "Glasvezel internet",
+        "Internetbeveiliging",
+        "Speedtest",
+        "Postcodecheck internet"
+      ],
+      "Televisie": [
+        "Kabel TV",
+        "Online TV kijken",
+        "4K TV kijken",
+        "Ziggo GO",
+        "ESPN Premium",
+        "Videoland",
+        "Ziggo Sport"
+      ],
+      "Bellen & Overige": [
+        "Vast Bellen",
+        "Mobiel bellen",
+        "Sim Only",
+        "iPhone 18",
+        "iPhone 17",
+        "Samsung Galaxy S26",
+        "Klantenservice",
+        "Ziggo Dome",
+        "Ziggo Zakelijk",
+        "Voorrang met Priority"
+      ]
+    }
+  },
+  "register": "brand",
+  "registerBasis": "Marketing hero with campaign copy and price line above the fold, pricing cards, \"Stel je pakket samen\" signup CTA, no auth required; product-like widgets (bundle builder, channel filter) exist on program/listing pages only.",
+  "coverage": {
+    "pagesExtracted": 33,
+    "waitStrategy": "medium",
+    "avgWaitMs": 2500,
+    "failures": [],
+    "pageTypes": [
+      "landing:6",
+      "program:4",
+      "article:13",
+      "listing:1",
+      "channel:7",
+      "streaming:2"
+    ]
+  }
+}

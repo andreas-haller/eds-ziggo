@@ -1,0 +1,116 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-4k-uhd-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-4k-uhd-360/pixel-pub2.json",
+    "pct": 15.9,
+    "alignedPct": 7.71,
+    "alignedUsed": true,
+    "totalShift": 337,
+    "steps": [
+      {
+        "y": 498,
+        "shift": -8,
+        "cumulative": -8
+      },
+      {
+        "y": 1000,
+        "shift": -14,
+        "cumulative": -22
+      },
+      {
+        "y": 1513,
+        "shift": 27,
+        "cumulative": 5
+      },
+      {
+        "y": 1897,
+        "shift": 28,
+        "cumulative": 33
+      },
+      {
+        "y": 2270,
+        "shift": 61,
+        "cumulative": 94
+      },
+      {
+        "y": 2713,
+        "shift": -1,
+        "cumulative": 93
+      },
+      {
+        "y": 3170,
+        "shift": -9,
+        "cumulative": 84
+      },
+      {
+        "y": 3865,
+        "shift": 58,
+        "cumulative": 142
+      },
+      {
+        "y": 4358,
+        "shift": 13,
+        "cumulative": 155
+      },
+      {
+        "y": 4973,
+        "shift": 13,
+        "cumulative": 168
+      },
+      {
+        "y": 5654,
+        "shift": 12,
+        "cumulative": 180
+      },
+      {
+        "y": 6584,
+        "shift": -32,
+        "cumulative": 148
+      }
+    ],
+    "offsetBound": 88,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 15 step(s), 337px total — −8px at y=498, −14px at y=1000, +27px at y=1513, +28px at y=1897, +61px at y=2270, −1px at y=2713, … 9 more (bound 88px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T00:43:27.090Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-360/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T01:41:21.483Z"
+}

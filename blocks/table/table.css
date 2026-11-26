@@ -1,0 +1,62 @@
+/* table: source .vfz-table .table.table-striped.table-bordered (white page, gray borders),
+   inside the container (col-12) */
+.table {
+  max-width: var(--container-max);
+  margin: 0 auto 16px;
+  padding: 0 var(--container-pad);
+  overflow-x: auto;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0;
+  color: var(--color-gray-900);
+}
+
+.table td {
+  padding: 11px 12px;
+  line-height: 1.5;
+  border: 1px solid var(--color-gray-300);
+  vertical-align: top;
+  font-weight: 300;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: color-mix(in srgb, #000 5%, transparent);
+}
+
+.table td :is(p, h3):last-child {
+  margin-bottom: 0;
+}
+
+.table td :is(h2, h3, h4) {
+  margin-top: 0;
+}
+
+.table td a:any-link {
+  text-decoration: underline;
+}
+
+/* apps: the section titles over each table are orange h2-size default content (source tv-apps) */
+main .section:has(.table.apps) > .default-content-wrapper h2 {
+  margin: 93px 0 16px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+}
+
+main .section:has(.table.apps) > .default-content-wrapper p {
+  font-size: 0.875rem;
+}
+
+.table.apps td :is(h2, h3) {
+  margin: 0;
+  font-size: var(--heading-font-size-4);
+}
+
+/* below 768px the section heads sit 48px under the table above (source tv-apps 360) */
+@media (width < 768px) {
+  main .section:has(.table.apps) > .default-content-wrapper h2 {
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "archetype": "https://www.ziggo.nl/",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".hero-container",
+    "card": ".card-v2"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".hero-container",
+        "count": 8,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 540
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "vodafone ziggo text 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 6,
+        "text": "Onze grootste Black Friday ooit Stap nu over Stel je pakket "
+      },
+      "card": {
+        "sel": ".card-v2",
+        "count": 17,
+        "first": {
+          "rect": {
+            "w": 268,
+            "h": 386
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(28, 31, 33)",
+          "padding": "0px 0px 0px 0px",
+          "font": "vodafone ziggo text 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h3 ziggo headline 20px/22px 700 rgb(255, 95, 0)",
+          "image": {
+            "w": 268,
+            "h": 201
+          },
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 5,
+        "text": "Alle snelheid Alle snelheid Altijd alle snelheid die je nodi"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ziggo.nl/televisie",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "0 vs 1 top-level sections (archetype: -; sibling: vfz-interactions-wrapper) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "8 → 14 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "6 → 10 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 540 → 83}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "17 → 12 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 268 → 260, h 386 → 422}; color rgb(28, 31, 33) → rgb(0, 0, 0); heading h3 ziggo headline 20px/22px 700 rgb(255, 95, 0) → h2 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0); image{w 268 → 260, h 201 → 260}; listStyle null → disc"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 83
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 10,
+            "text": "Heb je al televisie van Ziggo? Nee Nee"
+          },
+          "card": {
+            "sel": ".card-v2",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 260,
+                "h": 422
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 260,
+                "h": 260
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 5,
+            "text": "70+ digitale zenders 70+ digitale zenders Bekijk het zendero"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/internet",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "0 vs 1 top-level sections (archetype: -; sibling: vfz-interactions-wrapper) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "8 → 12 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "6 → 8 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 540 → 80}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "17 → 11 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "5 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 268 → 318, h 386 → 368}; color rgb(28, 31, 33) → rgb(0, 0, 0); heading h3 ziggo headline 20px/22px 700 rgb(255, 95, 0) → h2 ziggo headline 20px/22px 700 rgb(255, 95, 0); image{w 268 → 318, h 201 → 238}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 80
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 8,
+            "text": "Ben je Ziggo klant? Ja, ik ben al klant Ja, ik ben al klant"
+          },
+          "card": {
+            "sel": ".card-v2",
+            "count": 11,
+            "first": {
+              "rect": {
+                "w": 318,
+                "h": 368
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 ziggo headline 20px/22px 700 rgb(255, 95, 0)",
+              "image": {
+                "w": 318,
+                "h": 238
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Alle snelheid Alle snelheid Altijd alle snelheid die je nodi"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "0 vs 1 top-level sections (archetype: -; sibling: vfz-interactions-wrapper) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "8 → 13 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "6 → 7 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "heading null → h1 ziggo headline 61.04px/67.144px 700 rgb(255, 255, 255)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "17 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "5 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 268 → 260, h 386 → 446}; heading h3 ziggo headline 20px/22px 700 rgb(255, 95, 0) → h4 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0); image{w 268 → 260, h 201 → 260}; listStyle null → disc"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 13,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 540
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 61.04px/67.144px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 7,
+            "text": "Extra zenders & streamingdiensten Ontdek je favoriete films,"
+          },
+          "card": {
+            "sel": ".card-v2",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 260,
+                "h": 446
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h4 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 260,
+                "h": 260
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "TV & Streaming TV & Streaming Ontdek de beste films, series,"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/ziggo-sport",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "0 vs 1 top-level sections (archetype: -; sibling: vfz-interactions-wrapper) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "8 → 14 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "6 → 12 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "heading null → h1 ziggo headline 61.04px/67.144px 700 rgb(255, 255, 255)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "17 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "5 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 268 → 260, h 386 → 446}; heading h3 ziggo headline 20px/22px 700 rgb(255, 95, 0) → h4 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0); image{w 268 → 260, h 201 → 260}; listStyle null → disc"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 540
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 61.04px/67.144px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 12,
+            "text": "Ziggo Sport Gratis op kanaal 14 voor Ziggo klanten"
+          },
+          "card": {
+            "sel": ".card-v2",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 260,
+                "h": 446
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h4 ziggo headline 25.008px/27.5088px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 260,
+                "h": 260
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "TV & Streaming TV & Streaming Ontdek de beste films, series,"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/espn",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "0 vs 1 top-level sections (archetype: -; sibling: vfz-interactions-wrapper) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "8 → 11 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "6 → 10 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 540 → 80}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "17 → 7 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "5 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 386 → 364}; heading h3 ziggo headline 20px/22px 700 rgb(255, 95, 0) → h2 ziggo headline 25.008px/27.5088px 700 rgb(255, 95, 0); image{h 201 → 229}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 11,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 80
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 10,
+            "text": "Ben je Ziggo klant? Ja, ik ben al klant Ja, ik ben al klant"
+          },
+          "card": {
+            "sel": ".card-v2",
+            "count": 7,
+            "first": {
+              "rect": {
+                "w": 268,
+                "h": 364
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(28, 31, 33)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 ziggo headline 25.008px/27.5088px 700 rgb(255, 95, 0)",
+              "image": {
+                "w": 268,
+                "h": 229
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 3,
+            "text": "ESPN 1 Kanaal 18 en 421"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 5,
+    "varying": 5,
+    "probesVarying": [
+      "SECTIONS",
+      "hero",
+      "card"
+    ]
+  }
+}

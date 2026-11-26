@@ -1,0 +1,264 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 132 ms
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 141 text nodes — 27 headings, 0 eyebrows, 43 CTAs, 71 body; 24 img
+  build: 138 text nodes — 24 headings, 0 eyebrows, 48 CTAs, 66 body; 21 img
+  editable texts (outermost h*/p/ul/ol): source 63 / build 88
+  attributes (placeholder/aria-label/title): source 11 / build 42; icons: source 13 / build 21
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 9; icons: source 127 / build 0
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 5
+
+Findings: 243 (151 structural 🔴)
+Tiers: looks-same 🔴 151 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 91
+  🔴 MISSING HEADING [main]: source heading "Formula 1® van Viaplay" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 ROLE SWAP [main]: "Racing" is a heading in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [main]: "Voetbal" is a heading in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [main]: source cta "Racing Racing" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Overige sporten Overige sporten" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Vertel me meer Vertel me meer" → /televisie/extra-zenders-streamingdiensten/ziggo-sport-totaal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Vertel me meer Vertel me meer" → /televisie/ziggo-go has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "voetbal" → /entertainment/sport/voetbal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Ziggo Sport" → /televisie/ziggo-sport has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Sport" → /entertainment/sport has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Voetbal" → /entertainment/sport/voetbal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Formule 1" → /entertainment/sport/racing/gt-world-challenge-kalender has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "tennis tennis" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "golf golf" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "racing racing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "overige sporten overige sporten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "meer info meer info" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "meer info meer info" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "meer info meer info" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source icon-font glyph V (ziggo-ui-icon-v22, 20×20) at "meer info meer info" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "pakketten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alles-in-1" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & tv" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "televisie" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overstappen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over internet" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi garantie" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "smartwifi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installatie zoals jij wil" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "speedtest" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over televisie" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "pakket samenstellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "streamingdiensten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mediaboxen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "espn" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "movies & series" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "4k tv" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over vast bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tarieven" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "nummerbehoud" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "extra diensten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vodafone mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sim only" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "telefoons" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "one van vodafone & ziggo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hollandsnieuwe mobiel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "installeren" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bellen aansluiten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "abonnement" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "gegevens wijzigen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestelling" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "verhuizen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "opzeggen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "factuur" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mijn ziggo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "factuur uitleg" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betalingsmogelijkheden" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betaalachterstand" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie & radio" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "dagpas bestellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hulp met je streamingdiensten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv storingen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv instellingen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet & wifi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "problemen oplossen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi-tips" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "veiligheid" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "e-mail" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "e-mail" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installeren" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "storingen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "gamen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "online gaming tips voor consoles" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "port forwarding" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ontdek" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "entertainment bij ziggo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "tv & streaming" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "netflix & ziggo sport totaal bundel" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "skyshowtime" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alle sport bij ziggo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal match center" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "formule 1" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "priority acties" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "winacties" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "evenementen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sport" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "deals & uitjes" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "cadeaus" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "upgrade je ticket" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph $ (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph F (ziggo-ui-icon-v22, 0×0) at "ziggo mail" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph C (ziggo-ui-icon-v22, 0×0) at "open mijn ziggo menu" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph : (ziggo-ui-icon-v22, 0×0) at "zoeken" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph 5 (ziggo-ui-icon-v22, 50×30) at "menu" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph $ (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph F (ziggo-ui-icon-v22, 56×30) at "ziggo mail" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph C (ziggo-ui-icon-v22, 56×30) at "open mijn ziggo menu" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph : (ziggo-ui-icon-v22, 39×30) at "zoeken" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph - (ziggo-ui-icon-v22, 18×18) at "pakketten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph - (ziggo-ui-icon-v22, 18×18) at "internet" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph - (ziggo-ui-icon-v22, 18×18) at "televisie" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph - (ziggo-ui-icon-v22, 18×18) at "bellen & overige" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [main]: build cta "Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Tennis" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Golf" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Racing" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Overige sporten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Overige sporten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Vertel me meer" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Vertel me meer" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Ziggo Sport Ziggo Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Sport Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Voetbal Voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Formule 1 Formule 1" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "Op geniet je iedere vrijdagavond van het Race Ca"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Ziggo Sport kanaal 14"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Op Ziggo Sport zie je een breed aanbod van live "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "De grootste voetbalcompetities van Europa kijk j"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Van voor 8,47 per maand"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "16,95"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Van voor 4,97 per maand"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "9,95"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Van voor 9,47 per maand"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "26,90"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Van voor 9,95 per maand"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "39,85"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Je vindt Ziggo Sport op kanaal 14 van je tv. En "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "Laat vorige zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Laat volgende zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Van 16,95 voor 8,47 per maand" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Van 9,95 voor 4,97 per maand" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Van 26,90 voor 9,47 per maand" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Van 39,85 voor 9,95 per maand" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Laat vorige zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Laat volgende zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [main]: source <a> title="Ziggo GO" has no build <a> with that title (build <a> titles: "Zo kijk je", "Formule 1 bij Ziggo", "F1-kalender"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <nav> aria-label="Interacties" has no build <nav> with that aria-label (build <nav> aria-labels: "Breadcrumb"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [main]: build <a> title="Zo kijk je" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Formule 1 bij Ziggo" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="F1-kalender" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Meer voetbal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <section> aria-label="Internet options" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="1 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="2 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="3 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="4 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Naar de tv-gids" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Vertel me meer" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Vertel me meer" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Meer info" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Bestellen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Meer info" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Bestellen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Meer info" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Bestellen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Meer info" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Bestellen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Ontdek het nu" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <section> aria-label="Internet options" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="1 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="2 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="3 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <li> aria-label="4 van 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Ziggo GO app" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Ziggo Sport" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Sport" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Voetbal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Golf" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Formule 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Tennis" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tennis" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "golf" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "racing" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overige sporten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph , (ziggo-ui-icon-v22, 0×0) at "laat vorige zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph + (ziggo-ui-icon-v22, 0×0) at "laat volgende zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "meer info" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "meer info" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "meer info" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "meer info" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph , (ziggo-ui-icon-v22, 0×0) at "laat vorige zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build icon-font glyph + (ziggo-ui-icon-v22, 0×0) at "laat volgende zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA TITLE [header]: build <a> title="Internet & TV" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Klantenservice" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Storing" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Entertainment Gids" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Ziggo GO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Ziggo Mail" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Ziggo GO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Ziggo Mail" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

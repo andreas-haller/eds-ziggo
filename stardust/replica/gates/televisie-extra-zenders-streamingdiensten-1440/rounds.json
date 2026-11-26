@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T21:04:16.881Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:26:54.953Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:33:32.577Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 6.87%; pub2 aligned 7.42% offsets 61px in bound; Δh from bundle offer cards: authored price lines keep the source sr-only words (Van/voor) visible -> extra wrapped lines; streaming-features landing variant (-43); content-diff 🔴 are the systemic header/footer icon-font artefacts (frozen foundation, filed) + classifier artefacts (dual button labels, modal-trigger labels rendered as text per render deviation)",
+          "at": "2026-11-25T22:43:50.070Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-51-51-064Z",
+          "at": "2026-11-25T22:55:09.766Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-01-23-524Z",
+          "at": "2026-11-25T23:03:45.930Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-10-06-261Z",
+          "at": "2026-11-26T00:13:10.311Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-34-42-778Z",
+          "at": "2026-11-26T00:38:03.596Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-48-36-103Z",
+          "at": "2026-11-26T00:50:33.064Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-57-36-668Z",
+          "at": "2026-11-26T00:59:17.044Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:03:39.398Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:57:27.812Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

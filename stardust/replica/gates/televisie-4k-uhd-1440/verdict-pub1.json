@@ -1,0 +1,81 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-4k-uhd-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-4k-uhd-1440/pixel-pub1.json",
+    "pct": 17.57,
+    "alignedPct": 15.99,
+    "alignedUsed": true,
+    "totalShift": 291,
+    "steps": [
+      {
+        "y": 2286,
+        "shift": 44,
+        "cumulative": 44
+      },
+      {
+        "y": 2423,
+        "shift": 25,
+        "cumulative": 69
+      },
+      {
+        "y": 3117,
+        "shift": 192,
+        "cumulative": 261
+      },
+      {
+        "y": 4682,
+        "shift": 29,
+        "cumulative": 290
+      },
+      {
+        "y": 5195,
+        "shift": 1,
+        "cumulative": 291
+      }
+    ],
+    "offsetBound": 53,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 15.99% (unaligned 17.57%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:43:30.843Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/units-pub1.txt"
+    }
+  },
+  "structural": 132,
+  "nothingLost": 6,
+  "at": "2026-11-25T23:46:34.588Z"
+}

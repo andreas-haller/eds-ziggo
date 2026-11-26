@@ -1,0 +1,195 @@
+{
+  "a": "stardust/replica/gates/televisie-4k-uhd-1440/live.png",
+  "b": "stardust/replica/gates/televisie-4k-uhd-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 5300,
+    "mode": "overlap"
+  },
+  "heightDelta": -291,
+  "differingPixels": 1340668,
+  "pct": 17.57,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-4k-uhd-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 25.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 12.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 9.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 4.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 38.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 75.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5300,
+      "pct": 6.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 15.99,
+    "differingPixels": 1287518,
+    "compared": {
+      "width": 1440,
+      "height": 5591,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2286,
+        "shift": 44,
+        "cumulative": 44
+      },
+      {
+        "y": 2423,
+        "shift": 25,
+        "cumulative": 69
+      },
+      {
+        "y": 3117,
+        "shift": 192,
+        "cumulative": 261
+      },
+      {
+        "y": 4682,
+        "shift": 29,
+        "cumulative": 290
+      },
+      {
+        "y": 5195,
+        "shift": 1,
+        "cumulative": 291
+      }
+    ],
+    "maxOffset": 291,
+    "totalShift": 291,
+    "insertedRows": 291,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.4,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.2,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 25.9,
+        "unaligned": 25.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 12.2,
+        "unaligned": 12.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 15.1,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3,
+        "unaligned": 4.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 30.3,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4.8,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 39.3,
+        "unaligned": 38.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 26.1,
+        "unaligned": 75.9
+      },
+      {
+        "y0": 5000,
+        "y1": 5300,
+        "pct": 0.3,
+        "unaligned": 6.3
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-4k-uhd-1440/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 53,
+    "totalShift": 291,
+    "pass": false
+  },
+  "reason": "pixel aligned 15.99% (unaligned 17.57%) > 10%"
+}

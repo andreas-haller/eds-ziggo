@@ -1,0 +1,366 @@
+{
+  "a": "stardust/replica/gates/all-1440/index/origin.png",
+  "b": "stardust/replica/gates/all-1440/index/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 6072,
+    "mode": "overlap"
+  },
+  "heightDelta": 2,
+  "differingPixels": 819571,
+  "pct": 10.03,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/index/diff.png",
+  "masks": [
+    {
+      "yA": 3852,
+      "h": 396,
+      "yB": 3852
+    }
+  ],
+  "maskedRows": 396,
+  "textPct": 7.44,
+  "textBoxes": 166,
+  "textPixels": 481218,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 10.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 66.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 17.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 1.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6072,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 9.81,
+    "differingPixels": 802467,
+    "compared": {
+      "width": 1440,
+      "height": 5679,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 5350,
+        "shift": -2,
+        "cumulative": -2
+      },
+      {
+        "y": 5411,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 5969,
+        "shift": 1,
+        "cumulative": -2
+      }
+    ],
+    "maxOffset": 3,
+    "totalShift": 4,
+    "insertedRows": 1,
+    "deletedRows": 3,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.4,
+        "unaligned": 3.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.2,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 14.3,
+        "unaligned": 10.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 11.1,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 66.7,
+        "unaligned": 66.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 16.9,
+        "unaligned": 17.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6074,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/index/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 61,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 3.5%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/",
+      "source": "https://www.ziggo.nl/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "f236c96bd6dac928",
+      "options": "49937a90bc53aba3",
+      "reference": "d8d2b67cc2c360d0",
+      "archetype": "0ac94ffdb6404bb8",
+      "captures": "d203a85f6e6acb89",
+      "instruments": "700566dc6f7774a4",
+      "page content": "b3b230761e794c2c",
+      "shared code": "933bef04481b01be",
+      "block article-carousel": "812f123823fea39a",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block media-carousel": "5516c9be41e7f6f6",
+      "block one-band": "bfb8014a0871eaa4",
+      "block plan-cards": "3e1b6add29ba0b90",
+      "block priority-band": "a577d36258ef84a8",
+      "block swimming-lane": "2eae491feaad2b1b",
+      "block toptask-tiles": "23d8361950e8b56b"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 2,
+          "missingButtons": 17,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 2,
+          "findings": 12,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 7,
+          "offPage": 120,
+          "textNodes": 271,
+          "controls": 213,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 2,
+            "clipper": "li.mslide",
+            "path": "li.mslide > div.mslide-link > p > a",
+            "text": "skyshowtime bij ziggo",
+            "cutMin": 597,
+            "cutMax": 597
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 2,
+            "clipper": "li.lane-card",
+            "path": "div.lane-rail > ul.lane-strip > li.lane-card > a.lane-link",
+            "text": "bekijk meer over gp van singapore bekijk meer",
+            "cutMin": 140,
+            "cutMax": 140
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "li.mslide",
+            "path": "div.mslide-content > div.mslide-text > div.mslide-title > h3#uefa-europees-voetbal",
+            "text": "uefa europees voetbal",
+            "cutMin": 19,
+            "cutMax": 19
+          },
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.acar",
+            "path": "div.acar > ul.acar-track > li.acard > a.acard-link",
+            "text": "elke maand een kijkcadeau",
+            "cutMin": 288,
+            "cutMax": 288
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.acar",
+            "path": "ul.acar-track > li.acard > div.acard-title > h3#elke-maand-een-kijkcadeau",
+            "text": "elke maand een kijkcadeau",
+            "cutMin": 166,
+            "cutMax": 166
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 8,
+          "offPage": 123,
+          "textNodes": 175,
+          "controls": 233,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 13,
+          "within": 72,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-26T03:45:33.941Z"
+  }
+}

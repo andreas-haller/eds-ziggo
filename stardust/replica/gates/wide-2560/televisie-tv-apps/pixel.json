@@ -1,0 +1,240 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-tv-apps/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-tv-apps/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4922,
+    "mode": "overlap"
+  },
+  "heightDelta": 46,
+  "differingPixels": 1058449,
+  "pct": 8.4,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/televisie-tv-apps/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 32.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 21.3
+    },
+    {
+      "y0": 4500,
+      "y1": 4922,
+      "pct": 2.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.6,
+    "differingPixels": 849914,
+    "compared": {
+      "width": 2560,
+      "height": 5031,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2101,
+        "shift": 15,
+        "cumulative": 15
+      },
+      {
+        "y": 3095,
+        "shift": 38,
+        "cumulative": 53
+      },
+      {
+        "y": 3264,
+        "shift": 9,
+        "cumulative": 62
+      },
+      {
+        "y": 3628,
+        "shift": -8,
+        "cumulative": 54
+      },
+      {
+        "y": 4224,
+        "shift": -101,
+        "cumulative": -47
+      },
+      {
+        "y": 4863,
+        "shift": 1,
+        "cumulative": -46
+      }
+    ],
+    "maxOffset": 62,
+    "totalShift": 172,
+    "insertedRows": 63,
+    "deletedRows": 109,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.7,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.2,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4,
+        "unaligned": 4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 5.9,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.2,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 9.6,
+        "unaligned": 9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 6.5,
+        "unaligned": 32.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 28.2,
+        "unaligned": 21.3
+      },
+      {
+        "y0": 4500,
+        "y1": 4968,
+        "pct": 0.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-tv-apps/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 50,
+    "totalShift": 172,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 172px total — +15px at y=2101, +38px at y=3095, +9px at y=3264, −8px at y=3628, −101px at y=4224, +1px at y=4863 (bound 50px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/tv-apps",
+      "source": "https://www.ziggo.nl/televisie/tv-apps",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "cd3d9046dbc888f6",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "82d976c30d9286dc",
+      "instruments": "700566dc6f7774a4",
+      "page content": "660c83573a044a39",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0",
+      "block table": "1bb2648324b75bc5"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 4,
+          "textNodes": 158,
+          "controls": 73,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T04:51:13.207Z"
+  }
+}

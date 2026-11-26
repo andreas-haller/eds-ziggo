@@ -1,0 +1,5 @@
+pub3 captured a stale build: the gate launched seconds after the push of 613effc, before the
+code bus/CDN served the new streaming-tier-table.css (curl at launch: no "margin-top: 29px").
+Evidence: pub3 build height 7416 == pub2 build height 7416 and identical pixel numbers
+(13.23% / aligned 4.07% / 115px offsets); measure.mjs on the same URL right after:
+scrollHeight 7481, .stt-name-logo marginTop 29px (the r2 rule) -> the pub3 verdict is of the r1 build.

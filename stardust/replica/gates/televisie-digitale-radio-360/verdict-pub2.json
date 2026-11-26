@@ -1,0 +1,96 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-digitale-radio-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-digitale-radio-360/pixel-pub2.json",
+    "pct": 16.08,
+    "alignedPct": 9.53,
+    "alignedUsed": true,
+    "totalShift": 234,
+    "steps": [
+      {
+        "y": 615,
+        "shift": -50,
+        "cumulative": -50
+      },
+      {
+        "y": 1017,
+        "shift": -8,
+        "cumulative": -58
+      },
+      {
+        "y": 1635,
+        "shift": -102,
+        "cumulative": -160
+      },
+      {
+        "y": 2081,
+        "shift": 16,
+        "cumulative": -144
+      },
+      {
+        "y": 2672,
+        "shift": 16,
+        "cumulative": -128
+      },
+      {
+        "y": 3045,
+        "shift": 3,
+        "cumulative": -125
+      },
+      {
+        "y": 3128,
+        "shift": 38,
+        "cumulative": -87
+      },
+      {
+        "y": 3693,
+        "shift": 1,
+        "cumulative": -86
+      }
+    ],
+    "offsetBound": 41,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 8 step(s), 234px total — −50px at y=615, −8px at y=1017, −102px at y=1635, +16px at y=2081, +16px at y=2672, +3px at y=3045, … 2 more (bound 41px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T00:51:11.486Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-digitale-radio-360/units-pub2.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T01:44:40.321Z"
+}

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T21:09:44.774Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:29:05.314Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:35:57.831Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 4.25% PASS, offsets 33px in bound, Δh -11 (plan media card copy rhythm); identification bar not shown in the frozen reference (personalisation) -> default hidden bar; content-diff 🔴 are the systemic header/footer icon-font artefacts (frozen foundation, filed) + classifier artefacts (dual button labels, modal-trigger labels rendered as text per render deviation)",
+          "at": "2026-11-25T22:43:50.190Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-51-51-064Z",
+          "at": "2026-11-25T22:55:51.747Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T00-10-06-261Z",
+          "at": "2026-11-26T00:13:54.767Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-34-42-778Z",
+          "at": "2026-11-26T00:39:04.200Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:17:03.807Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T04:05:24.900Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

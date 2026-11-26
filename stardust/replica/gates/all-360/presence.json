@@ -1,0 +1,8 @@
+{
+  "televisie-extra-zenders-streamingdiensten-netflix": {
+    "variable": [
+      ".chat-button=.streaming-features.contact .sf-link:has(a[href^=\"#start-pre-chat\"])"
+    ],
+    "reason": "live chat availability: server renders \"Start een chat\", client script swaps in the busy message while advisers are occupied (session-variable)"
+  }
+}

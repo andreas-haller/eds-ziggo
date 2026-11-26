@@ -1,0 +1,76 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/pixel-pub2.json",
+    "pct": 9.96,
+    "alignedPct": 7.42,
+    "alignedUsed": true,
+    "totalShift": 61,
+    "steps": [
+      {
+        "y": 6197,
+        "shift": -43,
+        "cumulative": -43
+      },
+      {
+        "y": 6934,
+        "shift": 1,
+        "cumulative": -42
+      },
+      {
+        "y": 7610,
+        "shift": -16,
+        "cumulative": -58
+      },
+      {
+        "y": 8197,
+        "shift": 1,
+        "cumulative": -57
+      }
+    ],
+    "offsetBound": 83,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:00:04.426Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/units-pub2.txt"
+    }
+  },
+  "structural": 134,
+  "nothingLost": 36,
+  "at": "2026-11-25T21:26:54.857Z"
+}

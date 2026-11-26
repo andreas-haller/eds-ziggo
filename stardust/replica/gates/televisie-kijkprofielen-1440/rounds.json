@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T21:22:55.797Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:46:52.593Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:17:50.110Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cap reached; residual Δh 314 — source vertical rhythm around the stacked first band and section paddings larger than media-text duo/stack; frozen chrome findings",
+          "at": "2026-11-25T23:32:44.983Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T23-09-54-161Z",
+          "at": "2026-11-25T23:13:03.709Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-20-11-736Z",
+          "at": "2026-11-25T23:23:06.684Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T23-26-56-598Z",
+          "at": "2026-11-25T23:29:47.258Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-06-59-829Z",
+          "at": "2026-11-26T02:14:22.917Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-50-06-842Z",
+          "at": "2026-11-26T02:51:05.210Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:06:14.472Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:58:51.916Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "gate-all cap: 14.05% aligned, Δh 314 — section spacing around the stacked band (see published decision)",
+          "at": "2026-11-25T23:32:45.164Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

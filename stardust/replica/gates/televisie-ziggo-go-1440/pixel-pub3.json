@@ -1,0 +1,163 @@
+{
+  "a": "stardust/replica/gates/televisie-ziggo-go-1440/live.png",
+  "b": "stardust/replica/gates/televisie-ziggo-go-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4317,
+    "mode": "overlap"
+  },
+  "heightDelta": -191,
+  "differingPixels": 730356,
+  "pct": 11.75,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-ziggo-go-1440/diff-pub3.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 38.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 39.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4317,
+      "pct": 3.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 10,
+    "differingPixels": 648947,
+    "compared": {
+      "width": 1440,
+      "height": 4508,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2902,
+        "shift": 83,
+        "cumulative": 83
+      },
+      {
+        "y": 3690,
+        "shift": 107,
+        "cumulative": 190
+      },
+      {
+        "y": 4212,
+        "shift": 1,
+        "cumulative": 191
+      }
+    ],
+    "maxOffset": 191,
+    "totalShift": 191,
+    "insertedRows": 191,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.9,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 37.9,
+        "unaligned": 38.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.4,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 20.3,
+        "unaligned": 39.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4317,
+        "pct": 0.3,
+        "unaligned": 3.2
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-ziggo-go-1440/diff-pub3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 43,
+    "totalShift": 191,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 191px total — +83px at y=2902, +107px at y=3690, +1px at y=4212 (bound 43px)"
+}

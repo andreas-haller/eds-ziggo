@@ -1,0 +1,937 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-ziggo-sport-1440/vdiff-pub3/
+
+build red flags (advisory): 
+  • CONTENT GAP: source 23 headings / 12 content-boxes / main 7407px vs build 20 / 12 / 7357px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • HEADING FACE: <h3> "Standaard in je abonnement" is 31.2px Ziggo Headline in build vs 31.2px Vodafone Ziggo text in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7407,
+  "textLen": 4308,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Header_ZST_mobile?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x14",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608-UEFA?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "551x311",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "img.png",
+    "natural": "649x462",
+    "rendered": "649x463",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1920x1080_OleRethans_ZiggoSportRaceCafe_Shelly%2BChris_persfoto-3?qlt=80,0&dpr=off&wid=742&fit=constrain",
+    "natural": "649x365",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_App?fmt=webp-alpha&qlt=85,0&bfc=off&wid=742&fit=constrain",
+    "natural": "649x365",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_tennis?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_golf?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_racing?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_overigesporten?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_Stream_EuropeseWedstrijden_transparent_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "519x292",
+    "rendered": "519x293",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_App?fmt=webp-alpha&qlt=85,0&bfc=off&wid=742&fit=constrain",
+    "natural": "550x309",
+    "rendered": "550x310",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "400x226_Ziggo_Sport_B2C_tvtabletiphone_logo_black_2025_Q4?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "391x221",
+    "rendered": "550x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_App?fmt=webp-alpha&qlt=85,0&bfc=off&wid=742&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x145",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_ESPN_2026_oktober?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Sportcompleet_article?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Drieluik_DEF_1080x608?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "258x145",
+    "rendered": "258x146",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_B2C_Ziggo_steaming_blue_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_carousel_B2C_Ziggo_streaming_blue_2025_Q4?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_464x464?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZST_464x464?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ESPN_Pakketvisual_26-27_1200-1200px?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_B2C_Ziggo_ESPN_live_2026_Q3?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_Priority-2026-ziggo?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "320x320_Priority-2026-ziggo?fmt=webp-alpha&qlt=85,0&bfc=off&wid=320&fit=constrain",
+    "natural": "259x259",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=6813238b-c150-44eb-94c2-6ff427166e08&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Ziggo%20Sport%20-%20Gratis%20live%20racing,%20voetbal%20en%20meer%20%7C%20Ziggo&kw=Ziggo%20Sport,%20formule%201,%20voetbal,%20champions%20league,%20la%20liga,%20premier%20league,%20ligue%201,%20handbal,%20handbaldames,%20golf,%20tennis,%20racing&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-sport&r=&lt=8739&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=816435",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fziggo-sport&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo Sport",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "61.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gratis op kanaal 14 voor Ziggo k",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deze sporten zie je op Ziggo Spo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA Europees voetbal bij Ziggo ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Formula 1® van Viaplay",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Formula 1® van Viaplay",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Racing",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Racing",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Voetbal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Voetbal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deze sporten zie je ook op Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ziggo Sport tv-gids",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Met Ziggo Sport Totaal en de Zig",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sportpakketten",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sport Compleet",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sport Compleet + Film1",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beleef het beste entertainment v",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Standaard in je abonnement",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "user-identification-bar",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7357,
+  "textLen": 4380,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15740cdaab66a9af03e843d543dde867893abce64.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x704",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16f8a63427f7dd47d8b58808145387f039a4068a0.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x542",
+    "rendered": "1440x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d319d1c66e17d9e630034e37620a3b336d4bf4a7.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "552x311",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_176194598c3919cced966cae0db86656848671f49.png?width=2000&format=webply&optimize=medium",
+    "natural": "20x14",
+    "rendered": "649x455",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18771735a156928949acb2df30ed06ddcc930c6c1.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b1b7313faab286432521073d52d3d68f9bc213f4.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x608",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b5d45d4afb07ab7762c48b4e83bb3b7343c50a8c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13e37a96dea6bd0c6e68cf74fe879485472cd3437.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_199a6f899974f56fec28e662752c684cfe771b0e2.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1da8d6f16e58d189fa7ba2fb67923d95d666fe769.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1991b177e672bf5bbab29050389f2d0783e41c83a.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "552x311",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b1b7313faab286432521073d52d3d68f9bc213f4.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x608",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14d95cffbdce2f5fc51b7f2ba88a2d640fc8d2186.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "400x226",
+    "rendered": "552x311",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b1b7313faab286432521073d52d3d68f9bc213f4.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_182b15f96fc8fd5fd8f8c7ae55493e1bc6163c759.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f8eea4a35600d699131b6709a1d18e4d57072b8e.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15ad512267de0ab51124b84be658ee793a92b69b6.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x608",
+    "rendered": "257x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1434f15a3407b91aea8114355c7c8d0dcd1e03cbe.webp?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_159aec125e8db46bd5c9749486e9c23a592f5a52e.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1600x464",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_140ae77f486dda558a4cbbd48638fbfa94e7d963e.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1600x1200",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12384b9c824d10536fb078139c16f6aca3ab7ed94.webp?width=2000&format=webply&optimize=medium",
+    "natural": "320x320",
+    "rendered": "260x260",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo Sport",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "61.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gratis op kanaal 14 voor Ziggo k",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deze sporten zie je op Ziggo Spo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UEFA Europees voetbal bij Ziggo ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Formula 1® van Viaplay",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Racing",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Voetbal",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deze sporten zie je ook op Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ziggo Sport tv-gids",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Met Ziggo Sport Totaal en de Zig",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo GO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Sportpakketten",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ziggo Sport Totaal",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ESPN Premium",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sport Compleet",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sport Compleet + Film1",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beleef het beste entertainment v",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Standaard in je abonnement",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "why-kicker",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "why-title",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "ccar-track",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "mt-row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mb-cards",
+    "width": 1136,
+    "left": 152
+   }
+  ]
+ }
+}

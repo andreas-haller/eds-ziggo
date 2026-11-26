@@ -1,0 +1,322 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-26T05:09:36.922Z"
+  },
+  "method": "rebuilt natively in EDS blocks (header menus, drawer, accordions, address checker UI, channel overview filter); settled-DOM snapshots for hydrated sections; scene7 video viewer as embed passthrough; host-bound APIs, chat, tags and order flow on their interim tier (assumptions A1–A7)",
+  "features": [
+    {
+      "id": "chrome-menu",
+      "feature": "header mega menu Producten + flyouts",
+      "class": "M",
+      "pages": 33,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header [aria-haspopup=\"true\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "chrome-drawer",
+      "feature": "mobile header drawer Menu",
+      "class": "M",
+      "pages": 33,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header [aria-expanded]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "m-modal-trigger-aria-haspopup",
+      "feature": "accordions / disclosure",
+      "class": "M",
+      "pages": 33,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/televisie/voicecontrol",
+          "selector": "main details, main [aria-expanded]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "cr-client-framework-vue",
+      "feature": "hydrated sections, settled DOM",
+      "class": "CR",
+      "pages": 33,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/alles-in-1",
+            "/",
+            "/internet",
+            "/televisie",
+            "/televisie/4k-uhd",
+            "/televisie/digitale-kabel-tv-en-radio",
+            "/televisie/digitale-radio",
+            "/televisie/espn",
+            "/televisie/extra-zenders-streamingdiensten",
+            "/televisie/extra-zenders-streamingdiensten/disneyplus",
+            "/televisie/extra-zenders-streamingdiensten/netflix",
+            "/televisie/hoofdmenu",
+            "/televisie/kabel-tv",
+            "/televisie/kijkprofielen",
+            "/televisie/makkelijk-zoeken",
+            "/televisie/mediaboxen",
+            "/televisie/online-tv-kijken",
+            "/televisie/opnemen",
+            "/televisie/terugkijken",
+            "/televisie/tv-apps",
+            "/televisie/tv-start",
+            "/televisie/voicecontrol",
+            "/televisie/zenderoverzicht",
+            "/televisie/zenders/npo-1",
+            "/televisie/zenders/npo-2",
+            "/televisie/zenders/npo-3",
+            "/televisie/zenders/rtl-4",
+            "/televisie/zenders/rtl-5",
+            "/televisie/zenders/sbs6",
+            "/televisie/zenders/star-channel",
+            "/televisie/ziggo-go",
+            "/televisie/ziggo-sport",
+            "/tv-internet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v-video-vimeo",
+      "feature": "streaming showreel video players (scene7 viewer)",
+      "class": "V",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/televisie/extra-zenders-streamingdiensten/netflix",
+          "iframeSelector": ".video-band iframe",
+          "playbackHost": "scene7.com"
+        }
+      ]
+    },
+    {
+      "id": "s-site-search-form",
+      "feature": "zenderoverzicht channel list filter",
+      "class": "S",
+      "pages": 1,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/televisie/zenderoverzicht",
+          "selector": ".channel-overview li",
+          "min": 20
+        }
+      ]
+    },
+    {
+      "id": "f-form-address-checker",
+      "feature": "postcode + huisnummer checker",
+      "class": "F",
+      "pages": 5,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/alles-in-1",
+          "selector": "form.addr-form input",
+          "min": 2
+        }
+      ],
+      "owner": "A2: submit hands off to the source order flow until the owner routes it"
+    },
+    {
+      "id": "l-listing-candidates",
+      "feature": "toptask tiles, carousel, swimming lanes",
+      "class": "L",
+      "pages": 3,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".toptask-tiles a, .swimming-lane a",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "s-first-party-api-articlesearch",
+      "feature": "help-article search",
+      "class": "S",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A1: same-origin routing of /services/articleSearch"
+    },
+    {
+      "id": "f-form-chat-prechat",
+      "feature": "chat pre-form",
+      "class": "F",
+      "pages": 33,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A3: re-enable chat widget on the new host"
+    },
+    {
+      "id": "f-form-less-control-group-sticky",
+      "feature": "bundle builder control group",
+      "class": "F",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/alles-in-1",
+          "selector": ".bundle-builder",
+          "min": 1
+        }
+      ],
+      "owner": "A2"
+    },
+    {
+      "id": "a-first-party-api-blueriq-dynamicmedia-hardware",
+      "feature": "prices / hardware APIs",
+      "class": "A",
+      "pages": 4,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A4: live prices API routing"
+    },
+    {
+      "id": "i18n-locale-variants-nl",
+      "feature": "hreflang nl",
+      "class": "I18N",
+      "pages": 33,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A5: single Dutch locale"
+    },
+    {
+      "id": "t-tags-consent-analytics",
+      "feature": "consent, analytics and ad tags",
+      "class": "T/A",
+      "pages": 33,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A6: tag manager / consent container on the new host"
+    },
+    {
+      "id": "v-iframe-runtime-injected",
+      "feature": "runtime-injected tag frames",
+      "class": "V",
+      "pages": 33,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "interim",
+      "checks": [],
+      "owner": "A6"
+    },
+    {
+      "id": "a-dcat-api",
+      "feature": "customer data catalogue API",
+      "class": "A",
+      "pages": 33,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "checks": [],
+      "owner": "A6"
+    },
+    {
+      "id": "x-sign-in-account-links",
+      "feature": "Mijn Ziggo sign-in links",
+      "class": "X",
+      "pages": 33,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "decided-out",
+      "checks": [],
+      "owner": "A7: links point at www.ziggo.nl/mijn-ziggo"
+    },
+    {
+      "id": "x-commerce-signals",
+      "feature": "cart / order flow",
+      "class": "X",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "decided-out",
+      "checks": [],
+      "owner": "A2/A7: order CTAs link to the source order flow"
+    },
+    {
+      "id": "a-cms-app-settings-object-datalayer",
+      "feature": "dataLayer settings object",
+      "class": "A",
+      "pages": 33,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "id": "v-scene7-media",
+      "feature": "scene7 images",
+      "class": "A",
+      "pages": 33,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "main picture img",
+          "min": 3
+        }
+      ]
+    }
+  ]
+}

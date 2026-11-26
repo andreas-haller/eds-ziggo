@@ -1,0 +1,47 @@
+/* =====================================================================
+   modules.css — shared page modules (gated on alles-in-1, reused by later archetypes):
+   accordion (FAQ + content accordions) and the interactions side tabs / mobile bar.
+   ===================================================================== */
+/* FAQ accordion */
+.acc { border-bottom: 1px solid var(--color_gray-200); }
+.acc__header { display: flex; align-items: center; width: 100%; padding: 16px 0; text-align: left; }
+.acc__title { flex-grow: 1; padding-right: 12px; color: var(--color_gray-900); font-size: 16px; font-weight: 600; line-height: 24px; }
+@media (min-width: 1024px) { .acc__title { font-size: 18px; } }
+.acc__chevron { width: 17px; text-align: right; color: var(--color_gray-500); line-height: 24px; }
+.acc__chevron::after { content: "."; display: block; font-family: var(--icon-font); font-size: 17px; line-height: 24px; font-weight: 700; transform: rotate(180deg); }
+.acc__header[aria-expanded="true"] .acc__chevron::after { transform: none; }
+.acc__header:hover .acc__title, .acc__header:hover .acc__chevron { color: var(--color_gray-700); }
+.acc__header[aria-expanded="true"] .acc__title, .acc__header[aria-expanded="true"] .acc__chevron { color: var(--color_gray-700); }
+.acc__body { padding: 0 0 16px; overflow: hidden; }
+@media (prefers-reduced-motion: no-preference) { .acc__body.is-sliding { transition: height .3s ease; } }
+.acc__body p { margin-bottom: 16px; font-weight: 300; }
+.acc__body a { text-decoration: underline; }
+
+/* ---------- interactions (mobile: bar above the hero; desktop: fixed side tabs) */
+.interactions { order: -1; display: flex; justify-content: space-evenly; background: var(--color_gray-100); color: var(--color_gray-700); box-shadow: rgba(0, 0, 0, .2) 0 1px 1px 0; z-index: 2; }
+.interactions__item { position: relative; flex-grow: 1; margin: 0 2px; color: inherit; }
+.interactions__item + .interactions__item::before { content: ""; position: absolute; right: 0; top: 5%; width: 100%; height: 90%; border-left: 1px solid #fff; z-index: 1; }
+.interactions__expanded { display: none; }
+.interactions__content { display: block; padding: 8px 0; text-align: center; background: var(--color_gray-100); }
+.interactions__content .icon { position: relative; display: inline-block; vertical-align: top; height: 27px; font-size: 20px; line-height: 27px; }
+.interactions__text { display: block; font-size: 10px; font-weight: 500; line-height: 1; }
+.interactions__orb { position: absolute; right: -4px; top: -2px; width: 6px; height: 6px; box-sizing: content-box; border: 2px solid var(--color_gray-100); border-radius: 50%; background: #34a853; }
+@media (min-width: 1024px) {
+  .interactions { order: 0; position: fixed; right: 0; top: 75%; transform: translateY(-50%); display: block; width: 48px; border-radius: 4px 0 0 4px; box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2); }
+  .interactions__item { display: block; margin: 0; }
+  .interactions__item + .interactions__item::before { border-left: 0; border-bottom: 1px solid #fff; top: 0; height: auto; width: 90%; }
+  .interactions__content { border-left: 1px solid var(--color_gray-100); }
+  .interactions__item:first-child .interactions__content { border-top-left-radius: 4px; }
+  .interactions__item:last-child .interactions__content { border-bottom-left-radius: 4px; }
+  .interactions__expanded { position: absolute; top: 0; bottom: 0; left: 100%; display: flex; flex-flow: column wrap; justify-content: center; min-width: 144px; padding: 0 16px; background: var(--color_gray-800); color: #fff; border-radius: 4px 0 0 4px; box-shadow: -1px 1px 1px rgba(0, 0, 0, .1), -1px -1px 1px rgba(0, 0, 0, .1); font-size: 12px; font-weight: 500; white-space: nowrap; }
+  .interactions__expanded strong { font-size: 1rem; font-weight: 600; }
+  .interactions__expanded .icon { font-size: 10px; }
+  .interactions__item:hover .interactions__expanded { transform: translateX(-100%) translateX(-48px); }
+  @media (prefers-reduced-motion: no-preference) {
+    .interactions__expanded { transition: all .3s ease-in; }
+    .interactions__item:hover .interactions__expanded { transition: all .3s ease-out; }
+  }
+  .interactions__item:hover { color: #fff; }
+  .interactions__item:hover .interactions__content { background: var(--color_gray-800); border-left-color: var(--color_gray-800); }
+}
+.icon-chat::before { content: "O"; }

@@ -1,0 +1,81 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-online-tv-kijken-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-online-tv-kijken-1440/pixel-pub3.json",
+    "pct": 25.19,
+    "alignedPct": 20.35,
+    "alignedUsed": true,
+    "totalShift": 492,
+    "steps": [
+      {
+        "y": 1604,
+        "shift": -95,
+        "cumulative": -95
+      },
+      {
+        "y": 2096,
+        "shift": -73,
+        "cumulative": -168
+      },
+      {
+        "y": 2794,
+        "shift": -29,
+        "cumulative": -197
+      },
+      {
+        "y": 3856,
+        "shift": -199,
+        "cumulative": -396
+      },
+      {
+        "y": 5080,
+        "shift": -96,
+        "cumulative": -492
+      }
+    ],
+    "offsetBound": 52,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 20.35% (unaligned 25.19%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:17:05.243Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-online-tv-kijken-1440/units-pub3.txt"
+    }
+  },
+  "structural": 136,
+  "nothingLost": 3,
+  "at": "2026-11-25T22:20:21.399Z"
+}

@@ -1,0 +1,431 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-25T13:27:35.760Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.ziggo.nl/televisie/voicecontrol",
+      "http://localhost:8791/televisie-voicecontrol-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.ziggo.nl/televisie/voicecontrol",
+    "http://localhost:8791/televisie-voicecontrol-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 54,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "section.vfz-sticky-subnavigation > div.vfz-inline-template-container > div > div.container",
+        "tier": 4,
+        "share": 0.09,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.04,
+        "section": 2,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#voicecontrol > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.15,
+        "section": 4,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#commando > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.15,
+        "section": 5,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tips > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.07,
+        "section": 6,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#mediabox > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.2,
+        "section": 7,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#vragen > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.hero-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > section.vfz-sticky-subnavigation",
+        "px": 1600,
+        "capSelector": "section.vfz-sticky-subnavigation > div.vfz-inline-template-container > div > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#voicecontrol > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#commando > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#tips > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 7,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#mediabox > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 8,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#vragen > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 9,
+        "selector": "#main-content > section.vfz-interactions-wrapper",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 325
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 54,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > section.subnav > div.subnav__bar > div.container",
+        "tier": 3,
+        "share": 0.09,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.container.crumbs-wrap",
+        "tier": 1,
+        "share": 0.04,
+        "section": 2,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#voicecontrol > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > section.vc-sec.vc-sec--light > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.15,
+        "section": 4,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#commando > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.15,
+        "section": 5,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tips > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.07,
+        "section": 6,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#mediabox > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.2,
+        "section": 7,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#vragen > div.container.vc-sec__inner",
+        "tier": 2,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.vc-herowrap",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > section.subnav",
+        "px": 1600,
+        "capSelector": "#main-content > section.subnav > div.subnav__bar > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.container.crumbs-wrap",
+        "px": 1600,
+        "capSelector": "#main-content > div.container.crumbs-wrap"
+      },
+      {
+        "index": 3,
+        "selector": "#voicecontrol",
+        "px": 1600,
+        "capSelector": "#voicecontrol > div.container.vc-sec__inner"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > section.vc-sec.vc-sec--light",
+        "px": 1600,
+        "capSelector": "#main-content > section.vc-sec.vc-sec--light > div.container.vc-sec__inner"
+      },
+      {
+        "index": 5,
+        "selector": "#commando",
+        "px": 1600,
+        "capSelector": "#commando > div.container.vc-sec__inner"
+      },
+      {
+        "index": 6,
+        "selector": "#tips",
+        "px": 1600,
+        "capSelector": "#tips > div.container.vc-sec__inner"
+      },
+      {
+        "index": 7,
+        "selector": "#mediabox",
+        "px": 1600,
+        "capSelector": "#mediabox > div.container.vc-sec__inner"
+      },
+      {
+        "index": 8,
+        "selector": "#vragen",
+        "px": 1600,
+        "capSelector": "#vragen > div.container.vc-sec__inner"
+      },
+      {
+        "index": 9,
+        "selector": "#main-content > nav.interactions",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 184
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1600px = build 1600px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/televisie-voicecontrol-2560/cap-iter.json"
+}

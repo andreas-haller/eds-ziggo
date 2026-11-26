@@ -1,0 +1,76 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-25T20:46:45.645Z",
+  "url": "https://www.ziggo.nl/televisie",
+  "width": 360,
+  "vh": 900,
+  "height": 14079,
+  "settle": true,
+  "chunks": 16,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 8,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 73,
+    "intervals": 13,
+    "chains": 60,
+    "delays": [
+      2000,
+      5000,
+      10000,
+      30000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 14079,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    14079,
+    14079
+  ],
+  "noiseFloor": 0.02,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 7212,
+      "h": 136,
+      "pct": 5.4
+    }
+  ],
+  "variableShare": 0.97,
+  "maskArg": "7212:136",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-25T20:47:53.402Z",
+  "flags": {
+    "consent": "#onetrust-accept-btn-handler",
+    "dismiss": ".dimelo-form",
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

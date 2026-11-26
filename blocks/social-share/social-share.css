@@ -1,0 +1,84 @@
+/* social share band (source .social-share on a gray-100 section, 2rem section padding) */
+.social-share {
+  background: var(--color-gray-100);
+}
+
+.social-share .share-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 2rem var(--container-pad);
+}
+
+.social-share .share {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.social-share .share-row {
+  line-height: 1.5;
+}
+
+.social-share .share-row p {
+  display: inline;
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.social-share a.share-btn:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  color: var(--color-white);
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.social-share a.share-btn:hover {
+  color: var(--color-white);
+}
+
+.social-share .share-glyph::before {
+  content: attr(data-glyph);
+}
+
+.social-share .share-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.social-share .share-btn-facebook {
+  background: #3c5ba2;
+}
+
+.social-share .share-btn-linkedin {
+  background: #0177b5;
+}
+
+.social-share .share-btn-mail {
+  background: #e03d19;
+}
+
+.social-share .share-btn-whatsapp {
+  background: #65bc54;
+}
+
+@media (width >= 768px) {
+  .social-share .share-row p:has(.share-btn-whatsapp) {
+    display: none;
+  }
+}
+
+@media (width >= 1024px) {
+  .social-share .share {
+    margin: 24px 0;
+  }
+}

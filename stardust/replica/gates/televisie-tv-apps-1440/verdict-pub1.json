@@ -1,0 +1,66 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-tv-apps-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-tv-apps-1440/pixel-pub1.json",
+    "pct": 18.52,
+    "alignedPct": 16.79,
+    "alignedUsed": true,
+    "totalShift": 234,
+    "steps": [
+      {
+        "y": 3906,
+        "shift": -233,
+        "cumulative": -233
+      },
+      {
+        "y": 4815,
+        "shift": 1,
+        "cumulative": -232
+      }
+    ],
+    "offsetBound": 49,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 16.79% (unaligned 18.52%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T00:05:24.454Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-1440/units-pub1.txt"
+    }
+  },
+  "structural": 138,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:08:23.377Z"
+}

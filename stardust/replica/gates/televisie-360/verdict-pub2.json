@@ -1,0 +1,116 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-360/pixel-pub2.json",
+    "pct": 14.67,
+    "alignedPct": 8.88,
+    "alignedUsed": true,
+    "totalShift": 64,
+    "steps": [
+      {
+        "y": 1192,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 5082,
+        "shift": 13,
+        "cumulative": 0
+      },
+      {
+        "y": 5558,
+        "shift": 6,
+        "cumulative": 6
+      },
+      {
+        "y": 7198,
+        "shift": -6,
+        "cumulative": 0
+      },
+      {
+        "y": 7390,
+        "shift": -8,
+        "cumulative": -8
+      },
+      {
+        "y": 7810,
+        "shift": -1,
+        "cumulative": -9
+      },
+      {
+        "y": 8570,
+        "shift": 2,
+        "cumulative": -7
+      },
+      {
+        "y": 8871,
+        "shift": 4,
+        "cumulative": -3
+      },
+      {
+        "y": 9387,
+        "shift": 5,
+        "cumulative": 2
+      },
+      {
+        "y": 12439,
+        "shift": 4,
+        "cumulative": 6
+      },
+      {
+        "y": 13094,
+        "shift": -1,
+        "cumulative": 5
+      },
+      {
+        "y": 13638,
+        "shift": 1,
+        "cumulative": 6
+      }
+    ],
+    "offsetBound": 141,
+    "maskedRows": 136,
+    "noiseFloor": 0.02,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T20:46:45.645Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "7212:136"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-360/units-pub2.txt"
+    }
+  },
+  "structural": 149,
+  "nothingLost": 0,
+  "at": "2026-11-25T21:58:29.911Z"
+}

@@ -1,0 +1,179 @@
+{
+  "a": "stardust/replica/gates/televisie-tv-apps-1440/live.png",
+  "b": "stardust/replica/gates/televisie-tv-apps-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4920,
+    "mode": "overlap"
+  },
+  "heightDelta": -8,
+  "differingPixels": 394830,
+  "pct": 5.57,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/televisie-tv-apps-1440/diff-pub3.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 11.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.7
+    },
+    {
+      "y0": 4500,
+      "y1": 4920,
+      "pct": 2.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.03,
+    "differingPixels": 286103,
+    "compared": {
+      "width": 1440,
+      "height": 4935,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3366,
+        "shift": 9,
+        "cumulative": 9
+      },
+      {
+        "y": 3906,
+        "shift": 5,
+        "cumulative": 14
+      },
+      {
+        "y": 4325,
+        "shift": -7,
+        "cumulative": 7
+      },
+      {
+        "y": 4815,
+        "shift": 1,
+        "cumulative": 8
+      }
+    ],
+    "maxOffset": 14,
+    "totalShift": 22,
+    "insertedRows": 15,
+    "deletedRows": 7,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.3,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.9,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 5.7,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 5.3,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.9,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.3,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 5.8,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 3.3,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 4500,
+        "y1": 4920,
+        "pct": 0.2,
+        "unaligned": 2.8
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-tv-apps-1440/diff-pub3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 49,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null
+}

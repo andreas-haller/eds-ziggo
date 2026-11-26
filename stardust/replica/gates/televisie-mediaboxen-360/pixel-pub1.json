@@ -1,0 +1,162 @@
+{
+  "a": "stardust/replica/gates/televisie-mediaboxen-360/live.png",
+  "b": "stardust/replica/gates/televisie-mediaboxen-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 3842,
+    "mode": "overlap"
+  },
+  "heightDelta": -192,
+  "differingPixels": 487463,
+  "pct": 35.24,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-mediaboxen-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 38.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 53.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 54.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 68.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 38.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 11.2
+    },
+    {
+      "y0": 3500,
+      "y1": 3842,
+      "pct": 5.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 11.52,
+    "differingPixels": 167284,
+    "compared": {
+      "width": 360,
+      "height": 4034,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 589,
+        "shift": 117,
+        "cumulative": 117
+      },
+      {
+        "y": 667,
+        "shift": 21,
+        "cumulative": 138
+      },
+      {
+        "y": 913,
+        "shift": 15,
+        "cumulative": 153
+      },
+      {
+        "y": 2857,
+        "shift": 38,
+        "cumulative": 191
+      },
+      {
+        "y": 3401,
+        "shift": 1,
+        "cumulative": 192
+      }
+    ],
+    "maxOffset": 192,
+    "totalShift": 192,
+    "insertedRows": 192,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.3,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 24.7,
+        "unaligned": 38.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.5,
+        "unaligned": 53.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 17.4,
+        "unaligned": 54.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 18.7,
+        "unaligned": 68.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 17.2,
+        "unaligned": 38.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 3500,
+        "y1": 3842,
+        "pct": 0,
+        "unaligned": 5.9
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-mediaboxen-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 38,
+    "totalShift": 192,
+    "pass": false
+  },
+  "reason": "pixel aligned 11.52% (unaligned 35.24%) > 10%"
+}

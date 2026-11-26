@@ -1,0 +1,36 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.ziggo.nl/televisie/voicecontrol",
+  "width": 360,
+  "vh": 900,
+  "height": 6449,
+  "chunks": 8,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [
+    "Roboto"
+  ],
+  "deadFaces": [
+    "roboto|400|normal"
+  ],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 79,
+    "intervals": 13,
+    "chains": 66,
+    "delays": [
+      2000,
+      5000,
+      10000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "at": "2026-11-25T13:24:08.363Z"
+}

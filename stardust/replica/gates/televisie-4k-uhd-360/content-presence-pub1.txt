@@ -1,0 +1,41 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 614 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/4k-uhd (docH 8804, 173 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/4k-uhd (docH 9023, 179 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/2 | 0/0 | 0/0 | 1/1 | - |
+| 1 | 4k uhd tv-kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | live sport, films en series in 4k of uhd | 2/2 | 1/1 | 2/2 | 0/0 | EXTRA LINK, CONTROL MISSING |
+| 3 | een intensere kijkervaring | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 4 | wat kan ik in 4k en uhd kijken? | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 5 | films, series en zenders in 4k-beeldkwal | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 6 | tv apps zoals netflix in 4k-beeldkwalite | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 7 | espn premium in uhd | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 8 | zo kijk je in de beste beeldkwaliteit bi | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 9 | 4k uhd televisie | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 10 | internet & tv van ziggo | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 11 | mediabox next, next mini of ci+ | 3/3 | 0/0 | 1/1 | 0/0 | - |
+| 12 | tip: sluit je mediabox next of next mini | 1/1 | 0/0 | 0/0 | 0/0 | - |
+| 13 | wat past bij jou? | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 14 | kies je tv-pakket | 3/3 | 17/0 | 18/38 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 15 | veelgestelde vragen | 0/1 | 8/8 | 1/1 | 1/1 | - |
+| 16 | alles over ziggo tv | 1/2 | 0/0 | 1/1 | 1/1 | - |
+| 17 | haal meer uit je mediabox | 2/3 | 0/0 | 1/1 | 1/1 | - |
+| 18 | skyshowtime bij ziggo | 1/1 | 0/0 | 1/1 | 0/0 | - |
+  🟠 MISSING BUTTON: ×2 "70+ zenders" in band "kies je tv-pakket" (origin y 3985) not on the served page
+  🟠 MISSING BUTTON: ×2 "alle espn-zenders en ziggo sport" in band "kies je tv-pakket" (origin y 4025) not on the served page
+  🟠 MISSING BUTTON: ×3 "uefa europees voetbal" in band "kies je tv-pakket" (origin y 4065) not on the served page
+  🟠 MISSING BUTTON: ×3 "terugkijken: 7 dagen" in band "kies je tv-pakket" (origin y 4105) not on the served page
+  🟠 MISSING BUTTON: ×2 "opnemen" in band "kies je tv-pakket" (origin y 4752) not on the served page
+  🟠 MISSING BUTTON: ×2 "movies & series" in band "kies je tv-pakket" (origin y 4792) not on the served page
+  🟠 MISSING BUTTON: "110+ zenders" in band "kies je tv-pakket" (origin y 5181) not on the served page
+  🟠 MISSING BUTTON: "alle espn-zenders en ziggo sport totaal" in band "kies je tv-pakket" (origin y 5221) not on the served page
+  🟠 MISSING BUTTON: "skyshowtime" in band "kies je tv-pakket" (origin y 5445) not on the served page
+  🟡 EXTRA LINK: "menu" served in band "live sport, films en series in 4k of uhd beeldkwaliteit", no origin link or button
+  🟡 CONTROL MISSING: navigeer naar ... = "" (band "live sport, films en series in 4k of uhd beeldkwaliteit") has no served counterpart
+  🟡 COUNT TEXT: band "kies je tv-pakket": 18 origin → 38 served visible
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 17 hidden 0 / moved 0 extra 1 / count deltas 1
+Findings: 12 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-4k-uhd-360/content-presence-pub1.json

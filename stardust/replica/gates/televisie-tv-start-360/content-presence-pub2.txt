@@ -1,0 +1,16 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 26 ms
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/televisie/tv-start (docH 3328, 114 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/tv-start (docH 3327, 113 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 2/2 | 0/0 | 0/0 | 1/1 | - |
+| 1 | tv start | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | haal meer uit je tv. en meer tv uit elk  | 2/2 | 0/0 | 1/1 | 0/0 | - |
+| 3 | check je beschikbaarheid | 1/1 | 2/2 | 8/8 | 0/0 | CONTROL MISSING |
+| 4 | dit zit er in je pakket | 0/0 | 4/4 | 1/1 | 0/0 | - |
+| 5 | veelgestelde vragen | 1/1 | 7/7 | 2/2 | 0/0 | - |
+  🟡 CONTROL MISSING: toevoeging = "" (band "check je beschikbaarheid") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: 1 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-tv-start-360/content-presence-pub2.json

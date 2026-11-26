@@ -1,0 +1,98 @@
+{
+  "toptask-tiles": {
+    "origin": ".vfz-toptask .vfz-tile__link",
+    "build": ".toptask .tile",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "usp-cards": {
+    "origin": ".vfz-carousel--slide-width- .vfz-card-v2",
+    "build": ".why .ucard, .feature-cards .ucard",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "plan-cards": {
+    "origin": ".vfz-card-v2--box-shadow-md",
+    "build": ".plans .plan, .plan-cards .plan",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "product-cards": {
+    "origin": ".z-product-card-group__inner > .z-product-card",
+    "build": ".pgroup > .pcard",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "alles-in-1"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "contract-promo-cards": {
+    "origin": ".z-contract-promo-card-group-card",
+    "build": ".promos > .promo",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "alles-in-1"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "streaming-tier-cards": {
+    "origin": "#tiers .vfz-grouping.bg-white",
+    "build": ".sd-tiers .sd-tier, .streaming-tier-table .stt-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "televisie-extra-zenders-streamingdiensten-netflix"
+    ],
+    "templates": [
+      "streaming"
+    ]
+  },
+  "streaming-app-cards": {
+    "origin": "#tv-apps .vfz-grouping.bg-white",
+    "build": ".sd-apps .sd-app, .streaming-service-cards:not(.steps) .ssc-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "televisie-extra-zenders-streamingdiensten-netflix"
+    ],
+    "templates": [
+      "streaming"
+    ]
+  },
+  "channel-rows": {
+    "origin": ".z-channel-overview-list__list > .z-channel-overview-list__channel",
+    "build": ".zo-list > .zo-channel",
+    "n": 172,
+    "required": true,
+    "pages": [
+      "televisie-zenderoverzicht"
+    ],
+    "templates": [
+      "listing"
+    ]
+  }
+}

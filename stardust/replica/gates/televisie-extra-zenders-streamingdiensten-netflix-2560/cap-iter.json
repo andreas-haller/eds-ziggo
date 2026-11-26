@@ -1,0 +1,493 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-25T14:19:45.881Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+      "http://localhost:8791/televisie-extra-zenders-streamingdiensten-netflix-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+    "http://localhost:8791/televisie-extra-zenders-streamingdiensten-netflix-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 117,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.04,
+        "section": 2,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#daarom > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.08,
+        "section": 3,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#dit-kijk-je > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.06,
+        "section": 4,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#hoe-kijk-je > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.07,
+        "section": 6,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tiers > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.39,
+        "section": 7,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#faq > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.08,
+        "section": 8,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tv-apps > div.container.vfz-hero-container__content",
+        "tier": 3,
+        "share": 0.11,
+        "section": 9,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "div.aem-Grid.aem-Grid--12 > div.hero-container.aem-GridColumn > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content",
+        "tier": 8,
+        "share": 0.09,
+        "section": 10,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 431,
+        "via": "fixed",
+        "selector": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--xs > p > span.vfz-heading__h1--sub",
+        "tier": 15,
+        "share": 0.01,
+        "section": 10,
+        "w1": 431,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.hero-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#main-content > div.hero-container > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 3,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#daarom > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#dit-kijk-je > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > div.hero-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#hoe-kijk-je > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 7,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#tiers > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 8,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#faq > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 9,
+        "selector": "#main-content > div.hero-container",
+        "px": 1600,
+        "capSelector": "#tv-apps > div.container.vfz-hero-container__content"
+      },
+      {
+        "index": 10,
+        "selector": "#main-content > div.experiencefragment",
+        "px": 1600,
+        "capSelector": "div.aem-Grid.aem-Grid--12 > div.hero-container.aem-GridColumn > section.vfz-spacing-top.vfz-spacing-bottom > div.container.vfz-hero-container__content"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 601
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 117,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.sd-light > div.container.sd-crumbs-wrap",
+        "tier": 2,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.sd-light > div.container",
+        "tier": 2,
+        "share": 0.04,
+        "section": 2,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#daarom > div.container",
+        "tier": 2,
+        "share": 0.08,
+        "section": 3,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#dit-kijk-je > div.container",
+        "tier": 2,
+        "share": 0.06,
+        "section": 4,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#hoe-kijk-je > div.container",
+        "tier": 2,
+        "share": 0.07,
+        "section": 6,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tiers > div.container",
+        "tier": 3,
+        "share": 0.39,
+        "section": 7,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#faq > div.container",
+        "tier": 2,
+        "share": 0.08,
+        "section": 8,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#tv-apps > div.container",
+        "tier": 2,
+        "share": 0.11,
+        "section": 9,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > section.sd-sec.sd-contact > div.container",
+        "tier": 2,
+        "share": 0.09,
+        "section": 10,
+        "w1": 1200,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 431,
+        "via": "fixed",
+        "selector": "div.vc-row.vc-row--center > div.vc-col.vc-col--8 > p > span.sd-contact__sub",
+        "tier": 6,
+        "share": 0.01,
+        "section": 10,
+        "w1": 431,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.vc-herowrap",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.sd-light",
+        "px": 1600,
+        "capSelector": "#main-content > div.sd-light > div.container.sd-crumbs-wrap"
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.sd-light",
+        "px": 1600,
+        "capSelector": "#main-content > div.sd-light > div.container"
+      },
+      {
+        "index": 3,
+        "selector": "#daarom",
+        "px": 1600,
+        "capSelector": "#daarom > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#dit-kijk-je",
+        "px": 1600,
+        "capSelector": "#dit-kijk-je > div.container"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > div.sd-wrap",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 6,
+        "selector": "#hoe-kijk-je",
+        "px": 1600,
+        "capSelector": "#hoe-kijk-je > div.container"
+      },
+      {
+        "index": 7,
+        "selector": "#main-content > div.sd-wrap",
+        "px": 1600,
+        "capSelector": "#tiers > div.container"
+      },
+      {
+        "index": 8,
+        "selector": "#faq",
+        "px": 1600,
+        "capSelector": "#faq > div.container"
+      },
+      {
+        "index": 9,
+        "selector": "#tv-apps",
+        "px": 1600,
+        "capSelector": "#tv-apps > div.container"
+      },
+      {
+        "index": 10,
+        "selector": "#main-content > section.sd-sec.sd-contact",
+        "px": 1600,
+        "capSelector": "#main-content > section.sd-sec.sd-contact > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 289
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1600px = build 1600px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/11",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/11",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 11/11",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-2560/cap-iter.json"
+}

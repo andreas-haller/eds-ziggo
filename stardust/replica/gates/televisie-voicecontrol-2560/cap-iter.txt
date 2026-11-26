@@ -1,0 +1,20 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.ziggo.nl/televisie/voicecontrol
+  modules  10 sections: capped 1600 ×8 · full-bleed ×2
+  contentMaxWidth 1600px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/televisie-voicecontrol-proposed.html
+  modules  10 sections: capped 1600 ×8 · full-bleed ×2
+  contentMaxWidth 1600px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1600px = build 1600px (±20, shared module cap)
+  ✓ module 1/10: full-bleed on both
+  ✓ module 2/10: 1600px = 1600px
+  ✓ module 3/10: 1600px = 1600px
+  ✓ module 4/10: 1600px = 1600px
+  ✓ module 5/10: 1600px = 1600px
+  ✓ module 6/10: 1600px = 1600px
+  ✓ module 7/10: 1600px = 1600px
+  ✓ module 8/10: 1600px = 1600px
+  ✓ module 9/10: 1600px = 1600px
+  ✓ module 10/10: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/televisie-voicecontrol-2560/cap-iter.json)

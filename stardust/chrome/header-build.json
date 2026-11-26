@@ -1,0 +1,6391 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--50ca44c6--aemcoder.aem.live/",
+ "at": "2026-11-26T06:41:39.320Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Privé",
+     "key": "privé",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://main--50ca44c6--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      20,
+      10,
+      72,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Zakelijk",
+     "key": "zakelijk",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://www.ziggo.nl/zakelijk/?intcmp=menu",
+     "expanded": null,
+     "rect": [
+      92,
+      10,
+      87,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ga naar de Ziggo homepage",
+     "key": "ga naar de ziggo homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>a",
+     "href": "https://main--50ca44c6--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      0,
+      61,
+      80,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ziggo Mail",
+     "key": "ziggo mail",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>a:nth-of-type(2)",
+     "href": "https://www.ziggo.nl/mail",
+     "expanded": null,
+     "rect": [
+      141,
+      40,
+      72,
+      72
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open Mijn Ziggo menu",
+     "key": "open mijn ziggo menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>div>button",
+     "expanded": "false",
+     "rect": [
+      213,
+      40,
+      72,
+      72
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Inloggen",
+          "href": "https://www.ziggo.nl/mijn-ziggo"
+         },
+         {
+          "text": "Registreren",
+          "href": "https://login.vodafoneziggo.nl/registreren"
+         },
+         {
+          "text": "Bekijk mijn producten",
+          "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht"
+         },
+         {
+          "text": "Extra zenders wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software"
+         },
+         {
+          "text": "Streamingdiensten wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming"
+         },
+         {
+          "text": "Mijn internetsnelheid wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open"
+         },
+         {
+          "text": "Mijn televisie-pakket wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open"
+         },
+         {
+          "text": "Mijn Vaste Telefonie wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open"
+         },
+         {
+          "text": "Verhuizing doorgeven",
+          "href": "https://shop.ziggo.nl/verhuizen/stappen/1"
+         },
+         {
+          "text": "Bekijk mijn factuur",
+          "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         5,
+         112,
+         280,
+         432
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Open-Mijn-Ziggo-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Inloggen",
+          "href": "https://www.ziggo.nl/mijn-ziggo"
+         },
+         {
+          "text": "Registreren",
+          "href": "https://login.vodafoneziggo.nl/registreren"
+         },
+         {
+          "text": "Bekijk mijn producten",
+          "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht"
+         },
+         {
+          "text": "Extra zenders wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software"
+         },
+         {
+          "text": "Streamingdiensten wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming"
+         },
+         {
+          "text": "Mijn internetsnelheid wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open"
+         },
+         {
+          "text": "Mijn televisie-pakket wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open"
+         },
+         {
+          "text": "Mijn Vaste Telefonie wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open"
+         },
+         {
+          "text": "Verhuizing doorgeven",
+          "href": "https://shop.ziggo.nl/verhuizen/stappen/1"
+         },
+         {
+          "text": "Bekijk mijn factuur",
+          "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         5,
+         112,
+         280,
+         432
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Open-Mijn-Ziggo-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Zoeken",
+     "key": "zoeken",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>button",
+     "expanded": null,
+     "rect": [
+      285,
+      40,
+      55,
+      72
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Menu",
+     "key": "menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>button",
+     "expanded": "false",
+     "rect": [
+      340,
+      40,
+      50,
+      72
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Internet & TV",
+          "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+         },
+         {
+          "text": "Klantenservice",
+          "href": "https://www.ziggo.nl/klantenservice"
+         },
+         {
+          "text": "Storing",
+          "href": "https://www.ziggo.nl/klantenservice/storingen"
+         },
+         {
+          "text": "Entertainment Gids",
+          "href": "https://www.ziggo.nl/entertainment/entertainment-gids"
+         },
+         {
+          "text": "Ziggo GO",
+          "href": "https://www.ziggogo.tv/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Producten",
+         "Klantenservice",
+         "Entertainment"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         40,
+         355,
+         593
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mainnav-panel"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "div.apps"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "li.mainnav-item"
+        }
+       ],
+       "shot": "390-003-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Internet & TV",
+          "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+         },
+         {
+          "text": "Klantenservice",
+          "href": "https://www.ziggo.nl/klantenservice"
+         },
+         {
+          "text": "Storing",
+          "href": "https://www.ziggo.nl/klantenservice/storingen"
+         },
+         {
+          "text": "Entertainment Gids",
+          "href": "https://www.ziggo.nl/entertainment/entertainment-gids"
+         },
+         {
+          "text": "Ziggo GO",
+          "href": "https://www.ziggogo.tv/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Producten",
+         "Klantenservice",
+         "Entertainment"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         40,
+         355,
+         593
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mainnav-panel"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "div.apps"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "li.mainnav-item"
+        }
+       ],
+       "shot": "390-004-Menu-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Producten",
+       "key": "producten",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        20,
+        380,
+        335,
+        59
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Pakketten",
+           "Internet",
+           "Televisie",
+           "Vast Bellen",
+           "Extra Diensten",
+           "Mobiel"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           439,
+           335,
+           314
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-005-Producten-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Pakketten",
+           "Internet",
+           "Televisie",
+           "Vast Bellen",
+           "Extra Diensten",
+           "Mobiel"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           439,
+           335,
+           314
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-006-Producten-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Pakketten",
+         "key": "pakketten",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          443,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Alles-in-1",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/alles-in-1"
+             },
+             {
+              "text": "Internet & TV",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "Internet Only",
+              "href": "https://www.ziggo.nl/internet/internet-only"
+             },
+             {
+              "text": "Televisie",
+              "href": "https://www.ziggo.nl/over-televisie"
+             },
+             {
+              "text": "Vast Bellen",
+              "href": "https://www.ziggo.nl/bellen"
+             },
+             {
+              "text": "Overstappen",
+              "href": "https://www.ziggo.nl/overstappen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             494,
+             303,
+             344
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-007-Pakketten-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Alles-in-1",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/alles-in-1"
+             },
+             {
+              "text": "Internet & TV",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "Internet Only",
+              "href": "https://www.ziggo.nl/internet/internet-only"
+             },
+             {
+              "text": "Televisie",
+              "href": "https://www.ziggo.nl/over-televisie"
+             },
+             {
+              "text": "Vast Bellen",
+              "href": "https://www.ziggo.nl/bellen"
+             },
+             {
+              "text": "Overstappen",
+              "href": "https://www.ziggo.nl/overstappen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             494,
+             303,
+             344
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-008-Pakketten-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Internet",
+         "key": "internet",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          494,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Internet",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/internet"
+             },
+             {
+              "text": "Internet Only",
+              "href": "https://www.ziggo.nl/internet/internet-only"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "Wifi",
+              "href": "https://www.ziggo.nl/internet/wifi"
+             },
+             {
+              "text": "Wifi Garantie",
+              "href": "https://www.ziggo.nl/wifigarantie"
+             },
+             {
+              "text": "SmartWifi",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Installatie zoals jij wil",
+              "href": "https://www.ziggo.nl/installatiehulp"
+             },
+             {
+              "text": "Internetbeveiliging",
+              "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+             },
+             {
+              "text": "Wifiboosters",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Speedtest",
+              "href": "https://www.ziggo.nl/speedtest"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             545,
+             303,
+             299
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-009-Internet-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Internet",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/internet"
+             },
+             {
+              "text": "Internet Only",
+              "href": "https://www.ziggo.nl/internet/internet-only"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "Wifi",
+              "href": "https://www.ziggo.nl/internet/wifi"
+             },
+             {
+              "text": "Wifi Garantie",
+              "href": "https://www.ziggo.nl/wifigarantie"
+             },
+             {
+              "text": "SmartWifi",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Installatie zoals jij wil",
+              "href": "https://www.ziggo.nl/installatiehulp"
+             },
+             {
+              "text": "Internetbeveiliging",
+              "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+             },
+             {
+              "text": "Wifiboosters",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Speedtest",
+              "href": "https://www.ziggo.nl/speedtest"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             545,
+             303,
+             299
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-010-Internet-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Televisie",
+         "key": "televisie",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          545,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Televisie",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+             },
+             {
+              "text": "Pakket samenstellen",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+             },
+             {
+              "text": "Zenderoverzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+             },
+             {
+              "text": "Extra zenders",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Streamingdiensten",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Ziggo GO",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+             },
+             {
+              "text": "Mediaboxen",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/mediaboxen"
+             },
+             {
+              "text": "Extra tv in huis",
+              "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+             },
+             {
+              "text": "ESPN",
+              "href": "https://www.ziggo.nl/televisie/espn/ziggo-klant"
+             },
+             {
+              "text": "Ziggo Sport",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+             },
+             {
+              "text": "UEFA Europees voetbal",
+              "href": "https://www.ziggo.nl/uefa"
+             },
+             {
+              "text": "Movies & Series",
+              "href": "https://www.ziggo.nl/televisie/movies-series"
+             },
+             {
+              "text": "4K TV",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/4k-uhd"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             596,
+             303,
+             248
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-011-Televisie-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Televisie",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+             },
+             {
+              "text": "Pakket samenstellen",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+             },
+             {
+              "text": "Zenderoverzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+             },
+             {
+              "text": "Extra zenders",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Streamingdiensten",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Ziggo GO",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+             },
+             {
+              "text": "Mediaboxen",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/mediaboxen"
+             },
+             {
+              "text": "Extra tv in huis",
+              "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+             },
+             {
+              "text": "ESPN",
+              "href": "https://www.ziggo.nl/televisie/espn/ziggo-klant"
+             },
+             {
+              "text": "Ziggo Sport",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+             },
+             {
+              "text": "UEFA Europees voetbal",
+              "href": "https://www.ziggo.nl/uefa"
+             },
+             {
+              "text": "Movies & Series",
+              "href": "https://www.ziggo.nl/televisie/movies-series"
+             },
+             {
+              "text": "4K TV",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/4k-uhd"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             596,
+             303,
+             248
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-012-Televisie-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Vast Bellen",
+         "key": "vast bellen",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          596,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Vast Bellen",
+              "href": "https://www.ziggo.nl/bellen"
+             },
+             {
+              "text": "Volop Bellen",
+              "href": "https://www.ziggo.nl/bellen/volop-bellen"
+             },
+             {
+              "text": "Extra telefoonlijn",
+              "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+             },
+             {
+              "text": "Tarieven",
+              "href": "https://www.ziggo.nl/tarieven/bellen"
+             },
+             {
+              "text": "Nummerbehoud",
+              "href": "https://www.ziggo.nl/klantenservice/contact/nummerbehoud"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             647,
+             303,
+             197
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-013-Vast-Bellen-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Over Vast Bellen",
+              "href": "https://www.ziggo.nl/bellen"
+             },
+             {
+              "text": "Volop Bellen",
+              "href": "https://www.ziggo.nl/bellen/volop-bellen"
+             },
+             {
+              "text": "Extra telefoonlijn",
+              "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+             },
+             {
+              "text": "Tarieven",
+              "href": "https://www.ziggo.nl/tarieven/bellen"
+             },
+             {
+              "text": "Nummerbehoud",
+              "href": "https://www.ziggo.nl/klantenservice/contact/nummerbehoud"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             647,
+             303,
+             197
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-014-Vast-Bellen-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Extra Diensten",
+         "key": "extra diensten",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(5)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          647,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Extra zenders & streaming",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Extra tv in huis",
+              "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+             },
+             {
+              "text": "Wifiboosters",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Internetbeveiliging",
+              "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+             },
+             {
+              "text": "Volop Bellen",
+              "href": "https://www.ziggo.nl/bellen/volop-bellen"
+             },
+             {
+              "text": "Extra telefoonlijn",
+              "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             698,
+             303,
+             146
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-015-Extra-Diensten-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Extra zenders & streaming",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Extra tv in huis",
+              "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+             },
+             {
+              "text": "Wifiboosters",
+              "href": "https://www.ziggo.nl/internet/smartwifi"
+             },
+             {
+              "text": "Internetbeveiliging",
+              "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+             },
+             {
+              "text": "Volop Bellen",
+              "href": "https://www.ziggo.nl/bellen/volop-bellen"
+             },
+             {
+              "text": "Extra telefoonlijn",
+              "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             698,
+             303,
+             146
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-016-Extra-Diensten-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Mobiel",
+         "key": "mobiel",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(6)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          698,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Vodafone mobiel",
+              "href": "https://www.ziggo.nl/vodafone"
+             },
+             {
+              "text": "Sim Only",
+              "href": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly"
+             },
+             {
+              "text": "Telefoons",
+              "href": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "One van Vodafone & Ziggo",
+              "href": "https://www.ziggo.nl/vodafone"
+             },
+             {
+              "text": "hollandsnieuwe mobiel",
+              "href": "https://www.hollandsnieuwe.nl/mobiel?utm_medium=referral&utm_source=ziggo&utm_campaign=xsellhn2z&utm_content=nav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             749,
+             303,
+             95
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-017-Mobiel-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Vodafone mobiel",
+              "href": "https://www.ziggo.nl/vodafone"
+             },
+             {
+              "text": "Sim Only",
+              "href": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly"
+             },
+             {
+              "text": "Telefoons",
+              "href": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons"
+             },
+             {
+              "text": "Internet & Mobiel",
+              "href": "https://www.ziggo.nl/internet-en-mobiel"
+             },
+             {
+              "text": "One van Vodafone & Ziggo",
+              "href": "https://www.ziggo.nl/vodafone"
+             },
+             {
+              "text": "hollandsnieuwe mobiel",
+              "href": "https://www.hollandsnieuwe.nl/mobiel?utm_medium=referral&utm_source=ziggo&utm_campaign=xsellhn2z&utm_content=nav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             749,
+             303,
+             95
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-018-Mobiel-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Klantenservice",
+       "key": "klantenservice",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        20,
+        439,
+        335,
+        59
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Installeren",
+           "Abonnement",
+           "Factuur",
+           "Televisie & Radio",
+           "Internet & Wifi",
+           "E-mail",
+           "Vast Bellen",
+           "Gamen"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           498,
+           335,
+           346
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-019-Klantenservice-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Installeren",
+           "Abonnement",
+           "Factuur",
+           "Televisie & Radio",
+           "Internet & Wifi",
+           "E-mail",
+           "Vast Bellen",
+           "Gamen"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           498,
+           335,
+           346
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-020-Klantenservice-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Installeren",
+         "key": "installeren",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          502,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/installeren"
+             },
+             {
+              "text": "Wifi aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/wifi-aansluiten#/"
+             },
+             {
+              "text": "TV aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+             },
+             {
+              "text": "Bellen aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             553,
+             303,
+             200
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-021-Installeren-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/installeren"
+             },
+             {
+              "text": "Wifi aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/wifi-aansluiten#/"
+             },
+             {
+              "text": "TV aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+             },
+             {
+              "text": "Bellen aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             553,
+             303,
+             200
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-022-Installeren-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Abonnement",
+         "key": "abonnement",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          553,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement"
+             },
+             {
+              "text": "Gegevens wijzigen",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/gegevens-wijzigen"
+             },
+             {
+              "text": "Bestelling",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/bestelling"
+             },
+             {
+              "text": "Verhuizen",
+              "href": "https://www.ziggo.nl/verhuizing"
+             },
+             {
+              "text": "Opzeggen",
+              "href": "https://www.ziggo.nl/opzeggen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             604,
+             303,
+             240
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-023-Abonnement-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement"
+             },
+             {
+              "text": "Gegevens wijzigen",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/gegevens-wijzigen"
+             },
+             {
+              "text": "Bestelling",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/bestelling"
+             },
+             {
+              "text": "Verhuizen",
+              "href": "https://www.ziggo.nl/verhuizing"
+             },
+             {
+              "text": "Opzeggen",
+              "href": "https://www.ziggo.nl/opzeggen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             604,
+             303,
+             240
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-024-Abonnement-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Factuur",
+         "key": "factuur",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          604,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur"
+             },
+             {
+              "text": "Mijn Ziggo",
+              "href": "https://account.ziggo.nl/account/inloggen?brand=selfcare"
+             },
+             {
+              "text": "Factuur uitleg",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/uitleg"
+             },
+             {
+              "text": "Betalingsmogelijkheden",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betalen"
+             },
+             {
+              "text": "Betaalachterstand",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betaalachterstand"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             655,
+             303,
+             189
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-025-Factuur-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur"
+             },
+             {
+              "text": "Mijn Ziggo",
+              "href": "https://account.ziggo.nl/account/inloggen?brand=selfcare"
+             },
+             {
+              "text": "Factuur uitleg",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/uitleg"
+             },
+             {
+              "text": "Betalingsmogelijkheden",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betalen"
+             },
+             {
+              "text": "Betaalachterstand",
+              "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betaalachterstand"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             655,
+             303,
+             189
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-026-Factuur-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Televisie & Radio",
+         "key": "televisie radio",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          655,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio"
+             },
+             {
+              "text": "Dagpas bestellen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-espn-kijken#dagpas"
+             },
+             {
+              "text": "Hulp met je streamingdiensten",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-streamingdiensten"
+             },
+             {
+              "text": "TV aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+             },
+             {
+              "text": "TV storingen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-hulp-advies#/"
+             },
+             {
+              "text": "TV instellingen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-instellingen"
+             },
+             {
+              "text": "Zenderoverzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             706,
+             303,
+             138
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-027-Televisie-Radio-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio"
+             },
+             {
+              "text": "Dagpas bestellen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-espn-kijken#dagpas"
+             },
+             {
+              "text": "Hulp met je streamingdiensten",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-streamingdiensten"
+             },
+             {
+              "text": "TV aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+             },
+             {
+              "text": "TV storingen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-hulp-advies#/"
+             },
+             {
+              "text": "TV instellingen",
+              "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-instellingen"
+             },
+             {
+              "text": "Zenderoverzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             706,
+             303,
+             138
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-028-Televisie-Radio-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Internet & Wifi",
+         "key": "internet wifi",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(5)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          706,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi"
+             },
+             {
+              "text": "Wifi aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/internet-wifi"
+             },
+             {
+              "text": "Problemen oplossen",
+              "href": "https://www.ziggo.nl/mijn-ziggo/service/smart-troubleshooter"
+             },
+             {
+              "text": "Wifi-tips",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi/wifi-tips"
+             },
+             {
+              "text": "Veiligheid",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi/veiligheid"
+             },
+             {
+              "text": "E-mail",
+              "href": "https://www.ziggo.nl/klantenservice/e-mail"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             757,
+             303,
+             87
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-029-Internet-Wifi-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi"
+             },
+             {
+              "text": "Wifi aansluiten",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/internet-wifi"
+             },
+             {
+              "text": "Problemen oplossen",
+              "href": "https://www.ziggo.nl/mijn-ziggo/service/smart-troubleshooter"
+             },
+             {
+              "text": "Wifi-tips",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi/wifi-tips"
+             },
+             {
+              "text": "Veiligheid",
+              "href": "https://www.ziggo.nl/klantenservice/internet-wifi/veiligheid"
+             },
+             {
+              "text": "E-mail",
+              "href": "https://www.ziggo.nl/klantenservice/e-mail"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             757,
+             303,
+             87
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-030-Internet-Wifi-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "E-mail",
+         "key": "email",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(6)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          757,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/e-mail"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             808,
+             303,
+             36
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-031-E-mail-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/e-mail"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             808,
+             303,
+             36
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-032-E-mail-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Vast Bellen",
+         "key": "vast bellen",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(7)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          808,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/bellen"
+             },
+             {
+              "text": "Installeren",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+             },
+             {
+              "text": "Storingen",
+              "href": "https://www.ziggo.nl/klantenservice/bellen/problemen-oplossen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             844,
+             303,
+             0
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": null
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/bellen"
+             },
+             {
+              "text": "Installeren",
+              "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+             },
+             {
+              "text": "Storingen",
+              "href": "https://www.ziggo.nl/klantenservice/bellen/problemen-oplossen"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             844,
+             303,
+             0
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": null,
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Gamen",
+         "key": "gamen",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(8)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          859,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming"
+             },
+             {
+              "text": "Online gaming tips voor consoles",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/online-instellingen-game-console"
+             },
+             {
+              "text": "Port forwarding",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/nat-port-forwarding"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             844,
+             303,
+             0
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": null
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming"
+             },
+             {
+              "text": "Online gaming tips voor consoles",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/online-instellingen-game-console"
+             },
+             {
+              "text": "Port forwarding",
+              "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/nat-port-forwarding"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             737,
+             303,
+             107
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-033-Gamen-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Entertainment",
+       "key": "entertainment",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        20,
+        498,
+        335,
+        59
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Ontdek",
+           "TV & Streaming",
+           "Ziggo Sport",
+           "Priority Acties"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           557,
+           335,
+           212
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-034-Entertainment-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Ontdek",
+           "TV & Streaming",
+           "Ziggo Sport",
+           "Priority Acties"
+          ],
+          "options": 0,
+          "rect": [
+           20,
+           557,
+           335,
+           212
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "ul.droplet-groups"
+          }
+         ],
+         "shot": "390-035-Entertainment-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Ontdek",
+         "key": "ontdek",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          561,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Entertainment bij Ziggo",
+              "href": "https://www.ziggo.nl/entertainment"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             612,
+             303,
+             56
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-036-Ontdek-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Entertainment bij Ziggo",
+              "href": "https://www.ziggo.nl/entertainment"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             612,
+             303,
+             56
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-037-Ontdek-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "TV & Streaming",
+         "key": "tv streaming",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          612,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+             },
+             {
+              "text": "Extra zenders & streaming",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Ziggo GO",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+             },
+             {
+              "text": "Netflix & Ziggo Sport Totaal bundel",
+              "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix-en-ziggo-sport-totaal"
+             },
+             {
+              "text": "SkyShowtime",
+              "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/skyshowtime/skyshowtime-aanbod"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             663,
+             303,
+             181
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-038-TV-Streaming-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+             },
+             {
+              "text": "Extra zenders & streaming",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+             },
+             {
+              "text": "Ziggo GO",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+             },
+             {
+              "text": "Netflix & Ziggo Sport Totaal bundel",
+              "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix-en-ziggo-sport-totaal"
+             },
+             {
+              "text": "SkyShowtime",
+              "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/skyshowtime/skyshowtime-aanbod"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             663,
+             303,
+             181
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-039-TV-Streaming-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Ziggo Sport",
+         "key": "ziggo sport",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          663,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Ziggo Sport Overzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+             },
+             {
+              "text": "Alle sport bij Ziggo",
+              "href": "https://www.ziggo.nl/televisie/sport"
+             },
+             {
+              "text": "Voetbal",
+              "href": "https://www.ziggo.nl/entertainment/sport/voetbal"
+             },
+             {
+              "text": "UEFA Europees voetbal",
+              "href": "https://www.ziggo.nl/uefa"
+             },
+             {
+              "text": "Voetbal Match Center",
+              "href": "https://www.ziggo.nl/entertainment/entertainment-gids/match-center"
+             },
+             {
+              "text": "Formule 1",
+              "href": "https://www.ziggo.nl/entertainment/sport/formule-1"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             714,
+             303,
+             130
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-040-Ziggo-Sport-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Ziggo Sport Overzicht",
+              "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+             },
+             {
+              "text": "Alle sport bij Ziggo",
+              "href": "https://www.ziggo.nl/televisie/sport"
+             },
+             {
+              "text": "Voetbal",
+              "href": "https://www.ziggo.nl/entertainment/sport/voetbal"
+             },
+             {
+              "text": "UEFA Europees voetbal",
+              "href": "https://www.ziggo.nl/uefa"
+             },
+             {
+              "text": "Voetbal Match Center",
+              "href": "https://www.ziggo.nl/entertainment/entertainment-gids/match-center"
+             },
+             {
+              "text": "Formule 1",
+              "href": "https://www.ziggo.nl/entertainment/sport/formule-1"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             714,
+             303,
+             130
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-041-Ziggo-Sport-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Priority Acties",
+         "key": "priority acties",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          36,
+          714,
+          303,
+          51
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.priority.nl/rewards"
+             },
+             {
+              "text": "Winacties",
+              "href": "https://www.priority.nl/categorie/winnen"
+             },
+             {
+              "text": "Evenementen",
+              "href": "https://www.priority.nl/categorie/events-en-uitjes"
+             },
+             {
+              "text": "Sport",
+              "href": "https://www.priority.nl/categorie/sport"
+             },
+             {
+              "text": "Deals & uitjes",
+              "href": "https://www.priority.nl/categorie/deals"
+             },
+             {
+              "text": "Cadeaus",
+              "href": "https://www.priority.nl/categorie/cadeaus"
+             },
+             {
+              "text": "Upgrade je ticket",
+              "href": "https://www.priority.nl/categorie/priority-upgrade"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             765,
+             303,
+             79
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-042-Priority-Acties-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Overzicht",
+              "href": "https://www.priority.nl/rewards"
+             },
+             {
+              "text": "Winacties",
+              "href": "https://www.priority.nl/categorie/winnen"
+             },
+             {
+              "text": "Evenementen",
+              "href": "https://www.priority.nl/categorie/events-en-uitjes"
+             },
+             {
+              "text": "Sport",
+              "href": "https://www.priority.nl/categorie/sport"
+             },
+             {
+              "text": "Deals & uitjes",
+              "href": "https://www.priority.nl/categorie/deals"
+             },
+             {
+              "text": "Cadeaus",
+              "href": "https://www.priority.nl/categorie/cadeaus"
+             },
+             {
+              "text": "Upgrade je ticket",
+              "href": "https://www.priority.nl/categorie/priority-upgrade"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             36,
+             765,
+             303,
+             79
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "slide-in-nav-items",
+             "ms": 300,
+             "delay": 300,
+             "easing": "linear",
+             "target": "li"
+            }
+           ],
+           "shot": "390-043-Priority-Acties-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 112,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 112,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 46,
+   "truncated": null,
+   "loads": 91,
+   "requests": 4759,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Privé",
+     "key": "privé",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://main--50ca44c6--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      266,
+      10,
+      72,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Zakelijk",
+     "key": "zakelijk",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://www.ziggo.nl/zakelijk/?intcmp=menu",
+     "expanded": null,
+     "rect": [
+      338,
+      10,
+      87,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ga naar de Ziggo homepage",
+     "key": "ga naar de ziggo homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>a",
+     "href": "https://main--50ca44c6--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      152,
+      61,
+      72,
+      30
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Producten",
+     "key": "producten",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      236,
+      40,
+      106,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Internet & TV",
+          "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Pakketten",
+         "Internet",
+         "Televisie",
+         "Vast Bellen",
+         "Extra Diensten",
+         "Mobiel"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-001-Producten-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Internet & TV",
+          "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Pakketten",
+         "Internet",
+         "Televisie",
+         "Vast Bellen",
+         "Extra Diensten",
+         "Mobiel"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-002-Producten-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Pakketten",
+       "key": "pakketten",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        258,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Alles-in-1",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/alles-in-1"
+           },
+           {
+            "text": "Internet & TV",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "Internet Only",
+            "href": "https://www.ziggo.nl/internet/internet-only"
+           },
+           {
+            "text": "Televisie",
+            "href": "https://www.ziggo.nl/over-televisie"
+           },
+           {
+            "text": "Vast Bellen",
+            "href": "https://www.ziggo.nl/bellen"
+           },
+           {
+            "text": "Overstappen",
+            "href": "https://www.ziggo.nl/overstappen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           306,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-003-Pakketten-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Alles-in-1",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/alles-in-1"
+           },
+           {
+            "text": "Internet & TV",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "Internet Only",
+            "href": "https://www.ziggo.nl/internet/internet-only"
+           },
+           {
+            "text": "Televisie",
+            "href": "https://www.ziggo.nl/over-televisie"
+           },
+           {
+            "text": "Vast Bellen",
+            "href": "https://www.ziggo.nl/bellen"
+           },
+           {
+            "text": "Overstappen",
+            "href": "https://www.ziggo.nl/overstappen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           306,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-004-Pakketten-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Internet",
+       "key": "internet",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        310,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Internet",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/internet"
+           },
+           {
+            "text": "Internet Only",
+            "href": "https://www.ziggo.nl/internet/internet-only"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "Wifi",
+            "href": "https://www.ziggo.nl/internet/wifi"
+           },
+           {
+            "text": "Wifi Garantie",
+            "href": "https://www.ziggo.nl/wifigarantie"
+           },
+           {
+            "text": "SmartWifi",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Installatie zoals jij wil",
+            "href": "https://www.ziggo.nl/installatiehulp"
+           },
+           {
+            "text": "Internetbeveiliging",
+            "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+           },
+           {
+            "text": "Wifiboosters",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Speedtest",
+            "href": "https://www.ziggo.nl/speedtest"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           358,
+           288,
+           432
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-005-Internet-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Internet",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/internet"
+           },
+           {
+            "text": "Internet Only",
+            "href": "https://www.ziggo.nl/internet/internet-only"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "Wifi",
+            "href": "https://www.ziggo.nl/internet/wifi"
+           },
+           {
+            "text": "Wifi Garantie",
+            "href": "https://www.ziggo.nl/wifigarantie"
+           },
+           {
+            "text": "SmartWifi",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Installatie zoals jij wil",
+            "href": "https://www.ziggo.nl/installatiehulp"
+           },
+           {
+            "text": "Internetbeveiliging",
+            "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+           },
+           {
+            "text": "Wifiboosters",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Speedtest",
+            "href": "https://www.ziggo.nl/speedtest"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           358,
+           288,
+           432
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-006-Internet-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Televisie",
+       "key": "televisie",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        362,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Televisie",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+           },
+           {
+            "text": "Pakket samenstellen",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+           },
+           {
+            "text": "Zenderoverzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+           },
+           {
+            "text": "Extra zenders",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Streamingdiensten",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Ziggo GO",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+           },
+           {
+            "text": "Mediaboxen",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/mediaboxen"
+           },
+           {
+            "text": "Extra tv in huis",
+            "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+           },
+           {
+            "text": "ESPN",
+            "href": "https://www.ziggo.nl/televisie/espn/ziggo-klant"
+           },
+           {
+            "text": "Ziggo Sport",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+           },
+           {
+            "text": "UEFA Europees voetbal",
+            "href": "https://www.ziggo.nl/uefa"
+           },
+           {
+            "text": "Movies & Series",
+            "href": "https://www.ziggo.nl/televisie/movies-series"
+           },
+           {
+            "text": "4K TV",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/4k-uhd"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           410,
+           288,
+           490
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-007-Televisie-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Televisie",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+           },
+           {
+            "text": "Pakket samenstellen",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/tv-internet"
+           },
+           {
+            "text": "Zenderoverzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+           },
+           {
+            "text": "Extra zenders",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Streamingdiensten",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Ziggo GO",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+           },
+           {
+            "text": "Mediaboxen",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/mediaboxen"
+           },
+           {
+            "text": "Extra tv in huis",
+            "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+           },
+           {
+            "text": "ESPN",
+            "href": "https://www.ziggo.nl/televisie/espn/ziggo-klant"
+           },
+           {
+            "text": "Ziggo Sport",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+           },
+           {
+            "text": "UEFA Europees voetbal",
+            "href": "https://www.ziggo.nl/uefa"
+           },
+           {
+            "text": "Movies & Series",
+            "href": "https://www.ziggo.nl/televisie/movies-series"
+           },
+           {
+            "text": "4K TV",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/4k-uhd"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           410,
+           288,
+           490
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-008-Televisie-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Vast Bellen",
+       "key": "vast bellen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        414,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Vast Bellen",
+            "href": "https://www.ziggo.nl/bellen"
+           },
+           {
+            "text": "Volop Bellen",
+            "href": "https://www.ziggo.nl/bellen/volop-bellen"
+           },
+           {
+            "text": "Extra telefoonlijn",
+            "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+           },
+           {
+            "text": "Tarieven",
+            "href": "https://www.ziggo.nl/tarieven/bellen"
+           },
+           {
+            "text": "Nummerbehoud",
+            "href": "https://www.ziggo.nl/klantenservice/contact/nummerbehoud"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           462,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-009-Vast-Bellen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Over Vast Bellen",
+            "href": "https://www.ziggo.nl/bellen"
+           },
+           {
+            "text": "Volop Bellen",
+            "href": "https://www.ziggo.nl/bellen/volop-bellen"
+           },
+           {
+            "text": "Extra telefoonlijn",
+            "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+           },
+           {
+            "text": "Tarieven",
+            "href": "https://www.ziggo.nl/tarieven/bellen"
+           },
+           {
+            "text": "Nummerbehoud",
+            "href": "https://www.ziggo.nl/klantenservice/contact/nummerbehoud"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           462,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-010-Vast-Bellen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Extra Diensten",
+       "key": "extra diensten",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        466,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Extra zenders & streaming",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Extra tv in huis",
+            "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+           },
+           {
+            "text": "Wifiboosters",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Internetbeveiliging",
+            "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+           },
+           {
+            "text": "Volop Bellen",
+            "href": "https://www.ziggo.nl/bellen/volop-bellen"
+           },
+           {
+            "text": "Extra telefoonlijn",
+            "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           514,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-011-Extra-Diensten-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Extra zenders & streaming",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Extra tv in huis",
+            "href": "https://www.ziggo.nl/televisie/mediaboxen/extra"
+           },
+           {
+            "text": "Wifiboosters",
+            "href": "https://www.ziggo.nl/internet/smartwifi"
+           },
+           {
+            "text": "Internetbeveiliging",
+            "href": "https://www.ziggo.nl/internet/internetbeveiliging"
+           },
+           {
+            "text": "Volop Bellen",
+            "href": "https://www.ziggo.nl/bellen/volop-bellen"
+           },
+           {
+            "text": "Extra telefoonlijn",
+            "href": "https://www.ziggo.nl/bellen/extra-telefoonlijn"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           514,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-012-Extra-Diensten-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Mobiel",
+       "key": "mobiel",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-1>ul:nth-of-type(2)>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        518,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Vodafone mobiel",
+            "href": "https://www.ziggo.nl/vodafone"
+           },
+           {
+            "text": "Sim Only",
+            "href": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly"
+           },
+           {
+            "text": "Telefoons",
+            "href": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "One van Vodafone & Ziggo",
+            "href": "https://www.ziggo.nl/vodafone"
+           },
+           {
+            "text": "hollandsnieuwe mobiel",
+            "href": "https://www.hollandsnieuwe.nl/mobiel?utm_medium=referral&utm_source=ziggo&utm_campaign=xsellhn2z&utm_content=nav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           566,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-013-Mobiel-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Vodafone mobiel",
+            "href": "https://www.ziggo.nl/vodafone"
+           },
+           {
+            "text": "Sim Only",
+            "href": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly"
+           },
+           {
+            "text": "Telefoons",
+            "href": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons"
+           },
+           {
+            "text": "Internet & Mobiel",
+            "href": "https://www.ziggo.nl/internet-en-mobiel"
+           },
+           {
+            "text": "One van Vodafone & Ziggo",
+            "href": "https://www.ziggo.nl/vodafone"
+           },
+           {
+            "text": "hollandsnieuwe mobiel",
+            "href": "https://www.hollandsnieuwe.nl/mobiel?utm_medium=referral&utm_source=ziggo&utm_campaign=xsellhn2z&utm_content=nav"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           566,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-014-Mobiel-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Klantenservice",
+     "key": "klantenservice",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      361,
+      40,
+      138,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Klantenservice",
+          "href": "https://www.ziggo.nl/klantenservice"
+         },
+         {
+          "text": "Storing",
+          "href": "https://www.ziggo.nl/klantenservice/storingen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Installeren",
+         "Abonnement",
+         "Factuur",
+         "Televisie & Radio",
+         "Internet & Wifi",
+         "E-mail",
+         "Vast Bellen",
+         "Gamen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-015-Klantenservice-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Klantenservice",
+          "href": "https://www.ziggo.nl/klantenservice"
+         },
+         {
+          "text": "Storing",
+          "href": "https://www.ziggo.nl/klantenservice/storingen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Installeren",
+         "Abonnement",
+         "Factuur",
+         "Televisie & Radio",
+         "Internet & Wifi",
+         "E-mail",
+         "Vast Bellen",
+         "Gamen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-016-Klantenservice-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Installeren",
+       "key": "installeren",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        303,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/installeren"
+           },
+           {
+            "text": "Wifi aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/wifi-aansluiten#/"
+           },
+           {
+            "text": "TV aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+           },
+           {
+            "text": "Bellen aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           351,
+           288,
+           173
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-017-Installeren-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/installeren"
+           },
+           {
+            "text": "Wifi aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/wifi-aansluiten#/"
+           },
+           {
+            "text": "TV aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+           },
+           {
+            "text": "Bellen aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           351,
+           288,
+           173
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-018-Installeren-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Abonnement",
+       "key": "abonnement",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        355,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement"
+           },
+           {
+            "text": "Gegevens wijzigen",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/gegevens-wijzigen"
+           },
+           {
+            "text": "Bestelling",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/bestelling"
+           },
+           {
+            "text": "Verhuizen",
+            "href": "https://www.ziggo.nl/verhuizing"
+           },
+           {
+            "text": "Opzeggen",
+            "href": "https://www.ziggo.nl/opzeggen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           403,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-019-Abonnement-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement"
+           },
+           {
+            "text": "Gegevens wijzigen",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/gegevens-wijzigen"
+           },
+           {
+            "text": "Bestelling",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/bestelling"
+           },
+           {
+            "text": "Verhuizen",
+            "href": "https://www.ziggo.nl/verhuizing"
+           },
+           {
+            "text": "Opzeggen",
+            "href": "https://www.ziggo.nl/opzeggen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           403,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-020-Abonnement-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Factuur",
+       "key": "factuur",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        407,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur"
+           },
+           {
+            "text": "Mijn Ziggo",
+            "href": "https://account.ziggo.nl/account/inloggen?brand=selfcare"
+           },
+           {
+            "text": "Factuur uitleg",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/uitleg"
+           },
+           {
+            "text": "Betalingsmogelijkheden",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betalen"
+           },
+           {
+            "text": "Betaalachterstand",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betaalachterstand"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           455,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-021-Factuur-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur"
+           },
+           {
+            "text": "Mijn Ziggo",
+            "href": "https://account.ziggo.nl/account/inloggen?brand=selfcare"
+           },
+           {
+            "text": "Factuur uitleg",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/uitleg"
+           },
+           {
+            "text": "Betalingsmogelijkheden",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betalen"
+           },
+           {
+            "text": "Betaalachterstand",
+            "href": "https://www.ziggo.nl/klantenservice/abonnement/factuur/betaalachterstand"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           455,
+           288,
+           216
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-022-Factuur-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Televisie & Radio",
+       "key": "televisie radio",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        459,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio"
+           },
+           {
+            "text": "Dagpas bestellen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-espn-kijken#dagpas"
+           },
+           {
+            "text": "Hulp met je streamingdiensten",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-streamingdiensten"
+           },
+           {
+            "text": "TV aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+           },
+           {
+            "text": "TV storingen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-hulp-advies#/"
+           },
+           {
+            "text": "TV instellingen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-instellingen"
+           },
+           {
+            "text": "Zenderoverzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           507,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-023-Televisie-Radio-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio"
+           },
+           {
+            "text": "Dagpas bestellen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-espn-kijken#dagpas"
+           },
+           {
+            "text": "Hulp met je streamingdiensten",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/hulp-met-streamingdiensten"
+           },
+           {
+            "text": "TV aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/tv-aansluiten"
+           },
+           {
+            "text": "TV storingen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-hulp-advies#/"
+           },
+           {
+            "text": "TV instellingen",
+            "href": "https://www.ziggo.nl/klantenservice/televisie-radio/tv-instellingen"
+           },
+           {
+            "text": "Zenderoverzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenderoverzicht"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           507,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-024-Televisie-Radio-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Internet & Wifi",
+       "key": "internet wifi",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        511,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi"
+           },
+           {
+            "text": "Wifi aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/internet-wifi"
+           },
+           {
+            "text": "Problemen oplossen",
+            "href": "https://www.ziggo.nl/mijn-ziggo/service/smart-troubleshooter"
+           },
+           {
+            "text": "Wifi-tips",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi/wifi-tips"
+           },
+           {
+            "text": "Veiligheid",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi/veiligheid"
+           },
+           {
+            "text": "E-mail",
+            "href": "https://www.ziggo.nl/klantenservice/e-mail"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           559,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-025-Internet-Wifi-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi"
+           },
+           {
+            "text": "Wifi aansluiten",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/internet-wifi"
+           },
+           {
+            "text": "Problemen oplossen",
+            "href": "https://www.ziggo.nl/mijn-ziggo/service/smart-troubleshooter"
+           },
+           {
+            "text": "Wifi-tips",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi/wifi-tips"
+           },
+           {
+            "text": "Veiligheid",
+            "href": "https://www.ziggo.nl/klantenservice/internet-wifi/veiligheid"
+           },
+           {
+            "text": "E-mail",
+            "href": "https://www.ziggo.nl/klantenservice/e-mail"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           559,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-026-Internet-Wifi-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "E-mail",
+       "key": "email",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        563,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/e-mail"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           611,
+           288,
+           43
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-027-E-mail-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/e-mail"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           611,
+           288,
+           43
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-028-E-mail-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Vast Bellen",
+       "key": "vast bellen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(7)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        615,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/bellen"
+           },
+           {
+            "text": "Installeren",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+           },
+           {
+            "text": "Storingen",
+            "href": "https://www.ziggo.nl/klantenservice/bellen/problemen-oplossen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           663,
+           288,
+           130
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-029-Vast-Bellen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/bellen"
+           },
+           {
+            "text": "Installeren",
+            "href": "https://www.ziggo.nl/klantenservice/installeren/vast-bellen-installeren"
+           },
+           {
+            "text": "Storingen",
+            "href": "https://www.ziggo.nl/klantenservice/bellen/problemen-oplossen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           663,
+           288,
+           130
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-030-Vast-Bellen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Gamen",
+       "key": "gamen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-2>ul:nth-of-type(2)>li:nth-of-type(8)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        667,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming"
+           },
+           {
+            "text": "Online gaming tips voor consoles",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/online-instellingen-game-console"
+           },
+           {
+            "text": "Port forwarding",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/nat-port-forwarding"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           715,
+           288,
+           130
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-031-Gamen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming"
+           },
+           {
+            "text": "Online gaming tips voor consoles",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/online-instellingen-game-console"
+           },
+           {
+            "text": "Port forwarding",
+            "href": "https://www.ziggo.nl/klantenservice/hulp-bij-gaming/nat-port-forwarding"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           715,
+           288,
+           130
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-032-Gamen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Entertainment",
+     "key": "entertainment",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#drawer>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      519,
+      40,
+      137,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Entertainment Gids",
+          "href": "https://www.ziggo.nl/entertainment/entertainment-gids"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Ontdek",
+         "TV & Streaming",
+         "Ziggo Sport",
+         "Priority Acties"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-033-Entertainment-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Entertainment Gids",
+          "href": "https://www.ziggo.nl/entertainment/entertainment-gids"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Ontdek",
+         "TV & Streaming",
+         "Ziggo Sport",
+         "Priority Acties"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         112,
+         400,
+         788
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "slide-in-left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.droplet"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.nav-backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "slide-in-nav-items",
+         "ms": 300,
+         "delay": 300,
+         "easing": "linear",
+         "target": "ul.droplet-groups"
+        }
+       ],
+       "shot": "1440-034-Entertainment-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Ontdek",
+       "key": "ontdek",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        258,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Entertainment bij Ziggo",
+            "href": "https://www.ziggo.nl/entertainment"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           306,
+           288,
+           43
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-035-Ontdek-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Entertainment bij Ziggo",
+            "href": "https://www.ziggo.nl/entertainment"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           306,
+           288,
+           43
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-036-Ontdek-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "TV & Streaming",
+       "key": "tv streaming",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        310,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+           },
+           {
+            "text": "Extra zenders & streaming",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Ziggo GO",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+           },
+           {
+            "text": "Netflix & Ziggo Sport Totaal bundel",
+            "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix-en-ziggo-sport-totaal"
+           },
+           {
+            "text": "SkyShowtime",
+            "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/skyshowtime/skyshowtime-aanbod"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           358,
+           288,
+           235
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-037-TV-Streaming-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie"
+           },
+           {
+            "text": "Extra zenders & streaming",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/extra-zenders-streamingdiensten"
+           },
+           {
+            "text": "Ziggo GO",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-go"
+           },
+           {
+            "text": "Netflix & Ziggo Sport Totaal bundel",
+            "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix-en-ziggo-sport-totaal"
+           },
+           {
+            "text": "SkyShowtime",
+            "href": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/skyshowtime/skyshowtime-aanbod"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           358,
+           288,
+           235
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-038-TV-Streaming-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Ziggo Sport",
+       "key": "ziggo sport",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        362,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Ziggo Sport Overzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+           },
+           {
+            "text": "Alle sport bij Ziggo",
+            "href": "https://www.ziggo.nl/televisie/sport"
+           },
+           {
+            "text": "Voetbal",
+            "href": "https://www.ziggo.nl/entertainment/sport/voetbal"
+           },
+           {
+            "text": "UEFA Europees voetbal",
+            "href": "https://www.ziggo.nl/uefa"
+           },
+           {
+            "text": "Voetbal Match Center",
+            "href": "https://www.ziggo.nl/entertainment/entertainment-gids/match-center"
+           },
+           {
+            "text": "Formule 1",
+            "href": "https://www.ziggo.nl/entertainment/sport/formule-1"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           410,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-039-Ziggo-Sport-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Ziggo Sport Overzicht",
+            "href": "https://main--50ca44c6--aemcoder.aem.live/televisie/ziggo-sport"
+           },
+           {
+            "text": "Alle sport bij Ziggo",
+            "href": "https://www.ziggo.nl/televisie/sport"
+           },
+           {
+            "text": "Voetbal",
+            "href": "https://www.ziggo.nl/entertainment/sport/voetbal"
+           },
+           {
+            "text": "UEFA Europees voetbal",
+            "href": "https://www.ziggo.nl/uefa"
+           },
+           {
+            "text": "Voetbal Match Center",
+            "href": "https://www.ziggo.nl/entertainment/entertainment-gids/match-center"
+           },
+           {
+            "text": "Formule 1",
+            "href": "https://www.ziggo.nl/entertainment/sport/formule-1"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           410,
+           288,
+           259
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-040-Ziggo-Sport-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Priority Acties",
+       "key": "priority acties",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#droplet-3>ul:nth-of-type(2)>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        56,
+        414,
+        288,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.priority.nl/rewards"
+           },
+           {
+            "text": "Winacties",
+            "href": "https://www.priority.nl/categorie/winnen"
+           },
+           {
+            "text": "Evenementen",
+            "href": "https://www.priority.nl/categorie/events-en-uitjes"
+           },
+           {
+            "text": "Sport",
+            "href": "https://www.priority.nl/categorie/sport"
+           },
+           {
+            "text": "Deals & uitjes",
+            "href": "https://www.priority.nl/categorie/deals"
+           },
+           {
+            "text": "Cadeaus",
+            "href": "https://www.priority.nl/categorie/cadeaus"
+           },
+           {
+            "text": "Upgrade je ticket",
+            "href": "https://www.priority.nl/categorie/priority-upgrade"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           462,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-041-Priority-Acties-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Overzicht",
+            "href": "https://www.priority.nl/rewards"
+           },
+           {
+            "text": "Winacties",
+            "href": "https://www.priority.nl/categorie/winnen"
+           },
+           {
+            "text": "Evenementen",
+            "href": "https://www.priority.nl/categorie/events-en-uitjes"
+           },
+           {
+            "text": "Sport",
+            "href": "https://www.priority.nl/categorie/sport"
+           },
+           {
+            "text": "Deals & uitjes",
+            "href": "https://www.priority.nl/categorie/deals"
+           },
+           {
+            "text": "Cadeaus",
+            "href": "https://www.priority.nl/categorie/cadeaus"
+           },
+           {
+            "text": "Upgrade je ticket",
+            "href": "https://www.priority.nl/categorie/priority-upgrade"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           56,
+           462,
+           288,
+           302
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "slide-in-nav-items",
+           "ms": 300,
+           "delay": 300,
+           "easing": "linear",
+           "target": "li"
+          }
+         ],
+         "shot": "1440-042-Priority-Acties-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Ziggo GO",
+     "key": "ziggo go",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>a:nth-of-type(1)",
+     "href": "https://www.ziggogo.tv/",
+     "expanded": null,
+     "rect": [
+      986,
+      40,
+      74,
+      72
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ziggo Mail",
+     "key": "ziggo mail",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>a:nth-of-type(2)",
+     "href": "https://www.ziggo.nl/mail",
+     "expanded": null,
+     "rect": [
+      1060,
+      40,
+      80,
+      72
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open Mijn Ziggo menu",
+     "key": "open mijn ziggo menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>div>button",
+     "expanded": "false",
+     "rect": [
+      1140,
+      40,
+      80,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Inloggen",
+          "href": "https://www.ziggo.nl/mijn-ziggo"
+         },
+         {
+          "text": "Registreren",
+          "href": "https://login.vodafoneziggo.nl/registreren"
+         },
+         {
+          "text": "Bekijk mijn producten",
+          "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht"
+         },
+         {
+          "text": "Extra zenders wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software"
+         },
+         {
+          "text": "Streamingdiensten wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming"
+         },
+         {
+          "text": "Mijn internetsnelheid wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open"
+         },
+         {
+          "text": "Mijn televisie-pakket wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open"
+         },
+         {
+          "text": "Mijn Vaste Telefonie wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open"
+         },
+         {
+          "text": "Verhuizing doorgeven",
+          "href": "https://shop.ziggo.nl/verhuizen/stappen/1"
+         },
+         {
+          "text": "Bekijk mijn factuur",
+          "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         940,
+         112,
+         280,
+         432
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-043-Open-Mijn-Ziggo-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Inloggen",
+          "href": "https://www.ziggo.nl/mijn-ziggo"
+         },
+         {
+          "text": "Registreren",
+          "href": "https://login.vodafoneziggo.nl/registreren"
+         },
+         {
+          "text": "Bekijk mijn producten",
+          "href": "https://www.ziggo.nl/mijn-ziggo/producten/overzicht"
+         },
+         {
+          "text": "Extra zenders wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software"
+         },
+         {
+          "text": "Streamingdiensten wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming"
+         },
+         {
+          "text": "Mijn internetsnelheid wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open"
+         },
+         {
+          "text": "Mijn televisie-pakket wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open"
+         },
+         {
+          "text": "Mijn Vaste Telefonie wijzigen",
+          "href": "https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open"
+         },
+         {
+          "text": "Verhuizing doorgeven",
+          "href": "https://shop.ziggo.nl/verhuizen/stappen/1"
+         },
+         {
+          "text": "Bekijk mijn factuur",
+          "href": "https://www.ziggo.nl/mijn-ziggo/facturen/overzicht"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         940,
+         112,
+         280,
+         432
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-044-Open-Mijn-Ziggo-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Zoeken",
+     "key": "zoeken",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(2)>div>div>button",
+     "expanded": null,
+     "rect": [
+      1220,
+      40,
+      68,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 112,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 112,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 44,
+   "truncated": null,
+   "loads": 91,
+   "requests": 4863,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  }
+ },
+ "probe": null
+}

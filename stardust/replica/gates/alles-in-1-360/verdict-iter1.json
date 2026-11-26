@@ -1,0 +1,112 @@
+{
+  "round": "iter1",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/alles-in-1-360/diff-iter1.png",
+    "json": "stardust/replica/gates/alles-in-1-360/pixel-iter1.json",
+    "pct": 5.54,
+    "alignedPct": 2,
+    "alignedUsed": true,
+    "totalShift": 22,
+    "steps": [
+      {
+        "y": 908,
+        "shift": 2,
+        "cumulative": 2
+      },
+      {
+        "y": 2128,
+        "shift": 1,
+        "cumulative": 3
+      },
+      {
+        "y": 2464,
+        "shift": -1,
+        "cumulative": 2
+      },
+      {
+        "y": 2598,
+        "shift": 1,
+        "cumulative": 3
+      },
+      {
+        "y": 2898,
+        "shift": -1,
+        "cumulative": 2
+      },
+      {
+        "y": 3047,
+        "shift": 1,
+        "cumulative": 3
+      },
+      {
+        "y": 3358,
+        "shift": -1,
+        "cumulative": 2
+      },
+      {
+        "y": 3507,
+        "shift": 1,
+        "cumulative": 3
+      },
+      {
+        "y": 3818,
+        "shift": -1,
+        "cumulative": 2
+      },
+      {
+        "y": 3966,
+        "shift": 1,
+        "cumulative": 3
+      },
+      {
+        "y": 4288,
+        "shift": -1,
+        "cumulative": 2
+      },
+      {
+        "y": 4436,
+        "shift": 1,
+        "cumulative": 3
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 19 step(s), 22px total — +2px at y=908, +1px at y=2128, −1px at y=2464, +1px at y=2598, −1px at y=2898, +1px at y=3047, … 13 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T12:26:46.681Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-360/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-360/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/alles-in-1-360/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-360/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/alles-in-1-360/units-iter1.txt"
+    }
+  },
+  "structural": 1,
+  "nothingLost": 4,
+  "at": "2026-11-25T12:29:54.966Z"
+}

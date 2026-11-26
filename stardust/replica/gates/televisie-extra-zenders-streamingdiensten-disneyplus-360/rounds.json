@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T19:17:09.512Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T19:22:14.456Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T19:25:30.533Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub4",
+          "at": "2026-11-25T19:28:10.439Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "extend",
+          "reason": "instrument defect: pub3 captured the stale (pre-push CDN) build — evidence stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/stale-capture-pub3.txt",
+          "at": "2026-11-25T19:26:03.650Z",
+          "counted": 3
+        },
+        {
+          "decision": "accept-residual",
+          "reason": "pub4: pixel aligned 3.27% offsets 56px in bound (bound 75), clipped 0, no overflow, content-presence MISSING 0/HIDDEN 0; post-cap fix 7ae2f83 (feature icon 37px off measure.mjs live w37 vs build w31; tabs tier band white + card x40 w280 off measure.mjs live .tab-body) verified by gate-all 360 PASS aligned 2.38%; residual = chrome-parity header logo signature .svg extension (frozen foundation, request filed), nothing-lost: source tab-scroller arrow buttons 'scroll tabs naar links/rechts' (build tabs fit 320px, role=tab divs keep authored labels editable), header link title attributes (foundation), MISSING BODY tier rows classifier artefact (same at 1440; band text 7/7); Δh -42 from the -48px step at y5892 (FAQ/apps band)",
+          "at": "2026-11-25T19:56:22.567Z",
+          "counted": 4
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T19-54-03-173Z",
+          "at": "2026-11-25T19:56:03.764Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:26:42.285Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:09:47.041Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

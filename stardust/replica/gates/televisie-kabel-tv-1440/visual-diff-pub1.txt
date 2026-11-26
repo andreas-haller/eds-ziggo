@@ -1,0 +1,286 @@
+[live-session] www.ziggo.nl: 50 clean navigations at 1000 ms — 2 in flight again
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-kabel-tv-1440/vdiff-pub1/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 9 images, build renders 3. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+  • SURFACE/GROUND MISMATCH: heading "Kabel TV" is rgb(255, 255, 255) in build vs rgb(255, 95, 0) in source (luminance 255 vs 132). A matched heading renders on a different ground (dark vs light) — check the section background.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2022,
+  "textLen": 921,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_header20_Ziggo_B2C_KabelTV_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "loader.gif",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "loader.gif",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkabel-tv&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=b0f1fd62-b802-42cf-bde9-6f223cef10e2&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Kabel%20TV%3A%20voordelig%20tv%20kijken%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkabel-tv&r=&lt=3547&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=772677",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=b0f1fd62-b802-42cf-bde9-6f223cef10e2&bo=4&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&ec=b2c%2Facq%2Fmain-product%2Fcatv&el=kabel%20tv%2Cconverged%3Dunknown%2CcustStatus.ziggo%3DprobNonCust&ev=25.42&gc=EUR&tpp=1&ea=pdp&en=Y&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fkabel-tv&sw=1440&sh=1000&sc=24&evt=custom&asc=G&cdb=AQED&rn=553378",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Kabel TV",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Check je beschikbaarheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dit zit er in je pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kabel TV",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "vfz-sticky-page-section__wrapper",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 1136,
+    "left": 152
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2020,
+  "textLen": 954,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a76572815fe941785a782d7aea621f6100d519e6.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x463",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1891046d02ffd3326b42411cfbd4af9b6dd5a59cd.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "2000x453",
+    "rendered": "1440x400",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Kabel TV",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Check je beschikbaarheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Dit zit er in je pakket",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kabel TV",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "address-checker",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "bundle-builder",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "faq-inner",
+    "width": 1200,
+    "left": 120
+   }
+  ]
+ }
+}

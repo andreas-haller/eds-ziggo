@@ -1,0 +1,567 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 752 ms
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 258 text nodes — 18 headings, 0 eyebrows, 144 CTAs, 96 body; 240 img
+  build: 195 text nodes — 18 headings, 0 eyebrows, 95 CTAs, 82 body; 230 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 25
+  attributes (placeholder/aria-label/title): source 17 / build 14; icons: source 277 / build 221
+  accepted (invisible, nothing lost): 4 SAME IMAGE — "Ziggo_48x48 ↔ Ziggo_48x48.svg", "Vodafone_48x48 ↔ Vodafone_48x48.svg", "DoubleData_48x48 ↔ DoubleData_48x48.svg", "ziggo%20sport.svg ↔ ziggo-sport.svg"
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 267 text nodes — 0 headings, 0 eyebrows, 213 CTAs, 54 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 15
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 245
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 545 (199 structural 🔴)
+Tiers: looks-same 🔴 199 · nothing-lost 🟡 8 · accepted 🟢 4 (owner 0, auto 4) · advisory 338
+  🔴 ROLE SWAP [#main-content]: "Internet & TV" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [#main-content]: "Internet Only" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING HEADING [#main-content]: source heading "Internet Only" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#main-content]: source heading "Internet & TV" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer Rondo | Ziggo Sport" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=2812 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3842 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3843 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3844 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3847 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3861 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3886 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3885 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3884 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3883 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3882 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3881 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3896 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3906 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3927 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3941 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3953 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3955 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3952 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3951 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3989 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3988 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3987 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3986 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3985 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3975 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3970 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3971 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3842 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3843 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3844 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3847 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3861 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3886 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3885 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3884 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3883 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3882 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3881 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3896 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3906 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3927 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3941 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3953 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3955 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3952 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3951 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3989 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3988 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3987 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3986 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3985 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3975 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3970 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Bekijk meer" → https://www.ziggo.nl/entertainment/entertainment-gids?expand=3971 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#main-content]: source cta "Ontdek het allemaal" → https://www.ziggo.nl/entertainment/entertainment-gids has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ICON DIFF [#main-content]: source image hbo%20max.svg (32×32) vs build image hbo-max.svg (32×32) at "bekijk meer over youth | seizoen 1 bekij". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image hbo%20max.svg (32×32) vs build image hbo-max.svg (32×32) at "bekijk meer over harry potter en de stee". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image movies%20en%20series.svg (32×32) vs build image movies-en-series.svg (32×32) at "bekijk meer over sherwood | seizoen 2 be". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image apple%20tv.svg (32×32) vs build image apple-tv.svg (32×32) at "bekijk meer over matchbox the movie beki". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image prime%20video.svg (32×32) vs build image prime-video.svg (32×32) at "bekijk meer over carrie | seizoen 1 beki". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image npo%20start.svg (32×32) vs build image npo-start.svg (32×32) at "bekijk meer over flikken rotterdam | sei". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image npo%20start.svg (32×32) vs build image npo-start.svg (32×32) at "bekijk meer over villa fomo | seizoen 2 ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image npo%20start.svg (32×32) vs build image npo-start.svg (32×32) at "bekijk meer over wie is de mol? - npo st". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image apple%20tv.svg (32×32) vs build image apple-tv.svg (32×32) at "bekijk meer over nocturne | seizoen 1 be". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image hbo%20max.svg (32×32) vs build image hbo-max.svg (32×32) at "bekijk meer over the gilded age | seizoe". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image hbo%20max.svg (32×32) vs build image hbo-max.svg (32×32) at "bekijk meer over jeroen's abandoned adve". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image prime%20video.svg (32×32) vs build image prime-video.svg (32×32) at "bekijk meer over the lord of the rings: ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image hbo%20max.svg (32×32) vs build image hbo-max.svg (32×32) at "bekijk meer over crystal lake | seizoen ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image prime%20video.svg (32×32) vs build image prime-video.svg (32×32) at "bekijk meer over lol: last one laughing ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image prime%20video.svg (32×32) vs build image prime-video.svg (32×32) at "bekijk meer over blade runner 2099 | sei". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over curse of skinwalker ran" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over rondo bekijk meer rondo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over eredivisie | speelronde" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over gp van singapore bekijk" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image hbo%20max.svg (32×32) at "bekijk meer over youth | seizoen 1 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over youth | seizoen 1 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image hbo%20max.svg (32×32) at "bekijk meer over harry potter en de stee" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over harry potter en de stee" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over bureau groningen bekijk" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over the diplomat | seizoen " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over love island vips bekijk" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over gooische vrouwen | seiz" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image movies%20en%20series.svg (32×32) at "bekijk meer over sherwood | seizoen 2 be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over sherwood | seizoen 2 be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image apple%20tv.svg (32×32) at "bekijk meer over matchbox the movie beki" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over matchbox the movie beki" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image prime%20video.svg (32×32) at "bekijk meer over carrie | seizoen 1 beki" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over carrie | seizoen 1 beki" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image npo%20start.svg (32×32) at "bekijk meer over flikken rotterdam | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over flikken rotterdam | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image npo%20start.svg (32×32) at "bekijk meer over villa fomo | seizoen 2 " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over villa fomo | seizoen 2 " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image npo%20start.svg (32×32) at "bekijk meer over wie is de mol? - npo st" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over wie is de mol? - npo st" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over nobody wants this | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over marshals | seizoen 2 be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over dexter: resurrection | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over tulsa king | seizoen 4 " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image apple%20tv.svg (32×32) at "bekijk meer over nocturne | seizoen 1 be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over nocturne | seizoen 1 be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image hbo%20max.svg (32×32) at "bekijk meer over the gilded age | seizoe" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over the gilded age | seizoe" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image hbo%20max.svg (32×32) at "bekijk meer over jeroen's abandoned adve" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over jeroen's abandoned adve" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image prime%20video.svg (32×32) at "bekijk meer over the lord of the rings: " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over the lord of the rings: " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image hbo%20max.svg (32×32) at "bekijk meer over crystal lake | seizoen " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over crystal lake | seizoen " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image prime%20video.svg (32×32) at "bekijk meer over lol: last one laughing " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over lol: last one laughing " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image prime%20video.svg (32×32) at "bekijk meer over blade runner 2099 | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over blade runner 2099 | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ICON DIFF [#main-content]: source image apple%20tv.svg (32×32) vs build image apple-tv.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image movies%20en%20series.svg (32×32) vs build image movies-en-series.svg (32×32) at "bekijk meer over atlantic crossing | sei". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image movies%20en%20series.svg (32×32) vs build image movies-en-series.svg (32×32) at "bekijk meer over blue lights | seizoen 3". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over n.e.c. - stade rennais ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over freiburg - fc twente | ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over sparta praag - az | eur". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over ajax - thun | conferenc". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over feyenoord - fc porto | ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image ziggo%20sport.svg (32×32) vs build image ziggo-sport.svg (32×32) at "bekijk meer over real madrid - psv | cha". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [#main-content]: source image www.ziggo.nl (32×32) at "bekijk meer over lupin | seizoen 4 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ICON DIFF [#main-content]: source image ziggo%20tv.svg (32×32) vs build image ziggo-tv.svg (32×32) at "bekijk meer over priority-cadeau novembe". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#main-content]: source image prime%20video.svg (32×32) vs build image prime-video.svg (32×32) at "bekijk meer over the beast bekijk meer". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [#main-content]: source image apple%20tv.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over stick | seizoen 2 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image movies%20en%20series.svg (32×32) at "bekijk meer over atlantic crossing | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over atlantic crossing | sei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image movies%20en%20series.svg (32×32) at "bekijk meer over blue lights | seizoen 3" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over blue lights | seizoen 3" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over 1000-lb sisters | seizo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over expeditie robinson 2026" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over n.e.c. - stade rennais " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over n.e.c. - stade rennais " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over freiburg - fc twente | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over freiburg - fc twente | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over sparta praag - az | eur" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over sparta praag - az | eur" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over ajax - thun | conferenc" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over ajax - thun | conferenc" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over feyenoord - fc porto | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over feyenoord - fc porto | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over real madrid - psv | cha" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over real madrid - psv | cha" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over het perfecte plaatje | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image www.ziggo.nl (32×32) at "bekijk meer over lupin | seizoen 4 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over lupin | seizoen 4 bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image ziggo%20tv.svg (32×32) at "bekijk meer over priority-cadeau novembe" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over priority-cadeau novembe" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over convictions gone bad | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over de schiphol diamantroof" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over waar de f*ck is stuk | " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over roxy dekker: rox is de " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over de club van sinterklaas" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over sc cambuur - fc groning" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over feyenoord - fc twente b" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over az - nec bekijk meer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over ajax - fc utrecht bekij" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over az - psv bekijk meer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source image prime%20video.svg (32×32) at "bekijk meer over the beast bekijk meer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over the beast bekijk meer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over yellowjackets | seizoen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over avatar: seven havens be" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 20×20) at "ontdek het allemaal" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-content]: source icon-font glyph / (ziggo-ui-icon-v22, 16×16) at "afspelen hervatten" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ROLE SWAP [header]: "Open" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Mijn Ziggo" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "menu" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [header]: source cta "Inloggen" → https://www.ziggo.nl/mijn-ziggo has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Registreren" → https://login.vodafoneziggo.nl/registreren has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Bekijk mijn producten" → https://www.ziggo.nl/mijn-ziggo/producten/overzicht has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Extra zenders wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Streamingdiensten wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn internetsnelheid wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn televisie-pakket wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn Vaste Telefonie wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Verhuizing doorgeven" → https://shop.ziggo.nl/verhuizen/stappen/1 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Bekijk mijn factuur" → https://www.ziggo.nl/mijn-ziggo/facturen/overzicht has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP [header]: "Zoeken" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [header]: source cta "Ziggo Mail" → https://www.ziggo.nl/mail has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP [header]: "Mijn Ziggo" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [header]: source cta "Inloggen" → https://www.ziggo.nl/mijn-ziggo has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Registreren" → https://login.vodafoneziggo.nl/registreren has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Bekijk mijn producten" → https://www.ziggo.nl/mijn-ziggo/producten/overzicht has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Extra zenders wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=software has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Streamingdiensten wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?addon_section=streaming has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn internetsnelheid wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-internet?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn televisie-pakket wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-televisie?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Mijn Vaste Telefonie wijzigen" → https://shop.ziggo.nl/inlifesales/mijn-telefonie?dialog=open has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Verhuizing doorgeven" → https://shop.ziggo.nl/verhuizen/stappen/1 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Bekijk mijn factuur" → https://www.ziggo.nl/mijn-ziggo/facturen/overzicht has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [header]: source icon-font glyph F (ziggo-ui-icon-v22, 56×30) at "ziggo mail" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph C (ziggo-ui-icon-v22, 56×30) at "open mijn ziggo menu" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph : (ziggo-ui-icon-v22, 44×30) at "zoeken" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [#main-content]: build cta "Internet & TV Pakket samenstellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Internet Only Pakket samenstellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Mobiel Mobiel abonnement uitzoeken" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Service Voor vragen en antwoorden" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Aanbiedingen Onze deals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Zakelijk Voor zzp'ers en bedrijven" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Ontdek het allemaal Ontdek het allemaal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Klantenservice" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Storing" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Entertainment Gids" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Alles-in-1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Televisie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Vast Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overstappen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Internet" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi Garantie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SmartWifi" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Installatie zoals jij wil" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internetbeveiliging" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifiboosters" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Speedtest" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Televisie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pakket samenstellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Zenderoverzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Streamingdiensten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mediaboxen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra tv in huis" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ESPN" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "UEFA Europees voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Movies & Series" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "4K TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Vast Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Volop Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra telefoonlijn" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tarieven" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nummerbehoud" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders & streaming" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra tv in huis" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifiboosters" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internetbeveiliging" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Volop Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra telefoonlijn" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Vodafone mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sim Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Telefoons" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "One van Vodafone & Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "hollandsnieuwe mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bellen aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Gegevens wijzigen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bestelling" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Verhuizen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Opzeggen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Factuur uitleg" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betalingsmogelijkheden" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betaalachterstand" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Dagpas bestellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Hulp met je streamingdiensten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV storingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV instellingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Zenderoverzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Problemen oplossen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi-tips" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Veiligheid" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "E-mail" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Installeren" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Storingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Online gaming tips voor consoles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Port forwarding" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Entertainment bij Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders & streaming" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo GO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Netflix & Ziggo Sport Totaal bundel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SkyShowtime" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo Sport Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Alle sport bij Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "UEFA Europees voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Voetbal Match Center" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Formule 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Winacties" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Evenementen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Deals & uitjes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Cadeaus" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Upgrade je ticket" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo GO" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main-content]: source body "Heb je al internet van Ziggo?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Ja"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Nee"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Pakket samenstellen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Pakket samenstellen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Mobiel"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Mobiel abonnement uitzoeken"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Service"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Voor vragen en antwoorden"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Aanbiedingen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Onze deals"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Zakelijk"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Voor zzp'ers en bedrijven"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Slim besparen, elke maand weer. Want als je Voda"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "One"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [#main-content]: source body "Afspelen hervatten" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 EXTRA [#main-content]: build body "Slim besparen, elke maand weer. Want als je Voda" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Pauzeren" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Laat vorige zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Laat volgende zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [#main-content]: build has 25 outermost editable element(s) vs 28 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [#main-content]: source <section> aria-label="Carousel" has no build <section> with that aria-label (build <section> aria-labels: "Snel naar", "Entertainment", "Priority"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="1 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="2 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="3 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="4 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <section> aria-label="Snel naar" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <section> aria-label="Priority" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [#main-content]: source image 1080x740_hero-60-device_ziggoprimary(1) (20×14) at "onze grootste black friday ooit stap nu " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [#main-content]: source image viaplay.svg (32×32) at "bekijk meer over premier league | speelr" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source icon-font glyph ' (ziggo-ui-icon-v22, 18×18) at "bekijk meer over premier league | speelr" is at "ontdek het allemaal ontdek het allemaal" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image history.svg (32×32) at "bekijk meer over curse of skinwalker ran" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image ziggo%20sport.svg (32×32) at "bekijk meer over rondo bekijk meer rondo" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over eredivisie | speelronde" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image viaplay.svg (32×32) at "bekijk meer over gp van singapore bekijk" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over bureau groningen bekijk" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image netflix.svg (32×32) at "bekijk meer over the diplomat | seizoen " is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over love island vips bekijk" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over gooische vrouwen | seiz" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image netflix.svg (32×32) at "bekijk meer over nobody wants this | sei" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image skyshowtime.svg (32×32) at "bekijk meer over marshals | seizoen 2 be" is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image skyshowtime.svg (32×32) at "bekijk meer over dexter: resurrection | " is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image skyshowtime.svg (32×32) at "bekijk meer over tulsa king | seizoen 4 " is at "bekijk meer over premier league | speelr" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image tlc.svg (32×32) at "bekijk meer over 1000-lb sisters | seizo" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over expeditie robinson 2026" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over het perfecte plaatje | " is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image crime+investigation.svg (32×32) at "bekijk meer over convictions gone bad | " is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over de schiphol diamantroof" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over waar de f*ck is stuk | " is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over roxy dekker: rox is de " is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image videoland.svg (32×32) at "bekijk meer over de club van sinterklaas" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over sc cambuur - fc groning" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over feyenoord - fc twente b" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over az - nec bekijk meer" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over ajax - fc utrecht bekij" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image espn.svg (32×32) at "bekijk meer over az - psv bekijk meer" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image skyshowtime.svg (32×32) at "bekijk meer over yellowjackets | seizoen" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main-content]: source image skyshowtime.svg (32×32) at "bekijk meer over avatar: seven havens be" is at "bekijk meer over stick | seizoen 2 bekij" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [#main-content]: build image hbo-max.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image hbo-max.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image movies-en-series.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image apple-tv.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image prime-video.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image npo-start.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image npo-start.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image npo-start.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image apple-tv.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image hbo-max.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image hbo-max.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image prime-video.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image hbo-max.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image prime-video.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image prime-video.svg (32×32) at "bekijk meer over premier league | speelr" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image apple-tv.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image movies-en-series.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image movies-en-series.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-sport.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image ziggo-tv.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build image prime-video.svg (32×32) at "bekijk meer over stick | seizoen 2 bekij" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph U+E982 (ziggo-ui-icon-v22, 20×20) at "pauzeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph , (ziggo-ui-icon-v22, 20×20) at "laat vorige zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph + (ziggo-ui-icon-v22, 20×20) at "laat volgende zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING SR-ONLY TEXT [header]: source body "Open" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING SR-ONLY TEXT [header]: source body "menu" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [header]: source body "Zoeken"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Producten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Pakketten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Internet" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Televisie" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vast Bellen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Extra Diensten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Mobiel" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Klantenservice" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Installeren" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Abonnement" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Factuur" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Televisie & Radio" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Internet & Wifi" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "E-mail" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vast Bellen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Gamen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Entertainment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ontdek" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "TV & Streaming" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ziggo Sport" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Priority Acties" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "pakketten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alles-in-1" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & tv" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overstappen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over internet" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi garantie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "smartwifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installatie zoals jij wil" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "speedtest" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "pakket samenstellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "streamingdiensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mediaboxen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "espn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "movies & series" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "4k tv" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tarieven" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "nummerbehoud" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "extra diensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vodafone mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sim only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "telefoons" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "one van vodafone & ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hollandsnieuwe mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "installeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bellen aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "abonnement" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "gegevens wijzigen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestelling" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "verhuizen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "opzeggen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "factuur" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mijn ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "factuur uitleg" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betalingsmogelijkheden" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betaalachterstand" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie & radio" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "dagpas bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hulp met je streamingdiensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv storingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv instellingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet & wifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "problemen oplossen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi-tips" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "veiligheid" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "storingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "gamen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "online gaming tips voor consoles" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "port forwarding" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ontdek" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "entertainment bij ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "tv & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "netflix & ziggo sport totaal bundel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "skyshowtime" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alle sport bij ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal match center" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "formule 1" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "priority acties" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "winacties" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "evenementen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "deals & uitjes" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "cadeaus" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "upgrade je ticket" has no source source. Build-only icon — confirm it is intended.

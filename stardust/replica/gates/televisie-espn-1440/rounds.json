@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T21:15:10.401Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:31:15.846Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:38:38.193Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 7.24%, offsets 53px (bound 52), Δh -17 (intro CTA row +8 fixed after pub3, video band +8); content-diff 🔴 are the systemic header/footer icon-font artefacts (frozen foundation, filed) + classifier artefacts (dual button labels, modal-trigger labels rendered as text per render deviation)",
+          "at": "2026-11-25T22:43:50.348Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-51-51-064Z",
+          "at": "2026-11-25T22:54:56.432Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T00-10-06-261Z",
+          "at": "2026-11-26T00:13:00.056Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-34-42-778Z",
+          "at": "2026-11-26T00:37:50.311Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:02:43.245Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:56:29.638Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,14 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.ziggo.nl/alles-in-1 (live side from cache stardust/replica/gates/alles-in-1-1440/chrome-live.json, probed 2026-11-25T11:59:58.080Z — delete the file to re-probe)
+  build: http://localhost:8791/alles-in-1-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 1440×112; selector #vfz-app > header
+  region build: header#site-header.site-header — outermost <header>, box 0,0 1440×112; selector #site-header
+  advisory     REST STATE: 3 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 3; build: none) — --strict-names counts them
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,10052 1440×662; selector #vfz-app > footer
+  region build: footer#site-footer.site-footer — outermost <footer>, box 0,10053 1440×663; selector #site-footer
+
+✓ chrome parity within tolerance, 1 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

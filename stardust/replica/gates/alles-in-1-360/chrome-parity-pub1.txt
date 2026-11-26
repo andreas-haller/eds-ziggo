@@ -1,0 +1,16 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.ziggo.nl/alles-in-1 (live side from cache stardust/replica/gates/alles-in-1-360/chrome-live.json, probed 2026-11-25T12:00:23.678Z — delete the file to re-probe)
+  build: https://main--50ca44c6--aemcoder.aem.page/alles-in-1
+
+■ header: 1 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 360×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 360×112; selector body > header
+  ICON         "Ga naar de Ziggo homepage"  icon #0 near "Ga naar de Ziggo homepage": signature "ziggo-logo-orange-v1" → "ziggo-logo-orange-v1.svg"
+
+■ footer: 1 delta(s) — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,12241 360×1096; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,12241 360×1087; selector body > footer
+  REGION BOX   Δh -9px (1096→1087)
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

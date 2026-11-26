@@ -1,0 +1,91 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/pixel-pub1.json",
+    "pct": 12.08,
+    "alignedPct": 9.82,
+    "alignedUsed": true,
+    "totalShift": 272,
+    "steps": [
+      {
+        "y": 3227,
+        "shift": 24,
+        "cumulative": 24
+      },
+      {
+        "y": 3603,
+        "shift": 43,
+        "cumulative": 67
+      },
+      {
+        "y": 4001,
+        "shift": 7,
+        "cumulative": 74
+      },
+      {
+        "y": 5264,
+        "shift": 29,
+        "cumulative": 103
+      },
+      {
+        "y": 6198,
+        "shift": -42,
+        "cumulative": 61
+      },
+      {
+        "y": 7563,
+        "shift": -126,
+        "cumulative": -65
+      },
+      {
+        "y": 8197,
+        "shift": 1,
+        "cumulative": -64
+      }
+    ],
+    "offsetBound": 83,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 7 step(s), 272px total — +24px at y=3227, +43px at y=3603, +7px at y=4001, +29px at y=5264, −42px at y=6198, −126px at y=7563, … 1 more (bound 83px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:00:04.426Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440/units-pub1.txt"
+    }
+  },
+  "structural": 135,
+  "nothingLost": 36,
+  "at": "2026-11-25T21:04:16.590Z"
+}

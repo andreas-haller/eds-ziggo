@@ -1,0 +1,192 @@
+/* interactions: mobile contact bar / desktop fixed side tabs (source vfz-interactions) */
+.interactions {
+  position: relative;
+  z-index: 2;
+}
+
+.interactions .int-nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: var(--color-gray-100);
+  color: var(--color-gray-700);
+  box-shadow: rgb(0 0 0 / 20%) 0 1px 1px 0;
+}
+
+.interactions .int-item {
+  position: relative;
+  flex: 1 1 0;
+  margin: 0 2px;
+  color: inherit;
+  cursor: pointer;
+}
+
+.interactions .int-item + .int-item::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 5%;
+  z-index: 1;
+  width: 100%;
+  height: 90%;
+  border-left: 1px solid #fff;
+}
+
+.interactions .int-expanded {
+  display: none;
+}
+
+.interactions .int-content {
+  display: block;
+  padding: 8px 0;
+  background: var(--color-gray-100);
+  text-align: center;
+}
+
+.interactions .int-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.interactions .int-icon::before {
+  content: attr(data-glyph);
+}
+
+.interactions .int-text p {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.interactions .int-orb {
+  position: absolute;
+  right: -4px;
+  top: -2px;
+  box-sizing: content-box;
+  width: 6px;
+  height: 6px;
+  border: 2px solid var(--color-gray-100);
+  border-radius: 50%;
+  background: #34a853;
+}
+
+.interactions .int-chevron {
+  font-size: 10px;
+}
+
+.interactions .int-chevron::before {
+  content: "+";
+}
+
+.interactions .int-orb-offline {
+  background: #bd0000;
+}
+
+@media (width >= 1024px) {
+  .interactions .int-nav {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 75%;
+    width: 48px;
+    transform: translateY(-50%);
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+  }
+
+  .interactions .int-item {
+    display: block;
+    margin: 0;
+  }
+
+  .interactions .int-item + .int-item::before {
+    top: 0;
+    width: 90%;
+    height: auto;
+    border-left: 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .interactions .int-content {
+    border-left: 1px solid var(--color-gray-100);
+  }
+
+  .interactions .int-item:first-child .int-content {
+    border-top-left-radius: 4px;
+  }
+
+  .interactions .int-item:last-child .int-content {
+    border-bottom-left-radius: 4px;
+  }
+
+  .interactions .int-expanded {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    min-width: 144px;
+    padding: 0 16px;
+    border-radius: 4px 0 0 4px;
+    background: var(--color-gray-800);
+    box-shadow: -1px 1px 1px rgb(0 0 0 / 10%), -1px -1px 1px rgb(0 0 0 / 10%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .interactions .int-expanded p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .interactions .int-expanded strong {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .interactions .int-item:hover .int-expanded {
+    transform: translateX(-100%) translateX(-48px);
+  }
+
+  .interactions .int-item:hover {
+    color: #fff;
+  }
+
+  .interactions .int-item:hover .int-content {
+    background: var(--color-gray-800);
+    border-left-color: var(--color-gray-800);
+  }
+}
+
+@media (width >= 1024px) and (prefers-reduced-motion: no-preference) {
+  .interactions .int-expanded {
+    transition: all 0.3s ease-in;
+  }
+
+  .interactions .int-item:hover .int-expanded {
+    transition: all 0.3s ease-out;
+  }
+}
+
+/* ==== BEGIN interactions (online) variant — owned by archetype-program; scoped to
+   .interactions.online: the chat channel shows available (source green status orb) ==== */
+.interactions.online .int-orb {
+  background: #34a853;
+}
+
+/* ==== END interactions (online) variant ==== */
+
+/* ==== off — owned by cluster-article: the source renders no contact bar on these televisie
+   siblings (opnemen, kijkprofielen, terugkijken, hoofdmenu: 360 build +53px at the hero, no
+   Bel ons / Chat tab at 1440); the authored block stays editable ==== */
+.interactions.off {
+  display: none;
+}

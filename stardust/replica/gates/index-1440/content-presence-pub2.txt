@@ -1,0 +1,39 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 263 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/ (docH 6074, 206 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/ (docH 6072, 209 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 8/8 | 0/0 | 3/3 | 0/1 | - |
+| 1 | daarom kies je ziggo | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 2 | het altijd alles netwerk | 4/4 | 0/0 | 0/0 | 4/4 | - |
+| 3 | alle snelheid | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 4 | wifi die werkt | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | het beste entertainment | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | priority | 5/5 | 0/0 | 4/4 | 0/0 | - |
+| 7 | altijd een abonnement dat bij je past | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 8 | alles-in-1 | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 9 | internet & tv | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | internet only | 3/3 | 16/0 | 6/22 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 11 | one van vodafone & ziggo | 1/1 | 0/0 | 4/4 | 3/4 | - |
+| 12 | altijd het beste entertainment voor jou | 1/1 (+2) | 2/2 | 2/1 | 0/1 | EXTRA LINK |
+| 13 | uefa europees voetbal | 11/13 | 2/1 | 2/4 | 16/19 | MISSING BUTTON |
+| 14 | priority van ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 15 | hoe langer je blijft, hoe meer extra’s j | 4/4 (+1) | 0/0 | 0/0 | 3/3 | - |
+| 16 | exclusieve winacties | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 17 | voorrang bij tickets | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 18 | scoor je sporttickets | 0/0 | 2/2 | 0/0 | 0/0 | - |
+  🟠 MISSING BUTTON: ×3 "tot 8 gbit/s download" in band "internet only" (origin y 1820) not on the served page
+  🟠 MISSING BUTTON: ×3 "safe online modem en extra" in band "internet only" (origin y 1860) not on the served page
+  🟠 MISSING BUTTON: ×3 "wifi garantie" in band "internet only" (origin y 1900) not on the served page
+  🟠 MISSING BUTTON: ×2 "alle espn-zenders en ziggo sport" in band "internet only" (origin y 1928) not on the served page
+  🟠 MISSING BUTTON: ×2 "uefa europees voetbal" in band "internet only" (origin y 1968) not on the served page
+  🟠 MISSING BUTTON: ×2 "tot 110+ zenders" in band "internet only" (origin y 2008) not on the served page
+  🟠 MISSING BUTTON: "voordelig vast bellen" in band "internet only" (origin y 2044) not on the served page
+  🟠 MISSING BUTTON: "speel achtergrondvideo" in band "uefa europees voetbal" (origin y 4374) not on the served page
+  🟡 COUNT TEXT: band "internet only": 6 origin → 22 served visible
+  🟡 EXTRA LINK: "espn bij ziggo" served in band "altijd het beste entertainment voor jou", no origin link or button
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 17 hidden 0 / moved 0 extra 1 / count deltas 1
+Findings: 10 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/index-1440/content-presence-pub2.json

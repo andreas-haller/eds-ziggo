@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T13:25:58.853Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T13:27:19.008Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T13:31:47.619Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 pixel 1.39% aligned PASS, Δh 0, content-diff 0/0, Clipped 0; sole fail = chrome-parity logo signature ziggo-logo-orange-v1 vs .svg (file extension only, same residual accepted for index and alles-in-1)",
+          "at": "2026-11-25T13:33:24.125Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T16:45:49.753Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T16:49:08.072Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel PASS (1440 aligned 0.94% dh -1, 360 aligned 0.57% dh 0), clipped 0, no overflow; residual main content-diff reds = 4 MISSING CTA from source dual button labels (btn-title + btn-title--large, one display:none) vs one authored label - nothing lost; header/footer icon reds belong to the frozen foundation",
+          "at": "2026-11-25T16:51:43.364Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T16-53-21-270Z",
+          "at": "2026-11-25T16:54:38.107Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-00-07-818Z",
+          "at": "2026-11-26T02:04:39.251Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:31:33.704Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:51:05.488Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

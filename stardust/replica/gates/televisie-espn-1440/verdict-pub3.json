@@ -1,0 +1,96 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-espn-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-espn-1440/pixel-pub3.json",
+    "pct": 12.26,
+    "alignedPct": 7.24,
+    "alignedUsed": true,
+    "totalShift": 53,
+    "steps": [
+      {
+        "y": 1080,
+        "shift": 8,
+        "cumulative": 8
+      },
+      {
+        "y": 2318,
+        "shift": 3,
+        "cumulative": 11
+      },
+      {
+        "y": 2474,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 2703,
+        "shift": -1,
+        "cumulative": 9
+      },
+      {
+        "y": 3114,
+        "shift": 8,
+        "cumulative": 17
+      },
+      {
+        "y": 3630,
+        "shift": -16,
+        "cumulative": 1
+      },
+      {
+        "y": 4209,
+        "shift": 15,
+        "cumulative": 16
+      },
+      {
+        "y": 5126,
+        "shift": 1,
+        "cumulative": 17
+      }
+    ],
+    "offsetBound": 52,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 8 step(s), 53px total — +8px at y=1080, +3px at y=2318, −1px at y=2474, −1px at y=2703, +8px at y=3114, −16px at y=3630, … 2 more (bound 52px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:11:26.758Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-espn-1440/units-pub3.txt"
+    }
+  },
+  "structural": 140,
+  "nothingLost": 1,
+  "at": "2026-11-25T22:38:38.111Z"
+}

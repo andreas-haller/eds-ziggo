@@ -1,0 +1,685 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T23:13:03.716Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.ziggo.nl",
+    "eds": "https://main--50ca44c6--aemcoder.aem.page",
+    "edsHostOverride": "https://main--50ca44c6--aemcoder.aem.page",
+    "only": [
+      "televisie-makkelijk-zoeken",
+      "televisie-terugkijken",
+      "televisie-online-tv-kijken",
+      "televisie-opnemen",
+      "televisie-kijkprofielen",
+      "televisie-hoofdmenu"
+    ]
+  },
+  "totals": {
+    "pages": 6,
+    "pass": 2,
+    "pixelOnlyPass": 3,
+    "overridePass": 0,
+    "fail": 4,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 3,
+    "failHeight": 3,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "unitsNotDeclared": 6,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 3,
+    "failOffsets": 1,
+    "offsetsWithinTolerance": 3,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "televisie-hoofdmenu",
+      "path": "/televisie/hoofdmenu",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.73,
+      "textPct": 15.34,
+      "heightDelta": -71,
+      "originH": 2374,
+      "edsH": 2445,
+      "alignedPct": 6.76,
+      "alignedUsed": true,
+      "totalShift": 103,
+      "steps": [
+        {
+          "y": 1074,
+          "shift": -16,
+          "cumulative": -16
+        },
+        {
+          "y": 1449,
+          "shift": 59,
+          "cumulative": 43
+        },
+        {
+          "y": 1793,
+          "shift": 27,
+          "cumulative": 70
+        },
+        {
+          "y": 2269,
+          "shift": 1,
+          "cumulative": 71
+        }
+      ],
+      "offsetBound": 24,
+      "offsetTolerance": 118,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 103px total, largest step 59px (strict bound 24px, tolerance 118px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-hoofdmenu-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:15.7%",
+        "1500-2000:28.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-kijkprofielen",
+      "path": "/televisie/kijkprofielen",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 38.64,
+      "textPct": 46.08,
+      "heightDelta": 543,
+      "originH": 5844,
+      "edsH": 5301,
+      "alignedPct": 38.49,
+      "alignedUsed": true,
+      "totalShift": 543,
+      "steps": [
+        {
+          "y": 4876,
+          "shift": -400,
+          "cumulative": -400
+        },
+        {
+          "y": 5701,
+          "shift": -143,
+          "cumulative": -543
+        }
+      ],
+      "offsetBound": 58,
+      "offsetTolerance": 292,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "height"
+      ],
+      "unwaived": [
+        "pixel",
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 38.49% (unaligned 38.64%) > 10%",
+        "Δh 543px > 5% of 5844"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-kijkprofielen-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:30.7%",
+        "1500-2000:45.1%",
+        "2000-2500:48.9%",
+        "2500-3000:39.8%",
+        "3000-3500:33.2%",
+        "3500-4000:31%",
+        "4000-4500:50.8%",
+        "4500-5000:78%",
+        "5000-5301:79.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-makkelijk-zoeken",
+      "path": "/televisie/makkelijk-zoeken",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.01,
+      "textPct": 19.06,
+      "heightDelta": 94,
+      "originH": 4555,
+      "edsH": 4461,
+      "alignedPct": 5.54,
+      "alignedUsed": true,
+      "totalShift": 166,
+      "steps": [
+        {
+          "y": 928,
+          "shift": -54,
+          "cumulative": -54
+        },
+        {
+          "y": 2145,
+          "shift": 33,
+          "cumulative": -21
+        },
+        {
+          "y": 2911,
+          "shift": 2,
+          "cumulative": -19
+        },
+        {
+          "y": 3612,
+          "shift": -44,
+          "cumulative": -63
+        },
+        {
+          "y": 3910,
+          "shift": -32,
+          "cumulative": -95
+        },
+        {
+          "y": 4450,
+          "shift": 1,
+          "cumulative": -94
+        }
+      ],
+      "offsetBound": 46,
+      "offsetTolerance": 227,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [
+        "content"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 8 / HIDDEN 0"
+      ],
+      "notes": [
+        "offsets within the roster tolerance: 166px total, largest step 54px (strict bound 46px, tolerance 227px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 8,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 9,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-makkelijk-zoeken-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:20.3%",
+        "1500-2000:21.7%",
+        "2000-2500:19.4%",
+        "3000-3500:20.2%",
+        "3500-4000:21.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-online-tv-kijken",
+      "path": "/televisie/online-tv-kijken",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 25.2,
+      "textPct": 21.63,
+      "heightDelta": 492,
+      "originH": 5176,
+      "edsH": 4684,
+      "alignedPct": 20.36,
+      "alignedUsed": true,
+      "totalShift": 492,
+      "steps": [
+        {
+          "y": 1604,
+          "shift": -95,
+          "cumulative": -95
+        },
+        {
+          "y": 2096,
+          "shift": -73,
+          "cumulative": -168
+        },
+        {
+          "y": 2794,
+          "shift": -29,
+          "cumulative": -197
+        },
+        {
+          "y": 3856,
+          "shift": -199,
+          "cumulative": -396
+        },
+        {
+          "y": 5080,
+          "shift": -96,
+          "cumulative": -492
+        }
+      ],
+      "offsetBound": 52,
+      "offsetTolerance": 258,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "height"
+      ],
+      "unwaived": [
+        "pixel",
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 20.36% (unaligned 25.2%) > 10%",
+        "Δh 492px > 5% of 5176"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-online-tv-kijken-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:23%",
+        "2000-2500:29.8%",
+        "3000-3500:36.2%",
+        "3500-4000:32.6%",
+        "4000-4500:76.4%",
+        "4500-4684:52.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-opnemen",
+      "path": "/televisie/opnemen",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 14.08,
+      "textPct": 17.69,
+      "heightDelta": 56,
+      "originH": 4326,
+      "edsH": 4270,
+      "alignedPct": 9.49,
+      "alignedUsed": true,
+      "totalShift": 76,
+      "steps": [
+        {
+          "y": 961,
+          "shift": -13,
+          "cumulative": -13
+        },
+        {
+          "y": 1831,
+          "shift": -11,
+          "cumulative": -24
+        },
+        {
+          "y": 2600,
+          "shift": 5,
+          "cumulative": -19
+        },
+        {
+          "y": 3280,
+          "shift": -42,
+          "cumulative": -61
+        },
+        {
+          "y": 3745,
+          "shift": 4,
+          "cumulative": -57
+        },
+        {
+          "y": 4221,
+          "shift": 1,
+          "cumulative": -56
+        }
+      ],
+      "offsetBound": 43,
+      "offsetTolerance": 216,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 76px total, largest step 42px (strict bound 43px, tolerance 216px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-opnemen-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "0-500:21.7%",
+        "3000-3500:24.1%",
+        "3500-4000:30.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-terugkijken",
+      "path": "/televisie/terugkijken",
+      "template": "televisie-voicecontrol",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 14.96,
+      "textPct": 29.6,
+      "heightDelta": -180,
+      "originH": 3512,
+      "edsH": 3692,
+      "alignedPct": 7.69,
+      "alignedUsed": true,
+      "totalShift": 180,
+      "steps": [
+        {
+          "y": 1130,
+          "shift": 59,
+          "cumulative": 59
+        },
+        {
+          "y": 1818,
+          "shift": 33,
+          "cumulative": 92
+        },
+        {
+          "y": 2324,
+          "shift": 82,
+          "cumulative": 174
+        },
+        {
+          "y": 2928,
+          "shift": 5,
+          "cumulative": 179
+        },
+        {
+          "y": 3407,
+          "shift": 1,
+          "cumulative": 180
+        }
+      ],
+      "offsetBound": 35,
+      "offsetTolerance": 175,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "height"
+      ],
+      "unwaived": [
+        "pixel",
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 5 step(s), 180px total — +59px at y=1130, +33px at y=1818, +82px at y=2324, +5px at y=2928, +1px at y=3407 (bound 35px) — over the roster tolerance 175px",
+        "Δh -180px > 5% of 3512"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 3,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-terugkijken-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2000-2500:21.1%",
+        "2500-3000:37.4%",
+        "3000-3500:23.7%"
+      ],
+      "error": null
+    }
+  ]
+}

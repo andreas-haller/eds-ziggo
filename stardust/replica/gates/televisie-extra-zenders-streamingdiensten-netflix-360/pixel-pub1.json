@@ -1,0 +1,323 @@
+{
+  "a": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/live.png",
+  "b": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 9216,
+    "mode": "overlap"
+  },
+  "heightDelta": -11,
+  "differingPixels": 471450,
+  "pct": 14.21,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 46.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 20
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 19.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 20.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 30
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 11.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 11.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 14.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 4.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 14.6
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 8.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 12.5
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 12.2
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 7.8
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 5.5
+    },
+    {
+      "y0": 9000,
+      "y1": 9216,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.99,
+    "differingPixels": 66397,
+    "compared": {
+      "width": 360,
+      "height": 9270,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 112,
+        "shift": 53,
+        "cumulative": 53
+      },
+      {
+        "y": 1135,
+        "shift": -16,
+        "cumulative": 37
+      },
+      {
+        "y": 1345,
+        "shift": -1,
+        "cumulative": 36
+      },
+      {
+        "y": 3986,
+        "shift": -5,
+        "cumulative": 31
+      },
+      {
+        "y": 4545,
+        "shift": -4,
+        "cumulative": 27
+      },
+      {
+        "y": 4785,
+        "shift": -4,
+        "cumulative": 23
+      },
+      {
+        "y": 5342,
+        "shift": -2,
+        "cumulative": 21
+      },
+      {
+        "y": 5531,
+        "shift": -6,
+        "cumulative": 15
+      },
+      {
+        "y": 6048,
+        "shift": -1,
+        "cumulative": 14
+      },
+      {
+        "y": 7528,
+        "shift": -1,
+        "cumulative": 13
+      },
+      {
+        "y": 7571,
+        "shift": -2,
+        "cumulative": 11
+      },
+      {
+        "y": 8231,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 8775,
+        "shift": 1,
+        "cumulative": 11
+      }
+    ],
+    "maxOffset": 53,
+    "totalShift": 97,
+    "insertedRows": 54,
+    "deletedRows": 43,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 10.5,
+        "unaligned": 46.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 20
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4,
+        "unaligned": 19.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.9,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.9,
+        "unaligned": 20.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.1,
+        "unaligned": 30
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1,
+        "unaligned": 12.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.7,
+        "unaligned": 11.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 2.6,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.6,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 2.7,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.4,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.1,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 1.2,
+        "unaligned": 12.5
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 3.2,
+        "unaligned": 12.2
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0.7,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0.2,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 9000,
+        "y1": 9216,
+        "pct": 0,
+        "unaligned": 1.8
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 92,
+    "totalShift": 97,
+    "pass": false
+  },
+  "reason": "offsets: 13 step(s), 97px total — +53px at y=112, −16px at y=1135, −1px at y=1345, −5px at y=3986, −4px at y=4545, −4px at y=4785, … 7 more (bound 92px)"
+}

@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-26T00:54:51.673Z",
+  "url": "https://www.ziggo.nl/televisie/mediaboxen",
+  "width": 360,
+  "vh": 900,
+  "height": 3842,
+  "settle": true,
+  "chunks": 5,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 8,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 78,
+    "intervals": 13,
+    "chains": 65,
+    "delays": [
+      2000,
+      4999.9000000059605,
+      5000,
+      10000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 3842,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    3842,
+    3842
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-26T00:55:32.206Z",
+  "flags": {
+    "consent": "#onetrust-accept-btn-handler",
+    "dismiss": ".dimelo-form",
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

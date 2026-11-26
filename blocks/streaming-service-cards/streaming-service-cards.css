@@ -1,0 +1,558 @@
+/* streaming service cards (source .sd-sec--apps horizontal logo cards; steps: .sd-sec--how) */
+.streaming-service-cards {
+  padding: 2rem 0;
+  color: #000;
+}
+
+.streaming-service-cards .ssc-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.streaming-service-cards .ssc-head :is(h1, h2) {
+  margin: 0 0 24px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+}
+
+.streaming-service-cards .ssc-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 calc(var(--container-pad) / -2);
+}
+
+.streaming-service-cards .ssc-col {
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.streaming-service-cards .ssc-card {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  color: var(--color-secondary);
+}
+
+.streaming-service-cards .ssc-media {
+  flex: 0 0 calc((100% + var(--container-pad)) / 3 - var(--container-pad));
+}
+
+.streaming-service-cards .ssc-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.streaming-service-cards .ssc-body {
+  flex: 1;
+  padding: 0 0 0 var(--container-pad);
+}
+
+.streaming-service-cards .ssc-title :is(h2, h3, h4) {
+  margin-top: 8px;
+  font-size: var(--heading-font-size-5);
+}
+
+.streaming-service-cards .ssc-text p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.streaming-service-cards .ssc-text a:any-link {
+  text-decoration: underline;
+}
+
+/* promo ribbon label (source vfz-ribbon-label--theme-promo, size large) */
+.streaming-service-cards .ssc-ribbon p {
+  display: inline-block;
+  margin: 0;
+  padding: 6px 8px;
+  background: var(--color-primary);
+  color: var(--color-tertiary-darken-40);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+@media (width >= 1024px) {
+  .streaming-service-cards .ssc-ribbon p {
+    padding: 0 8px;
+    line-height: 26px;
+  }
+}
+
+.streaming-service-cards .ssc-ribbon em {
+  font-style: normal;
+}
+
+/* ---- light variant: gray band, black head ---- */
+.streaming-service-cards.light {
+  background: var(--color-gray-100);
+}
+
+.streaming-service-cards.light .ssc-head :is(h1, h2) {
+  color: #000;
+}
+
+/* ---- center variant: head centred; steps text spans the full card ---- */
+.streaming-service-cards.center .ssc-head {
+  text-align: center;
+}
+
+/* ---- steps variant: image box on top, centred text under it ---- */
+.streaming-service-cards.steps .ssc-head :is(h1, h2) {
+  margin: 24px 0 8px;
+}
+
+.streaming-service-cards.steps .ssc-col {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.streaming-service-cards.steps .ssc-card {
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  padding: 8px 0;
+  overflow: visible;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+}
+
+.streaming-service-cards.steps .ssc-media {
+  flex: none;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background: var(--color-gray-100);
+}
+
+.streaming-service-cards.steps .ssc-media img {
+  aspect-ratio: 320 / 181;
+  object-fit: cover;
+}
+
+.streaming-service-cards.steps .ssc-body {
+  flex: none;
+  margin-top: auto;
+  padding: 0 calc((100% + var(--container-pad)) / 12);
+  text-align: center;
+}
+
+.streaming-service-cards.steps.center .ssc-body {
+  padding: 0;
+}
+
+.streaming-service-cards.steps .ssc-title :is(h2, h3, h4) {
+  margin: 8px 0;
+  color: #000;
+  font-size: var(--heading-font-size-3);
+}
+
+@media (width >= 768px) {
+  .streaming-service-cards .ssc-head {
+    max-width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+  }
+
+  .streaming-service-cards.center .ssc-head {
+    max-width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+    margin: 0 auto;
+  }
+
+  .streaming-service-cards .ssc-grid {
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+
+  .streaming-service-cards .ssc-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .streaming-service-cards.steps .ssc-media img {
+    aspect-ratio: auto;
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-service-cards .ssc-head :is(h1, h2) {
+    margin-bottom: 32px;
+  }
+
+  .streaming-service-cards .ssc-col {
+    margin-bottom: 40px;
+  }
+
+  .streaming-service-cards.steps .ssc-head :is(h1, h2) {
+    margin: 32px 0 16px;
+  }
+
+  .streaming-service-cards.steps .ssc-col {
+    margin-bottom: 24px;
+  }
+
+  .streaming-service-cards.steps .ssc-card {
+    padding: 16px 0;
+  }
+
+  .streaming-service-cards.steps .ssc-title :is(h2, h3, h4) {
+    margin-top: 16px;
+  }
+
+  .streaming-service-cards.steps .ssc-text p {
+    margin-bottom: 24px;
+  }
+
+  /* light band (source bg-light hero container) spacing */
+  .streaming-service-cards.light:not(.steps) .ssc-head :is(h1, h2) {
+    margin: 32px 0 24px;
+  }
+
+  .streaming-service-cards.light:not(.steps) .ssc-col {
+    margin-bottom: 28px;
+  }
+
+  .streaming-service-cards.light.steps .ssc-head :is(h1, h2) {
+    margin: 24px 0;
+  }
+
+  .streaming-service-cards.light.steps .ssc-col {
+    margin-bottom: 0;
+  }
+
+  .streaming-service-cards.light.steps .ssc-text p {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width < 1024px) {
+  .streaming-service-cards.light.steps {
+    padding-bottom: 0;
+  }
+
+  .streaming-service-cards.light.steps .ssc-head :is(h1, h2) {
+    margin: 16px 0;
+  }
+
+  .streaming-service-cards.light:not(.steps) .ssc-head :is(h1, h2) {
+    margin-bottom: 16px;
+  }
+
+  .streaming-service-cards.light:not(.steps) .ssc-col {
+    margin-bottom: 16px;
+  }
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* ==== BEGIN streaming-service-cards (offers) variant — owned by cluster-landing; scoped to
+   .streaming-service-cards.offers: a category band (dark h4-size title, intro) over a 3-up grid
+   of horizontal offer cards: logo on a dark tile, ribbon, name, price, text links side by side
+   (source extra-zenders-streamingdiensten categories) ==== */
+.streaming-service-cards.offers {
+  padding: 48px 0 40px;
+}
+
+.streaming-service-cards.offers .ssc-head {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  text-align: left;
+}
+
+.streaming-service-cards.offers .ssc-head :is(h1, h2) {
+  margin: 0 0 8px;
+  color: var(--color-secondary);
+  font-size: var(--heading-font-size-4);
+}
+
+.streaming-service-cards.offers .ssc-head p {
+  margin: 0 0 32px;
+  color: var(--color-secondary);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.streaming-service-cards.offers .ssc-col {
+  margin-bottom: 18px;
+}
+
+.streaming-service-cards.offers .ssc-card {
+  align-items: stretch;
+  min-height: 140px;
+  height: 100%;
+}
+
+.streaming-service-cards.offers .ssc-media {
+  display: flex;
+  flex: 0 0 93px;
+  align-items: center;
+  justify-content: center;
+  background: #323639;
+}
+
+.streaming-service-cards.offers .ssc-media p {
+  width: 100%;
+  margin: 0;
+}
+
+.streaming-service-cards.offers .ssc-media img {
+  width: 100%;
+  height: auto;
+}
+
+.streaming-service-cards.offers .ssc-body {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  padding: 5px 8px 12px 20px;
+}
+
+.streaming-service-cards.offers .ssc-body > div {
+  flex: 0 0 100%;
+}
+
+.streaming-service-cards.offers .ssc-body > .ssc-text:has(a) {
+  flex: 0 0 auto;
+}
+
+.streaming-service-cards.offers .ssc-ribbon p {
+  margin: 0 0 4px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.streaming-service-cards.offers .ssc-ribbon em {
+  font-style: normal;
+}
+
+/* the source's default offer ribbon is dark; a ribbon in bold (<em><strong>) is its orange
+   alternate (vfz-ribbon-label--alternate-color, the bundle discounts) */
+.streaming-service-cards.offers .ssc-ribbon p:not(:has(strong)) {
+  background: #1c1f21;
+  color: var(--color-white);
+}
+
+.streaming-service-cards.offers .ssc-ribbon strong {
+  font-weight: inherit;
+}
+
+.streaming-service-cards.offers .ssc-title :is(h2, h3, h4) {
+  margin: 0;
+  color: var(--color-secondary);
+}
+
+.streaming-service-cards.offers .ssc-text p {
+  margin: 0;
+  color: var(--color-secondary);
+  line-height: 1.6;
+}
+
+.streaming-service-cards.offers .ssc-text p strong {
+  font-weight: 700;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+}
+
+.streaming-service-cards.offers .ssc-text:has(a) {
+  margin: 16px 13px 0 0;
+}
+
+.streaming-service-cards.offers .ssc-text:has(a) a:any-link {
+  color: var(--color-tertiary);
+  font-weight: 300;
+  text-underline-offset: 4px;
+}
+
+.streaming-service-cards.offers .ssc-text:has(a) ~ .ssc-ribbon {
+  margin-top: 8px;
+}
+
+@media (width >= 768px) {
+  .streaming-service-cards.offers {
+    padding: 48px 0;
+  }
+
+  .streaming-service-cards.offers.first {
+    padding-top: 56px;
+  }
+
+  .streaming-service-cards.offers .ssc-head > * {
+    max-width: 747px;
+  }
+
+  .streaming-service-cards.offers .ssc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 32px;
+    margin: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-col {
+    flex: none;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-card {
+    min-height: 147px;
+  }
+
+  .streaming-service-cards.offers .ssc-media {
+    flex-basis: 98px;
+  }
+
+  .streaming-service-cards.offers .ssc-body {
+    padding: 8px 0 24px 32px;
+  }
+
+  .streaming-service-cards.offers .ssc-ribbon p {
+    margin-bottom: 8px;
+  }
+
+  .streaming-service-cards.offers .ssc-head p {
+    margin-bottom: 32px;
+    font-size: 16px;
+  }
+
+  /* the category intro is the source's 18px branded copy; the link line stays 16px */
+  .streaming-service-cards.offers .ssc-head p:not(:has(> a:only-child)) {
+    font-size: 18px;
+  }
+}
+
+/* ==== END streaming-service-cards (offers) variant ==== */
+
+/* bundle cards on small screens: the name/price paragraph sits right above the links (source) */
+@media (width < 768px) {
+  .streaming-service-cards.offers .ssc-text:has(strong) ~ .ssc-text:has(a) {
+    margin-top: 0;
+  }
+}
+
+/* offers below 768px (source extra-zenders 360): 207px copy column, 14px ribbons 26px tall, a
+   ribbon-led card starts at its top edge (ribbon, title +8, offer line, links, 16px foot), the
+   bundle name is a bold body-size line over its price, 16px between cards, 24px band foot */
+@media (width < 768px) {
+  .streaming-service-cards.offers {
+    padding-bottom: 24px;
+  }
+
+  /* loose: the source category whose card row keeps a 32px foot (18+, international) */
+  .streaming-service-cards.offers.loose {
+    padding-bottom: 40px;
+  }
+
+  .streaming-service-cards.offers .ssc-head p:has(+ p) {
+    margin-bottom: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-head p:last-child {
+    margin-bottom: 24px;
+  }
+
+  .streaming-service-cards.offers .ssc-head p:has(> a:only-child) {
+    font-size: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-col {
+    margin-bottom: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-media > picture {
+    width: 100%;
+  }
+
+  .streaming-service-cards.offers .ssc-body {
+    padding-right: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon:first-child) {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon:first-child):has(del) .ssc-title :is(h2, h3, h4) {
+    margin-bottom: 8px;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon ~ .ssc-ribbon) {
+    padding-top: 12px;
+    padding-bottom: 29px;
+  }
+
+  .streaming-service-cards.offers .ssc-title a:any-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .streaming-service-cards.offers .ssc-ribbon p {
+    margin: 0 0 8px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .streaming-service-cards.offers .ssc-text + .ssc-ribbon {
+    margin-top: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-text + .ssc-ribbon p {
+    margin-bottom: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-text p strong {
+    display: inline;
+    margin: 0;
+    font-family: var(--body-font-family);
+    font-size: 16px;
+    line-height: inherit;
+  }
+}
+
+/* offers from 768px (source extra-zenders 1440): ribbon 4px over the name, a second ribbon 16px
+   under the price right over the links, a two-ribbon card 24px / 40px inside */
+@media (width >= 768px) {
+  .streaming-service-cards.offers .ssc-ribbon:has(+ .ssc-text) p {
+    margin-bottom: 4px;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon:first-child):has(del) .ssc-title :is(h2, h3, h4) {
+    margin-bottom: 8px;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon:first-child):not(:has(del)) {
+    padding-top: 4px;
+    padding-bottom: 19px;
+  }
+
+  .streaming-service-cards.offers .ssc-text + .ssc-ribbon {
+    margin-top: 16px;
+  }
+
+  .streaming-service-cards.offers .ssc-text + .ssc-ribbon p {
+    margin-bottom: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-text:has(strong) ~ .ssc-text:has(a) {
+    margin-top: 0;
+  }
+
+  .streaming-service-cards.offers .ssc-body:has(> .ssc-ribbon ~ .ssc-ribbon) {
+    padding-top: 24px;
+    padding-bottom: 40px;
+  }
+}

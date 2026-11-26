@@ -1,0 +1,86 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-opnemen-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-opnemen-1440/pixel-pub3.json",
+    "pct": 14.08,
+    "alignedPct": 9.49,
+    "alignedUsed": true,
+    "totalShift": 76,
+    "steps": [
+      {
+        "y": 961,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 1831,
+        "shift": -11,
+        "cumulative": -24
+      },
+      {
+        "y": 2600,
+        "shift": 5,
+        "cumulative": -19
+      },
+      {
+        "y": 3280,
+        "shift": -42,
+        "cumulative": -61
+      },
+      {
+        "y": 3745,
+        "shift": 4,
+        "cumulative": -57
+      },
+      {
+        "y": 4221,
+        "shift": 1,
+        "cumulative": -56
+      }
+    ],
+    "offsetBound": 43,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 6 step(s), 76px total — −13px at y=961, −11px at y=1831, +5px at y=2600, −42px at y=3280, +4px at y=3745, +1px at y=4221 (bound 43px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:18:10.942Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:15:42.249Z"
+}

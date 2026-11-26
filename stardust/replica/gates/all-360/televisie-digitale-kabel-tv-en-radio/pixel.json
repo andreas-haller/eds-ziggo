@@ -1,0 +1,242 @@
+{
+  "a": "stardust/replica/gates/all-360/televisie-digitale-kabel-tv-en-radio/origin.png",
+  "b": "stardust/replica/gates/all-360/televisie-digitale-kabel-tv-en-radio/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3319,
+    "mode": "overlap"
+  },
+  "heightDelta": 67,
+  "differingPixels": 119416,
+  "pct": 9.99,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/televisie-digitale-kabel-tv-en-radio/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.88,
+  "textBoxes": 102,
+  "textPixels": 229568,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 11
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 8.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3319,
+      "pct": 2.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.66,
+    "differingPixels": 56849,
+    "compared": {
+      "width": 360,
+      "height": 3387,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 657,
+        "shift": -16,
+        "cumulative": -16
+      },
+      {
+        "y": 880,
+        "shift": -8,
+        "cumulative": -24
+      },
+      {
+        "y": 1252,
+        "shift": -34,
+        "cumulative": -58
+      },
+      {
+        "y": 1833,
+        "shift": -9,
+        "cumulative": -67
+      },
+      {
+        "y": 2271,
+        "shift": -1,
+        "cumulative": -68
+      },
+      {
+        "y": 2945,
+        "shift": 1,
+        "cumulative": -67
+      }
+    ],
+    "maxOffset": 68,
+    "totalShift": 69,
+    "insertedRows": 1,
+    "deletedRows": 68,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.4,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 6.4,
+        "unaligned": 5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 9.1,
+        "unaligned": 11
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.4,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.1,
+        "unaligned": 19.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3386,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/televisie-digitale-kabel-tv-en-radio/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 34,
+    "totalShift": 69,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 69px total — −16px at y=657, −8px at y=880, −34px at y=1252, −9px at y=1833, −1px at y=2271, +1px at y=2945 (bound 34px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/digitale-kabel-tv-en-radio",
+      "source": "https://www.ziggo.nl/televisie/digitale-kabel-tv-en-radio",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "2f0b4e359cd7d0f8",
+      "archetype": "bf14b0d8f6cac3ec",
+      "captures": "be09c5fd54d15ed0",
+      "instruments": "700566dc6f7774a4",
+      "page content": "035f7e829bfcb285",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block columns": "e92586516c022ea3",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block sticky-subnav": "2e089d3a30ea0ba0"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 0,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 78,
+          "controls": 66,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 95,
+          "controls": 72,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:07:34.739Z"
+  }
+}

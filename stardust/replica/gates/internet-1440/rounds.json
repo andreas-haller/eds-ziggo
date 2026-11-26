@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:57:59.146Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:24:24.679Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:30:26.843Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 6.34% PASS, offsets 20px in bound, Δh 16 (toptask band 32px shorter: reused toptask-tiles, home geometry; h2 line box); clipped 0; content-diff 🔴 are the systemic header/footer icon-font artefacts (frozen foundation, filed) + classifier artefacts (dual button labels, modal-trigger labels rendered as text per render deviation)",
+          "at": "2026-11-25T22:43:49.944Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-51-51-064Z",
+          "at": "2026-11-25T22:53:37.676Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T00-10-06-261Z",
+          "at": "2026-11-26T00:11:09.903Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-34-42-778Z",
+          "at": "2026-11-26T00:35:53.341Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T02:58:49.625Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:53:26.385Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "a": "stardust/replica/gates/televisie-hoofdmenu-360/live.png",
+  "b": "stardust/replica/gates/televisie-hoofdmenu-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 3231,
+    "mode": "overlap"
+  },
+  "heightDelta": -261,
+  "differingPixels": 428495,
+  "pct": 36.84,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-hoofdmenu-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 50.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 14.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 53.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 59
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 51.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6
+    },
+    {
+      "y0": 3000,
+      "y1": 3231,
+      "pct": 7.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 16.25,
+    "differingPixels": 204313,
+    "compared": {
+      "width": 360,
+      "height": 3492,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 472,
+        "shift": 50,
+        "cumulative": 50
+      },
+      {
+        "y": 1112,
+        "shift": 90,
+        "cumulative": 140
+      },
+      {
+        "y": 1319,
+        "shift": 11,
+        "cumulative": 151
+      },
+      {
+        "y": 1597,
+        "shift": 32,
+        "cumulative": 183
+      },
+      {
+        "y": 1877,
+        "shift": 61,
+        "cumulative": 244
+      },
+      {
+        "y": 2171,
+        "shift": 16,
+        "cumulative": 260
+      },
+      {
+        "y": 2790,
+        "shift": 1,
+        "cumulative": 261
+      }
+    ],
+    "maxOffset": 261,
+    "totalShift": 261,
+    "insertedRows": 261,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 50.3,
+        "unaligned": 50.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.7,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 18.3,
+        "unaligned": 53.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 18,
+        "unaligned": 59
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.8,
+        "unaligned": 51.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 6
+      },
+      {
+        "y0": 3000,
+        "y1": 3231,
+        "pct": 0,
+        "unaligned": 7.5
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-hoofdmenu-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 32,
+    "totalShift": 261,
+    "pass": false
+  },
+  "reason": "pixel aligned 16.25% (unaligned 36.84%) > 10%"
+}

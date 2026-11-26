@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T21:20:30.910Z",
+          "verdict": "fail",
+          "kind": "first",
+          "overflow": true
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:49:03.005Z",
+          "verdict": "fail",
+          "kind": "fix",
+          "overflow": true
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:20:21.505Z",
+          "verdict": "fail",
+          "kind": "fix",
+          "overflow": true
+        },
+        {
+          "label": "pub4",
+          "at": "2026-11-25T23:34:43.434Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "overflow fixed (pub4 scrollWidth 1440); residual 11.53% aligned, Δh 371 — feature-cards carousel card proportions, icon-row and notification band heights; content 🔴 main = source icon-font glyphs on CTAs + 'Sluit notificatie' close (render deviation); frozen chrome",
+          "at": "2026-11-25T23:34:55.401Z",
+          "counted": 4
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T23-09-54-161Z",
+          "at": "2026-11-25T23:13:03.711Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-20-11-736Z",
+          "at": "2026-11-25T23:23:06.686Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T23-26-56-598Z",
+          "at": "2026-11-25T23:29:47.259Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-06-59-829Z",
+          "at": "2026-11-26T02:14:22.918Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-50-06-842Z",
+          "at": "2026-11-26T02:52:12.435Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:07:14.817Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T03:59:53.483Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "gate-all cap: 11.53% aligned, Δh 371 — feature-cards/icon-row band heights",
+          "at": "2026-11-25T23:32:45.247Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

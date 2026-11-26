@@ -1,0 +1,2493 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-25T15:02:37.005Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/",
+  "at": "2026-11-25T11:33:43.405Z",
+  "docH": 7474
+ },
+ "eds": {
+  "url": "http://localhost:8791/index-proposed.html",
+  "at": "2026-11-25T15:02:36.863Z",
+  "docH": 7474
+ },
+ "results": [
+  {
+   "sel": ".vfz-toptask .vfz-tile__link=.toptask .tile",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:internet & tv",
+       "role": "text",
+       "text": "internet & tv",
+       "edsText": "internet & tv",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 74,
+        "w": 72,
+        "h": 18
+       },
+       "eds": {
+        "x": 32,
+        "y": 74,
+        "w": 72,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 751,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 20,
+       "y": 751,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:internet only",
+       "role": "text",
+       "text": "internet only",
+       "edsText": "internet only",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 74,
+        "w": 72,
+        "h": 18
+       },
+       "eds": {
+        "x": 32,
+        "y": 74,
+        "w": 72,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 190,
+       "y": 751,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 190,
+       "y": 751,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:mobiel",
+       "role": "text",
+       "text": "mobiel",
+       "edsText": "mobiel",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 74,
+        "w": 37,
+        "h": 18
+       },
+       "eds": {
+        "x": 49,
+        "y": 74,
+        "w": 37,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 879,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 20,
+       "y": 879,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:service",
+       "role": "text",
+       "text": "service",
+       "edsText": "service",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 74,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 48,
+        "y": 74,
+        "w": 41,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 190,
+       "y": 879,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 190,
+       "y": 879,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:aanbiedingen",
+       "role": "text",
+       "text": "aanbiedingen",
+       "edsText": "aanbiedingen",
+       "byPosition": false,
+       "origin": {
+        "x": 29,
+        "y": 74,
+        "w": 77,
+        "h": 18
+       },
+       "eds": {
+        "x": 29,
+        "y": 74,
+        "w": 77,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 1007,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 20,
+       "y": 1007,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "section.vfz-toptask.vfz-spacing-top--xl > div.vfz-tile.section > a.vfz-tile__link.vfz-tile__background--white"
+     },
+     "eds": {
+      "path": "div.container > div.toptask > a.tile"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-tile__container#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 108,
+        "sel": "div.tile__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:span.vfz-tile__icon.vfz-tile__container-item#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56
+       },
+       "eds": {
+        "x": 51,
+        "y": 16,
+        "w": 48,
+        "h": 56,
+        "sel": "span.tile__icon.icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/48/400",
+        "eds": "48/48/400"
+       }
+      },
+      {
+       "key": "text:zakelijk",
+       "role": "text",
+       "text": "zakelijk",
+       "edsText": "zakelijk",
+       "byPosition": false,
+       "origin": {
+        "x": 47,
+        "y": 74,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 47,
+        "y": 74,
+        "w": 41,
+        "h": 18,
+        "sel": "span.tile__title-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/600",
+        "eds": "12/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 190,
+       "y": 1007,
+       "w": 150,
+       "h": 108
+      },
+      "eds": {
+       "x": 190,
+       "y": 1007,
+       "w": 150,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".vfz-carousel--slide-width- .vfz-card-v2=.why .ucard",
+   "family": null,
+   "required": true,
+   "originMatches": 14,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.card-v2.aem-GridColumn > article.vfz-card-v2.vfz-card-v2--root"
+     },
+     "eds": {
+      "path": "ul.ccar__track > li > article.ucard"
+     },
+     "rows": [
+      {
+       "key": "link:a.vfz-card-v2__click-area#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339,
+        "sel": "a.ucard__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-card-v2__container.vfz-card-v2__container--vertical#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339,
+        "sel": "div.ucard__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.progressive-image__img.img-fluid#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 171
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 171,
+        "sel": "img.ucard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:alle snelheid",
+       "role": "heading",
+       "text": "alle snelheid",
+       "edsText": "alle snelheid",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 187,
+        "w": 197,
+        "h": 20
+       },
+       "eds": {
+        "x": 16,
+        "y": 187,
+        "w": 197,
+        "h": 20,
+        "sel": "h3.ucard__title.h-5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/20/700",
+        "eds": "18/20/700"
+       }
+      },
+      {
+       "key": "text:altijd alle snelheid die je nodig hebt.",
+       "role": "text",
+       "text": "altijd alle snelheid die je nodig hebt.",
+       "edsText": "altijd alle snelheid die je nodig hebt.",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 216,
+        "w": 197,
+        "h": 51
+       },
+       "eds": {
+        "x": 16,
+        "y": 216,
+        "w": 197,
+        "h": 51,
+        "sel": "p.ucard__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:a.vfz-card-v2__footer-right.vfz-card-v2__footer-right-arrow-button#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40
+       },
+       "eds": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40,
+        "sel": "a.ucard__more",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      },
+      {
+       "key": "box:div.vfz-card-v2__footer-right-icon.vfz-card-v2__footer-right-icon--bg-primary#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40
+       },
+       "eds": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40,
+        "sel": "span.ucard__arrow",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 28,
+       "y": 1281,
+       "w": 229,
+       "h": 339
+      },
+      "eds": {
+       "x": 28,
+       "y": 1281,
+       "w": 229,
+       "h": 339
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.card-v2.aem-GridColumn > article.vfz-card-v2.vfz-card-v2--root"
+     },
+     "eds": {
+      "path": "ul.ccar__track > li > article.ucard"
+     },
+     "rows": [
+      {
+       "key": "link:a.vfz-card-v2__click-area#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339,
+        "sel": "a.ucard__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-card-v2__container.vfz-card-v2__container--vertical#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 339,
+        "sel": "div.ucard__container",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.progressive-image__img.img-fluid#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 171
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 171,
+        "sel": "img.ucard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:wifi die werkt",
+       "role": "heading",
+       "text": "wifi die werkt",
+       "edsText": "wifi die werkt",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 187,
+        "w": 197,
+        "h": 20
+       },
+       "eds": {
+        "x": 16,
+        "y": 187,
+        "w": 197,
+        "h": 20,
+        "sel": "h3.ucard__title.h-5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/20/700",
+        "eds": "18/20/700"
+       }
+      },
+      {
+       "key": "text:altijd wifi die werkt. gegarandeerd.",
+       "role": "text",
+       "text": "altijd wifi die werkt. gegarandeerd.",
+       "edsText": "altijd wifi die werkt. gegarandeerd.",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 216,
+        "w": 197,
+        "h": 51
+       },
+       "eds": {
+        "x": 16,
+        "y": 216,
+        "w": 197,
+        "h": 51,
+        "sel": "p.ucard__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/300",
+        "eds": "16/26/300"
+       }
+      },
+      {
+       "key": "link:a.vfz-card-v2__footer-right.vfz-card-v2__footer-right-arrow-button#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40
+       },
+       "eds": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40,
+        "sel": "a.ucard__more",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      },
+      {
+       "key": "box:div.vfz-card-v2__footer-right-icon.vfz-card-v2__footer-right-icon--bg-primary#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40
+       },
+       "eds": {
+        "x": 173,
+        "y": 283,
+        "w": 40,
+        "h": 40,
+        "sel": "span.ucard__arrow",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 273,
+       "y": 1281,
+       "w": 229,
+       "h": 339
+      },
+      "eds": {
+       "x": 273,
+       "y": 1281,
+       "w": 229,
+       "h": 339
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".vfz-card-v2--box-shadow-md=.plans .plan",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.card-v2.section > article.vfz-card-v2.vfz-card-v2--root"
+     },
+     "eds": {
+      "path": "div.container > div.plans__grid > article.plan"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-card-v2__container.vfz-card-v2__container--vertical#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 430
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 430,
+        "sel": "div.plan__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:internet only",
+       "role": "heading",
+       "text": "internet only",
+       "edsText": "internet only",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 272,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 272,
+        "h": 22,
+        "sel": "h3.plan__title.h-4",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "button:tot 8 gbit/s download",
+       "role": "button",
+       "text": "tot 8 gbit/s download",
+       "edsText": "tot 8 gbit/s download",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 54,
+        "w": 184,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 54,
+        "w": 184,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:safe online modem en extra",
+       "role": "button",
+       "text": "safe online modem en extra",
+       "edsText": "safe online modem en extra",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 94,
+        "w": 230,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 94,
+        "w": 230,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:wifi garantie",
+       "role": "button",
+       "text": "wifi garantie",
+       "edsText": "wifi garantie",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 134,
+        "w": 121,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 134,
+        "w": 121,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:alle espn-zenders en ziggo sport",
+       "role": "text",
+       "text": "alle espn-zenders en ziggo sport",
+       "edsText": "alle espn-zenders en ziggo sport",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 174,
+        "w": 232,
+        "h": 48
+       },
+       "eds": {
+        "x": 52,
+        "y": 174,
+        "w": 232,
+        "h": 48,
+        "sel": "span.usp__t",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:uefa europees voetbal",
+       "role": "text",
+       "text": "uefa europees voetbal",
+       "edsText": "uefa europees voetbal",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 234,
+        "w": 168,
+        "h": 24
+       },
+       "eds": {
+        "x": 52,
+        "y": 234,
+        "w": 168,
+        "h": 24,
+        "sel": "span.usp__t",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:tot 110+ zenders",
+       "role": "text",
+       "text": "tot 110+ zenders",
+       "edsText": "tot 110+ zenders",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 270,
+        "w": 116,
+        "h": 24
+       },
+       "eds": {
+        "x": 52,
+        "y": 270,
+        "w": 116,
+        "h": 24,
+        "sel": "span.usp__t",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:voordelig vast bellen",
+       "role": "text",
+       "text": "voordelig vast bellen",
+       "edsText": "voordelig vast bellen",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 306,
+        "w": 151,
+        "h": 24
+       },
+       "eds": {
+        "x": 52,
+        "y": 306,
+        "w": 151,
+        "h": 24,
+        "sel": "span.usp__t",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:kies internet only",
+       "role": "link",
+       "text": "kies internet only",
+       "edsText": "kies internet only",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 358,
+        "w": 199,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 358,
+        "w": 199,
+        "h": 48,
+        "sel": "a.btn.btn-outline",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 1943,
+       "w": 320,
+       "h": 430
+      },
+      "eds": {
+       "x": 20,
+       "y": 1943,
+       "w": 320,
+       "h": 430
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 10,
+      "within": 10,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.card-v2.section > article.vfz-card-v2.vfz-card-v2--root"
+     },
+     "eds": {
+      "path": "div.container > div.plans__grid > article.plan.plan--ribbon"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 28
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 28,
+        "sel": "div.plan__ribbon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "text:meest gekozen",
+       "role": "text",
+       "text": "meest gekozen",
+       "edsText": "meest gekozen",
+       "byPosition": false,
+       "origin": {
+        "x": 120,
+        "y": 0,
+        "w": 81,
+        "h": 28
+       },
+       "eds": {
+        "x": 120,
+        "y": 0,
+        "w": 81,
+        "h": 28,
+        "sel": "span.plan__ribbon-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-card-v2__container.vfz-card-v2__container--vertical#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 28,
+        "w": 320,
+        "h": 462
+       },
+       "eds": {
+        "x": 0,
+        "y": 28,
+        "w": 320,
+        "h": 462,
+        "sel": "div.plan__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:internet & tv",
+       "role": "heading",
+       "text": "internet & tv",
+       "edsText": "internet & tv",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 72,
+        "w": 272,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 72,
+        "w": 272,
+        "h": 22,
+        "sel": "h3.plan__title.h-4",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "button:tot 8 gbit/s download",
+       "role": "button",
+       "text": "tot 8 gbit/s download",
+       "edsText": "tot 8 gbit/s download",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 102,
+        "w": 184,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 102,
+        "w": 184,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:safe online modem en extra",
+       "role": "button",
+       "text": "safe online modem en extra",
+       "edsText": "safe online modem en extra",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 142,
+        "w": 230,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 142,
+        "w": 230,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:wifi garantie",
+       "role": "button",
+       "text": "wifi garantie",
+       "edsText": "wifi garantie",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 182,
+        "w": 121,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 182,
+        "w": 121,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:alle espn-zenders en ziggo sport",
+       "role": "button",
+       "text": "alle espn-zenders en ziggo sport",
+       "edsText": "alle espn-zenders en ziggo sport",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 222,
+        "w": 260,
+        "h": 52
+       },
+       "eds": {
+        "x": 24,
+        "y": 222,
+        "w": 260,
+        "h": 52,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:uefa europees voetbal",
+       "role": "button",
+       "text": "uefa europees voetbal",
+       "edsText": "uefa europees voetbal",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 286,
+        "w": 196,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 286,
+        "w": 196,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:tot 110+ zenders",
+       "role": "button",
+       "text": "tot 110+ zenders",
+       "edsText": "tot 110+ zenders",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 326,
+        "w": 144,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 326,
+        "w": 144,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:voordelig vast bellen",
+       "role": "text",
+       "text": "voordelig vast bellen",
+       "edsText": "voordelig vast bellen",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 366,
+        "w": 151,
+        "h": 24
+       },
+       "eds": {
+        "x": 52,
+        "y": 366,
+        "w": 151,
+        "h": 24,
+        "sel": "span.usp__t",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:kies internet & tv",
+       "role": "link",
+       "text": "kies internet & tv",
+       "edsText": "kies internet & tv",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 418,
+        "w": 197,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 418,
+        "w": 197,
+        "h": 48,
+        "sel": "a.btn.btn-primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 2398,
+       "w": 320,
+       "h": 490
+      },
+      "eds": {
+       "x": 20,
+       "y": 2398,
+       "w": 320,
+       "h": 490
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.cell-component.col-12 > div.card-v2.section > article.vfz-card-v2.vfz-card-v2--root"
+     },
+     "eds": {
+      "path": "div.container > div.plans__grid > article.plan"
+     },
+     "rows": [
+      {
+       "key": "box:div.vfz-card-v2__container.vfz-card-v2__container--vertical#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 446
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 446,
+        "sel": "div.plan__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:alles-in-1",
+       "role": "heading",
+       "text": "alles-in-1",
+       "edsText": "alles-in-1",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 272,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 272,
+        "h": 22,
+        "sel": "h3.plan__title.h-4",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "button:tot 8 gbit/s download",
+       "role": "button",
+       "text": "tot 8 gbit/s download",
+       "edsText": "tot 8 gbit/s download",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 54,
+        "w": 184,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 54,
+        "w": 184,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:safe online modem en extra",
+       "role": "button",
+       "text": "safe online modem en extra",
+       "edsText": "safe online modem en extra",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 94,
+        "w": 230,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 94,
+        "w": 230,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:wifi garantie",
+       "role": "button",
+       "text": "wifi garantie",
+       "edsText": "wifi garantie",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 134,
+        "w": 121,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 134,
+        "w": 121,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:alle espn-zenders en ziggo sport",
+       "role": "button",
+       "text": "alle espn-zenders en ziggo sport",
+       "edsText": "alle espn-zenders en ziggo sport",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 174,
+        "w": 260,
+        "h": 52
+       },
+       "eds": {
+        "x": 24,
+        "y": 174,
+        "w": 260,
+        "h": 52,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:uefa europees voetbal",
+       "role": "button",
+       "text": "uefa europees voetbal",
+       "edsText": "uefa europees voetbal",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 238,
+        "w": 196,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 238,
+        "w": 196,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:tot 110+ zenders",
+       "role": "button",
+       "text": "tot 110+ zenders",
+       "edsText": "tot 110+ zenders",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 278,
+        "w": 144,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 278,
+        "w": 144,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:voordelig vast bellen",
+       "role": "button",
+       "text": "voordelig vast bellen",
+       "edsText": "voordelig vast bellen",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 318,
+        "w": 179,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 318,
+        "w": 179,
+        "h": 28,
+        "sel": "button.usp__c",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:kies alles-in-1",
+       "role": "link",
+       "text": "kies alles-in-1",
+       "edsText": "kies alles-in-1",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 374,
+        "w": 170,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 374,
+        "w": 170,
+        "h": 48,
+        "sel": "a.btn.btn-outline",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 2912,
+       "w": 320,
+       "h": 446
+      },
+      "eds": {
+       "x": 20,
+       "y": 2912,
+       "w": 320,
+       "h": 446
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 10,
+      "within": 10,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 11,
+  "within": 64,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

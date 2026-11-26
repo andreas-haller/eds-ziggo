@@ -1,0 +1,178 @@
+{
+  "a": "stardust/replica/gates/televisie-digitale-radio-360/live.png",
+  "b": "stardust/replica/gates/televisie-digitale-radio-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 4043,
+    "mode": "overlap"
+  },
+  "heightDelta": 91,
+  "differingPixels": 300297,
+  "pct": 20.63,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-digitale-radio-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 41.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 31.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 27
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 21.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 21.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4043,
+      "pct": 1.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 14.56,
+    "differingPixels": 220511,
+    "compared": {
+      "width": 360,
+      "height": 4208,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1572,
+        "shift": -165,
+        "cumulative": -165
+      },
+      {
+        "y": 2081,
+        "shift": 16,
+        "cumulative": -149
+      },
+      {
+        "y": 2672,
+        "shift": 16,
+        "cumulative": -133
+      },
+      {
+        "y": 3045,
+        "shift": 3,
+        "cumulative": -130
+      },
+      {
+        "y": 3128,
+        "shift": 38,
+        "cumulative": -92
+      },
+      {
+        "y": 3693,
+        "shift": 1,
+        "cumulative": -91
+      }
+    ],
+    "maxOffset": 165,
+    "totalShift": 239,
+    "insertedRows": 74,
+    "deletedRows": 165,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 41.2,
+        "unaligned": 41.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 7.1,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 9.9,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 41.3,
+        "unaligned": 31.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 7,
+        "unaligned": 27
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 6,
+        "unaligned": 21.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 8.7,
+        "unaligned": 21.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 7.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4134,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-digitale-radio-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 41,
+    "totalShift": 239,
+    "pass": false
+  },
+  "reason": "pixel aligned 14.56% (unaligned 20.63%) > 10%"
+}

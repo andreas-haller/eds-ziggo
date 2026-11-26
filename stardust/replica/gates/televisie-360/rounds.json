@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:50:51.183Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:58:30.029Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub2: pixel aligned 8.88% PASS, Δh -6, clipped 0; hot bands = small-viewport card art dropped by the render (square/light cards show desktop art); content-diff 🔴 are the systemic header/footer icon-font artefacts (frozen foundation, filed) + classifier artefacts (dual button labels, modal-trigger labels rendered as text per render deviation)",
+          "at": "2026-11-25T22:43:49.827Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-55-52-054Z",
+          "at": "2026-11-25T22:59:21.796Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-03-46-083Z",
+          "at": "2026-11-25T23:04:58.863Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T01-01-06-954Z",
+          "at": "2026-11-26T01:04:13.416Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:22:21.038Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:06:49.679Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

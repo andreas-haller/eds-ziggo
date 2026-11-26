@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:16:51.948Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T20:23:55.680Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T20:35:13.373Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: pixel aligned 1.19% (5 px offsets), Δh +7, Clipped 0, overflow 0, nothing-lost 0, content-presence 0; FAIL is frozen chrome only — 131 header/footer icon-glyph 🔴 and the header logo signature delta (foundation, already requested; evidence stardust/replica/gates/televisie-tv-start-360/chrome-parity-pub3.txt)",
+          "at": "2026-11-25T20:35:31.463Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T21-03-17-932Z",
+          "at": "2026-11-25T21:04:48.440Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:30:50.898Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:13:24.247Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T06-43-51-595Z",
+          "at": "2026-11-26T06:44:34.214Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

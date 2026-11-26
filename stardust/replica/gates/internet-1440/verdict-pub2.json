@@ -1,0 +1,91 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/internet-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/internet-1440/pixel-pub2.json",
+    "pct": 12.75,
+    "alignedPct": 6.79,
+    "alignedUsed": true,
+    "totalShift": 41,
+    "steps": [
+      {
+        "y": 1792,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 2829,
+        "shift": 19,
+        "cumulative": 29
+      },
+      {
+        "y": 4706,
+        "shift": -8,
+        "cumulative": 21
+      },
+      {
+        "y": 4792,
+        "shift": 1,
+        "cumulative": 22
+      },
+      {
+        "y": 5575,
+        "shift": -1,
+        "cumulative": 21
+      },
+      {
+        "y": 5908,
+        "shift": -1,
+        "cumulative": 20
+      },
+      {
+        "y": 6348,
+        "shift": 1,
+        "cumulative": 21
+      }
+    ],
+    "offsetBound": 65,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T20:53:59.217Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-1440/units-pub2.txt"
+    }
+  },
+  "structural": 151,
+  "nothingLost": 1,
+  "at": "2026-11-25T21:24:24.606Z"
+}

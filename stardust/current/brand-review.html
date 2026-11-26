@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ziggo · Current state — brand review</title>
+<!-- stardust:provenance writtenBy=stardust:extract writtenAt=2026-11-25T10:11:29.121Z reads=_brand-extraction.json,DESIGN.json,DESIGN.md,PRODUCT.md,pages/*.json,_crawl-log.json,assets/screenshots -->
+<style>
+@font-face{font-family:"Ziggo Headline";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/ziggoheadline-bold.woff2") format("woff2");}
+@font-face{font-family:"Ziggo Headline";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/ziggoheadline-regular.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:normal;font-weight:300;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-light.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:italic;font-weight:300;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-lightitalic.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-regular.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:italic;font-weight:400;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-regularitalic.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-bold.woff2") format("woff2");}
+@font-face{font-family:"Vodafone Ziggo text";font-style:italic;font-weight:700;font-display:swap;src:url("assets/fonts/vodafoneziggo-text-bolditalic.woff2") format("woff2");}
+@font-face{font-family:"ziggo-ui-icon-v22";font-style:normal;font-weight:400;font-display:block;src:url("assets/fonts/ziggo-ui-icon-v22.woff2") format("woff2");}
+:root{
+  --primary:#001489; --primary-dark:#000e60; --accent:#ff5f00; --secondary:#ff5f00;
+  --text:#000000; --text-muted:#1c1f21; --surface:#ffffff; --surface-alt:#f1f2f3;
+  --border:#c1c5c8; --charcoal:#323639;
+  --display:"Ziggo Headline", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; --body:"Vodafone Ziggo text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --gradient:linear-gradient(90deg,#ff4608 0%,#ff5f00 70%,#f7931e);
+  --radius:24px; --pill:40px; --shadow:0 4px 10px rgba(28,31,33,.2);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--body);font-weight:300;font-size:16px;line-height:1.6;color:var(--text);background:var(--surface)}
+h1,h2,h3,h4{font-family:var(--display);font-weight:700;line-height:1.1;margin:0 0 .5rem}
+h2{font-size:39.04px} h3{font-size:25.008px} h4{font-size:20px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+nav.top{position:sticky;top:0;z-index:10;background:var(--primary-dark);color:#fff;font-family:var(--display);text-transform:uppercase;letter-spacing:1.5px;font-size:12px}
+nav.top .wrap{display:flex;flex-wrap:wrap;gap:4px;align-items:center;padding-top:8px;padding-bottom:8px}
+nav.top strong{margin-right:16px;font-size:13px}
+nav.top a{color:#fff;text-decoration:none;padding:6px 12px;border-radius:150px}
+nav.top a:hover,nav.top a:focus-visible{background:rgba(255,255,255,.18);outline:none}
+.strip{height:8px;background:var(--gradient)}
+header.mast{background:var(--secondary);color:#fff;padding:56px 0 48px}
+header.mast h1{font-size:61.04px;margin-bottom:8px}
+.hero-line{font-family:var(--display);font-size:31.2px;color:#fff;margin:0 0 12px;font-weight:700}
+.hero-line span{background:var(--primary);padding:0 8px;border-radius:8px}
+header.mast .tag{font-size:18px;max-width:780px;margin:0 0 8px}
+header.mast .origin{font-family:ui-monospace,monospace;font-size:14px;opacity:.9}
+section{padding:48px 0;border-bottom:1px solid var(--border)}
+section:nth-of-type(even){background:var(--surface-alt)}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin-bottom:8px}
+.sec-head h2{margin:0}
+.src{font-size:13px;color:var(--text-muted);margin:0 0 24px}
+.badge{font-family:var(--display);font-size:11px;letter-spacing:.5px;padding:3px 10px;border-radius:40px;color:#fff;background:var(--primary);vertical-align:middle;font-weight:400}
+.badge-home-only{background:var(--accent)} .badge-inferred{background:var(--charcoal)} .badge-synthesized{background:#01125d} .badge-cross-page{background:var(--primary)} .badge-observed{background:#022c91}
+.stats{display:flex;flex-wrap:wrap;gap:16px}
+.stat{flex:1;min-width:220px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 24px}
+.stat b{display:block;font-family:var(--display);font-size:39.04px;color:var(--primary);line-height:1.1}
+.grid{display:grid;gap:16px}
+.thumbs{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.thumb{background:#fff;border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.thumb img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;background:var(--surface-alt)}
+.thumb div{padding:8px 12px;font-size:13px;line-height:1.3}
+.thumb .mono{display:block;color:var(--text-muted);font-size:11px;margin-top:2px}
+.swatches{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.sw{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;min-height:200px}
+.chip{width:96px;height:96px;border-radius:16px;border:1px solid var(--border);margin-bottom:10px}
+.sw .role{font-family:var(--display);text-transform:uppercase;font-size:13px;letter-spacing:.5px}
+.tags span{display:inline-block;font-size:11px;padding:1px 8px;border-radius:40px;background:var(--surface-alt);margin:2px 2px 0 0}
+.spec{background:#fff;border-radius:var(--radius);padding:16px 24px;margin-bottom:12px;box-shadow:var(--shadow)}
+.spec .mono{color:var(--text-muted);display:block;margin-bottom:4px}
+.voicecards{display:grid;gap:12px;margin-bottom:24px}
+.vc{background:var(--surface-alt);border-radius:16px;padding:20px 24px}
+section:nth-of-type(even) .vc{background:#fff}
+.vc small{font-family:var(--display);text-transform:uppercase;font-size:11px;color:var(--text-muted);letter-spacing:.5px}
+table{border-collapse:collapse;width:100%;background:#fff;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:24px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--border);font-size:14px;vertical-align:top}
+th{font-family:var(--display);font-weight:700;background:var(--surface-alt)}
+.pill{display:inline-block;background:var(--primary);color:#fff;border-radius:40px;padding:4px 14px;font-weight:600;font-size:14px}
+.cols{columns:2 320px;column-gap:24px}
+.cols li{break-inside:avoid}
+.tensions{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.tension{background:#fff;border-left:4px solid var(--accent);border-radius:0 16px 16px 0;padding:16px 20px;box-shadow:var(--shadow)}
+.tension .tid{font-family:var(--display);font-size:12px;color:var(--accent)}
+.tension h4{margin:4px 0}
+.tension p{margin:0 0 6px;font-size:14px}
+.tension footer{font-size:12px;color:var(--text-muted)}
+.radii{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.rcard{background:#fff;border-radius:16px;padding:16px;text-align:center;box-shadow:var(--shadow)}
+.rbox{width:96px;height:72px;margin:0 auto 10px;background:var(--primary)}
+.shadowdemo{display:flex;flex-wrap:wrap;gap:24px}
+.shadowdemo div{width:220px;height:110px;background:#fff;border-radius:24px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;padding:12px}
+.complist{list-style:none;padding:0;margin:0}
+.complist li{border-left:3px solid var(--primary);padding:6px 14px;margin-bottom:8px;background:#fff;border-radius:0 12px 12px 0}
+.repro{background:var(--primary-dark);border:4px dashed var(--primary);border-radius:24px;padding:24px;color:#fff;position:relative}
+.repro .rtag{position:absolute;top:-14px;left:24px;background:var(--accent);color:#fff;font-family:var(--display);font-size:12px;padding:3px 12px;border-radius:40px}
+.repro .cols4{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.repro h4{font-size:18px;font-weight:600;color:#fff}
+.repro ul{list-style:none;padding:0;margin:0;font-size:14px;color:#c1c5c8}
+.logo-row{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+.logo-missing{width:280px;height:120px;border:2px dashed var(--border);border-radius:16px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;color:var(--text-muted);padding:12px;background:#fff}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:0}
+dt{font-family:var(--display);font-weight:700}
+dd{margin:0}
+.bars{display:flex;align-items:flex-end;gap:12px;height:110px;margin:12px 0 24px}
+.bars div{width:40px;background:var(--primary);border-radius:6px 6px 0 0;color:#fff;font-size:11px;text-align:center}
+.bars span{display:block;font-size:11px;color:var(--text);margin-top:4px;text-align:center}
+.radpills span{display:inline-block;border:2px solid var(--primary);color:var(--primary-dark);padding:4px 12px;margin:4px;font-size:13px;font-weight:600}
+footer.page{background:#1c1f21;color:#c1c5c8;padding:40px 0;font-size:14px}
+footer.page a{color:#fff}
+@media print{nav.top{position:static} section{break-inside:avoid-page}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Secties"><div class="wrap"><strong>Ziggo · Current state</strong><a href="#coverage">Coverage</a><a href="#pages">Pages</a><a href="#palette">Palette</a><a href="#type">Typography</a><a href="#voice">Voice</a><a href="#tensions">Tensions</a><a href="#motifs">Motifs</a><a href="#components">Components</a><a href="#crosspromo">Cross-promo</a><a href="#system">System</a><a href="#logo">Logo</a><a href="#spacing">Spacing</a></div></nav>
+<div class="strip"></div>
+<header class="mast"><div class="wrap">
+<h1>Ziggo</h1>
+<p class="hero-line"><span>Onze grootste Black Friday ooit</span></p>
+<p class="tag">Welkom bij Ziggo ✓ Stabiel, snel en veilig internet ✓ Wifi Garantie ✓ Ziggo GO ✓ Ziggo Sport  ➔ Kies je voordeel en stel zelf je pakket samen.</p>
+<p class="origin">https://www.ziggo.nl · register: brand · taal: nl</p>
+</div></header>
+
+<section id="coverage"><div class="wrap">
+<div class="sec-head"><h2>Coverage</h2><span class="badge badge-observed">observed</span></div>
+<p class="src">Source: _crawl-log.json, pages/*.json#_provenance, _computed-styles.json#_provenance</p>
+<div class="stats">
+<div class="stat"><b>33</b>pages extracted (landing:6, program:4, article:13, listing:1, channel:7, streaming:2). Discovery: chrome, 0 crawl failures.</div>
+<div class="stat"><b>2500 ms</b>wait strategy “medium” (average per page), consent auto.</div>
+<div class="stat"><b>8 · 2 · 20</b>palette colors · brand families · module candidates. Style census covered 33 of 33 pages at 360 and 1440 px.</div>
+</div>
+<p style="margin-top:16px;color:var(--accent);font-weight:600">Census gaps: 21 page×width measurements failed (browser context closed). Favicon: none captured. Logo file: not downloaded.</p>
+</div></section>
+
+<section id="pages"><div class="wrap">
+<div class="sec-head"><h2>Pages</h2><span class="badge badge-observed">observed</span></div>
+<p class="src">Source: assets/screenshots/&lt;slug&gt;-thumb.png, state.json pages[].type</p>
+<div class="grid thumbs">
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/index-thumb.png" alt="Screenshot index" loading="lazy"><div>Ziggo | Internet • TV &amp; Streaming • Bellen<span class="mono">/ · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/alles-in-1-thumb.png" alt="Screenshot alles-in-1" loading="lazy"><div>Alles-in-1 | Vergelijk Internet, TV &amp; Bellen | Ziggo<span class="mono">/alles-in-1 · program</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/tv-internet-thumb.png" alt="Screenshot tv-internet" loading="lazy"><div>Internet en TV Abonnement – Vergelijk Internet &amp; TV | Ziggo<span class="mono">/tv-internet · program</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-thumb.png" alt="Screenshot televisie" loading="lazy"><div>Televisie - TV &amp; Streaming op één plek | Ziggo<span class="mono">/televisie · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/internet-thumb.png" alt="Screenshot internet" loading="lazy"><div>Internet van Ziggo | Vergelijk Internet Abonnement | Ziggo<span class="mono">/internet · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-voicecontrol-thumb.png" alt="Screenshot televisie-voicecontrol" loading="lazy"><div>Afstandsbediening met Voice Control | Ziggo<span class="mono">/televisie/voicecontrol · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-makkelijk-zoeken-thumb.png" alt="Screenshot televisie-makkelijk-zoeken" loading="lazy"><div>Makkelijk zoeken | Ziggo<span class="mono">/televisie/makkelijk-zoeken · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenderoverzicht-thumb.png" alt="Screenshot televisie-zenderoverzicht" loading="lazy"><div>Vind alle digitale zenders bij Ziggo in het zenderoverzicht<span class="mono">/televisie/zenderoverzicht · listing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-extra-zenders-streamingdiensten-thumb.png" alt="Screenshot televisie-extra-zenders-streamingdiensten" loading="lazy"><div>Extra zenders &amp; streamingdiensten | Ziggo<span class="mono">/televisie/extra-zenders-streamingdiensten · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-terugkijken-thumb.png" alt="Screenshot televisie-terugkijken" loading="lazy"><div>Uitzending Gemist? Terugkijken: tot 7 dagen | Ziggo<span class="mono">/televisie/terugkijken · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-online-tv-kijken-thumb.png" alt="Screenshot televisie-online-tv-kijken" loading="lazy"><div>Online tv-kijken waar en wanneer je wilt | Ziggo<span class="mono">/televisie/online-tv-kijken · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-ziggo-sport-thumb.png" alt="Screenshot televisie-ziggo-sport" loading="lazy"><div>Ziggo Sport - Gratis live racing, voetbal en meer | Ziggo<span class="mono">/televisie/ziggo-sport · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-opnemen-thumb.png" alt="Screenshot televisie-opnemen" loading="lazy"><div>Opnemen, pauzeren en terugspoelen | Ziggo<span class="mono">/televisie/opnemen · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-kijkprofielen-thumb.png" alt="Screenshot televisie-kijkprofielen" loading="lazy"><div>Persoonlijke kijktips voor je eigen kijkprofiel | Ziggo<span class="mono">/televisie/kijkprofielen · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-hoofdmenu-thumb.png" alt="Screenshot televisie-hoofdmenu" loading="lazy"><div>Je persoonlijke startscherm | Ziggo<span class="mono">/televisie/hoofdmenu · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-4k-uhd-thumb.png" alt="Screenshot televisie-4k-uhd" loading="lazy"><div>4K Ultra HD TV kijken: haarscherpe beeldkwaliteit | Ziggo<span class="mono">/televisie/4k-uhd · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-digitale-kabel-tv-en-radio-thumb.png" alt="Screenshot televisie-digitale-kabel-tv-en-radio" loading="lazy"><div>Digitale Kabel TV | Televisie | Ziggo<span class="mono">/televisie/digitale-kabel-tv-en-radio · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-digitale-radio-thumb.png" alt="Screenshot televisie-digitale-radio" loading="lazy"><div>Digitale Radio | Televisie | Ziggo<span class="mono">/televisie/digitale-radio · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-tv-start-thumb.png" alt="Screenshot televisie-tv-start" loading="lazy"><div>TV Start pakket | Haal meer uit je televisie | Ziggo<span class="mono">/televisie/tv-start · program</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-kabel-tv-thumb.png" alt="Screenshot televisie-kabel-tv" loading="lazy"><div>Kabel TV: voordelig tv kijken | Ziggo<span class="mono">/televisie/kabel-tv · program</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-mediaboxen-thumb.png" alt="Screenshot televisie-mediaboxen" loading="lazy"><div>Ziggo Mediaboxen | Televisie | Ziggo<span class="mono">/televisie/mediaboxen · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-ziggo-go-thumb.png" alt="Screenshot televisie-ziggo-go" loading="lazy"><div>Ziggo GO - Maak van elk scherm je tv met Ziggo GO | Ziggo<span class="mono">/televisie/ziggo-go · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-tv-apps-thumb.png" alt="Screenshot televisie-tv-apps" loading="lazy"><div>TV apps op je mediabox | Ziggo<span class="mono">/televisie/tv-apps · article</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-espn-thumb.png" alt="Screenshot televisie-espn" loading="lazy"><div>Alle ESPN-zenders standaard in je internet + tv-pakket | Ziggo<span class="mono">/televisie/espn · landing</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-npo-1-thumb.png" alt="Screenshot televisie-zenders-npo-1" loading="lazy"><div>NPO 1 live in HD kijken op kanaal 1 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/npo-1 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-sbs6-thumb.png" alt="Screenshot televisie-zenders-sbs6" loading="lazy"><div>SBS6 live in HD kijken op kanaal 6 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/sbs6 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-rtl-4-thumb.png" alt="Screenshot televisie-zenders-rtl-4" loading="lazy"><div>RTL 4 live in HD kijken op kanaal 4 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/rtl-4 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-npo-2-thumb.png" alt="Screenshot televisie-zenders-npo-2" loading="lazy"><div>NPO 2 live in HD kijken op kanaal 2 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/npo-2 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-npo-3-thumb.png" alt="Screenshot televisie-zenders-npo-3" loading="lazy"><div>NPO 3 live in HD kijken op kanaal 3 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/npo-3 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-rtl-5-thumb.png" alt="Screenshot televisie-zenders-rtl-5" loading="lazy"><div>RTL 5 live in HD kijken op kanaal 5 | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/rtl-5 · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-zenders-star-channel-thumb.png" alt="Screenshot televisie-zenders-star-channel" loading="lazy"><div>STAR Channel kijken | Zenderoverzicht Ziggo<span class="mono">/televisie/zenders/star-channel · channel</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-extra-zenders-streamingdiensten-netflix-thumb.png" alt="Screenshot televisie-extra-zenders-streamingdiensten-netflix" loading="lazy"><div>Netflix kijken op je Mediabox | Ziggo<span class="mono">/televisie/extra-zenders-streamingdiensten/netflix · streaming</span></div></figure>
+<figure class="thumb" style="margin:0"><img src="assets/screenshots/televisie-extra-zenders-streamingdiensten-disneyplus-thumb.png" alt="Screenshot televisie-extra-zenders-streamingdiensten-disneyplus" loading="lazy"><div>Kijk alles van Disney Plus | Ziggo<span class="mono">/televisie/extra-zenders-streamingdiensten/disneyplus · streaming</span></div></figure>
+</div></div></section>
+
+<section id="palette"><div class="wrap">
+<div class="sec-head"><h2>Color palette</h2><span class="badge badge-cross-page">cross-page</span> <span class="badge badge-observed">observed</span></div>
+<p class="src">Source: _brand-extraction.json § palette (from _computed-styles.json#aggregate.colors; third-party colors excluded)</p>
+<div class="grid swatches">
+<div class="sw"><div class="chip" style="background:#ffffff"></div><div class="role">background</div><div class="mono">#ffffff · --color_white / --color_body-bg</div><div style="font-size:13px">3180 occurrences</div><div class="tags"><span>background</span><span>text</span><span>border</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-extra-zenders-streamingdiensten · alles-in-1 · internet</div></div>
+<div class="sw"><div class="chip" style="background:#c1c5c8"></div><div class="role">border</div><div class="mono">#c1c5c8 · --color_gray-300 / --color_border-color</div><div style="font-size:13px">2736 occurrences</div><div class="tags"><span>border</span><span>text</span><span>background</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-tv-apps · index · alles-in-1</div></div>
+<div class="sw"><div class="chip" style="background:#001489"></div><div class="role">primary</div><div class="mono">#001489 · --color_tertiary (= --color_blue-60, --color_info)</div><div style="font-size:13px">2508 occurrences</div><div class="tags"><span>text</span><span>background</span><span>border</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-zenderoverzicht · index · televisie-extra-zenders-streamingdiensten</div></div>
+<div class="sw"><div class="chip" style="background:#000000"></div><div class="role">text-primary</div><div class="mono">#000000 · --color_black / --color_body-color</div><div style="font-size:13px">2395 occurrences</div><div class="tags"><span>text</span><span>background</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-zenderoverzicht · televisie-online-tv-kijken · televisie-extra-zenders-streamingdiensten</div></div>
+<div class="sw"><div class="chip" style="background:#1c1f21"></div><div class="role">text-secondary</div><div class="mono">#1c1f21 · --color_secondary</div><div style="font-size:13px">2142 occurrences</div><div class="tags"><span>text</span><span>background</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-extra-zenders-streamingdiensten · alles-in-1 · televisie-extra-zenders-streamingdiensten-disneyplus</div></div>
+<div class="sw"><div class="chip" style="background:#323639"></div><div class="role">surface-dark</div><div class="mono">#323639 · --color_dark / --color_gray-900 / --color_secondary-lighten-20</div><div style="font-size:13px">1381 occurrences</div><div class="tags"><span>background</span><span>text</span><span>border</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">index · televisie-tv-apps · internet</div></div>
+<div class="sw"><div class="chip" style="background:#ff5f00"></div><div class="role">secondary</div><div class="mono">#ff5f00 · --color_primary</div><div style="font-size:13px">1151 occurrences</div><div class="tags"><span>text</span><span>background</span><span>border</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">alles-in-1 · televisie-extra-zenders-streamingdiensten · internet</div></div>
+<div class="sw"><div class="chip" style="background:#f1f2f3"></div><div class="role">surface</div><div class="mono">#f1f2f3 · --color_gray-100 / --color_light / --color_background-light</div><div style="font-size:13px">770 occurrences</div><div class="tags"><span>background</span><span>border</span><span>text</span></div><div style="font-size:12px;color:var(--text-muted);margin-top:6px">televisie-zenderoverzicht · televisie-4k-uhd · televisie-online-tv-kijken</div></div>
+</div>
+<p style="font-size:13px;margin-top:16px">Review chrome resolution: --primary #001489 (most frequent saturated); --primary-dark #000e60 (derived: #001489 darkened 30% (no same-hue darker entry among the 8 palette colors; dropped navy #01125d is the site's own darker blue)); --accent #ff5f00 (fallback 2: palette[role=&quot;secondary&quot;] (#ff5f00 fails the max&lt;240 saturation test)).</p>
+</div></section>
+
+<section id="type"><div class="wrap">
+<div class="sec-head"><h2>Typography</h2><span class="badge badge-cross-page">cross-page</span> <span class="badge badge-observed">observed</span> <span class="badge badge-synthesized">No modular scale</span></div>
+<p class="src">Source: _brand-extraction.json § type (levels, scaleAudit, files); fonts rendered from assets/fonts/</p>
+<div class="spec"><span class="mono">Display · Ziggo Headline 700 / 61.04px / 1.1 / normal</span><div style="font-family:var(--display);font-weight:700;font-size:61.04px;line-height:1.1">Internet van Ziggo</div></div>
+<div class="spec"><span class="mono">H1 · Ziggo Headline 700 / 48.8px / 53.68px / normal — mobile 28.83px/700</span><div style="font-family:var(--display);font-weight:700;font-size:48.8px;line-height:1.1">Alles-in-1</div></div>
+<div class="spec"><span class="mono">H2 · Ziggo Headline 700 / 39.04px / 42.944px / normal — mobile 25.6px/700</span><div style="font-family:var(--display);font-weight:700;font-size:39.04px;line-height:1.1">Nog een vraag over je bestelling?</div></div>
+<div class="spec"><span class="mono">H3 · Ziggo Headline 700 / 25.01px / 27.5088px / normal — mobile 20.26px/700</span><div style="font-family:var(--display);font-weight:700;font-size:25.01px;line-height:1.1">Internet Only</div></div>
+<div class="spec"><span class="mono">H4 · Ziggo Headline 700 / 25.01px / 27.5088px / normal — mobile 20.26px/700</span><div style="font-family:var(--display);font-weight:700;font-size:25.01px;line-height:1.1">TV &amp; Streaming</div></div>
+<div class="spec"><span class="mono">Class step .vfz-heading__h3 · Ziggo Headline 700 / 31.2px (1.95rem) / 1.1 — 36 h3 + 18 h2 tags at 1440</span><div style="font-family:var(--display);font-weight:700;font-size:31.2px;line-height:1.1">Je overstap is zo geregeld</div></div>
+<div class="spec"><span class="mono">Light subheading · Vodafone Ziggo text 300 / 31.2px / 1.1</span><div style="font-family:var(--body);font-weight:300;font-size:31.2px;line-height:1.1">Onze adviseurs helpen je graag</div></div>
+<div class="spec"><span class="mono">Body · Vodafone Ziggo text 300 / 16px / 25.6px</span><p style="margin:0;max-width:68ch">Altijd alle snelheid die je nodig hebt. Welkom bij Ziggo ✓ Stabiel, snel en veilig internet ✓ Wifi Garantie ✓ Ziggo GO ✓ Ziggo Sport  ➔ Kies je voordeel en stel zelf je pakket samen.</p></div>
+<div class="spec"><span class="mono">Legal · Vodafone Ziggo text 300 / 12px / 1.6</span><p style="margin:0;font-size:12px">Bij een nieuw 2-jarig internetabonnement vanaf 41,95 p.m.</p></div>
+<p style="font-size:14px">Scale audit: desktop ladder 61.04 → 48.8 → 39.04 → 31.2 → 25.008 → 20 → 16 (declared .vfz-heading__hN classes, ratios ≈1.25, major-third); mobile ladder 32.32 → 28.832 → 25.6 → 22.784 → 20.256 → 18 (ratios ≈1.125, major-second). Unresolved: Diodrum (third-party, no @font-face, no file).</p>
+</div></section>
+
+<section id="voice"><div class="wrap">
+<div class="sec-head"><h2>Voice</h2><span class="badge badge-home-only">home-only</span> <span class="badge badge-cross-page">cross-page</span> <span class="badge badge-inferred">tone: bold-direct</span></div>
+<p class="src">Source: _brand-extraction.json § voice, voiceTable</p>
+<div class="voicecards">
+<div class="vc"><small>Hero headline</small><div style="font-family:var(--display);font-size:31.2px;font-weight:700;line-height:1.1">Onze grootste Black Friday ooit</div><div>Stap nu over · <span class="pill" style="background:#001489">Stel je pakket samen</span></div></div>
+<div class="vc"><small>Tagline (meta description)</small><div>Welkom bij Ziggo ✓ Stabiel, snel en veilig internet ✓ Wifi Garantie ✓ Ziggo GO ✓ Ziggo Sport  ➔ Kies je voordeel en stel zelf je pakket samen.</div></div>
+<div class="vc"><small>First paragraph</small><div>Altijd alle snelheid die je nodig hebt.</div></div>
+</div>
+<h3>CTA frequency</h3>
+<table><thead><tr><th>Label</th><th>Total</th><th>Pages</th><th>Example pages</th></tr></thead><tbody>
+<tr><td><span class="pill">Meer info</span></td><td>51</td><td>4</td><td class="mono">televisie-extra-zenders-streamingdiensten, televisie-ziggo-sport, televisie-extra-zenders-streamingdiensten-netflix, televisie-extra-zenders-streamingdiensten-disneyplus</td></tr>
+<tr><td><span class="pill">Bestellen</span></td><td>49</td><td>4</td><td class="mono">televisie-extra-zenders-streamingdiensten, televisie-ziggo-sport, televisie-extra-zenders-streamingdiensten-netflix, televisie-extra-zenders-streamingdiensten-disneyplus</td></tr>
+<tr><td><span class="pill">Safe Online Modem</span></td><td>12</td><td>2</td><td class="mono">alles-in-1, tv-internet</td></tr>
+<tr><td><span class="pill">Bel ons Wij staan voor je klaar Bel ons</span></td><td>11</td><td>11</td><td class="mono">televisie, televisie-voicecontrol, televisie-makkelijk-zoeken, televisie-online-tv-kijken</td></tr>
+<tr><td><span class="pill">Bekijk alle functies</span></td><td>11</td><td>5</td><td class="mono">televisie-voicecontrol, televisie-terugkijken, televisie-opnemen, televisie-kijkprofielen</td></tr>
+<tr><td><span class="pill">Live tv-kijken op Ziggo GO</span></td><td>7</td><td>7</td><td class="mono">televisie-zenders-npo-1, televisie-zenders-sbs6, televisie-zenders-rtl-4, televisie-zenders-npo-2</td></tr>
+<tr><td><span class="pill">Meer over Digitale Televisie</span></td><td>7</td><td>7</td><td class="mono">televisie-zenders-npo-1, televisie-zenders-sbs6, televisie-zenders-rtl-4, televisie-zenders-npo-2</td></tr>
+<tr><td><span class="pill">Priority</span></td><td>7</td><td>6</td><td class="mono">index, televisie, internet, televisie-makkelijk-zoeken</td></tr>
+</tbody></table>
+<h3>Repeated headings (≥3 pages)</h3>
+<ul class="cols"><li>H2 “Pakketten” — 33× on 33 pages</li><li>H2 “Internet” — 33× on 33 pages</li><li>H2 “Televisie” — 33× on 33 pages</li><li>H2 “Bellen &amp; Overige” — 33× on 33 pages</li><li>H2 “Veelgestelde vragen” — 14× on 14 pages</li><li>H2 “Check je beschikbaarheid” — 4× on 4 pages</li><li>H2 “Beleef het beste entertainment voor jou” — 4× on 4 pages</li><li>H3 “Standaard in je abonnement” — 4× on 4 pages</li><li>H4 “TV &amp; Streaming” — 4× on 4 pages</li><li>H4 “Ziggo Sport” — 4× on 4 pages</li><li>H4 “ESPN” — 4× on 4 pages</li><li>H4 “Priority” — 4× on 4 pages</li><li>H3 “Veelgestelde vragen” — 4× on 4 pages</li><li>H3 “Next Mini” — 4× on 4 pages</li><li>H3 “Mediabox Next” — 4× on 4 pages</li><li>H3 “HBO Max” — 4× on 3 pages</li><li>H3 “Internet 200 Mbit/s” — 3× on 3 pages</li><li>H3 “Internet 500 Mbit/s” — 3× on 3 pages</li><li>H3 “Internet 1 Gbit/s” — 3× on 3 pages</li><li>H3 “TV Start” — 3× on 3 pages</li><li>H3 “Onze adviseurs helpen je graag” — 3× on 3 pages</li><li>H4 “Bel” — 3× on 3 pages</li><li>H4 “Chat” — 3× on 3 pages</li><li>H4 “Winkel” — 3× on 3 pages</li><li>H2 “Nog een vraag?” — 3× on 3 pages</li><li>H2 “Kies je mediabox” — 3× on 3 pages</li></ul>
+<div class="stats" style="margin-top:24px">
+<div class="stat"><b>3%</b>headings in uppercase</div>
+<div class="stat"><b>331</b>distinct headings (of 629)</div>
+<div class="stat"><b>493</b>distinct CTA labels</div>
+</div>
+</div></section>
+
+<section id="tensions"><div class="wrap">
+<div class="sec-head"><h2>Tensions</h2><span class="badge badge-observed">observed</span> <span class="badge badge-inferred">inferred</span></div>
+<p class="src">Mechanical detectors from brand-review-template § Detector rules, plus agent-added observations marked “inferred”. Not fired: T-color-imbalance, T-no-tokens, T-tokens-unused, T-cta-vocab (English closed list), T-nav-conflict, T-temporal-mark (substring rule), T-img-alt-generic. Skipped (no data): T-link-content-free (link texts not captured), T-embed-dominance.</p>
+<div class="grid tensions">
+<article class="tension"><span class="tid">T-radius-vocab</span> <span class="badge badge-observed">observed</span><h4>Radius vocabulary is fragmented</h4><p>Small radii in use: 8px (468), 6px (392), 4px 0px 0px 4px (81), 3px 3px 0px 0px (67), 8px 8px 0px 0px (67), 0px 0px 0px 4px (15). 6px is mostly the Dimelo chat pre-form and 3px 3px 0 0 is the feedback tab, so the first-party small set is 8px plus the 4px sub-nav tabs. Direct will need to pick a single small-radius value or accept the variance.</p><footer>Source: _brand-extraction.json § motifs.borderRadius.occurrences</footer></article>
+<article class="tension"><span class="tid">T-logo-variants</span> <span class="badge badge-observed">observed</span><h4>Single logo variant captured</h4><p>Only one logo variant captured (img: ziggo-logo-orange-v1 SVG, not saved locally). The redesign will need a monochrome / inverted / SVG variant set; direct should plan that.</p><footer>Source: _brand-extraction.json § logo</footer></article>
+<article class="tension"><span class="tid">T-img-alt-empty</span> <span class="badge badge-cross-page">cross-page</span><h4>Empty alt text widespread</h4><p>49% of images carry empty alt text (648 of 1328, many are progressive-image placeholders). Accessibility issue and a content-sourcing decision for direct.</p><footer>Source: pages/*.json § media.imgs[].alt</footer></article>
+<article class="tension"><span class="tid">T-scale</span> <span class="badge badge-synthesized">synthesized</span><h4>Type scale is ad-hoc</h4><p>Type scale is ad-hoc (48.8 → 39.04 → 25.01 → 25.01 px for h1→h4; ratios 1.25, 1.561, 1). h3 tags render at 20, 25, 31.2 and 39px because size classes (.vfz-heading__hN) are set independently of the tag. The declared class ladder is a clean 1.25 (desktop) / 1.125 (mobile) scale. Direct will need to decide whether the target adopts a modular scale tied to semantic levels.</p><footer>Source: _brand-extraction.json § type.scaleAudit</footer></article>
+<article class="tension"><span class="tid">T-cta-vocab (nl)</span> <span class="badge badge-inferred">inferred</span><h4>Dutch see-more CTAs vary</h4><p>The closed English bucket list does not match Dutch labels. The equivalent &quot;see more&quot; family appears as “Meer info” (51), “Bekijk alle functies” (11), “Meer informatie” (7), “Ontdek het nu” (5), “Bekijk meer” (2). Direct will need to decide whether one canonical label is kept.</p><footer>Source: pages/*.json § ctas[].label</footer></article>
+<article class="tension"><span class="tid">T-hero-not-heading</span> <span class="badge badge-inferred">inferred</span><h4>Home hero headline is not a heading</h4><p>The home page shows “Onze grootste Black Friday ooit” as a styled span.vfz-heading__h1, while its h1 is “Daarom kies je Ziggo” (Vodafone Ziggo text 25px/300, further down). A replica must decide between visual parity and outline parity.</p><footer>Source: _brand-extraction.json § voice.heroHeadlineSource</footer></article>
+<article class="tension"><span class="tid">T-role-naming</span> <span class="badge badge-inferred">inferred</span><h4>The &quot;primary&quot; token is not the action color</h4><p>--color_primary is orange #ff5f00 (hero bands), but primary actions are Ziggo Blue #001489 (--color_tertiary). The census role heuristic therefore labels blue &quot;primary&quot; and orange &quot;secondary&quot;. Token names and roles disagree.</p><footer>Source: head.*.css body.ziggo + _brand-extraction.json § palette</footer></article>
+<article class="tension"><span class="tid">T-temporal-mark</span> <span class="badge badge-inferred">inferred</span><h4>Home hero is a seasonal campaign</h4><p>The mechanical substring rule found no match, but the home hero is “Onze grootste Black Friday ooit” with a time-limited offer. Direct and replica need to decide whether the captured campaign is the archetype content or whether to use an evergreen hero.</p><footer>Source: _brand-extraction.json § voice.heroHeadline</footer></article>
+<article class="tension"><span class="tid">T-tokens-off-root</span> <span class="badge badge-inferred">inferred</span><h4>Design tokens live on body.ziggo, not :root</h4><p>pages/*.json#customProps holds only 14 a11y/transition/navigation props. The full --color_*, --border-radius*, --btn-* and --font-* layer is declared on body.ziggo / body.ziggo-entertainment. T-no-tokens does not apply, but token capture must read body scope.</p><footer>Source: assets/css/head.*.css @13883</footer></article>
+<article class="tension"><span class="tid">T-heading-weight</span> <span class="badge badge-inferred">inferred</span><h4>Heading weight token has no matching face</h4><p>--headings_font-weight is 600, but Ziggo Headline ships only 400 and 700 faces. 224 headings compute to 600 and render with the 700 face.</p><footer>Source: _computed-styles.json § aggregate.type.weights</footer></article>
+</div></div></section>
+
+<section id="motifs"><div class="wrap">
+<div class="sec-head"><h2>Motifs</h2><span class="badge badge-cross-page">cross-page</span> <span class="badge badge-observed">observed</span></div>
+<p class="src">Source: _brand-extraction.json § motifs (radius occurrences, shadows, gradients)</p>
+<div class="grid radii">
+<div class="rcard"><div class="rbox" style="border-radius:24px"></div><div class="mono">24px</div><div style="font-size:12px">980×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:8px"></div><div class="mono">8px</div><div style="font-size:12px">468×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:40px"></div><div class="mono">40px</div><div style="font-size:12px">412×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:6px"></div><div class="mono">6px</div><div style="font-size:12px">392×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:16px"></div><div class="mono">16px</div><div style="font-size:12px">232×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:50%"></div><div class="mono">50%</div><div style="font-size:12px">102×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:4px 0px 0px 4px"></div><div class="mono">4px 0px 0px 4px</div><div style="font-size:12px">81×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:3px 3px 0px 0px"></div><div class="mono">3px 3px 0px 0px</div><div style="font-size:12px">67×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:8px 8px 0px 0px"></div><div class="mono">8px 8px 0px 0px</div><div style="font-size:12px">67×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:0px 0px 24px 24px"></div><div class="mono">0px 0px 24px 24px</div><div style="font-size:12px">32×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:24px 0px 0px 24px"></div><div class="mono">24px 0px 0px 24px</div><div style="font-size:12px">24×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:18px"></div><div class="mono">18px</div><div style="font-size:12px">20×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:60px"></div><div class="mono">60px</div><div style="font-size:12px">16×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:0px 0px 0px 4px"></div><div class="mono">0px 0px 0px 4px</div><div style="font-size:12px">15×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:24px 24px 0px 0px"></div><div class="mono">24px 24px 0px 0px</div><div style="font-size:12px">12×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:32px"></div><div class="mono">32px</div><div style="font-size:12px">10×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:12px"></div><div class="mono">12px</div><div style="font-size:12px">8×</div></div>
+<div class="rcard"><div class="rbox" style="border-radius:0px 6px 6px 0px"></div><div class="mono">0px 6px 6px 0px</div><div style="font-size:12px">2×</div></div>
+</div>
+<h3 style="margin-top:32px">Shadows &amp; gradient</h3>
+<div class="shadowdemo">
+<div style="box-shadow:rgba(28, 31, 33, 0.2) 0px 4px 10px 0px"><span class="mono">rgba(28, 31, 33, 0.2) 0px 4px 10px 0px<br>248×</span></div>
+<div style="box-shadow:rgba(28, 31, 33, 0.2) 0px 2px 4px 0px"><span class="mono">rgba(28, 31, 33, 0.2) 0px 2px 4px 0px<br>104×</span></div>
+<div style="box-shadow:rgba(28, 31, 33, 0.2) 0px 6px 20px 0px"><span class="mono">rgba(28, 31, 33, 0.2) 0px 6px 20px 0px<br>3×</span></div>
+<div style="background:var(--gradient);color:#fff"><span class="mono">--background_gradient<br>51×</span></div>
+</div>
+</div></section>
+
+<section id="components"><div class="wrap">
+<div class="sec-head"><h2>Components</h2><span class="badge badge-cross-page">cross-page</span> <span class="badge badge-synthesized">synthesized</span></div>
+<p class="src">Source: DESIGN.json § extensions.modules (status: candidate) and _brand-extraction.json § motifs.patterns</p>
+<ul class="complist">
+<li><strong>hero-band</strong> — 33 instances <span class="mono">candidate-e1db862e</span><br><span style="font-size:13px;color:var(--text-muted)">cssBackgrounds (per-page hero photo URLs) · class .vfz-hero-container.bg-primary / .bg-ziggo-gradient · h1 inside band on 29/33 pages</span></li>
+<li><strong>address-checker (&quot;Check je beschikbaarheid&quot;)</strong> — 5 instances <span class="mono">candidate-752c45fd</span><br><span style="font-size:13px;color:var(--text-muted)">heading &quot;Check je beschikbaarheid&quot; h2 on 4 pages · form with #zipcode input (Postcode / Huisnummer / Toevoeging) · CTA &quot;Bekijk ons aanbod&quot; / &quot;Check beschikbaarheid&quot;</span></li>
+<li><strong>plan-price-cards</strong> — 4 instances <span class="mono">candidate-059db6b2</span><br><span style="font-size:13px;color:var(--text-muted)">h3 &quot;Internet 200 Mbit/s&quot; / &quot;Internet 500 Mbit/s&quot; / &quot;Internet 1 Gbit/s&quot; on 3 pages · heading &quot;Altijd een abonnement dat bij je past&quot; on 2 pages · product-card-group in bundle builder</span></li>
+<li><strong>faq-accordion (&quot;Veelgestelde vragen&quot;)</strong> — 18 instances <span class="mono">candidate-b7eec09d</span><br><span style="font-size:13px;color:var(--text-muted)">heading &quot;Veelgestelde vragen&quot; (h2 14 pages, h3 4 pages) · .faq / .vfz-accordion components · accordion-item-* ids</span></li>
+<li><strong>contact-band (&quot;Nog een vraag?&quot;)</strong> — 5 instances <span class="mono">candidate-2f9bc367</span><br><span style="font-size:13px;color:var(--text-muted)">heading &quot;Nog een vraag?&quot; (3 pages) / &quot;Nog een vraag over je bestelling?&quot; (2) · h3 &quot;Onze adviseurs helpen je graag&quot;, h4 Bel / Chat / Winkel · .chat-button</span></li>
+<li><strong>mediabox-cards (&quot;Kies je mediabox&quot;)</strong> — 5 instances <span class="mono">candidate-e3140cda</span><br><span style="font-size:13px;color:var(--text-muted)">heading &quot;Kies je mediabox&quot;/&quot;Kies jouw mediabox&quot; + h3/h4 &quot;Next Mini&quot;, &quot;Mediabox Next&quot; (5 pages) · eyebrow &quot;Ontdek meer&quot; · CTA &quot;Bekijk alle functies&quot;</span></li>
+<li><strong>channel-info-card</strong> — 7 instances <span class="mono">candidate-290b10ec</span><br><span style="font-size:13px;color:var(--text-muted)">.channel-detail-info-block on all 7 channel pages · CTA &quot;Live tv-kijken op Ziggo GO&quot;, &quot;Meer over Digitale Televisie&quot;, &quot;Bekijk de tv-gids&quot;</span></li>
+<li><strong>social-share</strong> — 7 instances <span class="mono">candidate-b2a27885</span><br><span style="font-size:13px;color:var(--text-muted)">.social on all 7 channel pages · aria-labels &quot;Navigeer naar Facebook/LinkedIn&quot;, &quot;Open Email/WhatsApp&quot;</span></li>
+<li><strong>footer-link-columns</strong> — 33 instances <span class="mono">candidate-525ca7c9</span><br><span style="font-size:13px;color:var(--text-muted)">h2 Pakketten · Internet · Televisie · Bellen &amp; Overige on 33/33 pages · identical footer link labels on 26+ pages</span></li>
+<li><strong>entertainment-band (&quot;Beleef het beste entertainment voor jou&quot;)</strong> — 4 instances <span class="mono">candidate-1c54b6a9</span><br><span style="font-size:13px;color:var(--text-muted)">h2 &quot;Beleef het beste entertainment voor jou&quot; + h3 &quot;Standaard in je abonnement&quot; + h4 TV &amp; Streaming / Ziggo Sport / ESPN / Priority on 4 pages · CTA &quot;Ontdek het nu&quot;</span></li>
+<li><strong>toptask-tiles</strong> — 3 instances <span class="mono">candidate-a1039f1f</span><br><span style="font-size:13px;color:var(--text-muted)">.vfz-toptask / .vfz-tile under the hero on 3 landing pages · icon-font glyphs icon-package / icon-shopping-bag / icon-discount-star</span></li>
+<li><strong>feature-card (card-v2)</strong> — 11 instances <span class="mono">candidate-3c5f3abf</span><br><span style="font-size:13px;color:var(--text-muted)">.card-v2 on 11 pages (article/teaser cards, 24px radius, 0 4px 10px shadow) · CTAs &quot;Bekijk meer&quot;, &quot;Ontdek het nu&quot;, &quot;Meer over …&quot;</span></li>
+<li><strong>streaming-service-cards</strong> — 3 instances <span class="mono">candidate-61818ffe</span><br><span style="font-size:13px;color:var(--text-muted)">CTA labels &quot;Meer info&quot; (47) + &quot;Bestellen&quot; (45) on 3 pages · heading &quot;Ken je deze TV apps al?&quot; on 2 streaming pages</span></li>
+<li><strong>streaming-tier-table (&quot;Kies het abonnement dat bij jou past&quot;)</strong> — 2 instances <span class="mono">candidate-881ce0cb</span><br><span style="font-size:13px;color:var(--text-muted)">h2 &quot;Kies het abonnement dat bij jou past&quot; on both streaming pages</span></li>
+<li><strong>prospect-band (&quot;Nog geen tv van Ziggo?&quot;)</strong> — 2 instances <span class="mono">candidate-5353e907</span><br><span style="font-size:13px;color:var(--text-muted)">h2 &quot;Nog geen tv van Ziggo?&quot; on 2 article pages (+ sub-nav label &quot;Nog geen Ziggo TV?&quot; on terugkijken/opnemen)</span></li>
+<li><strong>customer-toggle band (&quot;Ben je Ziggo klant?&quot;)</strong> — 4 instances <span class="mono">candidate-9a03f5dc</span><br><span style="font-size:13px;color:var(--text-muted)">bg-dark/bg-black first band with Ja/Nee or &quot;Ja, ik ben al klant&quot; buttons on 4 pages</span></li>
+<li><strong>breadcrumb</strong> — 20 instances <span class="mono">candidate-8c3cf191</span><br><span style="font-size:13px;color:var(--text-muted)">.breadcrumb-v2 on 20 pages</span></li>
+<li><strong>sticky-subnavigation</strong> — 8 instances <span class="mono">candidate-0b5faa7b</span><br><span style="font-size:13px;color:var(--text-muted)">section.vfz-sticky-subnavigation on 8 pages · label &quot;Navigeer naar ...&quot; / &quot;Bekijk categorieën&quot;</span></li>
+<li><strong>channel-overview (filterable channel list)</strong> — 1 instance <span class="mono">candidate-9f39fa2a</span><br><span style="font-size:13px;color:var(--text-muted)">.channel-overview on zenderoverzicht (172 channels, search + Filter + Sorteren)</span></li>
+<li><strong>bundle-builder (program configurator)</strong> — 4 instances <span class="mono">candidate-6b7e305c</span><br><span style="font-size:13px;color:var(--text-muted)">.bundle-builder + catalog-xf on 4 program pages · steps &quot;Kies je internetpakket&quot; / &quot;Kies je TV-pakket&quot; / &quot;Kies je voordeel &amp; contractduur&quot; / &quot;Dit krijg je thuis&quot;</span></li>
+</ul>
+<h3 style="margin-top:24px">Patterns</h3>
+<ul class="complist"><li><strong>orange-hero-band</strong> — 29 of 33 pages open with an orange band — 20 × .vfz-hero-container.bg-primary (#ff5f00 + right-aligned product photo as CSS background) and 9 × .bg-ziggo-gradient; the other 4 open with a dark customer-toggle band followed by the orange band. All 33 contain one (24 bg-primary, 9 gradient); the h1 sits inside it on 29 pages.</li><li><strong>orange-gradient-strip</strong> — header top strip and channel/zenderoverzicht heroes use linear-gradient(90deg,#ff4608,#ff5f00 70%,#f7931e) (31 elements)</li><li><strong>card-grid</strong> — rounded 24px white/light-gray cards with 0 4px 10px shadow — card-v2 on 11 pages, mediabox/plan tiles</li><li><strong>pricing-3up</strong> — &quot;Altijd een abonnement dat bij je past&quot; (index, internet) and the bundle-builder product cards (alles-in-1, tv-internet)</li><li><strong>faq-accordion</strong> — &quot;Veelgestelde vragen&quot; accordion on 18 pages</li><li><strong>cta-band</strong> — &quot;Nog een vraag?&quot; Bel / Chat / Winkel contact band on 5 pages</li><li><strong>toptask-tiles</strong> — icon tiles under the hero on index, internet, televisie (.vfz-toptask)</li><li><strong>sticky-subnav</strong> — pill-shaped sticky in-page sub-navigation on 8 TV feature pages</li><li><strong>footer-mega</strong> — four link columns (Pakketten · Internet · Televisie · Bellen &amp; Overige) + service links + social on 33/33 pages</li><li><strong>nav-mega</strong> — header mega-menu Producten / Klantenservice / Entertainment with Privé/Zakelijk audience tabs on 33/33 pages</li></ul>
+<p style="font-size:13px;margin-top:16px">Excluded as third-party: Dimelo chat pre-form, Feedback survey widget (&quot;Suggesties?&quot;), OneTrust cookie consent.</p>
+</div></section>
+
+<section id="crosspromo"><div class="wrap">
+<div class="sec-head"><h2>Cross-promo reproduction</h2><span class="badge badge-cross-page">cross-page</span></div>
+<p class="src">Source: _brand-extraction.json § crossPromo — anchor “Pakketten”, 33/33 pages. The mechanical cluster is the site-footer link-column headings (footer.page-footer h2), present on 33/33 pages — it coincides with the site-footer system component rather than an in-content promo band.</p>
+<div class="repro"><span class="rtag">Reproduction · approximate</span>
+<div class="cols4"><div><h4>Pakketten</h4><ul><li>Pakketten vergelijken</li><li>Alles-in-1</li><li>Internet &amp; TV</li><li>Internet Only</li><li>Televisie</li><li>Ziggo aanbiedingen</li></ul></div><div><h4>Internet</h4><ul><li>Internet</li><li>Wifi</li><li>Wifi-versterkers</li><li>SmartWifi</li><li>Wifi Garantie</li><li>Glasvezel internet</li><li>Internetbeveiliging</li><li>Speedtest</li><li>Postcodecheck internet</li></ul></div><div><h4>Televisie</h4><ul><li>Kabel TV</li><li>Online TV kijken</li><li>4K TV kijken</li><li>Ziggo GO</li><li>ESPN Premium</li><li>Videoland</li><li>Ziggo Sport</li></ul></div><div><h4>Bellen &amp; Overige</h4><ul><li>Vast Bellen</li><li>Mobiel bellen</li><li>Sim Only</li><li>iPhone 18</li><li>iPhone 17</li><li>Samsung Galaxy S26</li><li>Klantenservice</li><li>Ziggo Dome</li><li>Ziggo Zakelijk</li><li>Voorrang met Priority</li></ul></div></div>
+</div></div></section>
+
+<section id="system"><div class="wrap">
+<div class="sec-head"><h2>System components</h2><span class="badge badge-cross-page">cross-page</span></div>
+<p class="src">Source: _brand-extraction.json § systemComponents</p>
+<table><thead><tr><th>Name</th><th>Kind</th><th>Pages</th><th>Heading sequence</th><th>CTA labels / URL</th></tr></thead><tbody>
+<tr><td>site-header</td><td><span class="badge">header</span></td><td>33</td><td></td><td style="font-size:12px">Privé · Zakelijk · Producten · Klantenservice · Entertainment · Zoeken · Ziggo GO · Ziggo Mail</td></tr>
+<tr><td>site-footer</td><td><span class="badge">footer</span></td><td>33</td><td>Pakketten · Internet · Televisie · Bellen &amp; Overige</td><td style="font-size:12px">Producten · Klantenservice · Entertainment · Verhuizen · Mijn Ziggo · Community · Facebook · X</td></tr>
+<tr><td>breadcrumb</td><td><span class="badge">breadcrumb</span></td><td>20</td><td></td><td style="font-size:12px">Televisie</td></tr>
+<tr><td>sticky-subnavigation</td><td><span class="badge">nav-secondary</span></td><td>8</td><td></td><td style="font-size:12px">Navigeer naar ...</td></tr>
+<tr><td>faq-accordion</td><td><span class="badge">other</span></td><td>18</td><td>Veelgestelde vragen</td><td style="font-size:12px"></td></tr>
+<tr><td>contact-band</td><td><span class="badge">cta-band</span></td><td>5</td><td>Nog een vraag? · Onze adviseurs helpen je graag · Bel · Chat · Winkel</td><td style="font-size:12px">Bel 0900-0730 · Chat met ons · Vind een winkel</td></tr>
+<tr><td>background-motif-fade4f22</td><td><span class="badge">background-motif</span></td><td>2</td><td></td><td style="font-size:12px">https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/3840x1300_hero_60_ziggo-gradient?fmt=svg&amp;wid=1484&amp;hei=540&amp;fit=wrap</td></tr>
+<tr><td>background-motif-df928968</td><td><span class="badge">background-motif</span></td><td>2</td><td></td><td style="font-size:12px">https://www.ziggo.nl/content/dam/ziggo/generic-assets-/backgrounds-2025/ziggo-gradient-background/default/3840x1300_hero-60_ziggo-gradient.svg</td></tr>
+<tr><td>background-motif-4149c48a</td><td><span class="badge">background-motif</span></td><td>2</td><td></td><td style="font-size:12px">https://vodafoneziggo.scene7.com/is/image/vodafoneziggo/3840x870_header40_Ziggo_B2C_KabelTV_2025_Q4?qlt=80,0&amp;dpr=off&amp;wid=1484&amp;hei=360&amp;fit=wrap</td></tr>
+</tbody></table>
+</div></section>
+
+<section id="logo"><div class="wrap">
+<div class="sec-head"><h2>Logo &amp; favicons</h2><span class="badge badge-home-only">home-only</span></div>
+<p class="src">Source: _brand-extraction.json § logo, favicon; _crawl-log.json#favicon</p>
+<div class="logo-row">
+<div class="logo-missing">Logo file not captured locally<br><span class="mono">Logo van Ziggo</span></div>
+<dl>
+<dt>Source</dt><dd>img · <span class="mono">header img.vfz-navbar__brand-image</span></dd>
+<dt>File</dt><dd>svg, intrinsic 1080×450, rendered 72×30 @1440 · <span class="mono" style="word-break:break-all">https://vodafoneziggo.scene7.com/is/content/vodafoneziggo/ziggo-logo-orange-v1?fmt=svg&amp;wid=256&amp;fit=constrain</span></dd>
+<dt>Variants captured</dt><dd>orange (ziggo-logo-orange-v1)</dd>
+<dt>Variants not captured</dt><dd>monochrome, inverted/white, local SVG file, favicon / apple-touch-icon (none found)</dd>
+</dl></div>
+</div></section>
+
+<section id="spacing"><div class="wrap">
+<div class="sec-head"><h2>Spacing &amp; shape</h2><span class="badge badge-observed">observed</span></div>
+<p class="src">Source: _brand-extraction.json § spacing (vfz-spacing utilities, .container rules), § motifs.borderRadius</p>
+<p>Base unit <strong>8px</strong> (with a 4px half-step) · container 1200px (≥1024px), 1600px (≥1920px).</p>
+<div class="bars"><div style="height:14px">4</div><div style="height:18px">8</div><div style="height:26px">16</div><div style="height:34px">24</div><div style="height:42px">32</div><div style="height:50px">40</div><div style="height:74px">64</div><div style="height:90px">80</div></div>
+<h3>Radii revisited</h3>
+<div class="radpills"><span style="border-radius:24px">24px</span><span style="border-radius:8px">8px</span><span style="border-radius:40px">40px</span><span style="border-radius:6px">6px</span><span style="border-radius:16px">16px</span><span style="border-radius:50%">50%</span><span style="border-radius:4px 0px 0px 4px">4px 0px 0px 4px</span><span style="border-radius:3px 3px 0px 0px">3px 3px 0px 0px</span><span style="border-radius:8px 8px 0px 0px">8px 8px 0px 0px</span><span style="border-radius:0px 0px 24px 24px">0px 0px 24px 24px</span><span style="border-radius:24px 0px 0px 24px">24px 0px 0px 24px</span><span style="border-radius:18px">18px</span><span style="border-radius:60px">60px</span><span style="border-radius:0px 0px 0px 4px">0px 0px 0px 4px</span><span style="border-radius:24px 24px 0px 0px">24px 24px 0px 0px</span><span style="border-radius:32px">32px</span><span style="border-radius:12px">12px</span><span style="border-radius:0px 6px 6px 0px">0px 6px 6px 0px</span></div>
+</div></section>
+
+<footer class="page"><div class="wrap">
+<p>Provenance: this review reads stardust/current/_brand-extraction.json, DESIGN.json, DESIGN.md, PRODUCT.md, pages/*.json (33), _crawl-log.json and assets/screenshots. It is descriptive and invents nothing. Values without evidence are omitted (no favicon, no local logo, no embed-dominated pages).</p>
+<p>What’s next: run <strong>$stardust direct</strong> (for this replica flow: the replica preserve-mode prep, where module candidates get confirmed).</p>
+<p>Badges: <span class="badge badge-observed">observed</span> frequency-counted across ≥3 pages · <span class="badge badge-cross-page">cross-page</span> aggregated across all pages · <span class="badge badge-home-only">home-only</span> home page only · <span class="badge badge-inferred">inferred</span> agent judgment · <span class="badge badge-synthesized">synthesized</span> constructed claim.</p>
+</div></footer>
+</body>
+</html>

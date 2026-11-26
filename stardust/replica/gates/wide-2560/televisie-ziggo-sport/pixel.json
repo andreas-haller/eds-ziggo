@@ -1,0 +1,332 @@
+{
+  "a": "stardust/replica/gates/wide-2560/televisie-ziggo-sport/origin.png",
+  "b": "stardust/replica/gates/wide-2560/televisie-ziggo-sport/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 8214,
+    "mode": "overlap"
+  },
+  "heightDelta": -100,
+  "differingPixels": 2866333,
+  "pct": 13.63,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/televisie-ziggo-sport/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 25.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 12.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 38
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 13.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 31.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 7.8
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 35.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 8.7
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 20.3
+    },
+    {
+      "y0": 8000,
+      "y1": 8214,
+      "pct": 2.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.01,
+    "differingPixels": 1069393,
+    "compared": {
+      "width": 2560,
+      "height": 8341,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2246,
+        "shift": 7,
+        "cumulative": 7
+      },
+      {
+        "y": 2793,
+        "shift": 6,
+        "cumulative": 13
+      },
+      {
+        "y": 3419,
+        "shift": 56,
+        "cumulative": 69
+      },
+      {
+        "y": 4525,
+        "shift": 49,
+        "cumulative": 118
+      },
+      {
+        "y": 6437,
+        "shift": 8,
+        "cumulative": 126
+      },
+      {
+        "y": 7145,
+        "shift": -19,
+        "cumulative": 107
+      },
+      {
+        "y": 7245,
+        "shift": -8,
+        "cumulative": 99
+      },
+      {
+        "y": 8109,
+        "shift": 1,
+        "cumulative": 100
+      }
+    ],
+    "maxOffset": 126,
+    "totalShift": 154,
+    "insertedRows": 127,
+    "deletedRows": 27,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.3,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.4,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.5,
+        "unaligned": 9.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 12,
+        "unaligned": 9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4.7,
+        "unaligned": 25.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 9.8,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 14.7,
+        "unaligned": 38
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.8,
+        "unaligned": 13.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 9.9,
+        "unaligned": 31.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 4.6,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 6.5,
+        "unaligned": 35.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 7.1,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.1,
+        "unaligned": 20.3
+      },
+      {
+        "y0": 8000,
+        "y1": 8214,
+        "pct": 0.5,
+        "unaligned": 2.2
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/televisie-ziggo-sport/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 82,
+    "totalShift": 154,
+    "pass": false
+  },
+  "reason": "offsets: 8 step(s), 154px total — +7px at y=2246, +6px at y=2793, +56px at y=3419, +49px at y=4525, +8px at y=6437, −19px at y=7145, … 2 more (bound 82px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-sport",
+      "source": "https://www.ziggo.nl/televisie/ziggo-sport",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "4d4df87dda000be5",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "6560e60de572d128",
+      "instruments": "700566dc6f7774a4",
+      "page content": "73d9ea2dae5c9238",
+      "shared code": "933bef04481b01be",
+      "block article-carousel": "812f123823fea39a",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block media-carousel": "5516c9be41e7f6f6",
+      "block media-text": "57a3b0a25393ea3e",
+      "block mediabox-cards": "34b5961b02bb8ccc",
+      "block plan-cards": "3e1b6add29ba0b90",
+      "block priority-band": "a577d36258ef84a8",
+      "block swimming-lane": "2eae491feaad2b1b",
+      "block toptask-tiles": "23d8361950e8b56b"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 165,
+          "controls": 103,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      }
+    },
+    "at": "2026-11-26T05:06:53.869Z"
+  }
+}

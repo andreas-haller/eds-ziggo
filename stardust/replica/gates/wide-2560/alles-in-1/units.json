@@ -1,0 +1,3029 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-26T04:32:58.499Z",
+  "tol": 4,
+  "n": 4,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/alles-in-1",
+  "at": "2026-11-26T04:18:31.422Z",
+  "docH": 11063
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/alles-in-1",
+  "at": "2026-11-26T04:32:58.291Z",
+  "docH": 10898
+ },
+ "results": [
+  {
+   "sel": ".z-product-card-group__inner > .z-product-card=.pgroup > .pcard",
+   "family": null,
+   "required": true,
+   "originMatches": 11,
+   "edsMatches": 11,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "fieldset.z-product-card-group > div.z-product-card-group__inner > div.z-product-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.pgroup > div.pcard.is-selected"
+     },
+     "rows": [
+      {
+       "key": "image:img.vfz-image.z-product-card__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 135
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 134,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:internet 200 mbit/s",
+       "role": "heading",
+       "text": "internet 200 mbit/s",
+       "edsText": "internet 200 mbit/s",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 155,
+        "w": 700,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 154,
+        "w": 700,
+        "h": 20,
+        "sel": "h3#internet-200-mbits",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/20/600",
+        "eds": "20/20/600"
+       }
+      },
+      {
+       "key": "button:200 mbit/s download, 25 mbit/s upload",
+       "role": "button",
+       "text": "200 mbit/s download, 25 mbit/s upload",
+       "edsText": "200 mbit/s download, 25 mbit/s upload",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 183,
+        "w": 271,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 182,
+        "w": 271,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online modem",
+       "role": "button",
+       "text": "safe online modem",
+       "edsText": "safe online modem",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online extra 1",
+       "role": "button",
+       "text": "safe online extra 1",
+       "edsText": "safe online extra 1",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 246,
+        "w": 144,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 245,
+        "w": 144,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "text:gratis wifi-versterker",
+       "role": "text",
+       "text": "gratis wifi-versterker",
+       "edsText": "gratis wifi-versterker",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 277,
+        "w": 129,
+        "h": 20
+       },
+       "eds": {
+        "x": 48,
+        "y": 277,
+        "w": 129,
+        "h": 20,
+        "sel": "del",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 698,
+        "y": 315,
+        "w": 22,
+        "h": 22
+       },
+       "eds": {
+        "x": 698,
+        "y": 315,
+        "w": 22,
+        "h": 22,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-combi#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 317,
+        "w": 235,
+        "h": 22
+       },
+       "eds": {
+        "x": 20,
+        "y": 317,
+        "w": 235,
+        "h": 22,
+        "sel": "div.ribbon.ribbon-combi",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:12 maanden korting",
+       "role": "text",
+       "text": "12 maanden korting",
+       "edsText": "12 maanden korting",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 317,
+        "w": 110,
+        "h": 22
+       },
+       "eds": {
+        "x": 28,
+        "y": 317,
+        "w": 110,
+        "h": 22,
+        "sel": "strong.ribbon-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:je bespaart 84,00",
+       "role": "text",
+       "text": "je bespaart 84,00",
+       "edsText": "je bespaart 84,00",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 317,
+        "w": 113,
+        "h": 22
+       },
+       "eds": {
+        "x": 142,
+        "y": 317,
+        "w": 113,
+        "h": 22,
+        "sel": "span.ribbon-add",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 359,
+        "w": 740,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 740,
+        "h": 34,
+        "sel": "div.ribbon.ribbon-large",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:elke maand extra korting als je ook voda",
+       "role": "text",
+       "text": "elke maand extra korting als je ook vodafone hebt",
+       "edsText": "elke maand extra korting als je ook vodafone hebt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 363,
+        "w": 317,
+        "h": 26
+       },
+       "eds": {
+        "x": 20,
+        "y": 363,
+        "w": 317,
+        "h": 26,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 740,
+       "h": 134,
+       "absY": 1421,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 1531,
+       "w": 740,
+       "h": 393
+      },
+      "eds": {
+       "x": 520,
+       "y": 1421,
+       "w": 740,
+       "h": 393
+      },
+      "dx": 0,
+      "dy": -110,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "fieldset.z-product-card-group > div.z-product-card-group__inner > div.z-product-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.pgroup > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.vfz-image.z-product-card__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 135
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 134,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:internet 500 mbit/s",
+       "role": "heading",
+       "text": "internet 500 mbit/s",
+       "edsText": "internet 500 mbit/s",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 155,
+        "w": 700,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 154,
+        "w": 700,
+        "h": 20,
+        "sel": "h3#internet-500-mbits",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/20/600",
+        "eds": "20/20/600"
+       }
+      },
+      {
+       "key": "button:500 mbit/s download, 50 mbit/s upload",
+       "role": "button",
+       "text": "500 mbit/s download, 50 mbit/s upload",
+       "edsText": "500 mbit/s download, 50 mbit/s upload",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 183,
+        "w": 271,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 182,
+        "w": 271,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online modem",
+       "role": "button",
+       "text": "safe online modem",
+       "edsText": "safe online modem",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online extra 5",
+       "role": "button",
+       "text": "safe online extra 5",
+       "edsText": "safe online extra 5",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 246,
+        "w": 146,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 245,
+        "w": 146,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:gratis wifi-versterker",
+       "role": "button",
+       "text": "gratis wifi-versterker",
+       "edsText": "gratis wifi-versterker",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 277,
+        "w": 157,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 277,
+        "w": 157,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-combi#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 321,
+        "w": 239,
+        "h": 22
+       },
+       "eds": {
+        "x": 20,
+        "y": 320,
+        "w": 239,
+        "h": 22,
+        "sel": "div.ribbon.ribbon-combi",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:12 maanden korting",
+       "role": "text",
+       "text": "12 maanden korting",
+       "edsText": "12 maanden korting",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 321,
+        "w": 110,
+        "h": 22
+       },
+       "eds": {
+        "x": 28,
+        "y": 320,
+        "w": 110,
+        "h": 22,
+        "sel": "strong.ribbon-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:je bespaart 168,00",
+       "role": "text",
+       "text": "je bespaart 168,00",
+       "edsText": "je bespaart 168,00",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 321,
+        "w": 117,
+        "h": 22
+       },
+       "eds": {
+        "x": 142,
+        "y": 320,
+        "w": 117,
+        "h": 22,
+        "sel": "span.ribbon-add",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 321,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 320,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 363,
+        "w": 740,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 362,
+        "w": 740,
+        "h": 34,
+        "sel": "div.ribbon.ribbon-large",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:elke maand extra korting als je ook voda",
+       "role": "text",
+       "text": "elke maand extra korting als je ook vodafone hebt",
+       "edsText": "elke maand extra korting als je ook vodafone hebt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 367,
+        "w": 317,
+        "h": 26
+       },
+       "eds": {
+        "x": 20,
+        "y": 366,
+        "w": 317,
+        "h": 26,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 740,
+       "h": 134,
+       "absY": 1834,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 1944,
+       "w": 740,
+       "h": 397
+      },
+      "eds": {
+       "x": 520,
+       "y": 1834,
+       "w": 740,
+       "h": 396
+      },
+      "dx": 0,
+      "dy": -110,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "fieldset.z-product-card-group > div.z-product-card-group__inner > div.z-product-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.pgroup > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.vfz-image.z-product-card__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 135
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 134,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:internet 1 gbit/s",
+       "role": "heading",
+       "text": "internet 1 gbit/s",
+       "edsText": "internet 1 gbit/s",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 155,
+        "w": 700,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 154,
+        "w": 700,
+        "h": 20,
+        "sel": "h3#internet-1-gbits",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/20/600",
+        "eds": "20/20/600"
+       }
+      },
+      {
+       "key": "button:1000 mbit/s download, 100 mbit/s upload",
+       "role": "button",
+       "text": "1000 mbit/s download, 100 mbit/s upload",
+       "edsText": "1000 mbit/s download, 100 mbit/s upload",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 183,
+        "w": 284,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 182,
+        "w": 284,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online modem",
+       "role": "button",
+       "text": "safe online modem",
+       "edsText": "safe online modem",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online extra 10",
+       "role": "button",
+       "text": "safe online extra 10",
+       "edsText": "safe online extra 10",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 246,
+        "w": 153,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 245,
+        "w": 153,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:tot 2 wifi-versterkers gratis",
+       "role": "button",
+       "text": "tot 2 wifi-versterkers gratis",
+       "edsText": "tot 2 wifi-versterkers gratis",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 277,
+        "w": 195,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 277,
+        "w": 195,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-combi#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 321,
+        "w": 243,
+        "h": 22
+       },
+       "eds": {
+        "x": 20,
+        "y": 320,
+        "w": 243,
+        "h": 22,
+        "sel": "div.ribbon.ribbon-combi",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:12 maanden korting",
+       "role": "text",
+       "text": "12 maanden korting",
+       "edsText": "12 maanden korting",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 321,
+        "w": 110,
+        "h": 22
+       },
+       "eds": {
+        "x": 28,
+        "y": 320,
+        "w": 110,
+        "h": 22,
+        "sel": "strong.ribbon-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:je bespaart 240,00",
+       "role": "text",
+       "text": "je bespaart 240,00",
+       "edsText": "je bespaart 240,00",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 321,
+        "w": 121,
+        "h": 22
+       },
+       "eds": {
+        "x": 142,
+        "y": 320,
+        "w": 121,
+        "h": 22,
+        "sel": "span.ribbon-add",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 321,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 320,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 363,
+        "w": 740,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 362,
+        "w": 740,
+        "h": 34,
+        "sel": "div.ribbon.ribbon-large",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:elke maand extra korting als je ook voda",
+       "role": "text",
+       "text": "elke maand extra korting als je ook vodafone hebt",
+       "edsText": "elke maand extra korting als je ook vodafone hebt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 367,
+        "w": 317,
+        "h": 26
+       },
+       "eds": {
+        "x": 20,
+        "y": 366,
+        "w": 317,
+        "h": 26,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 740,
+       "h": 134,
+       "absY": 2250,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 2361,
+       "w": 740,
+       "h": 397
+      },
+      "eds": {
+       "x": 520,
+       "y": 2250,
+       "w": 740,
+       "h": 396
+      },
+      "dx": 0,
+      "dy": -111,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "fieldset.z-product-card-group > div.z-product-card-group__inner > div.z-product-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.pgroup > div.pcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.vfz-image.z-product-card__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 135
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 740,
+        "h": 134,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:internet 2 gbit/s",
+       "role": "heading",
+       "text": "internet 2 gbit/s",
+       "edsText": "internet 2 gbit/s",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 155,
+        "w": 700,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 154,
+        "w": 700,
+        "h": 20,
+        "sel": "h3#internet-2-gbits",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/20/600",
+        "eds": "20/20/600"
+       }
+      },
+      {
+       "key": "button:2000 mbit/s download, 120 mbit/s upload",
+       "role": "button",
+       "text": "2000 mbit/s download, 120 mbit/s upload",
+       "edsText": "2000 mbit/s download, 120 mbit/s upload",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 183,
+        "w": 286,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 182,
+        "w": 286,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online modem",
+       "role": "button",
+       "text": "safe online modem",
+       "edsText": "safe online modem",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 214,
+        "w": 150,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:safe online extra 25",
+       "role": "button",
+       "text": "safe online extra 25",
+       "edsText": "safe online extra 25",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 246,
+        "w": 154,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 245,
+        "w": 154,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:tot 3 wifi-versterkers gratis",
+       "role": "button",
+       "text": "tot 3 wifi-versterkers gratis",
+       "edsText": "tot 3 wifi-versterkers gratis",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 277,
+        "w": 195,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 277,
+        "w": 195,
+        "h": 24,
+        "sel": "span.pcard-usp-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-combi#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 321,
+        "w": 242,
+        "h": 22
+       },
+       "eds": {
+        "x": 20,
+        "y": 320,
+        "w": 242,
+        "h": 22,
+        "sel": "div.ribbon.ribbon-combi",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:12 maanden korting",
+       "role": "text",
+       "text": "12 maanden korting",
+       "edsText": "12 maanden korting",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 321,
+        "w": 110,
+        "h": 22
+       },
+       "eds": {
+        "x": 28,
+        "y": 320,
+        "w": 110,
+        "h": 22,
+        "sel": "strong.ribbon-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "text:je bespaart 300,00",
+       "role": "text",
+       "text": "je bespaart 300,00",
+       "edsText": "je bespaart 300,00",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 321,
+        "w": 120,
+        "h": 22
+       },
+       "eds": {
+        "x": 142,
+        "y": 320,
+        "w": 120,
+        "h": 22,
+        "sel": "span.ribbon-add",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/400",
+        "eds": "12/12/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 321,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 320,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 363,
+        "w": 740,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 362,
+        "w": 740,
+        "h": 34,
+        "sel": "div.ribbon.ribbon-large",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:elke maand extra korting als je ook voda",
+       "role": "text",
+       "text": "elke maand extra korting als je ook vodafone hebt",
+       "edsText": "elke maand extra korting als je ook vodafone hebt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 367,
+        "w": 317,
+        "h": 26
+       },
+       "eds": {
+        "x": 20,
+        "y": 366,
+        "w": 317,
+        "h": 26,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 740,
+       "h": 134,
+       "absY": 2667,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 2778,
+       "w": 740,
+       "h": 397
+      },
+      "eds": {
+       "x": 520,
+       "y": 2667,
+       "w": 740,
+       "h": 396
+      },
+      "dx": 0,
+      "dy": -111,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".z-contract-promo-card-group-card=.promos > .promo",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vfz-inline-template-container.z-contract-promo-card-group > fieldset > div.z-contract-promo-card-group-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.promos > div.promo.is-selected"
+     },
+     "rows": [
+      {
+       "key": "box:div.z-contract-promo-card-group-card__images#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134,
+        "sel": "div.promo-img",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.z-contract-promo-card-group-card__label#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24,
+        "sel": "div.promo-label",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2 jaar contract",
+       "role": "text",
+       "text": "2 jaar contract",
+       "edsText": "2 jaar contract",
+       "byPosition": false,
+       "origin": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12
+       },
+       "eds": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12,
+        "sel": "span.promo-label-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "12/12/500"
+       }
+      },
+      {
+       "key": "heading:tot 15 maanden 34,95 p.m.",
+       "role": "heading",
+       "text": "tot 15 maanden 34,95 p.m.",
+       "edsText": "tot 15 maanden 34,95 p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22
+       },
+       "eds": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22,
+        "sel": "h3#tot-15-maanden-3495-pm",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 698,
+        "y": 86,
+        "w": 22,
+        "h": 22
+       },
+       "eds": {
+        "x": 698,
+        "y": 86,
+        "w": 22,
+        "h": 22,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:meer informatie",
+       "role": "button",
+       "text": "meer informatie",
+       "edsText": "meer informatie",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 88,
+        "w": 101,
+        "h": 25
+       },
+       "eds": {
+        "x": 110,
+        "y": 86,
+        "w": 101,
+        "h": 25,
+        "sel": "div.promo-more",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/21/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7200,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7200,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 7312,
+       "w": 740,
+       "h": 134
+      },
+      "eds": {
+       "x": 520,
+       "y": 7200,
+       "w": 740,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vfz-inline-template-container.z-contract-promo-card-group > fieldset > div.z-contract-promo-card-group-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.promos > div.promo"
+     },
+     "rows": [
+      {
+       "key": "box:div.z-contract-promo-card-group-card__images#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134,
+        "sel": "div.promo-img",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.z-contract-promo-card-group-card__label#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 105,
+        "h": 24
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 105,
+        "h": 24,
+        "sel": "div.promo-label",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:1 jaar contract",
+       "role": "text",
+       "text": "1 jaar contract",
+       "edsText": "1 jaar contract",
+       "byPosition": false,
+       "origin": {
+        "x": 133,
+        "y": 26,
+        "w": 77,
+        "h": 12
+       },
+       "eds": {
+        "x": 133,
+        "y": 26,
+        "w": 77,
+        "h": 12,
+        "sel": "span.promo-label-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "12/12/500"
+       }
+      },
+      {
+       "key": "heading:6 maanden 34,95 p.m.",
+       "role": "heading",
+       "text": "6 maanden 34,95 p.m.",
+       "edsText": "6 maanden 34,95 p.m.",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22
+       },
+       "eds": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22,
+        "sel": "h3#maanden-3495-pm",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 88,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 88,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7358,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7358,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 7470,
+       "w": 740,
+       "h": 134
+      },
+      "eds": {
+       "x": 520,
+       "y": 7358,
+       "w": 740,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vfz-inline-template-container.z-contract-promo-card-group > fieldset > div.z-contract-promo-card-group-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.promos > div.promo"
+     },
+     "rows": [
+      {
+       "key": "box:div.z-contract-promo-card-group-card__images#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134,
+        "sel": "div.promo-img",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.z-contract-promo-card-group-card__label#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24,
+        "sel": "div.promo-label",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2 jaar contract",
+       "role": "text",
+       "text": "2 jaar contract",
+       "edsText": "2 jaar contract",
+       "byPosition": false,
+       "origin": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12
+       },
+       "eds": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12,
+        "sel": "span.promo-label-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "12/12/500"
+       }
+      },
+      {
+       "key": "heading:samsung tv + soundbar t.w.v. € 898",
+       "role": "heading",
+       "text": "samsung tv + soundbar t.w.v. € 898",
+       "edsText": "samsung tv + soundbar t.w.v. € 898",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22
+       },
+       "eds": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22,
+        "sel": "h3#samsung-tv--soundbar-twv--898",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "button:meer informatie",
+       "role": "button",
+       "text": "meer informatie",
+       "edsText": "meer informatie",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 88,
+        "w": 101,
+        "h": 25
+       },
+       "eds": {
+        "x": 110,
+        "y": 86,
+        "w": 101,
+        "h": 25,
+        "sel": "div.promo-more",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/21/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 88,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 88,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7516,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7516,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 7628,
+       "w": 740,
+       "h": 134
+      },
+      "eds": {
+       "x": 520,
+       "y": 7516,
+       "w": 740,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vfz-inline-template-container.z-contract-promo-card-group > fieldset > div.z-contract-promo-card-group-card.vfz-shadow--xs"
+     },
+     "eds": {
+      "path": "div.step > fieldset.promos > div.promo"
+     },
+     "rows": [
+      {
+       "key": "box:div.z-contract-promo-card-group-card__images#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 176
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 134,
+        "sel": "div.promo-img",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "box:div.z-contract-promo-card-group-card__label#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 107,
+        "h": 24,
+        "sel": "div.promo-label",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2 jaar contract",
+       "role": "text",
+       "text": "2 jaar contract",
+       "edsText": "2 jaar contract",
+       "byPosition": false,
+       "origin": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12
+       },
+       "eds": {
+        "x": 133,
+        "y": 26,
+        "w": 79,
+        "h": 12,
+        "sel": "span.promo-label-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/500",
+        "eds": "12/12/500"
+       }
+      },
+      {
+       "key": "heading:bol cadeaukaart t.w.v. € 450",
+       "role": "heading",
+       "text": "bol cadeaukaart t.w.v. € 450",
+       "edsText": "bol cadeaukaart t.w.v. € 450",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22
+       },
+       "eds": {
+        "x": 110,
+        "y": 52,
+        "w": 610,
+        "h": 22,
+        "sel": "h3#bol-cadeaukaart-twv--450",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      },
+      {
+       "key": "button:meer informatie",
+       "role": "button",
+       "text": "meer informatie",
+       "edsText": "meer informatie",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 130,
+        "w": 101,
+        "h": 25
+       },
+       "eds": {
+        "x": 110,
+        "y": 86,
+        "w": 101,
+        "h": 25,
+        "sel": "div.promo-more",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": -44,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/21/400",
+        "eds": "16/24/400"
+       },
+       "displaced": true
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 700,
+        "y": 130,
+        "w": 18,
+        "h": 18
+       },
+       "eds": {
+        "x": 700,
+        "y": 88,
+        "w": 18,
+        "h": 18,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       },
+       "displaced": true
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.z-contract-promo-card-group-card__countdown.z-contract-promo-card-group-card__countdown--enabled",
+       "text": "",
+       "boxed": true,
+       "x": 110,
+       "y": 86,
+       "w": 160,
+       "h": 26,
+       "absY": 7872,
+       "hidden": false,
+       "fs": 12,
+       "lh": 18,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": "rgb(0, 20, 137)",
+       "position": "static",
+       "key": "box:div.z-contract-promo-card-group-card__countdown.z-contract-promo-card-group-card__countdown--enabled#1"
+      },
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon",
+       "text": "",
+       "boxed": true,
+       "x": 114,
+       "y": 88,
+       "w": 72,
+       "h": 22,
+       "absY": 7874,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "500",
+       "color": "rgb(255, 255, 255)",
+       "bg": "rgb(0, 20, 137)",
+       "position": "relative",
+       "key": "box:div.vfz-ribbon-label.vfz-ribbon-label--theme-ribbon#1"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.vfz-ribbon-label__text",
+       "text": "nog maar",
+       "boxed": false,
+       "x": 132,
+       "y": 88,
+       "w": 54,
+       "h": 22,
+       "absY": 7874,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "500",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:nog maar"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "0",
+       "boxed": false,
+       "x": 190,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:0"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "4",
+       "boxed": false,
+       "x": 197,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:4"
+      },
+      {
+       "role": "text",
+       "tag": "div",
+       "sel": "div.vfz-countdown-v2__counter-date-name",
+       "text": "d",
+       "boxed": false,
+       "x": 205,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:d"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "1",
+       "boxed": false,
+       "x": 216,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:1"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "8",
+       "boxed": false,
+       "x": 223,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:8"
+      },
+      {
+       "role": "text",
+       "tag": "div",
+       "sel": "div.vfz-countdown-v2__counter-date-name",
+       "text": "u",
+       "boxed": false,
+       "x": 230,
+       "y": 93,
+       "w": 7,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:u"
+      },
+      {
+       "role": "text",
+       "tag": "div",
+       "sel": "div.vfz-countdown-v2__counter-date-name",
+       "text": "m",
+       "boxed": false,
+       "x": 255,
+       "y": 93,
+       "w": 11,
+       "h": 12,
+       "absY": 7879,
+       "hidden": false,
+       "fs": 12,
+       "lh": 12,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:m"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7674,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 90,
+       "h": 134,
+       "absY": 7674,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(28, 31, 33)",
+       "bg": null,
+       "position": "absolute",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 7786,
+       "w": 740,
+       "h": 176
+      },
+      "eds": {
+       "x": 520,
+       "y": 7674,
+       "w": 740,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": -42
+     },
+     "summary": {
+      "elements": 16,
+      "within": 3,
+      "off": 1,
+      "displaced": 2,
+      "hidden": 0,
+      "missing": 10,
+      "extra": 2,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 68,
+  "off": 1,
+  "hidden": 0,
+  "missing": 10,
+  "errors": 0,
+  "requiredOff": 11
+ }
+}

@@ -1,0 +1,96 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/pixel-pub2.json",
+    "pct": 2.23,
+    "alignedPct": 0.77,
+    "alignedUsed": true,
+    "totalShift": 9,
+    "steps": [
+      {
+        "y": 1345,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6291,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7528,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7571,
+        "shift": -2,
+        "cumulative": -3
+      },
+      {
+        "y": 7780,
+        "shift": -1,
+        "cumulative": -4
+      },
+      {
+        "y": 8002,
+        "shift": 1,
+        "cumulative": -3
+      },
+      {
+        "y": 8231,
+        "shift": -1,
+        "cumulative": -4
+      },
+      {
+        "y": 8775,
+        "shift": 1,
+        "cumulative": -3
+      }
+    ],
+    "offsetBound": 92,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T14:14:01.530Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-360/units-pub2.txt"
+    }
+  },
+  "structural": 133,
+  "nothingLost": 1,
+  "at": "2026-11-25T18:26:57.852Z"
+}

@@ -1,0 +1,172 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-26T03:49:39.429Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 1,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 1,
+   "missingButtons": 17,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 5,
+   "findings": 24,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 12,
+   "offPage": 141,
+   "textNodes": 268,
+   "controls": 216,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "li.mslide",
+    "path": "li.mslide > div.mslide-link > p > a",
+    "text": "skyshowtime bij ziggo",
+    "cutMin": 242,
+    "cutMax": 243
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "li.lane-card",
+    "path": "div.lane-rail > ul.lane-strip > li.lane-card > a.lane-link",
+    "text": "bekijk meer over curse of skinwalker ranch | seizoen 7 bekij",
+    "cutMin": 200,
+    "cutMax": 200
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+    "text": "wifi die werkt",
+    "cutMin": 161,
+    "cutMax": 161
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-title > h3#wifi-die-werkt",
+    "text": "wifi die werkt",
+    "cutMin": 59,
+    "cutMax": 59
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.ucard",
+    "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+    "text": "altijd wifi die werkt. gegarandeerd.",
+    "cutMin": 84,
+    "cutMax": 84
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "div.mslide-content > div.mslide-text > div.mslide-title > h3#uefa-europees-voetbal",
+    "text": "uefa europees voetbal",
+    "cutMin": 204,
+    "cutMax": 204
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "div.mslide-content > div.mslide-text > div.mslide-sub > p",
+    "text": "beleef je bij ziggo sport",
+    "cutMin": 163,
+    "cutMax": 163
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.mslide",
+    "path": "div.mslide-content > div.mslide-cta > p.button-wrapper > a.button.accent",
+    "text": "ontdek sport ontdek sport",
+    "cutMin": 161,
+    "cutMax": 161
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.acar",
+    "path": "div.acar > ul.acar-track > li.acard > a.acard-link",
+    "text": "voorrang bij tickets",
+    "cutMin": 182,
+    "cutMax": 182
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.acar",
+    "path": "ul.acar-track > li.acard > div.acard-title > h3#voorrang-bij-tickets",
+    "text": "voorrang bij tickets",
+    "cutMin": 92,
+    "cutMax": 92
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 14,
+   "offPage": 143,
+   "textNodes": 172,
+   "controls": 236,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 11,
+   "within": 64,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

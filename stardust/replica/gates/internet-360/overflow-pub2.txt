@@ -1,0 +1,9 @@
+measure: https://main--50ca44c6--aemcoder.aem.page/internet @360: horizontal overflow +10px (scrollWidth 370 > viewport 360)
+measure  https://main--50ca44c6--aemcoder.aem.page/internet
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   370  viewport 360  scrollHeight   9298  ◄◄ OVERFLOW +10px
+  html
+       x     0  y      0  w   360  h  9298  vis  "Privé Zakelijk Ga naar de Ziggo homepag…"
+      display: block

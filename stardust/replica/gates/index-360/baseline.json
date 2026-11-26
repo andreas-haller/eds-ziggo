@@ -1,0 +1,75 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-25T11:10:41.231Z",
+  "url": "https://www.ziggo.nl/",
+  "width": 360,
+  "vh": 900,
+  "height": 7474,
+  "settle": true,
+  "chunks": 9,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 8,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 68,
+    "intervals": 14,
+    "chains": 54,
+    "delays": [
+      2000,
+      5000,
+      10000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 7474,
+    "pct": 2.76,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    7474,
+    7474
+  ],
+  "noiseFloor": 2.53,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 5292,
+      "h": 356,
+      "pct": 87.7
+    }
+  ],
+  "variableShare": 4.76,
+  "maskArg": "5292:356",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-25T11:11:29.016Z",
+  "flags": {
+    "consent": "#onetrust-accept-btn-handler",
+    "dismiss": ".dimelo-form",
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

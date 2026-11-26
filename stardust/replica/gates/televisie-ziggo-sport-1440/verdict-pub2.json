@@ -1,0 +1,96 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-ziggo-sport-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-ziggo-sport-1440/pixel-pub2.json",
+    "pct": 12.25,
+    "alignedPct": 4.81,
+    "alignedUsed": true,
+    "totalShift": 73,
+    "steps": [
+      {
+        "y": 958,
+        "shift": -10,
+        "cumulative": -10
+      },
+      {
+        "y": 2599,
+        "shift": -4,
+        "cumulative": -14
+      },
+      {
+        "y": 3111,
+        "shift": 2,
+        "cumulative": -12
+      },
+      {
+        "y": 5120,
+        "shift": -7,
+        "cumulative": -19
+      },
+      {
+        "y": 5709,
+        "shift": -30,
+        "cumulative": -49
+      },
+      {
+        "y": 6089,
+        "shift": 9,
+        "cumulative": -40
+      },
+      {
+        "y": 7182,
+        "shift": 10,
+        "cumulative": -30
+      },
+      {
+        "y": 7695,
+        "shift": 1,
+        "cumulative": -29
+      }
+    ],
+    "offsetBound": 78,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:06:20.852Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-ziggo-sport-1440/units-pub2.txt"
+    }
+  },
+  "structural": 151,
+  "nothingLost": 1,
+  "at": "2026-11-25T21:29:05.238Z"
+}

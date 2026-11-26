@@ -1,0 +1,163 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 637 ms
+unit-geometry @ 1440px, tol 4px — https://www.ziggo.nl/ vs http://localhost:8791/index-proposed.html
+unit 1 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 152,612 189×146 vs served 152,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "internet & tv" | 45,92 84×21 | 45,92 84×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 341,612 189×146 vs served 341,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "internet only" | 45,92 84×21 | 45,92 84×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 531,612 189×146 vs served 531,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "mobiel" | 65,92 43×21 | 65,92 43×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 720,612 189×146 vs served 720,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "service" | 63,92 47×21 | 63,92 47×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 909,612 189×146 vs served 909,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "aanbiedingen" | 42,92 90×21 | 42,92 90×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of toptask-tiles (required) .vfz-toptask .vfz-tile__link=.toptask .tile: origin 1099,612 189×146 vs served 1099,612 189×146 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:span.vfz-tile__icon.vfz-tile__co" | 71,34 48×56 | 71,34 48×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "zakelijk" | 63,92 48×21 | 63,92 48×21 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of usp-cards (required) .vfz-carousel--slide-width- .vfz-card-v2=.why .ucard: origin 160,959 268×386 vs served 160,958 268×386 → Δx 0 Δy -1 Δw 0 Δh 0; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.vfz-card-v2__click-area#1" | 0,0 268×386 | 0,0 268×386 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.progressive-image__img.img" | 0,0 268×201 | 0,0 268×201 | 0 | 0 | 0 | 0 | ✓ |
+| heading "alle snelheid" | 24,225 220×22 | 24,225 220×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "altijd alle snelheid die je nodig he" | 24,255 220×51 | 24,255 220×51 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vfz-card-v2__footer-right.vfz" | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__footer-right-ic" ≈ "" (by position) | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 268×386 | — | | | | | ✗ missing |
+unit 2 of usp-cards (required) .vfz-carousel--slide-width- .vfz-card-v2=.why .ucard: origin 444,959 268×386 vs served 444,958 268×386 → Δx 0 Δy -1 Δw 0 Δh 0; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.vfz-card-v2__click-area#1" | 0,0 268×386 | 0,0 268×386 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.progressive-image__img.img" | 0,0 268×201 | 0,0 268×201 | 0 | 0 | 0 | 0 | ✓ |
+| heading "wifi die werkt" | 24,225 220×22 | 24,225 220×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "altijd wifi die werkt. gegarandeerd." | 24,255 220×51 | 24,255 220×51 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vfz-card-v2__footer-right.vfz" | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__footer-right-ic" ≈ "" (by position) | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 268×386 | — | | | | | ✗ missing |
+unit 3 of usp-cards (required) .vfz-carousel--slide-width- .vfz-card-v2=.why .ucard: origin 728,959 268×386 vs served 728,958 268×386 → Δx 0 Δy -1 Δw 0 Δh 0; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.vfz-card-v2__click-area#1" | 0,0 268×386 | 0,0 268×386 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.progressive-image__img.img" | 0,0 268×201 | 0,0 268×201 | 0 | 0 | 0 | 0 | ✓ |
+| heading "het beste entertainment" | 24,225 220×22 | 24,225 220×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "altijd het beste van sport en entert" | 24,255 220×51 | 24,255 220×51 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vfz-card-v2__footer-right.vfz" | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__footer-right-ic" ≈ "" (by position) | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 268×386 | — | | | | | ✗ missing |
+unit 4 of usp-cards (required) .vfz-carousel--slide-width- .vfz-card-v2=.why .ucard: origin 1012,959 268×386 vs served 1012,958 268×386 → Δx 0 Δy -1 Δw 0 Δh 0; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.vfz-card-v2__click-area#1" | 0,0 268×386 | 0,0 268×386 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.progressive-image__img.img" | 0,0 268×201 | 0,0 268×201 | 0 | 0 | 0 | 0 | ✓ |
+| heading "priority" | 24,225 220×22 | 24,225 220×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "hoe langer je blijft, hoe meer extra" | 24,255 220×51 | 24,255 220×51 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vfz-card-v2__footer-right.vfz" | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__footer-right-ic" ≈ "" (by position) | 204,322 40×40 | 204,322 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 268×386 | — | | | | | ✗ missing |
+unit 1 of plan-cards (required) .vfz-card-v2--box-shadow-md=.plans .plan: origin 152,1753 357×428 vs served 152,1753 357×428 → Δx 0 Δy 0 Δw 0 Δh 0; 10 elements: 9 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "internet only" | 32,32 293×28 | 32,32 293×28 | 0 | 0 | 0 | 0 | ✓ |
+| button "tot 8 gbit/s download" | 32,68 184×28 | 32,67 184×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "safe online modem en extra" | 32,108 230×28 | 32,107 230×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "wifi garantie" | 32,148 121×28 | 32,147 121×28 | 0 | -1 | 0 | 0 | ✓ |
+| text "alle espn-zenders en ziggo sport" | 60,188 241×24 | 60,187 241×24 | 0 | -1 | 0 | 0 | ✓ |
+| text "uefa europees voetbal" | 60,224 168×24 | 60,223 168×24 | 0 | -1 | 0 | 0 | ✓ |
+| text "tot 110+ zenders" | 60,260 116×24 | 60,259 116×24 | 0 | -1 | 0 | 0 | ✓ |
+| text "voordelig vast bellen" | 60,296 151×24 | 60,295 151×24 | 0 | -1 | 0 | 0 | ✓ |
+| link "kies internet only" | 32,348 199×48 | 32,347 199×48 | 0 | -1 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 357×428 | — | | | | | ✗ missing |
+unit 2 of plan-cards (required) .vfz-card-v2--box-shadow-md=.plans .plan: origin 541,1701 357×480 vs served 541,1701 357×480 → Δx 0 Δy 0 Δw 0 Δh 0; 12 elements: 11 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vfz-ribbon-label.vfz-ribbon-" | 0,0 357×28 | 0,0 357×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "meest gekozen" | 138,0 81×28 | 138,0 81×28 | 0 | 0 | 0 | 0 | ✓ |
+| heading "internet & tv" | 32,72 293×28 | 32,72 293×28 | 0 | 0 | 0 | 0 | ✓ |
+| button "tot 8 gbit/s download" | 32,108 184×28 | 32,107 184×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "safe online modem en extra" | 32,148 230×28 | 32,147 230×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "wifi garantie" | 32,188 121×28 | 32,187 121×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "alle espn-zenders en ziggo sport" | 32,228 269×28 | 32,227 269×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "uefa europees voetbal" | 32,268 196×28 | 32,267 196×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "tot 110+ zenders" | 32,308 144×28 | 32,307 144×28 | 0 | -1 | 0 | 0 | ✓ |
+| text "voordelig vast bellen" | 60,348 151×24 | 60,347 151×24 | 0 | -1 | 0 | 0 | ✓ |
+| link "kies internet & tv" | 32,400 197×48 | 32,399 197×48 | 0 | -1 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,28 357×452 | — | | | | | ✗ missing |
+unit 3 of plan-cards (required) .vfz-card-v2--box-shadow-md=.plans .plan: origin 931,1737 357×444 vs served 931,1737 357×444 → Δx 0 Δy 0 Δw 0 Δh 0; 10 elements: 9 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "alles-in-1" | 32,32 293×28 | 32,32 293×28 | 0 | 0 | 0 | 0 | ✓ |
+| button "tot 8 gbit/s download" | 32,68 184×28 | 32,67 184×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "safe online modem en extra" | 32,108 230×28 | 32,107 230×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "wifi garantie" | 32,148 121×28 | 32,147 121×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "alle espn-zenders en ziggo sport" | 32,188 269×28 | 32,187 269×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "uefa europees voetbal" | 32,228 196×28 | 32,227 196×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "tot 110+ zenders" | 32,268 144×28 | 32,267 144×28 | 0 | -1 | 0 | 0 | ✓ |
+| button "voordelig vast bellen" | 32,308 179×28 | 32,307 179×28 | 0 | -1 | 0 | 0 | ✓ |
+| link "kies alles-in-1" | 32,364 170×48 | 32,363 170×48 | 0 | -1 | 0 | 0 | ✓ |
+| box "box:div.vfz-card-v2__container.vfz-c" | 0,0 357×444 | — | | | | | ✗ missing |
+unit 1 of footer-columns (advisory) .vfz-footer__links--desktop .vfz-footer__links-column=.footer__cols--desktop .fcol: origin 152,5525 266×391 vs served 152,5522 266×391 → Δx 0 Δy -3 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "pakketten" | 0,0 266×27 | 0,0 266×27 | 0 | 0 | 0 | 0 | ✓ |
+| link "pakketten vergelijken" | 20,40 151×14 | 20,40 151×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "alles-in-1" | 20,76 65×14 | 20,76 65×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "internet & tv" | 20,112 94×14 | 20,112 94×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "internet only" | 20,148 93×14 | 20,148 93×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "televisie" | 20,184 61×14 | 20,184 61×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo aanbiedingen" | 20,220 144×14 | 20,220 144×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (advisory) .vfz-footer__links--desktop .vfz-footer__links-column=.footer__cols--desktop .fcol: origin 442,5525 266×391 vs served 442,5522 266×391 → Δx 0 Δy -3 Δw 0 Δh 0; 10 elements: 10 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "internet" | 0,0 266×27 | 0,0 266×27 | 0 | 0 | 0 | 0 | ✓ |
+| link "internet" | 20,40 57×14 | 20,40 57×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "wifi" | 20,76 27×14 | 20,76 27×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "wifi-versterkers" | 20,112 111×14 | 20,112 111×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "smartwifi" | 20,148 72×14 | 20,148 72×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "wifi garantie" | 20,184 93×14 | 20,184 93×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "glasvezel internet" | 20,220 128×14 | 20,220 128×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "internetbeveiliging" | 20,256 135×14 | 20,256 135×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "speedtest" | 20,292 74×14 | 20,292 74×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "postcodecheck internet" | 20,328 169×14 | 20,328 169×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of footer-columns (advisory) .vfz-footer__links--desktop .vfz-footer__links-column=.footer__cols--desktop .fcol: origin 732,5525 266×391 vs served 732,5522 266×391 → Δx 0 Δy -3 Δw 0 Δh 0; 8 elements: 8 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "televisie" | 0,0 266×27 | 0,0 266×27 | 0 | 0 | 0 | 0 | ✓ |
+| link "kabel tv" | 20,40 64×14 | 20,40 64×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "online tv kijken" | 20,76 113×14 | 20,76 113×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "4k tv kijken" | 20,112 86×14 | 20,112 86×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo go" | 20,148 67×14 | 20,148 67×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "espn premium" | 20,184 108×14 | 20,184 108×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "videoland" | 20,220 74×14 | 20,220 74×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo sport" | 20,256 84×14 | 20,256 84×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of footer-columns (advisory) .vfz-footer__links--desktop .vfz-footer__links-column=.footer__cols--desktop .fcol: origin 1022,5525 266×391 vs served 1022,5522 266×391 → Δx 0 Δy -3 Δw 0 Δh 0; 11 elements: 11 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "bellen & overige" | 0,0 266×27 | 0,0 266×27 | 0 | 0 | 0 | 0 | ✓ |
+| link "vast bellen" | 20,40 80×14 | 20,40 80×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "mobiel bellen" | 20,76 95×14 | 20,76 95×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "sim only" | 20,112 63×14 | 20,112 63×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "iphone 18" | 20,148 68×14 | 20,148 68×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "iphone 17" | 20,184 67×14 | 20,184 67×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "samsung galaxy s26" | 20,220 151×14 | 20,220 151×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "klantenservice" | 20,256 106×14 | 20,256 106×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo dome" | 20,292 87×14 | 20,292 87×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "ziggo zakelijk" | 20,328 98×14 | 20,328 98×14 | 0 | 0 | 0 | 0 | ✓ |
+| link "voorrang met priority" | 20,364 154×14 | 20,364 154×14 | 0 | 0 | 0 | 0 | ✓ |
+Units: 17 compared; elements within 101, off 0, hidden 0, missing 7 → FAIL
+json → stardust/replica/gates/index-1440/units-iter2.json

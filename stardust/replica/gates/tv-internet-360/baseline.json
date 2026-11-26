@@ -1,0 +1,71 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-25T20:40:58.224Z",
+  "url": "https://www.ziggo.nl/tv-internet",
+  "width": 360,
+  "vh": 900,
+  "height": 12651,
+  "settle": true,
+  "chunks": 15,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 65,
+    "intervals": 13,
+    "chains": 52,
+    "delays": [
+      2000,
+      4999.89999999851,
+      5000,
+      10000,
+      30000,
+      60000,
+      180000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 12651,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    12651,
+    12651
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-25T20:42:53.976Z",
+  "flags": {
+    "consent": "#onetrust-accept-btn-handler",
+    "dismiss": ".dimelo-form",
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

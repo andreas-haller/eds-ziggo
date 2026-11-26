@@ -1,0 +1,386 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 380 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-mediaboxen-1440/vdiff-pub2/
+
+build red flags (advisory): 
+  • HEADING FACE: <h2> "Ook kijken op je tweede tv?" is 31.2px Ziggo Headline in build vs 39.04px Ziggo Headline in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2358,
+  "textLen": 1225,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_header60_Ziggo_B2C_mediaboxen_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_card_B2C_Ziggo_NextMini_2025_Q4-1?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "357x201",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_card_B2C_Ziggo_Mediabox_Next_2025_Q4-1?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "357x201",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_banner40_Ziggo_B2C_TweedeTV_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x12",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=8cc3403b-9861-46de-af71-9c9f9a34086f&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Ziggo%20Mediaboxen%20%7C%20Televisie%20%7C%20Ziggo&kw=mediabox,%20mediaboxen,%20box,%20kastje,%20next,%20next%20mini,%20mini,%20tv%20kastje,%20decoder,%20tv%20box,%20media%20box,%20horizon,%20mediabox%20kopen,%20mediabox%20kopen,%20decoder%20kopen,%20nieuwe%20mediabox,%20mediabox%20bestellen,%20mediabox%20next%20mini%20vs%20next,%20nieuwe%20mediabox%20aanvragen,%20ziggobox,%20verschil%20next%20mini%20en%20mediabox%20next&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmediaboxen&r=&lt=2581&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=969070",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fmediaboxen&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo mediaboxen",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Televisiekijken op z'n mooist. W",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies je mediabox",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Next Mini",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mediabox Next",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ook kijken op je tweede tv?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "",
+    "width": 1136,
+    "left": 152
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2401,
+  "textLen": 1243,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_194585b11c7f2bccd2d355cf4684ffcb8de6d8a5c.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x810",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c27539204a66bed8915085e83c894e919c5edb16.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "2000x677",
+    "rendered": "1440x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14760e74b4dd011f4b2f340b4a61dd98d80f6344a.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "357x201",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a1fbdc9834fcc8fb2ff689f6bb7edc2bb8e99223.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "357x201",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e86d71ad1f69c937d51978afda54f5b97d491ab9.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x608",
+    "rendered": "631x355",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Ziggo mediaboxen",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Televisiekijken op z'n mooist. W",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies je mediabox",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Next Mini",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mediabox Next",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ook kijken op je tweede tv?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "hero-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "mb-cards",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "mt-row",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "faq-head",
+    "width": 1136,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   },
+   {
+    "sel": "acc-title",
+    "width": 1119,
+    "left": 152
+   }
+  ]
+ }
+}

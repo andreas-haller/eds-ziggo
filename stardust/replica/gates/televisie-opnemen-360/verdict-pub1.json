@@ -1,0 +1,116 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-opnemen-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-opnemen-360/pixel-pub1.json",
+    "pct": 42.9,
+    "alignedPct": 14.28,
+    "alignedUsed": true,
+    "totalShift": 538,
+    "steps": [
+      {
+        "y": 112,
+        "shift": 53,
+        "cumulative": 53
+      },
+      {
+        "y": 414,
+        "shift": -29,
+        "cumulative": 24
+      },
+      {
+        "y": 933,
+        "shift": -59,
+        "cumulative": -35
+      },
+      {
+        "y": 1032,
+        "shift": -24,
+        "cumulative": -59
+      },
+      {
+        "y": 1312,
+        "shift": -50,
+        "cumulative": -109
+      },
+      {
+        "y": 1613,
+        "shift": -41,
+        "cumulative": -150
+      },
+      {
+        "y": 2125,
+        "shift": -67,
+        "cumulative": -217
+      },
+      {
+        "y": 2866,
+        "shift": -100,
+        "cumulative": -317
+      },
+      {
+        "y": 3528,
+        "shift": -24,
+        "cumulative": -341
+      },
+      {
+        "y": 4674,
+        "shift": -24,
+        "cumulative": -365
+      },
+      {
+        "y": 5423,
+        "shift": 8,
+        "cumulative": -357
+      },
+      {
+        "y": 6030,
+        "shift": -11,
+        "cumulative": -368
+      }
+    ],
+    "offsetBound": 64,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 14.28% (unaligned 42.9%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:34:18.923Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-opnemen-360/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:37:31.824Z"
+}

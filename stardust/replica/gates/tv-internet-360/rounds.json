@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T20:46:10.351Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T21:00:55.283Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub2 aligned 1.18% Δh 0; chat presence glyph as at 1440; frozen chrome only — 131-132 header/footer icon-glyph 🔴 (foundation) and, at 360, the header logo signature delta (foundation request already logged by cluster-streaming); main content: nothing-lost 0, content-presence missing 0, Clipped 0, overflow 0",
+          "at": "2026-11-25T21:01:06.957Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T21-03-17-932Z",
+          "at": "2026-11-25T21:04:32.053Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:39:37.382Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:17:13.811Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

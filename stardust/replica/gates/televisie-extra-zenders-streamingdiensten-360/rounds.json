@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T22:15:05.418Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T22:28:06.217Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-25T22:48:00.990Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub3: aligned 11.58%, Δh -267 (was -531): offer cards on small screens wrap the authored price lines that keep the source sr-only words (Van/voor) visible and the bundle name/price paragraphs (+38/+44/+56 per bundle row); features/FAQ rhythm",
+          "at": "2026-11-25T22:48:08.287Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T22-55-52-054Z",
+          "at": "2026-11-25T22:59:21.798Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T23-03-46-083Z",
+          "at": "2026-11-25T23:05:59.191Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-25T23-08-00-760Z",
+          "at": "2026-11-25T23:10:15.181Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T00-01-44-135Z",
+          "at": "2026-11-26T00:04:21.187Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T00-07-56-223Z",
+          "at": "2026-11-26T00:09:46.637Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-22-29-068Z",
+          "at": "2026-11-26T00:24:20.536Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-25-56-823Z",
+          "at": "2026-11-26T00:27:52.456Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T00-31-16-448Z",
+          "at": "2026-11-26T00:33:36.649Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T01-01-06-954Z",
+          "at": "2026-11-26T01:04:59.347Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:26:01.482Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:09:48.164Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

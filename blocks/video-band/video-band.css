@@ -1,0 +1,167 @@
+/* video band (source .sd-sec--video: gradient photo cover, centred 8/12 16:9 player) */
+.video-band {
+  position: relative;
+  padding: 2rem 0;
+  overflow: hidden;
+  background: var(--color-primary);
+}
+
+.video-band .vb-bg > div {
+  position: absolute;
+  inset: 0;
+}
+
+.video-band .vb-bg :is(p, picture) {
+  height: 100%;
+  margin: 0;
+}
+
+.video-band .vb-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.video-band .vb-bg-wide:not(.vb-bg-small) {
+  display: none;
+}
+
+.video-band .vb-inner {
+  position: relative;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+/* optional head: eyebrow (h4 size) + heading (h2 size), white and centred */
+.video-band .vb-head {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.video-band .vb-head :is(h1, h2, h3) {
+  margin: 8px 0 16px;
+  color: var(--color-white);
+  font-size: var(--heading-font-size-2);
+}
+
+.video-band .vb-head p {
+  margin: 0 0 16px;
+}
+
+.video-band .vb-head p.vb-eyebrow {
+  margin: 9px 0 4px;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.video-band .vb-player {
+  position: relative;
+  margin: 8px 0;
+  padding-top: 56.25%;
+}
+
+.video-band .vb-player iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width >= 768px) {
+  .video-band .vb-bg-small:not(.vb-bg-wide) {
+    display: none;
+  }
+
+  .video-band .vb-bg-wide:not(.vb-bg-small) {
+    display: block;
+  }
+
+  .video-band .vb-col {
+    width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 1024px) {
+  .video-band .vb-player {
+    margin: 16px 0;
+  }
+
+  .video-band .vb-head :is(h1, h2, h3) {
+    margin: 8px 0 32px;
+  }
+
+  .video-band .vb-head p.vb-eyebrow {
+    margin-top: 15px;
+  }
+}
+
+/* ==== BEGIN video-band (inline / gradient) variants — owned by cluster-landing; scoped to
+   .video-band.inline (the player in the section flow, no band pictures, 10/12 wide) and
+   .video-band.gradient (the player on the brand-gradient section under a white default-content
+   title, 8/12 wide) ==== */
+.video-band:is(.inline, .gradient) {
+  padding: 24px 0;
+  background: transparent;
+}
+
+.video-band:is(.inline, .gradient) .vb-player {
+  margin: 0;
+}
+
+main .section:has(.video-band.gradient) {
+  background: var(--gradient-primary);
+}
+
+main .section:has(.video-band.gradient) > .default-content-wrapper {
+  padding-top: 32px;
+  text-align: center;
+}
+
+main .section:has(.video-band.gradient) > .default-content-wrapper :is(h2, h3) {
+  color: var(--color-white);
+  font-size: var(--heading-font-size-2);
+}
+
+@media (width >= 768px) {
+  .video-band.inline {
+    padding: 27px 0;
+  }
+
+  .video-band.inline .vb-col {
+    width: calc((100% + var(--container-pad)) * 5 / 6 - var(--container-pad));
+    max-width: 960px;
+  }
+
+  .video-band.gradient {
+    padding: 24px 0 32px;
+  }
+
+  main .section:has(.video-band.gradient) > .default-content-wrapper {
+    padding-top: 40px;
+  }
+}
+
+/* gradient below 768px (source espn 360): the gradient runs bottom to top, 40px above the
+   title and under the player, the player 8px under the title */
+@media (width < 768px) {
+  main .section:has(.video-band.gradient) {
+    background: linear-gradient(0deg, #ff4608 0%, #ff5f00 70%, #f7931e);
+  }
+
+  main .section:has(.video-band.gradient) > .default-content-wrapper {
+    padding-top: 40px;
+  }
+
+  .video-band.gradient {
+    padding: 8px 0 40px;
+  }
+}
+
+/* ==== END video-band (inline / gradient) variants ==== */

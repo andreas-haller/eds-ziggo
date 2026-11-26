@@ -1,0 +1,240 @@
+{
+  "a": "stardust/replica/gates/index-360/live.png",
+  "b": "stardust/replica/gates/index-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 7474,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 76621,
+  "pct": 2.99,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/index-360/diff-pub3.png",
+  "masks": [
+    {
+      "yA": 5292,
+      "h": 356,
+      "yB": 5292
+    }
+  ],
+  "maskedRows": 356,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 4.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 25.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 2.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7474,
+      "pct": 0.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.73,
+    "differingPixels": 69905,
+    "compared": {
+      "width": 360,
+      "height": 7120,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1875,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2506,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 6489,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7033,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 4,
+    "insertedRows": 2,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.4,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.3,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 8.1,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 36.8,
+        "unaligned": 25.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.2,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7474,
+        "pct": 0.2,
+        "unaligned": 0.4
+      }
+    ],
+    "diff": "stardust/replica/gates/index-360/diff-pub3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 75,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null
+}

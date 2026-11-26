@@ -1,0 +1,385 @@
+{
+  "generatedAt": "2026-11-26T07:15:30.854Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.ziggo.nl/",
+    "liveHost": "main--50ca44c6--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 33,
+    "prototyped": 33,
+    "deployed": 33,
+    "optimised": 33
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 33
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "alles-in-1",
+      "path": "/alles-in-1",
+      "stage": "optimised",
+      "templateId": "alles-in-1",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "internet",
+      "path": "/internet",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie",
+      "path": "/televisie",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-4k-uhd",
+      "path": "/televisie/4k-uhd",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-digitale-kabel-tv-en-radio",
+      "path": "/televisie/digitale-kabel-tv-en-radio",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-digitale-radio",
+      "path": "/televisie/digitale-radio",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-espn",
+      "path": "/televisie/espn",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-disneyplus",
+      "path": "/televisie/extra-zenders-streamingdiensten/disneyplus",
+      "stage": "optimised",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten-netflix",
+      "path": "/televisie/extra-zenders-streamingdiensten/netflix",
+      "stage": "optimised",
+      "templateId": "televisie-extra-zenders-streamingdiensten-netflix",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-hoofdmenu",
+      "path": "/televisie/hoofdmenu",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-kabel-tv",
+      "path": "/televisie/kabel-tv",
+      "stage": "optimised",
+      "templateId": "alles-in-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-kijkprofielen",
+      "path": "/televisie/kijkprofielen",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-makkelijk-zoeken",
+      "path": "/televisie/makkelijk-zoeken",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-mediaboxen",
+      "path": "/televisie/mediaboxen",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-online-tv-kijken",
+      "path": "/televisie/online-tv-kijken",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-opnemen",
+      "path": "/televisie/opnemen",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-terugkijken",
+      "path": "/televisie/terugkijken",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-tv-apps",
+      "path": "/televisie/tv-apps",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-tv-start",
+      "path": "/televisie/tv-start",
+      "stage": "optimised",
+      "templateId": "alles-in-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-voicecontrol",
+      "path": "/televisie/voicecontrol",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenderoverzicht",
+      "path": "/televisie/zenderoverzicht",
+      "stage": "optimised",
+      "templateId": "televisie-zenderoverzicht",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-npo-1",
+      "path": "/televisie/zenders/npo-1",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-npo-2",
+      "path": "/televisie/zenders/npo-2",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-npo-3",
+      "path": "/televisie/zenders/npo-3",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-rtl-4",
+      "path": "/televisie/zenders/rtl-4",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-rtl-5",
+      "path": "/televisie/zenders/rtl-5",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-sbs6",
+      "path": "/televisie/zenders/sbs6",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-zenders-star-channel",
+      "path": "/televisie/zenders/star-channel",
+      "stage": "optimised",
+      "templateId": "televisie-zenders-npo-1",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-ziggo-go",
+      "path": "/televisie/ziggo-go",
+      "stage": "optimised",
+      "templateId": "televisie-voicecontrol",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "televisie-ziggo-sport",
+      "path": "/televisie/ziggo-sport",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "tv-internet",
+      "path": "/tv-internet",
+      "stage": "optimised",
+      "templateId": "alles-in-1",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "alles-in-1",
+      "archetype": "alles-in-1",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 6
+      }
+    },
+    {
+      "id": "televisie-extra-zenders-streamingdiensten-netflix",
+      "archetype": "televisie-extra-zenders-streamingdiensten-netflix",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "televisie-voicecontrol",
+      "archetype": "televisie-voicecontrol",
+      "pageCount": 13,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 13
+      }
+    },
+    {
+      "id": "televisie-zenderoverzicht",
+      "archetype": "televisie-zenderoverzicht",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "televisie-zenders-npo-1",
+      "archetype": "televisie-zenders-npo-1",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 7
+      }
+    }
+  ],
+  "blocks": {
+    "total": 23,
+    "converted": 23
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      0,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 8
+    },
+    "byAutofix": {}
+  }
+}

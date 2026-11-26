@@ -1,0 +1,180 @@
+{
+  "a": "stardust/replica/gates/all-1440/televisie-zenders-npo-2/origin.png",
+  "b": "stardust/replica/gates/all-1440/televisie-zenders-npo-2/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1542,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 7949,
+  "pct": 0.36,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/televisie-zenders-npo-2/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.91,
+  "textBoxes": 106,
+  "textPixels": 234227,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.2
+    },
+    {
+      "y0": 1500,
+      "y1": 1542,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.34,
+    "differingPixels": 7661,
+    "compared": {
+      "width": 1440,
+      "height": 1543,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1437,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1500,
+        "y1": 1542,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/televisie-zenders-npo-2/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 15,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/npo-2",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.live/televisie/zenders/npo-2",
+      "source": "https://www.ziggo.nl/televisie/zenders/npo-2",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "49937a90bc53aba3",
+      "reference": "2bebf4485305df0c",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "1f9e0d03714b3214",
+      "instruments": "700566dc6f7774a4",
+      "page content": "3aa4128faef23c8a",
+      "shared code": "933bef04481b01be",
+      "block channel-info-card": "b9aa7f4d851aab91",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block social-share": "3b544ea87de695a4"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 0,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 2,
+          "textNodes": 83,
+          "controls": 66,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 3,
+          "textNodes": 100,
+          "controls": 72,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:01:47.897Z"
+  }
+}

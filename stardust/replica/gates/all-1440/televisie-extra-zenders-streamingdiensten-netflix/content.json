@@ -1,0 +1,8688 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-26T03:46:02.421Z",
+  "width": 1440,
+  "variable": [
+   ".chat-button"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-26T03:46:02.011Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6146,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor.vfz-audience-selector__anchor--active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-audience-selector.section > div.vfz-audience-selector__inner-wrapper.container > a.vfz-audience-selector__anchor",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-navbar > div.image.parbase > a.vfz-navbar__brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.image.parbase > a.vfz-navbar__brand > img.vfz-navbar__brand-image",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 362,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navigation > li.vfz-navigation__item.has-group > button.vfz-heading__h5.vfz-navigation__item-menuitem",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item.vfz-navbar-applications__item--ziggo-go > a.vfz-navbar-applications__button",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-navbar-applications__items.vfz-navbar-applications__items--ziggo > li.vfz-navbar-applications__item > a.vfz-navbar-applications__button",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-inline-template-container > div > button.vfz-navbar-applications__button",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.vfz-navbar-applications__item > div.vfz-navigation-search--chat-eligible > button.vfz-navbar-applications__button",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h1.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 152,
+    "y": 271,
+    "w": 552,
+    "h": 54,
+    "level": 1,
+    "text": "netflix bij ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bullet-list.section > ul.vfz-bullet-list.vfz-bullet-list__icon > li.vfz-bullet-list-item.text-",
+    "x": 152,
+    "y": 333,
+    "w": 552,
+    "h": 24,
+    "text": "Vanaf 9,99 per maand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bullet-list.section > ul.vfz-bullet-list.vfz-bullet-list__icon > li.vfz-bullet-list-item.text-",
+    "x": 152,
+    "y": 357,
+    "w": 552,
+    "h": 24,
+    "text": "Bestel en beheer makkelijk in Mijn Ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.bullet-list.section > ul.vfz-bullet-list.vfz-bullet-list__icon > li.vfz-bullet-list-item.text-",
+    "x": 152,
+    "y": 381,
+    "w": 552,
+    "h": 24,
+    "text": "Maandelijks aan- en uitzetten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 152,
+    "y": 421,
+    "w": 150,
+    "h": 48,
+    "text": "ik wil netflix",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 325,
+    "y": 421,
+    "w": 199,
+    "h": 48,
+    "text": "ik heb nog geen ziggo",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__brand",
+    "x": 152,
+    "y": 699,
+    "w": 14,
+    "h": 14,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__list-item--link",
+    "x": 192,
+    "y": 696,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > a.vfz-breadcrumb-v2__list-item--link",
+    "x": 270,
+    "y": 696,
+    "w": 211,
+    "h": 21,
+    "text": "extra-zenders-streamingdiensten",
+    "href": "/televisie/extra-zenders-streamingdiensten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.vfz-breadcrumb-v2 > ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item",
+    "x": 481,
+    "y": 694,
+    "w": 66,
+    "h": 24,
+    "label": "current",
+    "value": "netflix",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol.vfz-breadcrumb-v2__list > li.vfz-breadcrumb-v2__list-item > span.vfz-breadcrumb-v2__list-item--current",
+    "x": 505,
+    "y": 696,
+    "w": 42,
+    "h": 21,
+    "text": "Netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 184,
+    "y": 762,
+    "w": 109,
+    "h": 53,
+    "text": "daarom kijk je",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 333,
+    "y": 762,
+    "w": 71,
+    "h": 53,
+    "text": "dit kijk je",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 443,
+    "y": 762,
+    "w": 84,
+    "h": 53,
+    "text": "hoe kijk je?",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 568,
+    "y": 762,
+    "w": 91,
+    "h": 53,
+    "text": "hulp nodig?",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.vfz-sticky-subnavigation__list > li.vfz-sticky-subnavigation__list-item > a.vfz-sticky-subnavigation__list-item-link",
+    "x": 698,
+    "y": 762,
+    "w": 57,
+    "h": 53,
+    "text": "tv apps",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--s.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 866,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "daarom kijk je netflix via ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.vfz-text--branded",
+    "x": 152,
+    "y": 930,
+    "w": 550,
+    "h": 132,
+    "text": "Zelf bepalen wanneer je de beste films en series kijkt. The Perfect Couple, Nobo"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 1149,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "settings_sliders-1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > span.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 249,
+    "y": 1149,
+    "w": 260,
+    "h": 55,
+    "text": "Maandelijks aan- en uitzetten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 249,
+    "y": 1204,
+    "w": 260,
+    "h": 102,
+    "text": "Bestel en beheer je Netflix abonnement via Mijn Ziggo. Heb je al een Netflix acc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-modal__trigger > div.text.parbase > a",
+    "x": 249,
+    "y": 1322,
+    "w": 260,
+    "h": 26,
+    "text": "zo doe je dat",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 1388,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_tv-apps-1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > span.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 249,
+    "y": 1388,
+    "w": 260,
+    "h": 55,
+    "text": "TV & Streaming op één plek"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 249,
+    "y": 1443,
+    "w": 260,
+    "h": 77,
+    "text": "Switch gemakkelijk tussen je favoriete tv-zenders en streamingdiensten."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 1568,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_remote-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 249,
+    "y": 1568,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "snel en simpel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 249,
+    "y": 1603,
+    "w": 260,
+    "h": 77,
+    "text": "Je opent Netflix makkelijk met je afstandsbediening vanaf de Next Mini of Mediab"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 639,
+    "y": 1224,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "1080x608_Ziggo_B2C_TV-UI_Netflix_2025_Q4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--s.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 1752,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "dit kijk je met netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_camera-studio-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 249,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "topseries en -films"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 249,
+    "y": 1870,
+    "w": 260,
+    "h": 128,
+    "text": "Netflix heeft een breed aanbod van speelfilms, documentaires, series, anime, bek"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 541,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "food-drinks_popcorn-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 639,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "bingewaardige series"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 639,
+    "y": 1870,
+    "w": 260,
+    "h": 102,
+    "text": "Bingewatchend je weekend door met The Crown, The Watcher, Stranger Things of een"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 931,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "user_users-3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 1028,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "kijk met het hele gezin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 1028,
+    "y": 1870,
+    "w": 260,
+    "h": 77,
+    "text": "Maak profielen aan voor het hele gezin en kijk op maximaal 4 apparaten tegelijk."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--l.vfz-spacing-bottom--s",
+    "x": 152,
+    "y": 2634,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "hoe kijk je netflix bij ziggo?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 152,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo account",
+    "file": "1080x608_Ziggo_B2C_mijnZiggo_mockup_2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 184,
+    "y": 2927,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "netflix account"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 184,
+    "y": 2969,
+    "w": 292,
+    "h": 77,
+    "text": "Zorg dat je een hebt. Geen abonnement? Regel het eenvoudig via Mijn Ziggo."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > a",
+    "x": 293,
+    "y": 2974,
+    "w": 143,
+    "h": 14,
+    "text": "netflix-abonnement",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 541,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo app",
+    "file": "1080x608_netflix_app_long"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 574,
+    "y": 2953,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "open de netflix app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 574,
+    "y": 2995,
+    "w": 292,
+    "h": 51,
+    "text": "Netflix vind je bij de apps op je Mediabox. Of ga simpelweg naar kanaal 150 op j"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.parbase > div.progressive-image > img.progressive-image__img.img-fluid",
+    "x": 931,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo devices",
+    "file": "1080x608_netflix_inloggen_long"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-10 > div.vfz-title.title > h3.vfz-spacing-top--s.vfz-spacing-bottom--xs",
+    "x": 963,
+    "y": 2927,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "inloggen en kijken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom--m > p",
+    "x": 963,
+    "y": 2969,
+    "w": 292,
+    "h": 77,
+    "text": "Log eenmalig in met je Netflix gegevens en ontdek je favoriete nieuwe films en s"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--l",
+    "x": 152,
+    "y": 3174,
+    "w": 552,
+    "h": 86,
+    "level": 2,
+    "text": "kies het abonnement dat bij jou past"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.vfz-heading__h2 > span.vfz-heading__h4",
+    "x": 184,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top--xl.vfz-spacing-bottom--m > p > span.vfz-heading__h3",
+    "x": 184,
+    "y": 3373,
+    "w": 73,
+    "h": 37,
+    "text": "Basic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 184,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > b > a",
+    "x": 184,
+    "y": 3508,
+    "w": 81,
+    "h": 14,
+    "text": "standaard",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 184,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 184,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 184,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 184,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.text-dark",
+    "x": 184,
+    "y": 4026,
+    "w": 102,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 184,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix basic",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.vfz-heading__h2 > span.vfz-heading__h4",
+    "x": 574,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top--xl.vfz-spacing-bottom--m > p > span.vfz-heading__h3",
+    "x": 574,
+    "y": 3373,
+    "w": 144,
+    "h": 37,
+    "text": "Standaard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 574,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > b > a",
+    "x": 574,
+    "y": 3508,
+    "w": 41,
+    "h": 14,
+    "text": "goed",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 574,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 574,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 574,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 574,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.text-dark",
+    "x": 574,
+    "y": 4026,
+    "w": 116,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 574,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix standaard",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.vfz-heading__h2 > span.vfz-heading__h4",
+    "x": 963,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top--xl.vfz-spacing-bottom--m > p > span.vfz-heading__h3",
+    "x": 963,
+    "y": 3373,
+    "w": 123,
+    "h": 37,
+    "text": "Premium"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 963,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > b > a",
+    "x": 963,
+    "y": 3508,
+    "w": 89,
+    "h": 14,
+    "text": "fantastisch",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 963,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 963,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 963,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 963,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--m > p > span.text-dark",
+    "x": 963,
+    "y": 4026,
+    "w": 121,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--fullwidth > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 963,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix premium",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top--xs.vfz-spacing-bottom--m",
+    "x": 152,
+    "y": 4240,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "veelgestelde vragen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Netflix?-",
+    "x": 152,
+    "y": 4308,
+    "w": 747,
+    "h": 56,
+    "text": "wat is netflix?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Netflix?-",
+    "x": 152,
+    "y": 4308,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is netflix?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-kost-Netflix?",
+    "x": 152,
+    "y": 4365,
+    "w": 747,
+    "h": 56,
+    "text": "wat kost netflix?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-kost-Netflix?",
+    "x": 152,
+    "y": 4365,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat kost netflix?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-bestel-ik-Netflix-via-Ziggo?",
+    "x": 152,
+    "y": 4422,
+    "w": 747,
+    "h": 56,
+    "text": "hoe bestel ik netflix via ziggo?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-bestel-ik-Netflix-via-Ziggo?",
+    "x": 152,
+    "y": 4422,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe bestel ik netflix via ziggo?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-het-verschil-tussen-Netflix-via-Ziggo-en-van-Netflix-zelf?",
+    "x": 152,
+    "y": 4479,
+    "w": 747,
+    "h": 56,
+    "text": "wat is het verschil tussen netflix via ziggo en van netflix zelf?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-het-verschil-tussen-Netflix-via-Ziggo-en-van-Netflix-zelf?",
+    "x": 152,
+    "y": 4479,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is het verschil tussen netflix via ziggo en van netflix ",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-kan-ik-Netflix-kijken?",
+    "x": 152,
+    "y": 4536,
+    "w": 747,
+    "h": 56,
+    "text": "hoe kan ik netflix kijken?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-kan-ik-Netflix-kijken?",
+    "x": 152,
+    "y": 4536,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe kan ik netflix kijken?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-zeg-ik-Netflix-op?",
+    "x": 152,
+    "y": 4593,
+    "w": 747,
+    "h": 56,
+    "text": "hoe zeg ik netflix op?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Hoe-zeg-ik-Netflix-op?",
+    "x": 152,
+    "y": 4593,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe zeg ik netflix op?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Ik-heb-geen-Mijn-Ziggo-account:-wat-moet-ik-dan-doen?",
+    "x": 152,
+    "y": 4650,
+    "w": 747,
+    "h": 56,
+    "text": "ik heb geen mijn ziggo account: wat moet ik dan doen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Ik-heb-geen-Mijn-Ziggo-account:-wat-moet-ik-dan-doen?",
+    "x": 152,
+    "y": 4650,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "ik heb geen mijn ziggo account: wat moet ik dan doen?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Stapelvoordeel?-",
+    "x": 152,
+    "y": 4707,
+    "w": 747,
+    "h": 56,
+    "text": "wat is stapelvoordeel?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-accordion-item.section > div > button#accordion-item-Wat-is-Stapelvoordeel?-",
+    "x": 152,
+    "y": 4707,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is stapelvoordeel?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--l",
+    "x": 152,
+    "y": 4828,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "ken je deze tv apps al?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-4 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 152,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "200x300_disney-plus-logo-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > h3.vfz-spacing-top--xs.vfz-spacing-bottom",
+    "x": 282,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "disney+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 282,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 6,99 per maand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 282,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/disneyplus"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 360,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/disneyplus"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-4 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 541,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "HBO_Black_Gradient_Logo_200x300_V3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > h3.vfz-spacing-top--xs.vfz-spacing-bottom",
+    "x": 671,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "hbo max"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 671,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 5,99 p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 671,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/hbo-max"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 750,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/hbo-max"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-4 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 931,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "200x300_viaplay-logo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > h3.vfz-spacing-top--xs.vfz-spacing-bottom",
+    "x": 1060,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "viaplay"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 1060,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 16,99 per maand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 1060,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/viaplay"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom > p > a",
+    "x": 1139,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/viaplay"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-12 > div.vfz-title.title > h2.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 347,
+    "y": 5153,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "nog een vraag?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-spacing-top.vfz-spacing-bottom--xs > p > span.vfz-heading__h1--sub",
+    "x": 505,
+    "y": 5207,
+    "w": 431,
+    "h": 28,
+    "text": "Onze adviseurs helpen je graag"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-3 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 184,
+    "y": 5303,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "connection_phone-1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > span.vfz-spacing-top--xs.vfz-spacing-bottom--xs",
+    "x": 265,
+    "y": 5311,
+    "w": 212,
+    "h": 28,
+    "text": "Bel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 265,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Werkdagen 8.00 - 20.00 Zaterdag 9.00 - 18.00"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom--m",
+    "x": 265,
+    "y": 5413,
+    "w": 120,
+    "h": 48,
+    "text": "bel 088 12 12 914",
+    "href": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-3 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 573,
+    "y": 5303,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "messaging_message-multiple-1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > span.vfz-spacing-top--xs.vfz-spacing-bottom--xs",
+    "x": 655,
+    "y": 5311,
+    "w": 212,
+    "h": 28,
+    "text": "Chat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 655,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Stel direct je vraag aan een van onze adviseurs."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.vfz-chat-button > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 655,
+    "y": 5413,
+    "w": 212,
+    "h": 48,
+    "text": "we zijn momenteel in gesprek, probeer het later nog eens.",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-3 > div.image.parbase > img.nonprogressive-image.mv-100",
+    "x": 963,
+    "y": 5303,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "buildings_shop-1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cell-component.col-8 > div.vfz-title.title > span.vfz-spacing-top--xs.vfz-spacing-bottom--xs",
+    "x": 1044,
+    "y": 5311,
+    "w": 212,
+    "h": 28,
+    "text": "Winkel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text.parbase > div.vfz-spacing-top.vfz-spacing-bottom > p",
+    "x": 1044,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Bezoek een Ziggo winkel bij je in de buurt."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.button.submit > div.btn-wrap.btn-wrap--sm--left > a.vfz-spacing-top.vfz-spacing-bottom",
+    "x": 1044,
+    "y": 5413,
+    "w": 140,
+    "h": 48,
+    "text": "vind een winkel",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 152,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5637,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5673,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5709,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5745,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5781,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 172,
+    "y": 5817,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 442,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5637,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5673,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5709,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5745,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5781,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5817,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5853,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5889,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 462,
+    "y": 5925,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 732,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5637,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5673,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5709,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5745,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5781,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5817,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 752,
+    "y": 5853,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.vfz-footer__links.vfz-footer__links--desktop > div.vfz-footer__links-column > h2.vfz-footer__links-title",
+    "x": 1022,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5637,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5673,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5709,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5745,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5781,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5817,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5853,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5889,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5925,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__links-list > li.nav-item.section > a.nav-link",
+    "x": 1042,
+    "y": 5961,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 6025,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 260,
+    "y": 6025,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 402,
+    "y": 6025,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 542,
+    "y": 6025,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 646,
+    "y": 6025,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1012,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1072,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1132,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1192,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__social-media-list > li.vfz-footer__social-media-item > a.vfz-footer__social-media-link",
+    "x": 1252,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 152,
+    "y": 6079,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 263,
+    "y": 6079,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 418,
+    "y": 6079,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 529,
+    "y": 6079,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 616,
+    "y": 6079,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 705,
+    "y": 6079,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.vfz-footer__subfooter-links-list > li.nav-item.section > a.nav-link",
+    "x": 836,
+    "y": 6079,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.z-dimelo-button-form > aside.dimelo-form.closed > button.form-close-button.button-close",
+    "x": 1380,
+    "y": 975,
+    "w": 25,
+    "h": 32,
+    "text": "x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "aside.dimelo-form.closed > div.dimelo-form-inner > div.dimelo-form-title",
+    "x": 1101,
+    "y": 984,
+    "w": 300,
+    "h": 24,
+    "text": "Vertel ons wie je bent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-name > label",
+    "x": 1101,
+    "y": 1028,
+    "w": 300,
+    "h": 21,
+    "text": "Naam"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-zip > label",
+    "x": 1101,
+    "y": 1127,
+    "w": 300,
+    "h": 21,
+    "text": "Postcode"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-housenumber > label",
+    "x": 1101,
+    "y": 1226,
+    "w": 300,
+    "h": 21,
+    "text": "Huisnummer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-geboortedatum > label",
+    "x": 1101,
+    "y": 1325,
+    "w": 300,
+    "h": 21,
+    "text": "Geboortedatum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > label",
+    "x": 1101,
+    "y": 1424,
+    "w": 300,
+    "h": 21,
+    "text": "Ik wil graag (selecteer)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-category > select#dimelo_chat_type",
+    "x": 1101,
+    "y": 1455,
+    "w": 300,
+    "h": 48,
+    "label": "ik wil graag (selecteer) *",
+    "value": "maak een keuze",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-input-textarea > label",
+    "x": 1101,
+    "y": 1523,
+    "w": 300,
+    "h": 21,
+    "text": "Waar kan ik je mee helpen?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > div.dimelo-row.row-button > button.vfz-spacing-top.vfz-spacing-bottom--xs",
+    "x": 1101,
+    "y": 1650,
+    "w": 150,
+    "h": 48,
+    "text": "chat met ons"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.dimelo-form-inner > form > p",
+    "x": 1101,
+    "y": 1726,
+    "w": 300,
+    "h": 64,
+    "text": "Velden met een * zijn verplicht. Je communicatie via deze chatfunctie wordt door"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "form > p > a",
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9,
+    "text": "privacy statement",
+    "href": "/privacy/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 193,
+    "controls": 100,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+  "at": "2026-11-26T03:45:34.226Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6147,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a.audience-a-active",
+    "x": 266,
+    "y": 10,
+    "w": 72,
+    "h": 30,
+    "text": "privé",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.audience > div.container.audience-inner > a.audience-a",
+    "x": 338,
+    "y": 10,
+    "w": 87,
+    "h": 30,
+    "text": "zakelijk",
+    "href": "/zakelijk/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar > div.container.navbar-inner > a.navbar-brand",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.navbar-brand > span.icon.icon-ziggo-logo-orange-v1 > img",
+    "x": 152,
+    "y": 61,
+    "w": 72,
+    "h": 30,
+    "text": "logo van ziggo",
+    "file": "ziggo-logo-orange-v1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "text": "producten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 236,
+    "y": 40,
+    "w": 106,
+    "h": 72,
+    "label": "trigger",
+    "value": "producten",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "text": "klantenservice"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 361,
+    "y": 40,
+    "w": 138,
+    "h": 72,
+    "label": "trigger",
+    "value": "klantenservice",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "text": "entertainment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.mainnav-list > li.mainnav-item > button.mainnav-btn",
+    "x": 519,
+    "y": 40,
+    "w": 137,
+    "h": 72,
+    "label": "trigger",
+    "value": "entertainment",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-go",
+    "x": 986,
+    "y": 40,
+    "w": 74,
+    "h": 72,
+    "text": "ziggo go",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > a.app.app-mail",
+    "x": 1060,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "ziggo mail",
+    "href": "/mail"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "text": "mijn ziggo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.apps.apps-bar > div.app-my > button.app.app-my",
+    "x": 1140,
+    "y": 40,
+    "w": 80,
+    "h": 72,
+    "label": "trigger",
+    "value": "mijn ziggo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.navbar-inner > div.apps.apps-bar > button.app.app-search",
+    "x": 1220,
+    "y": 40,
+    "w": 68,
+    "h": 72,
+    "text": "zoeken"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 0,
+    "y": 112,
+    "w": 1440,
+    "h": 540,
+    "text": "",
+    "file": "media_123be9148e3f61bbd22b94ecf99f28a5e6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-col > div.sh-title > h1#netflix-bij-ziggo",
+    "x": 152,
+    "y": 271,
+    "w": 552,
+    "h": 54,
+    "level": 1,
+    "text": "netflix bij ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-checks > ul > li",
+    "x": 152,
+    "y": 333,
+    "w": 552,
+    "h": 24,
+    "text": "Vanaf 9,99 per maand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-checks > ul > li",
+    "x": 152,
+    "y": 357,
+    "w": 552,
+    "h": 24,
+    "text": "Bestel en beheer makkelijk in Mijn Ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-checks > ul > li",
+    "x": 152,
+    "y": 381,
+    "w": 552,
+    "h": 24,
+    "text": "Maandelijks aan- en uitzetten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-ctas > p.button-wrapper > a.button.primary",
+    "x": 152,
+    "y": 421,
+    "w": 150,
+    "h": 48,
+    "text": "ik wil netflix",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-ctas > p.button-wrapper > a.button.secondary",
+    "x": 326,
+    "y": 421,
+    "w": 199,
+    "h": 48,
+    "text": "ik heb nog geen ziggo",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-home",
+    "x": 152,
+    "y": 696,
+    "w": 14,
+    "h": 21,
+    "text": "ziggo",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-link",
+    "x": 192,
+    "y": 696,
+    "w": 54,
+    "h": 21,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.crumbs-list > li.crumbs-item > a.crumbs-link",
+    "x": 270,
+    "y": 696,
+    "w": 211,
+    "h": 21,
+    "text": "extra-zenders-streamingdiensten",
+    "href": "/televisie/extra-zenders-streamingdiensten"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 481,
+    "y": 696,
+    "w": 66,
+    "h": 21,
+    "label": "current",
+    "value": "netflix",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.crumbs > ul.crumbs-list > li.crumbs-item.crumbs-current",
+    "x": 481,
+    "y": 696,
+    "w": 66,
+    "h": 21,
+    "text": "Netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-zl318q > li > a",
+    "x": 184,
+    "y": 762,
+    "w": 109,
+    "h": 53,
+    "text": "daarom kijk je",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-zl318q > li > a",
+    "x": 333,
+    "y": 762,
+    "w": 71,
+    "h": 53,
+    "text": "dit kijk je",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-zl318q > li > a",
+    "x": 443,
+    "y": 762,
+    "w": 84,
+    "h": 53,
+    "text": "hoe kijk je?",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-zl318q > li > a",
+    "x": 568,
+    "y": 762,
+    "w": 91,
+    "h": 53,
+    "text": "hulp nodig?",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul#subnav-list-zl318q > li > a",
+    "x": 698,
+    "y": 762,
+    "w": 57,
+    "h": 53,
+    "text": "tv apps",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-inner > div.sf-head > h2#daarom-kijk-je-netflix-via-ziggo",
+    "x": 152,
+    "y": 866,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "daarom kijk je netflix via ziggo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-inner > div.sf-head > p",
+    "x": 152,
+    "y": 925,
+    "w": 552,
+    "h": 144,
+    "text": "Zelf bepalen wanneer je de beste films en series kijkt. The Perfect Couple, Nobo"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 152,
+    "y": 1149,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_17ab5932eddc96c96c33967badbf12f19d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-title > p > strong",
+    "x": 249,
+    "y": 1147,
+    "w": 222,
+    "h": 58,
+    "text": "Maandelijks aan- en uitzetten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 249,
+    "y": 1204,
+    "w": 260,
+    "h": 102,
+    "text": "Bestel en beheer je Netflix abonnement via Mijn Ziggo. Heb je al een Netflix acc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-link > p > a",
+    "x": 249,
+    "y": 1322,
+    "w": 260,
+    "h": 26,
+    "text": "zo doe je dat",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 152,
+    "y": 1388,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_1da4b4a41813fe094878e4e802db3603eb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-title > p > strong",
+    "x": 249,
+    "y": 1386,
+    "w": 248,
+    "h": 58,
+    "text": "TV & Streaming op één plek"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 249,
+    "y": 1443,
+    "w": 260,
+    "h": 77,
+    "text": "Switch gemakkelijk tussen je favoriete tv-zenders en streamingdiensten."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 152,
+    "y": 1568,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_186aea7f78d2adbc2aa9fdfeba3da7418e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-title.sf-title-heading > h3#snel-en-simpel",
+    "x": 249,
+    "y": 1568,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "snel en simpel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 249,
+    "y": 1603,
+    "w": 260,
+    "h": 77,
+    "text": "Je opent Netflix makkelijk met je afstandsbediening vanaf de Next Mini of Mediab"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-media > picture > img",
+    "x": 639,
+    "y": 1224,
+    "w": 649,
+    "h": 366,
+    "text": "",
+    "file": "media_12263eb96a8e19139bf90e8c3fa2f4f9ea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-inner > div.sf-head > h2#dit-kijk-je-met-netflix",
+    "x": 152,
+    "y": 1752,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "dit kijk je met netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 152,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_17ab8b7c92f353bbdd2b97b0f86e5f10a6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-title.sf-title-heading > h3#topseries-en--films",
+    "x": 249,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "topseries en -films"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 249,
+    "y": 1870,
+    "w": 260,
+    "h": 128,
+    "text": "Netflix heeft een breed aanbod van speelfilms, documentaires, series, anime, bek"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 541,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_1a165b1161ed34dc2cf7093bbf48b533cb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-title.sf-title-heading > h3#bingewaardige-series",
+    "x": 639,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "bingewaardige series"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 639,
+    "y": 1870,
+    "w": 260,
+    "h": 102,
+    "text": "Bingewatchend je weekend door met The Crown, The Watcher, Stranger Things of een"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 931,
+    "y": 1835,
+    "w": 44,
+    "h": 44,
+    "text": "",
+    "file": "media_127012ad8d6cb686d6b05a2f093ce1e12c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-title.sf-title-heading > h3#kijk-met-het-hele-gezin",
+    "x": 1028,
+    "y": 1835,
+    "w": 260,
+    "h": 28,
+    "level": 3,
+    "text": "kijk met het hele gezin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 1028,
+    "y": 1870,
+    "w": 260,
+    "h": 77,
+    "text": "Maak profielen aan voor het hele gezin en kijk op maximaal 4 apparaten tegelijk."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 0,
+    "y": 2054,
+    "w": 1440,
+    "h": 516,
+    "text": "",
+    "file": "media_1506eeae886c2669ac70ff9605dbdc9b57"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-inner > div.ssc-head > h2#hoe-kijk-je-netflix-bij-ziggo",
+    "x": 152,
+    "y": 2634,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "hoe kijk je netflix bij ziggo?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 152,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo account",
+    "file": "media_1f55d51e29d04a2eb129ec559932e4f7e0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#netflix-account",
+    "x": 184,
+    "y": 2927,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "netflix account"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 184,
+    "y": 2969,
+    "w": 292,
+    "h": 77,
+    "text": "Zorg dat je een hebt. Geen abonnement? Regel het eenvoudig via Mijn Ziggo."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 293,
+    "y": 2974,
+    "w": 143,
+    "h": 14,
+    "text": "netflix-abonnement",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 541,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo app",
+    "file": "media_161cf7c9d40e5748cde0bc86d569ed1f94"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#open-de-netflix-app",
+    "x": 574,
+    "y": 2953,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "open de netflix app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 574,
+    "y": 2995,
+    "w": 292,
+    "h": 51,
+    "text": "Netflix vind je bij de apps op je Mediabox. Of ga simpelweg naar kanaal 150 op j"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 931,
+    "y": 2709,
+    "w": 357,
+    "h": 202,
+    "text": "hbo devices",
+    "file": "media_182a4d872b6a488869d4c113c15ecd7452"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#inloggen-en-kijken",
+    "x": 963,
+    "y": 2927,
+    "w": 292,
+    "h": 34,
+    "level": 3,
+    "text": "inloggen en kijken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 963,
+    "y": 2969,
+    "w": 292,
+    "h": 77,
+    "text": "Log eenmalig in met je Netflix gegevens en ontdek je favoriete nieuwe films en s"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-inner > div.stt-head > h2#kies-het-abonnement-dat-bij-jou-past",
+    "x": 152,
+    "y": 3174,
+    "w": 552,
+    "h": 86,
+    "level": 2,
+    "text": "kies het abonnement dat bij jou past"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-name > p",
+    "x": 184,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-name > p > strong",
+    "x": 184,
+    "y": 3373,
+    "w": 73,
+    "h": 37,
+    "text": "Basic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 184,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 184,
+    "y": 3508,
+    "w": 79,
+    "h": 14,
+    "text": "standaard",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 184,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 184,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 184,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 184,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-foot > div.stt-price > p",
+    "x": 184,
+    "y": 4026,
+    "w": 105,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-cta > p.button-wrapper > a.button.primary",
+    "x": 184,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix basic",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-name > p",
+    "x": 574,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-name > p > strong",
+    "x": 574,
+    "y": 3373,
+    "w": 144,
+    "h": 37,
+    "text": "Standaard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 574,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 574,
+    "y": 3508,
+    "w": 39,
+    "h": 14,
+    "text": "goed",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 574,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 574,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 574,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 574,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-foot > div.stt-price > p",
+    "x": 574,
+    "y": 4026,
+    "w": 118,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-cta > p.button-wrapper > a.button.primary",
+    "x": 574,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix standaard",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-name > p",
+    "x": 963,
+    "y": 3343,
+    "w": 69,
+    "h": 30,
+    "text": "Netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-name > p > strong",
+    "x": 963,
+    "y": 3373,
+    "w": 123,
+    "h": 37,
+    "text": "Premium"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 963,
+    "y": 3477,
+    "w": 292,
+    "h": 51,
+    "text": "Beeld- en geluidskwaliteit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 963,
+    "y": 3508,
+    "w": 86,
+    "h": 14,
+    "text": "fantastisch",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 963,
+    "y": 3577,
+    "w": 292,
+    "h": 51,
+    "text": "Resolutie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 963,
+    "y": 3677,
+    "w": 292,
+    "h": 51,
+    "text": "Audio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 963,
+    "y": 3778,
+    "w": 292,
+    "h": 51,
+    "text": "Aantal apparaten tegelijk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-body > div.stt-item > p",
+    "x": 963,
+    "y": 3878,
+    "w": 292,
+    "h": 26,
+    "text": "Aantal downloadapparaten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-foot > div.stt-price > p",
+    "x": 963,
+    "y": 4026,
+    "w": 124,
+    "h": 14,
+    "text": "p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stt-cta > p.button-wrapper > a.button.primary",
+    "x": 963,
+    "y": 4072,
+    "w": 292,
+    "h": 48,
+    "text": "bestel netflix premium",
+    "href": "/bestellen/snel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-inner > div.faq-head > h2#veelgestelde-vragen",
+    "x": 152,
+    "y": 4240,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "veelgestelde vragen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4308,
+    "w": 747,
+    "h": 56,
+    "text": "wat is netflix?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4308,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is netflix?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4365,
+    "w": 747,
+    "h": 56,
+    "text": "wat kost netflix?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4365,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat kost netflix?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4422,
+    "w": 747,
+    "h": 56,
+    "text": "hoe bestel ik netflix via ziggo?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4422,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe bestel ik netflix via ziggo?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4479,
+    "w": 747,
+    "h": 56,
+    "text": "wat is het verschil tussen netflix via ziggo en van netflix zelf?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4479,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is het verschil tussen netflix via ziggo en van netflix ",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4536,
+    "w": 747,
+    "h": 56,
+    "text": "hoe kan ik netflix kijken?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4536,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe kan ik netflix kijken?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4593,
+    "w": 747,
+    "h": 56,
+    "text": "hoe zeg ik netflix op?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4593,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "hoe zeg ik netflix op?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4650,
+    "w": 747,
+    "h": 56,
+    "text": "ik heb geen mijn ziggo account: wat moet ik dan doen?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4650,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "ik heb geen mijn ziggo account: wat moet ik dan doen?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4707,
+    "w": 747,
+    "h": 56,
+    "text": "wat is stapelvoordeel?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.acc-group > div.acc > div.acc-header",
+    "x": 152,
+    "y": 4707,
+    "w": 747,
+    "h": 56,
+    "label": "trigger",
+    "value": "wat is stapelvoordeel?",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-inner > div.ssc-head > h2#ken-je-deze-tv-apps-al",
+    "x": 152,
+    "y": 4828,
+    "w": 552,
+    "h": 43,
+    "level": 2,
+    "text": "ken je deze tv apps al?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 152,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "media_12c5eba06a1e3fd8287a522808111b53e7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#disney",
+    "x": 282,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "disney+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 282,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 6,99 per maand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 282,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/disneyplus"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 360,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/disneyplus"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 541,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "media_10e6bb6cff12bbe9cb59504793373a4279"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#hbo-max",
+    "x": 671,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "hbo max"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 671,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 5,99 p.m."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 671,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/hbo-max"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 750,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/hbo-max"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-media > picture > img",
+    "x": 931,
+    "y": 4903,
+    "w": 98,
+    "h": 147,
+    "text": "",
+    "file": "media_11910070e9bdf131c54a36c598f5446efc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-title > h3#viaplay",
+    "x": 1060,
+    "y": 4927,
+    "w": 228,
+    "h": 22,
+    "level": 3,
+    "text": "viaplay"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-body > div.ssc-text > p",
+    "x": 1060,
+    "y": 4949,
+    "w": 228,
+    "h": 26,
+    "text": "Vanaf 16,99 per maand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 1060,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "meer info",
+    "href": "/televisie/extra-zenders-streamingdiensten/viaplay"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ssc-text > p > a",
+    "x": 1139,
+    "y": 4996,
+    "w": 66,
+    "h": 14,
+    "text": "bestellen",
+    "href": "/televisie/extra-zenders-streamingdiensten/viaplay"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-inner > div.sf-head > h2#nog-een-vraag",
+    "x": 347,
+    "y": 5153,
+    "w": 747,
+    "h": 43,
+    "level": 2,
+    "text": "nog een vraag?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-inner > div.sf-head > p",
+    "x": 347,
+    "y": 5204,
+    "w": 747,
+    "h": 34,
+    "text": "Onze adviseurs helpen je graag"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 184,
+    "y": 5302,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_14813e2ef0abe3997f33cdd6399d49c281"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-title > p > strong",
+    "x": 265,
+    "y": 5308,
+    "w": 37,
+    "h": 30,
+    "text": "Bel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 265,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Werkdagen 8.00 - 20.00 Zaterdag 9.00 - 18.00"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-link > p > a.sf-btn",
+    "x": 265,
+    "y": 5413,
+    "w": 120,
+    "h": 48,
+    "text": "bel 088 12 12 914",
+    "href": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 573,
+    "y": 5302,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_177d6023001966252a4d36c35fb6b2b976"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-title > p > strong",
+    "x": 655,
+    "y": 5308,
+    "w": 51,
+    "h": 30,
+    "text": "Chat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 655,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Stel direct je vraag aan een van onze adviseurs."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-link > p > a.sf-btn",
+    "x": 655,
+    "y": 5413,
+    "w": 133,
+    "h": 48,
+    "text": "start een chat",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-icon > picture > img",
+    "x": 963,
+    "y": 5302,
+    "w": 49,
+    "h": 49,
+    "text": "",
+    "file": "media_100c59b245219f4d98b6d3121955c2362f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-title > p > strong",
+    "x": 1044,
+    "y": 5308,
+    "w": 76,
+    "h": 30,
+    "text": "Winkel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-body > div.sf-text > p",
+    "x": 1044,
+    "y": 5346,
+    "w": 212,
+    "h": 51,
+    "text": "Bezoek een Ziggo winkel bij je in de buurt."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sf-link > p > a.sf-btn",
+    "x": 1044,
+    "y": 5413,
+    "w": 140,
+    "h": 48,
+    "text": "vind een winkel",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#pakketten",
+    "x": 152,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "pakketten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5637,
+    "w": 151,
+    "h": 14,
+    "text": "pakketten vergelijken",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5673,
+    "w": 65,
+    "h": 14,
+    "text": "alles-in-1",
+    "href": "/alles-in-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5709,
+    "w": 94,
+    "h": 14,
+    "text": "internet & tv",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5745,
+    "w": 93,
+    "h": 14,
+    "text": "internet only",
+    "href": "/internet/internet-only"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5781,
+    "w": 61,
+    "h": 14,
+    "text": "televisie",
+    "href": "/televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 172,
+    "y": 5817,
+    "w": 144,
+    "h": 14,
+    "text": "ziggo aanbiedingen",
+    "href": "/aanbiedingen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#internet",
+    "x": 442,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5637,
+    "w": 57,
+    "h": 14,
+    "text": "internet",
+    "href": "/internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5673,
+    "w": 27,
+    "h": 14,
+    "text": "wifi",
+    "href": "/internet/wifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5709,
+    "w": 111,
+    "h": 14,
+    "text": "wifi-versterkers",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5745,
+    "w": 72,
+    "h": 14,
+    "text": "smartwifi",
+    "href": "/internet/smartwifi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5781,
+    "w": 93,
+    "h": 14,
+    "text": "wifi garantie",
+    "href": "/wifigarantie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5817,
+    "w": 128,
+    "h": 14,
+    "text": "glasvezel internet",
+    "href": "/internet/glasvezel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5853,
+    "w": 135,
+    "h": 14,
+    "text": "internetbeveiliging",
+    "href": "/internet/internetbeveiliging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5889,
+    "w": 74,
+    "h": 14,
+    "text": "speedtest",
+    "href": "/speedtest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 462,
+    "y": 5925,
+    "w": 169,
+    "h": 14,
+    "text": "postcodecheck internet",
+    "href": "/postcodecheck"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#televisie",
+    "x": 732,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "televisie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5637,
+    "w": 64,
+    "h": 14,
+    "text": "kabel tv",
+    "href": "/televisie/kabel-tv"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5673,
+    "w": 113,
+    "h": 14,
+    "text": "online tv kijken",
+    "href": "/televisie/online-tv-kijken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5709,
+    "w": 86,
+    "h": 14,
+    "text": "4k tv kijken",
+    "href": "/televisie/4k-uhd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5745,
+    "w": 67,
+    "h": 14,
+    "text": "ziggo go",
+    "href": "/televisie/ziggo-go"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5781,
+    "w": 108,
+    "h": 14,
+    "text": "espn premium",
+    "href": "/televisie/extra-zenders-streamingdiensten/espn-premium"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5817,
+    "w": 74,
+    "h": 14,
+    "text": "videoland",
+    "href": "/televisie/extra-zenders-streamingdiensten/videoland"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 752,
+    "y": 5853,
+    "w": 84,
+    "h": 14,
+    "text": "ziggo sport",
+    "href": "/televisie/ziggo-sport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.fcol > div.fcol-title > h2#bellen--overige",
+    "x": 1022,
+    "y": 5597,
+    "w": 266,
+    "h": 27,
+    "level": 2,
+    "text": "bellen & overige"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5637,
+    "w": 80,
+    "h": 14,
+    "text": "vast bellen",
+    "href": "/bellen/vast-bellen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5673,
+    "w": 95,
+    "h": 14,
+    "text": "mobiel bellen",
+    "href": "/vodafone"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5709,
+    "w": 63,
+    "h": 14,
+    "text": "sim only",
+    "href": "/ziggovoordeel/simonly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5745,
+    "w": 68,
+    "h": 14,
+    "text": "iphone 18",
+    "href": "/telefoon/iphone/iphone-18"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5781,
+    "w": 67,
+    "h": 14,
+    "text": "iphone 17",
+    "href": "/telefoon/iphone/iphone-17-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5817,
+    "w": 151,
+    "h": 14,
+    "text": "samsung galaxy s26",
+    "href": "/telefoon/samsung/galaxy-s26-serie"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5853,
+    "w": 106,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5889,
+    "w": 87,
+    "h": 14,
+    "text": "ziggo dome",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5925,
+    "w": 98,
+    "h": 14,
+    "text": "ziggo zakelijk",
+    "href": "/zakelijk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1042,
+    "y": 5961,
+    "w": 154,
+    "h": 14,
+    "text": "voorrang met priority",
+    "href": "/info/about"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 6025,
+    "w": 76,
+    "h": 14,
+    "text": "producten",
+    "href": "/tv-internet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 260,
+    "y": 6025,
+    "w": 109,
+    "h": 14,
+    "text": "klantenservice",
+    "href": "/klantenservice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 402,
+    "y": 6025,
+    "w": 108,
+    "h": 14,
+    "text": "entertainment",
+    "href": "/entertainment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 542,
+    "y": 6025,
+    "w": 73,
+    "h": 14,
+    "text": "verhuizen",
+    "href": "/verhuizing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 646,
+    "y": 6025,
+    "w": 75,
+    "h": 14,
+    "text": "mijn ziggo",
+    "href": "/mijn-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1012,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1072,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1132,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1192,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1252,
+    "y": 6053,
+    "w": 36,
+    "h": 14,
+    "text": "",
+    "href": "/televisie/extra-zenders-streamingdiensten/netflix"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 152,
+    "y": 6080,
+    "w": 79,
+    "h": 14,
+    "text": "over ziggo",
+    "href": "/over-ziggo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 263,
+    "y": 6080,
+    "w": 123,
+    "h": 14,
+    "text": "toegankelijkheid",
+    "href": "/toegankelijkheid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 418,
+    "y": 6080,
+    "w": 78,
+    "h": 14,
+    "text": "disclaimer",
+    "href": "/disclaimer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 529,
+    "y": 6080,
+    "w": 55,
+    "h": 14,
+    "text": "privacy",
+    "href": "/privacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 616,
+    "y": 6080,
+    "w": 58,
+    "h": 14,
+    "text": "cookies",
+    "href": "/cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 705,
+    "y": 6080,
+    "w": 99,
+    "h": 14,
+    "text": "voorwaarden",
+    "href": "/voorwaarden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 836,
+    "y": 6080,
+    "w": 64,
+    "h": 14,
+    "text": "garantie",
+    "href": "/klantenservice/apparaten/garantie-en-reparatie"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 176,
+    "controls": 94,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "netflix bij ziggo",
+   "variable": false,
+   "origin": {
+    "link": 10,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 10,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "daarom kijk je netflix via ziggo",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 5,
+    "image": 3
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "snel en simpel",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "dit kijk je met netflix",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "topseries en -films",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "bingewaardige series",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "kijk met het hele gezin",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "hoe kijk je netflix bij ziggo?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "netflix account",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "inloggen en kijken",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "open de netflix app",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "kies het abonnement dat bij jou past",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 24,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 24,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "veelgestelde vragen",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 8,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 8,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "ken je deze tv apps al?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "disney+",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "hbo max",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "viaplay",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "nog een vraag?",
+   "variable": true,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 7,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"start een chat\" served in band \"nog een vraag?\", no origin link or button",
+   "band": 18,
+   "n": 1,
+   "text": "start een chat"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 378,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 86,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 86,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 86,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 152,
+    "y": 268,
+    "w": 333,
+    "h": 59
+   },
+   {
+    "x": 180,
+    "y": 338,
+    "w": 155,
+    "h": 14
+   },
+   {
+    "x": 180,
+    "y": 362,
+    "w": 279,
+    "h": 14
+   },
+   {
+    "x": 180,
+    "y": 386,
+    "w": 208,
+    "h": 14
+   },
+   {
+    "x": 183,
+    "y": 436,
+    "w": 88,
+    "h": 14
+   },
+   {
+    "x": 346,
+    "y": 436,
+    "w": 157,
+    "h": 14
+   },
+   {
+    "x": 192,
+    "y": 700,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 700,
+    "w": 211,
+    "h": 13
+   },
+   {
+    "x": 505,
+    "y": 700,
+    "w": 42,
+    "h": 13
+   },
+   {
+    "x": 184,
+    "y": 782,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 333,
+    "y": 782,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 443,
+    "y": 782,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 568,
+    "y": 782,
+    "w": 91,
+    "h": 13
+   },
+   {
+    "x": 698,
+    "y": 782,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 863,
+    "w": 526,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 930,
+    "w": 511,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 959,
+    "w": 499,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 988,
+    "w": 550,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1016,
+    "w": 546,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1045,
+    "w": 19,
+    "h": 17
+   },
+   {
+    "x": 249,
+    "y": 1147,
+    "w": 222,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1174,
+    "w": 95,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1209,
+    "w": 184,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1235,
+    "w": 246,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1260,
+    "w": 242,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1286,
+    "w": 204,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1327,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1386,
+    "w": 248,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1413,
+    "w": 47,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1448,
+    "w": 198,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1474,
+    "w": 162,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1499,
+    "w": 137,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1566,
+    "w": 158,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1608,
+    "w": 226,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1634,
+    "w": 235,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1659,
+    "w": 162,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 1749,
+    "w": 346,
+    "h": 47
+   },
+   {
+    "x": 249,
+    "y": 1833,
+    "w": 205,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1875,
+    "w": 249,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1901,
+    "w": 235,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1927,
+    "w": 243,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1952,
+    "w": 247,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1978,
+    "w": 44,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1833,
+    "w": 236,
+    "h": 30
+   },
+   {
+    "x": 639,
+    "y": 1875,
+    "w": 230,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1901,
+    "w": 205,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1927,
+    "w": 210,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1952,
+    "w": 170,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1833,
+    "w": 242,
+    "h": 30
+   },
+   {
+    "x": 1028,
+    "y": 1875,
+    "w": 229,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1901,
+    "w": 194,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1927,
+    "w": 134,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2631,
+    "w": 464,
+    "h": 47
+   },
+   {
+    "x": 229,
+    "y": 2925,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 185,
+    "y": 2974,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 293,
+    "y": 2974,
+    "w": 143,
+    "h": 14
+   },
+   {
+    "x": 437,
+    "y": 2974,
+    "w": 40,
+    "h": 14
+   },
+   {
+    "x": 187,
+    "y": 3000,
+    "w": 287,
+    "h": 14
+   },
+   {
+    "x": 280,
+    "y": 3025,
+    "w": 102,
+    "h": 14
+   },
+   {
+    "x": 585,
+    "y": 2951,
+    "w": 270,
+    "h": 37
+   },
+   {
+    "x": 574,
+    "y": 3000,
+    "w": 292,
+    "h": 14
+   },
+   {
+    "x": 575,
+    "y": 3025,
+    "w": 290,
+    "h": 14
+   },
+   {
+    "x": 987,
+    "y": 2925,
+    "w": 244,
+    "h": 37
+   },
+   {
+    "x": 969,
+    "y": 2974,
+    "w": 281,
+    "h": 14
+   },
+   {
+    "x": 977,
+    "y": 3000,
+    "w": 265,
+    "h": 14
+   },
+   {
+    "x": 1087,
+    "y": 3025,
+    "w": 45,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 3171,
+    "w": 529,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 3214,
+    "w": 75,
+    "h": 47
+   },
+   {
+    "x": 184,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 184,
+    "y": 3373,
+    "w": 73,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3508,
+    "w": 81,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3608,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3708,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3808,
+    "w": 7,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3924,
+    "w": 7,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 4008,
+    "w": 60,
+    "h": 37
+   },
+   {
+    "x": 255,
+    "y": 4026,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4087,
+    "w": 141,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 574,
+    "y": 3373,
+    "w": 144,
+    "h": 37
+   },
+   {
+    "x": 574,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3508,
+    "w": 41,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3608,
+    "w": 110,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3708,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3808,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3924,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 4008,
+    "w": 73,
+    "h": 37
+   },
+   {
+    "x": 658,
+    "y": 4026,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 630,
+    "y": 4087,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 963,
+    "y": 3373,
+    "w": 123,
+    "h": 37
+   },
+   {
+    "x": 963,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3508,
+    "w": 89,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3608,
+    "w": 142,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3708,
+    "w": 127,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3808,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3924,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 4008,
+    "w": 79,
+    "h": 37
+   },
+   {
+    "x": 1052,
+    "y": 4026,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 1026,
+    "y": 4087,
+    "w": 167,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4237,
+    "w": 349,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 4327,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4384,
+    "w": 140,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4441,
+    "w": 250,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4498,
+    "w": 501,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4555,
+    "w": 201,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4612,
+    "w": 175,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4669,
+    "w": 444,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4726,
+    "w": 188,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4825,
+    "w": 397,
+    "h": 47
+   },
+   {
+    "x": 282,
+    "y": 4926,
+    "w": 70,
+    "h": 24
+   },
+   {
+    "x": 282,
+    "y": 4954,
+    "w": 155,
+    "h": 14
+   },
+   {
+    "x": 282,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 360,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 671,
+    "y": 4926,
+    "w": 83,
+    "h": 24
+   },
+   {
+    "x": 671,
+    "y": 4954,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 671,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 750,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 1060,
+    "y": 4926,
+    "w": 67,
+    "h": 24
+   },
+   {
+    "x": 1060,
+    "y": 4954,
+    "w": 161,
+    "h": 14
+   },
+   {
+    "x": 1060,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 1139,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 586,
+    "y": 5150,
+    "w": 268,
+    "h": 47
+   },
+   {
+    "x": 505,
+    "y": 5207,
+    "w": 431,
+    "h": 28
+   },
+   {
+    "x": 265,
+    "y": 5309,
+    "w": 37,
+    "h": 30
+   },
+   {
+    "x": 265,
+    "y": 5351,
+    "w": 167,
+    "h": 14
+   },
+   {
+    "x": 265,
+    "y": 5377,
+    "w": 148,
+    "h": 14
+   },
+   {
+    "x": 265,
+    "y": 5429,
+    "w": 120,
+    "h": 14
+   },
+   {
+    "x": 655,
+    "y": 5309,
+    "w": 51,
+    "h": 30
+   },
+   {
+    "x": 655,
+    "y": 5351,
+    "w": 192,
+    "h": 14
+   },
+   {
+    "x": 655,
+    "y": 5377,
+    "w": 142,
+    "h": 14
+   },
+   {
+    "x": 684,
+    "y": 5410,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 667,
+    "y": 5430,
+    "w": 188,
+    "h": 14
+   },
+   {
+    "x": 726,
+    "y": 5450,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5309,
+    "w": 76,
+    "h": 30
+   },
+   {
+    "x": 1044,
+    "y": 5351,
+    "w": 208,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5377,
+    "w": 83,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5429,
+    "w": 112,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 5599,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 5637,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5673,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5709,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5745,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5781,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5817,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 5599,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 5637,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5673,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5709,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5745,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5781,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5817,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5853,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5889,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5925,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 5599,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 5637,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5673,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5709,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5745,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5781,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5817,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5853,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 5599,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 5637,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5673,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5709,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5745,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5781,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5817,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5853,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5889,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5925,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5961,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 6025,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 6025,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 6025,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 6025,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 6025,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 6079,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 6079,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 6079,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 6079,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 6079,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 6079,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 6079,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 1385,
+    "y": 978,
+    "w": 15,
+    "h": 25
+   },
+   {
+    "x": 1101,
+    "y": 981,
+    "w": 231,
+    "h": 30
+   },
+   {
+    "x": 1101,
+    "y": 1032,
+    "w": 39,
+    "h": 13
+   },
+   {
+    "x": 1140,
+    "y": 1032,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1131,
+    "w": 59,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1230,
+    "w": 81,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1329,
+    "w": 102,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1428,
+    "w": 142,
+    "h": 13
+   },
+   {
+    "x": 1243,
+    "y": 1428,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1101,
+    "y": 1527,
+    "w": 168,
+    "h": 13
+   },
+   {
+    "x": 1269,
+    "y": 1527,
+    "w": 8,
+    "h": 13
+   },
+   {
+    "x": 1127,
+    "y": 1667,
+    "w": 97,
+    "h": 14
+   },
+   {
+    "x": 1101,
+    "y": 1729,
+    "w": 254,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1745,
+    "w": 198,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1761,
+    "w": 295,
+    "h": 9
+   },
+   {
+    "x": 1101,
+    "y": 1777,
+    "w": 70,
+    "h": 9
+   },
+   {
+    "x": 1171,
+    "y": 1777,
+    "w": 82,
+    "h": 9
+   },
+   {
+    "x": 1253,
+    "y": 1777,
+    "w": 3,
+    "h": 9
+   }
+  ],
+  "eds": [
+   {
+    "x": 286,
+    "y": 19,
+    "w": 32,
+    "h": 13
+   },
+   {
+    "x": 358,
+    "y": 19,
+    "w": 47,
+    "h": 13
+   },
+   {
+    "x": 252,
+    "y": 68,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 377,
+    "y": 68,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 535,
+    "y": 68,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 998,
+    "y": 90,
+    "w": 50,
+    "h": 10
+   },
+   {
+    "x": 1072,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1152,
+    "y": 90,
+    "w": 56,
+    "h": 10
+   },
+   {
+    "x": 1235,
+    "y": 90,
+    "w": 39,
+    "h": 10
+   },
+   {
+    "x": 152,
+    "y": 268,
+    "w": 333,
+    "h": 59
+   },
+   {
+    "x": 180,
+    "y": 338,
+    "w": 155,
+    "h": 14
+   },
+   {
+    "x": 180,
+    "y": 362,
+    "w": 279,
+    "h": 14
+   },
+   {
+    "x": 180,
+    "y": 386,
+    "w": 208,
+    "h": 14
+   },
+   {
+    "x": 183,
+    "y": 436,
+    "w": 88,
+    "h": 14
+   },
+   {
+    "x": 347,
+    "y": 436,
+    "w": 157,
+    "h": 14
+   },
+   {
+    "x": 192,
+    "y": 700,
+    "w": 54,
+    "h": 13
+   },
+   {
+    "x": 270,
+    "y": 700,
+    "w": 211,
+    "h": 13
+   },
+   {
+    "x": 505,
+    "y": 700,
+    "w": 42,
+    "h": 13
+   },
+   {
+    "x": 184,
+    "y": 782,
+    "w": 109,
+    "h": 13
+   },
+   {
+    "x": 333,
+    "y": 782,
+    "w": 71,
+    "h": 13
+   },
+   {
+    "x": 443,
+    "y": 782,
+    "w": 84,
+    "h": 13
+   },
+   {
+    "x": 568,
+    "y": 782,
+    "w": 91,
+    "h": 13
+   },
+   {
+    "x": 698,
+    "y": 782,
+    "w": 57,
+    "h": 13
+   },
+   {
+    "x": 152,
+    "y": 863,
+    "w": 526,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 930,
+    "w": 511,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 959,
+    "w": 499,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 988,
+    "w": 550,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1016,
+    "w": 546,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 1045,
+    "w": 19,
+    "h": 17
+   },
+   {
+    "x": 249,
+    "y": 1147,
+    "w": 222,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1174,
+    "w": 95,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1209,
+    "w": 184,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1235,
+    "w": 246,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1260,
+    "w": 242,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1286,
+    "w": 201,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1327,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1386,
+    "w": 248,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1413,
+    "w": 47,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1448,
+    "w": 198,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1474,
+    "w": 162,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1499,
+    "w": 137,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1566,
+    "w": 158,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1608,
+    "w": 226,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1634,
+    "w": 235,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1659,
+    "w": 162,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 1749,
+    "w": 346,
+    "h": 47
+   },
+   {
+    "x": 249,
+    "y": 1833,
+    "w": 205,
+    "h": 30
+   },
+   {
+    "x": 249,
+    "y": 1875,
+    "w": 249,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1901,
+    "w": 235,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1927,
+    "w": 243,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1952,
+    "w": 247,
+    "h": 14
+   },
+   {
+    "x": 249,
+    "y": 1978,
+    "w": 44,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1833,
+    "w": 236,
+    "h": 30
+   },
+   {
+    "x": 639,
+    "y": 1875,
+    "w": 230,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1901,
+    "w": 205,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1927,
+    "w": 210,
+    "h": 14
+   },
+   {
+    "x": 639,
+    "y": 1952,
+    "w": 170,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1833,
+    "w": 242,
+    "h": 30
+   },
+   {
+    "x": 1028,
+    "y": 1875,
+    "w": 229,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1901,
+    "w": 194,
+    "h": 14
+   },
+   {
+    "x": 1028,
+    "y": 1927,
+    "w": 134,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 2631,
+    "w": 464,
+    "h": 47
+   },
+   {
+    "x": 229,
+    "y": 2925,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 185,
+    "y": 2974,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 293,
+    "y": 2974,
+    "w": 143,
+    "h": 14
+   },
+   {
+    "x": 437,
+    "y": 2974,
+    "w": 40,
+    "h": 14
+   },
+   {
+    "x": 187,
+    "y": 3000,
+    "w": 287,
+    "h": 14
+   },
+   {
+    "x": 280,
+    "y": 3025,
+    "w": 102,
+    "h": 14
+   },
+   {
+    "x": 585,
+    "y": 2951,
+    "w": 270,
+    "h": 37
+   },
+   {
+    "x": 574,
+    "y": 3000,
+    "w": 292,
+    "h": 14
+   },
+   {
+    "x": 575,
+    "y": 3025,
+    "w": 290,
+    "h": 14
+   },
+   {
+    "x": 987,
+    "y": 2925,
+    "w": 244,
+    "h": 37
+   },
+   {
+    "x": 969,
+    "y": 2974,
+    "w": 281,
+    "h": 14
+   },
+   {
+    "x": 978,
+    "y": 3000,
+    "w": 262,
+    "h": 14
+   },
+   {
+    "x": 1087,
+    "y": 3025,
+    "w": 45,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 3171,
+    "w": 529,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 3214,
+    "w": 75,
+    "h": 47
+   },
+   {
+    "x": 184,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 184,
+    "y": 3373,
+    "w": 73,
+    "h": 37
+   },
+   {
+    "x": 184,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3508,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3608,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3708,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3808,
+    "w": 7,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 3924,
+    "w": 7,
+    "h": 14
+   },
+   {
+    "x": 184,
+    "y": 4008,
+    "w": 60,
+    "h": 37
+   },
+   {
+    "x": 244,
+    "y": 4026,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 4087,
+    "w": 141,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 574,
+    "y": 3373,
+    "w": 144,
+    "h": 37
+   },
+   {
+    "x": 574,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3508,
+    "w": 39,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3608,
+    "w": 110,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3708,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3808,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 3924,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 574,
+    "y": 4008,
+    "w": 73,
+    "h": 37
+   },
+   {
+    "x": 647,
+    "y": 4026,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 630,
+    "y": 4087,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3343,
+    "w": 69,
+    "h": 30
+   },
+   {
+    "x": 963,
+    "y": 3373,
+    "w": 123,
+    "h": 37
+   },
+   {
+    "x": 963,
+    "y": 3482,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3508,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3582,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3608,
+    "w": 142,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3682,
+    "w": 42,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3708,
+    "w": 127,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3783,
+    "w": 180,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3808,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3883,
+    "w": 196,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 3924,
+    "w": 9,
+    "h": 14
+   },
+   {
+    "x": 963,
+    "y": 4008,
+    "w": 79,
+    "h": 37
+   },
+   {
+    "x": 1042,
+    "y": 4026,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 1026,
+    "y": 4087,
+    "w": 167,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 4237,
+    "w": 349,
+    "h": 47
+   },
+   {
+    "x": 152,
+    "y": 4327,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4384,
+    "w": 140,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4441,
+    "w": 250,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4498,
+    "w": 501,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4555,
+    "w": 201,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4612,
+    "w": 175,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4669,
+    "w": 444,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4726,
+    "w": 188,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 4825,
+    "w": 397,
+    "h": 47
+   },
+   {
+    "x": 282,
+    "y": 4926,
+    "w": 70,
+    "h": 24
+   },
+   {
+    "x": 282,
+    "y": 4954,
+    "w": 155,
+    "h": 14
+   },
+   {
+    "x": 282,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 360,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 671,
+    "y": 4926,
+    "w": 83,
+    "h": 24
+   },
+   {
+    "x": 671,
+    "y": 4954,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 671,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 750,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 1060,
+    "y": 4926,
+    "w": 67,
+    "h": 24
+   },
+   {
+    "x": 1060,
+    "y": 4954,
+    "w": 161,
+    "h": 14
+   },
+   {
+    "x": 1060,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 1139,
+    "y": 4996,
+    "w": 66,
+    "h": 14
+   },
+   {
+    "x": 586,
+    "y": 5150,
+    "w": 268,
+    "h": 47
+   },
+   {
+    "x": 505,
+    "y": 5207,
+    "w": 431,
+    "h": 28
+   },
+   {
+    "x": 265,
+    "y": 5308,
+    "w": 37,
+    "h": 30
+   },
+   {
+    "x": 265,
+    "y": 5351,
+    "w": 167,
+    "h": 14
+   },
+   {
+    "x": 265,
+    "y": 5377,
+    "w": 148,
+    "h": 14
+   },
+   {
+    "x": 265,
+    "y": 5429,
+    "w": 120,
+    "h": 14
+   },
+   {
+    "x": 655,
+    "y": 5308,
+    "w": 51,
+    "h": 30
+   },
+   {
+    "x": 655,
+    "y": 5351,
+    "w": 192,
+    "h": 14
+   },
+   {
+    "x": 655,
+    "y": 5377,
+    "w": 139,
+    "h": 14
+   },
+   {
+    "x": 655,
+    "y": 5429,
+    "w": 105,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5308,
+    "w": 76,
+    "h": 30
+   },
+   {
+    "x": 1044,
+    "y": 5351,
+    "w": 208,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5377,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1044,
+    "y": 5429,
+    "w": 112,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 5599,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 172,
+    "y": 5637,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5673,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5709,
+    "w": 94,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5745,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5781,
+    "w": 61,
+    "h": 14
+   },
+   {
+    "x": 172,
+    "y": 5817,
+    "w": 144,
+    "h": 14
+   },
+   {
+    "x": 442,
+    "y": 5599,
+    "w": 61,
+    "h": 22
+   },
+   {
+    "x": 462,
+    "y": 5637,
+    "w": 57,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5673,
+    "w": 27,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5709,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5745,
+    "w": 72,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5781,
+    "w": 93,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5817,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5853,
+    "w": 135,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5889,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 462,
+    "y": 5925,
+    "w": 169,
+    "h": 14
+   },
+   {
+    "x": 732,
+    "y": 5599,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 752,
+    "y": 5637,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5673,
+    "w": 113,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5709,
+    "w": 86,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5745,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5781,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5817,
+    "w": 74,
+    "h": 14
+   },
+   {
+    "x": 752,
+    "y": 5853,
+    "w": 84,
+    "h": 14
+   },
+   {
+    "x": 1022,
+    "y": 5599,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 1042,
+    "y": 5637,
+    "w": 80,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5673,
+    "w": 95,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5709,
+    "w": 63,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5745,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5781,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5817,
+    "w": 151,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5853,
+    "w": 106,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5889,
+    "w": 87,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5925,
+    "w": 98,
+    "h": 14
+   },
+   {
+    "x": 1042,
+    "y": 5961,
+    "w": 154,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 6025,
+    "w": 76,
+    "h": 14
+   },
+   {
+    "x": 260,
+    "y": 6025,
+    "w": 109,
+    "h": 14
+   },
+   {
+    "x": 402,
+    "y": 6025,
+    "w": 108,
+    "h": 14
+   },
+   {
+    "x": 542,
+    "y": 6025,
+    "w": 73,
+    "h": 14
+   },
+   {
+    "x": 646,
+    "y": 6025,
+    "w": 75,
+    "h": 14
+   },
+   {
+    "x": 152,
+    "y": 6080,
+    "w": 79,
+    "h": 14
+   },
+   {
+    "x": 263,
+    "y": 6080,
+    "w": 123,
+    "h": 14
+   },
+   {
+    "x": 418,
+    "y": 6080,
+    "w": 78,
+    "h": 14
+   },
+   {
+    "x": 529,
+    "y": 6080,
+    "w": 55,
+    "h": 14
+   },
+   {
+    "x": 616,
+    "y": 6080,
+    "w": 58,
+    "h": 14
+   },
+   {
+    "x": 705,
+    "y": 6080,
+    "w": 99,
+    "h": 14
+   },
+   {
+    "x": 836,
+    "y": 6080,
+    "w": 64,
+    "h": 14
+   }
+  ]
+ }
+}

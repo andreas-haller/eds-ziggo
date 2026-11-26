@@ -1,0 +1,351 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T15:25:49.800Z",
+      "endedAt": "2026-11-25T16:20:56.561Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "index": "2.93% PASS",
+          "headerCrop": "98.15%",
+          "footerCrop": "98.57%"
+        },
+        "1440": {
+          "index": "14.49% aligned (body blocks → archetype-landing unit)",
+          "headerCrop": "99.51%",
+          "footerCrop": "99.10%"
+        },
+        "crop": "header/footer PASS both widths",
+        "chrome": "1440 quiet; 360 1 delta (logo icon filename signature ziggo-logo-orange-v1 vs .svg — accepted residual)"
+      },
+      "verdict": "foundation: styles+fonts+header+footer live, nav/footer/index published, lint clean, chrome-parity 1440 0 deltas / 360 1, blocks 10"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "televisie-voicecontrol"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T16:21:52.250Z",
+      "endedAt": "2026-11-25T16:55:15.837Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "televisie-voicecontrol": "0.57% Δh 0"
+        },
+        "1440": {
+          "televisie-voicecontrol": "0.94% Δh -1"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "4 accepted: source buttons carry duplicated mobile/desktop labels (content-diff missing-button, text present)"
+      },
+      "verdict": "archetype-article: televisie-voicecontrol live, blocks 7, gate 1440 0.94% / 360 0.57% (Δh -1/0 px), gate-all row PASS, rounds 3, residuals 4"
+    },
+    "archetype-channel": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "televisie-zenders-npo-1"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T17:22:17.000Z",
+      "endedAt": "2026-11-25T17:40:28.000Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "televisie-zenders-npo-1": "0.61% Δh 0"
+        },
+        "1440": {
+          "televisie-zenders-npo-1": "0.34% Δh -1"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "4 accepted: header/footer icon class (foundation request exists); share link texts sr-only vs aria-label; live chat status time-dependent; scripts.js title attr"
+      },
+      "verdict": "archetype-channel: npo-1 live, gate 1440 0.34% / 360 0.61% (Δh -1/0 px), gate-all row PASS (both widths), rounds 2/3 at 1440 and 1/3 at 360, residuals 4"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T16:21:52.250Z",
+      "endedAt": "2026-11-25T17:18:23.032Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "index": "2.73% Δh 0"
+        },
+        "1440": {
+          "index": "9.81% Δh 2"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "3 accepted: priority-band live video vs poster; swimming-lane auto-scroll logo snapshots; 1 broken live lane logo"
+      },
+      "verdict": "archetype-landing: index live, gate 1440 9.81 % / 360 2.73 % (Δh 2/0 px), gate-all row PASS, rounds 3/3, residuals 3"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "alles-in-1"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T17:22:17.000Z",
+      "endedAt": "2026-11-25T18:05:37.000Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "alles-in-1": "1.14% Δh 0"
+        },
+        "1440": {
+          "alles-in-1": "0.44% Δh -3"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "1 accepted: header/footer icon-font glyph classes (foundation request exists); footer 105px fixed order bar → foundation request + scoped override"
+      },
+      "verdict": "archetype-program: alles-in-1 live, gate 1440 0.44% / 360 1.14% (Δh -3/0 px), gate-all row PASS, rounds 3/3 (1440) and 2/3 (360), residuals 1"
+    },
+    "archetype-streaming": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T17:40:39.000Z",
+      "endedAt": "2026-11-25T18:37:13.000Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "televisie-extra-zenders-streamingdiensten-netflix": "0.77% Δh +3"
+        },
+        "1440": {
+          "televisie-extra-zenders-streamingdiensten-netflix": "0.15% Δh -1"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "5 accepted: live chat label session-variable; FAQ button source double label; empty interactions nav aria-label; 360 subnav toggle label; header/footer icon class (foundation request exists)"
+      },
+      "verdict": "archetype-streaming: netflix live, gate 1440 0.15% / 360 0.77% (Δh -1/+3 px), gate-all row PASS, rounds 3/3 at 1440 and 2/3 at 360, residuals 5"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "televisie-zenderoverzicht"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T18:50:04.000Z",
+      "endedAt": "2026-11-25T19:29:33.000Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "televisie-zenderoverzicht": "0.24% Δh 0"
+        },
+        "1440": {
+          "televisie-zenderoverzicht": "0.13% Δh -1"
+        },
+        "gateAll": "PASS both widths",
+        "residuals": "5 accepted: header/footer icon class (foundation request); header logo signature; empty Interacties nav label; hidden filter check icon; scripts.js link titles"
+      },
+      "verdict": "archetype-listing: zenderoverzicht live, gate 1440 0.13% / 360 0.24% (Δh -1/0 px), gate-all row PASS, rounds 2/3, residuals 5"
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "televisie-voicecontrol"
+      ],
+      "pages": 12,
+      "startedAt": "2026-11-25T21:06:25.720Z",
+      "resume": "article-1: 6 live, gate-all 1440 4/6, 360 1/6 (fail hoofdmenu, kijkprofielen, makkelijk-zoeken, online-tv-kijken, terugkijken) — 360 fix pass off gate-all band lines still needed. article-2: 6/6 deployed+published (head 4a112da); 1440 pub3 closed accept-residual (tv-apps pixel pass; 4k-uhd 9.53% Δh8, kabel 2.96% Δh30, radio 8.94% Δh93 (pic-size undo ungated), mediaboxen 4.27%, ziggo-go 10.00% Δh-191); 360 pub1 only (worst ziggo-go 27.5%), fixes 38556cd deployed ungated. Next: stardust/.work/rollout/probes/gate-chain.sh 360 pub2 <6 page names> via run-bg, ≤1 more round then rounds.mjs decide; gate-all --only all 12 article slugs at 1440+360; update-coverage. ~131 content-diff reds are header icons missing in frozen nav (foundation request not yet filed).",
+      "endedAt": "2026-11-26T02:17:54.356Z",
+      "gates": {
+        "360": {
+          "televisie-voicecontrol": "0.57% Δh0 PASS",
+          "televisie-hoofdmenu": "7.93% Δh-108 PASS",
+          "televisie-kijkprofielen": "11.84% Δh105 FAIL (accept-residual)",
+          "televisie-makkelijk-zoeken": "10.67% Δh-32 FAIL (accept-residual)",
+          "televisie-online-tv-kijken": "11.6% Δh353 FAIL (accept-residual)",
+          "televisie-terugkijken": "7.25% Δh-131 PASS",
+          "televisie-opnemen": "6.53% Δh139 PASS",
+          "televisie-4k-uhd": "7.71% Δh-89 PASS",
+          "televisie-digitale-kabel-tv-en-radio": "4.66% Δh67 PASS",
+          "televisie-digitale-radio": "5.19% Δh-46 PASS",
+          "televisie-mediaboxen": "8.54% Δh-63 PASS",
+          "televisie-ziggo-go": "15.61% Δh-133 FAIL (accept-residual; content MISSING 1 = 360 CTA label variant)",
+          "televisie-tv-apps": "7.82% Δh-152 PASS"
+        },
+        "1440": {
+          "televisie-voicecontrol": "0.95% Δh-1 PASS",
+          "televisie-hoofdmenu": "6.38% Δh-62 PASS",
+          "televisie-kijkprofielen": "14.05% Δh314 FAIL (accept-residual)",
+          "televisie-makkelijk-zoeken": "5.54% Δh94 PASS",
+          "televisie-online-tv-kijken": "11.53% Δh371 FAIL (accept-residual)",
+          "televisie-terugkijken": "7.07% Δh-175 PASS",
+          "televisie-opnemen": "9.49% Δh56 PASS",
+          "televisie-4k-uhd": "6.09% Δh154 PASS",
+          "televisie-digitale-kabel-tv-en-radio": "2.92% Δh30 PASS",
+          "televisie-digitale-radio": "8.96% Δh93 PASS",
+          "televisie-mediaboxen": "4.27% Δh9 PASS",
+          "televisie-ziggo-go": "9.83% Δh-191 PASS",
+          "televisie-tv-apps": "4.09% Δh-11 PASS"
+        },
+        "gateAll": "gate-all 1440 11/13 PASS (fail kijkprofielen 14.05%, online-tv-kijken 11.53% — both accept-residual from batch 1); 360 9/13 PASS (fail ziggo-go 15.61%, kijkprofielen 11.84%, online-tv-kijken 11.6%, makkelijk-zoeken 10.67% — accept-residual); clip 0 and content MISSING/HIDDEN 0 on every row except ziggo-go 360 (1 link: the #functies CTA renders its 1440 label); tables all-1440/runs/2026-11-26T02-14-22-922Z, all-360/runs/2026-11-26T02-06-59-642Z + 02-15-14-850Z (terugkijken)"
+      },
+      "residuals": [
+        "frozen chrome: 127 header + 4 footer MISSING ICON content-diff reds per page (icon-font spans without icon-* class) — foundation request filed (cluster-article line in foundation-requests.md)",
+        "ziggo-go 360 15.61%: mediabox plain card rhythm, banner copy/button styles, FAQ side layout; the intro CTA 'Over Ziggo GO' small-screen label (doc carries only 'Dit kan je met Ziggo GO') — gate-all content MISSING 1 (link present, label differs)",
+        "online-tv-kijken 360 11.6% / 1440 11.53% Δh371: info note box (bordered, left) rendered as centred copy; feature-cards carousel arrows at 360",
+        "kijkprofielen 360 11.84% / 1440 14.05% Δh314: duo inset halves + boxed mediabox rhythm",
+        "makkelijk-zoeken 360 10.67%: feature-cards light 32px offset band",
+        "4k-uhd/digitale-radio 1440 Δh 154/93 within 5%; strict gate.sh unaligned bound fails on block-model offsets (published regime)"
+      ]
+    },
+    "cluster-channel": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "televisie-zenders-npo-1"
+      ],
+      "pages": 6,
+      "startedAt": "2026-11-25T18:05:50.000Z",
+      "endedAt": "2026-11-25T18:49:55.000Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "televisie-zenders-sbs6": "1.04% Δh 0"
+        },
+        "1440": {
+          "televisie-zenders-sbs6": "1.35% (pre-fix; gate-all 1.05%)"
+        },
+        "gateAll": "6/6 PASS at 1440 and 360",
+        "residuals": "header/footer icon class (foundation request); header logo signature chrome delta; whatsapp: davids hit; interactions chat CTA disabled on source"
+      },
+      "verdict": "cluster-channel: pages 6/6 live, blocks 1, gate 1440 1.35% / 360 1.04% (sbs6), gate-all rows 6/6 PASS at 1440 and 6/6 at 360, requests 0"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-25T19:37:00.000Z",
+      "blocks": 17,
+      "gates": {
+        "360": {
+          "televisie-espn": "19.64%",
+          "televisie-ziggo-sport": "10.98% Δh 71",
+          "televisie-extra-zenders-streamingdiensten": "11.58% Δh 267"
+        },
+        "1440": {
+          "televisie-espn": "7.24%"
+        },
+        "gateAll": "gate-all 360 5/5 PASS (espn 3.68% Δh3, ziggo-sport 6.82% Δh-1, extra-zenders 4.80% Δh4, televisie 8.88%, internet 8.93%); 1440 5/5 PASS (televisie 2.44, extra-zenders 3.61, espn 7.1 Δh-9, ziggo-sport 3.8 Δh-11, internet 6.43 Δh36)"
+      },
+      "endedAt": "2026-11-26T01:07:14.856Z",
+      "residuals": "ESPN carousel card art per-breakpoint on ziggo-sport/extra-zenders; source contact bar dark at 360 (espn, extra-zenders); plan-cards equal-height few px; ziggo-sport live shows a new internet bar absent from the frozen reference"
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "alles-in-1"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-25T19:50:00.000Z",
+      "endedAt": "2026-11-25T21:05:53.946Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "televisie-kabel-tv": "1.34%"
+        },
+        "1440": {
+          "televisie-kabel-tv": "0.88%"
+        },
+        "gateAll": "3/3 PASS at 1440 and 360",
+        "residuals": "frozen header/footer menu-icon + logo signature (foundation request already filed); tv-internet interactions chat icon (availability-dependent label); kabel-tv 360 reference force-frozen (third-party Roboto flake)"
+      },
+      "verdict": "cluster-program: pages 3/3 live, blocks 5, gate 1440 0.88% / 360 1.34% (televisie-kabel-tv), gate-all rows 3/3 PASS at 1440 and 3/3 at 360, requests 0"
+    },
+    "cluster-streaming": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "televisie-extra-zenders-streamingdiensten-netflix"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-25T18:50:04.000Z",
+      "endedAt": "2026-11-25T19:57:02.211Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "televisie-extra-zenders-streamingdiensten-disneyplus": "3.27% pub4 (gate-all 2.38% after 7ae2f83), Δh -42 accept-residual"
+        },
+        "1440": {
+          "televisie-extra-zenders-streamingdiensten-disneyplus": "4.21% pub3, Δh 44 accept-residual"
+        },
+        "gateAll": "2/2 PASS at 1440 and 360",
+        "residuals": "Δh 42-44 px (48 px FAQ→apps step at 360); tab scroll buttons absent (tabs fit); header logo signature + title attrs (foundation request)"
+      },
+      "verdict": "cluster-streaming: pages 1/1 live, gate 1440 4.21% / 360 2.38% (disneyplus), gate-all rows 2/2 PASS at 1440 and 2/2 at 360, requests 1"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "televisie-voicecontrol",
+        "televisie-zenders-npo-1",
+        "index",
+        "alles-in-1",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-zenderoverzicht"
+      ],
+      "pages": 33,
+      "startedAt": "2026-11-26T02:20:21.842Z",
+      "endedAt": "2026-11-26T03:40:02.025Z",
+      "gates": {
+        "360": "33/33 PASS, worst internet 8.93% Δh 26 (televisie 8.88%, mediaboxen 8.54%, makkelijk-zoeken 8.49%)",
+        "1440": "33/33 PASS, worst index 9.81% Δh 2 (televisie-opnemen 9.49%, digitale-radio 8.96%)"
+      },
+      "residuals": [
+        "ziggo-go: the source carries the second hero CTA twice by orientation (landscape \"Dit kan je met Ziggo GO\", portrait \"Over Ziggo GO\", both in the captured source); authored as two labels with an orientation show/hide (media-text intro ctas dual) — content MISSING 0 at both widths",
+        "online-tv-kijken: card-footer arrow buttons (btn-textonly-light) and the duplicate Wifi Garantie button not modelled; info-note icon/close glyph not drawn — 1440 2.8%, 360 5.53% Δh 158",
+        "kijkprofielen: stack CTA chevron and boxed-banner lead wrap (5 vs 4 lines) not matched — 1440 0.86%, 360 2.21%",
+        "body text colour rgb(28,31,33) vs source rgb(0,0,0) on several bands is a foundation (styles.css) value — not changed (frozen)"
+      ],
+      "verdict": "gate-all: 33/33 PASS at 1440 and 360 on the published origin; kijkprofielen 14.05→0.86 / 11.84→2.21, online-tv-kijken 11.53→2.8 / 11.6→5.53, ziggo-go 9.83→5.86 / 15.61→4.56, makkelijk-zoeken 360 10.67→8.49; coverage 33/33 gate rows pass"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "index",
+        "alles-in-1",
+        "televisie-voicecontrol",
+        "televisie-zenders-npo-1",
+        "televisie-extra-zenders-streamingdiensten-netflix",
+        "televisie-zenderoverzicht"
+      ],
+      "pages": 33,
+      "startedAt": "2026-11-26T03:41:13.057Z",
+      "blocks": 23,
+      "endedAt": "2026-11-26T05:08:02.069Z",
+      "gates": {
+        "360": "archetypes 6/6 PASS (index 2.73%, others ≤1.14%); roster 33/33 PASS",
+        "1440": "archetypes 6/6 PASS (index 9.81%, others ≤0.95%); roster 33/33 PASS",
+        "wide": "wide 2560px: 4 page(s) over 10% or off in height — televisie-extra-zenders-streamingdiensten 19.43% Δh 797px, index 17.1% Δh 275px, internet 14.62% Δh 180px, televisie-espn 14.8% Δh 93px (report)"
+      },
+      "verdict": "final: foundation requests applied once (3 of 6; 2 kept scoped, 1 content-side not applied), re-frozen; archetype gate 6/6 at 1440+360; roster 33/33 PASS at 1440 and 360; wide 2560 report 27/33; coverage 33/33 gate rows pass"
+    }
+  }
+}

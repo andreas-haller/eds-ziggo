@@ -1,0 +1,270 @@
+{
+  "a": "stardust/replica/gates/televisie-kijkprofielen-360/live.png",
+  "b": "stardust/replica/gates/televisie-kijkprofielen-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 7166,
+    "mode": "overlap"
+  },
+  "heightDelta": 476,
+  "differingPixels": 1051684,
+  "pct": 40.77,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-kijkprofielen-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 57.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 42.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 30.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 36
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 28.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 31.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 13.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 36.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 42.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 39.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 85.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 93.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 31.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7166,
+      "pct": 2.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 24.59,
+    "differingPixels": 687228,
+    "compared": {
+      "width": 360,
+      "height": 7762,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 315,
+        "shift": 120,
+        "cumulative": 120
+      },
+      {
+        "y": 863,
+        "shift": -58,
+        "cumulative": 62
+      },
+      {
+        "y": 1607,
+        "shift": -82,
+        "cumulative": -20
+      },
+      {
+        "y": 1970,
+        "shift": -25,
+        "cumulative": -45
+      },
+      {
+        "y": 2205,
+        "shift": -67,
+        "cumulative": -112
+      },
+      {
+        "y": 2540,
+        "shift": -76,
+        "cumulative": -188
+      },
+      {
+        "y": 2938,
+        "shift": -42,
+        "cumulative": -230
+      },
+      {
+        "y": 4241,
+        "shift": -141,
+        "cumulative": -371
+      },
+      {
+        "y": 7244,
+        "shift": -10,
+        "cumulative": -381
+      },
+      {
+        "y": 7547,
+        "shift": -95,
+        "cumulative": -476
+      }
+    ],
+    "maxOffset": 476,
+    "totalShift": 716,
+    "insertedRows": 120,
+    "deletedRows": 596,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 49.2,
+        "unaligned": 57.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 32,
+        "unaligned": 42.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.6,
+        "unaligned": 30.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 23.7,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 16.8,
+        "unaligned": 36
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 28.5,
+        "unaligned": 28.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.1,
+        "unaligned": 31.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 18.6,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 36,
+        "unaligned": 36.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 4.8,
+        "unaligned": 42.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 9,
+        "unaligned": 39.1
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 26.9,
+        "unaligned": 85.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 59.8,
+        "unaligned": 93.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 25.2,
+        "unaligned": 31.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 9.6,
+        "unaligned": null
+      },
+      {
+        "y0": 7500,
+        "y1": 7642,
+        "pct": 67.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-kijkprofielen-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 76,
+    "totalShift": 716,
+    "pass": false
+  },
+  "reason": "pixel aligned 24.59% (unaligned 40.77%) > 10%"
+}

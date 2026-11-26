@@ -1,0 +1,292 @@
+{
+  "archetype": "https://www.ziggo.nl/televisie/zenders/npo-1",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".hero-container",
+    "card": "div.channel-info"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "vfz-interactions-wrapper",
+        "h": 0
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".hero-container",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 180
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "vodafone ziggo text 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 3,
+        "text": "NPO 1 De zender die verdiept"
+      },
+      "card": {
+        "sel": "div.channel-info",
+        "count": 0
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/sbs6",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "SBS6 Thuis op 6"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/rtl-4",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "RTL 4 De grootste en meest gevarieerde familiezender"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/npo-2",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "NPO 2 De zender die verdiept"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/npo-3",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "NPO 3 Vernieuwend en prikkelend"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/rtl-5",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "RTL 5 Spraakmakend entertainment"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ziggo.nl/televisie/zenders/star-channel",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "vfz-interactions-wrapper",
+            "h": 0
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".hero-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 180
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "vodafone ziggo text 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 ziggo headline 48.8px/53.68px 700 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "STAR Channel Dé nummer één seriezender"
+          },
+          "card": {
+            "sel": "div.channel-info",
+            "count": 0
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 6,
+    "varying": 0,
+    "probesVarying": []
+  }
+}

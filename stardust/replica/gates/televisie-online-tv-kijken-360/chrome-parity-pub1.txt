@@ -1,0 +1,15 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.ziggo.nl/televisie/online-tv-kijken
+  build: https://main--50ca44c6--aemcoder.aem.page/televisie/online-tv-kijken
+
+■ header: 1 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  region live:  header — outermost <header>, box 0,0 360×112; selector #vfz-app > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 360×112; selector body > header
+  ICON         "Ga naar de Ziggo homepage"  icon #0 near "Ga naar de Ziggo homepage": signature "ziggo-logo-orange-v1" → "ziggo-logo-orange-v1.svg"
+
+■ footer: ✓ parity — 48 paired of 48/48 texts, 5/5 icons
+  region live:  footer.page-footer — outermost <footer>, box 0,6392 360×1007; selector #vfz-app > footer
+  region build: footer.footer-wrapper — outermost <footer>, box 0,5803 360×1007; selector body > footer
+  advisory     REGION OFFSET: page Δy -589px (6392→5803) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✗ 1 delta(s), 1 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

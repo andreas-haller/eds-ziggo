@@ -1,0 +1,43 @@
+content-presence @ 360px (chrome) — origin https://www.ziggo.nl/ (docH 7474, 167 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/ (docH 7474, 172 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 8/8 | 0/0 | 3/3 | 1/1 | - |
+| 1 | daarom kies je ziggo | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 2 | het altijd alles netwerk | 1/2 | 0/0 | 0/0 | 1/2 | - |
+| 3 | alle snelheid | 2/2 | 2/2 | 1/2 | 0/0 | - |
+| 4 | altijd een abonnement dat bij je past | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | internet only | 1/1 | 3/0 | 5/8 | 0/0 | MISSING BUTTON |
+| 6 | internet & tv | 1/1 | 6/0 | 1/7 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 7 | alles-in-1 | 1/1 | 7/0 | 1/8 | 0/0 | MISSING BUTTON, COUNT TEXT |
+| 8 | one van vodafone & ziggo | 1/1 | 0/0 | 4/4 | 3/4 | - |
+| 9 | altijd het beste entertainment voor jou | 5/5 (+5) | 3/3 | 3/3 | 5/6 | EXTRA LINK, COUNT TEXT, COUNT IMAGES |
+| 10 | priority van ziggo | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | hoe langer je blijft, hoe meer extra’s j | 2/2 (+1) | 0/0 | 0/0 | 1/1 | - |
+| 12 | exclusieve winacties | 0/0 | 2/2 | 0/0 | 0/0 | - |
+  🟠 MISSING BUTTON: "tot 8 gbit/s download" in band "internet only" (origin y 1998) not on the served page
+  🟠 MISSING BUTTON: "safe online modem en extra" in band "internet only" (origin y 2038) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet only" (origin y 2078) not on the served page
+  🟠 MISSING BUTTON: "tot 8 gbit/s download" in band "internet & tv" (origin y 2500) not on the served page
+  🟠 MISSING BUTTON: "safe online modem en extra" in band "internet & tv" (origin y 2540) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "internet & tv" (origin y 2580) not on the served page
+  🟠 MISSING BUTTON: "alle espn-zenders en ziggo sport" in band "internet & tv" (origin y 2620) not on the served page
+  🟠 MISSING BUTTON: "uefa europees voetbal" in band "internet & tv" (origin y 2684) not on the served page
+  🟠 MISSING BUTTON: "tot 110+ zenders" in band "internet & tv" (origin y 2724) not on the served page
+  🟠 MISSING BUTTON: "tot 8 gbit/s download" in band "alles-in-1" (origin y 2966) not on the served page
+  🟠 MISSING BUTTON: "safe online modem en extra" in band "alles-in-1" (origin y 3006) not on the served page
+  🟠 MISSING BUTTON: "wifi garantie" in band "alles-in-1" (origin y 3046) not on the served page
+  🟠 MISSING BUTTON: "alle espn-zenders en ziggo sport" in band "alles-in-1" (origin y 3086) not on the served page
+  🟠 MISSING BUTTON: "uefa europees voetbal" in band "alles-in-1" (origin y 3150) not on the served page
+  🟠 MISSING BUTTON: "tot 110+ zenders" in band "alles-in-1" (origin y 3190) not on the served page
+  🟠 MISSING BUTTON: "voordelig vast bellen" in band "alles-in-1" (origin y 3230) not on the served page
+  🟡 EXTRA HEADING: served h3 "wifi die werkt" (y 1468) has no origin heading
+  🟡 COUNT TEXT: band "internet & tv": 1 origin → 7 served visible
+  🟡 COUNT TEXT: band "alles-in-1": 1 origin → 8 served visible
+  🟡 EXTRA LINK: "espn bij ziggo" served in band "altijd het beste entertainment voor jou", no origin link or button
+  🟡 COUNT TEXT: band "altijd het beste entertainment voor jou": 3 origin → 3 served visible (+3 clipped away)
+  🟡 COUNT IMAGES: band "altijd het beste entertainment voor jou": 5 origin → 6 served visible (+4 clipped away)
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 16 hidden 0 / moved 0 extra 1 / count deltas 4
+Findings: 22 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/index-360/content-presence-pub3.json

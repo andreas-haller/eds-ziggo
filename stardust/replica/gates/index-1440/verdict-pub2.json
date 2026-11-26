@@ -1,0 +1,76 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/index-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/index-1440/pixel-pub2.json",
+    "pct": 15.76,
+    "alignedPct": 14.49,
+    "alignedUsed": true,
+    "totalShift": 4,
+    "steps": [
+      {
+        "y": 957,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 5351,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 5411,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 5969,
+        "shift": 1,
+        "cumulative": -2
+      }
+    ],
+    "offsetBound": 61,
+    "maskedRows": 396,
+    "noiseFloor": 3.5,
+    "reason": "pixel aligned 14.49% (unaligned 15.76%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T10:48:41.560Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "3852:396"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-1440/units-pub2.txt"
+    }
+  },
+  "structural": 494,
+  "nothingLost": 22,
+  "at": "2026-11-25T16:25:20.933Z"
+}

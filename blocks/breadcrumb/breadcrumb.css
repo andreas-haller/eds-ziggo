@@ -1,0 +1,135 @@
+/* breadcrumb (source breadcrumb-v2) */
+.breadcrumb .crumbs-wrap {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 2rem var(--container-pad) 0;
+  background: #fff;
+}
+
+.breadcrumb .crumbs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: calc(100% + var(--container-pad));
+  height: 44px;
+  padding-right: var(--container-pad);
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.breadcrumb .crumbs-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.breadcrumb .crumbs-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.breadcrumb .crumbs-item:first-child {
+  position: absolute;
+  left: 0;
+  padding-right: 0.25rem;
+}
+
+.breadcrumb .crumbs-item:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.breadcrumb .crumbs-item:last-child {
+  margin-right: var(--container-pad);
+}
+
+.breadcrumb .crumbs-item:not(:first-child)::before {
+  content: "+";
+  display: inline-block;
+  margin: 0 0.25rem;
+  color: var(--color-gray-900);
+  font-family: var(--icon-font);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.breadcrumb .crumbs-item a:any-link {
+  display: flex;
+  color: var(--color-gray-900);
+}
+
+.breadcrumb .crumbs-item a:hover {
+  color: var(--color-tertiary);
+}
+
+.breadcrumb .crumbs-link:hover {
+  text-decoration: underline;
+}
+
+/* home: the authored text is the accessible name; the glyph paints in its place */
+.breadcrumb .crumbs-home:any-link {
+  font-size: 0;
+}
+
+.breadcrumb .crumbs-glyph {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.breadcrumb .crumbs-glyph::before {
+  content: "=";
+}
+
+.breadcrumb .crumbs-current {
+  color: var(--color-secondary);
+}
+
+/* ==== BEGIN breadcrumb (light) variant — owned by archetype-streaming; scoped to .breadcrumb.light:
+   the trail on a full-width gray band (source .sd-light .sd-crumbs-wrap) ==== */
+.breadcrumb.light {
+  background: var(--color-gray-100);
+}
+
+.breadcrumb.light .crumbs-wrap {
+  padding-bottom: 2rem;
+  background: transparent;
+}
+
+/* ==== END breadcrumb (light) variant ==== */
+
+/* ==== BEGIN breadcrumb (tall) variant — owned by cluster-landing: the trail with the source's
+   larger top space under a hero (ziggo-sport, 124px band at 1440) ==== */
+.breadcrumb.tall .crumbs-wrap {
+  padding-top: 64px;
+}
+
+@media (width >= 1024px) {
+  .breadcrumb.tall .crumbs-wrap {
+    padding-top: 80px;
+  }
+}
+
+/* ==== END breadcrumb (tall) variant ==== */
+
+/* close: the trail tight under the hero (source mediaboxen: 20px below the header band) —
+   cluster-article */
+.breadcrumb.close .crumbs-wrap {
+  padding-top: 0;
+}
+
+/* ==== breadcrumb (xxl) — gate-all: the crumbs in a cell carrying vfz-spacing-top--xxl over the
+   row's own 2rem (64px, 80px from 1024px; live kijkprofielen crumbs 107px @360, 124px @1440 under
+   the sub navigation) ==== */
+.breadcrumb.xxl .crumbs-wrap {
+  padding-top: calc(2rem + 64px);
+}
+
+@media (width >= 1024px) {
+  .breadcrumb.xxl .crumbs-wrap {
+    padding-top: calc(2rem + 80px);
+  }
+}

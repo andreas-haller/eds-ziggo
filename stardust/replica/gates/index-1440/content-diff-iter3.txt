@@ -1,0 +1,295 @@
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 258 text nodes — 18 headings, 0 eyebrows, 144 CTAs, 96 body; 240 img
+  build: 261 text nodes — 18 headings, 0 eyebrows, 144 CTAs, 99 body; 232 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 17 / build 13; icons: source 277 / build 279
+  accepted (invisible, nothing lost): 3 SAME IMAGE — "Ziggo_48x48 ↔ Ziggo_48x48.svg", "Vodafone_48x48 ↔ Vodafone_48x48.svg", "DoubleData_48x48 ↔ DoubleData_48x48.svg"
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 293 text nodes — 0 headings, 0 eyebrows, 235 CTAs, 58 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 17
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 249
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 272 (4 structural 🔴)
+Tiers: looks-same 🔴 4 · nothing-lost 🟡 6 · accepted 🟢 5 (owner 2, auto 3) · advisory 262
+  🔴 ROLE SWAP [header]: "Open" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Mijn Ziggo" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "menu" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Zoeken" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🟠 EXTRA [header]: build cta "Internet & TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Klantenservice" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Storing" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Entertainment Gids" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Alles-in-1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Televisie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Vast Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overstappen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Internet" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi Garantie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SmartWifi" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Installatie zoals jij wil" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internetbeveiliging" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifiboosters" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Speedtest" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Televisie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pakket samenstellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Zenderoverzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Streamingdiensten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo GO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mediaboxen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra tv in huis" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ESPN" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "UEFA Europees voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Movies & Series" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "4K TV" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Over Vast Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Volop Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra telefoonlijn" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tarieven" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nummerbehoud" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders & streaming" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra tv in huis" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifiboosters" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internetbeveiliging" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Volop Bellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra telefoonlijn" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Vodafone mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sim Only" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Telefoons" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Internet & Mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "One van Vodafone & Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "hollandsnieuwe mobiel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bellen aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Gegevens wijzigen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bestelling" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Verhuizen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Opzeggen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mijn Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Factuur uitleg" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betalingsmogelijkheden" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betaalachterstand" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Dagpas bestellen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Hulp met je streamingdiensten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV storingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TV instellingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Zenderoverzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi aansluiten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Problemen oplossen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wifi-tips" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Veiligheid" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "E-mail" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Installeren" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Storingen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Online gaming tips voor consoles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Port forwarding" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Entertainment bij Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Extra zenders & streaming" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo GO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Netflix & Ziggo Sport Totaal bundel" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SkyShowtime" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo Sport Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Alle sport bij Ziggo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "UEFA Europees voetbal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Voetbal Match Center" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Formule 1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Overzicht" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Winacties" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Evenementen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Deals & uitjes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Cadeaus" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Upgrade je ticket" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ziggo GO" has no source source — Unexpected node with no source.
+  🟡 MISSING SR-ONLY TEXT [#main-content]: source body "Afspelen hervatten" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 EXTRA [#main-content]: build body "Pauzeren" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Video afspelen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Laat vorige zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Laat volgende zien" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <section> aria-label="Entertainment" has no build <section> with that aria-label (build <section> aria-labels: "Carousel", "Carousel"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="1 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="2 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="3 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="4 van 4" has no build <li> with that aria-label (build <li> aria-labels: "1 van 4", "2 van 4", "3 van 4"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <section> aria-label="Carousel" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [#main-content]: source image 1080x740_hero-60-device_ziggoprimary(1) (20×14) at "onze grootste black friday ooit stap nu " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [#main-content]: source icon-font glyph / (ziggo-ui-icon-v22, 16×16) at "afspelen hervatten" is at "video afspelen" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph U+E982 (ziggo-ui-icon-v22, 20×20) at "pauzeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph , (ziggo-ui-icon-v22, 20×20) at "laat vorige zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph + (ziggo-ui-icon-v22, 20×20) at "laat volgende zien" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Direct naar" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Producten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Pakketten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Internet" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Televisie" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vast Bellen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Extra Diensten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Mobiel" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Klantenservice" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Installeren" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Abonnement" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Factuur" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Televisie & Radio" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Internet & Wifi" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "E-mail" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vast Bellen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Gamen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Entertainment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ontdek" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "TV & Streaming" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ziggo Sport" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Priority Acties" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "pakketten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alles-in-1" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & tv" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overstappen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over internet" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi garantie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "smartwifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installatie zoals jij wil" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "speedtest" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over televisie" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "pakket samenstellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "streamingdiensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mediaboxen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "espn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "movies & series" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "4k tv" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "over vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tarieven" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "nummerbehoud" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "extra diensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra tv in huis" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifiboosters" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internetbeveiliging" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "volop bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra telefoonlijn" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "vodafone mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sim only" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "telefoons" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "internet & mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "one van vodafone & ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hollandsnieuwe mobiel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "installeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bellen aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "abonnement" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "gegevens wijzigen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "bestelling" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "verhuizen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "opzeggen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "factuur" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "mijn ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "factuur uitleg" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betalingsmogelijkheden" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "betaalachterstand" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "televisie & radio" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "dagpas bestellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "hulp met je streamingdiensten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv storingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "tv instellingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "zenderoverzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "internet & wifi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi aansluiten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "problemen oplossen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "wifi-tips" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "veiligheid" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "vast bellen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "installeren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "storingen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "gamen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "online gaming tips voor consoles" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "port forwarding" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ontdek" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "entertainment bij ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "tv & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "extra zenders & streaming" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "netflix & ziggo sport totaal bundel" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "skyshowtime" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "ziggo sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "ziggo sport overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "alle sport bij ziggo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "uefa europees voetbal" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "voetbal match center" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "formule 1" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "priority acties" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "overzicht" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "winacties" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "evenementen" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "sport" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "deals & uitjes" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "cadeaus" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph ' (ziggo-ui-icon-v22, 0×0) at "upgrade je ticket" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph $ (ziggo-ui-icon-v22, 0×0) at "ziggo go" has no source source. Build-only icon — confirm it is intended.
+  🟢 ICON DIFF [#main-content] accepted (stardust/replica/accepted.json): live lane card 'Lupin | seizoen 4' carries an empty logo src that resolves to the page URL (www.ziggo.nl); the build's empty src resolves to its own page URL — same empty image, different base URL
+  🟢 ICON DIFF [#main-content] accepted (stardust/replica/accepted.json): live lane card 'Lupin | seizoen 4' carries an empty logo src that resolves to the page URL (www.ziggo.nl); the build's empty src resolves to its own page URL — same empty image, different base URL

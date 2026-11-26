@@ -1,0 +1,289 @@
+{
+  "a": "stardust/replica/gates/televisie-makkelijk-zoeken-360/live.png",
+  "b": "stardust/replica/gates/televisie-makkelijk-zoeken-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 7224,
+    "mode": "overlap"
+  },
+  "heightDelta": 171,
+  "differingPixels": 887180,
+  "pct": 34.11,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-makkelijk-zoeken-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 38.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 43.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 51.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 48.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 10.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 71.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 73.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 68.9
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 28.5
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 37.6
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 8.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7224,
+      "pct": 2.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 10.09,
+    "differingPixels": 270112,
+    "compared": {
+      "width": 360,
+      "height": 7433,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 875,
+        "shift": -98,
+        "cumulative": -98
+      },
+      {
+        "y": 1609,
+        "shift": -11,
+        "cumulative": -109
+      },
+      {
+        "y": 2025,
+        "shift": -39,
+        "cumulative": -148
+      },
+      {
+        "y": 2373,
+        "shift": 8,
+        "cumulative": -140
+      },
+      {
+        "y": 2642,
+        "shift": 13,
+        "cumulative": -127
+      },
+      {
+        "y": 3030,
+        "shift": 1,
+        "cumulative": -126
+      },
+      {
+        "y": 3054,
+        "shift": 1,
+        "cumulative": -125
+      },
+      {
+        "y": 3078,
+        "shift": 2,
+        "cumulative": -123
+      },
+      {
+        "y": 3102,
+        "shift": 2,
+        "cumulative": -121
+      },
+      {
+        "y": 3150,
+        "shift": 3,
+        "cumulative": -118
+      },
+      {
+        "y": 3174,
+        "shift": 1,
+        "cumulative": -117
+      },
+      {
+        "y": 4069,
+        "shift": 6,
+        "cumulative": -111
+      },
+      {
+        "y": 5957,
+        "shift": -36,
+        "cumulative": -147
+      },
+      {
+        "y": 6385,
+        "shift": -25,
+        "cumulative": -172
+      },
+      {
+        "y": 6954,
+        "shift": 1,
+        "cumulative": -171
+      }
+    ],
+    "maxOffset": 172,
+    "totalShift": 247,
+    "insertedRows": 38,
+    "deletedRows": 209,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 20.9,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.9,
+        "unaligned": 38.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6,
+        "unaligned": 43.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 11.6,
+        "unaligned": 51.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 6.7,
+        "unaligned": 48.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.3,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4.2,
+        "unaligned": 10.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 13.2,
+        "unaligned": 71.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 9.3,
+        "unaligned": 73.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 48.3,
+        "unaligned": 68.9
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 8.5,
+        "unaligned": 28.5
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 9.2,
+        "unaligned": 37.6
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7395,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-makkelijk-zoeken-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 74,
+    "totalShift": 247,
+    "pass": false
+  },
+  "reason": "pixel aligned 10.09% (unaligned 34.11%) > 10%"
+}

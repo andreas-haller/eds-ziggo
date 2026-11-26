@@ -1,0 +1,262 @@
+{
+  "a": "stardust/replica/gates/televisie-opnemen-360/live.png",
+  "b": "stardust/replica/gates/televisie-opnemen-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 6013,
+    "mode": "overlap"
+  },
+  "heightDelta": 416,
+  "differingPixels": 928550,
+  "pct": 42.9,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-opnemen-360/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 47.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 40
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 49.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 55.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 11.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 54.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 56.1
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 91.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 78.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 6.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6013,
+      "pct": 25.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 14.28,
+    "differingPixels": 333586,
+    "compared": {
+      "width": 360,
+      "height": 6490,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 112,
+        "shift": 53,
+        "cumulative": 53
+      },
+      {
+        "y": 414,
+        "shift": -29,
+        "cumulative": 24
+      },
+      {
+        "y": 933,
+        "shift": -59,
+        "cumulative": -35
+      },
+      {
+        "y": 1032,
+        "shift": -24,
+        "cumulative": -59
+      },
+      {
+        "y": 1312,
+        "shift": -50,
+        "cumulative": -109
+      },
+      {
+        "y": 1613,
+        "shift": -41,
+        "cumulative": -150
+      },
+      {
+        "y": 2125,
+        "shift": -67,
+        "cumulative": -217
+      },
+      {
+        "y": 2866,
+        "shift": -100,
+        "cumulative": -317
+      },
+      {
+        "y": 3528,
+        "shift": -24,
+        "cumulative": -341
+      },
+      {
+        "y": 4674,
+        "shift": -24,
+        "cumulative": -365
+      },
+      {
+        "y": 5423,
+        "shift": 8,
+        "cumulative": -357
+      },
+      {
+        "y": 6030,
+        "shift": -11,
+        "cumulative": -368
+      },
+      {
+        "y": 6349,
+        "shift": -32,
+        "cumulative": -400
+      },
+      {
+        "y": 6413,
+        "shift": -16,
+        "cumulative": -416
+      }
+    ],
+    "maxOffset": 416,
+    "totalShift": 538,
+    "insertedRows": 61,
+    "deletedRows": 477,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 16.5,
+        "unaligned": 47.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 15.5,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 18.3,
+        "unaligned": 40
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 11.9,
+        "unaligned": 49.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 17.2,
+        "unaligned": 55.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 24.8,
+        "unaligned": 11.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 9.6,
+        "unaligned": 19.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 9.1,
+        "unaligned": 54.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 6.9,
+        "unaligned": 56.1
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 8.5,
+        "unaligned": 91.2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 24,
+        "unaligned": 78.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 6.3,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 6000,
+        "y1": 6429,
+        "pct": 17.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-opnemen-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 64,
+    "totalShift": 538,
+    "pass": false
+  },
+  "reason": "pixel aligned 14.28% (unaligned 42.9%) > 10%"
+}

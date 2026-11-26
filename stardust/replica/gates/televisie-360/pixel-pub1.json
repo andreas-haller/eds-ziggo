@@ -1,0 +1,434 @@
+{
+  "a": "stardust/replica/gates/televisie-360/live.png",
+  "b": "stardust/replica/gates/televisie-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 14079,
+    "mode": "overlap"
+  },
+  "heightDelta": -58,
+  "differingPixels": 981191,
+  "pct": 19.55,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/televisie-360/diff-pub1.png",
+  "masks": [
+    {
+      "yA": 7212,
+      "h": 136,
+      "yB": 7212
+    }
+  ],
+  "maskedRows": 136,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 12.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 43.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 34.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 41.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 17.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 2.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 12.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 23.8
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 6.9
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 6
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 12.1
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 8.6
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 13.1
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 50.5
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 60.3
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 57.6
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 20.2
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 9.3
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 16.6
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 7.7
+    },
+    {
+      "y0": 14000,
+      "y1": 14079,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.72,
+    "differingPixels": 440332,
+    "compared": {
+      "width": 360,
+      "height": 14022,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1192,
+        "shift": -13,
+        "cumulative": -13
+      },
+      {
+        "y": 5082,
+        "shift": 13,
+        "cumulative": 0
+      },
+      {
+        "y": 5558,
+        "shift": 6,
+        "cumulative": 6
+      },
+      {
+        "y": 7206,
+        "shift": -14,
+        "cumulative": -8
+      },
+      {
+        "y": 7810,
+        "shift": -1,
+        "cumulative": -9
+      },
+      {
+        "y": 8483,
+        "shift": 17,
+        "cumulative": 8
+      },
+      {
+        "y": 8917,
+        "shift": 11,
+        "cumulative": 19
+      },
+      {
+        "y": 9168,
+        "shift": 8,
+        "cumulative": 27
+      },
+      {
+        "y": 9974,
+        "shift": 30,
+        "cumulative": 57
+      },
+      {
+        "y": 12439,
+        "shift": 1,
+        "cumulative": 58
+      },
+      {
+        "y": 13094,
+        "shift": -1,
+        "cumulative": 57
+      },
+      {
+        "y": 13638,
+        "shift": 1,
+        "cumulative": 58
+      }
+    ],
+    "maxOffset": 58,
+    "totalShift": 116,
+    "insertedRows": 87,
+    "deletedRows": 29,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 12.4,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 6.8,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.9,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 34.1,
+        "unaligned": 43.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.7,
+        "unaligned": 34.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.4,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 30.6,
+        "unaligned": 41.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 4,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.5,
+        "unaligned": 17.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 11,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 7.4,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 2.4,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 2.9,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 20.8,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 1.2,
+        "unaligned": 23.8
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 4.7,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 3.4,
+        "unaligned": 6
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 3.6,
+        "unaligned": 12.1
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 10.3,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 1.2,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 11.5,
+        "unaligned": 50.5
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 19.2,
+        "unaligned": 60.3
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 37.1,
+        "unaligned": 57.6
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 0.4,
+        "unaligned": 20.2
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 0,
+        "unaligned": 9.3
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 0.2,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 0.2,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 14000,
+        "y1": 14079,
+        "pct": 0,
+        "unaligned": 1.8
+      }
+    ],
+    "diff": "stardust/replica/gates/televisie-360/diff-pub1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 141,
+    "totalShift": 116,
+    "pass": true
+  },
+  "reason": null
+}

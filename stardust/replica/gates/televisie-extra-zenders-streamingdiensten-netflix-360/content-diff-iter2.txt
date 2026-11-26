@@ -1,0 +1,28 @@
+
+Content diff @ 360px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 174 text nodes — 18 headings, 1 eyebrows, 31 CTAs, 124 body; 17 img
+  build: 174 text nodes — 18 headings, 1 eyebrows, 31 CTAs, 124 body; 17 img
+  editable texts (outermost h*/p/ul/ol): source 84 / build 84
+  attributes (placeholder/aria-label/title): source 10 / build 10; icons: source 19 / build 18
+  accepted (invisible, nothing lost): 7 SAME IMAGE — "settings_sliders-1 ↔ settings_sliders-1.svg", "media_tv-apps-1 ↔ media_tv-apps-1.svg", "media_remote-1 ↔ media_remote-1.svg", "media_camera-studio-1 ↔ media_camera-studio-1.svg" …
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 5 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 9 (owner 2, auto 7) · advisory 5
+  🟠 EXTRA [#main-content]: build cta "We zijn momenteel in gesprek, probeer het later " has no source source — Unexpected node with no source.
+  🟡 ICON MOVED [#main-content]: source image messaging_message-multiple-1 (53×53) at "chat stel direct je vraag aan een van on" is at "chat stel direct je vraag aan een van on" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.
+  🟢 MISSING CTA [#main-content] accepted (stardust/replica/accepted.json): capture state (host-bound chat availability): the extract and the frozen pixel reference captured the contact band's chat button in its busy state ("We zijn momenteel in gesprek, probeer het later nog eens.", disabled, #start-pre-chat); when agents are free the live page hydrates it to "Start een chat" + chevron. Replicated as captured (dynamic-features: chat is host-bound).
+  🟢 MISSING ICON [#main-content] accepted (stardust/replica/accepted.json): capture state (host-bound chat availability): the extract and the frozen pixel reference captured the contact band's chat button in its busy state ("We zijn momenteel in gesprek, probeer het later nog eens.", disabled, #start-pre-chat); when agents are free the live page hydrates it to "Start een chat" + chevron. Replicated as captured (dynamic-features: chat is host-bound).

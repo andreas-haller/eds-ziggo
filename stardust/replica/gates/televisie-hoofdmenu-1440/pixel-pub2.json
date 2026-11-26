@@ -1,0 +1,108 @@
+{
+  "a": "stardust/replica/gates/televisie-hoofdmenu-1440/live.png",
+  "b": "stardust/replica/gates/televisie-hoofdmenu-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 2374,
+    "mode": "overlap"
+  },
+  "heightDelta": -678,
+  "differingPixels": 1284523,
+  "pct": 37.57,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-hoofdmenu-1440/diff-pub2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 43.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 58.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2374,
+      "pct": 82.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 37.57,
+    "differingPixels": 1284523,
+    "compared": {
+      "width": 1440,
+      "height": 2374,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5.9,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.8,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 43.5,
+        "unaligned": 43.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 58.5,
+        "unaligned": 58.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2374,
+        "pct": 82.6,
+        "unaligned": 82.6
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 43.79,
+      "steps": 2,
+      "totalShift": 678
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 37.57% > 10%"
+}

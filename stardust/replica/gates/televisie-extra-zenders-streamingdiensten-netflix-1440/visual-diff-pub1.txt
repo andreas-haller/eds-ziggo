@@ -1,0 +1,823 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 393 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/vdiff-pub1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5513,
+  "textLen": 3160,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x463_header20_Ziggo_B2C_Netflix_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=20",
+    "natural": "20x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "settings_sliders-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_tv-apps-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_remote-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_TV-UI_Netflix_2025_Q4?fmt=webp-alpha&qlt=85,0&bfc=off&wid=742&fit=constrain",
+    "natural": "649x365",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_camera-studio-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "food-drinks_popcorn-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "user_users-3.svg",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_Ziggo_B2C_mijnZiggo_mockup_2025_Q4%20%281%29?qlt=80,0&dpr=off&wid=562&fit=constrain",
+    "natural": "357x201",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_netflix_app_long?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "357x201",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_netflix_inloggen_long?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "357x201",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_disney-plus-logo-1?fmt=svg",
+    "natural": "200x300",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "HBO_Black_Gradient_Logo_200x300_V3?fmt=svg",
+    "natural": "200x300",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "200x300_viaplay-logo?fmt=svg",
+    "natural": "100x150",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "connection_phone-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "messaging_message-multiple-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "buildings_shop-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=cfc43063-25d2-4f2b-bccc-d634a8a06f9d&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Netflix%20kijken%20op%20je%20Mediabox%20%7C%20Ziggo&p=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fnetflix&r=&lt=29226&evt=pageLoad&sv=2&asc=G&cdb=AQED&rn=564803",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Ftelevisie%2Fextra-zenders-streamingdiensten%2Fnetflix&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Netflix bij Ziggo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Daarom kijk je Netflix via Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Snel en simpel",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Dit kijk je met Netflix",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Topseries en -films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bingewaardige series",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kijk met het hele gezin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Hoe kijk je Netflix bij Ziggo?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Netflix account",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Open de Netflix app",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Inloggen en kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies het abonnement dat bij jou ",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ken je deze TV apps al?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nog een vraag?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Bekijk categorieën",
+    "color": "rgb(28, 31, 33)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "row",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5566,
+  "textLen": 3242,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17caa6294ece8b5a07c10a58d1aaca7df521214fb.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x463",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_123be9148e3f61bbd22b94ecf99f28a5e6a21c216.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1596x540",
+    "rendered": "1440x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17ab5932eddc96c96c33967badbf12f19d61edc88.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1da4b4a41813fe094878e4e802db3603eb4131abf.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_186aea7f78d2adbc2aa9fdfeba3da7418ed5f952d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12263eb96a8e19139bf90e8c3fa2f4f9ea670ed13.webp?width=2000&format=webply&optimize=medium",
+    "natural": "742x418",
+    "rendered": "649x366",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17ab8b7c92f353bbdd2b97b0f86e5f10a62e34f05.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a165b1161ed34dc2cf7093bbf48b533cbe6dc606.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_127012ad8d6cb686d6b05a2f093ce1e12c24f6b51.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "44x44",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19bcf7e6ec1da50420900e20ab14d70904dadbefa.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1506eeae886c2669ac70ff9605dbdc9b5723fc454.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1525x516",
+    "rendered": "1440x516",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f55d51e29d04a2eb129ec559932e4f7e0138aa5f.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "562x317",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_161cf7c9d40e5748cde0bc86d569ed1f94ec1a787.webp?width=2000&format=webply&optimize=medium",
+    "natural": "562x317",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_182a4d872b6a488869d4c113c15ecd74524232827.webp?width=2000&format=webply&optimize=medium",
+    "natural": "562x317",
+    "rendered": "357x202",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5eba06a1e3fd8287a522808111b53e720bfff6.svg?width=2000&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10e6bb6cff12bbe9cb59504793373a4279bd0f62f.svg?width=2000&format=webply&optimize=medium",
+    "natural": "200x300",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11910070e9bdf131c54a36c598f5446efc4722ca6.svg?width=2000&format=webply&optimize=medium",
+    "natural": "100x150",
+    "rendered": "98x147",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14813e2ef0abe3997f33cdd6399d49c2814ed4056.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_177d6023001966252a4d36c35fb6b2b9769f6f528.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_100c59b245219f4d98b6d3121955c2362f1c3f3e8.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "49x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Netflix bij Ziggo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48.8px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Daarom kijk je Netflix via Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Snel en simpel",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Dit kijk je met Netflix",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Topseries en -films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bingewaardige series",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kijk met het hele gezin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25.008px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Hoe kijk je Netflix bij Ziggo?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Netflix account",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Open de Netflix app",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Inloggen en kijken",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "31.2px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Kies het abonnement dat bij jou ",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ken je deze TV apps al?",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Disney+",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "HBO Max",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Viaplay",
+    "color": "rgb(28, 31, 33)",
+    "fontSize": "20px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nog een vraag?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "39.04px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Bekijk categorieën",
+    "color": "rgb(28, 31, 33)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "interactions",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "sh-bg",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "sh-content",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "subnav-wrap",
+    "width": 1072,
+    "left": 184
+   },
+   {
+    "sel": "sf-split",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "sf-grid",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "vb-bg-wide",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ssc-grid",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "stt-grid",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "faq-inner",
+    "width": 1200,
+    "left": 120
+   },
+   {
+    "sel": "ssc-grid",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "sf-grid",
+    "width": 1168,
+    "left": 136
+   }
+  ]
+ }
+}

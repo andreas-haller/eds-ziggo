@@ -1,0 +1,96 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-tv-apps-360/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-tv-apps-360/pixel-pub2.json",
+    "pct": 23.17,
+    "alignedPct": 10.84,
+    "alignedUsed": true,
+    "totalShift": 287,
+    "steps": [
+      {
+        "y": 5779,
+        "shift": 164,
+        "cumulative": 164
+      },
+      {
+        "y": 6187,
+        "shift": 6,
+        "cumulative": 170
+      },
+      {
+        "y": 6404,
+        "shift": 12,
+        "cumulative": 182
+      },
+      {
+        "y": 6619,
+        "shift": -3,
+        "cumulative": 179
+      },
+      {
+        "y": 6840,
+        "shift": 39,
+        "cumulative": 218
+      },
+      {
+        "y": 7471,
+        "shift": 27,
+        "cumulative": 245
+      },
+      {
+        "y": 7601,
+        "shift": 35,
+        "cumulative": 280
+      },
+      {
+        "y": 8166,
+        "shift": 1,
+        "cumulative": 281
+      }
+    ],
+    "offsetBound": 86,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 10.84% (unaligned 23.17%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-26T01:03:31.717Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-tv-apps-360/units-pub2.txt"
+    }
+  },
+  "structural": 138,
+  "nothingLost": 0,
+  "at": "2026-11-26T01:50:08.428Z"
+}

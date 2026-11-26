@@ -1,0 +1,265 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-25T23:03:45.942Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.ziggo.nl",
+    "eds": "https://main--50ca44c6--aemcoder.aem.page",
+    "edsHostOverride": "https://main--50ca44c6--aemcoder.aem.page",
+    "only": [
+      "televisie",
+      "televisie-extra-zenders-streamingdiensten"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 2,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 2,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "televisie",
+      "path": "/televisie",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.74,
+      "textPct": 11.78,
+      "heightDelta": 0,
+      "originH": 9284,
+      "edsH": 9284,
+      "alignedPct": 2.53,
+      "alignedUsed": true,
+      "totalShift": 74,
+      "steps": [
+        {
+          "y": 1017,
+          "shift": -7,
+          "cumulative": -7
+        },
+        {
+          "y": 1141,
+          "shift": -1,
+          "cumulative": -8
+        },
+        {
+          "y": 1582,
+          "shift": 8,
+          "cumulative": 0
+        },
+        {
+          "y": 5037,
+          "shift": 27,
+          "cumulative": 27
+        },
+        {
+          "y": 5578,
+          "shift": -14,
+          "cumulative": 13
+        },
+        {
+          "y": 6530,
+          "shift": -3,
+          "cumulative": 10
+        },
+        {
+          "y": 6925,
+          "shift": -12,
+          "cumulative": -2
+        },
+        {
+          "y": 8214,
+          "shift": 1,
+          "cumulative": -1
+        },
+        {
+          "y": 9179,
+          "shift": 1,
+          "cumulative": 0
+        }
+      ],
+      "offsetBound": 93,
+      "offsetTolerance": 464,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 16,
+        "hiddenButtons": 0,
+        "findings": 10,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "5500-6000:19.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "televisie-extra-zenders-streamingdiensten",
+      "path": "/televisie/extra-zenders-streamingdiensten",
+      "template": "index",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.26,
+      "textPct": 20.31,
+      "heightDelta": 3,
+      "originH": 8302,
+      "edsH": 8299,
+      "alignedPct": 6.8,
+      "alignedUsed": true,
+      "totalShift": 29,
+      "steps": [
+        {
+          "y": 5263,
+          "shift": 11,
+          "cumulative": 11
+        },
+        {
+          "y": 6239,
+          "shift": 1,
+          "cumulative": 12
+        },
+        {
+          "y": 7610,
+          "shift": -16,
+          "cumulative": -4
+        },
+        {
+          "y": 8197,
+          "shift": 1,
+          "cumulative": -3
+        }
+      ],
+      "offsetBound": 83,
+      "offsetTolerance": 415,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 11,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:16.8%",
+        "2000-2500:16.8%"
+      ],
+      "error": null
+    }
+  ]
+}

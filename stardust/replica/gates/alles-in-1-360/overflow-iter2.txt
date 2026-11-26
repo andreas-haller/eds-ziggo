@@ -1,0 +1,9 @@
+measure: http://localhost:8791/alles-in-1-proposed.html @360: horizontal overflow +2px (scrollWidth 362 > viewport 360)
+measure  http://localhost:8791/alles-in-1-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   362  viewport 360  scrollHeight  13339  ◄◄ OVERFLOW +2px
+  html
+       x     0  y      0  w   360  h 13339  vis  "Privé Zakelijk Ga naar de Ziggo homepag…"
+      display: block

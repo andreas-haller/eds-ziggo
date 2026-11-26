@@ -1,0 +1,71 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-mediaboxen-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-mediaboxen-1440/pixel-pub1.json",
+    "pct": 20.11,
+    "alignedPct": 18.79,
+    "alignedUsed": true,
+    "totalShift": 144,
+    "steps": [
+      {
+        "y": 1985,
+        "shift": -134,
+        "cumulative": -134
+      },
+      {
+        "y": 2315,
+        "shift": -9,
+        "cumulative": -143
+      },
+      {
+        "y": 2846,
+        "shift": 1,
+        "cumulative": -142
+      }
+    ],
+    "offsetBound": 30,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 18.79% (unaligned 20.11%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:56:05.745Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-mediaboxen-1440/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T23:58:46.740Z"
+}

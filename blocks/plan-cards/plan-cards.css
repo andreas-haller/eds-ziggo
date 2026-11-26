@@ -1,0 +1,728 @@
+/* plan cards on the gradient-overflow band (source .plans + .plan card-v2 box-shadow-md) */
+.plan-cards {
+  position: relative;
+  padding: 56px 0 48px;
+  background: url("gradient-overflow-bg-mobile.svg") center / cover no-repeat;
+}
+
+.plan-cards .plans-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+.plan-cards .plans-title :is(h1, h2, h3, p) {
+  margin: 0 auto 40px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-1);
+  text-align: center;
+}
+
+.plan-cards .plans-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.plan-cards .plan {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  box-shadow: var(--shadow-card-md);
+  color: var(--color-gray-900);
+}
+
+.plan-cards .ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0 8px;
+  background: var(--color-tertiary-lighten-100);
+  color: var(--color-tertiary);
+}
+
+.plan-cards .ribbon p {
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.plan-cards .plan-body {
+  padding: 24px;
+  background: var(--color-white);
+}
+
+.plan-cards .plan-ribbon .plan-body {
+  padding-top: 44px;
+}
+
+.plan-cards .plan-title :is(h2, h3, h4) {
+  margin-bottom: 8px;
+  color: var(--color-black);
+  font-size: var(--heading-font-size-4);
+}
+
+.plan-cards .usps ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plan-cards .usps li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  width: fit-content;
+  align-items: start;
+  margin: 0 12px 12px 0;
+  padding: 2px 0;
+  color: var(--color-gray-800);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
+}
+
+.plan-cards .usps li .zi {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 24px;
+  color: var(--color-primary);
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.plan-cards .usps li:has(.usp-trigger) {
+  display: block;
+  padding: 0;
+}
+
+.plan-cards .usps .usp-trigger {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: start;
+  padding: 2px 0;
+}
+
+.plan-cards .usps li:has(.icon-close) {
+  padding: 0;
+  text-decoration: none;
+}
+
+.plan-cards .usps li:has(.icon-close) .zi {
+  color: var(--color-gray-800);
+}
+
+.plan-cards .plan-cta {
+  margin-top: 16px;
+}
+
+.plan-cards .plan-cta a.button .btn-arrow {
+  width: 20px;
+  font-size: 1.25rem;
+}
+
+@media (width >= 768px) {
+  .plan-cards {
+    padding: 64px 0 55px;
+    background-image: url("gradient-overflow-bg.svg");
+  }
+
+  .plan-cards .plans-title :is(h1, h2, h3, p) {
+    max-width: calc(50% - var(--container-pad) / 2);
+    margin-bottom: 57px;
+  }
+
+  .plan-cards .plans-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    align-items: end;
+  }
+}
+
+@media (width >= 1024px) {
+  .plan-cards .plan-body {
+    padding: 32px 32px 33px;
+  }
+
+  .plan-cards .plan-title :is(h2, h3, h4) {
+    margin-bottom: 7px;
+  }
+}
+
+/* the duplicate responsive label of the source button (see dualLabel) */
+.plan-cards a.button .btn-title-large {
+  display: none;
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* ==== tv: white band, centred head (eyebrow, title, text, text link), 3 manage-plan cards
+   (name "TV / Start", dividers, USPs, big price + small unit, primary CTA) ==== */
+.plan-cards.tv {
+  padding: 64px 0 0;
+  background: var(--color-white);
+}
+
+.plan-cards.tv .plans-title {
+  text-align: center;
+}
+
+.plan-cards.tv .plans-title :is(h1, h2, h3, p) {
+  max-width: none;
+  margin: 0 auto;
+  color: var(--color-black);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.plan-cards.tv .plans-title:has(+ .plans-title h2) p {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.plan-cards.tv .plans-title h2 {
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.plan-cards.tv .plans-title p:has(a) {
+  margin-top: 17px;
+}
+
+.plan-cards.tv .plans-title a:any-link {
+  color: var(--color-tertiary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.plan-cards.tv .plans-title a:any-link::after {
+  content: "\203A";
+  margin-left: 8px;
+  font-size: 1.25rem;
+}
+
+.plan-cards.tv .plans-grid {
+  gap: 16px;
+  margin: 24px auto 0;
+}
+
+.plan-cards.tv .plan-ribbon {
+  margin-top: 26px;
+}
+
+.plan-cards.tv .plan {
+  overflow: visible;
+  border-radius: 24px;
+  background: var(--color-white);
+}
+
+.plan-cards.tv .ribbon {
+  position: absolute;
+  inset: -26px 0 auto;
+  height: 26px;
+  border-radius: 24px 24px 0 0;
+  background: var(--color-tertiary);
+  color: var(--color-white);
+}
+
+.plan-cards.tv .ribbon p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.plan-cards.tv .ribbon em {
+  font-style: normal;
+}
+
+.plan-cards.tv .plan-body,
+.plan-cards.tv .plan-ribbon .plan-body {
+  padding: 16px 16px 24px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.plan-cards.tv .plan-ribbon .plan-body {
+  border-radius: 0 0 24px 24px;
+}
+
+.plan-cards.tv .plan-title {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.plan-cards.tv .plan-title p {
+  margin: 0;
+  color: var(--color-gray-800);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.plan-cards.tv .plan-title strong {
+  color: var(--color-primary);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.plan-cards.tv .usps {
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--color-gray-200);
+  text-align: left;
+}
+
+.plan-cards.tv .usps li .zi,
+.plan-cards.tv .usps li:has(.icon-close) .zi {
+  color: var(--color-gray-500);
+}
+
+.plan-cards.tv .usps li:has(.icon-close) {
+  margin-bottom: 12px;
+  text-decoration: line-through;
+}
+
+.plan-cards.tv .plan-price p {
+  margin: 24px 0 15px;
+  color: var(--color-black);
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.plan-cards.tv .price-unit {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.plan-cards.tv .plan-cta {
+  margin: 0;
+}
+
+.plan-cards.tv .plan-cta a.button .btn-arrow {
+  display: none;
+}
+
+/* the closing note under the cards (default content of the same section) */
+main .section:has(.plan-cards.tv) > .default-content-wrapper p {
+  max-width: 941px;
+  margin: 24px auto 0;
+  padding-bottom: 112px;
+  color: var(--color-secondary);
+  font-weight: 300;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .plan-cards.tv {
+    padding-top: 72px;
+    background-image: none;
+  }
+
+  .plan-cards.tv .plans-title :is(h1, h2, h3, p) {
+    max-width: calc((100% + var(--container-pad)) * 0.4167 - var(--container-pad));
+  }
+
+  .plan-cards.tv .plans-grid {
+    grid-template-columns: repeat(3, 293px);
+    justify-content: center;
+    gap: 32px;
+    margin-top: 64px;
+  }
+
+  .plan-cards.tv .plan-ribbon {
+    margin-top: 0;
+  }
+
+  .plan-cards.tv .plans-title p:has(a) {
+    margin-top: 24px;
+  }
+
+  .plan-cards.tv .usps {
+    padding-top: 8px;
+  }
+
+  .plan-cards.tv .plan-title strong {
+    line-height: 36px;
+  }
+
+  .plan-cards.tv .plan-price p {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 54px;
+  }
+
+  main .section:has(.plan-cards.tv) > .default-content-wrapper p {
+    margin-top: 40px;
+    padding-bottom: 127px;
+  }
+}
+
+@media (width >= 1024px) {
+  .plan-cards.tv .plan-body,
+  .plan-cards.tv .plan-ribbon .plan-body {
+    padding: 24px 24px 40px;
+  }
+}
+
+/* ==== internet: white band, 4-up plan cards (20px name, 14px USPs, small CTAs) ==== */
+.plan-cards.internet {
+  padding: 48px 0 56px;
+  background: var(--color-white);
+}
+
+.plan-cards.internet .plans-grid {
+  gap: 24px;
+}
+
+.plan-cards.internet .plans-title :is(h1, h2, h3, p) {
+  margin-bottom: 40px;
+}
+
+.plan-cards.internet .plan-ribbon {
+  margin-top: 26px;
+}
+
+.plan-cards.internet .ribbon {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 26px;
+  background: var(--color-gray-100);
+}
+
+.plan-cards.internet .ribbon p {
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.plan-cards.internet .ribbon em {
+  font-style: normal;
+}
+
+.plan-cards.internet .plan-ribbon .plan-body {
+  padding-top: 50px;
+}
+
+.plan-cards.internet .plan-title :is(h2, h3, h4) {
+  margin-bottom: 8px;
+  font-size: var(--heading-font-size-5);
+}
+
+.plan-cards.internet .usps li {
+  margin: 0 12px 11.5px 0;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+.plan-cards.internet .plan-cta {
+  margin-top: 20px;
+}
+
+.plan-cards.internet .plan-cta a.button:any-link {
+  height: 40px;
+  padding: 0 16px 2px;
+  font-size: 14px;
+}
+
+@media (width >= 768px) {
+  .plan-cards.internet {
+    padding: 64px 0 37px;
+    background-image: none;
+  }
+
+  .plan-cards.internet .plans-title :is(h1, h2, h3, p) {
+    margin-bottom: 57px;
+  }
+
+  .plan-cards.internet .plans-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+
+  .plan-cards.internet .plan-ribbon {
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .plan-cards.internet .plan-body {
+    padding: 32px;
+  }
+
+  .plan-cards.internet .plan-ribbon .plan-body {
+    padding-top: 58px;
+  }
+}
+
+/* ==== media: 4-up package cards on white (picture top, name, tags, offer line, plain list,
+   price, outline "Meer info" + primary "Bestellen") — source ziggo-sport sportpakketten ==== */
+.plan-cards.media {
+  padding: 48px 0 56px;
+  background: var(--color-white);
+}
+
+.plan-cards.media .plans-title {
+  text-align: center;
+}
+
+.plan-cards.media .plans-title :is(h1, h2, h3) {
+  margin: 0 auto;
+  font-size: var(--heading-font-size-2);
+}
+
+.plan-cards.media .plans-title p {
+  max-width: 747px;
+  margin: 15px auto 40px;
+  color: var(--color-secondary);
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.plan-cards.media .plans-grid {
+  gap: 16px;
+  align-items: stretch;
+}
+
+.plan-cards.media .plan {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-gray-500);
+  background: var(--color-gray-100);
+  box-shadow: none;
+}
+
+.plan-cards.media .plan-media p {
+  margin: 0;
+}
+
+.plan-cards.media .plan-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.plan-cards.media .plan-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 24px 12px;
+  background: transparent;
+}
+
+.plan-cards.media .plan-title :is(h2, h3, h4) {
+  margin: 0 0 8px;
+  color: var(--color-secondary);
+  font-size: var(--heading-font-size-4);
+}
+
+.plan-cards.media .plan-tag p {
+  display: inline-block;
+  margin: 0 0 4px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #323639;
+  color: var(--color-white);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.plan-cards.media .plan-tag + .plan-tag p {
+  background: var(--color-primary);
+  color: var(--color-black);
+}
+
+.plan-cards.media .plan-tag em {
+  font-style: normal;
+}
+
+.plan-cards.media .plan-copy p {
+  margin: 8px 0 0;
+  color: var(--color-secondary);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.plan-cards.media .plan-copy p strong {
+  font-weight: 600;
+}
+
+.plan-cards.media .plan-list ul {
+  margin: 24px 0 0;
+  padding-left: 40px;
+  color: var(--color-secondary);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.plan-cards.media .plan-copy:has(+ .plan-cta) {
+  margin-top: auto;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.plan-cards.media .plan-copy:has(+ .plan-cta) p {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-3);
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.plan-cards.media .plan-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.plan-cards.media .plan-cta p {
+  width: 186px;
+  margin: 0;
+}
+
+.plan-cards.media .plan-cta a.button:any-link {
+  width: 100%;
+}
+
+.plan-cards.media .plan-cta a.button.secondary:any-link {
+  height: 56px;
+  font-size: 20px;
+}
+
+.plan-cards.media .plan-cta a.button .btn-arrow {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .plan-cards.media {
+    padding: 64px 0 56px;
+    background-image: none;
+  }
+
+  .plan-cards.media .plans-title :is(h1, h2, h3, p) {
+    max-width: 747px;
+  }
+
+  .plan-cards.media .plans-title p {
+    margin-bottom: 57px;
+  }
+
+  .plan-cards.media .plans-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 34px;
+  }
+
+  .plan-cards.media .plan-copy:has(+ .plan-cta) {
+    padding-top: 54px;
+  }
+}
+
+/* media below 768px (source ziggo-sport 360): 18px intro 8px under the title, copy inset 41px
+   (234px wide), 26px dark tags, a bold offer line, 30px price line, full-width CTAs 8px apart */
+@media (width < 768px) {
+  .plan-cards.media .plans-title p {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+
+  .plan-cards.media .plan-body {
+    padding: 16px 41px;
+  }
+
+  .plan-cards.media .plan-tag p {
+    margin-bottom: 0;
+    padding: 6px 8px;
+    background: #1c1f21;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .plan-cards.media .plan-tag + .plan-tag p {
+    margin-top: 0;
+  }
+
+  .plan-cards.media .plan-copy p strong {
+    font-weight: 700;
+  }
+
+  .plan-cards.media .plan-copy:has(+ .plan-cta) p {
+    line-height: 30px;
+  }
+
+  .plan-cards.media .plan-cta {
+    gap: 8px;
+    margin-top: 15px;
+  }
+
+  .plan-cards.media .plan-cta p {
+    width: 100%;
+  }
+}
+
+/* source glyphs the foundation icon map lacks (ziggo-ui-icon-v22; foundation request filed) */
+.plan-cards .zi-check::before { content: "7"; }
+.plan-cards .zi-wifi-router::before { content: "\e934"; }
+.plan-cards .zi-wifi-pods::before { content: "\e906"; }
+
+/* internet USP rows are 24px boxes (source 14px items with a 20px glyph) */
+.plan-cards.internet .usps li .zi {
+  height: 20px;
+  font-size: 18px;
+}
+
+/* ==== tv offer (cluster-article: 4k-uhd "Kies je tv-pakket") — heading pair head (black h2
+   eyebrow over the orange h2), struck-through old price beside the offer price (van / voor
+   sr-only), promo label "12 maanden gratis" (source vfz-ribbon-label promo, medium) ==== */
+.plan-cards.tv .plans-title:has(+ .plans-title h2) h2 {
+  color: var(--color-black);
+  font-size: var(--heading-font-size-4);
+}
+
+.plan-cards.tv .plan-price p:has(del) del {
+  margin-right: 2px;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.plan-cards.tv .plan-price p:has(del) strong {
+  font-weight: 700;
+}
+
+.plan-cards.tv .plan-price p:has(del) {
+  margin-bottom: 8px;
+}
+
+.plan-cards.tv .plan-promo p {
+  margin: 0 0 24px;
+  line-height: 1;
+}
+
+.plan-cards.tv .plan-promo em {
+  display: inline-flex;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+}

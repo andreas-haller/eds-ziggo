@@ -1,0 +1,302 @@
+{
+  "a": "stardust/replica/gates/all-1440/televisie-extra-zenders-streamingdiensten-netflix/origin.png",
+  "b": "stardust/replica/gates/all-1440/televisie-extra-zenders-streamingdiensten-netflix/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 6146,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 13481,
+  "pct": 0.15,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/televisie-extra-zenders-streamingdiensten-netflix/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.7,
+  "textBoxes": 226,
+  "textPixels": 636469,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0.2
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0
+    },
+    {
+      "y0": 6000,
+      "y1": 6146,
+      "pct": 0.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.15,
+    "differingPixels": 13193,
+    "compared": {
+      "width": 1440,
+      "height": 6147,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 6041,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6000,
+        "y1": 6146,
+        "pct": 0.7,
+        "unaligned": 0.8
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/televisie-extra-zenders-streamingdiensten-netflix/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 61,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/televisie/extra-zenders-streamingdiensten/netflix",
+      "source": "https://www.ziggo.nl/televisie/extra-zenders-streamingdiensten/netflix",
+      "masks": "74234e98afe7498f",
+      "presence": "018cf51d11e57109",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "01499afa1e928125",
+      "options": "49937a90bc53aba3",
+      "reference": "8e627026a2ccd510",
+      "archetype": "73a5d2bb3c6e6e84",
+      "captures": "ab1d0c6c8eea0ec9",
+      "instruments": "700566dc6f7774a4",
+      "page content": "1516db27fa2e05d6",
+      "shared code": "933bef04481b01be",
+      "block breadcrumb": "3c700b76e98e8b57",
+      "block contact-band": "d6ef2a11a0e4b704",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block hero-band": "f46d573bee689e0b",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-text": "57a3b0a25393ea3e",
+      "block sticky-subnav": "2e089d3a30ea0ba0",
+      "block streaming-features": "84d1b98247df0869",
+      "block streaming-hero": "bf0e20c9e7e9746d",
+      "block streaming-service-cards": "7ee2bd3831faac10",
+      "block streaming-tier-table": "6bb21c201584f1a1",
+      "block video-band": "c7b948e5235808b1"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 1,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [
+          ".chat-button=.streaming-features.contact .sf-link:has(a[href^=\"#start-pre-chat\"])"
+        ],
+        "reason": "live chat availability: server renders \"Start een chat\", client script swaps in the busy message while advisers are occupied (session-variable)",
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 176,
+          "controls": 94,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 1,
+          "textNodes": 193,
+          "controls": 100,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 6,
+          "within": 76,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-26T03:46:14.531Z"
+  }
+}

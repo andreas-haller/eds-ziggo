@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-26T00:03:49.315Z",
+          "verdict": "fail",
+          "kind": "first",
+          "overflow": true
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-26T00:20:47.523Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-26T00:39:27.896Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cap: aligned 10.00%, Δh −191: download banner (+83 @2902, hero-band article banner art/copy metrics) and the two boxed tips cards (+107 @3690, 21:9 picture + copy taller); header icon reds frozen foundation",
+          "at": "2026-11-26T00:41:35.198Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-26T02-06-59-829Z",
+          "at": "2026-11-26T02:14:21.989Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-50-06-842Z",
+          "at": "2026-11-26T02:52:26.139Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T02-54-55-766Z",
+          "at": "2026-11-26T03:16:58.479Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-52-23-356Z",
+          "at": "2026-11-26T04:04:33.934Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

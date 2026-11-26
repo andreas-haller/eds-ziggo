@@ -1,0 +1,101 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-terugkijken-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-terugkijken-360/pixel-pub1.json",
+    "pct": 37.35,
+    "alignedPct": 13.43,
+    "alignedUsed": true,
+    "totalShift": 387,
+    "steps": [
+      {
+        "y": 112,
+        "shift": 53,
+        "cumulative": 53
+      },
+      {
+        "y": 527,
+        "shift": 125,
+        "cumulative": 178
+      },
+      {
+        "y": 1090,
+        "shift": 10,
+        "cumulative": 188
+      },
+      {
+        "y": 2066,
+        "shift": 75,
+        "cumulative": 263
+      },
+      {
+        "y": 2678,
+        "shift": 38,
+        "cumulative": 301
+      },
+      {
+        "y": 2791,
+        "shift": 36,
+        "cumulative": 337
+      },
+      {
+        "y": 3419,
+        "shift": 6,
+        "cumulative": 343
+      },
+      {
+        "y": 3879,
+        "shift": 43,
+        "cumulative": 386
+      },
+      {
+        "y": 4444,
+        "shift": 1,
+        "cumulative": 387
+      }
+    ],
+    "offsetBound": 49,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 13.43% (unaligned 37.35%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:50:26.475Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-360/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:54:16.395Z"
+}

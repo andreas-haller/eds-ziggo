@@ -1,0 +1,81 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-terugkijken-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-terugkijken-1440/pixel-pub3.json",
+    "pct": 14.96,
+    "alignedPct": 7.69,
+    "alignedUsed": true,
+    "totalShift": 180,
+    "steps": [
+      {
+        "y": 1130,
+        "shift": 59,
+        "cumulative": 59
+      },
+      {
+        "y": 1818,
+        "shift": 33,
+        "cumulative": 92
+      },
+      {
+        "y": 2324,
+        "shift": 82,
+        "cumulative": 174
+      },
+      {
+        "y": 2928,
+        "shift": 5,
+        "cumulative": 179
+      },
+      {
+        "y": 3407,
+        "shift": 1,
+        "cumulative": 180
+      }
+    ],
+    "offsetBound": 35,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 5 step(s), 180px total — +59px at y=1130, +33px at y=1818, +82px at y=2324, +5px at y=2928, +1px at y=3407 (bound 35px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T21:52:56.932Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-terugkijken-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:22:45.592Z"
+}

@@ -1,0 +1,91 @@
+{
+  "round": "pub3",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-4k-uhd-1440/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-4k-uhd-1440/pixel-pub3.json",
+    "pct": 12.98,
+    "alignedPct": 9.53,
+    "alignedUsed": true,
+    "totalShift": 216,
+    "steps": [
+      {
+        "y": 1104,
+        "shift": 60,
+        "cumulative": 60
+      },
+      {
+        "y": 1660,
+        "shift": 9,
+        "cumulative": 69
+      },
+      {
+        "y": 1939,
+        "shift": 8,
+        "cumulative": 77
+      },
+      {
+        "y": 2531,
+        "shift": 19,
+        "cumulative": 96
+      },
+      {
+        "y": 3562,
+        "shift": 7,
+        "cumulative": 103
+      },
+      {
+        "y": 4543,
+        "shift": -112,
+        "cumulative": -9
+      },
+      {
+        "y": 5195,
+        "shift": 1,
+        "cumulative": -8
+      }
+    ],
+    "offsetBound": 53,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 7 step(s), 216px total — +60px at y=1104, +9px at y=1660, +8px at y=1939, +19px at y=2531, +7px at y=3562, −112px at y=4543, … 1 more (bound 53px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T23:43:30.843Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-4k-uhd-1440/units-pub3.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-26T00:31:01.428Z"
+}

@@ -1,0 +1,45 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 761 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/ziggo-go (docH 4317, 156 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/ziggo-go (docH 4930, 146 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | ziggo go | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | kijk tv op je smartphone, tablet of lapt | 4/6 | 0/0 | 2/2 | 0/0 | EXTRA LINK |
+| 3 | dit kun je allemaal met ziggo go | 0/0 | 0/0 | 0/0 | 3/6 | COUNT IMAGES |
+| 4 | tot 7 dagen terugkijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | live tv-kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 6 | programma's opnemen | 1/0 | 0/0 | 3/0 | 3/0 | MOVED LINK, COUNT IMAGES |
+| 7 | streamen naar je tv | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 8 | on- en offline kijken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 9 | meer schermen tegelijk | 0/1 | 0/0 | 4/7 | 0/0 | - |
+| 10 | in 3 stappen ziggo go gebruiken | 0/0 | 0/0 | 0/0 | 3/2 | - |
+| 11 | 1. vodafone & ziggo account | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 12 | 2. tablet, telefoon of tv | 0/1 | 0/0 | 0/2 | 0/1 | - |
+| 13 | 3. ziggo go | 1/0 | 0/0 | 3/1 | 0/1 | MOVED LINK |
+| 14 | download ziggo go | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 15 | zo gebruik je ziggo go overal | 2/0 | 0/0 | 0/0 | 2/2 | - |
+| 16 | ziggo go op vakantie | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 17 | ziggo go op je 2e tv | 2/2 | 0/0 | 2/2 | 0/0 | - |
+| 18 | veelgestelde vragen | 0/0 | 2/7 | 0/0 | 1/1 | - |
+| 19 | hulp bij ziggo go | 1/1 | 5/0 | 1/1 | 0/0 | MOVED BUTTON, CONTROL MISSING |
+  🟡 EXTRA LINK: "bel ons" served in band "kijk tv op je smartphone, tablet of laptop. of stream naar je tv.", no origin link or button
+  🟡 EXTRA LINK: "chat" served in band "kijk tv op je smartphone, tablet of laptop. of stream naar je tv.", no origin link or button
+  🟡 COUNT IMAGES: band "dit kun je allemaal met ziggo go": 3 origin → 6 served visible
+  🟡 MOVED LINK: "live tv-kijken" short in band "programma's opnemen" but visible elsewhere on the served page
+  🟡 COUNT IMAGES: band "programma's opnemen": 3 origin → 0 served visible
+  🟡 MOVED LINK: "vodafone & ziggo account" short in band "3. ziggo go" but visible elsewhere on the served page
+  🟡 MOVED BUTTON: "zijn er kosten verbonden aan het gebruik van ziggo go?" short in band "hulp bij ziggo go" but visible elsewhere on the served page
+  🟡 MOVED BUTTON: "wie kunnen ziggo go gebruiken?" short in band "hulp bij ziggo go" but visible elsewhere on the served page
+  🟡 MOVED BUTTON: "kan ik ook programma's on demand kijken, of later terugkijken?" short in band "hulp bij ziggo go" but visible elsewhere on the served page
+  🟡 MOVED BUTTON: "welke zenders kan ik kijken via de ziggo go app?" short in band "hulp bij ziggo go" but visible elsewhere on the served page
+  🟡 MOVED BUTTON: "met hoeveel apparaten kun je ziggo go tegelijk gebruiken?" short in band "hulp bij ziggo go" but visible elsewhere on the served page
+  🟡 CONTROL MISSING: trigger = "zijn er kosten verbonden aan het gebruik van ziggo go?" (band "hulp bij ziggo go") has no served counterpart
+  🟡 CONTROL MISSING: trigger = "wie kunnen ziggo go gebruiken?" (band "hulp bij ziggo go") has no served counterpart
+  🟡 CONTROL MISSING: trigger = "kan ik ook programma's on demand kijken, of later terugkijke" (band "hulp bij ziggo go") has no served counterpart
+  🟡 CONTROL MISSING: trigger = "welke zenders kan ik kijken via de ziggo go app?" (band "hulp bij ziggo go") has no served counterpart
+  🟡 CONTROL MISSING: trigger = "met hoeveel apparaten kun je ziggo go tegelijk gebruiken?" (band "hulp bij ziggo go") has no served counterpart
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 2 extra 2 / count deltas 2
+Findings: 16 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-ziggo-go-1440/content-presence-pub1.json

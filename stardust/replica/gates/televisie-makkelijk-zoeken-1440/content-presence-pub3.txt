@@ -1,0 +1,31 @@
+[live-session] waiting to pace live navigations to main--50ca44c6--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/makkelijk-zoeken (docH 4555, 160 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/makkelijk-zoeken (docH 4461, 149 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | makkelijk zoeken | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | beleef het beste entertainment voor jou  | 4/4 | 0/0 | 2/2 | 0/0 | - |
+| 3 | slim zoeken, snel kijken | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 4 | vind razendsnel wat je wilt zien | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 5 | makkelijk in een overzicht | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 6 | weet waar je het kan kijken | 0/0 | 0/0 | 2/2 | 1/1 | - |
+| 7 | laat je inspireren | 0/0 | 0/0 | 8/8 | 0/0 | - |
+| 8 | de mogelijkheden op een rijtje | 8/0 | 0/0 | 0/8 | 8/8 | MISSING LINK, COUNT TEXT |
+| 9 | beleef het beste entertainment voor jou | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | standaard in je abonnement | 9/9 | 0/0 | 4/4 | 4/4 | - |
+| 11 | veelgestelde vragen | 0/0 | 4/4 | 0/0 | 0/0 | - |
+  🔴 MISSING LINK: "makkelijk zoeken" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "voice control" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "kijkprofielen" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "ziggo go" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "live-tv pauzeren" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "terugkijken" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "opnemen" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🔴 MISSING LINK: "4k uhd-beeld" → /televisie/makkelijk-zoeken in band "de mogelijkheden op een rijtje" (origin y 2702) not on the served page
+  🟡 COUNT TEXT: band "de mogelijkheden op een rijtje": 0 origin → 8 served visible
+Content: MISSING 8 (headings 0, links 8) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 1
+Findings: 9 (8 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-makkelijk-zoeken-1440/content-presence-pub3.json

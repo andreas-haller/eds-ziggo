@@ -1,0 +1,26 @@
+[live-session] waiting to pace live navigations to www.ziggo.nl (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.ziggo.nl/televisie/kijkprofielen (docH 5844, 132 items, HTTP 200) vs served https://main--50ca44c6--aemcoder.aem.page/televisie/kijkprofielen (docH 4849, 124 items, HTTP 200)
+scope: main#main-content vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/1 | - |
+| 1 | kijkprofielen | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 2 | persoonlijke kijkervaring met je eigen k | 5/7 | 0/0 | 1/1 | 0/0 | EXTRA LINK |
+| 3 | kijkprofielen | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 4 | een persoonlijke kijkervaring | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 5 | persoonlijke kijktips | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 6 | verder kijken waar je gebleven bent | 0/0 | 0/0 | 1/1 | 0/1 | - |
+| 7 | je eigen instellingen en lijstjes | 0/0 | 0/0 | 2/2 | 2/1 | - |
+| 8 | je kijkprofiel op elk apparaat | 1/1 | 0/0 | 3/3 | 0/1 | - |
+| 9 | met één knop op je afstandsbediening | 1/1 | 0/0 | 1/1 | 1/0 | - |
+| 10 | kies je mediabox | 0/0 | 0/0 | 1/1 | 3/3 | - |
+| 11 | next mini | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 12 | mediabox next | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 13 | mediabox xl | 3/3 | 0/0 | 3/3 | 0/1 | - |
+| 14 | nog geen tv van ziggo? | 2/2 | 0/0 | 1/1 | 0/0 | - |
+  🟡 EXTRA LINK: "bel ons" served in band "persoonlijke kijkervaring met je eigen kijkprofiel", no origin link or button
+  🟡 EXTRA LINK: "chat" served in band "persoonlijke kijkervaring met je eigen kijkprofiel", no origin link or button
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 2 / count deltas 0
+Findings: 2 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/televisie-kijkprofielen-1440/content-presence-pub1.json

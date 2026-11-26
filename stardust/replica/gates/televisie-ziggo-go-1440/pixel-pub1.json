@@ -1,0 +1,152 @@
+{
+  "a": "stardust/replica/gates/televisie-ziggo-go-1440/live.png",
+  "b": "stardust/replica/gates/televisie-ziggo-go-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4317,
+    "mode": "overlap"
+  },
+  "heightDelta": -613,
+  "differingPixels": 2351429,
+  "pct": 37.83,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/televisie-ziggo-go-1440/diff-pub1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 26.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 81
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 78.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 16.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 52.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4317,
+      "pct": 96.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 37.83,
+    "differingPixels": 2351429,
+    "compared": {
+      "width": 1440,
+      "height": 4317,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3.3,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.1,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 26.8,
+        "unaligned": 26.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 81,
+        "unaligned": 81
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 78.3,
+        "unaligned": 78.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 16.4,
+        "unaligned": 16.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 52.5,
+        "unaligned": 52.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4317,
+        "pct": 96.5,
+        "unaligned": 96.5
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 38.73,
+      "steps": 2,
+      "totalShift": 613
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 37.83% > 10%"
+}

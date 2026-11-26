@@ -1,0 +1,400 @@
+/* address-checker: lead column over the hero band (source sps--lead: catlinks, title, uid card) */
+.address-checker {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+  color: var(--color-secondary);
+}
+
+.address-checker .ac-content {
+  position: relative;
+  z-index: 1;
+  margin-top: -185px;
+}
+
+/* category pills */
+.address-checker .catlinks-list {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  gap: 1px;
+  margin: 0 0 16px;
+  padding: 4px;
+  list-style: none;
+  background: var(--color-gray-100);
+  border-radius: 24px;
+  box-shadow: var(--shadow-card);
+}
+
+.address-checker .catlinks-item a:any-link {
+  display: grid;
+  padding: 12px 0;
+  border-radius: 24px;
+  color: #000;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.address-checker .catlinks-item.is-active a:any-link {
+  background: var(--color-secondary);
+  color: var(--color-gray-100);
+  font-weight: 700;
+}
+
+.address-checker .ac-title h1 {
+  margin: 0 0 16px;
+  color: #fff;
+}
+
+/* availability check card */
+.address-checker .uid {
+  position: relative;
+  padding: 24px 20px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: rgb(28 31 33 / 20%) 0 2px 4px 0;
+}
+
+.address-checker .uid-title :is(h2, h3) {
+  margin-bottom: 24px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-4);
+}
+
+.address-checker .seg {
+  display: inline-flex;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--color-gray-100);
+  border-radius: 40px;
+  box-shadow: rgb(0 0 0 / 20%) 0 1px 4px 0;
+}
+
+.address-checker .seg-opt {
+  display: flex;
+  cursor: pointer;
+}
+
+.address-checker .seg-label {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 60px;
+  color: #000;
+  font-size: 12px;
+  line-height: 14.04px;
+  white-space: nowrap;
+}
+
+.address-checker .seg-opt.is-active .seg-label {
+  background: var(--color-secondary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.address-checker .uid-message {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  color: var(--color-gray-900);
+}
+
+.address-checker .uid-message[hidden],
+.address-checker .uid-biz[hidden] {
+  display: none;
+}
+
+.address-checker .zi-exclamation-triangle::before {
+  content: "U";
+}
+
+.address-checker .uid-message em {
+  font-style: normal;
+}
+
+.address-checker .addr {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  gap: 16px 8px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.address-checker .seg-choice {
+  display: flex;
+}
+
+.address-checker .addr-field-zip {
+  grid-column: 1 / -1;
+}
+
+.address-checker .addr-label {
+  display: inline-block;
+  margin: 0 0 8px;
+  color: var(--color-gray-900);
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.address-checker .addr-input {
+  display: block;
+  width: 100%;
+  height: 48px;
+  padding: 0 50px 0 12px;
+  border: 1px solid var(--color-gray-600);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--color-gray-900);
+  font: inherit;
+}
+
+.address-checker .check {
+  position: relative;
+  display: flex;
+  margin-top: 44px;
+  color: var(--color-gray-800);
+  cursor: pointer;
+}
+
+.address-checker .check-label {
+  display: block;
+  padding-left: 32px;
+}
+
+.address-checker .check-label p {
+  line-height: 24px;
+}
+
+.address-checker .check-box {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--color-gray-700);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.address-checker .check input:checked + .check-box {
+  border-color: var(--color-tertiary);
+  background: var(--color-tertiary);
+}
+
+.address-checker .uid-biz,
+.address-checker .uid-cta {
+  margin-top: 20px;
+}
+
+.address-checker .uid-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--btn-height);
+  padding: 0 20px 3px;
+  border-radius: var(--btn-radius);
+  background: var(--color-tertiary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.address-checker .uid-cta:hover {
+  background: var(--color-tertiary-lighten-20);
+}
+
+.address-checker .uid-cta p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.address-checker .uid-cta strong {
+  font-weight: 600;
+}
+
+@media (width >= 768px) {
+  .address-checker .ac-content {
+    width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+    margin-top: -425px;
+  }
+
+  .address-checker .catlinks-list {
+    display: inline-grid;
+    grid-auto-columns: auto;
+  }
+
+  .address-checker .catlinks-item a:any-link {
+    padding: 12px 24px;
+  }
+
+  .address-checker .ac-title h1 {
+    margin: 8px 0 24px;
+  }
+
+  .address-checker .uid-title :is(h2, h3) {
+    margin-bottom: 23px;
+  }
+
+  .address-checker .addr {
+    grid-template-columns: 162px 162px 1fr;
+    column-gap: 8.5px;
+    margin-top: 25px;
+  }
+
+  .address-checker .addr-field-zip {
+    grid-column: auto;
+  }
+}
+
+/* ==== BEGIN address-checker (product) variant — owned by cluster-program; scoped to
+   .address-checker.product: the card alone at the top of the builder band (no pills, no
+   title, not pulled over a hero) ==== */
+.address-checker.product .ac-content {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  .address-checker.product .ac-content {
+    margin-top: 0;
+  }
+}
+
+/* ==== END address-checker (product) variant ==== */
+
+/* ==== BEGIN address-checker (inline) variant — owned by cluster-landing; scoped to
+   .address-checker.inline: a standalone availability band on the brand gradient, white title
+   above a centred white card (fields + check button in one row from 768px) ==== */
+.address-checker.inline {
+  display: flex;
+  align-items: center;
+  max-width: none;
+  min-height: 80vh;
+  padding: 32px var(--container-pad);
+  background: var(--gradient-primary);
+}
+
+.address-checker.inline .ac-content {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
+}
+
+.address-checker.inline .uid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 20px 24px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.address-checker.inline .uid::before {
+  content: "";
+  grid-row: 2 / 4;
+  grid-column: 1 / -1;
+  margin: -24px -20px;
+  border-radius: 24px;
+  background: var(--color-white);
+}
+
+.address-checker.inline .uid-title {
+  grid-row: 1;
+  grid-column: 1 / -1;
+  margin: 0 -20px 48px;
+  text-align: center;
+}
+
+.address-checker.inline .uid-title :is(h2, h3) {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--heading-font-size-2);
+}
+
+.address-checker.inline .addr-form,
+.address-checker.inline .uid-cta {
+  position: relative;
+  grid-column: 1;
+}
+
+.address-checker.inline .addr-form {
+  grid-row: 2;
+}
+
+.address-checker.inline .addr {
+  margin: 0;
+}
+
+.address-checker.inline .uid-cta {
+  grid-row: 3;
+  justify-self: start;
+  margin-top: 24px;
+}
+
+@media (width >= 768px) {
+  .address-checker.inline {
+    min-height: 0;
+    padding: 32px var(--container-pad) 81px;
+  }
+
+  .address-checker.inline .uid {
+    grid-template-columns: 1fr 162px;
+    column-gap: 8px;
+    padding: 0 32px 55px;
+  }
+
+  .address-checker.inline .uid::before {
+    grid-row: 2;
+    margin: -33px -32px -55px;
+  }
+
+  .address-checker.inline .uid-title {
+    margin: 0 -32px 66px;
+  }
+
+  .address-checker.inline .uid-title :is(h2, h3) {
+    margin: 0;
+  }
+
+  .address-checker.inline .uid-cta {
+    grid-row: 2;
+    grid-column: 2;
+    place-self: end stretch;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .address-checker.inline .uid-cta p {
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* ==== END address-checker (inline) variant ==== */
+
+/* ==== BEGIN address-checker (spaced) variant — owned by cluster-program; scoped to
+   .address-checker.spaced: source category links with vfz-spacing-top/bottom and the title
+   with vfz-spacing-bottom--s (tv-internet: pills 8/16 lower, title margins as the source) ==== */
+.address-checker.spaced .catlinks {
+  padding-top: 8px;
+}
+
+.address-checker.spaced .ac-title h1 {
+  margin-bottom: 8px;
+}
+
+@media (width >= 768px) {
+  .address-checker.spaced .catlinks {
+    padding-top: 16px;
+  }
+
+  .address-checker.spaced .ac-title h1 {
+    margin: 24px 0 16px;
+  }
+}
+
+/* ==== END address-checker (spaced) variant ==== */

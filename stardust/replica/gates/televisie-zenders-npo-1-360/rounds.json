@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T13:45:28.688Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T13:48:06.543Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "only failing line is the canon header logo icon signature (ziggo-logo-orange-v1 → .svg extension), shared with index/alles-in-1/televisie-voicecontrol; pixel 0.54% aligned, Δh 0, content-diff 0/0, Clipped 0",
+          "at": "2026-11-25T13:48:15.182Z",
+          "counted": 2
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T17:35:12.719Z",
+          "verdict": "fail",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T17-38-24-814Z",
+          "at": "2026-11-25T17:39:27.596Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:32:46.713Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:52:16.486Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

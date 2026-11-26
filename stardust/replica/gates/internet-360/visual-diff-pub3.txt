@@ -1,0 +1,937 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/internet-360/vdiff-pub3/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: media_1270a2d93c2a8e785267180960e482c6974efd8fe.jpg?width=750&format=jpg&optimize=medium rendered 259x194 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_14972a14572ad588d74232b66786f0bab289a7796.jpg?width=750&format=jpg&optimize=medium rendered 259x194 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1aa339a7d6b3a6a5192329c27d86f0e4e31422d8e.jpg?width=750&format=jpg&optimize=medium rendered 259x194 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 8231,
+  "textLen": 4272,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1?fmt=svg&wid=256&fit=constrain",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_hero-TEN?fmt=webp-alpha&qlt=85,0&bfc=off&wid=562&fit=constrain",
+    "natural": "360x270",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Umlaut?fmt=svg",
+    "natural": "313x63",
+    "rendered": "133x27",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand-product_ziggo-wifi-home-2?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand-product_ziggo-wifi-crew-2?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand-product_ziggo-installatie-service-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_alle-snelheid-q2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x194",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_alle-snelheid-q2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x194",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_wifi-garantie-v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x194",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_wifi-garantie-v2?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "259x194",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_wifi-versterkers?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_wifi-versterkers?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_wifi-crew_v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_wifi-crew_v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_gratis-monteur_v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_gratis-monteur_v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article_image-4x3_safe-online-Q2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article%20image-4x3_safe-online?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_priority-v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x810_article-image-4x3_priority-v2?qlt=80,0&dpr=off&wid=20",
+    "natural": "20x15",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "wfh_teams_call?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_article%20image-16x9_overstappen_v2-1?qlt=80,0&dpr=off&wid=320&fit=constrain",
+    "natural": "320x181",
+    "rendered": "320x181",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1080x608_9mnd_3495-wifigarantie?fmt=webp-alpha&qlt=100,0&bfc=off&wid=320&fit=constrain",
+    "natural": "288x162",
+    "rendered": "288x163",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "connection_phone-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "messaging_message-multiple-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "buildings_shop-1?fmt=svg",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Ziggo_Logo_Orange_RGB_v1.png",
+    "natural": "2161x901",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=56297672&tm=gtm002&Ver=2&mid=35e10055-7c94-4778-8b04-2e4fdf0d73d7&bo=3&sid=37f23bd0e8b211f19dac1ffe505bef3b&vid=37f34ba0e8b211f19b17117417d92f6b&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Internet%20van%20Ziggo%20%7C%20Vergelijk%20Internet%20Abonnement%20%7C%20Ziggo&kw=hotspots,%20internet,%20internetbeveiliging,%20internetsnelheid&p=https%3A%2F%2Fwww.ziggo.nl%2Finternet&r=&lt=6350&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=434275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "track.php?fingerprint=380ba393-aa31-4b24-bb67-fb9b6d8d2fa6&referrer=&landingpage=https%3A%2F%2Fwww.ziggo.nl%2Finternet&useragent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F157.0.0.0%20Safari%2F537.36&site=8275",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Internet van Ziggo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.32px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ontdek onze internetabonnementen",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Snel en stabiel internet \nmet Zi",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Daarom kies je voor Internet van",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Alle snelheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi die werkt",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi-versterkers",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "24/7 Wifi Crew hulp",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gratis monteur",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Safe Online",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Priority",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Altijd een abonnement dat bij je",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 200 Mbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 500 Mbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 1 Gbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Internet 2 Gbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Is Internet van Ziggo beschikbaa",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Welke internetsnelheid heb je no",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Overstappen naar Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zelf je internetabonnement samen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nog een vraag?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "vfz-spacing-top",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "row",
+    "width": 340,
+    "left": 10
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 24
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 299
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 573
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 848
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 1123
+   },
+   {
+    "sel": "vfz-card-v2__title",
+    "width": 227,
+    "left": 1397
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 8179,
+  "textLen": 4307,
+  "images": [
+   {
+    "src": "ziggo-logo-orange-v1.svg",
+    "natural": "1080x450",
+    "rendered": "72x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15448562ef8ae19d4217b922d3f1bf7b112a079d3.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "360x270",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_136e75ba8c535df45089318b9c0fd66e508ec42f7.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1abc061851706285286576357b522ce0794725f79.png?width=750&format=webply&optimize=medium",
+    "natural": "636x128",
+    "rendered": "134x27",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19ab2443cb61142e53646a02752a2f71c930e56db.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f32e2f26d9448e23655a679d0393c1db1fa51642.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_131e08807a8c9cc969ebc2c313e2ad6ada1946a1d.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "37x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10d586fd60fff43c91eea52deba4cd9e9ddd25793.jpg?width=750&format=webply&optimize=medium",
+    "natural": "320x240",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1dd2db5773985bdb685b7f6f3372b4cbb19929c7d.jpg?width=750&format=webply&optimize=medium",
+    "natural": "320x240",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_142e2f27143d746f403c95de2878bb5bcec2100eb.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c18eb97cada0bde60687dc16ef2eb2c79980ac0.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x563",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1270a2d93c2a8e785267180960e482c6974efd8fe.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_14972a14572ad588d74232b66786f0bab289a7796.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1aa339a7d6b3a6a5192329c27d86f0e4e31422d8e.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "259x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_122bf1640f820be83830f8fd4649088de82f8ae94.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x285",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14569b65a4e42322cc984e62381ee48eedaf9cd72.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_102f0ead7cfe92c2840369765dba2c385f15376ec.webp?width=750&format=webply&optimize=medium",
+    "natural": "750x422",
+    "rendered": "320x180",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14813e2ef0abe3997f33cdd6399d49c2814ed4056.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_177d6023001966252a4d36c35fb6b2b9769f6f528.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_100c59b245219f4d98b6d3121955c2362f1c3f3e8.svg?width=750&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "53x53",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Internet van Ziggo",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.32px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ontdek onze internetabonnementen",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.72px",
+    "family": "Vodafone Ziggo text",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Snel en stabiel internet met Zig",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Daarom kies je voor Internet van",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Alle snelheid",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi die werkt",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wifi-versterkers",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "24/7 Wifi Crew hulp",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Gratis monteur",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Safe Online",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Priority",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Altijd een abonnement dat bij je",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 200 Mbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 500 Mbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Internet 1 Gbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Internet 2 Gbit/s",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.496px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Is Internet van Ziggo beschikbaa",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Welke internetsnelheid heb je no",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Overstappen naar Ziggo",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zelf je internetabonnement samen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Veelgestelde vragen",
+    "color": "rgb(255, 95, 0)",
+    "fontSize": "28.832px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nog een vraag?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25.6px",
+    "family": "Ziggo Headline",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Open",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Mijn Ziggo",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "menu",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "int-nav",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "idbar",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-img",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "hero-badge",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-title",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-sub",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "hero-ctas",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "toptask",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "cards",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "why-kicker",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "why-title",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "ucard-title",
+    "width": 227,
+    "left": 24
+   }
+  ]
+ }
+}

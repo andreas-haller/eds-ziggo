@@ -1,0 +1,66 @@
+{
+  "round": "pub2",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/diff-pub2.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/pixel-pub2.json",
+    "pct": 8.18,
+    "alignedPct": 0.56,
+    "alignedUsed": true,
+    "totalShift": 25,
+    "steps": [
+      {
+        "y": 1105,
+        "shift": -24,
+        "cumulative": -24
+      },
+      {
+        "y": 6041,
+        "shift": 1,
+        "cumulative": -23
+      }
+    ],
+    "offsetBound": 61,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T14:14:05.453Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-netflix-1440/units-pub2.txt"
+    }
+  },
+  "structural": 133,
+  "nothingLost": 1,
+  "at": "2026-11-25T18:19:56.629Z"
+}

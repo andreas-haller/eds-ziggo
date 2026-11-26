@@ -1,0 +1,427 @@
+{
+  "a": "stardust/replica/gates/all-360/internet/origin.png",
+  "b": "stardust/replica/gates/all-360/internet/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 9244,
+    "mode": "overlap"
+  },
+  "heightDelta": 26,
+  "differingPixels": 490655,
+  "pct": 14.74,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/internet/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.87,
+  "textBoxes": 202,
+  "textPixels": 488028,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 21
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 10.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 26.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 20.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 36.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 11.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 14.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 36.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 13.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 14.3
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 29.4
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 18.6
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 6.6
+    },
+    {
+      "y0": 9000,
+      "y1": 9244,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.93,
+    "differingPixels": 299650,
+    "compared": {
+      "width": 360,
+      "height": 9322,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1669,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 2093,
+        "shift": 8,
+        "cumulative": 9
+      },
+      {
+        "y": 3989,
+        "shift": 37,
+        "cumulative": 46
+      },
+      {
+        "y": 4724,
+        "shift": -25,
+        "cumulative": 21
+      },
+      {
+        "y": 5001,
+        "shift": -2,
+        "cumulative": 19
+      },
+      {
+        "y": 5279,
+        "shift": -7,
+        "cumulative": 12
+      },
+      {
+        "y": 6175,
+        "shift": -44,
+        "cumulative": -32
+      },
+      {
+        "y": 8286,
+        "shift": 5,
+        "cumulative": -27
+      },
+      {
+        "y": 8829,
+        "shift": 1,
+        "cumulative": -26
+      }
+    ],
+    "maxOffset": 46,
+    "totalShift": 130,
+    "insertedRows": 52,
+    "deletedRows": 78,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.6,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.6,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.8,
+        "unaligned": 21
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 5.8,
+        "unaligned": 3.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 7.8,
+        "unaligned": 10.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 30.2,
+        "unaligned": 26.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 3.8,
+        "unaligned": 20.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 9,
+        "unaligned": 36.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 3.2,
+        "unaligned": 11.1
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 7,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 34.8,
+        "unaligned": 36.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 5.5,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 5.7,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 25.4,
+        "unaligned": 29.4
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 14.2,
+        "unaligned": 18.6
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0.2,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 9000,
+        "y1": 9270,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/internet/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 93,
+    "totalShift": 130,
+    "pass": false
+  },
+  "reason": "offsets: 9 step(s), 130px total — +1px at y=1669, +8px at y=2093, +37px at y=3989, −25px at y=4724, −2px at y=5001, −7px at y=5279, … 3 more (bound 93px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--50ca44c6--aemcoder.aem.page/internet",
+    "key": {
+      "v": 3,
+      "build": "https://main--50ca44c6--aemcoder.aem.page/internet",
+      "source": "https://www.ziggo.nl/internet",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "b71dd47f0a2a639f",
+      "reference": "6712ebd7f42c2741",
+      "archetype": "ad278624d638c349",
+      "captures": "6dc7076d0e5ce3a9",
+      "instruments": "700566dc6f7774a4",
+      "page content": "16804d141094ea65",
+      "shared code": "933bef04481b01be",
+      "block address-checker": "f5957a2c73f45487",
+      "block article-carousel": "812f123823fea39a",
+      "block cards": "4ada5cf24baa6d90",
+      "block contact-band": "d6ef2a11a0e4b704",
+      "block faq-accordion": "8ae7a3d53eb10e8f",
+      "block feature-cards": "de33012890431fa4",
+      "block hero-band": "f46d573bee689e0b",
+      "block identification-bar": "6647c738b64abdf4",
+      "block interactions": "a0f810fa3b16b176",
+      "block media-carousel": "5516c9be41e7f6f6",
+      "block media-text": "57a3b0a25393ea3e",
+      "block plan-cards": "3e1b6add29ba0b90",
+      "block priority-band": "a577d36258ef84a8",
+      "block swimming-lane": "2eae491feaad2b1b",
+      "block toptask-tiles": "23d8361950e8b56b"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 1,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 1,
+          "missingButtons": 19,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 4,
+          "findings": 26,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 3,
+          "offPage": 21,
+          "textNodes": 172,
+          "controls": 111,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "CONTROL X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "ul.ccar-track > li > article.ucard > a.ucard-link",
+            "text": "wifi die werkt",
+            "cutMin": 182,
+            "cutMax": 182
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-title > h3#wifi-die-werkt",
+            "text": "wifi die werkt",
+            "cutMin": 50,
+            "cutMax": 50
+          },
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "article.ucard",
+            "path": "div.ucard-container > div.ucard-body > div.ucard-text > p",
+            "text": "altijd wifi die werkt. gegarandeerd.",
+            "cutMin": 74,
+            "cutMax": 74
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 3,
+          "offPage": 22,
+          "textNodes": 166,
+          "controls": 131,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-26T04:06:29.719Z"
+  }
+}

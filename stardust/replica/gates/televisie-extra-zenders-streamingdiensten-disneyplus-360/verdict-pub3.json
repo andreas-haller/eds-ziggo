@@ -1,0 +1,111 @@
+{
+  "round": "pub3",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/diff-pub3.png",
+    "json": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/pixel-pub3.json",
+    "pct": 13.23,
+    "alignedPct": 4.07,
+    "alignedUsed": true,
+    "totalShift": 115,
+    "steps": [
+      {
+        "y": 982,
+        "shift": -10,
+        "cumulative": -10
+      },
+      {
+        "y": 2086,
+        "shift": 1,
+        "cumulative": -9
+      },
+      {
+        "y": 2215,
+        "shift": -1,
+        "cumulative": -10
+      },
+      {
+        "y": 2465,
+        "shift": 2,
+        "cumulative": -8
+      },
+      {
+        "y": 3187,
+        "shift": -24,
+        "cumulative": -32
+      },
+      {
+        "y": 3498,
+        "shift": -24,
+        "cumulative": -56
+      },
+      {
+        "y": 3975,
+        "shift": -2,
+        "cumulative": -58
+      },
+      {
+        "y": 4789,
+        "shift": -1,
+        "cumulative": -59
+      },
+      {
+        "y": 5892,
+        "shift": -48,
+        "cumulative": -107
+      },
+      {
+        "y": 6538,
+        "shift": -1,
+        "cumulative": -108
+      },
+      {
+        "y": 7082,
+        "shift": 1,
+        "cumulative": -107
+      }
+    ],
+    "offsetBound": 75,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 11 step(s), 115px total — −10px at y=982, +1px at y=2086, −1px at y=2215, +2px at y=2465, −24px at y=3187, −24px at y=3498, … 5 more (bound 75px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T19:13:19.751Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/content-diff-pub3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/visual-diff-pub3.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/chrome-parity-pub3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/clip-pub3.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/content-presence-pub3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-extra-zenders-streamingdiensten-disneyplus-360/units-pub3.txt"
+    }
+  },
+  "structural": 135,
+  "nothingLost": 3,
+  "at": "2026-11-25T19:25:30.410Z"
+}

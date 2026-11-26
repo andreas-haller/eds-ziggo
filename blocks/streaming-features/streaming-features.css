@@ -1,0 +1,563 @@
+/* streaming features (source streaming-page .sd-feat groups, .sd-why split, .sd-contact band) */
+.streaming-features {
+  color: #000;
+}
+
+.streaming-features.sf-has-media {
+  padding: 2rem 0;
+}
+
+.streaming-features .sf-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+/* head: title + lead in the left 6/12 */
+.streaming-features .sf-head :is(h1, h2) {
+  margin: 8px 0;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+}
+
+.streaming-features .sf-head p {
+  margin-bottom: 16px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* one feature: icon cell 2/12 (3/12 from 768) with the icon at 10/12 (8/12) of it */
+.streaming-features .sf-feat {
+  display: flex;
+  margin: 16px calc(var(--container-pad) / -2) 0;
+}
+
+.streaming-features .sf-icon {
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.streaming-features .sf-icon img {
+  display: block;
+  width: 83.3333%;
+  height: auto;
+}
+
+.streaming-features .sf-body {
+  flex: 0 0 83.3333%;
+  max-width: 83.3333%;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.streaming-features .sf-title :is(h3, h4, p) {
+  display: block;
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.streaming-features .sf-title-heading :is(h3, h4) {
+  margin-bottom: 8px;
+}
+
+.streaming-features .sf-text p,
+.streaming-features .sf-link p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.streaming-features .sf-link a:any-link {
+  display: block;
+  color: var(--color-tertiary);
+  text-decoration: underline;
+}
+
+/* split: features column 4/12 + picture 7/12 offset 1 (picture on top below 768) */
+.streaming-features .sf-split {
+  display: flex;
+  flex-direction: column-reverse;
+
+  /* + the source's empty spacer cell (16px) that stacks under the head below 768px */
+  margin: 40px calc(var(--container-pad) / -2) 0;
+}
+
+.streaming-features .sf-list,
+.streaming-features .sf-media,
+.streaming-features .sf-col {
+  width: 100%;
+  padding: 0 calc(var(--container-pad) / 2);
+}
+
+.streaming-features .sf-media {
+  margin-bottom: 8px;
+}
+
+.streaming-features .sf-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* grid: one feature per column */
+.streaming-features .sf-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 calc(var(--container-pad) / -2) 24px;
+}
+
+@media (width >= 768px) {
+  .streaming-features .sf-head {
+    max-width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+  }
+
+  .streaming-features .sf-icon {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .streaming-features .sf-icon img {
+    width: 66.6667%;
+  }
+
+  .streaming-features .sf-body {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .streaming-features .sf-split {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .streaming-features .sf-list {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .streaming-features .sf-media {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+    margin-left: 8.3333%;
+  }
+
+  .streaming-features .sf-grid {
+    flex-flow: row wrap;
+  }
+
+  .streaming-features .sf-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-features .sf-head :is(h1, h2) {
+    margin: 16px 0;
+  }
+
+  .streaming-features .sf-head p {
+    margin-bottom: 24px;
+  }
+
+  .streaming-features .sf-feat {
+    margin-top: 24px;
+  }
+
+  .streaming-features .sf-text p {
+    margin-bottom: 24px;
+  }
+
+  .streaming-features .sf-body .sf-link p,
+  .streaming-features .sf-body .sf-text:has(+ .sf-link) p {
+    margin-bottom: 16px;
+  }
+
+  .streaming-features .sf-split {
+    margin-top: 56px; /* source row spacing-top--l + the first feature row's spacing-top--m */
+  }
+
+  .streaming-features .sf-media {
+    margin-bottom: 16px;
+  }
+
+  .streaming-features .sf-grid {
+    margin-bottom: 32px;
+  }
+}
+
+/* ---- center variant: head centred in the middle 8/12 ---- */
+.streaming-features.center .sf-head {
+  text-align: center;
+}
+
+/* ---- media-start variant: picture left (7/12), features right (offset 1, 4/12) ---- */
+@media (width >= 768px) {
+  .streaming-features.center .sf-head {
+    max-width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+    margin: 0 auto;
+  }
+
+  .streaming-features.media-start .sf-split {
+    flex-direction: row-reverse;
+  }
+
+  .streaming-features.media-start .sf-list {
+    margin-left: 8.3333%;
+  }
+
+  .streaming-features.media-start .sf-media {
+    margin-left: 0;
+  }
+}
+
+/* center: the source's centred band rhythm (head, lead, heading-titled features) */
+.streaming-features.center {
+  padding-bottom: 0;
+}
+
+.streaming-features.center .sf-head p {
+  line-height: 1.4;
+}
+
+.streaming-features.center .sf-title-heading :is(h3, h4) {
+  margin-bottom: 0;
+}
+
+.streaming-features.media-start {
+  padding: 65px 0 2rem;
+}
+
+@media (width < 1024px) {
+  .streaming-features.center .sf-head :is(h1, h2) {
+    margin: 0 0 13px;
+  }
+
+  .streaming-features.center .sf-head p {
+    line-height: 1.5;
+  }
+
+  .streaming-features.center .sf-split {
+    margin-top: 47px;
+  }
+
+  .streaming-features.media-start .sf-split {
+    margin-top: 48px;
+  }
+
+  .streaming-features.center .sf-media {
+    margin-bottom: 0;
+  }
+}
+
+@media (width < 768px) {
+  /* centred bands: the icon fills its 2/12 cell (live 37px at 360) */
+  .streaming-features.center .sf-icon img {
+    width: 100%;
+  }
+
+  /* a centred band's picture above the features: 9/12, centred */
+  .streaming-features.center:not(.media-start) .sf-media img {
+    width: calc((100% + var(--container-pad)) * 3 / 4 - var(--container-pad));
+    margin: 0 auto;
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-features.center .sf-head :is(h1, h2) {
+    margin: 8px 0 21px;
+  }
+
+  .streaming-features.center .sf-split {
+    margin-top: 62px;
+  }
+
+  .streaming-features.media-start {
+    padding-top: 72px;
+  }
+
+  .streaming-features.media-start .sf-split {
+    margin-top: 61px;
+  }
+}
+
+/* ---- contact variant: orange band, centred head, white channel cards ---- */
+.streaming-features.contact {
+  padding: 2rem 0 35px;
+  background: linear-gradient(#ff4608 0%, #ff5f00 70%, #f7931e);
+  color: #fff;
+}
+
+.streaming-features.contact .sf-head {
+  max-width: none;
+  text-align: center;
+}
+
+.streaming-features.contact .sf-head :is(h1, h2) {
+  margin: 0 0 8px;
+  color: #fff;
+}
+
+.streaming-features.contact .sf-head p {
+  margin-bottom: 22px;
+  font-size: 1.42rem;
+  line-height: 1.1;
+}
+
+.streaming-features.contact .sf-grid {
+  margin-bottom: 0;
+}
+
+.streaming-features.contact .sf-col {
+  margin-bottom: 16px;
+}
+
+.streaming-features.contact .sf-feat {
+  height: 100%;
+  margin: 0;
+  padding: 8px 24px 6px;
+  border-radius: var(--border-radius);
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  color: var(--color-secondary);
+}
+
+.streaming-features.contact .sf-icon {
+  flex: 0 0 calc((100% + var(--container-pad)) / 4);
+  max-width: none;
+  margin-left: calc(var(--container-pad) / -2);
+  padding: 10px calc(var(--container-pad) / 2) 0;
+}
+
+.streaming-features.contact .sf-icon img {
+  width: 100%;
+}
+
+.streaming-features.contact .sf-body {
+  flex: 0 0 calc((100% + var(--container-pad)) * 2 / 3);
+  max-width: none;
+  min-width: 0;
+  padding: 18px calc(var(--container-pad) / 2) 0;
+}
+
+.streaming-features.contact .sf-title {
+  margin-bottom: 8px;
+}
+
+.streaming-features.contact .sf-text p {
+  margin-bottom: 16px;
+}
+
+.streaming-features.contact .sf-link p {
+  margin: 0;
+}
+
+.streaming-features.contact a.sf-btn:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  color: var(--color-tertiary-darken-40);
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.streaming-features.contact a.sf-btn:hover {
+  color: #000b55;
+}
+
+.streaming-features.contact .sf-col-lead a.sf-btn:any-link {
+  margin-bottom: 16px;
+}
+
+.streaming-features .btn-title {
+  padding-bottom: 3px;
+}
+
+.streaming-features .btn-title-large {
+  display: none;
+}
+
+.streaming-features .sf-btn .icon {
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  font-family: var(--icon-font);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.streaming-features .icon-chevron-right::before {
+  content: "+";
+}
+
+@media (width >= 768px) {
+  .streaming-features.contact {
+    padding-bottom: 2rem;
+    background: var(--gradient-primary);
+  }
+
+  .streaming-features.contact .sf-head {
+    max-width: calc((100% + var(--container-pad)) * 2 / 3 - var(--container-pad));
+    margin: 0 auto;
+  }
+
+  .streaming-features.contact .sf-head p {
+    margin-bottom: 32px;
+  }
+
+  .streaming-features.contact .sf-body {
+    flex-basis: calc((100% + var(--container-pad)) * 3 / 4);
+  }
+}
+
+@media (width >= 1024px) {
+  .streaming-features.contact .sf-head p {
+    font-size: 1.95rem;
+  }
+
+  .streaming-features.contact .sf-col {
+    margin-bottom: 32px;
+  }
+
+  .streaming-features.contact .sf-feat {
+    padding: 16px 32px;
+  }
+
+  .streaming-features.contact .sf-icon {
+    padding-top: 16px;
+  }
+
+  .streaming-features.contact .sf-body {
+    padding-top: 24px;
+  }
+
+  .streaming-features.contact .sf-text p {
+    margin-bottom: 16px;
+  }
+
+  .streaming-features.contact .sf-link p {
+    margin: 0;
+  }
+
+  .streaming-features.contact .sf-col-lead a.sf-btn:any-link {
+    margin-bottom: 24px;
+  }
+}
+
+/* ==== BEGIN streaming-features (landing) variant — owned by cluster-landing; scoped to
+   .streaming-features.landing: centred head (orange eyebrow, dark title, 18px intro in 7/12) over
+   three centred icon features stacked icon / title / copy, 3/12 columns from 768px (source
+   extra-zenders "Daarom kijk je") ==== */
+.streaming-features.landing .sf-head {
+  max-width: 649px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.streaming-features.landing .sf-head p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.streaming-features.landing .sf-head p:has(+ :is(h1, h2)) {
+  color: var(--color-primary);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.streaming-features.landing .sf-head :is(h1, h2) {
+  margin: 8px 0;
+  color: var(--color-secondary);
+}
+
+.streaming-features.landing .sf-grid {
+  display: grid;
+  margin: 16px 0 47px;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  justify-content: center;
+}
+
+.streaming-features.landing .sf-col,
+.streaming-features.landing .sf-feat {
+  max-width: none;
+  padding: 0;
+  text-align: center;
+}
+
+.streaming-features.landing .sf-feat {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.streaming-features.landing .sf-icon,
+.streaming-features.landing .sf-body {
+  display: flex;
+  flex: none;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.streaming-features.landing .sf-body {
+  display: block;
+}
+
+.streaming-features.landing .sf-icon img {
+  width: 93px;
+  height: 93px;
+}
+
+.streaming-features.landing .sf-title :is(h3, h4) {
+  margin: 8px 0;
+  font-size: var(--heading-font-size-5);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.streaming-features.landing .sf-feat p {
+  margin-bottom: 0;
+}
+
+/* below 768px the band opens 47px above the eyebrow (source 360) */
+@media (width < 768px) {
+  .streaming-features.landing .sf-inner {
+    padding-top: 47px;
+  }
+}
+
+@media (width >= 768px) {
+  .streaming-features.landing .sf-inner {
+    padding-top: 56px;
+  }
+
+  .streaming-features.landing .sf-grid {
+    grid-template-columns: repeat(3, 292px);
+    gap: 32px;
+    margin: 16px 0 56px;
+  }
+
+  .streaming-features.landing .sf-icon img {
+    width: 76px;
+    height: 76px;
+  }
+
+  .streaming-features.landing .sf-title :is(h3, h4) {
+    margin: 16px 0 8px;
+  }
+}
+
+/* ==== END streaming-features (landing) variant ==== */

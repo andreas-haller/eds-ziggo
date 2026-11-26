@@ -1,0 +1,429 @@
+/* FAQ accordion (source vfz-accordion in a centred 8-column grouping) */
+.faq-accordion {
+  background: #fff;
+  color: var(--color-secondary);
+}
+
+.faq-accordion .faq-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad) 2rem;
+}
+
+.faq-accordion .faq-head :is(h1, h2, h3, h4) {
+  margin: 32px 0 24px;
+  color: var(--color-primary);
+  font-size: var(--heading-font-size-2);
+  text-align: center;
+}
+
+.faq-accordion .acc {
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.faq-accordion .acc:first-child {
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.faq-accordion .acc-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-accordion .acc-title {
+  flex-grow: 1;
+  padding-right: 12px;
+}
+
+.faq-accordion .acc-title p {
+  color: var(--color-gray-900);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.faq-accordion .acc-chevron {
+  width: 17px;
+  color: var(--color-gray-500);
+  line-height: 24px;
+  text-align: right;
+}
+
+.faq-accordion .acc-chevron::after {
+  content: ".";
+  display: block;
+  font-family: var(--icon-font);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  transform: rotate(180deg);
+}
+
+.faq-accordion .acc-header[aria-expanded="true"] .acc-chevron::after {
+  transform: none;
+}
+
+.faq-accordion .acc-header:hover :is(.acc-title p, .acc-chevron),
+.faq-accordion .acc-header[aria-expanded="true"] :is(.acc-title p, .acc-chevron) {
+  color: var(--color-gray-700);
+}
+
+.faq-accordion .acc-body {
+  padding: 0 0 16px;
+  overflow: hidden;
+}
+
+.faq-accordion .acc-body[hidden] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .faq-accordion .acc-body.is-sliding {
+    transition: height 0.3s ease;
+  }
+}
+
+.faq-accordion .acc-body p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.faq-accordion .acc-body a:any-link {
+  text-decoration: underline;
+}
+
+.faq-accordion .acc-body ul {
+  margin: 0 0 16px;
+  padding-left: 40px;
+  list-style: disc;
+}
+
+.faq-accordion .acc-body li {
+  font-weight: 300;
+}
+
+.faq-accordion .acc-body p:has(> :is(picture, img)) {
+  width: calc(16.6667% - var(--container-pad));
+  margin: 0 0 16px;
+}
+
+.faq-accordion .acc-body p:has(> :is(picture, img)) img {
+  width: 100%;
+}
+
+.faq-accordion .acc-body sub {
+  font-size: 75%;
+}
+
+@media (width >= 768px) {
+  .faq-accordion .faq-inner > * {
+    width: calc((100% + var(--container-pad)) * 0.6667 - var(--container-pad));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .faq-accordion .acc-body p:has(> :is(picture, img)) {
+    width: calc(8.3333% - var(--container-pad));
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion .faq-head :is(h1, h2, h3, h4) {
+    margin: 40px 0 32px;
+  }
+
+  .faq-accordion .acc-title p {
+    font-size: 18px;
+  }
+
+  .faq-accordion .acc-body ul {
+    margin-bottom: 24px;
+  }
+}
+
+/* ==== BEGIN faq-accordion (program) variant — owned by archetype-program; scoped to
+   .faq-accordion.program: the FAQ step of the builder column on the gray band ==== */
+.faq-accordion.program {
+  background: transparent;
+}
+
+.faq-accordion.program .faq-inner {
+  padding-bottom: 0;
+}
+
+.faq-accordion.program .faq-inner > * {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.faq-accordion.program .faq-head :is(h1, h2, h3, h4) {
+  margin: 0 0 9px;
+  color: var(--color-secondary);
+  font-size: var(--heading-font-size-3);
+  text-align: left;
+}
+
+.faq-accordion.program .acc:first-child {
+  border-top: 0;
+}
+
+.faq-accordion.program .acc-group {
+  margin-bottom: 48px;
+}
+
+@media (width >= 768px) {
+  .faq-accordion.program .faq-inner > * {
+    width: calc((100% + var(--container-pad)) * 0.5 - var(--container-pad));
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.program .faq-head :is(h1, h2, h3, h4) {
+    margin: 0 0 9px;
+  }
+}
+
+/* ==== END faq-accordion (program) variant ==== */
+
+/* ==== BEGIN faq-accordion (streaming) variant — owned by archetype-streaming; scoped to
+   .faq-accordion.streaming: the list in the left 8/12 under a left-aligned title (source
+   .sd-sec--faq) ==== */
+.faq-accordion.streaming .faq-inner {
+  padding-top: 2rem;
+}
+
+.faq-accordion.streaming .faq-head :is(h1, h2, h3, h4) {
+  margin: 8px 0 16px;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .faq-accordion.streaming .faq-inner > * {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.streaming .faq-head :is(h1, h2, h3, h4) {
+    margin: 8px 0 24px;
+  }
+}
+
+/* ==== END faq-accordion (streaming) variant ==== */
+
+/* ==== BEGIN faq-accordion (listing) variant — owned by archetype-listing; scoped to
+   .faq-accordion.listing: centred 8/12 list under a left-aligned title, 2rem band padding
+   (source zenderoverzicht .zo-sec--faq) ==== */
+.faq-accordion.listing .faq-inner {
+  padding-top: 2rem;
+}
+
+.faq-accordion.listing .faq-head :is(h1, h2, h3, h4) {
+  margin: 0 0 8px;
+  text-align: left;
+}
+
+.faq-accordion.listing .acc-group {
+  margin-bottom: 16px;
+}
+
+/* ==== END faq-accordion (listing) variant ==== */
+
+/* ==== BEGIN faq-accordion (landing) variant — owned by cluster-landing: full container
+   width list under a left-aligned display title ==== */
+.faq-accordion.landing .faq-inner {
+  padding-top: 64px;
+}
+
+.faq-accordion.landing .faq-inner > * {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.faq-accordion.landing .faq-head :is(h1, h2, h3, h4) {
+  margin: 0 0 25px;
+  font-size: var(--heading-font-size-1);
+  text-align: left;
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.landing .faq-inner {
+    padding-top: 72px;
+  }
+
+  .faq-accordion.landing .faq-head :is(h1, h2, h3, h4) {
+    margin: 0 0 32px;
+  }
+}
+
+/* tail: the landing list followed by another band (64px above and below) */
+@media (width >= 1024px) {
+  .faq-accordion.landing.tail .faq-inner {
+    padding: 64px var(--container-pad);
+  }
+}
+
+/* ==== END faq-accordion (landing) variant ==== */
+
+/* ==== BEGIN faq-accordion (program title-h2 / product) — owned by cluster-program; scoped to
+   .faq-accordion.program: h2-sized title (title-h2) and, on the product pages (product), the
+   primary-coloured title with its intro line ==== */
+.faq-accordion.program.title-h2 .faq-head :is(h1, h2, h3, h4) {
+  font-size: var(--heading-font-size-2);
+}
+
+.faq-accordion.program.product .faq-head :is(h1, h2, h3, h4) {
+  margin-top: 32px;
+  color: var(--color-primary);
+}
+
+.faq-accordion.program .faq-head p {
+  margin: 0 0 16px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.program .faq-head p {
+    margin-bottom: 24px;
+  }
+}
+
+.faq-accordion.program .faq-head :is(h1, h2, h3, h4):has(+ p) {
+  margin-bottom: 8px;
+}
+
+/* ==== END faq-accordion (program title-h2 / product) ==== */
+
+/* ==== BEGIN faq-accordion (ten) variant — owned by cluster-landing: the list and a dark
+   left-aligned title in the centred 10/12 column (source extra-zenders / ziggo-sport FAQ) ==== */
+.faq-accordion.ten .faq-inner {
+  padding-top: 32px;
+}
+
+.faq-accordion.ten .faq-head :is(h1, h2, h3, h4) {
+  margin: 0 0 9px;
+  color: var(--color-secondary);
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .faq-accordion.ten .faq-inner > * {
+    width: calc((100% + var(--container-pad)) * 0.8333 - var(--container-pad));
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.ten .faq-head :is(h1, h2, h3, h4) {
+    margin: 0 0 9px;
+  }
+}
+
+/* ==== END faq-accordion (ten) variant ==== */
+
+/* ==== BEGIN faq-accordion (side) variant — owned by cluster-landing: the list in the left
+   column of a section that also holds an aside card (cards aside lays out the columns) ==== */
+.faq-accordion.side .faq-inner {
+  padding-top: 32px;
+}
+
+.faq-accordion.side .faq-head :is(h1, h2, h3, h4) {
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.side .faq-inner {
+    max-width: none;
+    padding: 104px 0 0 32px;
+  }
+
+  .faq-accordion.side .faq-inner > * {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .faq-accordion.side .faq-head :is(h1, h2, h3, h4) {
+    margin: 0 0 32px;
+  }
+}
+
+/* below 768px the list sits under the aside card, inset 44px (source espn 360) */
+@media (width < 768px) {
+  .faq-accordion.side .faq-inner {
+    padding: 40px 44px 96px;
+  }
+
+  .faq-accordion.side .faq-head :is(h1, h2, h3, h4) {
+    margin-bottom: 32px;
+  }
+}
+
+/* ==== END faq-accordion (side) variant ==== */
+
+/* ==== faq-accordion (landing title-h2) — cluster-article: the full-container list with an
+   h2-size (39px) orange title (source 4k-uhd / mediaboxen "Veelgestelde vragen") ==== */
+.faq-accordion.landing.title-h2 .faq-head :is(h1, h2, h3, h4) {
+  font-size: var(--heading-font-size-2);
+}
+
+/* ==== faq-accordion (roomy) — owned by cluster-landing: below 768px the title 56px under the
+   band above and 33px over the list (source ziggo-sport 360) ==== */
+@media (width < 768px) {
+  .faq-accordion.roomy .faq-inner {
+    padding-top: 24px;
+    padding-bottom: 22px;
+  }
+
+  .faq-accordion.roomy .faq-head :is(h1, h2, h3, h4) {
+    margin-bottom: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.landing.title-h2 .faq-inner {
+    padding-top: 42px;
+  }
+}
+
+/* ==== faq-accordion (side wide) — gate-all, source ziggo-go: the list at the container edge,
+   title 32px under the band top below 768px (live x20 w320) and 40px from 1024px with the list
+   33px over the band foot (live h2 Δy +64 Δx +32, band 547 vs 675) ==== */
+@media (width < 768px) {
+  .faq-accordion.side.wide .faq-inner {
+    padding: 32px var(--container-pad) 9px;
+  }
+
+  .faq-accordion.side.wide .faq-head :is(h1, h2, h3, h4) {
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.side.wide .faq-inner {
+    padding: 40px 0 33px;
+  }
+}
+
+/* ==== faq-accordion (landing title-h2 deep) — gate-all, source online-tv-kijken: the title 8px
+   lower below 768px; from 1024px 80px under the band top with 72px under the list (live h2 Δy −8 /
+   −38, band 684 vs 606) ==== */
+@media (width < 768px) {
+  .faq-accordion.landing.title-h2.deep .faq-inner {
+    padding-top: 8px;
+  }
+}
+
+@media (width >= 1024px) {
+  .faq-accordion.landing.title-h2.deep .faq-inner {
+    padding-top: 80px;
+    padding-bottom: 72px;
+  }
+}

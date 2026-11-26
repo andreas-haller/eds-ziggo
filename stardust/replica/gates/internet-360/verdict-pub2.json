@@ -1,0 +1,111 @@
+{
+  "round": "pub2",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/internet-360/diff-pub2.png",
+    "json": "stardust/replica/gates/internet-360/pixel-pub2.json",
+    "pct": 18.22,
+    "alignedPct": 9.99,
+    "alignedUsed": true,
+    "totalShift": 234,
+    "steps": [
+      {
+        "y": 1706,
+        "shift": -25,
+        "cumulative": -25
+      },
+      {
+        "y": 2093,
+        "shift": 8,
+        "cumulative": -17
+      },
+      {
+        "y": 2730,
+        "shift": 16,
+        "cumulative": -1
+      },
+      {
+        "y": 3988,
+        "shift": 102,
+        "cumulative": 101
+      },
+      {
+        "y": 4722,
+        "shift": -26,
+        "cumulative": 75
+      },
+      {
+        "y": 4973,
+        "shift": -1,
+        "cumulative": 74
+      },
+      {
+        "y": 5279,
+        "shift": -8,
+        "cumulative": 66
+      },
+      {
+        "y": 5623,
+        "shift": -1,
+        "cumulative": 65
+      },
+      {
+        "y": 6226,
+        "shift": -42,
+        "cumulative": 23
+      },
+      {
+        "y": 8285,
+        "shift": 4,
+        "cumulative": 27
+      },
+      {
+        "y": 8829,
+        "shift": 1,
+        "cumulative": 28
+      }
+    ],
+    "offsetBound": 93,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 11 step(s), 234px total — −25px at y=1706, +8px at y=2093, +16px at y=2730, +102px at y=3988, −26px at y=4722, −1px at y=4973, … 5 more (bound 93px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:05:18.992Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-360/content-diff-pub2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-360/visual-diff-pub2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/internet-360/chrome-parity-pub2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-360/clip-pub2.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-360/content-presence-pub2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/internet-360/units-pub2.txt"
+    }
+  },
+  "structural": 151,
+  "nothingLost": 1,
+  "at": "2026-11-25T22:25:28.332Z"
+}

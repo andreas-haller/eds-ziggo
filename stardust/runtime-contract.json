@@ -1,0 +1,17 @@
+{
+  "runtime": "vanilla-eds",
+  "probedAt": "2026-11-25",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "blockWrapperClass": "block",
+  "blockDom": "div.section.<name>-container > div.<name>-wrapper > div.<name>.block[data-block-name=<name>]",
+  "defaultContentWrapper": "div.default-content-wrapper",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonRules": "decorateButtons(): p a[href] alone in its <p>, no <img>, not a URL-display link; <strong> -> primary, <em> -> secondary, both -> accent; the emphasis tag is replaced by the classed anchor; runs after decorateBlocks (classes present before block decorate() is loaded)",
+  "wrapTextNodes": true,
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "chrome": "header/footer blocks load /nav and /footer via blocks/fragment/fragment.js loadFragment (overridable by nav/footer metadata)",
+  "fonts": "styles/fonts.css loaded by loadFonts() (eager on desktop >= 900px or fonts-loaded session flag; always in loadLazy)",
+  "autoBlocks": ["fragments (/fragments/ links)", "widget (/widgets/ links)"],
+  "emptySectionCollapse": true
+}

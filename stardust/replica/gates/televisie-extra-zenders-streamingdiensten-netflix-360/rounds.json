@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-25T14:16:48.365Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-25T14:21:33.143Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-25T14:22:26.320Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel 0.76% aligned PASS, Δh 0, content-diff 0 red / 0 nothing-lost, Clipped 0; only gate exit is chrome-parity's canon logo signature (.svg extension, the same accepted residual as every earlier archetype); units family p.m. span fixed after iter3 and verified standalone: gate-all prototype PASS off 0 (stardust/replica/gates/prototypes-360)",
+          "at": "2026-11-25T14:26:49.515Z",
+          "counted": 3
+        }
+      ]
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-25T18:06:26.853Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-25T18:26:58.047Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pub2: pixel aligned 0.77% dh +3 units PASS clipped 0 no overflow; residual = live chat availability label flips between captures (dynamic; authored available state 'Start een chat'), sticky-subnav mobile toggle named 'Menu' vs source unlabeled 'Bekijk categorieen' control (as article), header logo signature advisory (same svg file, as channel), FAQ dual-label classifier artefact, empty source interactions nav aria-label, 131 header/footer icon class (foundation request filed)",
+          "at": "2026-11-25T18:27:09.428Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-25T18-34-16-738Z",
+          "at": "2026-11-25T18:36:13.476Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-25T19-54-03-173Z",
+          "at": "2026-11-25T19:55:19.090Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:27:16.605Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T03-47-55-756Z",
+          "at": "2026-11-26T03:50:29.533Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

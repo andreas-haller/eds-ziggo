@@ -1,0 +1,66 @@
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 276 text nodes — 44 headings, 0 eyebrows, 15 CTAs, 217 body; 54 img
+  build: 282 text nodes — 44 headings, 0 eyebrows, 18 CTAs, 220 body; 49 img
+  editable texts (outermost h*/p/ul/ol): source 102 / build 104
+  attributes (placeholder/aria-label/title): source 6 / build 8; icons: source 108 / build 95
+root "header"
+  source: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  build: 163 text nodes — 0 headings, 4 eyebrows, 130 CTAs, 29 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 3
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 127 / build 130
+root "footer"
+  source: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  build: 84 text nodes — 8 headings, 0 eyebrows, 76 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 4 / build 4; icons: source 9 / build 9
+
+Findings: 46 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 46
+  🟠 EXTRA [#main-content]: build cta "Bel ons Hulp bij je bestelling Bel ons" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Chat met ons Beschikbaar Chat" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#main-content]: build cta "Ga verder" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#main-content]: source body "Bel ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Hulp bij je bestelling"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Bel ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chat met ons"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Beschikbaar"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chat"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#main-content]: build body "Open je bestelling" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Sluit je bestelling" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Eerste 12 maanden" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "12 maanden korting" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Kosten" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "63,35" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Van" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "34,95" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Voor" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <aside> aria-label="Je bestelling" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <div> aria-label="Je bestelling" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON DIFF [#main-content]: source icon-font glyph U (ziggo-ui-icon-v22, 0×0) vs build empty icon box (0×0) at "we hebben eerst je adres nodig. dan wete". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) at "postcode" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) at "huisnummer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source icon-font glyph 7 (ziggo-ui-icon-v22, 0×0) at "toevoeging" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source inline svg 0 0 22 22 / 2 shape(s) (18×18) at "ik ben ondernemer" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source inline svg 0 0 22 22 / 2 shape(s) (18×18) at "ja" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 200 mbit/s internet 200 mbit/s " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 500 mbit/s internet 500 mbit/s " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 1 gbit/s internet 1 gbit/s 1000" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 2 gbit/s internet 2 gbit/s 2000" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 4 gbit/s internet 4 gbit/s 4000" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "internet 8 gbit/s meeste korting interne" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [#main-content]: source image ESPN_logos_RGB_ESPN_Logo_POS_RGB (60×21) vs build image ESPN_logos_RGB_ESPN_Logo_POS_RGB.jpg (60×21) at "alle espn-zenders standaard in elk tv-pa". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [#main-content]: source image 26080017_Ziggo_Visual_Voetbal_1080x608 (20×12) vs build image 26080017_Ziggo_Visual_Voetbal_1080x608.webp (20×12) at "kijk live de mooiste topduels standaard ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "tv start meest gekozen tv start 70+ zend" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "tv complete tv complete 70+ zenders alle" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "tv max tv max 110+ zenders alle espn-zen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main-content]: source image img.jpeg (20×9) at "vast bellen vast bellen 16 cent per minu" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [#main-content]: source image connection_phone-1 (31×31) vs build image connection_phone-1.svg (31×31) at "bel werkdagen 8.00 - 20.00 zaterdag 9.00". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [#main-content]: source image customer-support_call-center (31×31) vs build image customer-support_call-center.svg (31×31) at "chat stel direct je vraag aan één van on". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [#main-content]: source image buildings_shop-1 (31×31) vs build image buildings_shop-1.svg (31×31) at "winkel bezoek een ziggo winkel bij je in". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph . (ziggo-ui-icon-v22, 0×0) at "open je bestelling" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build icon-font glyph U+E955 (ziggo-ui-icon-v22, 0×0) at "sluit je bestelling" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "producten producten" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "klantenservice klantenservice" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph - (ziggo-ui-icon-v22, 0×0) at "entertainment entertainment" has no source source. Build-only icon — confirm it is intended.

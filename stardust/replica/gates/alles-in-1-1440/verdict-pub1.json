@@ -1,0 +1,116 @@
+{
+  "round": "pub1",
+  "width": 1440,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/alles-in-1-1440/diff-pub1.png",
+    "json": "stardust/replica/gates/alles-in-1-1440/pixel-pub1.json",
+    "pct": 9.72,
+    "alignedPct": 4.62,
+    "alignedUsed": true,
+    "totalShift": 416,
+    "steps": [
+      {
+        "y": 1638,
+        "shift": 16,
+        "cumulative": 16
+      },
+      {
+        "y": 2016,
+        "shift": 16,
+        "cumulative": 32
+      },
+      {
+        "y": 2398,
+        "shift": 16,
+        "cumulative": 48
+      },
+      {
+        "y": 2780,
+        "shift": 16,
+        "cumulative": 64
+      },
+      {
+        "y": 3162,
+        "shift": 16,
+        "cumulative": 80
+      },
+      {
+        "y": 3567,
+        "shift": 16,
+        "cumulative": 96
+      },
+      {
+        "y": 3992,
+        "shift": 1,
+        "cumulative": 97
+      },
+      {
+        "y": 4723,
+        "shift": 19,
+        "cumulative": 116
+      },
+      {
+        "y": 5135,
+        "shift": 24,
+        "cumulative": 140
+      },
+      {
+        "y": 5610,
+        "shift": 29,
+        "cumulative": 169
+      },
+      {
+        "y": 6986,
+        "shift": -24,
+        "cumulative": 145
+      },
+      {
+        "y": 7158,
+        "shift": -32,
+        "cumulative": 113
+      }
+    ],
+    "offsetBound": 107,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 16 step(s), 416px total — +16px at y=1638, +16px at y=2016, +16px at y=2398, +16px at y=2780, +16px at y=3162, +16px at y=3567, … 10 more (bound 107px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T12:21:39.049Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/alles-in-1-1440/units-pub1.txt"
+    }
+  },
+  "structural": 137,
+  "nothingLost": 12,
+  "at": "2026-11-25T17:42:41.520Z"
+}

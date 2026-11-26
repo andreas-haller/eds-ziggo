@@ -1,0 +1,96 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/index-360/diff-pub1.png",
+    "json": "stardust/replica/gates/index-360/pixel-pub1.json",
+    "pct": 11.72,
+    "alignedPct": 2.93,
+    "alignedUsed": true,
+    "totalShift": 18,
+    "steps": [
+      {
+        "y": 476,
+        "shift": -5,
+        "cumulative": -5
+      },
+      {
+        "y": 705,
+        "shift": -7,
+        "cumulative": -12
+      },
+      {
+        "y": 1875,
+        "shift": -1,
+        "cumulative": -13
+      },
+      {
+        "y": 2506,
+        "shift": 1,
+        "cumulative": -12
+      },
+      {
+        "y": 3589,
+        "shift": 1,
+        "cumulative": -11
+      },
+      {
+        "y": 6047,
+        "shift": -1,
+        "cumulative": -12
+      },
+      {
+        "y": 6489,
+        "shift": -1,
+        "cumulative": -13
+      },
+      {
+        "y": 7033,
+        "shift": 1,
+        "cumulative": -12
+      }
+    ],
+    "offsetBound": 75,
+    "maskedRows": 356,
+    "noiseFloor": 2.53,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T11:10:41.231Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "5292:356"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/units-pub1.txt"
+    }
+  },
+  "structural": 468,
+  "nothingLost": 22,
+  "at": "2026-11-25T16:20:33.850Z"
+}

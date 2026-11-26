@@ -1,0 +1,106 @@
+{
+  "round": "pub1",
+  "width": 360,
+  "stage": "published",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/televisie-kijkprofielen-360/diff-pub1.png",
+    "json": "stardust/replica/gates/televisie-kijkprofielen-360/pixel-pub1.json",
+    "pct": 40.77,
+    "alignedPct": 24.59,
+    "alignedUsed": true,
+    "totalShift": 716,
+    "steps": [
+      {
+        "y": 315,
+        "shift": 120,
+        "cumulative": 120
+      },
+      {
+        "y": 863,
+        "shift": -58,
+        "cumulative": 62
+      },
+      {
+        "y": 1607,
+        "shift": -82,
+        "cumulative": -20
+      },
+      {
+        "y": 1970,
+        "shift": -25,
+        "cumulative": -45
+      },
+      {
+        "y": 2205,
+        "shift": -67,
+        "cumulative": -112
+      },
+      {
+        "y": 2540,
+        "shift": -76,
+        "cumulative": -188
+      },
+      {
+        "y": 2938,
+        "shift": -42,
+        "cumulative": -230
+      },
+      {
+        "y": 4241,
+        "shift": -141,
+        "cumulative": -371
+      },
+      {
+        "y": 7244,
+        "shift": -10,
+        "cumulative": -381
+      },
+      {
+        "y": 7547,
+        "shift": -95,
+        "cumulative": -476
+      }
+    ],
+    "offsetBound": 76,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "pixel aligned 24.59% (unaligned 40.77%) > 10%"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-25T22:39:24.430Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/content-diff-pub1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/visual-diff-pub1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/chrome-parity-pub1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/clip-pub1.txt"
+    },
+    "content-presence": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/content-presence-pub1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/televisie-kijkprofielen-360/units-pub1.txt"
+    }
+  },
+  "structural": 131,
+  "nothingLost": 0,
+  "at": "2026-11-25T22:42:13.450Z"
+}

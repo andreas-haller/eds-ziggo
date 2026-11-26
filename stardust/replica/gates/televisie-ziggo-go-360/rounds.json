@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "stages": {
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-26T01:01:36.837Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-26T01:48:15.035Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cluster-article-3: pub1 27.5% → pub2 22.70% → gate-all 360 after r2 (hero fit, icon rows) aligned 15.61% Δh -133 (stardust/replica/gates/all-360/runs/2026-11-26T02-06-59-642Z-televisie-voicecontrol.json); remaining: mediabox plain card rhythm, banner copy/button styles at 360, FAQ side layout, intro CTA small-screen label 'Over Ziggo GO' (doc carries only the large label) — needs a mobile layout pass beyond the round cap",
+          "at": "2026-11-26T02:14:40.192Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-26T02-00-07-818Z",
+          "at": "2026-11-26T02:06:59.638Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-26T02-52-34-811Z",
+          "at": "2026-11-26T02:54:48.639Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-26T03-17-48-273Z",
+          "at": "2026-11-26T03:38:50.772Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-26T04-05-29-331Z",
+          "at": "2026-11-26T04:16:24.485Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cluster-article-3: aligned 15.61% / content MISSING 1 = the 360 label variant of the #functies CTA (link present with its 1440 label 'Dit kan je met Ziggo GO'); see stardust/replica/gates/all-360/runs/2026-11-26T02-06-59-642Z-televisie-voicecontrol.json",
+          "at": "2026-11-26T02:14:40.281Z",
+          "counted": 1
+        }
+      ]
+    }
+  }
+}

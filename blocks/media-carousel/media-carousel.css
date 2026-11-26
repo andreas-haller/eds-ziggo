@@ -1,0 +1,192 @@
+/* media card carousel (source .mcar / .mslide): centred slide, peeking neighbours */
+.media-carousel .mcar {
+  position: relative;
+  padding-bottom: 16px;
+  overflow: hidden;
+}
+
+.media-carousel .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.media-carousel .mcar-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  height: 40px;
+  margin: 0 24px 20px 0;
+}
+
+.media-carousel .nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-tertiary);
+  border-radius: 50%;
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 0;
+}
+
+.media-carousel .nav-btn .zi {
+  color: var(--color-tertiary);
+  font-size: 20px;
+}
+
+.media-carousel .mcar-track {
+  --w: 75.278vw;
+  --gap: 16px;
+  --i: 1;
+
+  display: flex;
+  gap: var(--gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translateX(calc(50vw - var(--w) / 2 - (var(--w) + var(--gap)) * var(--i)));
+  transition: transform 0.4s ease;
+}
+
+.media-carousel .mslide {
+  position: relative;
+  flex: 0 0 var(--w);
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--color-gray-900);
+  color: var(--color-white);
+}
+
+.media-carousel .mslide-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.media-carousel .mslide-bg :is(div, picture, img) {
+  width: 100%;
+  height: 100%;
+}
+
+.media-carousel .mslide-bg img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.media-carousel .mslide-bg .bg-lg {
+  display: none;
+}
+
+.media-carousel .mslide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 65%));
+  pointer-events: none;
+}
+
+/* whole-slide link: the authored link stretched over the slide, its label kept for AT */
+.media-carousel .mslide-link a:any-link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  color: transparent;
+  font-size: 0;
+}
+
+.media-carousel .mslide-content {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 23.5px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.media-carousel .mslide-text {
+  width: 100%;
+}
+
+.media-carousel .mslide-title :is(h2, h3, h4, p) {
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-4);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.media-carousel .mslide-sub p {
+  color: var(--color-white);
+  font-weight: 300;
+}
+
+.media-carousel .mslide-cta {
+  margin-top: 16px;
+  pointer-events: auto;
+}
+
+.media-carousel .mslide-cta a.button .btn-arrow {
+  width: 20px;
+  font-size: 1.25rem;
+}
+
+@media (width >= 1024px) {
+  .media-carousel .mcar {
+    padding-bottom: 24px;
+  }
+
+  .media-carousel .mcar-nav {
+    margin: 0 84px 20px 0;
+  }
+
+  .media-carousel .mcar-track {
+    --w: 60.241vw;
+  }
+
+  .media-carousel .mslide {
+    aspect-ratio: 16 / 9;
+  }
+
+  .media-carousel .mslide-bg .bg-sm {
+    display: none;
+  }
+
+  .media-carousel .mslide-bg .bg-lg {
+    display: block;
+  }
+
+  .media-carousel .mslide-content {
+    left: 32px;
+    right: 32px;
+    bottom: 31.5px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    column-gap: 195.5px;
+  }
+
+  .media-carousel .mslide-text {
+    flex: 1;
+    width: auto;
+  }
+
+  .media-carousel .mslide-cta {
+    margin-top: 0;
+  }
+}
+
+/* the duplicate responsive label of the source button (see dualLabel) */
+.media-carousel a.button .btn-title-large {
+  display: none;
+}
