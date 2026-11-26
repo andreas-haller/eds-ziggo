@@ -1,0 +1,68 @@
+{
+  "variantName": "mediabox-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Centred intro heading above a row of product cards (picture, title, text, CTA button), finished by a closing line with a CTA; variants add boxed card chrome, icon cards or step layouts.",
+  "contentPattern": "Rows are classified by content: rows before the first picture row form the intro (eyebrow, heading, lead); each row with a picture is one card (picture, h3 title, text, CTA paragraph, <em><a> for an outline button); rows after the cards form the closing (title paragraph + CTA paragraph).",
+  "options": [
+    {
+      "class": "boxed",
+      "label": "Boxed"
+    },
+    {
+      "class": "groups",
+      "label": "Groups"
+    },
+    {
+      "class": "h5",
+      "label": "H5"
+    },
+    {
+      "class": "halves",
+      "label": "Halves"
+    },
+    {
+      "class": "icons",
+      "label": "Icons"
+    },
+    {
+      "class": "landing",
+      "label": "Landing"
+    },
+    {
+      "class": "minor",
+      "label": "Minor"
+    },
+    {
+      "class": "plain",
+      "label": "Plain"
+    },
+    {
+      "class": "regular",
+      "label": "Regular"
+    },
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "snug",
+      "label": "Snug"
+    },
+    {
+      "class": "steps",
+      "label": "Steps"
+    },
+    {
+      "class": "tight",
+      "label": "Tight"
+    },
+    {
+      "class": "white",
+      "label": "White"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a titled set of product or feature cards with an intro and a closing call to action.",
+  "reuseGuidance": "Reuse for any intro-plus-card-row section and pick variant classes (boxed, icons, steps, landing) for the card style rather than building a new card block."
+}

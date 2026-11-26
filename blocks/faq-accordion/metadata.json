@@ -1,0 +1,60 @@
+{
+  "variantName": "faq-accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "accordion",
+  "visualCharacteristics": "Centred list of questions with chevrons that expand to show answers with a height slide, optionally under a centred section title.",
+  "contentPattern": "A single-cell row with a heading = section title; each two-cell row = one item, cell 1 the question, cell 2 the answer (any content). Row order is free.",
+  "options": [
+    {
+      "class": "program",
+      "label": "Program"
+    },
+    {
+      "class": "streaming",
+      "label": "Streaming"
+    },
+    {
+      "class": "listing",
+      "label": "Listing"
+    },
+    {
+      "class": "landing",
+      "label": "Landing"
+    },
+    {
+      "class": "tail",
+      "label": "Tail spacing"
+    },
+    {
+      "class": "title-h2",
+      "label": "H2 title"
+    },
+    {
+      "class": "product",
+      "label": "Product page"
+    },
+    {
+      "class": "ten",
+      "label": "Ten (dark aside)"
+    },
+    {
+      "class": "side",
+      "label": "Side"
+    },
+    {
+      "class": "wide",
+      "label": "Wide"
+    },
+    {
+      "class": "roomy",
+      "label": "Roomy"
+    },
+    {
+      "class": "deep",
+      "label": "Deep"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for frequently asked questions sections near the end of program, landing and article pages.",
+  "reuseGuidance": "Reuse for any question/answer list, choosing the layout variant that matches the page rather than building a new accordion."
+}

@@ -1,0 +1,19 @@
+# contact-band
+
+Custom **cards** block. 
+
+## Authoring (Document Authoring)
+
+Model: `cards`
+
+Single block table. Content: one row, one cell of content.
+
+## Supported variations
+
+| Variation | Option class |
+| --- | --- |
+| Cards | `cards` |
+
+## Universal Editor fields
+
+N/A (Document Authoring project)

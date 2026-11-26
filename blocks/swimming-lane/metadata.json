@@ -1,0 +1,11 @@
+{
+  "variantName": "swimming-lane",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Two auto-scrolling marquee rows of portrait entertainment cards with channel logos and a hover \"Bekijk meer\" button, plus a play/pause toggle and a closing outline CTA.",
+  "contentPattern": "One row per card: cell 1 holds the card picture plus an optional channel-logo picture, cell 2 holds a link paragraph (accessible card label) and an optional copyright paragraph; a final row without images holds the CTA paragraph (em link = outline button). Cards are split evenly over the two lanes.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use to show a large, continuously scrolling wall of content titles (series, films, sports) as visual inspiration with one overall CTA.",
+  "reuseGuidance": "Reuse wherever many linked poster cards should animate as a marquee; for user-controlled sliders use media-carousel or feature-cards instead."
+}

@@ -1,0 +1,184 @@
+{
+  "variantName": "media-text",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "Two-column band with a picture beside a text column (heading, copy, list, CTA); stacks picture-on-top below 768px, with optional gray, gradient or orange band treatments.",
+  "contentPattern": "Row 1 has two cells in desktop reading order: a picture cell and a text cell (heading, paragraphs/list, CTA paragraph; a leading picture-only paragraph makes an icon-led group card). Optional further two-cell rows become accordion items under the text: cell 1 the item title, cell 2 the item body.",
+  "options": [
+    {
+      "class": "accent",
+      "label": "Accent"
+    },
+    {
+      "class": "airy",
+      "label": "Airy"
+    },
+    {
+      "class": "big",
+      "label": "Big"
+    },
+    {
+      "class": "card",
+      "label": "Card"
+    },
+    {
+      "class": "ctas",
+      "label": "Ctas"
+    },
+    {
+      "class": "dual",
+      "label": "Dual"
+    },
+    {
+      "class": "duo",
+      "label": "Duo"
+    },
+    {
+      "class": "fill",
+      "label": "Fill"
+    },
+    {
+      "class": "flush",
+      "label": "Flush"
+    },
+    {
+      "class": "gradient",
+      "label": "Gradient"
+    },
+    {
+      "class": "grouped",
+      "label": "Grouped"
+    },
+    {
+      "class": "half",
+      "label": "Half"
+    },
+    {
+      "class": "hero",
+      "label": "Hero"
+    },
+    {
+      "class": "inset",
+      "label": "Inset"
+    },
+    {
+      "class": "intro",
+      "label": "Intro"
+    },
+    {
+      "class": "large",
+      "label": "Large"
+    },
+    {
+      "class": "lead",
+      "label": "Lead"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "narrow",
+      "label": "Narrow"
+    },
+    {
+      "class": "natural",
+      "label": "Natural"
+    },
+    {
+      "class": "note",
+      "label": "Note"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "pair",
+      "label": "Pair"
+    },
+    {
+      "class": "pic5",
+      "label": "Pic 5"
+    },
+    {
+      "class": "plain",
+      "label": "Plain"
+    },
+    {
+      "class": "primary",
+      "label": "Primary"
+    },
+    {
+      "class": "roomy",
+      "label": "Roomy"
+    },
+    {
+      "class": "rule",
+      "label": "Rule"
+    },
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "snug",
+      "label": "Snug"
+    },
+    {
+      "class": "spaced",
+      "label": "Spaced"
+    },
+    {
+      "class": "stack",
+      "label": "Stack"
+    },
+    {
+      "class": "start",
+      "label": "Start"
+    },
+    {
+      "class": "sub",
+      "label": "Sub"
+    },
+    {
+      "class": "tags",
+      "label": "Tags"
+    },
+    {
+      "class": "tall",
+      "label": "Tall"
+    },
+    {
+      "class": "third",
+      "label": "Third"
+    },
+    {
+      "class": "tight",
+      "label": "Tight"
+    },
+    {
+      "class": "tint",
+      "label": "Tint"
+    },
+    {
+      "class": "tip",
+      "label": "Tip"
+    },
+    {
+      "class": "tips",
+      "label": "Tips"
+    },
+    {
+      "class": "tv",
+      "label": "Tv"
+    },
+    {
+      "class": "wide",
+      "label": "Wide"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a picture-and-text band such as a product hero, feature explainer or intro section with optional FAQ-style accordion items.",
+  "reuseGuidance": "Reuse for any image-beside-text section and combine variant classes for layout (half, wide, intro) and band colour (light, gradient, orange) instead of creating a new block."
+}

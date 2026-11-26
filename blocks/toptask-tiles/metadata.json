@@ -1,0 +1,11 @@
+{
+  "variantName": "toptask-tiles",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Horizontal row of compact linked tiles under the hero, each with an icon-font glyph and a label.",
+  "contentPattern": "One row per tile: cell 1 the glyph as icon notation (e.g. :product-tv:), cell 2 <p><a href>label</a></p> plus an optional <p> sub text (hidden); the whole tile becomes the link.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use directly under the hero to give quick links to the most common visitor tasks.",
+  "reuseGuidance": "Reuse for any row of icon quick-link tiles instead of a generic cards block."
+}

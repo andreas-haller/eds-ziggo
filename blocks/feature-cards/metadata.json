@@ -1,0 +1,44 @@
+{
+  "variantName": "feature-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A section head (light kicker over a bold title) above a horizontally scrolling row of picture cards with title, text and an arrow link, with prev/next chevron buttons and an optional closing CTA button.",
+  "contentPattern": "Leading rows without an image hold the kicker and title headings (a link paragraph there becomes a head CTA); each card row has a picture in cell 1 and an h3 title, text paragraph and link paragraph in cell 2; rows after the last card hold the CTA paragraph (em link = outline button).",
+  "options": [
+    {
+      "class": "channels",
+      "label": "Channels"
+    },
+    {
+      "class": "four",
+      "label": "Four"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "groups",
+      "label": "Groups"
+    },
+    {
+      "class": "square",
+      "label": "Square"
+    },
+    {
+      "class": "tiles",
+      "label": "Tiles"
+    },
+    {
+      "class": "trio",
+      "label": "Trio"
+    },
+    {
+      "class": "usp",
+      "label": "USP"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to present a set of linked feature or USP cards with images under a section heading, scrolling as a carousel when they do not fit.",
+  "reuseGuidance": "Reuse for any picture-card row with a section head; pick a variant class (square, light, tiles, trio, four, usp, channels) for the card layout rather than creating a new block."
+}

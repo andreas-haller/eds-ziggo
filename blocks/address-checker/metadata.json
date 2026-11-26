@@ -1,0 +1,24 @@
+{
+  "variantName": "address-checker",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Lead column pulled over the hero band with category pill links, the page title and a white availability-check card with customer-type switch, postcode/house-number fields, business checkbox and check button.",
+  "contentPattern": "Content-classified: <ul> of links = category pills; <h1> = page title; <h2>/<h3> = card title; <ul> without links = customer-type switch; <ol> = address field labels; <p><em> = missing-address message; <p><strong><a> = business link; <p><strong> (no link) = check button; other <p> = business checkbox label.",
+  "options": [
+    {
+      "class": "product",
+      "label": "Product page"
+    },
+    {
+      "class": "inline",
+      "label": "Inline"
+    },
+    {
+      "class": "spaced",
+      "label": "Spaced"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use directly under the hero on program and landing pages to let visitors check product availability at their address.",
+  "reuseGuidance": "Reuse wherever an address availability check is needed; use inline when it sits in the page flow rather than over a hero."
+}

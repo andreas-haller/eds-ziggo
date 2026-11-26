@@ -1,0 +1,36 @@
+{
+  "variantName": "streaming-service-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A section title above a row of streaming service cards with a logo or step image, name, text and link, optionally topped by a dark or orange promo ribbon.",
+  "contentPattern": "A one-cell row with a heading (+ optional paragraphs) is the section head; each two-cell row is a card: cell 1 the picture (service logo or step image), cell 2 the name heading, text paragraphs and a link paragraph. An italic-only paragraph in cell 2 becomes the promo ribbon (bold italic = orange).",
+  "options": [
+    {
+      "class": "center",
+      "label": "Center"
+    },
+    {
+      "class": "first",
+      "label": "First"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "loose",
+      "label": "Loose"
+    },
+    {
+      "class": "offers",
+      "label": "Offers"
+    },
+    {
+      "class": "steps",
+      "label": "Steps"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to present streaming services, app offers or how-to steps as a row of logo cards with links.",
+  "reuseGuidance": "Reuse for any service or offer card row; use offers for ribbon/promo cards and steps for how-to sequences."
+}

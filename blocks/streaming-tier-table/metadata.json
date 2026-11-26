@@ -1,0 +1,24 @@
+{
+  "variantName": "streaming-tier-table",
+  "baseBlock": "table",
+  "canonicalModel": "table",
+  "visualCharacteristics": "Subscription tiers shown side by side as white cards with brand line, tier name, feature label/value pairs, price and order button; on mobile the tabs variant shows one tier at a time behind tab buttons.",
+  "contentPattern": "A comparison table with one column per tier: a one-cell heading row for the title, a name row (brand line or logo plus bold tier name), one feature row per attribute (label, line break, bold value, optional :information-circle:), and an order row with the price paragraph and a bold CTA link. With tabs, the first multi-cell row holds the tab labels.",
+  "options": [
+    {
+      "class": "center",
+      "label": "Center"
+    },
+    {
+      "class": "tabs",
+      "label": "Tabs"
+    },
+    {
+      "class": "xl",
+      "label": "XL"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to compare subscription tiers or plans side by side with features, prices and order buttons.",
+  "reuseGuidance": "Reuse for any plan/tier comparison by adding one column per tier; add tabs for long tier lists on mobile."
+}

@@ -1,0 +1,16 @@
+{
+  "variantName": "bundle-builder",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Multi-step package configurator with selectable product, add-on, promo and hardware cards in the content column, a sticky order basket on the side and a fixed order bar at the bottom on small screens.",
+  "contentPattern": "One row per item: cell 1 names the item kind (step, usp, benefit, product, addon, addon-band, legend, note, teaser, promo, card, service, basket, basket-item, basket-total, basket-cta; add \"selected\" for the preselected card), cell 2 (and 3) hold its headings, images, lists and links; consecutive same-kind rows form one group.",
+  "options": [
+    {
+      "class": "product",
+      "label": "Product page"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use on program and product pages where the visitor configures a TV/internet package and sees a running order basket.",
+  "reuseGuidance": "Reuse for any package configurator by authoring kind-labelled rows; do not split steps or basket into separate blocks."
+}

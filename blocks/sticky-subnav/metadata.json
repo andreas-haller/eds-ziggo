@@ -1,0 +1,16 @@
+{
+  "variantName": "sticky-subnav",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "A horizontal in-page anchor bar under the hero that becomes fixed at the top when scrolled past and underlines the link of the section in view; below 768px it collapses to a label with a chevron toggle.",
+  "contentPattern": "One cell: a paragraph with the mobile \"navigate to\" label and a ul of links to #ids, where each id matches a section carrying a Section Metadata id.",
+  "options": [
+    {
+      "class": "start",
+      "label": "Start aligned"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use on long pages to give visitors a sticky jump menu to the main sections of the page.",
+  "reuseGuidance": "Reuse on any long page with anchor-targeted sections; add the start class to align the links to the left inside the padded container."
+}

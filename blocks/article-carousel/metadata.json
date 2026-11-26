@@ -1,0 +1,11 @@
+{
+  "variantName": "article-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": "A compact carousel of small article cards, each a picture with a short title, sliding one card per step with prev/next chevron buttons.",
+  "contentPattern": "One row per card: cell 1 holds the picture, cell 2 holds an h3 whose link is the card title and target (the whole card becomes the link); optional extra paragraphs become card text.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use to list a handful of linked articles or promotions (such as Priority giveaways) as small image cards in a slider.",
+  "reuseGuidance": "Reuse for any row of small linked teaser cards that should slide; use media-carousel for large full-image slides."
+}

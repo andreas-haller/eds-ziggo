@@ -1,0 +1,16 @@
+{
+  "variantName": "contact-band",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Orange \"questions?\" band with a heading and a white box (or, in the cards variant, separate white cards) listing contact channels with icon, name, text and link.",
+  "contentPattern": "Head row with only headings: <h2> title and optional <h3> sub line; then one row per channel: icon image, <h4> channel name, <p> text and <p><a> link (link label may start with a :glyph: icon).",
+  "options": [
+    {
+      "class": "cards",
+      "label": "Cards"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use near the bottom of a page to offer contact channels such as phone, chat and shop.",
+  "reuseGuidance": "Reuse for any contact-options band; add the cards class for separate channel cards instead of one combined box."
+}

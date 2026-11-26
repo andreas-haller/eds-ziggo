@@ -1,0 +1,11 @@
+{
+  "variantName": "channel-overview",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Searchable channel list with search field, Filter/Sorteren/Print controls and sliding filter and sort panels above rows of channel logos, numbers, names, packages and option icons.",
+  "contentPattern": "Rows are classified by content: channel rows (logo picture | number + name paragraphs | package link list | option pictures), a filter row (package choices list | option choices list | reset + apply), a sort row (head paragraph + sort choices list) and a control row (search placeholder | action list | result heading).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for an interactive, client-side searchable, filterable and sortable overview of TV channels.",
+  "reuseGuidance": "Reuse only for channel or similar catalogue listings that need search, filter and sort; for static lists use a table or cards."
+}

@@ -1,0 +1,24 @@
+{
+  "variantName": "identification-bar",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Personalisation strip asking \"Heb je al internet van Ziggo?\" with Ja / Nee answer buttons; hidden by default, or a visible dark strip with outline or pill buttons in the link variants.",
+  "contentPattern": "Positional rows: row 1 the question (<p>), each following row one answer (<p>, optionally a link button).",
+  "options": [
+    {
+      "class": "link",
+      "label": "Link (visible strip)"
+    },
+    {
+      "class": "lg",
+      "label": "Large buttons"
+    },
+    {
+      "class": "pills",
+      "label": "Pills"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use under the hero to ask visitors whether they are existing customers and route them to the matching content.",
+  "reuseGuidance": "Reuse for any short question-with-answer-buttons strip; add link to show it, since the default stays hidden."
+}

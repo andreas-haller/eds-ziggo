@@ -1,0 +1,92 @@
+{
+  "variantName": "hero-band",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": "Full-width campaign band with a background photo (separate mobile and desktop crops), a bold headline, sub line, dark and outline CTA buttons and a small legal line.",
+  "contentPattern": "Content-classified, row order free: first picture = mobile image, second = desktop background; h1/h2 (or first paragraph) = headline; next paragraph = sub line; <strong><a> = dark button, <em><a> = outline button; paragraphs after the CTAs = legal line. Article variant: a line above the h1 becomes an eyebrow.",
+  "options": [
+    {
+      "class": "article",
+      "label": "Article"
+    },
+    {
+      "class": "banner",
+      "label": "Banner"
+    },
+    {
+      "class": "channel",
+      "label": "Channel"
+    },
+    {
+      "class": "program",
+      "label": "Program"
+    },
+    {
+      "class": "listing",
+      "label": "Listing"
+    },
+    {
+      "class": "compact",
+      "label": "Compact"
+    },
+    {
+      "class": "auto",
+      "label": "Auto height"
+    },
+    {
+      "class": "short",
+      "label": "Short"
+    },
+    {
+      "class": "art",
+      "label": "Art (product picture)"
+    },
+    {
+      "class": "art-15",
+      "label": "Art 15 crop"
+    },
+    {
+      "class": "art-19",
+      "label": "Art 19 crop"
+    },
+    {
+      "class": "boxed",
+      "label": "Boxed"
+    },
+    {
+      "class": "lead",
+      "label": "Lead"
+    },
+    {
+      "class": "fit",
+      "label": "Fit"
+    },
+    {
+      "class": "natural",
+      "label": "Natural ratio"
+    },
+    {
+      "class": "xl",
+      "label": "XL title"
+    },
+    {
+      "class": "narrow",
+      "label": "Narrow"
+    },
+    {
+      "class": "spaced",
+      "label": "Spaced"
+    },
+    {
+      "class": "lifted",
+      "label": "Lifted"
+    },
+    {
+      "class": "raised",
+      "label": "Raised"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use as the opening campaign or page-title band at the top of landing, program, channel, listing and article pages.",
+  "reuseGuidance": "Reuse for any top-of-page photo band with headline and CTAs, picking the variant class that matches the page archetype instead of creating a new hero."
+}

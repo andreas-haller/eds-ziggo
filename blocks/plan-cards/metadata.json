@@ -1,0 +1,24 @@
+{
+  "variantName": "plan-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A section title over a grid of white, shadowed plan cards on the brand gradient band, each with an optional ribbon, plan name, icon USP list, price and primary/outline CTA buttons.",
+  "contentPattern": "A head row with the h2 section title, then one row per plan: optional em-only ribbon paragraph, h3 plan name, a ul of USPs (each starting with an :icon:, :close: = not included), optional price/promo paragraphs, an optional picture (media variant), and CTA paragraphs (strong link = primary, em link = outline).",
+  "options": [
+    {
+      "class": "internet",
+      "label": "Internet"
+    },
+    {
+      "class": "media",
+      "label": "Media"
+    },
+    {
+      "class": "tv",
+      "label": "TV"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to compare subscription plans or packages side by side with their features, price and order buttons.",
+  "reuseGuidance": "Reuse for any plan or package comparison; choose tv, internet or media for the matching card layout instead of building a new pricing block."
+}

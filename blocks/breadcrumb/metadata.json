@@ -1,0 +1,28 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "breadcrumbs",
+  "visualCharacteristics": "A small horizontal breadcrumb trail starting with a home glyph, followed by linked ancestor pages and the unlinked current page.",
+  "contentPattern": "One cell with a list, one item per level: the first item is the home link (its text becomes the accessible name), linked items are ancestors and the unlinked last item is the current page.",
+  "options": [
+    {
+      "class": "close",
+      "label": "Close"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "tall",
+      "label": "Tall"
+    },
+    {
+      "class": "xxl",
+      "label": "XXL"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use under the hero or sub navigation to show where the page sits in the site hierarchy.",
+  "reuseGuidance": "Reuse on every content page that needs a trail; pick light, tall, close or xxl to match the band colour and spacing rather than styling a new block."
+}

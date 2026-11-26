@@ -1,0 +1,20 @@
+{
+  "variantName": "interactions",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Contact tabs shown as a bar above the page on small screens and as fixed side tabs from 1024px whose panel slides out on hover, with a status orb for availability.",
+  "contentPattern": "One row per tab: cell 1 the icon notation (e.g. :product-phone:), cell 2 the slide-out panel (<p><strong>title</strong></p> + <p>status line</p>), cell 3 the short tab label, optional cell 4 a link as tab target. Author it in the first section.",
+  "options": [
+    {
+      "class": "online",
+      "label": "Online (chat available)"
+    },
+    {
+      "class": "off",
+      "label": "Off (hidden)"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use once per page in the first section to provide persistent call and chat contact tabs.",
+  "reuseGuidance": "Reuse the same block on every page that needs contact tabs; use off on pages where the source shows no contact bar."
+}
