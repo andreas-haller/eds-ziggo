@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/randapparatuur/details/",
+    "endpoint": "https://main--eds-ziggo--andreas-haller.aem.live/data/randapparatuur-products.json",
+    "arrayKey": "data",
+    "pathKey": "path",
+    "template": "/templates/randapparatuur/product.html"
+  },
+  {
+    "path": "/randapparatuur",
+    "endpoint": "https://main--eds-ziggo--andreas-haller.aem.live/data/randapparatuur-products.json",
+    "template": "/templates/randapparatuur/overview.html"
+  }
+]

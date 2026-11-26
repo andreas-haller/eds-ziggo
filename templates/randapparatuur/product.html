@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{title}}{{#subtitle}} {{subtitle}}{{/subtitle}} | Ziggo Randapparatuur</title>
+<meta name="description" content="{{#brand}}{{brand}} {{/brand}}{{title}}{{#subtitle}} ({{subtitle}}){{/subtitle}} voor {{price}} in de Ziggo Webshop.">
+<meta property="og:image" content="{{image}}">
+</head>
+<body>
+<header></header>
+<main>
+<div>
+<div class="product-detail">
+<div><div>image</div><div><p><img src="{{image}}" alt="{{#brand}}{{brand}} {{/brand}}{{title}}"></p></div></div>
+{{#brand}}<div><div>brand</div><div><p>{{brand}}</p></div></div>{{/brand}}
+<div><div>title</div><div><h1>{{title}}</h1></div></div>
+{{#subtitle}}<div><div>subtitle</div><div><p>{{subtitle}}</p></div></div>{{/subtitle}}
+<div><div>price</div><div><p>{{price}}</p></div></div>
+<div><div>stock</div><div><p>{{#available}}{{stock}}{{/available}}{{^available}}<em>{{stock}}</em>{{/available}}</p></div></div>
+<div><div>sku</div><div><p>{{sku}}</p></div></div>
+<div><div>description</div><div>{{{description}}}</div></div>
+{{#specs}}<div><div>specs</div><div><h2>Specificaties</h2>{{{specs}}}</div></div>{{/specs}}
+{{#note}}<div><div>note</div><div>{{{note}}}</div></div>{{/note}}
+{{#certified}}<div><div>certified</div><div><p>:ziggo-geschikt: Ziggo Geschikt</p></div></div>{{/certified}}
+{{#available}}<div><div>order</div><div><p><strong><a href="{{source}}">Bestel in de Ziggo Webshop</a></strong></p></div></div>{{/available}}
+<div><div>back</div><div><p><em><a href="/randapparatuur">Verder winkelen</a></em></p></div></div>
+</div>
+</div>
+<div>
+<div class="metadata">
+<div><div>template</div><div>product</div></div>
+<div><div>sku</div><div>{{sku}}</div></div>
+</div>
+</div>
+</main>
+<footer></footer>
+</body>
+</html>

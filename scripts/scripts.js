@@ -154,6 +154,7 @@ const SVG_ICONS = new Set([
   'social-linkedin',
   'social-x',
   'social-youtube',
+  'ziggo-geschikt',
   'ziggo-logo-orange-v1',
 ]);
 
