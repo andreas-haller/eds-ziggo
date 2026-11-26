@@ -1,7 +1,6 @@
 import {
   loadHeader,
   loadFooter,
-  decorateIcons,
   decorateSections,
   decorateBlocks,
   decorateTemplateAndTheme,
@@ -142,13 +141,50 @@ function decorateButtons(main) {
   });
 }
 
+/*
+ * Icons with an SVG file in /icons/. Every other :name: icon is drawn by the blocks with the
+ * ziggo-ui-icon-v22 font (span.icon -> .zi glyph), so requesting /icons/<name>.svg for it only
+ * produces a 404. Add the name here when you add an SVG to /icons/.
+ */
+const SVG_ICONS = new Set([
+  'check',
+  'search',
+  'social-community',
+  'social-facebook',
+  'social-linkedin',
+  'social-x',
+  'social-youtube',
+  'ziggo-logo-orange-v1',
+]);
+
+/**
+ * Same as decorateIcons() from aem.js, but only for SVG-backed icons; font icons stay an empty
+ * span.icon for the blocks to turn into glyphs.
+ * @param {Element} element The container element
+ */
+function decorateSvgIcons(element) {
+  element.querySelectorAll('span.icon').forEach((span) => {
+    const cls = [...span.classList].find((c) => c.startsWith('icon-'));
+    const name = cls ? cls.slice(5) : '';
+    if (span.hasChildNodes() || !SVG_ICONS.has(name)) return;
+    const img = document.createElement('img');
+    img.dataset.iconName = name;
+    img.src = `${window.hlx.codeBasePath}/icons/${name}.svg`;
+    img.alt = '';
+    img.loading = 'lazy';
+    img.width = 16;
+    img.height = 16;
+    span.append(img);
+  });
+}
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
-  decorateIcons(main);
+  decorateSvgIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
