@@ -37,18 +37,21 @@ const isEm = (n) => n.tagName === 'P' && !!n.querySelector('em')
 
 function pills(ul) {
   ul.classList.add('catlinks-list');
-  const here = window.location.pathname.replace(/\/$/, '') || '/';
+  const norm = (p) => p.replace(/\/$/, '') || '/';
+  const here = norm(window.location.pathname);
+  // the workspace preview serves pages under /content/; authored links omit it
+  const herePage = norm(here.replace(/^\/content(?=\/)/, ''));
   [...ul.children].forEach((li) => {
     li.classList.add('catlinks-item');
     const a = li.querySelector('a');
     if (!a) return;
     let path = '';
     try {
-      path = new URL(a.getAttribute('href'), window.location.href).pathname.replace(/\/$/, '') || '/';
+      path = norm(new URL(a.getAttribute('href'), window.location.href).pathname);
     } catch {
       return;
     }
-    if (path === here) {
+    if (path === here || path === herePage) {
       li.classList.add('is-active');
       a.setAttribute('aria-current', 'page');
     }

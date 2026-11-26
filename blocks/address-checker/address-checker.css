@@ -153,6 +153,10 @@
   font: inherit;
 }
 
+.address-checker .addr-field-ext .addr-input {
+  padding-right: 12px;
+}
+
 .address-checker .check {
   position: relative;
   display: flex;
@@ -241,8 +245,9 @@
     margin-bottom: 23px;
   }
 
+  /* 162px fields when the card is wide enough; shrink (never overflow) when it is not */
   .address-checker .addr {
-    grid-template-columns: 162px 162px 1fr;
+    grid-template-columns: minmax(0, 162px) minmax(0, 162px) 1fr;
     column-gap: 8.5px;
     margin-top: 25px;
   }
